@@ -34,7 +34,7 @@ export default function Home() {
         style={{
           position: "fixed",
           inset: 0,
-          backgroundColor: "rgba(10, 18, 22, 0.62)",
+          backgroundColor: "rgba(10, 18, 22, 0.38)",
           zIndex: 1,
         }}
       />
@@ -164,6 +164,8 @@ export default function Home() {
               websiteLabel="Gå til Kims hjemmeside"
               websiteHref="#"
               initials="KB"
+              portraitSrc="/manus-storage/kim-bondo-portrait-scaled_f5d23440.webp"
+              portraitAlt="Kim Bondo – Bedemand"
             />
           </div>
         </div>
@@ -213,6 +215,8 @@ interface DirectorColumnProps {
   websiteLabel: string;
   websiteHref: string;
   initials: string;
+  portraitSrc?: string;
+  portraitAlt?: string;
 }
 
 function DirectorColumn({
@@ -226,6 +230,8 @@ function DirectorColumn({
   websiteLabel,
   websiteHref,
   initials,
+  portraitSrc,
+  portraitAlt,
 }: DirectorColumnProps) {
   return (
     <div
@@ -238,7 +244,7 @@ function DirectorColumn({
         flexDirection: "column",
       }}
     >
-      {/* Portrait placeholder */}
+      {/* Portrait */}
       <div
         style={{
           width: "100%",
@@ -246,35 +252,52 @@ function DirectorColumn({
           maxHeight: "340px",
           backgroundColor: "#E0DDD8",
           marginBottom: "28px",
+          overflow: "hidden",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
         }}
       >
-        <span
-          style={{
-            fontFamily: "'Lora', serif",
-            fontSize: "52px",
-            fontWeight: 600,
-            color: "#A8B8A1",
-            letterSpacing: "0.04em",
-          }}
-        >
-          {initials}
-        </span>
-        <span
-          style={{
-            fontFamily: "'Open Sans', sans-serif",
-            fontSize: "11px",
-            color: "#A8B8A1",
-            marginTop: "10px",
-            letterSpacing: "0.1em",
-            textTransform: "uppercase",
-          }}
-        >
-          Portræt følger
-        </span>
+        {portraitSrc ? (
+          <img
+            src={portraitSrc}
+            alt={portraitAlt || name}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              objectPosition: "center top",
+              display: "block",
+            }}
+          />
+        ) : (
+          <>
+            <span
+              style={{
+                fontFamily: "'Lora', serif",
+                fontSize: "52px",
+                fontWeight: 600,
+                color: "#A8B8A1",
+                letterSpacing: "0.04em",
+              }}
+            >
+              {initials}
+            </span>
+            <span
+              style={{
+                fontFamily: "'Open Sans', sans-serif",
+                fontSize: "11px",
+                color: "#A8B8A1",
+                marginTop: "10px",
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+              }}
+            >
+              Portræt følger
+            </span>
+          </>
+        )}
       </div>
 
       {/* Name & Title */}
