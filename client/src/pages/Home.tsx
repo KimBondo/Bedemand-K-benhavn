@@ -14,31 +14,10 @@ export default function Home() {
       style={{
         position: "relative",
         minHeight: "100vh",
-        backgroundColor: "#1a2428",
+        backgroundColor: "#1a3a6b",
       }}
     >
-      {/* ─── SCROLLING BACKGROUND IMAGE ──────────────────────────────────── */}
-      <div
-        style={{
-          position: "absolute",
-          inset: 0,
-          backgroundImage: "url('/manus-storage/hero-landscape_26c60fba.jpeg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center 40%",
-          backgroundRepeat: "no-repeat",
-          backgroundAttachment: "scroll",
-          zIndex: 0,
-        }}
-      />
-      {/* Dark overlay over the entire page */}
-      <div
-        style={{
-          position: "absolute",
-          inset: 0,
-          backgroundColor: "rgba(10, 18, 22, 0.38)",
-          zIndex: 1,
-        }}
-      />
+      {/* ─── SOLID BLUE BACKGROUND ───────────────────────────────────────── */}
 
       {/* ─── SCROLLABLE CONTENT ──────────────────────────────────────────── */}
       <div style={{ position: "relative", zIndex: 2 }}>
@@ -167,7 +146,7 @@ export default function Home() {
               websiteLabel="Gå til Kims hjemmeside"
               websiteHref="http://bedemandkøbenhavn.dk"
               initials="KB"
-              portraitSrc="/manus-storage/kim-bondo-portrait-scaled_f5d23440.webp"
+              portraitSrc="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
               portraitAlt="Kim Bondo – Bedemand"
             />
           </div>
