@@ -17,22 +17,23 @@ export default function Home() {
         backgroundColor: "#1a2428",
       }}
     >
-      {/* ─── FIXED BACKGROUND IMAGE ──────────────────────────────────────── */}
+      {/* ─── SCROLLING BACKGROUND IMAGE ──────────────────────────────────── */}
       <div
         style={{
-          position: "fixed",
+          position: "absolute",
           inset: 0,
           backgroundImage: "url('/manus-storage/hero-landscape_26c60fba.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center 40%",
           backgroundRepeat: "no-repeat",
+          backgroundAttachment: "scroll",
           zIndex: 0,
         }}
       />
       {/* Dark overlay over the entire page */}
       <div
         style={{
-          position: "fixed",
+          position: "absolute",
           inset: 0,
           backgroundColor: "rgba(10, 18, 22, 0.38)",
           zIndex: 1,
