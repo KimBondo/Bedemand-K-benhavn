@@ -152,6 +152,8 @@ export default function Home() {
               websiteLabel="Gå til Maries hjemmeside"
               websiteHref="#"
               initials="MT"
+              portraitSrc="/manus-storage/marie-thjellesen-portrait-scaled_5fd89c8e.webp"
+              portraitAlt="Marie Thjellesen – Bedemand"
             />
             <DirectorColumn
               name="Kim Bondo"
