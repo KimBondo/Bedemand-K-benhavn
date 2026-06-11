@@ -151,7 +151,7 @@ export default function Home() {
               phoneLink="tel:29296689"
               callLabel="Ring direkte til Marie"
               websiteLabel="Gå til Maries hjemmeside"
-              websiteHref="#"
+              websiteHref="http://mariesbegravelser.dk"
               initials="MT"
               portraitSrc="/manus-storage/marie-thjellesen-portrait-scaled_5fd89c8e.webp"
               portraitAlt="Marie Thjellesen – Bedemand"
@@ -165,7 +165,7 @@ export default function Home() {
               phoneLink="tel:22211437"
               callLabel="Ring direkte til Kim"
               websiteLabel="Gå til Kims hjemmeside"
-              websiteHref="#"
+              websiteHref="http://bedemandkøbenhavn.dk"
               initials="KB"
               portraitSrc="/manus-storage/kim-bondo-portrait-scaled_f5d23440.webp"
               portraitAlt="Kim Bondo – Bedemand"
@@ -381,7 +381,7 @@ function DirectorColumn({
         <a href={phoneLink} className="btn-primary">
           {callLabel}
         </a>
-        <a href={websiteHref} className="btn-secondary">
+        <a href={websiteHref} className="btn-secondary" target="_blank" rel="noopener noreferrer">
           {websiteLabel}
         </a>
       </div>
