@@ -1,53 +1,51 @@
 /**
  * Bedemand København — Landing Page
  * Design: Nordic Quietism
- * Palette: #F9F8F6 bg | #2F3E46 text | #84A98C CTA | #DDD8D0 divider
- * Fonts: Lora (headings) + Open Sans (body)
- * Layout: 100vh Hero → 50/50 Distribution Portal
+ * Layout: Hero landscape fills the entire viewport as a fixed background.
+ *         A dark overlay sits on top.
+ *         The header, welcome text, and distribution portal all live
+ *         inside a single scrollable column over that background.
  * Interaction policy: NO animations on load. ONE permitted interaction: 200ms button hover.
  */
 
 export default function Home() {
   return (
-    <div style={{ backgroundColor: "#F9F8F6", minHeight: "100vh" }}>
-      {/* ─── SECTION 1: HERO ─────────────────────────────────────────────── */}
-      <section
+    <div
+      style={{
+        position: "relative",
+        minHeight: "100vh",
+        backgroundColor: "#1a2428",
+      }}
+    >
+      {/* ─── FIXED BACKGROUND IMAGE ──────────────────────────────────────── */}
+      <div
         style={{
-          position: "relative",
-          width: "100%",
-          height: "100vh",
-          minHeight: "560px",
-          overflow: "hidden",
-          display: "flex",
-          flexDirection: "column",
+          position: "fixed",
+          inset: 0,
+          backgroundImage: "url('/manus-storage/hero-landscape_26c60fba.jpeg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center 40%",
+          backgroundRepeat: "no-repeat",
+          zIndex: 0,
         }}
-      >
-        {/* Background image */}
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            backgroundImage: "url('/manus-storage/hero-landscape_26c60fba.jpeg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center 40%",
-            backgroundRepeat: "no-repeat",
-          }}
-        />
-        {/* Overlay */}
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            backgroundColor: "rgba(0,0,0,0.38)",
-          }}
-        />
+      />
+      {/* Dark overlay over the entire page */}
+      <div
+        style={{
+          position: "fixed",
+          inset: 0,
+          backgroundColor: "rgba(10, 18, 22, 0.62)",
+          zIndex: 1,
+        }}
+      />
 
-        {/* Header / Nav */}
+      {/* ─── SCROLLABLE CONTENT ──────────────────────────────────────────── */}
+      <div style={{ position: "relative", zIndex: 2 }}>
+
+        {/* ── HEADER ── */}
         <header
           style={{
-            position: "relative",
-            zIndex: 10,
-            padding: "32px 48px",
+            padding: "36px 48px",
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
@@ -57,7 +55,7 @@ export default function Home() {
             style={{
               fontFamily: "'Lora', serif",
               fontWeight: 600,
-              fontSize: "clamp(18px, 2.5vw, 24px)",
+              fontSize: "clamp(17px, 2vw, 22px)",
               color: "#ffffff",
               letterSpacing: "0.04em",
             }}
@@ -66,30 +64,22 @@ export default function Home() {
           </span>
         </header>
 
-        {/* Hero text — centered */}
+        {/* ── HERO TEXT ── */}
         <div
           style={{
-            position: "relative",
-            zIndex: 10,
-            flex: 1,
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
             textAlign: "center",
-            padding: "0 24px",
+            padding: "48px 24px 72px",
           }}
         >
           <h1
             style={{
               fontFamily: "'Lora', serif",
               fontWeight: 600,
-              fontSize: "clamp(28px, 5vw, 52px)",
+              fontSize: "clamp(26px, 4.5vw, 50px)",
               color: "#ffffff",
               letterSpacing: "0.02em",
               lineHeight: 1.25,
-              marginBottom: "24px",
-              maxWidth: "800px",
+              marginBottom: "20px",
             }}
           >
             Velkommen til Bedemand København
@@ -98,104 +88,59 @@ export default function Home() {
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: 400,
-              fontSize: "clamp(16px, 2vw, 22px)",
-              color: "rgba(255,255,255,0.90)",
+              fontSize: "clamp(15px, 1.8vw, 20px)",
+              color: "rgba(255,255,255,0.85)",
               lineHeight: 1.65,
-              maxWidth: "640px",
+              maxWidth: "580px",
+              margin: "0 auto",
             }}
           >
             To selvstændige bedemænd med ét fælles mål: At skabe en værdig og rolig afsked.
           </p>
         </div>
 
-        {/* Scroll indicator */}
+        {/* ── DISTRIBUTION PORTAL ── */}
         <div
           style={{
-            position: "relative",
-            zIndex: 10,
-            textAlign: "center",
-            paddingBottom: "40px",
-          }}
-        >
-          <span
-            style={{
-              display: "inline-block",
-              width: "1px",
-              height: "48px",
-              backgroundColor: "rgba(255,255,255,0.5)",
-            }}
-          />
-        </div>
-      </section>
-
-      {/* ─── SECTION 2: DISTRIBUTION PORTAL ─────────────────────────────── */}
-      <section
-        style={{
-          backgroundColor: "#F9F8F6",
-          padding: "80px 0",
-        }}
-      >
-        <div
-          style={{
-            maxWidth: "1200px",
+            maxWidth: "1160px",
             margin: "0 auto",
-            padding: "0 24px",
+            padding: "0 24px 80px",
           }}
         >
-          {/* Section intro */}
-          <div
-            style={{
-              textAlign: "center",
-              marginBottom: "72px",
-            }}
-          >
+          {/* Section label */}
+          <div style={{ textAlign: "center", marginBottom: "48px" }}>
             <p
               style={{
                 fontFamily: "'Open Sans', sans-serif",
-                fontSize: "13px",
+                fontSize: "12px",
                 fontWeight: 600,
-                letterSpacing: "0.12em",
+                letterSpacing: "0.14em",
                 textTransform: "uppercase",
                 color: "#84A98C",
-                marginBottom: "16px",
+                marginBottom: "14px",
               }}
             >
               Vælg din bedemand
             </p>
-            <h2
-              style={{
-                fontFamily: "'Lora', serif",
-                fontWeight: 600,
-                fontSize: "clamp(24px, 3vw, 36px)",
-                color: "#2F3E46",
-                letterSpacing: "0.02em",
-                lineHeight: 1.3,
-                marginBottom: "20px",
-              }}
-            >
-              To bedemænd. Ét fælles engagement.
-            </h2>
             <div
               style={{
-                width: "48px",
-                height: "2px",
-                backgroundColor: "#84A98C",
+                width: "40px",
+                height: "1px",
+                backgroundColor: "rgba(255,255,255,0.3)",
                 margin: "0 auto",
               }}
             />
           </div>
 
-          {/* 50/50 Columns */}
+          {/* 50/50 columns */}
           <div
             style={{
               display: "grid",
               gridTemplateColumns: "1fr 1fr",
-              gap: "1px",
-              backgroundColor: "#DDD8D0",
+              gap: "24px",
             }}
             className="portal-grid"
           >
-            {/* ── Column 1: Marie Thjellesen ── */}
             <DirectorColumn
               name="Marie Thjellesen"
               title="Bedemand"
@@ -208,8 +153,6 @@ export default function Home() {
               websiteHref="#"
               initials="MT"
             />
-
-            {/* ── Column 2: Kim Bondo ── */}
             <DirectorColumn
               name="Kim Bondo"
               title="Bedemand"
@@ -224,29 +167,29 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
 
-      {/* ─── FOOTER ──────────────────────────────────────────────────────── */}
-      <footer
-        style={{
-          backgroundColor: "#2F3E46",
-          padding: "40px 24px",
-          textAlign: "center",
-        }}
-      >
-        <p
+        {/* ── FOOTER ── */}
+        <footer
           style={{
-            fontFamily: "'Open Sans', sans-serif",
-            fontSize: "14px",
-            color: "rgba(255,255,255,0.55)",
-            lineHeight: 1.75,
+            borderTop: "1px solid rgba(255,255,255,0.12)",
+            padding: "32px 24px",
+            textAlign: "center",
           }}
         >
-          © {new Date().getFullYear()} Bedemand København &nbsp;·&nbsp; To selvstændige bedemænd
-        </p>
-      </footer>
+          <p
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontSize: "13px",
+              color: "rgba(255,255,255,0.40)",
+              lineHeight: 1.75,
+            }}
+          >
+            © {new Date().getFullYear()} Bedemand København &nbsp;·&nbsp; To selvstændige bedemænd
+          </p>
+        </footer>
+      </div>
 
-      {/* Responsive styles */}
+      {/* Responsive */}
       <style>{`
         @media (max-width: 768px) {
           .portal-grid {
@@ -287,8 +230,10 @@ function DirectorColumn({
   return (
     <div
       style={{
-        backgroundColor: "#F9F8F6",
-        padding: "56px 48px",
+        backgroundColor: "rgba(249, 248, 246, 0.92)",
+        backdropFilter: "blur(8px)",
+        WebkitBackdropFilter: "blur(8px)",
+        padding: "48px 40px",
         display: "flex",
         flexDirection: "column",
       }}
@@ -298,20 +243,19 @@ function DirectorColumn({
         style={{
           width: "100%",
           aspectRatio: "3/4",
-          maxHeight: "380px",
-          backgroundColor: "#E8E4DF",
-          marginBottom: "32px",
+          maxHeight: "340px",
+          backgroundColor: "#E0DDD8",
+          marginBottom: "28px",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          overflow: "hidden",
         }}
       >
         <span
           style={{
             fontFamily: "'Lora', serif",
-            fontSize: "56px",
+            fontSize: "52px",
             fontWeight: 600,
             color: "#A8B8A1",
             letterSpacing: "0.04em",
@@ -322,10 +266,10 @@ function DirectorColumn({
         <span
           style={{
             fontFamily: "'Open Sans', sans-serif",
-            fontSize: "12px",
+            fontSize: "11px",
             color: "#A8B8A1",
-            marginTop: "12px",
-            letterSpacing: "0.08em",
+            marginTop: "10px",
+            letterSpacing: "0.1em",
             textTransform: "uppercase",
           }}
         >
@@ -338,11 +282,11 @@ function DirectorColumn({
         style={{
           fontFamily: "'Lora', serif",
           fontWeight: 600,
-          fontSize: "clamp(20px, 2.5vw, 26px)",
+          fontSize: "clamp(19px, 2vw, 24px)",
           color: "#2F3E46",
           letterSpacing: "0.02em",
           lineHeight: 1.3,
-          marginBottom: "8px",
+          marginBottom: "6px",
         }}
       >
         {name}
@@ -350,12 +294,12 @@ function DirectorColumn({
       <p
         style={{
           fontFamily: "'Open Sans', sans-serif",
-          fontSize: "13px",
+          fontSize: "12px",
           fontWeight: 600,
-          letterSpacing: "0.1em",
+          letterSpacing: "0.12em",
           textTransform: "uppercase",
           color: "#84A98C",
-          marginBottom: "28px",
+          marginBottom: "24px",
         }}
       >
         {title}
@@ -365,31 +309,31 @@ function DirectorColumn({
       <p
         style={{
           fontFamily: "'Open Sans', sans-serif",
-          fontSize: "16px",
+          fontSize: "15px",
           lineHeight: 1.75,
           color: "#4A5C63",
-          marginBottom: "36px",
+          marginBottom: "32px",
           flex: 1,
         }}
       >
         {bio}
       </p>
 
-      {/* Contact block — separated by divider */}
+      {/* Contact block */}
       <div
         style={{
           borderTop: "1px solid #DDD8D0",
-          paddingTop: "28px",
-          marginBottom: "32px",
+          paddingTop: "24px",
+          marginBottom: "28px",
         }}
       >
         <p
           style={{
             fontFamily: "'Open Sans', sans-serif",
-            fontSize: "16px",
+            fontSize: "15px",
             fontWeight: 600,
             color: "#2F3E46",
-            marginBottom: "8px",
+            marginBottom: "6px",
           }}
         >
           Tlf: {phone}
@@ -397,7 +341,7 @@ function DirectorColumn({
         <p
           style={{
             fontFamily: "'Open Sans', sans-serif",
-            fontSize: "15px",
+            fontSize: "14px",
             color: "#5C6E74",
             lineHeight: 1.5,
           }}
@@ -407,7 +351,7 @@ function DirectorColumn({
       </div>
 
       {/* CTA Buttons */}
-      <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
         <a href={phoneLink} className="btn-primary">
           {callLabel}
         </a>
