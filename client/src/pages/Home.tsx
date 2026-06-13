@@ -1,5 +1,5 @@
 /**
- * Bedemand København — Landing Page
+ * Bedemand København og Nordsjælland — Landing Page
  * Design: Nordic Quietism
  * Layout: Hero landscape fills the entire viewport as a fixed background.
  *         A dark overlay sits on top.
@@ -40,7 +40,7 @@ export default function Home() {
               letterSpacing: "0.04em",
             }}
           >
-            Bedemand København
+            Bedemand København og Nordsjælland
           </span>
         </header>
 
@@ -62,7 +62,7 @@ export default function Home() {
               marginBottom: "20px",
             }}
           >
-            Velkommen til Bedemand København
+            Velkommen til Bedemand København og Nordsjælland
           </h1>
           <p
             style={{
@@ -168,7 +168,7 @@ export default function Home() {
               lineHeight: 1.75,
             }}
           >
-            © {new Date().getFullYear()} Bedemand København &nbsp;·&nbsp; To selvstændige bedemænd
+            © {new Date().getFullYear()} Bedemand København og Nordsjælland &nbsp;·&nbsp; To selvstændige bedemænd
           </p>
         </footer>
       </div>
