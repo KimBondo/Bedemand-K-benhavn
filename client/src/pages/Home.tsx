@@ -22,27 +22,6 @@ export default function Home() {
       {/* ─── SCROLLABLE CONTENT ──────────────────────────────────────────── */}
       <div style={{ position: "relative", zIndex: 2 }}>
 
-        {/* ── HEADER ── */}
-        <header
-          style={{
-            padding: "36px 48px",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          <span
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(17px, 2vw, 22px)",
-              color: "#ffffff",
-              letterSpacing: "0.04em",
-            }}
-          >
-            Bedemand København og Nordsjælland
-          </span>
-        </header>
 
         {/* ── HERO TEXT ── */}
         <div
@@ -96,7 +75,7 @@ export default function Home() {
                 fontWeight: 600,
                 letterSpacing: "0.14em",
                 textTransform: "uppercase",
-                color: "#84A98C",
+                color: "#ffffff",
                 marginBottom: "14px",
               }}
             >
