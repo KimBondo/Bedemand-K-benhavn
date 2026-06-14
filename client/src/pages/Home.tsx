@@ -123,7 +123,7 @@ export default function Home() {
               phoneLink="tel:22211437"
               callLabel="Ring direkte til Kim"
               websiteLabel="Gå til Kims hjemmeside"
-              websiteHref="http://bedemandkøbenhavn.dk"
+              websiteHref="/kim-bondo"
               initials="KB"
               portraitSrc="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
               portraitAlt="Kim Bondo – Bedemand"
@@ -339,7 +339,7 @@ function DirectorColumn({
         <a href={phoneLink} className="btn-primary">
           {callLabel}
         </a>
-        <a href={websiteHref} className="btn-secondary" target="_blank" rel="noopener noreferrer">
+        <a href={websiteHref} className="btn-secondary" target={websiteHref.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">
           {websiteLabel}
         </a>
       </div>
