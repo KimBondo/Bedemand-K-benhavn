@@ -1,3 +1,5 @@
+import SEO from "@/components/SEO";
+
 /**
  * Kim Bondo – Komplet Prisliste
  * Design: Nordic Quietism — same tokens as KimBondo.tsx
@@ -14,6 +16,11 @@ export default function KimPriser() {
         padding: 0,
       }}
     >
+      <SEO
+        title="Priser – Kim Bondo Bedemand København"
+        description="Gennemsigtige og rimelige priser på begravelse og bisættelse i København og Nordsjælland. Bisættelse fra 20.500 kr., begravelse fra 22.500 kr., afsked uden ceremoni fra 15.500 kr."
+        url="https://bedemandkobenhavn.dk/kim-bondo/priser"
+      />
       {/* ── HEADER ── */}
       <header
         style={{

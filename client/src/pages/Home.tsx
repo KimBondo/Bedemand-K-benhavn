@@ -1,3 +1,5 @@
+import SEO from "@/components/SEO";
+
 /**
  * Bedemand København og Nordsjælland — Landing Page
  * Design: Nordic Quietism
@@ -17,6 +19,11 @@ export default function Home() {
         backgroundColor: "#1a3a6b",
       }}
     >
+      <SEO
+        title="Bedemand København og Nordsjælland"
+        description="To selvstændige bedemænd med ét fælles mål: At skabe en værdig og rolig afsked. Vælg Marie Thjellesen eller Kim Bondo som din personlige bedemand i København og Nordsjælland."
+        url="https://bedemandkobenhavn.dk"
+      />
       {/* ─── SOLID BLUE BACKGROUND ───────────────────────────────────────── */}
 
       {/* ─── SCROLLABLE CONTENT ──────────────────────────────────────────── */}

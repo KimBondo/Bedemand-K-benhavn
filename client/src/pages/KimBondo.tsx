@@ -1,3 +1,6 @@
+import ContactForm from "@/components/ContactForm";
+import SEO from "@/components/SEO";
+
 /**
  * Kim Bondo – Personal Homepage
  * Design: Nordic Quietism — warm off-white (#F9F8F6), charcoal text (#2F3E46),
@@ -16,6 +19,11 @@ export default function KimBondo() {
         padding: 0,
       }}
     >
+      <SEO
+        title="Kim Bondo – Bedemand København og Nordsjælland"
+        description="Kim Bondo er din personlige bedemand i København og Nordsjælland. Dyb omsorg, nærvær og uforstyrrelig ro når livet er sværest. Gennemsigtige priser fra 15.500 kr."
+        url="https://bedemandkobenhavn.dk/kim-bondo"
+      />
       {/* ══════════════════════════════════════════════════════
           SECTION 1: HERO
       ══════════════════════════════════════════════════════ */}
@@ -643,7 +651,50 @@ export default function KimBondo() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
-          SECTION 7: FOOTER & CTA
+          SECTION 7: KONTAKTFORMULAR
+      ══════════════════════════════════════════════════════ */}
+      <section
+        id="kontakt"
+        style={{
+          background: "#F9F8F6",
+          padding: "96px 32px",
+        }}
+      >
+        <div style={{ maxWidth: "640px", margin: "0 auto" }}>
+          <h2
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 600,
+              fontSize: "clamp(22px, 3vw, 34px)",
+              color: "#2F3E46",
+              marginBottom: "16px",
+              textAlign: "center",
+              lineHeight: 1.3,
+            }}
+          >
+            Skriv til Kim
+          </h2>
+          <p
+            style={{
+              fontSize: "16px",
+              color: "#7a8f99",
+              lineHeight: 1.7,
+              textAlign: "center",
+              marginBottom: "48px",
+            }}
+          >
+            Udfyld formularen nedenfor, og Kim vender tilbage hurtigst muligt.
+            Du er også altid velkommen til at ringe direkte på{" "}
+            <a href="tel:22211437" style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}>
+              22 21 14 37
+            </a>.
+          </p>
+          <ContactForm />
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
+          SECTION 8: FOOTER & CTA
       ══════════════════════════════════════════════════════ */}
       <footer
         style={{
