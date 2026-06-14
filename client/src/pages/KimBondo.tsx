@@ -344,33 +344,40 @@ export default function KimBondo() {
               {
                 title: "Den enkle bisættelse",
                 subtitle:
-                  "Hvor højtideligheden holdes i et kapel eller en kirke, efterfulgt af kremering.",
+                  "Højtideligheden holdes i et kapel eller en kirke, efterfulgt af kremering.",
                 price: "Fra 20.500 kr.",
                 items: [
                   "Hjemmebesøg med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",
-                  "Ilægning og iklædning i kiste (2 pers)",
-                  "Rustvognskørsel til kisteophold og ceremoni",
+                  "Klassisk hvid urne",
+                  "Påklædning og ilægning i kiste (2 pers)",
+                  "Rustvognskørsel til kisteophold",
+                  "Rustvognskørsel fra kisteophold til ceremoni",
                   "Rustvognskørsel fra ceremoni til krematorie",
                   "Kontakt til kordegn, præst, krematorie og kirkegård",
+                  "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
-                  "Ceremonivært ved bisættelsen",
+                  "Ceremonivært ved bisættelsen – fremmøde en time før",
+                  "Udlægning af blomster på graven",
                 ],
               },
               {
                 title: "Den traditionelle begravelse",
                 subtitle:
-                  "Hvor kisten sænkes i jorden på en kirkegård eller en skovbegravelsesplads.",
+                  "Kisten sænkes i jorden på en kirkegård eller en skovbegravelsesplads.",
                 price: "Fra 22.500 kr.",
                 items: [
                   "Hjemmebesøg med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",
-                  "Ilægning og iklædning i kiste (2 pers)",
-                  "Rustvognskørsel til kisteophold og ceremoni",
+                  "Påklædning og ilægning i kiste (2 pers)",
+                  "Rustvognskørsel til kisteophold",
+                  "Rustvognskørsel fra kisteophold til ceremoni",
                   "Rustvognskørsel fra ceremoni til graven",
                   "Kontakt til kordegn, præst og kirkegård",
+                  "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
-                  "Ceremonivært ved begravelsen",
+                  "Ceremonivært ved begravelsen – fremmøde en time før",
+                  "Udlægning af blomster på graven",
                 ],
               },
               {
@@ -380,10 +387,11 @@ export default function KimBondo() {
                 price: "Fra 15.500 kr.",
                 items: [
                   "100 % bæredygtig, danskproduceret genbrugskiste",
-                  "Urne",
-                  "Ilægning og iklædning i kiste (2 pers)",
+                  "Klassisk hvid urne",
+                  "Påklædning og ilægning i kiste (2 pers)",
                   "Rustvognskørsel til krematoriet",
                   "Kontakt til kordegn, krematorie og kirkegård",
+                  "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
                 ],
               },
@@ -446,11 +454,11 @@ export default function KimBondo() {
                     <li
                       key={item}
                       style={{
-                        fontSize: "14px",
+                        fontSize: "15px",
                         color: "#3d5260",
-                        lineHeight: 1.7,
-                        paddingLeft: "20px",
-                        marginBottom: "8px",
+                        lineHeight: 1.75,
+                        paddingLeft: "22px",
+                        marginBottom: "10px",
                         position: "relative",
                       }}
                     >
