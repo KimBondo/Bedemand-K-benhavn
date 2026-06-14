@@ -288,7 +288,7 @@ export default function KimBondo() {
             at vælge en både smuk, lokal og fuldstændig bæredygtig afsked.
           </p>
           <a
-            href="#"
+            href="/kim-bondo/priser"
             style={{
               display: "inline-block",
               background: "transparent",
@@ -345,37 +345,46 @@ export default function KimBondo() {
                 title: "Den enkle bisættelse",
                 subtitle:
                   "Hvor højtideligheden holdes i et kapel eller en kirke, efterfulgt af kremering.",
+                price: "Fra 20.500 kr.",
                 items: [
-                  "Vores honorar og personlige vejledning",
+                  "Hjemmebesøg med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",
-                  "Ilægning og iklædning",
-                  "Rustvognskørsel",
-                  "Udfyldelse af papirer og koordinering",
+                  "Ilægning og iklædning i kiste (2 pers)",
+                  "Rustvognskørsel til kisteophold og ceremoni",
+                  "Rustvognskørsel fra ceremoni til krematorie",
+                  "Kontakt til kordegn, præst, krematorie og kirkegård",
+                  "Ansøgning om begravelseshjælp",
+                  "Ceremonivært ved bisættelsen",
                 ],
               },
               {
                 title: "Den traditionelle begravelse",
                 subtitle:
                   "Hvor kisten sænkes i jorden på en kirkegård eller en skovbegravelsesplads.",
+                price: "Fra 22.500 kr.",
                 items: [
-                  "Vores honorar og personlige vejledning",
+                  "Hjemmebesøg med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",
-                  "Ilægning og iklædning",
-                  "Rustvognskørsel til kirke og kirkegård",
-                  "Koordinering med graver og myndigheder",
+                  "Ilægning og iklædning i kiste (2 pers)",
+                  "Rustvognskørsel til kisteophold og ceremoni",
+                  "Rustvognskørsel fra ceremoni til graven",
+                  "Kontakt til kordegn, præst og kirkegård",
+                  "Ansøgning om begravelseshjælp",
+                  "Ceremonivært ved begravelsen",
                 ],
               },
               {
-                title: "Den personlige askespredning",
+                title: "Afsked uden ceremoni",
                 subtitle:
-                  "Hvor højtideligheden afsluttes med, at asken spredes over åbent hav.",
+                  "Direkte kremering uden højtidelighed – enkel, værdig og uden unødige udgifter.",
+                price: "Fra 15.500 kr.",
                 items: [
-                  "Vores honorar og personlige vejledning",
-                  "100 % bæredygtig, danskproduceret genbrugskiste til kremering",
-                  "Ilægning og iklædning",
-                  "Rustvognskørsel",
-                  "Miljøvenlig søurne",
-                  "Myndighedsansøgning",
+                  "100 % bæredygtig, danskproduceret genbrugskiste",
+                  "Urne",
+                  "Ilægning og iklædning i kiste (2 pers)",
+                  "Rustvognskørsel til krematoriet",
+                  "Kontakt til kordegn, krematorie og kirkegård",
+                  "Ansøgning om begravelseshjælp",
                 ],
               },
             ].map((card) => (
@@ -412,6 +421,18 @@ export default function KimBondo() {
                   }}
                 >
                   {card.subtitle}
+                </p>
+                <p
+                  style={{
+                    fontFamily: "'Lora', serif",
+                    fontWeight: 700,
+                    fontSize: "clamp(20px, 2.2vw, 26px)",
+                    color: "#2F3E46",
+                    marginBottom: "24px",
+                    letterSpacing: "0.01em",
+                  }}
+                >
+                  {(card as any).price}
                 </p>
                 <ul
                   style={{
@@ -479,7 +500,7 @@ export default function KimBondo() {
           >
             Ønsker du at se de specifikke enkeltpriser?{" "}
             <a
-              href="#"
+              href="/kim-bondo/priser"
               style={{
                 color: "#84A98C",
                 textDecoration: "underline",
