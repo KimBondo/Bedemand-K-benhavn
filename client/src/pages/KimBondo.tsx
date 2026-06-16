@@ -159,22 +159,19 @@ export default function KimBondo() {
           alignItems: "center",
         }}
       >
-        {/* Portrait */}
+        {/* Garden coffin image */}
         <div style={{ display: "flex", justifyContent: "center" }}>
           <img
-            src="/manus-storage/kim-bondo-portrait-neutral-bg.png"
-            alt="Kim Bondo – Bedemand"
+            src="/manus-storage/kim-garden-coffin_90a67244.jpg"
+            alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
             style={{
               width: "100%",
-              maxWidth: "380px",
-              aspectRatio: "3/4",
+              maxWidth: "480px",
+              aspectRatio: "16/9",
               objectFit: "cover",
-              objectPosition: "top",
+              objectPosition: "center",
               borderRadius: "4px",
               boxShadow: "0 8px 32px rgba(47,62,70,0.12)",
-            }}
-            onError={(e) => {
-              (e.target as HTMLImageElement).style.display = "none";
             }}
           />
         </div>
