@@ -25,43 +25,22 @@ export default function KimBondo() {
         url="https://bedemandkobenhavn.dk/kim-bondo"
       />
       {/* ══════════════════════════════════════════════════════
-          SECTION 1: HERO
+          SECTION 1: HERO (no background image)
       ══════════════════════════════════════════════════════ */}
       <section
         style={{
-          position: "relative",
-          minHeight: "100vh",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1448375240586-882707db888b?w=1600&q=80')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          background: "#F9F8F6",
+          padding: "0 0 80px 0",
         }}
       >
-        {/* Overlay */}
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            background: "rgba(30, 42, 48, 0.52)",
-          }}
-        />
-
         {/* Header bar */}
         <header
           style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            right: 0,
             padding: "28px 48px",
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            zIndex: 2,
+            borderBottom: "1px solid #e0dcd6",
           }}
         >
           <span
@@ -69,7 +48,7 @@ export default function KimBondo() {
               fontFamily: "'Lora', serif",
               fontWeight: 600,
               fontSize: "clamp(15px, 1.8vw, 20px)",
-              color: "#ffffff",
+              color: "#2F3E46",
               letterSpacing: "0.04em",
             }}
           >
@@ -81,7 +60,7 @@ export default function KimBondo() {
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: 600,
               fontSize: "clamp(14px, 1.5vw, 17px)",
-              color: "#ffffff",
+              color: "#84A98C",
               textDecoration: "none",
               letterSpacing: "0.03em",
             }}
@@ -93,11 +72,10 @@ export default function KimBondo() {
         {/* Hero text */}
         <div
           style={{
-            position: "relative",
-            zIndex: 2,
             textAlign: "center",
-            padding: "0 24px",
+            padding: "72px 24px 64px",
             maxWidth: "760px",
+            margin: "0 auto",
           }}
         >
           <h1
@@ -105,7 +83,7 @@ export default function KimBondo() {
               fontFamily: "'Lora', serif",
               fontWeight: 600,
               fontSize: "clamp(28px, 5vw, 56px)",
-              color: "#ffffff",
+              color: "#2F3E46",
               lineHeight: 1.2,
               marginBottom: "24px",
               letterSpacing: "0.01em",
@@ -117,15 +95,53 @@ export default function KimBondo() {
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontSize: "clamp(16px, 2vw, 22px)",
-              color: "rgba(255,255,255,0.88)",
+              color: "#3d5260",
               lineHeight: 1.65,
               maxWidth: "620px",
-              margin: "0 auto",
+              margin: "0 auto 48px",
             }}
           >
             Hos mig er der tid, uforstyrrelig ro og plads til jeres ønsker –
             præcis som de er.
           </p>
+
+          {/* ── TWO IMAGE PLACEHOLDERS ─────────────────────────── */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gap: "24px",
+              maxWidth: "760px",
+              margin: "0 auto",
+            }}
+          >
+            {["Billede 1", "Billede 2"].map((label) => (
+              <div
+                key={label}
+                style={{
+                  aspectRatio: "4/3",
+                  background: "#eae6df",
+                  border: "2px dashed #c8c2b8",
+                  borderRadius: "4px",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "10px",
+                  color: "#9a9087",
+                }}
+              >
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <circle cx="8.5" cy="8.5" r="1.5" />
+                  <path d="m21 15-5-5L5 21" />
+                </svg>
+                <span style={{ fontSize: "13px", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase" }}>
+                  {label} kommer snart
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
