@@ -156,11 +156,11 @@ export default function KimBondo() {
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
           gap: "64px",
-          alignItems: "center",
+          alignItems: "start",
         }}
       >
         {/* Garden coffin image */}
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
           <img
             src="/manus-storage/kim-garden-coffin_90a67244.jpg"
             alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
@@ -174,6 +174,19 @@ export default function KimBondo() {
               boxShadow: "0 8px 32px rgba(47,62,70,0.12)",
             }}
           />
+          <p
+            style={{
+              marginTop: "10px",
+              fontSize: "13px",
+              color: "#9a9087",
+              fontStyle: "italic",
+              textAlign: "left",
+              width: "100%",
+              lineHeight: 1.6,
+            }}
+          >
+            En afsked i haven, hvis det er det I ønsker
+          </p>
         </div>
 
         {/* Text */}
