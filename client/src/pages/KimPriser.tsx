@@ -188,7 +188,7 @@ export default function KimPriser() {
             items: [
               "Hjemmebesøg med planlægning af forløbet",
               "100 % bæredygtig, danskproduceret genbrugskiste",
-              "Klassisk hvid urne",
+              "Klassisk hvid bionedbrydelig urne",
               "Påklædning og ilægning i kiste",
               "Rustvognskørsel til kisteophold",
               "Rustvognskørsel fra kisteophold til ceremoni",
@@ -224,7 +224,7 @@ export default function KimPriser() {
             price: "Fra 15.500 kr.",
             items: [
               "100 % bæredygtig, danskproduceret genbrugskiste",
-              "Klassisk hvid urne",
+              "Klassisk hvid bionedbrydelig urne",
               "Påklædning og ilægning i kiste",
               "Rustvognskørsel til krematoriet",
               "Kontakt til kordegn, krematorie og kirkegård",
@@ -329,7 +329,7 @@ export default function KimPriser() {
               heading: "Kiste og urne",
               rows: [
                 ["Klassisk hvid kiste (100 % bæredygtig, danskproduceret)", "6.200 kr."],
-                ["Klassisk hvid urne", "1.200 kr."],
+                ["Klassisk hvid bionedbrydelig urne", "1.200 kr."],
               ],
             },
             {
@@ -374,24 +374,17 @@ export default function KimPriser() {
             {
               heading: "Øvrige ydelser",
               rows: [
-                ["Blomsterkørsel og udlægning på kirkegård", "900 kr."],
+                ["Blomsterkørsel og udlægning på kirkegård", "1.195 kr."],
                 ["Urnekørsel (fra krematoriet til kirkegårdskontor)", "900 kr."],
                 ["Afhentning af dødsattest hos politiet", "900 kr."],
                 ["Fremvisning i kapel", "900 kr."],
                 ["Ekstern præst eller ceremonileder", "3.300 kr."],
                 ["Dødsannonce – udarbejdelse og indrykning", "400 kr."],
                 ["Sangblade, bestilling fra ekstern leverandør", "400 kr. (tilbud indhentes)"],
-                ["Rådgivning og udarbejdelse af \"Min Sidste Vilje\" (hjemmebesøg)", "2.400 kr."],
+                ["Rådgivning og udarbejdelse af \"Min Sidste Vilje\" (hjemmebesøg)", "Gratis"],
               ],
             },
-            {
-              heading: "Samtaler om døden, afskeden og tiden derefter",
-              note: "Disse samtaler er for dem, der ønsker at forberede sig – eller tale med en, der har erfaring med de svære spørgsmål.",
-              rows: [
-                ["\"Den svære samtale – et vigtigt farvel\" – par-, forældre- eller familiesamtale", "2 timer – 2.500 kr."],
-                ["\"Min sidste vilje\" – en individuel samtale om dine personlige ønsker", "2 timer – 1.800 kr."],
-              ],
-            },
+
           ].map((section) => (
             <div key={section.heading} style={{ marginBottom: "40px" }}>
               <h3
