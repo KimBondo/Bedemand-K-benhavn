@@ -115,32 +115,38 @@ export default function KimBondo() {
               margin: "0 auto",
             }}
           >
-            {["Billede 1", "Billede 2"].map((label) => (
-              <div
-                key={label}
-                style={{
-                  aspectRatio: "4/3",
-                  background: "#eae6df",
-                  border: "2px dashed #c8c2b8",
-                  borderRadius: "4px",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: "10px",
-                  color: "#9a9087",
-                }}
-              >
-                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <circle cx="8.5" cy="8.5" r="1.5" />
-                  <path d="m21 15-5-5L5 21" />
-                </svg>
-                <span style={{ fontSize: "13px", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase" }}>
-                  {label} kommer snart
-                </span>
-              </div>
-            ))}
+            {/* Billede 1: Sort rustvogn på Rådhuspladsen */}
+            <div style={{ borderRadius: "4px", overflow: "hidden", boxShadow: "0 4px 20px rgba(0,0,0,0.12)" }}>
+              <img
+                src="/manus-storage/kim-hearse-black_c31e9475.png"
+                alt="Sort rustvogn på Rådhuspladsen i København – Kim Bondo Bedemand"
+                style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover", display: "block" }}
+              />
+            </div>
+            {/* Billede 2: Placeholder */}
+            <div
+              style={{
+                aspectRatio: "4/3",
+                background: "#eae6df",
+                border: "2px dashed #c8c2b8",
+                borderRadius: "4px",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "10px",
+                color: "#9a9087",
+              }}
+            >
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <path d="m21 15-5-5L5 21" />
+              </svg>
+              <span style={{ fontSize: "13px", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase" }}>
+                Billede 2 kommer snart
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -160,7 +166,7 @@ export default function KimBondo() {
         }}
       >
         {/* Garden coffin image */}
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <img
             src="/manus-storage/kim-garden-coffin_90a67244.jpg"
             alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
@@ -180,12 +186,12 @@ export default function KimBondo() {
               fontSize: "13px",
               color: "#9a9087",
               fontStyle: "italic",
-              textAlign: "left",
+              textAlign: "center",
               width: "100%",
               lineHeight: 1.6,
             }}
           >
-            En afsked i haven, hvis det er det I ønsker
+            Afskeden kan være i haven, hvis det er det, I ønsker.
           </p>
         </div>
 
