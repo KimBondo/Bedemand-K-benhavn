@@ -772,16 +772,6 @@ export default function KimBondo() {
         >
           Vandtårnsvej 62A, 2860 Søborg
         </p>
-        <p
-          style={{
-            fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
-            marginBottom: "48px",
-            lineHeight: 1.7,
-          }}
-        >
-          Tlf: 22 21 14 37
-        </p>
         <a
           href="tel:22211437"
           style={{
