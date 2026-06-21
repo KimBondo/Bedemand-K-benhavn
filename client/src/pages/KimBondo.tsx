@@ -224,8 +224,8 @@ export default function KimBondo() {
           >
             Når vi mister en, vi har kær, opstår der ofte et øjeblikkeligt kaos
             af praktiske spørgsmål og dybe følelser. Min vigtigste opgave er at
-            træde ind ad døren hos jer og øjeblikkeligt skabe et rum med ro og
-            god energi.
+            træde ind ad døren hos jer og straks skabe et rum med ro, overblik
+            og god energi.
           </p>
           <p
             style={{
@@ -235,10 +235,11 @@ export default function KimBondo() {
             }}
           >
             Jeg møder jer præcis der, hvor I er. Hvad enten sorgen kalder på
-            dyb alvor, tårer eller et befriende smil, så tilpasser jeg mig jeres
-            behov. Hos mig bliver I ikke mødt af et stift system eller en
-            fortravlet dagsorden, men af et nærværende menneske, der har tiden
-            til at lytte og rumme det hele.
+            dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
+            behov. Her bliver I ikke mødt af et stift system eller en fortravlet
+            dagsorden, men af et nærværende menneske. Med mange års erfaring i
+            at lytte til og rumme mennesker i svære livsfaser, tager jeg mig den
+            tid, det kræver at bære det tunge, så I kan trække vejret.
           </p>
         </div>
       </section>
@@ -277,10 +278,11 @@ export default function KimBondo() {
             marginBottom: "32px",
           }}
         >
-          Som en naturlig del af mit virke, tilbyder jeg udelukkende kister
+          Som en naturlig del af mit virke tilbyder jeg udelukkende kister
           produceret i Danmark af 100 % genbrugsmaterialer. Der er ikke fældet
-          et eneste nyt træ for at skabe kisten, hvilket giver jer mulighed for
-          at vælge en både smuk, lokal og fuldstændig bæredygtig afsked.
+          et eneste nyt træ for at skabe kisten. Det giver jer mulighed for at
+          vælge en afsked, der er smuk og lokal, og som samtidig tager fuldt
+          hensyn til den natur, vi er en del af.
         </p>
         <a
           href="/kim-bondo/priser"
@@ -298,7 +300,7 @@ export default function KimBondo() {
             border: "1.5px solid #b0b8bc",
           }}
         >
-          Læs om vores genbrugskister
+          Læs om den bæredygtige kiste
         </a>
       </section>
 
@@ -335,10 +337,11 @@ export default function KimBondo() {
             marginBottom: "0",
           }}
         >
-          En værdig afsked skal ikke være forbundet med økonomisk utryghed.
-          Jeg lægger vægt på 100 % gennemskuelighed, så I kender alle udgifter
-          på forhånd. En smuk og enkel bisættelse i København afstemmes
-          fuldstændig efter vores faste, klare prisscenarier.
+          En værdig afsked skal ikke være forbundet med økonomisk utryghed
+          eller skjulte gebyrer. Ikke mindst lægger jeg stor vægt på 100 %
+          gennemskuelighed, så I kender alle udgifter på forhånd. Uanset hvilken
+          løsning der føles rigtig for jer, er det hele afstemt efter faste,
+          klare rammer uden ubehagelige overraskelser.
         </p>
       </section>
 
@@ -629,11 +632,13 @@ export default function KimBondo() {
                 color: "#3d5260",
               }}
             >
-              Med fire års solid erfaring med logistik, kørsel af rustvogn og
-              koordinering mellem kirker, kapeller og krematorier, har jeg
-              fuldstændig styr på drejebogen. Alt det praktiske glider lydløst i
-              baggrunden, så I kan sænke skuldrene og vide, at der er 100 % tjek
-              på detaljerne.
+              Min tilgang til mennesker bygger på min dybe baggrund med
+              krisehåndtering og svære samtaler. Samtidig garanterer jeg en
+              fuldstændig tryg og sikker afvikling af alt det praktiske. Jeg har
+              altid helt styr på drejebogen, rustvognskørslen og den præcise
+              koordinering mellem kirker, kapeller og krematorier. Alt det
+              praktiske glider lydløst i baggrunden, så I roligt kan sænke
+              skuldrene og vide, at der er 100 % tjek på detaljerne.
             </p>
           </div>
           <div>
@@ -656,11 +661,11 @@ export default function KimBondo() {
                 color: "#3d5260",
               }}
             >
-              For mig er der ingen faste skabeloner. Hvad enten den smukke afsked
-              skal foregå i en traditionel kirke, et kapel, hjemme i stuen, i
-              sommerhuset eller i haven, så skaber jeg rammerne om det. Det
-              vigtigste er, at afskeden bliver personlig, kærlig og føles rigtig
-              for jer – bare kisten kan komme med.
+              For mig findes der ingen faste skabeloner. Hvad enten den smukke
+              afsked skal foregå i en traditionel kirke, et kapel, hjemme i
+              stuen, i sommerhuset eller ude i haven, skaber jeg rammerne for
+              det. Det vigtigste er, at afskeden bliver personlig, kærlig og
+              føles helt rigtig for jer – kisten skal nok komme frem.
             </p>
           </div>
         </div>
@@ -688,33 +693,21 @@ export default function KimBondo() {
               lineHeight: 1.3,
             }}
           >
-            En brik i livets store overgange
+            Et trygt frirum i en svær tid
           </h2>
           <p
             style={{
               fontSize: "clamp(15px, 1.6vw, 18px)",
               lineHeight: 1.9,
               color: "#3d5260",
-              marginBottom: "24px",
             }}
           >
-            At tage afsked er en af livets absolut største overgange. Det kræver
-            mere end bare praktisk planlægning; det kræver omsorg for den energi
-            og den stemning, der efterlades i rummet.
-          </p>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 18px)",
-              lineHeight: 1.9,
-              color: "#3d5260",
-            }}
-          >
-            Jeg ser det som mit kald at bære de tunge praktiske byrder for jer,
-            så der skabes et frirum, hvor I kan finde den nødvendige fred og
-            eftertanke. Jeg forlader ikke en familie, før jeg ved, at der er
-            skabt fuldstændig ro, og at I sidder tilbage med følelsen af at være
-            blevet holdt om og støttet hele vejen igennem. Og husk – I kan
-            altid ringe, hvis der opstår det mindste efterfølgende.
+            Jeg ser det som mit ansvar at overtage de tunge praktiske byrder fra
+            jeres skuldre, så I i stedet får et frirum til eftertanke og fred.
+            Jeg forlader aldrig en familie, før jeg mærker, at der er skabt
+            fuldstændig ro om forløbet, og at I føler jer holdt om. Og husk –
+            I er altid velkomne til at ringe, hvis der opstår det mindste
+            spørgsmål undervejs eller bagefter.
           </p>
         </div>
       </section>
@@ -742,7 +735,7 @@ export default function KimBondo() {
               lineHeight: 1.3,
             }}
           >
-            Skriv til Kim
+            Skriv eller ring direkte til Kim
           </h2>
           <p
             style={{
@@ -753,15 +746,15 @@ export default function KimBondo() {
               marginBottom: "48px",
             }}
           >
-            Udfyld formularen nedenfor, og Kim vender tilbage hurtigst muligt.
-            Du er også altid velkommen til at ringe direkte på{" "}
+            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+            I er også altid velkomne til at ringe direkte til mig på{" "}
             <a
               href="tel:22211437"
               style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}
             >
               22 21 14 37
             </a>
-            .
+            {" "}– uanset tidspunktet.
           </p>
           <ContactForm />
         </div>

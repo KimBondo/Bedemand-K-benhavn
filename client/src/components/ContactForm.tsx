@@ -160,7 +160,7 @@ export default function ContactForm() {
           cursor: "pointer",
         }}
       >
-        Send besked til Kim
+        Send besked
       </button>
     </form>
   );
