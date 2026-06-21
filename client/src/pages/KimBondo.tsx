@@ -36,33 +36,52 @@ export default function KimBondo() {
         {/* Header bar */}
         <header
           style={{
-            padding: "28px 48px",
+            padding: "20px 24px",
             display: "flex",
+            flexWrap: "wrap",
             justifyContent: "space-between",
             alignItems: "center",
+            gap: "8px",
             borderBottom: "1px solid #e0dcd6",
           }}
         >
-          <span
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(15px, 1.8vw, 20px)",
-              color: "#2F3E46",
-              letterSpacing: "0.04em",
-            }}
-          >
-            Bedemand København – Kim Bondo
-          </span>
+          {/* Brand block: two lines stacked */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+            <span
+              style={{
+                fontFamily: "'Lora', serif",
+                fontWeight: 700,
+                fontSize: "clamp(14px, 2.2vw, 20px)",
+                color: "#2F3E46",
+                letterSpacing: "0.03em",
+                lineHeight: 1.2,
+              }}
+            >
+              Bedemand København og Nordsjælland
+            </span>
+            <span
+              style={{
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 400,
+                fontSize: "clamp(12px, 1.4vw, 15px)",
+                color: "#5a7a6a",
+                letterSpacing: "0.02em",
+              }}
+            >
+              Kim Bondo
+            </span>
+          </div>
+          {/* Phone — always visible, tappable on mobile */}
           <a
             href="tel:22211437"
             style={{
               fontFamily: "'Open Sans', sans-serif",
-              fontWeight: 600,
-              fontSize: "clamp(14px, 1.5vw, 17px)",
+              fontWeight: 700,
+              fontSize: "clamp(14px, 1.6vw, 18px)",
               color: "#84A98C",
               textDecoration: "none",
               letterSpacing: "0.03em",
+              whiteSpace: "nowrap",
             }}
           >
             Tlf: 22 21 14 37
