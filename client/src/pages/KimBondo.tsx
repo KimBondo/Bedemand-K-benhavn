@@ -5,8 +5,19 @@ import SEO from "@/components/SEO";
  * Kim Bondo – Personal Homepage
  * Design: Nordic Quietism — warm off-white (#F9F8F6), charcoal text (#2F3E46),
  *         sage green CTAs (#84A98C), Lora serif headings + Open Sans body.
- * Layout: One-page scroll with 7 structured sections.
+ *
+ * Section order (revised):
+ *   1. Hero — headline + underheadline + kystbillede (beach/hearse)
+ *   2. Introduktion — "Tryghed og god energi…" + haven-kiste billede
+ *   3. Bæredygtighed — "Omsorg for naturen – Bæredygtig afsked"
+ *   4. Priser intro + 3 prisscenarier (ingen tekst imellem)
+ *   5. Logistik — "Den sikre logistik" + "Friheden til at vælge" + rådhuspladsbillede
+ *   6. Livets overgange — "En brik i livets store overgange"
+ *   7. Kontaktformular — "Skriv til Kim"
+ *   8. Footer
  */
+
+const SECTION_PADDING = "96px 32px";
 
 export default function KimBondo() {
   return (
@@ -24,15 +35,12 @@ export default function KimBondo() {
         description="Kim Bondo er din personlige bedemand i København og Nordsjælland. Dyb omsorg, nærvær og uforstyrrelig ro når livet er sværest. Gennemsigtige priser fra 15.500 kr."
         url="https://bedemandkobenhavn.dk/kim-bondo"
       />
+
       {/* ══════════════════════════════════════════════════════
-          SECTION 1: HERO (no background image)
+          SECTION 1: HERO
+          – Overskrift + underoverskrift + KUN kystbillede
       ══════════════════════════════════════════════════════ */}
-      <section
-        style={{
-          background: "#F9F8F6",
-          padding: "0 0 80px 0",
-        }}
-      >
+      <section style={{ background: "#F9F8F6", padding: "0 0 80px 0" }}>
         {/* Header bar */}
         <header
           style={{
@@ -45,7 +53,6 @@ export default function KimBondo() {
             borderBottom: "1px solid #e0dcd6",
           }}
         >
-          {/* Brand block: two lines stacked */}
           <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
             <span
               style={{
@@ -71,7 +78,6 @@ export default function KimBondo() {
               Kim Bondo
             </span>
           </div>
-          {/* Phone — always visible, tappable on mobile */}
           <a
             href="tel:22211437"
             style={{
@@ -92,7 +98,7 @@ export default function KimBondo() {
         <div
           style={{
             textAlign: "center",
-            padding: "72px 24px 64px",
+            padding: "72px 24px 56px",
             maxWidth: "760px",
             margin: "0 auto",
           }}
@@ -124,51 +130,47 @@ export default function KimBondo() {
             præcis som de er.
           </p>
 
-          {/* ── TWO IMAGE PLACEHOLDERS ─────────────────────────── */}
+          {/* KUN kystbillede (rustvogn ved havet) */}
           <div
             style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-              gap: "24px",
-              maxWidth: "760px",
+              maxWidth: "680px",
               margin: "0 auto",
+              borderRadius: "4px",
+              overflow: "hidden",
+              boxShadow: "0 4px 24px rgba(0,0,0,0.12)",
             }}
           >
-            {/* Billede 1: Sort rustvogn på Rådhuspladsen */}
-            <div style={{ borderRadius: "4px", overflow: "hidden", boxShadow: "0 4px 20px rgba(0,0,0,0.12)" }}>
-              <img
-                src="/manus-storage/kim-hearse-black_c31e9475.png"
-                alt="Sort rustvogn på Rådhuspladsen i København – Kim Bondo Bedemand"
-                style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover", display: "block" }}
-              />
-            </div>
-            {/* Billede 2: Kim Bondo med sort rustvogn ved havet */}
-            <div style={{ borderRadius: "4px", overflow: "hidden", boxShadow: "0 4px 20px rgba(0,0,0,0.12)" }}>
-              <img
-                src="/manus-storage/kim-beach-solo_609d5ab7.png"
-                alt="Kim Bondo med sort Mercedes rustvogn ved den danske kyst"
-                style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover", objectPosition: "center", display: "block" }}
-              />
-            </div>
+            <img
+              src="/manus-storage/kim-beach-solo_609d5ab7.png"
+              alt="Kim Bondo med sort Mercedes rustvogn ved den danske kyst"
+              style={{
+                width: "100%",
+                aspectRatio: "4/3",
+                objectFit: "cover",
+                objectPosition: "center",
+                display: "block",
+              }}
+            />
           </div>
         </div>
       </section>
 
       {/* ══════════════════════════════════════════════════════
-          SECTION 2: INTRODUCTION
+          SECTION 2: INTRODUKTION OG TILLID
+          – "Tryghed og god energi, når alt andet ramler"
       ══════════════════════════════════════════════════════ */}
       <section
         style={{
           maxWidth: "1100px",
           margin: "0 auto",
-          padding: "96px 32px",
+          padding: SECTION_PADDING,
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
           gap: "64px",
           alignItems: "start",
         }}
       >
-        {/* Garden coffin image */}
+        {/* Haven-kiste billede */}
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <img
             src="/manus-storage/kim-garden-coffin_90a67244.jpg"
@@ -198,7 +200,7 @@ export default function KimBondo() {
           </p>
         </div>
 
-        {/* Text */}
+        {/* Tekst */}
         <div>
           <h2
             style={{
@@ -241,124 +243,111 @@ export default function KimBondo() {
         </div>
       </section>
 
-      {/* Divider */}
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
 
       {/* ══════════════════════════════════════════════════════
-          SECTION 3: PRICING & SUSTAINABILITY
+          SECTION 3: BÆREDYGTIGHED OG VÆRDIER
+          – "Omsorg for naturen – Bæredygtig afsked"
       ══════════════════════════════════════════════════════ */}
       <section
         style={{
-          maxWidth: "1100px",
+          maxWidth: "760px",
           margin: "0 auto",
-          padding: "96px 32px",
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-          gap: "48px",
+          padding: SECTION_PADDING,
+          textAlign: "center",
         }}
       >
-        {/* Column 1: Pricing */}
-        <div>
-          <h2
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(20px, 2.5vw, 28px)",
-              color: "#2F3E46",
-              marginBottom: "20px",
-              lineHeight: 1.3,
-            }}
-          >
-            Gennemskuelige priser
-          </h2>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-              marginBottom: "32px",
-            }}
-          >
-            En værdig afsked skal ikke være forbundet med økonomisk utryghed.
-            Jeg lægger vægt på 100 % gennemskuelighed, så I kender alle udgifter
-            på forhånd. En smuk og enkel bisættelse i København afstemmes
-            fuldstændig efter vores faste, klare prisscenarier.
-          </p>
-          <a
-            href="#prisscenarier"
-            style={{
-              display: "inline-block",
-              background: "#84A98C",
-              color: "#ffffff",
-              fontFamily: "'Open Sans', sans-serif",
-              fontWeight: 600,
-              fontSize: "15px",
-              padding: "14px 28px",
-              borderRadius: "3px",
-              textDecoration: "none",
-              letterSpacing: "0.04em",
-            }}
-          >
-            Se vores 3 prisscenarier
-          </a>
-        </div>
-
-        {/* Column 2: Sustainability */}
-        <div>
-          <h2
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(20px, 2.5vw, 28px)",
-              color: "#2F3E46",
-              marginBottom: "20px",
-              lineHeight: 1.3,
-            }}
-          >
-            Omsorg for naturen – Bæredygtig afsked
-          </h2>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-              marginBottom: "32px",
-            }}
-          >
-            Som en naturlig del af mit virke, tilbyder jeg udelukkende kister
-            produceret i Danmark af 100 % genbrugsmaterialer. Der er ikke fældet
-            et eneste nyt træ for at skabe kisten, hvilket giver jer mulighed for
-            at vælge en både smuk, lokal og fuldstændig bæredygtig afsked.
-          </p>
-          <a
-            href="/kim-bondo/priser"
-            style={{
-              display: "inline-block",
-              background: "transparent",
-              color: "#2F3E46",
-              fontFamily: "'Open Sans', sans-serif",
-              fontWeight: 600,
-              fontSize: "15px",
-              padding: "13px 28px",
-              borderRadius: "3px",
-              textDecoration: "none",
-              letterSpacing: "0.04em",
-              border: "1.5px solid #b0b8bc",
-            }}
-          >
-            Læs om vores genbrugskister
-          </a>
-        </div>
+        <h2
+          style={{
+            fontFamily: "'Lora', serif",
+            fontWeight: 600,
+            fontSize: "clamp(20px, 2.5vw, 30px)",
+            color: "#2F3E46",
+            marginBottom: "20px",
+            lineHeight: 1.3,
+          }}
+        >
+          Omsorg for naturen – Bæredygtig afsked
+        </h2>
+        <p
+          style={{
+            fontSize: "clamp(15px, 1.6vw, 17px)",
+            lineHeight: 1.85,
+            color: "#3d5260",
+            marginBottom: "32px",
+          }}
+        >
+          Som en naturlig del af mit virke, tilbyder jeg udelukkende kister
+          produceret i Danmark af 100 % genbrugsmaterialer. Der er ikke fældet
+          et eneste nyt træ for at skabe kisten, hvilket giver jer mulighed for
+          at vælge en både smuk, lokal og fuldstændig bæredygtig afsked.
+        </p>
+        <a
+          href="/kim-bondo/priser"
+          style={{
+            display: "inline-block",
+            background: "transparent",
+            color: "#2F3E46",
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 600,
+            fontSize: "15px",
+            padding: "13px 28px",
+            borderRadius: "3px",
+            textDecoration: "none",
+            letterSpacing: "0.04em",
+            border: "1.5px solid #b0b8bc",
+          }}
+        >
+          Læs om vores genbrugskister
+        </a>
       </section>
 
+      <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
+
       {/* ══════════════════════════════════════════════════════
-          SECTION 4: 3 PRICING SCENARIOS
+          SECTION 4: ØKONOMI – intro direkte efterfulgt af 3 prisscenarier
       ══════════════════════════════════════════════════════ */}
+      <section
+        style={{
+          maxWidth: "760px",
+          margin: "0 auto",
+          padding: "96px 32px 64px",
+          textAlign: "center",
+        }}
+      >
+        <h2
+          style={{
+            fontFamily: "'Lora', serif",
+            fontWeight: 600,
+            fontSize: "clamp(20px, 2.5vw, 30px)",
+            color: "#2F3E46",
+            marginBottom: "20px",
+            lineHeight: 1.3,
+          }}
+        >
+          Gennemskuelige priser
+        </h2>
+        <p
+          style={{
+            fontSize: "clamp(15px, 1.6vw, 17px)",
+            lineHeight: 1.85,
+            color: "#3d5260",
+            marginBottom: "0",
+          }}
+        >
+          En værdig afsked skal ikke være forbundet med økonomisk utryghed.
+          Jeg lægger vægt på 100 % gennemskuelighed, så I kender alle udgifter
+          på forhånd. En smuk og enkel bisættelse i København afstemmes
+          fuldstændig efter vores faste, klare prisscenarier.
+        </p>
+      </section>
+
+      {/* 3 PRISSCENARIER – direkte under intro, ingen tekst imellem */}
       <section
         id="prisscenarier"
         style={{
           background: "#f0ede8",
-          padding: "96px 32px",
+          padding: "64px 32px 96px",
         }}
       >
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
@@ -483,7 +472,7 @@ export default function KimBondo() {
                     letterSpacing: "0.01em",
                   }}
                 >
-                  {(card as any).price}
+                  {card.price}
                 </p>
                 <ul
                   style={{
@@ -565,81 +554,126 @@ export default function KimBondo() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
-          SECTION 5: CORE FOUNDATION
+          SECTION 5: LOGISTIK OG ERFARING
+          – "Den sikre logistik" + "Friheden til at vælge"
+          – Rådhuspladsbillede som visuelt element
       ══════════════════════════════════════════════════════ */}
       <section
         style={{
           maxWidth: "1100px",
           margin: "0 auto",
-          padding: "96px 32px",
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-          gap: "64px",
+          padding: SECTION_PADDING,
         }}
       >
-        <div>
-          <h2
+        {/* Rådhuspladsbillede øverst i sektionen */}
+        <div
+          style={{
+            marginBottom: "64px",
+            borderRadius: "4px",
+            overflow: "hidden",
+            boxShadow: "0 4px 24px rgba(0,0,0,0.12)",
+            maxWidth: "760px",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          <img
+            src="/manus-storage/kim-hearse-black_c31e9475.png"
+            alt="Sort rustvogn på Rådhuspladsen i København – Kim Bondo Bedemand"
             style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(20px, 2.5vw, 28px)",
-              color: "#2F3E46",
-              marginBottom: "20px",
-              lineHeight: 1.3,
+              width: "100%",
+              aspectRatio: "4/3",
+              objectFit: "cover",
+              display: "block",
             }}
-          >
-            Den sikre logistik i baggrunden
-          </h2>
+          />
           <p
             style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
+              padding: "10px 16px",
+              fontSize: "13px",
+              color: "#9a9087",
+              fontStyle: "italic",
+              background: "#F9F8F6",
+              textAlign: "center",
             }}
           >
-            Med fire års solid erfaring med logistik, kørsel af rustvogn og
-            koordinering mellem kirker, kapeller og krematorier, har jeg
-            fuldstændig styr på drejebogen. Alt det praktiske glider lydløst i
-            baggrunden, så I kan sænke skuldrene og vide, at der er 100 % tjek
-            på detaljerne.
+            Rådhuspladsen, København
           </p>
         </div>
-        <div>
-          <h2
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(20px, 2.5vw, 28px)",
-              color: "#2F3E46",
-              marginBottom: "20px",
-              lineHeight: 1.3,
-            }}
-          >
-            Friheden til at vælge selv
-          </h2>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-            }}
-          >
-            For mig er der ingen faste skabeloner. Hvad enten den smukke afsked
-            skal foregå i en traditionel kirke, et kapel, hjemme i stuen, i
-            sommerhuset eller i haven, så skaber jeg rammerne om det. Det
-            vigtigste er, at afskeden bliver personlig, kærlig og føles rigtig
-            for jer – bare kisten kan komme med.
-          </p>
+
+        {/* To tekstkolonner */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: "64px",
+          }}
+        >
+          <div>
+            <h2
+              style={{
+                fontFamily: "'Lora', serif",
+                fontWeight: 600,
+                fontSize: "clamp(20px, 2.5vw, 28px)",
+                color: "#2F3E46",
+                marginBottom: "20px",
+                lineHeight: 1.3,
+              }}
+            >
+              Den sikre logistik i baggrunden
+            </h2>
+            <p
+              style={{
+                fontSize: "clamp(15px, 1.6vw, 17px)",
+                lineHeight: 1.85,
+                color: "#3d5260",
+              }}
+            >
+              Med fire års solid erfaring med logistik, kørsel af rustvogn og
+              koordinering mellem kirker, kapeller og krematorier, har jeg
+              fuldstændig styr på drejebogen. Alt det praktiske glider lydløst i
+              baggrunden, så I kan sænke skuldrene og vide, at der er 100 % tjek
+              på detaljerne.
+            </p>
+          </div>
+          <div>
+            <h2
+              style={{
+                fontFamily: "'Lora', serif",
+                fontWeight: 600,
+                fontSize: "clamp(20px, 2.5vw, 28px)",
+                color: "#2F3E46",
+                marginBottom: "20px",
+                lineHeight: 1.3,
+              }}
+            >
+              Friheden til at vælge selv
+            </h2>
+            <p
+              style={{
+                fontSize: "clamp(15px, 1.6vw, 17px)",
+                lineHeight: 1.85,
+                color: "#3d5260",
+              }}
+            >
+              For mig er der ingen faste skabeloner. Hvad enten den smukke afsked
+              skal foregå i en traditionel kirke, et kapel, hjemme i stuen, i
+              sommerhuset eller i haven, så skaber jeg rammerne om det. Det
+              vigtigste er, at afskeden bliver personlig, kærlig og føles rigtig
+              for jer – bare kisten kan komme med.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* ══════════════════════════════════════════════════════
-          SECTION 6: THE RED THREAD
+          SECTION 6: LIVETS OVERGANGE
+          – "En brik i livets store overgange"
       ══════════════════════════════════════════════════════ */}
       <section
         style={{
           background: "#eae6df",
-          padding: "96px 32px",
+          padding: SECTION_PADDING,
           textAlign: "center",
         }}
       >
@@ -687,12 +721,13 @@ export default function KimBondo() {
 
       {/* ══════════════════════════════════════════════════════
           SECTION 7: KONTAKTFORMULAR
+          – "Skriv til Kim"
       ══════════════════════════════════════════════════════ */}
       <section
         id="kontakt"
         style={{
           background: "#F9F8F6",
-          padding: "96px 32px",
+          padding: SECTION_PADDING,
         }}
       >
         <div style={{ maxWidth: "640px", margin: "0 auto" }}>
@@ -720,9 +755,13 @@ export default function KimBondo() {
           >
             Udfyld formularen nedenfor, og Kim vender tilbage hurtigst muligt.
             Du er også altid velkommen til at ringe direkte på{" "}
-            <a href="tel:22211437" style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}>
+            <a
+              href="tel:22211437"
+              style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}
+            >
               22 21 14 37
-            </a>.
+            </a>
+            .
           </p>
           <ContactForm />
         </div>
@@ -766,7 +805,7 @@ export default function KimBondo() {
           style={{
             fontSize: "15px",
             color: "rgba(255,255,255,0.65)",
-            marginBottom: "6px",
+            marginBottom: "32px",
             lineHeight: 1.7,
           }}
         >
@@ -788,7 +827,8 @@ export default function KimBondo() {
             marginBottom: "48px",
           }}
         >
-          Ring direkte til Kim på{" "}<span style={{ whiteSpace: "nowrap" }}>22 21 14 37</span>
+          Ring direkte til Kim på{" "}
+          <span style={{ whiteSpace: "nowrap" }}>22 21 14 37</span>
         </a>
         <p
           style={{
@@ -798,9 +838,19 @@ export default function KimBondo() {
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          <a
+            href="tel:22211437"
+            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+          >
+            Tlf.: 22 21 14 37
+          </a>
           {" "}&nbsp;·&nbsp;{" "}
-          <a href="mailto:kontakt@bedemandkøbenhavn.dk" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>kontakt@bedemandkøbenhavn.dk</a>
+          <a
+            href="mailto:kontakt@bedemandkøbenhavn.dk"
+            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+          >
+            kontakt@bedemandkøbenhavn.dk
+          </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>
       </footer>
