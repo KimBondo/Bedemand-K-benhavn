@@ -123,29 +123,13 @@ export default function KimBondo() {
                 style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover", display: "block" }}
               />
             </div>
-            {/* Billede 2: Placeholder */}
-            <div
-              style={{
-                aspectRatio: "4/3",
-                background: "#eae6df",
-                border: "2px dashed #c8c2b8",
-                borderRadius: "4px",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                gap: "10px",
-                color: "#9a9087",
-              }}
-            >
-              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <path d="m21 15-5-5L5 21" />
-              </svg>
-              <span style={{ fontSize: "13px", fontWeight: 600, letterSpacing: "0.05em", textTransform: "uppercase" }}>
-                Billede 2 kommer snart
-              </span>
+            {/* Billede 2: Kim Bondo med sort rustvogn ved havet */}
+            <div style={{ borderRadius: "4px", overflow: "hidden", boxShadow: "0 4px 20px rgba(0,0,0,0.12)" }}>
+              <img
+                src="/manus-storage/kim-beach-solo_609d5ab7.png"
+                alt="Kim Bondo med sort Mercedes rustvogn ved den danske kyst"
+                style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover", objectPosition: "center", display: "block" }}
+              />
             </div>
           </div>
         </div>
