@@ -748,7 +748,19 @@ export default function KimBondo() {
             letterSpacing: "0.02em",
           }}
         >
-          Kim Bondo – Bedemand København
+          Bedemand København og Nordsjælland
+        </p>
+        <p
+          style={{
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 400,
+            fontSize: "clamp(14px, 1.6vw, 18px)",
+            color: "rgba(255,255,255,0.70)",
+            marginBottom: "16px",
+            letterSpacing: "0.03em",
+          }}
+        >
+          Kim Bondo
         </p>
         <p
           style={{
