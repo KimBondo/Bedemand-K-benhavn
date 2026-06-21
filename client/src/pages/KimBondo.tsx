@@ -385,7 +385,7 @@ export default function KimBondo() {
                   "Hjemmebesøg med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",
                   "Klassisk hvid urne",
-                  "Påklædning og ilægning i kiste (2 pers)",
+                  "Påklædning og ilægning i kiste",
                   "Rustvognskørsel til kisteophold",
                   "Rustvognskørsel fra kisteophold til ceremoni",
                   "Rustvognskørsel fra ceremoni til krematorie",
@@ -404,7 +404,7 @@ export default function KimBondo() {
                 items: [
                   "Hjemmebesøg med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",
-                  "Påklædning og ilægning i kiste (2 pers)",
+                  "Påklædning og ilægning i kiste",
                   "Rustvognskørsel til kisteophold",
                   "Rustvognskørsel fra kisteophold til ceremoni",
                   "Rustvognskørsel fra ceremoni til graven",
@@ -423,7 +423,7 @@ export default function KimBondo() {
                 items: [
                   "100 % bæredygtig, danskproduceret genbrugskiste",
                   "Klassisk hvid urne",
-                  "Påklædning og ilægning i kiste (2 pers)",
+                  "Påklædning og ilægning i kiste",
                   "Rustvognskørsel til krematoriet",
                   "Kontakt til kordegn, krematorie og kirkegård",
                   "Anmodning v/ kirkeministeriet",
