@@ -3,6 +3,7 @@ import SEO from "@/components/SEO";
 /**
  * Kim Bondo – Komplet Prisliste
  * Design: Nordic Quietism — same tokens as KimBondo.tsx
+ * Tone: nærværende, præcis og tryghedsskabende — matches KimBondo.tsx
  */
 
 export default function KimPriser() {
@@ -17,18 +18,21 @@ export default function KimPriser() {
       }}
     >
       <SEO
-        title="Priser – Kim Bondo Bedemand København"
-        description="Gennemsigtige og rimelige priser på begravelse og bisættelse i København og Nordsjælland. Bisættelse fra 20.500 kr., begravelse fra 22.500 kr., afsked uden ceremoni fra 15.500 kr."
+        title="Priser – Kim Bondo Bedemand København og Nordsjælland"
+        description="Gennemsigtige priser uden skjulte gebyrer. Bisættelse fra 20.500 kr., begravelse fra 22.500 kr., afsked uden ceremoni fra 15.500 kr. Alle udgifter gennemgås på forhånd."
         url="https://bedemandkobenhavn.dk/kim-bondo/priser"
       />
+
       {/* ── HEADER ── */}
       <header
         style={{
           background: "#2F3E46",
           padding: "24px 48px",
           display: "flex",
+          flexWrap: "wrap",
           justifyContent: "space-between",
           alignItems: "center",
+          gap: "8px",
         }}
       >
         <a
@@ -42,7 +46,7 @@ export default function KimPriser() {
             letterSpacing: "0.04em",
           }}
         >
-          ← Kim Bondo – Bedemand København
+          ← Bedemand København og Nordsjælland
         </a>
         <a
           href="tel:22211437"
@@ -52,6 +56,7 @@ export default function KimPriser() {
             fontSize: "clamp(13px, 1.4vw, 16px)",
             color: "rgba(255,255,255,0.85)",
             textDecoration: "none",
+            whiteSpace: "nowrap",
           }}
         >
           Tlf: 22 21 14 37
@@ -76,7 +81,7 @@ export default function KimPriser() {
             lineHeight: 1.2,
           }}
         >
-          Priser
+          Gennemskuelige priser
         </h1>
         <p
           style={{
@@ -84,10 +89,12 @@ export default function KimPriser() {
             color: "#3d5260",
             lineHeight: 1.7,
             maxWidth: "640px",
-            margin: "0 auto 28px",
+            margin: "0 auto 32px",
           }}
         >
-          "Hos Kim Bondo er priserne rimelige og gennemsigtige"
+          En værdig afsked skal ikke være forbundet med økonomisk utryghed
+          eller skjulte gebyrer. Her finder I alle priser samlet – klart og
+          uden overraskelser.
         </p>
         <a
           href="tel:22211437"
@@ -104,7 +111,7 @@ export default function KimPriser() {
             letterSpacing: "0.04em",
           }}
         >
-          Ring til Kim: 22 21 14 37
+          Ring til Kim: <span style={{ whiteSpace: "nowrap" }}>22 21 14 37</span>
         </a>
       </section>
 
@@ -123,63 +130,51 @@ export default function KimPriser() {
           >
             Hvad koster en begravelse eller bisættelse?
           </h2>
-          <h3
+          <p
             style={{
-              fontFamily: "'Open Sans', sans-serif",
-              fontWeight: 600,
-              fontSize: "16px",
-              color: "#2F3E46",
-              marginBottom: "12px",
+              fontSize: "15px",
+              color: "#3d5260",
+              lineHeight: 1.85,
+              marginBottom: "20px",
             }}
           >
-            Prisen afhænger blandt andet af:
-          </h3>
-          <ul style={{ listStyle: "none", padding: 0, marginBottom: "24px" }}>
-            {[
-              "Valg af kiste og urne",
-              "Valg af ceremoni",
-              "Transport",
-              "Blomster og annoncer",
-            ].map((item) => (
-              <li
-                key={item}
-                style={{
-                  fontSize: "15px",
-                  color: "#3d5260",
-                  lineHeight: 1.8,
-                  paddingLeft: "16px",
-                }}
-              >
-                – {item}
-              </li>
-            ))}
-          </ul>
+            Prisen afhænger af jeres ønsker og behov. Jeg gennemgår altid alle
+            udgifter med jer, inden vi beslutter noget – så I ved præcis, hvad I
+            siger ja til. Jeg søger desuden begravelseshjælp på jeres vegne, som
+            indsættes direkte på jeres NemKonto.
+          </p>
+          <p
+            style={{
+              fontSize: "15px",
+              color: "#3d5260",
+              lineHeight: 1.85,
+              marginBottom: "24px",
+            }}
+          >
+            De vigtigste faktorer for den samlede pris er valg af kiste og urne,
+            ceremonitype, transport samt eventuelle blomster og annoncer.
+          </p>
           <div
             style={{
               background: "#ffffff",
               border: "1px solid #e0dcd6",
               borderRadius: "4px",
               padding: "28px 32px",
-              marginBottom: "24px",
             }}
           >
             <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-              <strong>Bisættelse fra ca. 20.000 kr.</strong>
+              <strong>Bisættelse fra 20.500 kr.</strong>
             </p>
             <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-              <strong>Begravelse fra ca. 22.000 kr.</strong>
+              <strong>Begravelse fra 22.500 kr.</strong>
             </p>
-            <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8 }}>
-              Jeg gennemgår altid alle udgifter med dig, så du ved, hvad du siger ja til.
-              Jeg søger begravelseshjælp til dig, som indsættes direkte på din NemKonto.
+            <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
+              <strong>Afsked uden ceremoni fra 15.500 kr.</strong>
+            </p>
+            <p style={{ fontSize: "14px", color: "#7a8f99", lineHeight: 1.7, marginTop: "12px", fontStyle: "italic" }}>
+              Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
             </p>
           </div>
-          <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-            <strong>Gennemsigtighed og tryghed</strong>
-          </p>
-          <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8 }}>
-            Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
-          </p>
         </section>
 
         <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", marginBottom: "64px" }} />
@@ -187,12 +182,13 @@ export default function KimPriser() {
         {/* ── 3 SCENARIO PACKAGES ── */}
         {[
           {
-            title: "Bisættelse",
-            price: "Pris fra: 20.500 kr.",
+            title: "Den enkle bisættelse",
+            subtitle: "Højtideligheden holdes i et kapel eller en kirke, efterfulgt af kremering.",
+            price: "Fra 20.500 kr.",
             items: [
               "Hjemmebesøg med planlægning af forløbet",
-              "Klassisk hvid kiste",
-              "Urne",
+              "100 % bæredygtig, danskproduceret genbrugskiste",
+              "Klassisk hvid urne",
               "Påklædning og ilægning i kiste (2 pers)",
               "Rustvognskørsel til kisteophold",
               "Rustvognskørsel fra kisteophold til ceremoni",
@@ -200,16 +196,17 @@ export default function KimPriser() {
               "Kontakt til kordegn, præst, krematorie og kirkegård",
               "Anmodning v/ kirkeministeriet",
               "Ansøgning om begravelseshjælp",
-              "Ceremonivært ved bisættelsen med fremmøde en time før",
+              "Ceremonivært ved bisættelsen – fremmøde en time før",
               "Udlægning af blomster på graven",
             ],
           },
           {
-            title: "Begravelse",
-            price: "Pris fra: 22.500 kr.",
+            title: "Den traditionelle begravelse",
+            subtitle: "Kisten sænkes i jorden på en kirkegård eller en skovbegravelsesplads.",
+            price: "Fra 22.500 kr.",
             items: [
               "Hjemmebesøg med planlægning af forløbet",
-              "Klassisk hvid kiste",
+              "100 % bæredygtig, danskproduceret genbrugskiste",
               "Påklædning og ilægning i kiste (2 pers)",
               "Rustvognskørsel til kisteophold",
               "Rustvognskørsel fra kisteophold til ceremoni",
@@ -217,16 +214,17 @@ export default function KimPriser() {
               "Kontakt til kordegn, præst og kirkegård",
               "Anmodning v/ kirkeministeriet",
               "Ansøgning om begravelseshjælp",
-              "Ceremonivært ved begravelsen med fremmøde en time før",
+              "Ceremonivært ved begravelsen – fremmøde en time før",
               "Udlægning af blomster på graven",
             ],
           },
           {
             title: "Afsked uden ceremoni",
-            price: "Pris fra: 15.500 kr.",
+            subtitle: "Direkte kremering uden højtidelighed – enkel, værdig og uden unødige udgifter.",
+            price: "Fra 15.500 kr.",
             items: [
-              "Klassisk hvid kiste",
-              "Urne",
+              "100 % bæredygtig, danskproduceret genbrugskiste",
+              "Klassisk hvid urne",
               "Påklædning og ilægning i kiste (2 pers)",
               "Rustvognskørsel til krematoriet",
               "Kontakt til kordegn, krematorie og kirkegård",
@@ -242,11 +240,22 @@ export default function KimPriser() {
                 fontWeight: 600,
                 fontSize: "clamp(20px, 2.5vw, 28px)",
                 color: "#2F3E46",
-                marginBottom: "16px",
+                marginBottom: "8px",
               }}
             >
               {pkg.title}
             </h2>
+            <p
+              style={{
+                fontSize: "14px",
+                color: "#7a8f99",
+                lineHeight: 1.6,
+                marginBottom: "20px",
+                fontStyle: "italic",
+              }}
+            >
+              {pkg.subtitle}
+            </p>
             <ul style={{ listStyle: "none", padding: 0, marginBottom: "20px" }}>
               {pkg.items.map((item) => (
                 <li
@@ -297,18 +306,30 @@ export default function KimPriser() {
               fontWeight: 600,
               fontSize: "clamp(22px, 3vw, 32px)",
               color: "#2F3E46",
+              marginBottom: "12px",
+            }}
+          >
+            Alle enkeltpriser
+          </h2>
+          <p
+            style={{
+              fontSize: "15px",
+              color: "#3d5260",
+              lineHeight: 1.85,
               marginBottom: "40px",
             }}
           >
-            Priser
-          </h2>
+            Nedenfor finder I en komplet oversigt over alle enkeltpriser. Har I
+            spørgsmål til en specifik post, er I altid velkomne til at ringe –
+            uanset tidspunktet.
+          </p>
 
           {[
             {
               heading: "Kiste og urne",
               rows: [
-                ["Klassisk hvid kiste", "6.200 kr."],
-                ["Klassisk Urne", "1.200 kr."],
+                ["Klassisk hvid kiste (100 % bæredygtig, danskproduceret)", "6.200 kr."],
+                ["Klassisk hvid urne", "1.200 kr."],
               ],
             },
             {
@@ -320,44 +341,44 @@ export default function KimPriser() {
               ],
             },
             {
-              heading: "Blomster krans eller blomsterhjerte",
-              rows: [["Blomster krans eller blomsterhjerte", "2.500 kr."]],
+              heading: "Blomsterkrans eller blomsterhjerte",
+              rows: [["Blomsterkrans eller blomsterhjerte", "2.500 kr."]],
             },
             {
               heading: "Tilkøb",
               rows: [
                 ["Tilkøb af silkebånd – \"en sidste hilsen\"", "300 kr."],
-                ["10 stk. farvel roser til rustvognen", "500 kr."],
+                ["10 stk. farvelroser til rustvognen", "500 kr."],
               ],
             },
             {
               heading: "Honorar ved begravelse eller bisættelse",
-              note: "Honoraret dækker al kontakt med pårørende igennem hele begravelsesforløbet. Håndtering af papirarbejde, herunder anmeldelse til hjemsogn og ansøgning om kommunal begravelseshjælp. Kontakt til og koordinering med præst og kirke eller kapel, kirkegård mv.",
+              note: "Honoraret dækker al kontakt med pårørende gennem hele forløbet, håndtering af papirarbejde – herunder anmeldelse til hjemsogn og ansøgning om kommunal begravelseshjælp – samt koordinering med præst, kirke eller kapel og kirkegård.",
               rows: [["Honorar ved begravelse eller bisættelse", "4.500 kr."]],
             },
             {
-              heading: "Honorar ved direkte kremering – dvs. uden ceremoni",
-              note: "Honoraret dækker al kontakt med pårørende igennem hele begravelsesforløbet. Håndtering af papirarbejde, herunder anmeldelse til hjemsogn og ansøgning om kommunal begravelseshjælp. Kontakt til og koordinering med kirkegård mv.",
-              rows: [["Honorar ved direkte kremering – dvs. uden ceremoni", "3.500 kr."]],
+              heading: "Honorar ved afsked uden ceremoni (direkte kremering)",
+              note: "Honoraret dækker al kontakt med pårørende gennem hele forløbet, håndtering af papirarbejde – herunder anmeldelse til hjemsogn og ansøgning om kommunal begravelseshjælp – samt koordinering med kirkegård.",
+              rows: [["Honorar ved direkte kremering", "3.500 kr."]],
             },
             {
               heading: "Afhentning og ilægning i kiste",
-              note: "(50 % tillæg efter kl. 16.00 på hverdage + weekend og helligdage)",
+              note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
               rows: [["Afhentning og ilægning i kiste", "2.500 kr."]],
             },
             {
-              heading: "Kørsel med rustvogn (én kørsel, inkl. 20 km.)",
-              note: "(50 % tillæg efter kl. 16.00 på hverdage + weekend og helligdage)",
+              heading: "Kørsel med rustvogn (én kørsel, inkl. 20 km)",
+              note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
               rows: [["Rustvognskørsel", "2.000 kr."]],
             },
             {
-              heading: "Andet",
+              heading: "Øvrige ydelser",
               rows: [
                 ["Blomsterkørsel og udlægning på kirkegård", "900 kr."],
                 ["Urnekørsel (fra krematoriet til kirkegårdskontor)", "900 kr."],
                 ["Afhentning af dødsattest hos politiet", "900 kr."],
                 ["Fremvisning i kapel", "900 kr."],
-                ["Ekstern præst/ceremonileder", "3.300 kr."],
+                ["Ekstern præst eller ceremonileder", "3.300 kr."],
                 ["Dødsannonce – udarbejdelse og indrykning", "400 kr."],
                 ["Sangblade, bestilling fra ekstern leverandør", "400 kr. (tilbud indhentes)"],
                 ["Rådgivning og udarbejdelse af \"Min Sidste Vilje\" (hjemmebesøg)", "2.400 kr."],
@@ -365,8 +386,9 @@ export default function KimPriser() {
             },
             {
               heading: "Samtaler om døden, afskeden og tiden derefter",
+              note: "Disse samtaler er for dem, der ønsker at forberede sig – eller tale med en, der har erfaring med de svære spørgsmål.",
               rows: [
-                ["\"Den svære samtale – et vigtigt farvel\" – en par-, forældre- eller familiesamtale", "2 timer – 2.500 kr."],
+                ["\"Den svære samtale – et vigtigt farvel\" – par-, forældre- eller familiesamtale", "2 timer – 2.500 kr."],
                 ["\"Min sidste vilje\" – en individuel samtale om dine personlige ønsker", "2 timer – 1.800 kr."],
               ],
             },
@@ -446,7 +468,7 @@ export default function KimPriser() {
               background: "#f0ede8",
               borderRadius: "4px",
               padding: "28px 32px",
-              marginBottom: "24px",
+              marginBottom: "32px",
             }}
           >
             <p
@@ -455,17 +477,17 @@ export default function KimPriser() {
                 fontWeight: 600,
                 fontSize: "16px",
                 color: "#2F3E46",
-                marginBottom: "8px",
+                marginBottom: "12px",
               }}
             >
-              Vær altid opmærksom på udgifter til:
+              Vær opmærksom på disse udgifter, som ikke er inkluderet:
             </p>
             {[
               "Gravsten",
               "Gravsted",
               "Leje af kapel",
               "Kisteophold – prisen varierer",
-              "Urne nedsættelsen",
+              "Urnenedsættelse",
               "Kremering",
             ].map((item) => (
               <p
@@ -480,6 +502,18 @@ export default function KimPriser() {
                 – {item}
               </p>
             ))}
+            <p
+              style={{
+                fontSize: "13px",
+                color: "#7a8f99",
+                lineHeight: 1.7,
+                marginTop: "12px",
+                fontStyle: "italic",
+              }}
+            >
+              Jeg hjælper jer med at indhente tilbud og holde overblikket over
+              alle udgifter – også dem, der ikke er en del af mit honorar.
+            </p>
           </div>
 
           <h3
@@ -493,8 +527,10 @@ export default function KimPriser() {
           >
             Dødsannoncer
           </h3>
-          <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "24px" }}>
-            Kim Bondo bistår gerne med indrykning af dødsannonce i trykte aviser og på portalen Afdøde.dk.
+          <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.85, marginBottom: "28px" }}>
+            Jeg hjælper gerne med indrykning af dødsannonce i trykte aviser og
+            på portalen Afdøde.dk – så I ikke skal bekymre jer om det praktiske
+            i en i forvejen svær tid.
           </p>
 
           <h3
@@ -508,9 +544,11 @@ export default function KimPriser() {
           >
             Sangblade
           </h3>
-          <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8 }}>
-            Mange ønsker at synge sange, som ikke fremgår i Den Danske Salmebog.
-            Kim Bondo hjælper gerne med udarbejdelse af trykte sanghæfter, så de helt rigtige sange kan synges til ceremonien.
+          <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.85 }}>
+            Mange ønsker at synge sange, der ikke fremgår af Den Danske
+            Salmebog. Jeg hjælper med udarbejdelse af trykte sanghæfter, så de
+            helt rigtige sange kan synges til ceremonien – præcis som I ønsker
+            det.
           </p>
         </section>
 
@@ -519,7 +557,7 @@ export default function KimPriser() {
           style={{
             background: "#eae6df",
             borderRadius: "4px",
-            padding: "40px 36px",
+            padding: "48px 40px",
             marginBottom: "64px",
             textAlign: "center",
           }}
@@ -530,10 +568,11 @@ export default function KimPriser() {
               fontWeight: 600,
               fontSize: "clamp(20px, 2.5vw, 28px)",
               color: "#2F3E46",
-              marginBottom: "16px",
+              marginBottom: "20px",
+              lineHeight: 1.3,
             }}
           >
-            Ethvert menneske er unikt og det kan afskeden også være
+            Ethvert menneske er unikt – og det kan afskeden også være
           </h2>
           <p
             style={{
@@ -541,13 +580,14 @@ export default function KimPriser() {
               color: "#3d5260",
               lineHeight: 1.85,
               maxWidth: "620px",
-              margin: "0 auto 28px",
+              margin: "0 auto 32px",
             }}
           >
-            Som din bedemand hjælper jeg både med traditionelle og mere personlige begravelser og bisættelser.
-            Det levede liv kan udtrykkes på mange måder, og jeg vil altid gøre mit bedste for at afskeden
-            kommer til at foregå helt efter jeres ønsker og behov. Jeg sørger for at rådgive jer grundigt,
-            så vi sammen kan planlægge et fint farvel. Jeg kommer til jer, eller I kommer til mig.
+            Jeg hjælper med både traditionelle og mere personlige afskeder. Det
+            levede liv kan udtrykkes på mange måder, og jeg vil altid gøre mit
+            bedste for, at afskeden foregår præcis efter jeres ønsker og behov.
+            Jeg kommer til jer, eller I kommer til mig – hvad der føles rigtigst
+            for jer.
           </p>
           <a
             href="tel:22211437"
@@ -564,7 +604,7 @@ export default function KimPriser() {
               letterSpacing: "0.04em",
             }}
           >
-            Ring gerne – uforpligtende prisoverslag
+            Ring – uforpligtende og uanset tidspunktet
           </a>
         </section>
       </div>
@@ -583,16 +623,24 @@ export default function KimPriser() {
             fontFamily: "'Lora', serif",
             fontWeight: 600,
             fontSize: "clamp(16px, 2vw, 22px)",
-            marginBottom: "12px",
+            marginBottom: "8px",
           }}
         >
-          Kim Bondo – Bedemand København
+          Bedemand København og Nordsjælland
         </p>
-        <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.6)", marginBottom: "4px" }}>
+        <p
+          style={{
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 400,
+            fontSize: "clamp(13px, 1.4vw, 16px)",
+            color: "rgba(255,255,255,0.65)",
+            marginBottom: "20px",
+          }}
+        >
+          Kim Bondo
+        </p>
+        <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.6)", marginBottom: "32px" }}>
           Vandtårnsvej 62A, 2860 Søborg
-        </p>
-        <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.6)", marginBottom: "36px" }}>
-          Tlf: 22 21 14 37
         </p>
         <a
           href="tel:22211437"
@@ -610,10 +658,15 @@ export default function KimPriser() {
             marginBottom: "40px",
           }}
         >
-          Ring direkte til Kim på 22 21 14 37
+          Ring direkte til Kim på{" "}
+          <span style={{ whiteSpace: "nowrap" }}>22 21 14 37</span>
         </a>
         <p style={{ fontSize: "12px", color: "rgba(255,255,255,0.3)", marginTop: "16px" }}>
-          © {new Date().getFullYear()} Bedemand København og Nordsjælland
+          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
+          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.35)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a href="mailto:kontakt@bedemandkøbenhavn.dk" style={{ color: "rgba(255,255,255,0.35)", textDecoration: "underline" }}>kontakt@bedemandkøbenhavn.dk</a>
+          {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>
       </footer>
     </div>
