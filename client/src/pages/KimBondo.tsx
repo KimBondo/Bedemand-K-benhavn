@@ -349,7 +349,7 @@ export default function KimBondo() {
       <section
         id="prisscenarier"
         style={{
-          background: "#f0ede8",
+          background: "#F9F8F6",
           padding: "64px 32px 96px",
         }}
       >
@@ -677,7 +677,7 @@ export default function KimBondo() {
       ══════════════════════════════════════════════════════ */}
       <section
         style={{
-          background: "#eae6df",
+          background: "#F9F8F6",
           padding: SECTION_PADDING,
           textAlign: "center",
         }}

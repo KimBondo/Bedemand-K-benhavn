@@ -66,7 +66,7 @@ export default function KimPriser() {
       {/* ── HERO TITLE ── */}
       <section
         style={{
-          background: "#eae6df",
+          background: "#F9F8F6",
           padding: "72px 32px 56px",
           textAlign: "center",
         }}
@@ -458,7 +458,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "64px" }}>
           <div
             style={{
-              background: "#f0ede8",
+              background: "#F9F8F6",
               borderRadius: "4px",
               padding: "28px 32px",
               marginBottom: "32px",
@@ -548,7 +548,7 @@ export default function KimPriser() {
         {/* ── PERSONAL TOUCH ── */}
         <section
           style={{
-            background: "#eae6df",
+            background: "#F9F8F6",
             borderRadius: "4px",
             padding: "48px 40px",
             marginBottom: "64px",
