@@ -798,7 +798,7 @@ export default function KimBondo() {
             marginBottom: "48px",
           }}
         >
-          Ring direkte til Kim på 22 21 14 37
+          Ring direkte til Kim på{" "}<span style={{ whiteSpace: "nowrap" }}>22 21 14 37</span>
         </a>
         <p
           style={{
