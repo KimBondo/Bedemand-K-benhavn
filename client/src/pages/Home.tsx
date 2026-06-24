@@ -118,7 +118,7 @@ export default function Home() {
               websiteLabel="Gå til Maries hjemmeside"
               websiteHref="http://mariesbegravelser.dk"
               initials="MT"
-              portraitSrc="/manus-storage/marie-thjellesen-portrait-v2_245cad26.webp"
+              portraitSrc="/manus-storage/marie-thjellesen_51f59ea0.webp"
               portraitAlt="Marie Thjellesen – Bedemand"
             />
             <DirectorColumn
