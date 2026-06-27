@@ -235,7 +235,7 @@ export default function KimBondo() {
 dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
             behøv – som et nærværende menneske med tid og rum til det, I har brug for. Med mange års erfaring i
             at lytte til og rumme mennesker i svære livsfæser, tager jeg mig den
-            tid, det kræver at bære det tunge, så I kan trække vejret.
+            tid, det kræver at bære det tunge, så I kan koncentrere jer om andre ting.
           </p>
         </div>
       </section>
