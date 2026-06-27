@@ -379,8 +379,8 @@ export default function KimBondo() {
               {
                 title: "Den enkle bisættelse",
                 subtitle:
-                  "Fra 18.500 kr. hvis afdøde ligger på hospital og kan køres direkte til ceremoni.",
-                price: "Fra 18.500 kr.",
+                  "Fra 17.395 kr. hvis afdøde ligger på hospital og kan køres direkte til ceremoni.",
+                price: "Fra 17.395 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret kiste lavet af genbrugsmaterialer",
@@ -392,7 +392,6 @@ export default function KimBondo() {
                   "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
                   "Ceremonivært ved bisættelsen – fremmøde en time før",
-                  "Udlægning af blomster på graven",
                 ],
               },
               {
