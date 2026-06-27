@@ -379,14 +379,13 @@ export default function KimBondo() {
               {
                 title: "Den enkle bisættelse",
                 subtitle:
-                  "Højtideligheden holdes i et kapel eller en kirke, efterfulgt af kremering.",
-                price: "Fra 20.500 kr.",
+                  "Fra 18.500 kr. hvis afdøde ligger på hospital og kan køres direkte til ceremoni.",
+                price: "Fra 18.500 kr.",
                 items: [
-                  "Hjemmebesøg med planlægning af forløbet",
-                  "100 % bæredygtig, danskproduceret genbrugskiste",
-                  "Klassisk hvid urne",
+                  "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
+                  "100 % bæredygtig, danskproduceret kiste lavet af genbrugsmaterialer",
+                  "Klassisk hvid bionedbrydelig urne",
                   "Påklædning og ilægning i kiste",
-                  "Rustvognskørsel til kisteophold",
                   "Rustvognskørsel fra kisteophold til ceremoni",
                   "Rustvognskørsel fra ceremoni til krematorie",
                   "Kontakt til kordegn, præst, krematorie og kirkegård",
