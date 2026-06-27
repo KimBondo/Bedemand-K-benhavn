@@ -10,7 +10,7 @@ import SEO from "@/components/SEO";
  *   1. Hero — headline + underheadline + kystbillede (beach/hearse)
  *   2. Introduktion — "Tryghed og god energi…" + haven-kiste billede
  *   3. Bæredygtighed — "Omsorg for naturen – Bæredygtig afsked"
- *   4. Priser intro + 3 prisscenarier (ingen tekst imellem)
+ *   4. Priser intro + 3 priseksempler (ingen tekst imellem)
  *   5. Logistik — "Den sikre logistik" + "Friheden til at vælge" + rådhuspladsbillede
  *   6. Livets overgange — "En brik i livets store overgange"
  *   7. Kontaktformular — "Skriv til Kim"
@@ -307,7 +307,7 @@ export default function KimBondo() {
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
 
       {/* ══════════════════════════════════════════════════════
-          SECTION 4: ØKONOMI – intro direkte efterfulgt af 3 prisscenarier
+          SECTION 4: ØKONOMI – intro direkte efterfulgt af 3 priseksempler
       ══════════════════════════════════════════════════════ */}
       <section
         style={{
@@ -347,7 +347,7 @@ export default function KimBondo() {
 
       {/* 3 PRISSCENARIER – direkte under intro, ingen tekst imellem */}
       <section
-        id="prisscenarier"
+        id="priseksempler"
         style={{
           background: "#F9F8F6",
           padding: "64px 32px 96px",
@@ -365,7 +365,7 @@ export default function KimBondo() {
               lineHeight: 1.3,
             }}
           >
-            Vores 3 prisscenarier
+            Vores 3 priseksempler
           </h2>
 
           <div
