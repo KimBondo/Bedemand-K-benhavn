@@ -636,7 +636,7 @@ export default function KimBondo() {
               krisehåndtering og svære samtaler. Samtidig garanterer jeg en
               fuldstændig tryg og sikker afvikling af alt det praktiske. Jeg har
               altid helt styr på drejebogen, rustvognskørslen og den præcise
-              koordinering mellem kirker, kapeller og krematorier. Alt det
+              koordinering med myndigheder, kirker, kapeller og krematorier. Alt det
               praktiske glider lydløst i baggrunden, så I roligt kan sænke
               skuldrene og vide, at der er 100 % tjek på detaljerne.
             </p>
