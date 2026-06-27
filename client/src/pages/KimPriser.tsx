@@ -324,65 +324,60 @@ export default function KimPriser() {
 
           {[
             {
-              heading: "Kiste og urne",
+              heading: "1. Kiste og urne",
               rows: [
                 ["Klassisk hvid kiste (100 % bæredygtig, danskproduceret)", "6.200 kr."],
                 ["Klassisk hvid bionedbrydelig urne", "1.200 kr."],
               ],
             },
             {
-              heading: "Kistepynt",
+              heading: "2. Afhentning og klargøring",
+              note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
               rows: [
-                ["Lille", "2.500 kr."],
-                ["Mellem", "3.000 kr."],
-                ["Stor", "3.500 kr."],
+                ["Afhentning og ilægning i kiste", "2.500 kr."],
               ],
             },
             {
-              heading: "Blomsterkrans eller blomsterhjerte",
-              rows: [["Blomsterkrans eller blomsterhjerte", "2.500 kr."]],
+              heading: "3. Transport",
+              note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage. Rustvognskørsel inkluderer én kørsel med 20 km.",
+              rows: [
+                ["Rustvognskørsel (én kørsel, inkl. 20 km)", "2.000 kr."],
+                ["Urnekørsel (fra krematoriet til kirkegårdskontor)", "900 kr."],
+                ["Blomsterkørsel og udlægning på kirkegård", "1.195 kr."],
+              ],
             },
             {
-              heading: "Tilkøb",
+              heading: "4. Blomster og pynt",
               rows: [
-                ["Tilkøb af silkebånd – \"en sidste hilsen\"", "300 kr."],
+                ["Kistepynt (lille)", "2.500 kr."],
+                ["Kistepynt (mellem)", "3.000 kr."],
+                ["Kistepynt (stor)", "3.500 kr."],
+                ["Blomsterkrans eller blomsterhjerte", "2.500 kr."],
+                ["Silkebånd – \"en sidste hilsen\"", "300 kr."],
                 ["10 stk. farvelroser til rustvognen", "500 kr."],
               ],
             },
             {
-              heading: "Honorar ved begravelse eller bisættelse",
-              note: "Honoraret dækker al kontakt med pårørende gennem hele forløbet, håndtering af papirarbejde – herunder anmeldelse til hjemsogn og ansøgning om kommunal begravelseshjælp – samt koordinering med præst, kirke eller kapel og kirkegård.",
-              rows: [["Honorar ved begravelse eller bisættelse", "4.500 kr."]],
-            },
-            {
-              heading: "Honorar ved afsked uden ceremoni (direkte kremering)",
-              note: "Honoraret dækker al kontakt med pårørende gennem hele forløbet, håndtering af papirarbejde – herunder anmeldelse til hjemsogn og ansøgning om kommunal begravelseshjælp – samt koordinering med kirkegård.",
-              rows: [["Honorar ved direkte kremering", "3.500 kr."]],
-            },
-            {
-              heading: "Afhentning og ilægning i kiste",
-              note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
-              rows: [["Afhentning og ilægning i kiste", "2.500 kr."]],
-            },
-            {
-              heading: "Kørsel med rustvogn (én kørsel, inkl. 20 km)",
-              note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
-              rows: [["Rustvognskørsel", "2.000 kr."]],
-            },
-            {
-              heading: "Øvrige ydelser",
+              heading: "5. Ceremoni og koordinering",
+              note: "Honoraret dækker al kontakt med pårørende gennem hele forløbet, håndtering af papirarbejde – herunder anmeldelse til hjemsogn og ansøgning om kommunal begravelseshjælp – samt koordinering med myndigheder, kirker, kapeller og krematorier.",
               rows: [
-                ["Blomsterkørsel og udlægning på kirkegård", "1.195 kr."],
-                ["Urnekørsel (fra krematoriet til kirkegårdskontor)", "900 kr."],
-                ["Afhentning af dødsattest hos politiet", "900 kr."],
+                ["Honorar ved begravelse eller bisættelse", "4.500 kr."],
+                ["Honorar ved afsked uden ceremoni (direkte kremering)", "3.500 kr."],
+              ],
+            },
+            {
+              heading: "6. Øvrige ydelser",
+              rows: [
                 ["Fremvisning i kapel", "900 kr."],
                 ["Ekstern præst eller ceremonileder", "3.300 kr."],
+                ["Afhentning af dødsattest hos politiet", "900 kr."],
                 ["Dødsannonce – udarbejdelse og indrykning", "400 kr."],
                 ["Sangblade, bestilling fra ekstern leverandør", "400 kr. (tilbud indhentes)"],
                 ["Rådgivning og udarbejdelse af \"Min Sidste Vilje\" (hjemmebesøg)", "Gratis"],
               ],
             },
 
+          
           ].map((section) => (
             <div key={section.heading} style={{ marginBottom: "40px" }}>
               <h3
