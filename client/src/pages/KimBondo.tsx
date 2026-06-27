@@ -222,10 +222,7 @@ export default function KimBondo() {
               marginBottom: "20px",
             }}
           >
-            Når vi mister en, vi har kær, opstår der ofte et øjeblikkeligt kaos
-            af praktiske spørgsmål og dybe følelser. Min vigtigste opgave er at
-            træde ind ad døren hos jer og straks skabe et rum med ro, overblik
-            og god energi.
+            Når vi mister en, vi har kær, opstår der ofte et øjeblikkeligt kaos af praktiske spørgsmål og dybe følelser. Min vigtigste opgave – uanset om vi mødes hjemme hos jer eller taler i telefon – er at skabe et rum med ro, overblik og god energi.
           </p>
           <p
             style={{
