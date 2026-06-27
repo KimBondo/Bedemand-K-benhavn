@@ -232,10 +232,9 @@ export default function KimBondo() {
             }}
           >
             Jeg møder jer præcis der, hvor I er. Hvad enten sorgen kalder på
-            dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
-            behov. Her bliver I ikke mødt af et stift system eller en fortravlet
-            dagsorden, men af et nærværende menneske. Med mange års erfaring i
-            at lytte til og rumme mennesker i svære livsfaser, tager jeg mig den
+dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
+            behøv – som et nærværende menneske med tid og rum til det, I har brug for. Med mange års erfaring i
+            at lytte til og rumme mennesker i svære livsfæser, tager jeg mig den
             tid, det kræver at bære det tunge, så I kan trække vejret.
           </p>
         </div>
