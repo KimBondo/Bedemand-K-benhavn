@@ -1,4 +1,5 @@
 import ContactForm from "@/components/ContactForm";
+import { useState } from "react";
 import SEO from "@/components/SEO";
 
 /**
@@ -20,6 +21,7 @@ import SEO from "@/components/SEO";
 const SECTION_PADDING = "96px 32px";
 
 export default function KimBondo() {
+  const [openCard, setOpenCard] = useState<number | null>(null);
   return (
     <div
       style={{
@@ -424,107 +426,146 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                   "Ansøgning om begravelseshjælp",
                 ],
               },
-            ].map((card) => (
+            ].map((card, idx) => {
+              const isOpen = openCard === idx;
+              return (
               <div
                 key={card.title}
                 style={{
                   background: "#ffffff",
                   borderRadius: "4px",
-                  padding: "40px 32px",
                   boxShadow: "0 2px 16px rgba(47,62,70,0.07)",
-                  display: "flex",
-                  flexDirection: "column",
+                  overflow: "hidden",
                 }}
               >
-                <h3
+                {/* Collapsed header — always visible */}
+                <button
+                  onClick={() => setOpenCard(isOpen ? null : idx)}
                   style={{
-                    fontFamily: "'Lora', serif",
-                    fontWeight: 600,
-                    fontSize: "clamp(18px, 2vw, 22px)",
-                    color: "#2F3E46",
-                    marginBottom: "12px",
-                    lineHeight: 1.3,
+                    width: "100%",
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
+                    padding: "32px",
+                    textAlign: "left",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "16px",
                   }}
                 >
-                  {card.title}
-                </h3>
-                <p
-                  style={{
-                    fontSize: "14px",
-                    color: "#7a8f99",
-                    lineHeight: 1.6,
-                    marginBottom: "24px",
-                    fontStyle: "italic",
-                  }}
-                >
-                  {card.subtitle}
-                </p>
-                <p
-                  style={{
-                    fontFamily: "'Lora', serif",
-                    fontWeight: 700,
-                    fontSize: "clamp(20px, 2.2vw, 26px)",
-                    color: "#2F3E46",
-                    marginBottom: "24px",
-                    letterSpacing: "0.01em",
-                  }}
-                >
-                  {card.price}
-                </p>
-                <ul
-                  style={{
-                    listStyle: "none",
-                    padding: 0,
-                    margin: "0 0 32px 0",
-                    flex: 1,
-                  }}
-                >
-                  {card.items.map((item) => (
-                    <li
-                      key={item}
+                  <div style={{ flex: 1 }}>
+                    <h3
                       style={{
-                        fontSize: "15px",
-                        color: "#3d5260",
-                        lineHeight: 1.75,
-                        paddingLeft: "22px",
-                        marginBottom: "10px",
-                        position: "relative",
+                        fontFamily: "'Lora', serif",
+                        fontWeight: 600,
+                        fontSize: "clamp(18px, 2vw, 22px)",
+                        color: "#2F3E46",
+                        marginBottom: "6px",
+                        lineHeight: 1.3,
                       }}
                     >
-                      <span
-                        style={{
-                          position: "absolute",
-                          left: 0,
-                          color: "#84A98C",
-                          fontWeight: 700,
-                        }}
-                      >
-                        ✓
-                      </span>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-                <a
-                  href="tel:22211437"
-                  style={{
-                    display: "block",
-                    textAlign: "center",
-                    background: "#84A98C",
-                    color: "#ffffff",
-                    fontFamily: "'Open Sans', sans-serif",
-                    fontWeight: 600,
-                    fontSize: "14px",
-                    padding: "13px 20px",
-                    borderRadius: "3px",
-                    textDecoration: "none",
-                    letterSpacing: "0.04em",
-                  }}
-                >
-                  Vælg dette scenarie
-                </a>
+                      {card.title}
+                    </h3>
+                    <p
+                      style={{
+                        fontFamily: "'Lora', serif",
+                        fontWeight: 700,
+                        fontSize: "clamp(18px, 2vw, 22px)",
+                        color: "#84A98C",
+                        margin: 0,
+                      }}
+                    >
+                      {card.price}
+                    </p>
+                  </div>
+                  <span
+                    style={{
+                      fontSize: "28px",
+                      color: "#84A98C",
+                      fontWeight: 300,
+                      lineHeight: 1,
+                      display: "inline-block",
+                      transform: isOpen ? "rotate(45deg)" : "rotate(0deg)",
+                      transition: "transform 220ms ease",
+                      flexShrink: 0,
+                    }}
+                  >
+                    +
+                  </span>
+                </button>
+
+                {/* Expandable content */}
+                {isOpen && (
+                  <div style={{ padding: "0 32px 32px" }}>
+                    <p
+                      style={{
+                        fontSize: "14px",
+                        color: "#7a8f99",
+                        lineHeight: 1.6,
+                        marginBottom: "20px",
+                        fontStyle: "italic",
+                        borderTop: "1px solid #e0dcd6",
+                        paddingTop: "20px",
+                      }}
+                    >
+                      {card.subtitle}
+                    </p>
+                    <ul
+                      style={{
+                        listStyle: "none",
+                        padding: 0,
+                        margin: "0 0 28px 0",
+                      }}
+                    >
+                      {card.items.map((item) => (
+                        <li
+                          key={item}
+                          style={{
+                            fontSize: "15px",
+                            color: "#3d5260",
+                            lineHeight: 1.75,
+                            paddingLeft: "22px",
+                            marginBottom: "10px",
+                            position: "relative",
+                          }}
+                        >
+                          <span
+                            style={{
+                              position: "absolute",
+                              left: 0,
+                              color: "#84A98C",
+                              fontWeight: 700,
+                            }}
+                          >
+                            ✓
+                          </span>
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                    <a
+                      href="tel:22211437"
+                      style={{
+                        display: "block",
+                        textAlign: "center",
+                        background: "#84A98C",
+                        color: "#ffffff",
+                        fontFamily: "'Open Sans', sans-serif",
+                        fontWeight: 600,
+                        fontSize: "14px",
+                        padding: "13px 20px",
+                        borderRadius: "3px",
+                        textDecoration: "none",
+                        letterSpacing: "0.04em",
+                      }}
+                    >
+                      Ring til Kim
+                    </a>
+                  </div>
+                )}
               </div>
-            ))}
+            );})}
           </div>
 
           <p
