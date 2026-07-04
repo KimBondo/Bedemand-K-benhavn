@@ -569,7 +569,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                       ))}
                     </ul>
                     <a
-                      href="tel:22211437"
+                      href="#kontakt"
                       style={{
                         display: "block",
                         textAlign: "center",
@@ -584,12 +584,68 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                         letterSpacing: "0.04em",
                       }}
                     >
-                      Ring til Kim
+                      Kontakt mig
                     </a>
                   </div>
                 )}
               </div>
             );})}
+          </div>
+
+          {/* ── IKKE INKLUDERET ── */}
+          <div
+            style={{
+              background: "#F9F8F6",
+              borderRadius: "4px",
+              padding: "28px 32px",
+              marginTop: "40px",
+              maxWidth: "640px",
+              margin: "40px auto 0",
+            }}
+          >
+            <p
+              style={{
+                fontFamily: "'Lora', serif",
+                fontWeight: 600,
+                fontSize: "16px",
+                color: "#2F3E46",
+                marginBottom: "12px",
+              }}
+            >
+              Vær opmærksom på disse udgifter, som ikke er inkluderet:
+            </p>
+            {[
+              "Gravsten",
+              "Gravsted",
+              "Leje af kapel",
+              "Kisteophold – prisen varierer",
+              "Urnenedsættelse",
+              "Kremering",
+            ].map((item) => (
+              <p
+                key={item}
+                style={{
+                  fontSize: "14px",
+                  color: "#3d5260",
+                  lineHeight: 1.7,
+                  paddingLeft: "12px",
+                }}
+              >
+                – {item}
+              </p>
+            ))}
+            <p
+              style={{
+                fontSize: "13px",
+                color: "#7a8f99",
+                lineHeight: 1.7,
+                marginTop: "12px",
+                fontStyle: "italic",
+              }}
+            >
+              Jeg hjælper jer med at indhente tilbud og holde overblikket over
+              alle udgifter – også dem, der ikke er en del af mit honorar.
+            </p>
           </div>
 
           <p
@@ -879,7 +935,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="tel:22211437"
+          href="#kontakt"
           style={{
             display: "inline-block",
             background: "#84A98C",
@@ -894,8 +950,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
             marginBottom: "48px",
           }}
         >
-          Ring direkte til Kim på{" "}
-          <span style={{ whiteSpace: "nowrap" }}>22 21 14 37</span>
+          Kontakt mig
         </a>
         <p
           style={{
