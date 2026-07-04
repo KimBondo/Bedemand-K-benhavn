@@ -444,7 +444,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                   "100 % bæredygtig, danskproduceret genbrugskiste",
                   "Klassisk hvid urne",
                   "Påklædning og ilægning i kiste",
-                  "Rustvognskørsel til krematoriet",
+                  "Rustvognskørsel fra hospital eller kapel til krematoriet",
                   "Kontakt til kordegn, krematorie og kirkegård",
                   "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
