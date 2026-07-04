@@ -377,7 +377,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
               {
                 title: "Den enkle bisættelse",
                 subtitle:
-                  "Fra 17.395 kr. hvis afdøde ligger på hospital og kan køres direkte til ceremoni.",
+                  "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed og det er en hverdag.",
                 price: "Fra 17.395 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
