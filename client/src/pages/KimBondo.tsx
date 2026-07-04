@@ -422,7 +422,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                 title: "Den traditionelle begravelse",
                 subtitle:
                   "Kisten sænkes i jorden på en kirkegård eller en skovbegravelsesplads.",
-                price: "Fra 22.500 kr.",
+                price: "Fra 18.500 kr.",
                 items: [
                   "Hjemmebesøg med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",

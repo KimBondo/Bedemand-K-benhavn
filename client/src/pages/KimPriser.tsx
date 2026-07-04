@@ -19,7 +19,7 @@ export default function KimPriser() {
     >
       <SEO
         title="Priser – Kim Bondo Bedemand København og Nordsjælland"
-        description="Gennemsigtige priser uden skjulte gebyrer. Bisættelse fra 20.500 kr., begravelse fra 22.500 kr., afsked uden ceremoni fra 15.500 kr. Alle udgifter gennemgås på forhånd."
+        description="Gennemsigtige priser uden skjulte gebyrer. Bisættelse fra 20.500 kr., begravelse fra 18.500 kr., afsked uden ceremoni fra 15.500 kr. Alle udgifter gennemgås på forhånd."
         url="https://bedemandkobenhavn.dk/kim-bondo/priser"
       />
 
@@ -166,7 +166,7 @@ export default function KimPriser() {
               <strong>Bisættelse fra 20.500 kr.</strong>
             </p>
             <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-              <strong>Begravelse fra 22.500 kr.</strong>
+              <strong>Begravelse fra 18.500 kr.</strong>
             </p>
             <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
               <strong>Afsked uden ceremoni fra 15.500 kr.</strong>
@@ -222,7 +222,7 @@ export default function KimPriser() {
           {
             title: "Den traditionelle begravelse",
             subtitle: "Kisten sænkes i jorden på en kirkegård eller en skovbegravelsesplads.",
-            price: "Fra 22.500 kr.",
+            price: "Fra 18.500 kr.",
             items: [
               "Hjemmebesøg med planlægning af forløbet",
               "100 % bæredygtig, danskproduceret genbrugskiste",
