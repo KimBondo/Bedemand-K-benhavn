@@ -221,7 +221,7 @@ export default function KimPriser() {
           },
           {
             title: "Den traditionelle begravelse",
-            subtitle: "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirkegården ligger i umiddelbar nærhed af kirken.",
+            subtitle: "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirken og kirkegården er samme sted.",
             price: "Fra 18.500 kr.",
             items: [
               "Hjemmebesøg med planlægning af forløbet",
