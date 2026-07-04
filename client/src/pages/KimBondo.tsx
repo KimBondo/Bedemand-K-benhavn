@@ -343,7 +343,30 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
         </p>
       </section>
 
-      {/* 3 PRISSCENARIER – direkte under intro, ingen tekst imellem */}
+      {/* FORKLARENDE TEKST OM PRIS OG KØRSLER */}
+      <section
+        style={{
+          background: "#F9F8F6",
+          padding: "0 32px 64px",
+        }}
+      >
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
+            Prisen på en afsked afhænger i høj grad af, hvor afdøde skal hentes, samt hvor mange kørsler der er behov for med rustvognen.
+          </p>
+          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
+            Når afhentningen foregår fra et privat hjem, indebærer det ofte en større praktisk opgave end ved afhentning på et hospital, plejehjem eller hospice. I private hjem er der jævnligt trange pladsforhold og trapper, hvilket kræver mere tid og ekstra ressourcer til at sikre en respektfuld og omsorgsfuld håndtering. Samtidig er det nødvendigt at arrangere afhentningen hurtigt fra enten hjemmet, plejehjemmet eller hospicet, så afdøde kan blive bragt til et kistehotel indtil selve højtideligheden.
+          </p>
+          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
+            Antallet af kørsler med rustvognen har ligeledes indflydelse på den endelige pris. Hvis det er muligt at køre afdøde direkte fra hospitalets kapel til kirken eller kapellet på selve dagen, reduceres antallet af kørsler, hvilket afspejler sig i en lavere pris. Det er dog værd at bemærke, at hospitalernes kapeller som regel holder lukket for afhentning om lørdagen, hvorfor denne løsning primært lader sig gøre på hverdage. Hvis afdøde først skal omvejen forbi et kistehotel, medfører det en ekstra kørsel.
+          </p>
+          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260" }}>
+            Ved en bisættelse, hvor der efterfølgende sker kremering, vil der som udgangspunkt være to kørsler med rustvognen, men hvis afdøde først har været på kistehotellet, bliver det til tre kørsler i alt. Ved en jordfæstelse, hvor kisten sænkes i jorden, kan logistikken ofte forenkles. Hvis afdøde kan afhentes direkte på hospitalet, og begravelsen foregår på kirkegården lige omkring kirken, kan det klares med en enkelt kørsel, hvilket gør denne løsning mere økonomisk. Hvis kirkegården ligger et andet sted end kirken, køres der efter højtideligheden videre til det valgte gravsted, hvilket kræver en kørsel mere.
+          </p>
+        </div>
+      </section>
+
+      {/* 3 PRISSCENARIER */}
       <section
         id="priseksempler"
         style={{
