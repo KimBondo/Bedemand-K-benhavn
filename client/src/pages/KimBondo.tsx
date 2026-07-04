@@ -384,12 +384,12 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                   "100 % bæredygtig, danskproduceret kiste lavet af genbrugsmaterialer",
                   "Klassisk hvid bionedbrydelig urne",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
-                  "Rustvognskørsel fra kisteophold til ceremoni",
-                  "Rustvognskørsel fra ceremoni til krematorie",
+                  "Rustvognskørsel fra hospital eller kapel til højtidelighed",
+                  "Rustvognskørsel fra højtidelighed til krematorie",
                   "Kontakt til kordegn, præst, krematorie og kirkegård",
                   "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
-                  "Ceremonivært ved bisættelsen – fremmøde en time før",
+                  "Bedemand tilstede ved højtideligheden",
                 ],
               },
               {
@@ -571,7 +571,21 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
           <p
             style={{
               textAlign: "center",
-              marginTop: "48px",
+              marginTop: "32px",
+              fontSize: "14px",
+              color: "#7a8f99",
+              fontStyle: "italic",
+              maxWidth: "600px",
+              margin: "32px auto 0",
+            }}
+          >
+            Alle priseksempler er beregnet på hverdage. Rustvognskørsel i weekenden er 50% dyrere.
+          </p>
+
+          <p
+            style={{
+              textAlign: "center",
+              marginTop: "24px",
               fontSize: "15px",
               color: "#7a8f99",
             }}
