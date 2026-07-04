@@ -226,7 +226,7 @@ export default function KimPriser() {
             items: [
               "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
               "100 % bæredygtig, danskproduceret genbrugskiste",
-              "Klargøring af kiste og påklædning og ilægning i kiste",
+              "Klargøring af kiste, påklædning og ilægning i kiste",
               "Rustvognskørsel fra hospital til højtideligheden",
               "Kontakt til kordegn, præst og kirkegård",
               "Anmodning v/ kirkeministeriet",
@@ -242,7 +242,7 @@ export default function KimPriser() {
             items: [
               "100 % bæredygtig, danskproduceret genbrugskiste",
               "Klassisk hvid bionedbrydelig urne",
-              "Klargøring af kiste og påklædning og ilægning i kiste",
+              "Klargøring af kiste, påklædning og ilægning i kiste",
               "Rustvognskørsel fra hospital eller kapel til krematoriet",
               "Kontakt til kordegn, krematorie og kirkegård",
               "Anmodning v/ kirkeministeriet",
