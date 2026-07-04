@@ -426,7 +426,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                 items: [
                   "Hjemmebesøg med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",
-                  "Påklædning og ilægning i kiste",
+                  "Klargøring af kiste og påklædning og ilægning i kiste",
                   "Rustvognskørsel fra hospital til højtideligheden",
                   "Kontakt til kordegn, præst og kirkegård",
                   "Anmodning v/ kirkeministeriet",
@@ -443,7 +443,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                 items: [
                   "100 % bæredygtig, danskproduceret genbrugskiste",
                   "Klassisk hvid urne",
-                  "Påklædning og ilægning i kiste",
+                  "Klargøring af kiste og påklædning og ilægning i kiste",
                   "Rustvognskørsel fra hospital eller kapel til krematoriet",
                   "Kontakt til kordegn, krematorie og kirkegård",
                   "Anmodning v/ kirkeministeriet",
