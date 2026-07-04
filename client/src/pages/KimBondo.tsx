@@ -421,7 +421,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
               {
                 title: "Den traditionelle begravelse",
                 subtitle:
-                  "Kisten sænkes i jorden på en kirkegård eller en skovbegravelsesplads.",
+                  "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirkegården ligger i umiddelbar nærhed af kirken.",
                 price: "Fra 18.500 kr.",
                 items: [
                   "Hjemmebesøg med planlægning af forløbet",
@@ -438,7 +438,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
               {
                 title: "Afsked uden ceremoni",
                 subtitle:
-                  "Direkte kremering uden højtidelighed – enkel, værdig og uden unødige udgifter.",
+                  "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til krematoriet på en hverdag – uden forudgående højtidelighed.",
                 price: "Fra 15.500 kr.",
                 items: [
                   "100 % bæredygtig, danskproduceret genbrugskiste",
