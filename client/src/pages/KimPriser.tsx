@@ -19,7 +19,7 @@ export default function KimPriser() {
     >
       <SEO
         title="Priser – Kim Bondo Bedemand København og Nordsjælland"
-        description="Gennemsigtige priser uden skjulte gebyrer. Bisættelse fra 20.500 kr., begravelse fra 18.500 kr., afsked uden ceremoni fra 15.500 kr. Alle udgifter gennemgås på forhånd."
+        description="Gennemsigtige priser uden skjulte gebyrer. Bisættelse fra 17.395 kr., begravelse fra 18.500 kr., afsked uden ceremoni fra 15.500 kr. Alle udgifter gennemgås på forhånd."
         url="https://bedemandkobenhavn.dk/kim-bondo/priser"
       />
 
@@ -163,7 +163,7 @@ export default function KimPriser() {
             }}
           >
             <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-              <strong>Bisættelse fra 20.500 kr.</strong>
+              <strong>Bisættelse fra 17.395 kr.</strong>
             </p>
             <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
               <strong>Begravelse fra 18.500 kr.</strong>
