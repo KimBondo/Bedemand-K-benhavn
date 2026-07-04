@@ -80,20 +80,48 @@ export default function KimBondo() {
               Kim Bondo
             </span>
           </div>
-          <a
-            href="tel:22211437"
-            style={{
-              fontFamily: "'Open Sans', sans-serif",
-              fontWeight: 700,
-              fontSize: "clamp(14px, 1.6vw, 18px)",
-              color: "#84A98C",
-              textDecoration: "none",
-              letterSpacing: "0.03em",
-              whiteSpace: "nowrap",
-            }}
-          >
-            Tlf: 22 21 14 37
-          </a>
+          <div style={{ display: "flex", alignItems: "center", gap: "24px", flexWrap: "wrap" }}>
+            <a
+              href="#priser"
+              style={{
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 600,
+                fontSize: "clamp(13px, 1.4vw, 15px)",
+                color: "#3d5260",
+                textDecoration: "none",
+                letterSpacing: "0.02em",
+              }}
+            >
+              Priser
+            </a>
+            <a
+              href="#kontakt"
+              style={{
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 600,
+                fontSize: "clamp(13px, 1.4vw, 15px)",
+                color: "#3d5260",
+                textDecoration: "none",
+                letterSpacing: "0.02em",
+              }}
+            >
+              Kontakt
+            </a>
+            <a
+              href="tel:22211437"
+              style={{
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 700,
+                fontSize: "clamp(14px, 1.6vw, 18px)",
+                color: "#84A98C",
+                textDecoration: "none",
+                letterSpacing: "0.03em",
+                whiteSpace: "nowrap",
+              }}
+            >
+              Tlf: 22 21 14 37
+            </a>
+          </div>
         </header>
 
         {/* Hero text */}
@@ -345,6 +373,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
           SECTION 4: ØKONOMI – intro direkte efterfulgt af 3 priseksempler
       ══════════════════════════════════════════════════════ */}
       <section
+        id="priser"
         style={{
           maxWidth: "760px",
           margin: "0 auto",
