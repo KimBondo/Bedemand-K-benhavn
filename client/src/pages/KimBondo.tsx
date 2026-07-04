@@ -351,6 +351,9 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
         }}
       >
         <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2vw, 24px)", color: "#2F3E46", marginBottom: "28px" }}>
+            Hvad påvirker prisen?
+          </h3>
           <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
             Prisen på en afsked afhænger i høj grad af, hvor afdøde skal hentes, samt hvor mange kørsler der er behov for med rustvognen.
           </p>
