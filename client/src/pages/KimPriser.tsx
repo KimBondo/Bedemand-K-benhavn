@@ -324,6 +324,60 @@ export default function KimPriser() {
           Alle priseksempler er beregnet på hverdage. Rustvognskørsel i weekenden er 50% dyrere.
         </p>
 
+        {/* ── NOT INCLUDED SECTION ── */}
+        <div
+          style={{
+            background: "#F9F8F6",
+            borderRadius: "4px",
+            padding: "28px 32px",
+            marginBottom: "48px",
+          }}
+        >
+          <p
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 600,
+              fontSize: "16px",
+              color: "#2F3E46",
+              marginBottom: "12px",
+            }}
+          >
+            Vær opmærksom på disse udgifter, som ikke er inkluderet:
+          </p>
+          {[
+            "Gravsten",
+            "Gravsted",
+            "Leje af kapel",
+            "Kisteophold – prisen varierer",
+            "Urnenedsættelse",
+            "Kremering",
+          ].map((item) => (
+            <p
+              key={item}
+              style={{
+                fontSize: "14px",
+                color: "#3d5260",
+                lineHeight: 1.7,
+                paddingLeft: "12px",
+              }}
+            >
+              – {item}
+            </p>
+          ))}
+          <p
+            style={{
+              fontSize: "13px",
+              color: "#7a8f99",
+              lineHeight: 1.7,
+              marginTop: "12px",
+              fontStyle: "italic",
+            }}
+          >
+            Jeg hjælper jer med at indhente tilbud og holde overblikket over
+            alle udgifter – også dem, der ikke er en del af mit honorar.
+          </p>
+        </div>
+
         <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", marginBottom: "64px" }} />
 
         {/* ── COMPLETE PRICE TABLE ── */}
@@ -379,7 +433,7 @@ export default function KimPriser() {
             {
               heading: "4. Blomster og pynt",
               rows: [
-                ["Kistepynt (lille)", "2.500 kr."],
+                ["Kistepynt (lille)", "2.000 kr."],
                 ["Kistepynt (mellem)", "2.500 kr."],
                 ["Kistepynt (stor)", "3.500 kr."],
                 ["Blomsterkrans eller blomsterhjerte", "2.500 kr."],
@@ -477,59 +531,6 @@ export default function KimPriser() {
 
         {/* ── ADDITIONAL INFO ── */}
         <section style={{ marginBottom: "64px" }}>
-          <div
-            style={{
-              background: "#F9F8F6",
-              borderRadius: "4px",
-              padding: "28px 32px",
-              marginBottom: "32px",
-            }}
-          >
-            <p
-              style={{
-                fontFamily: "'Lora', serif",
-                fontWeight: 600,
-                fontSize: "16px",
-                color: "#2F3E46",
-                marginBottom: "12px",
-              }}
-            >
-              Vær opmærksom på disse udgifter, som ikke er inkluderet:
-            </p>
-            {[
-              "Gravsten",
-              "Gravsted",
-              "Leje af kapel",
-              "Kisteophold – prisen varierer",
-              "Urnenedsættelse",
-              "Kremering",
-            ].map((item) => (
-              <p
-                key={item}
-                style={{
-                  fontSize: "14px",
-                  color: "#3d5260",
-                  lineHeight: 1.7,
-                  paddingLeft: "12px",
-                }}
-              >
-                – {item}
-              </p>
-            ))}
-            <p
-              style={{
-                fontSize: "13px",
-                color: "#7a8f99",
-                lineHeight: 1.7,
-                marginTop: "12px",
-                fontStyle: "italic",
-              }}
-            >
-              Jeg hjælper jer med at indhente tilbud og holde overblikket over
-              alle udgifter – også dem, der ikke er en del af mit honorar.
-            </p>
-          </div>
-
           <h3
             style={{
               fontFamily: "'Lora', serif",
