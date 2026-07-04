@@ -401,7 +401,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
           >
             {[
               {
-                title: "Den enkle bisættelse",
+                title: "Den enkle begravelse",
                 subtitle:
                   "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed og det er en hverdag.",
                 price: "Fra 17.395 kr.",
