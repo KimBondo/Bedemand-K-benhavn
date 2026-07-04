@@ -92,9 +92,7 @@ export default function KimPriser() {
             margin: "0 auto 32px",
           }}
         >
-          En værdig afsked skal ikke være forbundet med økonomisk utryghed
-          eller skjulte gebyrer. Her finder I alle priser samlet – klart og
-          uden overraskelser.
+          En værdig afsked skal være forbundet med økonomisk tryghed. Her finder I alle priser samlet – uden overraskelser.
         </p>
         <a
           href="tel:22211437"
@@ -141,7 +139,7 @@ export default function KimPriser() {
             Prisen afhænger af jeres ønsker og behov. Jeg gennemgår altid alle
             udgifter med jer, inden vi beslutter noget – så I ved præcis, hvad I
             siger ja til. Jeg søger desuden begravelseshjælp på jeres vegne, som
-            indsættes direkte på jeres NemKonto.
+            Den bliver direkte modregnet på fakturaen.
           </p>
           <p
             style={{
@@ -366,7 +364,7 @@ export default function KimPriser() {
               heading: "2. Klargøring af kiste, afhentning og ilægning i kiste",
               note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
               rows: [
-                ["Klargøring af kiste, afhentning og ilægning i kiste", "1.500 kr."],
+                ["Klargøring af kiste, afhentning og ilægning i kiste", "2.500 kr."],
               ],
             },
             {
@@ -382,7 +380,7 @@ export default function KimPriser() {
               heading: "4. Blomster og pynt",
               rows: [
                 ["Kistepynt (lille)", "2.500 kr."],
-                ["Kistepynt (mellem)", "3.000 kr."],
+                ["Kistepynt (mellem)", "2.500 kr."],
                 ["Kistepynt (stor)", "3.500 kr."],
                 ["Blomsterkrans eller blomsterhjerte", "2.500 kr."],
                 ["Silkebånd – \"en sidste hilsen\"", "300 kr."],
@@ -401,8 +399,6 @@ export default function KimPriser() {
               heading: "6. Øvrige ydelser",
               rows: [
                 ["Fremvisning i kapel", "900 kr."],
-                ["Ekstern præst eller ceremonileder", "3.300 kr."],
-                ["Afhentning af dødsattest hos politiet", "900 kr."],
                 ["Dødsannonce – udarbejdelse og indrykning", "400 kr."],
                 ["Sangblade, bestilling fra ekstern leverandør", "400 kr. (tilbud indhentes)"],
                 ["Rådgivning og udarbejdelse af \"Min Sidste Vilje\" (hjemmebesøg)", "Gratis"],
@@ -604,8 +600,7 @@ export default function KimPriser() {
             Jeg hjælper med både traditionelle og mere personlige afskeder. Det
             levede liv kan udtrykkes på mange måder, og jeg vil altid gøre mit
             bedste for, at afskeden foregår præcis efter jeres ønsker og behov.
-            Jeg kommer til jer, eller I kommer til mig – hvad der føles rigtigst
-            for jer.
+            Jeg kommer til jer, eller på telefon – hvad der føles rigtigst for jer.
           </p>
           <a
             href="tel:22211437"
