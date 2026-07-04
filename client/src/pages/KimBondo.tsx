@@ -950,7 +950,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
             >
               22 21 14 37
             </a>
-            {" "}– uanset tidspunktet.
+            .
           </p>
           <ContactForm />
         </div>
