@@ -212,7 +212,7 @@ export default function KimPriser() {
               "Kontakt til kordegn, præst og kirkegård",
               "Anmodning v/ kirkeministeriet",
               "Ansøgning om begravelseshjælp",
-              "Ceremonivært ved begravelsen – fremmøde en time før",
+              "Bedemand tilstede ved højtideligheden",
               "Udlægning af blomster på graven",
             ],
           },

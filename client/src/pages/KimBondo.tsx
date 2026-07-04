@@ -407,7 +407,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                   "Kontakt til kordegn, præst og kirkegård",
                   "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
-                  "Ceremonivært ved begravelsen – fremmøde en time før",
+                  "Bedemand tilstede ved højtideligheden",
                   "Udlægning af blomster på graven",
                 ],
               },
