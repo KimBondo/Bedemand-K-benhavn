@@ -95,7 +95,7 @@ export default function KimPriser() {
           En værdig afsked skal være forbundet med økonomisk tryghed. Her finder I alle priser samlet – uden overraskelser.
         </p>
         <a
-          href="tel:22211437"
+          href="/kim-bondo#kontakt"
           style={{
             display: "inline-block",
             background: "#84A98C",
@@ -109,8 +109,24 @@ export default function KimPriser() {
             letterSpacing: "0.04em",
           }}
         >
-          Ring til Kim: <span style={{ whiteSpace: "nowrap" }}>22 21 14 37</span>
+          Kontakt mig
         </a>
+        <p
+          style={{
+            marginTop: "14px",
+            fontSize: "14px",
+            color: "rgba(255,255,255,0.7)",
+            fontFamily: "'Open Sans', sans-serif",
+          }}
+        >
+          eller ring på{" "}
+          <a
+            href="tel:22211437"
+            style={{ color: "rgba(255,255,255,0.9)", fontWeight: 600, textDecoration: "none" }}
+          >
+            22 21 14 37
+          </a>
+        </p>
       </section>
 
       <div style={{ maxWidth: "900px", margin: "0 auto", padding: "72px 32px" }}>
@@ -604,7 +620,7 @@ export default function KimPriser() {
             Jeg kommer til jer, eller på telefon – hvad der føles rigtigst for jer.
           </p>
           <a
-            href="tel:22211437"
+            href="/kim-bondo#kontakt"
             style={{
               display: "inline-block",
               background: "#84A98C",
@@ -618,8 +634,24 @@ export default function KimPriser() {
               letterSpacing: "0.04em",
             }}
           >
-            Ring – uforpligtende og uanset tidspunktet
+            Kontakt mig
           </a>
+          <p
+            style={{
+              marginTop: "14px",
+              fontSize: "14px",
+              color: "#7a8f99",
+              fontFamily: "'Open Sans', sans-serif",
+            }}
+          >
+            eller ring på{" "}
+            <a
+              href="tel:22211437"
+              style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}
+            >
+              22 21 14 37
+            </a>
+          </p>
         </section>
       </div>
 
@@ -657,7 +689,7 @@ export default function KimPriser() {
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="tel:22211437"
+          href="/kim-bondo#kontakt"
           style={{
             display: "inline-block",
             background: "#84A98C",
@@ -672,9 +704,17 @@ export default function KimPriser() {
             marginBottom: "40px",
           }}
         >
-          Ring direkte til Kim på{" "}
-          <span style={{ whiteSpace: "nowrap" }}>22 21 14 37</span>
+          Kontakt mig
         </a>
+        <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.6)", marginBottom: "24px" }}>
+          eller ring på{" "}
+          <a
+            href="tel:22211437"
+            style={{ color: "rgba(255,255,255,0.85)", fontWeight: 600, textDecoration: "none" }}
+          >
+            22 21 14 37
+          </a>
+        </p>
         <p style={{ fontSize: "12px", color: "rgba(255,255,255,0.3)", marginTop: "16px" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.35)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>

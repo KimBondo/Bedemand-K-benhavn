@@ -174,6 +174,22 @@ export default function KimBondo() {
             >
               Kontakt mig
             </a>
+            <p
+              style={{
+                marginTop: "14px",
+                fontSize: "14px",
+                color: "#7a8f99",
+                fontFamily: "'Open Sans', sans-serif",
+              }}
+            >
+              eller ring på{" "}
+              <a
+                href="tel:22211437"
+                style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}
+              >
+                22 21 14 37
+              </a>
+            </p>
           </div>
         </div>
       </section>
