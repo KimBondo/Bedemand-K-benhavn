@@ -203,7 +203,7 @@ export default function KimPriser() {
         {/* ── 3 SCENARIO PACKAGES ── */}
         {[
           {
-            title: "Den enkle begravelse",
+            title: "Den enkle bisættelse",
             subtitle: "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed og det er en hverdag.",
             price: "Fra 17.395 kr.",
             items: [
@@ -220,7 +220,7 @@ export default function KimPriser() {
             ],
           },
           {
-            title: "Den traditionelle begravelse",
+            title: "Den enkle begravelse",
             subtitle: "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirken og kirkegården er samme sted.",
             price: "Fra 18.500 kr.",
             items: [
