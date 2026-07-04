@@ -366,7 +366,7 @@ export default function KimPriser() {
               heading: "2. Afhentning og klargøring",
               note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
               rows: [
-                ["Afhentning og ilægning i kiste", "2.500 kr."],
+                ["Klargøring af kiste, afhentning og ilægning i kiste", "2.500 kr."],
               ],
             },
             {
@@ -375,7 +375,7 @@ export default function KimPriser() {
               rows: [
                 ["Rustvognskørsel (én kørsel, inkl. 20 km)", "2.000 kr."],
                 ["Urnekørsel (fra krematoriet til kirkegårdskontor)", "900 kr."],
-                ["Blomsterkørsel og udlægning på kirkegård", "1.195 kr."],
+                ["Blomsterkørsel og udlægning på kirkegård", "1.400 kr."],
               ],
             },
             {
