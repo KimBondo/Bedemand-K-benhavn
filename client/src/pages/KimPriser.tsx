@@ -363,7 +363,7 @@ export default function KimPriser() {
               ],
             },
             {
-              heading: "2. Afhentning og klargøring",
+              heading: "2. Klargøring af kiste, afhentning og ilægning i kiste",
               note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
               rows: [
                 ["Klargøring af kiste, afhentning og ilægning i kiste", "2.500 kr."],
