@@ -424,7 +424,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                   "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirken og kirkegården er samme sted.",
                 price: "Fra 18.500 kr.",
                 items: [
-                  "Hjemmebesøg med planlægning af forløbet",
+                  "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",
                   "Klargøring af kiste og påklædning og ilægning i kiste",
                   "Rustvognskørsel fra hospital til højtideligheden",
