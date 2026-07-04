@@ -183,19 +183,19 @@ export default function KimPriser() {
         {[
           {
             title: "Den enkle bisættelse",
-            subtitle: "Fra 17.395 kr. hvis afdøde ligger på hospital og kan køres direkte til ceremoni.",
+            subtitle: "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed og det er en hverdag.",
             price: "Fra 17.395 kr.",
             items: [
               "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
               "100 % bæredygtig, danskproduceret kiste lavet af genbrugsmaterialer",
               "Klassisk hvid bionedbrydelig urne",
-              "Påklædning og ilægning i kiste",
-              "Rustvognskørsel fra kisteophold til ceremoni",
-              "Rustvognskørsel fra ceremoni til krematorie",
+              "Klargøring af kiste, påklædning og ilægning i kiste",
+              "Rustvognskørsel fra hospital eller kapel til højtidelighed",
+              "Rustvognskørsel fra højtidelighed til krematorie",
               "Kontakt til kordegn, præst, krematorie og kirkegård",
               "Anmodning v/ kirkeministeriet",
               "Ansøgning om begravelseshjælp",
-              "Ceremonivært ved bisættelsen – fremmøde en time før",
+              "Bedemand tilstede ved højtideligheden",
             ],
           },
           {
@@ -293,6 +293,19 @@ export default function KimPriser() {
             </p>
           </section>
         ))}
+
+        <p
+          style={{
+            textAlign: "center",
+            fontSize: "14px",
+            color: "#7a8f99",
+            fontStyle: "italic",
+            maxWidth: "600px",
+            margin: "0 auto 48px",
+          }}
+        >
+          Alle priseksempler er beregnet på hverdage. Rustvognskørsel i weekenden er 50% dyrere.
+        </p>
 
         <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", marginBottom: "64px" }} />
 
