@@ -404,7 +404,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                 title: "Den enkle bisættelse",
                 subtitle:
                   "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed og det er en hverdag.",
-                price: "Fra 20.500 kr.",
+                price: "Fra 17.395 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret kiste lavet af genbrugsmaterialer",
