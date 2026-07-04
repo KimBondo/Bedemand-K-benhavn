@@ -26,41 +26,99 @@ export default function KimPriser() {
       {/* ── HEADER ── */}
       <header
         style={{
-          background: "#2F3E46",
-          padding: "24px 48px",
+          background: "#F9F8F6",
+          padding: "20px 24px",
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "space-between",
           alignItems: "center",
           gap: "8px",
+          borderBottom: "1px solid #e0dcd6",
         }}
       >
-        <a
-          href="/kim-bondo"
-          style={{
-            fontFamily: "'Lora', serif",
-            fontWeight: 600,
-            fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "#ffffff",
-            textDecoration: "none",
-            letterSpacing: "0.04em",
-          }}
-        >
-          ← Bedemand København og Nordsjælland
-        </a>
-        <a
-          href="tel:22211437"
-          style={{
-            fontFamily: "'Open Sans', sans-serif",
-            fontWeight: 600,
-            fontSize: "clamp(13px, 1.4vw, 16px)",
-            color: "rgba(255,255,255,0.85)",
-            textDecoration: "none",
-            whiteSpace: "nowrap",
-          }}
-        >
-          Tlf: 22 21 14 37
-        </a>
+        {/* Left: back link + title */}
+        <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+          <a
+            href="/kim-bondo"
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: 600,
+              fontSize: "clamp(12px, 1.3vw, 14px)",
+              color: "#84A98C",
+              textDecoration: "none",
+              letterSpacing: "0.04em",
+            }}
+          >
+            ← Tilbage til Kim Bondo
+          </a>
+          <span
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 700,
+              fontSize: "clamp(14px, 2.2vw, 20px)",
+              color: "#2F3E46",
+              letterSpacing: "0.03em",
+              lineHeight: 1.2,
+            }}
+          >
+            Bedemand København og Nordsjælland
+          </span>
+          <span
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: 400,
+              fontSize: "clamp(12px, 1.4vw, 15px)",
+              color: "#5a7a6a",
+              letterSpacing: "0.02em",
+            }}
+          >
+            Kim Bondo – Priser
+          </span>
+        </div>
+
+        {/* Right: nav links + phone */}
+        <div style={{ display: "flex", alignItems: "center", gap: "24px", flexWrap: "wrap" }}>
+          <a
+            href="/kim-bondo"
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: 600,
+              fontSize: "clamp(13px, 1.4vw, 15px)",
+              color: "#3d5260",
+              textDecoration: "none",
+              letterSpacing: "0.02em",
+            }}
+          >
+            Om Kim
+          </a>
+          <a
+            href="/kim-bondo#kontakt"
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: 600,
+              fontSize: "clamp(13px, 1.4vw, 15px)",
+              color: "#3d5260",
+              textDecoration: "none",
+              letterSpacing: "0.02em",
+            }}
+          >
+            Kontakt
+          </a>
+          <a
+            href="tel:22211437"
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: 700,
+              fontSize: "clamp(14px, 1.6vw, 18px)",
+              color: "#84A98C",
+              textDecoration: "none",
+              letterSpacing: "0.03em",
+              whiteSpace: "nowrap",
+            }}
+          >
+            Tlf: 22 21 14 37
+          </a>
+        </div>
       </header>
 
       {/* ── HERO TITLE ── */}
