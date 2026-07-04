@@ -383,7 +383,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret kiste lavet af genbrugsmaterialer",
                   "Klassisk hvid bionedbrydelig urne",
-                  "Påklædning og ilægning i kiste",
+                  "Klargøring af kiste, påklædning og ilægning i kiste",
                   "Rustvognskørsel fra kisteophold til ceremoni",
                   "Rustvognskørsel fra ceremoni til krematorie",
                   "Kontakt til kordegn, præst, krematorie og kirkegård",
