@@ -347,24 +347,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
           vælge en afsked, der er smuk og lokal, og som samtidig tager fuldt
           hensyn til den natur, vi er en del af.
         </p>
-        <a
-          href="/kim-bondo/priser"
-          style={{
-            display: "inline-block",
-            background: "transparent",
-            color: "#2F3E46",
-            fontFamily: "'Open Sans', sans-serif",
-            fontWeight: 600,
-            fontSize: "15px",
-            padding: "13px 28px",
-            borderRadius: "3px",
-            textDecoration: "none",
-            letterSpacing: "0.04em",
-            border: "1.5px solid #b0b8bc",
-          }}
-        >
-          Læs om den bæredygtige kiste
-        </a>
+
       </section>
 
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
