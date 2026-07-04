@@ -154,6 +154,27 @@ export default function KimBondo() {
               }}
             />
           </div>
+
+          {/* Hero CTA */}
+          <div style={{ textAlign: "center", marginTop: "40px" }}>
+            <a
+              href="#kontakt"
+              style={{
+                display: "inline-block",
+                background: "#84A98C",
+                color: "#ffffff",
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 700,
+                fontSize: "clamp(15px, 1.8vw, 18px)",
+                padding: "16px 40px",
+                borderRadius: "3px",
+                textDecoration: "none",
+                letterSpacing: "0.05em",
+              }}
+            >
+              Kontakt mig
+            </a>
+          </div>
         </div>
       </section>
 
@@ -836,7 +857,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
             jeres skuldre, så I i stedet får et frirum til eftertanke og fred.
             Jeg forlader aldrig en familie, før jeg mærker, at der er skabt
             fuldstændig ro om forløbet, og at I føler jer holdt om. Og husk –
-            I er altid velkomne til at ringe, hvis der opstår det mindste
+            I er altid velkomne til at kontakte mig, hvis der opstår det mindste
             spørgsmål undervejs eller bagefter.
           </p>
         </div>
@@ -865,7 +886,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
               lineHeight: 1.3,
             }}
           >
-            Skriv eller ring direkte til Kim
+            Kontakt Kim
           </h2>
           <p
             style={{
@@ -877,7 +898,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
             }}
           >
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
-            I er også altid velkomne til at ringe direkte til mig på{" "}
+            Du er også altid velkommen til at ringe direkte på{" "}
             <a
               href="tel:22211437"
               style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}
