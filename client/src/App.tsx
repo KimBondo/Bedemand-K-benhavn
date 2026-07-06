@@ -7,6 +7,11 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import KimBondo from "./pages/KimBondo";
 import KimPriser from "./pages/KimPriser";
+import KimAfskeder from "./pages/KimAfskeder";
+import KimBisaettelse from "./pages/KimBisaettelse";
+import KimBegravelse from "./pages/KimBegravelse";
+import KimAfskedUdenCeremoni from "./pages/KimAfskedUdenCeremoni";
+import KimAskespredning from "./pages/KimAskespredning";
 
 
 function Router() {
@@ -15,6 +20,11 @@ function Router() {
       <Route path={"/"} component={Home} />
       <Route path={"/kim-bondo"} component={KimBondo} />
       <Route path={"/kim-bondo/priser"} component={KimPriser} />
+      <Route path={"/kim-bondo/afskeder"} component={KimAfskeder} />
+      <Route path={"/kim-bondo/bisaettelse"} component={KimBisaettelse} />
+      <Route path={"/kim-bondo/begravelse"} component={KimBegravelse} />
+      <Route path={"/kim-bondo/afsked-uden-ceremoni"} component={KimAfskedUdenCeremoni} />
+      <Route path={"/kim-bondo/askespredning"} component={KimAskespredning} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
