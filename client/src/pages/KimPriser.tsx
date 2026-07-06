@@ -92,6 +92,19 @@ export default function KimPriser() {
             Om Kim
           </a>
           <a
+            href="/kim-bondo/afskeder"
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: 600,
+              fontSize: "clamp(13px, 1.4vw, 15px)",
+              color: "#3d5260",
+              textDecoration: "none",
+              letterSpacing: "0.02em",
+            }}
+          >
+            Afskeder
+          </a>
+          <a
             href="/kim-bondo#kontakt"
             style={{
               fontFamily: "'Open Sans', sans-serif",

@@ -82,7 +82,20 @@ export default function KimBondo() {
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "24px", flexWrap: "wrap" }}>
             <a
-              href="#priser"
+              href="/kim-bondo/afskeder"
+              style={{
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 600,
+                fontSize: "clamp(13px, 1.4vw, 15px)",
+                color: "#3d5260",
+                textDecoration: "none",
+                letterSpacing: "0.02em",
+              }}
+            >
+              Afskeder
+            </a>
+            <a
+              href="/kim-bondo/priser"
               style={{
                 fontFamily: "'Open Sans', sans-serif",
                 fontWeight: 600,
