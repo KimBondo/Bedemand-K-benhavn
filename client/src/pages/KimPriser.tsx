@@ -726,63 +726,6 @@ export default function KimPriser() {
         </section>
       </div>
 
-      {/* ── AFSKEDER LINKS ── */}
-      <section
-        style={{
-          background: "#f0f4f2",
-          padding: "64px 32px",
-          textAlign: "center",
-        }}
-      >
-        <p
-          style={{
-            fontFamily: "'Open Sans', sans-serif",
-            fontWeight: 600,
-            fontSize: "13px",
-            letterSpacing: "0.12em",
-            color: "#5a7a6a",
-            textTransform: "uppercase",
-            marginBottom: "24px",
-          }}
-        >
-          Læs mere om de forskellige afskeder
-        </p>
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "center",
-            gap: "16px",
-          }}
-        >
-          {[
-            { label: "Bisættelse", href: "/kim-bondo/bisaettelse" },
-            { label: "Begravelse", href: "/kim-bondo/begravelse" },
-            { label: "Afsked uden ceremoni", href: "/kim-bondo/afsked-uden-ceremoni" },
-            { label: "Askespredning", href: "/kim-bondo/askespredning" },
-            { label: "Se alle afskeder", href: "/kim-bondo/afskeder" },
-          ].map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              style={{
-                display: "inline-block",
-                background: "#ffffff",
-                color: "#2F3E46",
-                fontFamily: "'Open Sans', sans-serif",
-                fontWeight: 600,
-                fontSize: "15px",
-                padding: "14px 28px",
-                borderRadius: "3px",
-                textDecoration: "none",
-                border: "1px solid #e0dcd6",
-              }}
-            >
-              {link.label}
-            </a>
-          ))}
-        </div>
-      </section>
 
       {/* ── FOOTER ── */}
       <footer
