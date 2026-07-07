@@ -104,4 +104,23 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Lokale landingssider -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/helsingor</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/horsholm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/gentofte</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

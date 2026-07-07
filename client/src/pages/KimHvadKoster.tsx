@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 
 /**
  * Kim Bondo – Hvad koster en begravelse?
@@ -45,6 +46,16 @@ export default function KimHvadKoster() {
         title="Hvad koster en begravelse? Priser 2026 – Bedemand Kim Bondo, København"
         description="Hvad koster en begravelse eller bisættelse i 2026? Få et ærligt overblik over alle udgifter: bedemand, kiste, kremering, gravsted og begravelseshjælp. Kim Bondo, bedemand i København og Nordsjælland."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/hvad-koster-en-begravelse"
+      />
+      <SchemaOrg
+        type="both"
+        faqItems={[
+          { question: "Hvad koster en begravelse i Danmark?", answer: "En typisk begravelse eller bisættelse koster i 2026 alt fra 20.000 kr. til 60.000 kr. afhængigt af valg af kiste, gravsted, gravsten og ceremonitype." },
+          { question: "Hvad er den billigste begravelse?", answer: "Den billigste løsning er afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos Kim starter denne løsning fra 15.500 kr." },
+          { question: "Hvad koster en bisættelse i København?", answer: "En bisættelse med ceremoni i København koster typisk 25.000–40.000 kr. alt inklusiv. Bedemandshonoraret starter fra 17.395 kr." },
+          { question: "Hvad er begravelseshjælp?", answer: "Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af afdødes formue." },
+          { question: "Er der skjulte udgifter ved en begravelse?", answer: "Hos Kim gennemgås alle udgifter på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
+        ]}
       />
 
       {/* ── HEADER ── */}

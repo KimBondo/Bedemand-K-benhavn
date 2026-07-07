@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import { useState } from "react";
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 
 /**
  * Kim Bondo – Personal Homepage
@@ -37,6 +38,7 @@ export default function KimBondo() {
         description="Kim Bondo er din personlige bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser fra 15.500 kr. – ring 22 21 14 37 døgnet rundt."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo"
       />
+      <SchemaOrg type="LocalBusiness" />
 
       {/* ══════════════════════════════════════════════════════
           SECTION 1: HERO
@@ -85,6 +87,7 @@ export default function KimBondo() {
             <a href="/kim-bondo/priser" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Priser</a>
             <a href="/kim-bondo/huskeliste" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Huskeliste</a>
             <a href="/kim-bondo/begravelseshjaelp" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Begravelseshjælp</a>
+            <a href="/kim-bondo/hvad-koster-en-begravelse" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Hvad koster det?</a>
             <a href="#kontakt" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Kontakt</a>
             <a
               href="tel:22211437"
