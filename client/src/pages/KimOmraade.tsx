@@ -131,6 +131,30 @@ export default function KimOmraade() {
         </div>
       </section>
 
+      {/* ── BYSIDER ── */}
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", textAlign: "center" }}>
+          <p style={s.label}>Læs mere om dit område</p>
+          <h2 style={{ ...s.h2, textAlign: "center" }}>Bedemand i din by</h2>
+          <p style={{ ...s.body, maxWidth: "580px", margin: "0 auto 40px", textAlign: "center" }}>
+            Jeg har skrevet mere om, hvad jeg hjælper med i de største byer i mit område. Vælg din by herunder.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
+            {[
+              { label: "Bedemand Helsingør", href: "/kim-bondo/helsingor" },
+              { label: "Bedemand Hørsholm", href: "/kim-bondo/horsholm" },
+              { label: "Bedemand Gentofte", href: "/kim-bondo/gentofte" },
+              { label: "Bedemand Lyngby", href: "/kim-bondo/lyngby" },
+              { label: "Bedemand Hillerød", href: "/kim-bondo/hillerod" },
+            ].map((link) => (
+              <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "16px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
+                {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── CTA ── */}
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Jeg hjælper jer — uanset hvor i området I bor</p>
