@@ -12,6 +12,11 @@ import KimBisaettelse from "./pages/KimBisaettelse";
 import KimBegravelse from "./pages/KimBegravelse";
 import KimAfskedUdenCeremoni from "./pages/KimAfskedUdenCeremoni";
 import KimAskespredning from "./pages/KimAskespredning";
+import KimKirkeligAfsked from "./pages/KimKirkeligAfsked";
+import KimBorgerligAfsked from "./pages/KimBorgerligAfsked";
+import KimHuskeliste from "./pages/KimHuskeliste";
+import KimBegravelseshjaelp from "./pages/KimBegravelseshjaelp";
+import KimOmraade from "./pages/KimOmraade";
 
 
 function Router() {
@@ -25,6 +30,11 @@ function Router() {
       <Route path={"/kim-bondo/begravelse"} component={KimBegravelse} />
       <Route path={"/kim-bondo/afsked-uden-ceremoni"} component={KimAfskedUdenCeremoni} />
       <Route path={"/kim-bondo/askespredning"} component={KimAskespredning} />
+      <Route path={"/kim-bondo/kirkelig-afsked"} component={KimKirkeligAfsked} />
+      <Route path={"/kim-bondo/borgerlig-afsked"} component={KimBorgerligAfsked} />
+      <Route path={"/kim-bondo/huskeliste"} component={KimHuskeliste} />
+      <Route path={"/kim-bondo/begravelseshjaelp"} component={KimBegravelseshjaelp} />
+      <Route path={"/kim-bondo/omraade"} component={KimOmraade} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

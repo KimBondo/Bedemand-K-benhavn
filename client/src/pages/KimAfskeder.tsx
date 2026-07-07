@@ -106,6 +106,22 @@ export default function KimAfskeder() {
               href: "/kim-bondo/askespredning",
               linkText: "Læs om askespredning",
             },
+            {
+              title: "Kirkelig afsked",
+              tag: "Med præst",
+              desc: "En ceremoni i kirke eller kapel, ledet af en præst fra Folkekirken. Følger faste ritualer, men med god plads til at tilpasse salmer og indhold efter familiens ønsker.",
+              details: ["Præst fra Folkekirken", "Salmer og jordpåkastelse", "Kan afsluttes med begravelse eller bisættelse", "Gratis kirkelig ceremoni for folkekirkens medlemmer"],
+              href: "/kim-bondo/kirkelig-afsked",
+              linkText: "Læs om kirkelig afsked",
+            },
+            {
+              title: "Borgerlig afsked",
+              tag: "Personlig",
+              desc: "En ceremoni uden religiøse ritualer, tilpasset præcis som I ønsker det. Kan holdes i kapel, hjemme eller et sted med særlig betydning. Familien bestemmer musik, taler og indhold.",
+              details: ["Ingen religiøse ritualer", "Fri valg af musik og taler", "Kapel, hjemme eller andet sted", "Kan afsluttes med begravelse, bisættelse eller askespredning"],
+              href: "/kim-bondo/borgerlig-afsked",
+              linkText: "Læs om borgerlig afsked",
+            },
           ].map((card) => (
             <div
               key={card.href}
@@ -181,6 +197,25 @@ export default function KimAfskeder() {
           eller ring på{" "}
           <a href="tel:22211437" style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
         </p>
+      </section>
+
+      {/* ── PRAKTISKE LINKS ── */}
+      <section style={{ background: "#fff", padding: "56px 32px", textAlign: "center" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "20px" }}>Praktisk information</p>
+        <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px" }}>Nyttige sider</h2>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#5a7a6a", marginBottom: "32px", maxWidth: "520px", margin: "0 auto 32px" }}>Hvad skal man gøre ved dødsfald? Hvad kan man søge i begravelsesbistænd? Og dækker Kim dit område?</p>
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
+          {[
+            { label: "Huskeliste ved dødsfald", href: "/kim-bondo/huskeliste" },
+            { label: "Begravelsesbistænd 2026", href: "/kim-bondo/begravelseshjaelp" },
+            { label: "Dækningsområde", href: "/kim-bondo/omraade" },
+            { label: "Se priser", href: "/kim-bondo/priser" },
+          ].map((link) => (
+            <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
+              {link.label}
+            </a>
+          ))}
+        </div>
       </section>
 
       {/* ── FOOTER ── */}

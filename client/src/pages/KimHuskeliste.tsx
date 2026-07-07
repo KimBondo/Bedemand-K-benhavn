@@ -1,0 +1,223 @@
+import SEO from "@/components/SEO";
+
+/**
+ * Kim Bondo – Huskeliste ved dødsfald
+ * Design: Nordic Quietism — same tokens as KimBondo.tsx
+ */
+
+const NAV = (
+  <div style={{ display: "flex", alignItems: "center", gap: "24px", flexWrap: "wrap" }}>
+    <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Om Kim</a>
+    <a href="/kim-bondo/afskeder" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Afskeder</a>
+    <a href="/kim-bondo/priser" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Priser</a>
+    <a href="/kim-bondo#kontakt" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Kontakt</a>
+    <a href="tel:22211437" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(14px, 1.6vw, 18px)", color: "#84A98C", textDecoration: "none", whiteSpace: "nowrap", letterSpacing: "0.03em" }}>Tlf: 22 21 14 37</a>
+  </div>
+);
+
+const s = {
+  body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" },
+  h2: { fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "16px", marginTop: "0" },
+  h3: { fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(17px, 2vw, 22px)", color: "#2F3E46", marginBottom: "12px", marginTop: "0" },
+  label: { fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase" as const, marginBottom: "16px" },
+  link: { color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px" },
+  stepNum: { fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "48px", color: "#e0dcd6", lineHeight: 1, marginBottom: "8px" },
+};
+
+export default function KimHuskeliste() {
+  return (
+    <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
+      <SEO
+        title="Huskeliste ved dødsfald – Bedemand Kim Bondo, København og Nordsjælland"
+        description="Praktisk huskeliste når en nærtstående dør. Hvad skal der gøres, hvem kontakter man, og hvad hjælper Kim Bondo med? Overblik over læge, myndigheder, økonomi og opsigelser."
+        url="https://bedemandkobenhavn.dk/kim-bondo/huskeliste"
+      />
+
+      {/* ── HEADER ── */}
+      <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
+          <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
+          <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Huskeliste ved dødsfald</span>
+        </div>
+        {NAV}
+      </header>
+
+      {/* ── HERO ── */}
+      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+        <p style={s.label}>Praktisk vejledning</p>
+        <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
+          Huskeliste ved dødsfald
+        </h1>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
+          Når man mister en nærtstående, fylder sorgen meget — og alligevel er der en række praktiske ting, der skal ordnes. Her er et overblik over de vigtigste skridt, og hvad jeg hjælper med.
+        </p>
+        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+          Kontakt mig
+        </a>
+        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
+          eller ring på <a href="tel:22211437" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+        </p>
+      </section>
+
+      {/* ── TRIN 1 ── */}
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.stepNum}>1</p>
+          <h2 style={s.h2}>Den første planlægning</h2>
+
+          <h3 style={s.h3}>Læge og dødsattest</h3>
+          <p style={s.body}>
+            Det første der skal ske er, at en læge konstaterer dødsfaldet og udsteder en dødsattest. Sker dødsfaldet på hospital eller hospice, sker dette automatisk. Sker det i hjemmet, skal lægen kontaktes. Jeg hjælper med at arrangere afhentning af afdøde, så afdøde kan bringes til et ventekapel.
+          </p>
+
+          <h3 style={s.h3}>Begravelse, bisættelse eller askespredning?</h3>
+          <p style={s.body}>
+            Der skal tages stilling til, hvordan afskeden skal foregå — og om der skal være en ceremoni. Skal det være en <a href="/kim-bondo/kirkelig-afsked" style={s.link}>kirkelig</a> eller <a href="/kim-bondo/borgerlig-afsked" style={s.link}>borgerlig</a> ceremoni, eller en <a href="/kim-bondo/afsked-uden-ceremoni" style={s.link}>afsked uden ceremoni</a>? Økonomi spiller også en rolle — se <a href="/kim-bondo/priser" style={s.link}>mine priser</a> for et realistisk overblik.
+          </p>
+
+          <h3 style={s.h3}>Dødsanmeldelse til myndighederne</h3>
+          <p style={s.body}>
+            Der skal foretages en dødsanmeldelse til afdødes bopælssogn. Jeg hjælper med dette som en del af mit arbejde, så I ikke selv skal stå med det.
+          </p>
+
+          <h3 style={s.h3}>Mindesamvær</h3>
+          <p style={s.body}>
+            Mange ønsker at holde et mindesamvær efter ceremonien — til en kop kaffe og kage, eller noget andet. Det aftaler I selv med det ønskede sted (café, restaurant, sognehus o.l.). Jeg hjælper gerne med at koordinere.
+          </p>
+        </div>
+      </section>
+
+      {/* ── TRIN 2 ── */}
+      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.stepNum}>2</p>
+          <h2 style={s.h2}>I forbindelse med selve afskeden</h2>
+          <p style={s.body}>Jeg hjælper med planlægning og sammenfatter alle aftaler i en bekræftelse til jer. Det kan dog være godt at have gjort sig tanker om:</p>
+          <ul style={{ paddingLeft: "24px" }}>
+            {[
+              "Tidspunkt for afhentning af afdøde og evt. alenetid ved kisten",
+              "Tøj som afdøde ønskes iklædt",
+              "Tidspunkt for ceremoni i kapel eller kirke",
+              "Evt. samtale med præst",
+              "Valg af gravsted på kirkegård",
+              "Evt. aftale om gravsten med stenhugger — jeg hjælper gerne med kontakt",
+              "Blomster til ceremonien",
+              "Evt. dødsannonce",
+              "6 personer til at bære kisten, hvis kisten ikke skal blive stående",
+              "Urnenedsættelse eller askespredning, hvis deltagelse er ønsket",
+            ].map((item) => (
+              <li key={item} style={{ ...s.body, marginBottom: "10px" }}>{item}</li>
+            ))}
+          </ul>
+          <p style={{ ...s.body, marginTop: "8px" }}>
+            I Danmark skal en begravelse eller bisættelse som udgangspunkt finde sted senest 8 dage efter dødsfaldet. I praksis planlægges det ofte inden for 14 dage.
+          </p>
+        </div>
+      </section>
+
+      {/* ── TRIN 3 ── */}
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.stepNum}>3</p>
+          <h2 style={s.h2}>Økonomi</h2>
+
+          <h3 style={s.h3}>Begravelseshjælp</h3>
+          <p style={s.body}>
+            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. I 2026 er det maksimale tilskud op til <strong>13.550 kr.</strong> Jeg hjælper med at ansøge om begravelseshjælp som en del af mit arbejde. <a href="/kim-bondo/begravelseshjaelp" style={s.link}>Læs mere om begravelseshjælp →</a>
+          </p>
+
+          <h3 style={s.h3}>Skifteretten</h3>
+          <p style={s.body}>
+            Via dødsanmeldelsen får Skifteretten besked om dødsfaldet og vil kontakte den pårørende, der er anført som anmelder. I behøver normalt ikke foretage jer noget aktivt, før I bliver kontaktet — det sker typisk via Digital Post (e-Boks).
+          </p>
+
+          <h3 style={s.h3}>Bank og pengeinstitut</h3>
+          <p style={s.body}>
+            Afdødes pengeinstitut modtager automatisk besked fra Folkeregistret, og alle konti — inkl. fælleskonti — vil blive spærret. Tag kontakt til banken for at aftale adgang til den nødvendige økonomi. De fleste banker accepterer, at begravelsesudgifter betales via afdødes konto, hvis der er midler.
+          </p>
+
+          <h3 style={s.h3}>Efterlevelsespension og -hjælp</h3>
+          <p style={s.body}>
+            Efterlevende ægtefæller eller samlevere kan i visse tilfælde have ret til efterlevelsespension eller efterlevelseshjælp. Kontakt Udbetaling Danmark for at afklare dette.
+          </p>
+        </div>
+      </section>
+
+      {/* ── TRIN 4 ── */}
+      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.stepNum}>4</p>
+          <h2 style={s.h2}>Opsigelser og afmeldinger</h2>
+          <p style={s.body}>Forsikringsselskaber og mange offentlige instanser får automatisk besked via Folkeregistret. Der er dog en række ting, det kan være relevant at tage hånd om:</p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px" }}>
+            <div>
+              <h3 style={{ ...s.h3, fontSize: "17px" }}>Bolig</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>Ejerbolig håndteres via Skifteretten. Lejebolig: kontakt udlejer for navneændring eller opsigelse.</p>
+            </div>
+            <div>
+              <h3 style={{ ...s.h3, fontSize: "17px" }}>Abonnementer</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>Telefon, internet, TV, aviser, blade, foreningsmedlemskaber og lignende skal opsiges manuelt.</p>
+            </div>
+            <div>
+              <h3 style={{ ...s.h3, fontSize: "17px" }}>Praktisk i hjemmet</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>Tøm køleskab, vand blomster, sørg for passende varme. Husdyr skal passes. Jagttegn eller våben — kontakt politiet.</p>
+            </div>
+            <div>
+              <h3 style={{ ...s.h3, fontSize: "17px" }}>Online profiler</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>Facebook og andre sociale medier kan omdannes til mindesider eller slettes efter familiens ønske.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── TRIN 5 ── */}
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.stepNum}>5</p>
+          <h2 style={s.h2}>Betaling af begravelsesudgifter</h2>
+          <p style={s.body}>
+            Det er den person, der bestiller begravelsen, der hæfter for betalingen — ikke Skifteretten. Skifteretten sørger for, at udgifterne indgår i boet, så den der har betalt kan blive godtgjort.
+          </p>
+          <p style={s.body}>
+            Typiske udgifter der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser.
+          </p>
+        </div>
+      </section>
+
+      {/* ── FAQ ── */}
+      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.label}>Ofte stillede spørgsmål</p>
+          <h2 style={s.h2}>Spørgsmål om hvad der sker ved dødsfald</h2>
+          {[
+            { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Herefter kan jeg kontaktes, og jeg hjælper med anmeldelse til myndighederne og den videre planlægning." },
+            { q: "Hvem har ansvaret for at planlægge begravelsen?", a: "Det er den person, der bestiller begravelsen, der har det juridiske ansvar for planlægningen og betalingen. Oftest er det den nærmeste pårørende." },
+            { q: "Hvad hjælper Kim med?", a: "Jeg hjælper med anmeldelse af dødsfaldet, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning — så I kan bruge energien på hinanden." },
+            { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen. Læs mere på siden om begravelseshjælp." },
+          ].map((faq, i) => (
+            <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ── CTA ── */}
+      <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
+        <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Jeg hjælper jer igennem det hele</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
+        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+          Kontakt mig
+        </a>
+        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
+          eller ring på <a href="tel:22211437" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+        </p>
+        <p style={{ marginTop: "40px", fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#5a7a6a" }}>
+          © {new Date().getFullYear()} Bedemand København ApS · <a href="/kim-bondo/priser" style={{ color: "#5a7a6a", textDecoration: "none" }}>Priser</a> · <a href="/kim-bondo/afskeder" style={{ color: "#5a7a6a", textDecoration: "none" }}>Afskeder</a>
+        </p>
+      </footer>
+    </div>
+  );
+}
