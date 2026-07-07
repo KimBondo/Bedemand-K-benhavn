@@ -17,6 +17,7 @@ import KimBorgerligAfsked from "./pages/KimBorgerligAfsked";
 import KimHuskeliste from "./pages/KimHuskeliste";
 import KimBegravelseshjaelp from "./pages/KimBegravelseshjaelp";
 import KimOmraade from "./pages/KimOmraade";
+import KimHvadKoster from "./pages/KimHvadKoster";
 
 
 function Router() {
@@ -35,6 +36,7 @@ function Router() {
       <Route path={"/kim-bondo/huskeliste"} component={KimHuskeliste} />
       <Route path={"/kim-bondo/begravelseshjaelp"} component={KimBegravelseshjaelp} />
       <Route path={"/kim-bondo/omraade"} component={KimOmraade} />
+      <Route path={"/kim-bondo/hvad-koster-en-begravelse"} component={KimHvadKoster} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

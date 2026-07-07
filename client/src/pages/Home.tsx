@@ -20,9 +20,9 @@ export default function Home() {
       }}
     >
       <SEO
-        title="Bedemand København og Nordsjælland"
-        description="To selvstændige bedemænd med ét fælles mål: At skabe en værdig og rolig afsked. Vælg Marie Thjellesen eller Kim Bondo som din personlige bedemand i København og Nordsjælland."
-        url="https://bedemandkobenhavn.dk"
+        title="Bedemand København og Nordsjælland – Personlig og nærværende hjælp"
+        description="Find en personlig bedemand i København og Nordsjælland. Marie Thjellesen og Kim Bondo hjælper jer med bisættelse, begravelse og afsked – med nærvær, ro og gennemsigtige priser fra 15.500 kr. Ring 22 21 14 37."
+        url="https://bedemandkbh-8wuvn9as.manus.space/"
       />
       {/* ─── SOLID BLUE BACKGROUND ───────────────────────────────────────── */}
 

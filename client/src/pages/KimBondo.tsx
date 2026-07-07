@@ -33,9 +33,9 @@ export default function KimBondo() {
       }}
     >
       <SEO
-        title="Kim Bondo – Bedemand København og Nordsjælland"
-        description="Kim Bondo er din personlige bedemand i København og Nordsjælland. Dyb omsorg, nærvær og uforstyrrelig ro når livet er sværest. Gennemsigtige priser fra 15.500 kr."
-        url="https://bedemandkobenhavn.dk/kim-bondo"
+        title="Kim Bondo – Bedemand København og Nordsjælland | Bisættelse & Begravelse"
+        description="Kim Bondo er din personlige bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser fra 15.500 kr. – ring 22 21 14 37 døgnet rundt."
+        url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo"
       />
 
       {/* ══════════════════════════════════════════════════════

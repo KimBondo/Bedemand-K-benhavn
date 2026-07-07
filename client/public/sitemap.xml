@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  VIGTIGT: Når hjemmesiden flyttes til eget domæne (f.eks. bedemandkobenhavn.dk),
+  skal alle <loc>-URL'er opdateres fra bedemandkbh-8wuvn9as.manus.space til det nye domæne.
+  Husk også at opdatere robots.txt og alle SEO url= props i de enkelte sider.
+-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Forside -->
@@ -18,6 +23,13 @@
   <!-- Kim Bondo – Priser -->
   <url>
     <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/priser</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Kim Bondo – Hvad koster en begravelse? (SEO-landingsside) -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/hvad-koster-en-begravelse</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -43,20 +55,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Kim Bondo – Afsked uden ceremoni -->
-  <url>
-    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/afsked-uden-ceremoni</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Kim Bondo – Askespredning -->
-  <url>
-    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/askespredning</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Kim Bondo – Kirkelig afsked -->
   <url>
     <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/kirkelig-afsked</loc>
@@ -67,6 +65,20 @@
   <!-- Kim Bondo – Borgerlig afsked -->
   <url>
     <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/borgerlig-afsked</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kim Bondo – Afsked uden ceremoni -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/afsked-uden-ceremoni</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kim Bondo – Askespredning -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/askespredning</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

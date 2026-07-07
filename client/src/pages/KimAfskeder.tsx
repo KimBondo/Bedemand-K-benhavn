@@ -206,8 +206,9 @@ export default function KimAfskeder() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#5a7a6a", marginBottom: "32px", maxWidth: "520px", margin: "0 auto 32px" }}>Hvad skal man gøre ved dødsfald? Hvad kan man søge i begravelsesbistænd? Og dækker Kim dit område?</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
+            { label: "Hvad koster en begravelse?", href: "/kim-bondo/hvad-koster-en-begravelse" },
             { label: "Huskeliste ved dødsfald", href: "/kim-bondo/huskeliste" },
-            { label: "Begravelsesbistænd 2026", href: "/kim-bondo/begravelseshjaelp" },
+            { label: "Begravelseshjælp 2026", href: "/kim-bondo/begravelseshjaelp" },
             { label: "Dækningsområde", href: "/kim-bondo/omraade" },
             { label: "Se priser", href: "/kim-bondo/priser" },
           ].map((link) => (
