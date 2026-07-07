@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bedemandkbh-8wuvn9as.manus.space/sitemap.xml

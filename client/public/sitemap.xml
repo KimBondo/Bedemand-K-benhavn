@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Forside -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Kim Bondo – Hovedside -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Kim Bondo – Priser -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/priser</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Kim Bondo – Afskeder (oversigt) -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/afskeder</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kim Bondo – Bisættelse -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/bisaettelse</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kim Bondo – Begravelse -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/begravelse</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kim Bondo – Afsked uden ceremoni -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/afsked-uden-ceremoni</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kim Bondo – Askespredning -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/askespredning</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kim Bondo – Kirkelig afsked -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/kirkelig-afsked</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kim Bondo – Borgerlig afsked -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/borgerlig-afsked</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kim Bondo – Huskeliste ved dødsfald -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/huskeliste</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kim Bondo – Begravelseshjælp -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/begravelseshjaelp</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kim Bondo – Dækningsområde -->
+  <url>
+    <loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/omraade</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
