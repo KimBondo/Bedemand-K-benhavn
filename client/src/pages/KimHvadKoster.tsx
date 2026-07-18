@@ -30,17 +30,6 @@ const s = {
   link: { color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px" } as React.CSSProperties,
 };
 
-const PRICE_ROWS = [
-  { item: "Bedemandshonoraret (inkl. alt koordinering)", from: "15.500 kr.", note: "Afhænger af valgt pakke" },
-  { item: "Kiste (enkel til avanceret)", from: "2.500–15.000 kr.", note: "Bred prisforskel" },
-  { item: "Kremering", from: "ca. 3.500 kr.", note: "Betales til krematoriet" },
-  { item: "Kapelleje / kirkebrug", from: "0–3.000 kr.", note: "Folkekirkens kirker er gratis for medlemmer" },
-  { item: "Gravsted (køb og anlæg)", from: "5.000–25.000 kr.", note: "Stor variation kommuner imellem" },
-  { item: "Gravsten", from: "5.000–20.000 kr.", note: "Afhænger af materiale og gravering" },
-  { item: "Blomster og kistepynt", from: "2.000–8.000 kr.", note: "Valgfrit omfang" },
-  { item: "Annonce i avis", from: "500–2.000 kr.", note: "Valgfrit" },
-  { item: "Begravelseshjælp fra det offentlige", from: "−1.050 til −13.550 kr.", note: "Trækkes fra — afhænger af formue" },
-];
 
 export default function KimHvadKoster() {
   return (
@@ -125,67 +114,6 @@ export default function KimHvadKoster() {
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
           eller ring på <a href="tel:22211437" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
         </p>
-      </section>
-
-      {/* ── HURTIG OVERSIGT ── */}
-      <section style={{ background: "#fff", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Hurtig oversigt</p>
-          <h2 style={s.h2}>Hvad koster det samlet?</h2>
-          <p style={s.body}>
-            En typisk begravelse eller bisættelse i Danmark koster i 2026 alt fra <strong>20.000 kr. til 60.000 kr.</strong> afhængigt af, hvad I vælger. Den store forskel skyldes primært gravsted, gravsten og kistens pris.
-          </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "20px", marginBottom: "40px" }}>
-            {[
-              { label: "Enkel bisættelse", price: "fra 20.000 kr.", note: "Afsked uden ceremoni + kremering" },
-              { label: "Bisættelse m. ceremoni", price: "fra 28.000 kr.", note: "Kirkelig eller borgerlig ceremoni" },
-              { label: "Begravelse m. gravsted", price: "fra 35.000 kr.", note: "Inkl. gravsted og gravsten" },
-            ].map((item) => (
-              <div key={item.label} style={{ background: "#F9F8F6", padding: "24px 20px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
-                <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "12px", letterSpacing: "0.1em", color: "#84A98C", textTransform: "uppercase", marginBottom: "8px" }}>{item.label}</p>
-                <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "26px", color: "#2F3E46", marginBottom: "6px" }}>{item.price}</p>
-                <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#5a7a6a", marginBottom: 0 }}>{item.note}</p>
-              </div>
-            ))}
-          </div>
-          <p style={{ ...s.body, background: "#f0f4f2", padding: "20px 24px", borderRadius: "3px", borderLeft: "3px solid #84A98C" }}>
-            <strong>Vigtigt:</strong> Disse tal er vejledende. Jeg gennemgår altid alle udgifter med jer på forhånd, så I ved præcis hvad det koster — uden overraskelser.
-          </p>
-        </div>
-      </section>
-
-      {/* ── DETALJERET PRISOVERSIGT ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <p style={s.label}>Detaljeret oversigt</p>
-          <h2 style={s.h2}>Hvad indgår i prisen?</h2>
-          <p style={s.body}>
-            Prisen på en begravelse er sammensat af mange poster. Herunder er de vigtigste — og hvad de typisk koster i 2026 i København og Nordsjælland.
-          </p>
-          <div style={{ overflowX: "auto" }}>
-            <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
-              <thead>
-                <tr style={{ borderBottom: "2px solid #e0dcd6" }}>
-                  <th style={{ textAlign: "left", padding: "12px 16px", color: "#2F3E46", fontWeight: 700 }}>Post</th>
-                  <th style={{ textAlign: "left", padding: "12px 16px", color: "#2F3E46", fontWeight: 700 }}>Typisk pris</th>
-                  <th style={{ textAlign: "left", padding: "12px 16px", color: "#2F3E46", fontWeight: 700 }}>Bemærkning</th>
-                </tr>
-              </thead>
-              <tbody>
-                {PRICE_ROWS.map((row, i) => (
-                  <tr key={i} style={{ borderBottom: "1px solid #e0dcd6", background: i % 2 === 0 ? "#fff" : "#F9F8F6" }}>
-                    <td style={{ padding: "14px 16px", color: "#2F3E46", fontWeight: 500 }}>{row.item}</td>
-                    <td style={{ padding: "14px 16px", color: "#2F3E46", fontWeight: 600, whiteSpace: "nowrap" }}>{row.from}</td>
-                    <td style={{ padding: "14px 16px", color: "#5a7a6a", fontSize: "14px" }}>{row.note}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p style={{ ...s.body, marginTop: "24px", fontSize: "14px", color: "#5a7a6a" }}>
-            Kilde: Egne priser og generelle markedspriser i Storkøbenhavn 2026. Priser på gravsted og gravsten er vejledende og varierer kommuner imellem.
-          </p>
-        </div>
       </section>
 
       {/* ── HVAD PÅVIRKER PRISEN ── */}
