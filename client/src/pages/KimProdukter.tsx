@@ -36,21 +36,21 @@ const KISTER = [
     name: "Basiskiste",
     priceLabel: "6.000 kr.",
     image: "/manus-storage/Basis6greb_5925250a.webp",
-    description: "Tilføj din beskrivelse her.",
+    description: "Umalet.",
   },
   {
     id: "klassisk-hvid",
     name: "Klassisk hvid kiste",
     priceLabel: "6.500 kr.",
     image: "/manus-storage/Klassiskhvid_b0f458b9.jpg",
-    description: "Tilføj din beskrivelse her.",
+    description: "En klassisk kremeringskiste til bisættelser, fremstillet i spån og MDF.",
   },
   {
     id: "gaia",
     name: "Gaia",
     priceLabel: "6.800 kr.",
     image: "/manus-storage/Gaia_5d419152.webp",
-    description: "Tilføj din beskrivelse her.",
+    description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende og kisten har et markant lavere klimaaftryk end en traditionel hvid kiste. Både til bisættelse og begravelse.",
   },
   {
     id: "orbit",
@@ -64,7 +64,7 @@ const KISTER = [
     name: "Massiv fyr",
     priceLabel: "8.000 kr.",
     image: "/manus-storage/Massiv_fyr_55990efe.webp",
-    description: "Tilføj din beskrivelse her.",
+    description: "Kisten i fyrretræ med knaster har et varmt og naturligt udtryk, hvor træets struktur og levende detaljer får lov at stå frem. Knasterne giver hver kiste sit eget særpræg og understreger det enkle og særlige udtryk.",
   },
 ];
 
