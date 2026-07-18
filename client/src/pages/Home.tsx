@@ -125,7 +125,7 @@ export default function Home() {
             <DirectorColumn
               name="Kim Bondo"
               title="Bedemand"
-              bio="For mig er det en hjertesag at møde jer med dyb omsorg, nærvær og en uforstyrrelig ro, når livet er sværest. Min vigtigste opgave er at skabe et trygt og rummeligt frirum midt i sorgen. Jeg bærer alt det praktiske og logistiske for jer i baggrunden, så I kan finde fred til at tage en kærlig afsked."
+              bio="For mig er det en hjertesag at møde jer med nærvær, ro og en dyb tillid til, at også de tungeste stunder bærer mening i sig. Min vigtigste opgave er at skabe et roligt og rummeligt frirum, hvor I kan være i jeres sorg. Jeg bærer alt det praktiske og logistiske for jer i baggrunden, så I kan finde fred til en kærlig afsked."
               address="Vandtårnsvej 62A, 2860 Søborg"
               phone="22 21 14 37"
               phoneLink="tel:22211437"
