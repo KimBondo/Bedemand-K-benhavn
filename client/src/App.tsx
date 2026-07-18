@@ -31,6 +31,7 @@ import KimAmager from "./pages/KimAmager";
 import KimOsterbro from "./pages/KimOsterbro";
 import KimNorrebro from "./pages/KimNorrebro";
 import KimVesterbro from "./pages/KimVesterbro";
+import KimProdukter from "./pages/KimProdukter";
 
 
 function Router() {
@@ -63,6 +64,7 @@ function Router() {
       <Route path={"/kim-bondo/osterbro"} component={KimOsterbro} />
       <Route path={"/kim-bondo/norrebro"} component={KimNorrebro} />
       <Route path={"/kim-bondo/vesterbro"} component={KimVesterbro} />
+      <Route path={"/kim-bondo/produkter"} component={KimProdukter} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
