@@ -87,7 +87,7 @@ export default function Home() {
                 marginBottom: "14px",
               }}
             >
-              Vælg din bedemand
+              Hvem vil du/I tale med?
             </p>
             <div
               style={{
