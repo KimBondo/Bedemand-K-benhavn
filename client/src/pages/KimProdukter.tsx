@@ -63,7 +63,7 @@ const KISTER = [
     price: 8800,
     priceLabel: "8.800 kr.",
     image: "/manus-storage/Orbit_924a6cd2.webp",
-    description: "Tilføj din beskrivelse her.",
+    description: "Orbit er fremstillet i ReBoard, som er produceret med 80 % færre træfibre end materialet i en traditionel kiste. Kisten vejer 12 kg, hvilket gør den let at håndtere. Den kan printes i alle farver og motiver og er testet til både begravelse og kremering.",
   },
   {
     id: "massiv-fyr",
@@ -145,9 +145,9 @@ function formatPrice(n: number) {
 }
 
 function PrisBeregner() {
-  const [ceremony, setCeremony] = useState<string | null>(null);
-  const [kiste, setKiste] = useState<string | null>(null);
-  const [urne, setUrne] = useState<string | null>(null);
+  const [ceremony, setCeremony] = useState<string | null>("bisaettelse");
+  const [kiste, setKiste] = useState<string | null>("basiskiste");
+  const [urne, setUrne] = useState<string | null>("creme-natur-biourn");
 
   const selectedCeremony = CEREMONY_TYPES.find((c) => c.id === ceremony);
   const selectedKiste = KISTER.find((k) => k.id === kiste);
