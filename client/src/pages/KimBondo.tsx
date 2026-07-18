@@ -110,6 +110,7 @@ export default function KimBondo() {
             <a href="/kim-bondo/begravelseshjaelp" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Begravelseshjælp</a>
             <a href="/kim-bondo/hvad-koster-en-begravelse" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Hvad koster det?</a>
             <a href="#kontakt" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Kontakt</a>
+    <a href="/kim-bondo/omraade" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Alle byer</a>
     <a href="/kim-bondo/faq" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>FAQ</a>
             <a
               href="tel:22211437"
@@ -951,6 +952,18 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
               22 21 14 37
             </a>
             .
+          </p>
+          {/* Google Business Profile – opdater linket når din profil er oprettet på Google */}
+          <p style={{ marginBottom: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99", textAlign: "center" }}>
+            <a
+              href="https://g.page/r/INDSÆT-DIT-GOOGLE-BUSINESS-ID-HER/review"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C" }}
+            >
+              ⭐ Skriv en anmeldelse på Google
+            </a>
+            {" "}· Hjælper andre med at finde Kim
           </p>
           <ContactForm />
         </div>

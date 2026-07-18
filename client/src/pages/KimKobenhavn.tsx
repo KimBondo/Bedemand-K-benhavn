@@ -87,6 +87,23 @@ export default function KimKobenhavn() {
           Ring op
         </a>
       </header>
+      {/* ── BRØDKRUMMESTI ── */}
+      <nav aria-label="breadcrumb" style={{ background: "#F0EDE8", padding: "10px 24px", borderBottom: "1px solid #e0dcd6" }}>
+        <ol style={{ display: "flex", alignItems: "center", gap: "8px", listStyle: "none", margin: 0, padding: 0, fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99", flexWrap: "wrap" }}>
+          <li>
+            <a href="/" style={{ color: "#84A98C", textDecoration: "none" }}>Forsiden</a>
+          </li>
+          <li style={{ color: "#b0b8bc" }}>›</li>
+          <li>
+            <a href="/kim-bondo" style={{ color: "#84A98C", textDecoration: "none" }}>Kim Bondo</a>
+          </li>
+          <li style={{ color: "#b0b8bc" }}>›</li>
+          <li style={{ color: "#3d4f5a", fontWeight: 600 }}>
+            Bedemand København
+          </li>
+        </ol>
+      </nav>
+
 
       {/* ── HERO ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
@@ -189,7 +206,8 @@ export default function KimKobenhavn() {
               <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
             </div>
           ))}
-          <a href="/kim-bondo/faq" style={s.link}>Se alle spørgsmål og svar →</a>
+          <a href="/kim-bondo/omraade" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Alle byer</a>
+    <a href="/kim-bondo/faq" style={s.link}>Se alle spørgsmål og svar →</a>
         </div>
       </section>
 
