@@ -34,6 +34,7 @@ export default function KimKirkeligAfsked() {
         title="Kirkelig afsked – Bedemand Kim Bondo, København og Nordsjælland"
         description="En kirkelig begravelse eller bisættelse i kirke eller kapel med præst. Kim Bondo hjælper med planlægning, kontakt til kirken og hele det praktiske forløb."
         url="https://bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       {/* ── HEADER ── */}

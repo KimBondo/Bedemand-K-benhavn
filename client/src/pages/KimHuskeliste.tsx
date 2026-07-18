@@ -35,6 +35,7 @@ export default function KimHuskeliste() {
         title="Huskeliste ved dødsfald – Bedemand Kim Bondo, København og Nordsjælland"
         description="Praktisk huskeliste når en nærtstående dør. Hvad skal der gøres, hvem kontakter man, og hvad hjælper Kim Bondo med? Overblik over læge, myndigheder, økonomi og opsigelser."
         url="https://bedemandkobenhavn.dk/kim-bondo/huskeliste"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       {/* ── HEADER ── */}

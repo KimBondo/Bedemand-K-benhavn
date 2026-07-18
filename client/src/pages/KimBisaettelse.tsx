@@ -21,6 +21,7 @@ export default function KimBisaettelse() {
         title="Bisættelse – Bedemand Kim Bondo, København og Nordsjælland"
         description="Bisættelse med nærvær og ro. Kim Bondo hjælper jer gennem hele forløbet – fra første kontakt til kremering og urnenedsættelse eller askespredning. Priser fra 15.500 kr."
         url="https://bedemandkobenhavn.dk/kim-bondo/bisaettelse"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       {/* ── HEADER ── */}

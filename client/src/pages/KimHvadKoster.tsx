@@ -47,6 +47,7 @@ export default function KimHvadKoster() {
         title="Hvad koster en begravelse? Priser 2026 – Bedemand Kim Bondo, København"
         description="Hvad koster en begravelse eller bisættelse i 2026? Få et ærligt overblik over alle udgifter: bedemand, kiste, kremering, gravsted og begravelseshjælp. Kim Bondo, bedemand i København og Nordsjælland."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/hvad-koster-en-begravelse"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg
         type="both"

@@ -35,6 +35,7 @@ export default function KimGentofte() {
         title="Bedemand Gentofte – Kim Bondo | Bisættelse og begravelse i Gentofte"
         description="Søger du en bedemand i Gentofte? Kim Bondo hjælper familier i Gentofte, Hellerup og omegn med bisættelse, begravelse og afsked. Personlig og nærværende hjælp – ring 22 21 14 37 døgnet rundt."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/gentofte"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Gentofte?", answer: "Kim Bondo er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },

@@ -34,6 +34,7 @@ export default function KimBorgerligAfsked() {
         title="Borgerlig afsked – Bedemand Kim Bondo, København og Nordsjælland"
         description="En personlig afsked uden religiøse ritualer — i kapel, hjemme eller et sted med særlig betydning. Kim Bondo hjælper med planlægning og hele forløbet."
         url="https://bedemandkobenhavn.dk/kim-bondo/borgerlig-afsked"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       {/* ── HEADER ── */}

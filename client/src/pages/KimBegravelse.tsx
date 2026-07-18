@@ -20,6 +20,7 @@ export default function KimBegravelse() {
         title="Begravelse – Bedemand Kim Bondo, København og Nordsjælland"
         description="Begravelse med kiste i jorden – en smuk og traditionel afsked. Kim Bondo hjælper jer med alt fra planlægning til jordfæstelse. Gennemsigtige priser fra 18.500 kr."
         url="https://bedemandkobenhavn.dk/kim-bondo/begravelse"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       {/* ── HEADER ── */}

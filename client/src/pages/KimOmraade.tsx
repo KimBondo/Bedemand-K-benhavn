@@ -48,6 +48,7 @@ export default function KimOmraade() {
         title="Dækningsområde – Bedemand Kim Bondo, København og Nordsjælland"
         description="Kim Bondo arbejder som bedemand i København og Nordsjælland — herunder Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring på 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/omraade"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       {/* ── HEADER ── */}
@@ -149,6 +150,8 @@ export default function KimOmraade() {
               { label: "Bedemand Lyngby", href: "/kim-bondo/lyngby" },
               { label: "Bedemand Hillerød", href: "/kim-bondo/hillerod" },
               { label: "Bedemand København", href: "/kim-bondo/kobenhavn" },
+              { label: "Bedemand Nordsjælland", href: "/kim-bondo/nordsjaelland" },
+              { label: "Bedemand Frederiksberg", href: "/kim-bondo/frederiksberg" },
             ].map((link) => (
               <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "16px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
                 {link.label}

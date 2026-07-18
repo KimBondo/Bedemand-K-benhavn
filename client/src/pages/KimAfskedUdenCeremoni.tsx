@@ -20,6 +20,7 @@ export default function KimAfskedUdenCeremoni() {
         title="Afsked uden ceremoni – Bedemand Kim Bondo, København og Nordsjælland"
         description="En enkel og respektfuld afsked uden formel ceremoni. Kim Bondo hjælper med alt det praktiske, så I kan bruge energien på hinanden. Priser fra 15.500 kr."
         url="https://bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       {/* ── HEADER ── */}

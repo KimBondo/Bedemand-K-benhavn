@@ -20,6 +20,7 @@ export default function KimAfskeder() {
         title="Afskeder – Bedemand Kim Bondo, København og Nordsjælland"
         description="Bisættelse, begravelse, afsked uden ceremoni eller askespredning – Kim Bondo hjælper jer med at finde den afskedsform, der passer til jer. Gennemsigtige priser fra 15.500 kr."
         url="https://bedemandkobenhavn.dk/kim-bondo/afskeder"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       {/* ── HEADER ── */}

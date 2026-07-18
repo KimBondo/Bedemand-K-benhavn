@@ -35,6 +35,7 @@ export default function KimHorsholm() {
         title="Bedemand Hørsholm – Kim Bondo | Bisættelse og begravelse i Hørsholm"
         description="Søger du en bedemand i Hørsholm? Kim Bondo hjælper familier i Hørsholm og omegn med bisættelse, begravelse og afsked. Personlig og nærværende hjælp – ring 22 21 14 37 døgnet rundt."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/horsholm"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Hørsholm?", answer: "Kim Bondo er selvstændig bedemand og dækker Hørsholm og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },

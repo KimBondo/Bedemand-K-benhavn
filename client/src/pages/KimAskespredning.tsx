@@ -20,6 +20,7 @@ export default function KimAskespredning() {
         title="Askespredning over havet – Bedemand Kim Bondo, København og Nordsjælland"
         description="Askespredning over havet er en smuk og fri afsked. Kim Bondo hjælper med regler, praktik og hele forløbet. Priser fra 15.500 kr."
         url="https://bedemandkobenhavn.dk/kim-bondo/askespredning"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       {/* ── HEADER ── */}
