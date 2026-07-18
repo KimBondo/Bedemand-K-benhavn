@@ -6,10 +6,16 @@
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Forside -->
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+
+  <!-- Kim Bondo – Kernesider -->
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/priser</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/hvad-koster-en-begravelse</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/faq</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Kim Bondo – Afskeder -->
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/afskeder</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/bisaettelse</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/begravelse</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -17,9 +23,14 @@
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/borgerlig-afsked</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/afsked-uden-ceremoni</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/askespredning</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Kim Bondo – Praktisk info -->
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/huskeliste</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/begravelseshjaelp</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/omraade</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Kim Bondo – Lokale landingssider -->
+  <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/kobenhavn</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/helsingor</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/horsholm</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/gentofte</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>

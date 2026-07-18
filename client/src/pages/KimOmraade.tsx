@@ -146,6 +146,7 @@ export default function KimOmraade() {
               { label: "Bedemand Gentofte", href: "/kim-bondo/gentofte" },
               { label: "Bedemand Lyngby", href: "/kim-bondo/lyngby" },
               { label: "Bedemand Hillerød", href: "/kim-bondo/hillerod" },
+              { label: "Bedemand København", href: "/kim-bondo/kobenhavn" },
             ].map((link) => (
               <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "16px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
                 {link.label}
