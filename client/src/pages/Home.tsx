@@ -138,6 +138,78 @@ export default function Home() {
           </div>
         </div>
 
+        {/* ── BEDEMAND KOBENHAVN FEATURED ── */}
+        <section
+          style={{
+            background: "rgba(255,255,255,0.05)",
+            borderTop: "1px solid rgba(255,255,255,0.10)",
+            padding: "40px 24px",
+            textAlign: "center",
+          }}
+        >
+          <p
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: 600,
+              fontSize: "12px",
+              letterSpacing: "0.12em",
+              color: "#84A98C",
+              textTransform: "uppercase",
+              marginBottom: "12px",
+            }}
+          >
+            Søger du bedemand i København?
+          </p>
+          <p
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontSize: "15px",
+              color: "rgba(255,255,255,0.65)",
+              marginBottom: "20px",
+              lineHeight: 1.6,
+            }}
+          >
+            Kim Bondo dækker hele København og Nordsjælland — tilgængelig døgnet rundt.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px" }}>
+            <a
+              href="/kim-bondo/kobenhavn"
+              style={{
+                display: "inline-block",
+                background: "#84A98C",
+                color: "#fff",
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 700,
+                fontSize: "14px",
+                padding: "12px 28px",
+                borderRadius: "3px",
+                textDecoration: "none",
+                letterSpacing: "0.04em",
+              }}
+            >
+              Bedemand København
+            </a>
+            <a
+              href="/kim-bondo/faq"
+              style={{
+                display: "inline-block",
+                background: "transparent",
+                color: "rgba(255,255,255,0.70)",
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 600,
+                fontSize: "14px",
+                padding: "12px 28px",
+                borderRadius: "3px",
+                textDecoration: "none",
+                letterSpacing: "0.04em",
+                border: "1px solid rgba(255,255,255,0.20)",
+              }}
+            >
+              Spørgsmål og svar
+            </a>
+          </div>
+        </section>
+
         {/* ── FOOTER ── */}
         <footer
           style={{

@@ -58,6 +58,7 @@ export default function KimBondo() {
           }}
         >
           <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+            <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
             <span
               style={{
                 fontFamily: "'Lora', serif",
@@ -89,6 +90,7 @@ export default function KimBondo() {
             <a href="/kim-bondo/begravelseshjaelp" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Begravelseshjælp</a>
             <a href="/kim-bondo/hvad-koster-en-begravelse" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Hvad koster det?</a>
             <a href="#kontakt" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Kontakt</a>
+    <a href="/kim-bondo/faq" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>FAQ</a>
             <a
               href="tel:22211437"
               style={{
@@ -921,6 +923,62 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
         </div>
       </section>
 
+
+      {/* ══════════════════════════════════════════════════════
+          SECTION 7b: BLOG / ARTIKLER
+      ══════════════════════════════════════════════════════ */}
+      <section style={{ background: "#F9F8F6", padding: "80px 32px" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "16px" }}>Viden og vejledning</p>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(22px, 3vw, 32px)", color: "#2F3E46", marginBottom: "12px", marginTop: 0 }}>Artikler om afsked og begravelse</h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "40px", maxWidth: "600px" }}>
+            Her deler jeg viden om de spørgsmål, jeg oftest møder. Læs og bliʾv klogere, så I kan træffe de rigtige valg i en svær tid.
+          </p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "28px" }}>
+            {[
+              {
+                title: "Hvad sker der efter et dødsfald?",
+                excerpt: "Når en nærtestående dør, er der mange praktiske ting, der skal ordnes. Her er en oversigt over de første skridt — hvem skal kontaktes, og hvad sker der med afdøde.",
+                href: "/kim-bondo/huskeliste",
+                label: "Læs huskelisten",
+              },
+              {
+                title: "Sådan vælger du den rigtige afsked",
+                excerpt: "Bisaettelse, begravelse eller afsked uden ceremoni? Kirkelig eller borgerlig? Her gennemgår jeg forskellene, så I kan vælge den afsked, der passer til jer.",
+                href: "/kim-bondo/afskeder",
+                label: "Se alle afskeder",
+              },
+              {
+                title: "Hvad koster en begravelse i 2026?",
+                excerpt: "Mange er overraskede over, hvad en begravelse egentlig koster. Her er en ærlig gennemgang af, hvad der påvirker prisen — og hvad du kan forvente at betale.",
+                href: "/kim-bondo/hvad-koster-en-begravelse",
+                label: "Læs om priser",
+              },
+            ].map((article) => (
+              <div
+                key={article.title}
+                style={{
+                  background: "#fff",
+                  padding: "32px 28px",
+                  borderRadius: "3px",
+                  border: "1px solid #e0dcd6",
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "18px", color: "#2F3E46", marginBottom: "12px", marginTop: 0, lineHeight: 1.4 }}>{article.title}</h3>
+                <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", lineHeight: 1.7, color: "#3d4f5a", marginBottom: "20px", flex: 1 }}>{article.excerpt}</p>
+                <a
+                  href={article.href}
+                  style={{ color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "14px", alignSelf: "flex-start" }}
+                >
+                  {article.label} →
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ══════════════════════════════════════════════════════
           SECTION 8: FOOTER & CTA
