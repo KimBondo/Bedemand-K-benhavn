@@ -191,6 +191,37 @@ export default function KimLyngby() {
         </div>
       </section>
 
+      {/* ── DEL PÅ FACEBOOK ── */}
+      <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
+          Kender du nogen i Lyngby, der kan have brug for en bedemand? Del denne side.
+        </p>
+        <a
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/lyngby")}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "10px",
+            background: "#1877F2",
+            color: "#fff",
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 700,
+            fontSize: "15px",
+            padding: "12px 28px",
+            borderRadius: "3px",
+            textDecoration: "none",
+            letterSpacing: "0.03em",
+          }}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Del på Facebook
+        </a>
+      </section>
+
+
+
       {/* ── FOOTER ── */}
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand i Lyngby – Kim Bondo</p>
