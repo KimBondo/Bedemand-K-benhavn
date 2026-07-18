@@ -472,6 +472,28 @@ export default function KimPriser() {
 
         <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", marginBottom: "64px" }} />
 
+        {/* ── LINK TO PRODUKTER ── */}
+        <div style={{ textAlign: "center", marginBottom: "64px" }}>
+          <a
+            href="/kim-bondo/produkter"
+            style={{
+              display: "inline-block",
+              background: "#F9F8F6",
+              border: "1px solid #84A98C",
+              color: "#2F3E46",
+              fontFamily: "'Open Sans', sans-serif",
+              fontWeight: 600,
+              fontSize: "15px",
+              padding: "14px 32px",
+              borderRadius: "3px",
+              textDecoration: "none",
+              letterSpacing: "0.03em",
+            }}
+          >
+            Se kister og urner med billeder og priser →
+          </a>
+        </div>
+
         {/* ── COMPLETE PRICE TABLE ── */}
         <section style={{ marginBottom: "64px" }}>
           <h2

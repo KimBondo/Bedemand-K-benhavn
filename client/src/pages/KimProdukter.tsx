@@ -254,11 +254,11 @@ export default function KimProdukter() {
                   border: "1px solid #e0dcd6",
                 }}
               >
-                <div style={{ height: "200px", overflow: "hidden", background: "#e8e4df" }}>
+                <div style={{ background: "#e8e4df", textAlign: "center" }}>
                   <img
                     src={u.image}
                     alt={u.name}
-                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                    style={{ width: "100%", height: "auto", display: "block" }}
                   />
                 </div>
                 <div style={{ padding: "20px" }}>
