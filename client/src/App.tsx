@@ -27,6 +27,8 @@ import KimKobenhavn from "./pages/KimKobenhavn";
 import KimFaq from "./pages/KimFaq";
 import KimNordsjaelland from "./pages/KimNordsjaelland";
 import KimFrederiksberg from "./pages/KimFrederiksberg";
+import KimAmager from "./pages/KimAmager";
+import KimOsterbro from "./pages/KimOsterbro";
 
 
 function Router() {
@@ -55,6 +57,8 @@ function Router() {
       <Route path={"/kim-bondo/faq"} component={KimFaq} />
       <Route path={"/kim-bondo/nordsjaelland"} component={KimNordsjaelland} />
       <Route path={"/kim-bondo/frederiksberg"} component={KimFrederiksberg} />
+      <Route path={"/kim-bondo/amager"} component={KimAmager} />
+      <Route path={"/kim-bondo/osterbro"} component={KimOsterbro} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

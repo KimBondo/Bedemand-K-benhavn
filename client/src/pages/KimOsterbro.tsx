@@ -3,7 +3,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 
 /**
- * Kim Bondo – Bedemand Frederiksberg (lokal SEO-landingsside)
+ * Kim Bondo – Bedemand Østerbro (lokal SEO-landingsside)
  */
 
 const NAV = (
@@ -28,20 +28,20 @@ const s = {
   link: { color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px" } as React.CSSProperties,
 };
 
-export default function KimFrederiksberg() {
+export default function KimOsterbro() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Frederiksberg – Kim Bondo | Bisættelse og begravelse på Frederiksberg"
-        description="Søger du en bedemand på Frederiksberg? Kim Bondo er personlig bedemand på Frederiksberg og i hele København. Hjælp til bisættelse, begravelse og afsked – gennemsigtige priser fra 15.500 kr. Ring 22 21 14 37 døgnet rundt."
-        url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/frederiksberg"
+        title="Bedemand Østerbro – Kim Bondo | Bisættelse og begravelse på Østerbro"
+        description="Søger du en bedemand på Østerbro? Kim Bondo er personlig bedemand på Østerbro og i hele København. Hjælp til bisættelse, begravelse og afsked – gennemsigtige priser fra 15.500 kr. Ring 22 21 14 37 døgnet rundt."
+        url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/osterbro"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand på Frederiksberg?", answer: "Kim Bondo er selvstændig bedemand og dækker Frederiksberg og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en begravelse på Frederiksberg?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 19.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Frederiksberg?", answer: "Frederiksberg har Frederiksberg Krematorium og en række smukke kirker, herunder Frederiksberg Kirke og Sankt Thomas Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
-        { question: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", answer: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Frederiksberg, uden religiøse ritualer." },
+        { question: "Hvem er bedemand på Østerbro?", answer: "Kim Bondo er selvstændig bedemand og dækker Østerbro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
+        { question: "Hvad koster en begravelse på Østerbro?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 19.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
+        { question: "Hvilke krematorier og kirker er der på Østerbro?", answer: "Østerbro har bl.a. Bispebjerg Krematorium og en række smukke kirker, herunder Brorsons Kirke og Sankt Johannes Kirke. Assistens Kirkegård ligger tæt på. Kim Bondo koordinerer direkte med de rette instanser." },
+        { question: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", answer: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Østerbro, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen." },
       ]} />
 
@@ -69,8 +69,8 @@ export default function KimFrederiksberg() {
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
           <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
-          <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand Frederiksberg</span>
-          <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – personlig bedemand på Frederiksberg</span>
+          <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand Østerbro</span>
+          <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – personlig bedemand på Østerbro</span>
         </div>
         {NAV}
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
@@ -90,12 +90,12 @@ export default function KimFrederiksberg() {
 
       {/* ── HERO ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
-        <p style={s.label}>Bedemand på Frederiksberg</p>
+        <p style={s.label}>Bedemand på Østerbro</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
-          Personlig bedemand på Frederiksberg
+          Personlig bedemand på Østerbro
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier på Frederiksberg med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
+          Jeg er selvstændig bedemand og hjælper familier på Østerbro med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -106,13 +106,13 @@ export default function KimFrederiksberg() {
         </p>
       </section>
 
-      {/* ── OM KIM PÅ FREDERIKSBERG ── */}
+      {/* ── OM KIM PÅ ØSTERBRO ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Nærværende og tilgængelig</p>
-          <h2 style={s.h2}>Bedemand på Frederiksberg</h2>
+          <h2 style={s.h2}>Bedemand på Østerbro</h2>
           <p style={s.body}>
-            Frederiksberg er en by med stærke traditioner og smukke omgivelser — fra Frederiksberg Have til de mange historiske kirker og Frederiksberg Krematorium. Jeg kender de lokale kirker, kapeller og krematorier og koordinerer direkte med de rette instanser, så I ikke skal stå med det selv.
+            Østerbro er en levende bydel med en stærk identitet — fra Fælledparken og Trianglen til de rolige villaveje mod nord. Bydelen har smukke kirker og kirkegårde, herunder den historiske Assistens Kirkegård. Jeg kender de lokale kirker, kapeller og krematorier og koordinerer direkte med de rette instanser.
           </p>
           <p style={s.body}>
             Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled — bare direkte kontakt med mig, Kim Bondo. Jeg er tilgængelig hele døgnet, også i weekender og på helligdage.
@@ -125,13 +125,13 @@ export default function KimFrederiksberg() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <p style={s.label}>Mine ydelser</p>
-          <h2 style={s.h2}>Hvad hjælper jeg med på Frederiksberg?</h2>
+          <h2 style={s.h2}>Hvad hjælper jeg med på Østerbro?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og Frederiksberg Krematorium.", href: "/kim-bondo/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på Frederiksberg Kirkegård eller en af de nærliggende kirkegårde. Jeg koordinerer med kordegn og præst.", href: "/kim-bondo/begravelse" },
+              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og krematorium på Østerbro og i København.", href: "/kim-bondo/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på Assistens Kirkegård eller en af de nærliggende kirkegårde. Jeg koordinerer med kordegn og præst.", href: "/kim-bondo/begravelse" },
               { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 15.500 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
-              { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Frederiksbergs kirker.", href: "/kim-bondo/kirkelig-afsked" },
+              { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Østerbros kirker.", href: "/kim-bondo/kirkelig-afsked" },
               { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer, men med fuld personlighed.", href: "/kim-bondo/borgerlig-afsked" },
               { title: "Askespredning", desc: "Spredning af aske over havet ud for Sjællands kyst. En fri og naturlig afsked.", href: "/kim-bondo/askespredning" },
             ].map((item) => (
@@ -149,7 +149,7 @@ export default function KimFrederiksberg() {
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Gennemsigtige priser</p>
-          <h2 style={s.h2}>Hvad koster en begravelse på Frederiksberg?</h2>
+          <h2 style={s.h2}>Hvad koster en begravelse på Østerbro?</h2>
           <p style={s.body}>
             Priserne hos Kim Bondo er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
           </p>
@@ -176,12 +176,12 @@ export default function KimFrederiksberg() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
-          <h2 style={s.h2}>Spørgsmål om bedemand på Frederiksberg</h2>
+          <h2 style={s.h2}>Spørgsmål om bedemand på Østerbro</h2>
           {[
-            { q: "Hvem er bedemand på Frederiksberg?", a: "Kim Bondo er selvstændig bedemand og dækker Frederiksberg og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en begravelse på Frederiksberg?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 19.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Frederiksberg?", a: "Frederiksberg har Frederiksberg Krematorium og en række smukke kirker, herunder Frederiksberg Kirke og Sankt Thomas Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
-            { q: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", a: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Frederiksberg, uden religiøse ritualer." },
+            { q: "Hvem er bedemand på Østerbro?", a: "Kim Bondo er selvstændig bedemand og dækker Østerbro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
+            { q: "Hvad koster en begravelse på Østerbro?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 19.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
+            { q: "Hvilke krematorier og kirker er der på Østerbro?", a: "Østerbro har bl.a. Bispebjerg Krematorium og en række smukke kirker, herunder Brorsons Kirke og Sankt Johannes Kirke. Assistens Kirkegård ligger tæt på. Kim Bondo koordinerer direkte med de rette instanser." },
+            { q: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", a: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Østerbro, uden religiøse ritualer." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
@@ -199,9 +199,9 @@ export default function KimFrederiksberg() {
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
             { label: "Bedemand København", href: "/kim-bondo/kobenhavn" },
+            { label: "Bedemand Frederiksberg", href: "/kim-bondo/frederiksberg" },
+            { label: "Bedemand Amager", href: "/kim-bondo/amager" },
             { label: "Bedemand Gentofte", href: "/kim-bondo/gentofte" },
-            { label: "Bedemand Lyngby", href: "/kim-bondo/lyngby" },
-            { label: "Bedemand Nordsjælland", href: "/kim-bondo/nordsjaelland" },
             { label: "Dækningsområde", href: "/kim-bondo/omraade" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
@@ -226,14 +226,14 @@ export default function KimFrederiksberg() {
 
       {/* ── FOOTER ── */}
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
-        <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand på Frederiksberg – Kim Bondo</p>
+        <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand på Østerbro – Kim Bondo</p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
           eller ring på <a href="tel:22211437" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
         </p>
         <p style={{ marginTop: "48px", fontFamily: "'Open Sans', sans-serif", fontSize: "12px", color: "rgba(255,255,255,0.30)" }}>
-          © {new Date().getFullYear()} Kim Bondo – Bedemand Frederiksberg &nbsp;·&nbsp;
+          © {new Date().getFullYear()} Kim Bondo – Bedemand Østerbro &nbsp;·&nbsp;
           <a href="/" style={{ color: "rgba(255,255,255,0.40)", textDecoration: "none" }}>Forsiden</a>
           &nbsp;·&nbsp;
           <a href="/kim-bondo/omraade" style={{ color: "rgba(255,255,255,0.40)", textDecoration: "none" }}>Dækningsområde</a>
