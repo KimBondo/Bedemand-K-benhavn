@@ -95,6 +95,7 @@ export default function KimNav() {
             key={href}
             href={href}
             style={isActive(href, exact, hash) ? ACTIVE : INACTIVE}
+            onClick={hash ? (e) => { e.preventDefault(); window.location.href = href; } : undefined}
           >
             {label}
           </a>
@@ -162,7 +163,7 @@ export default function KimNav() {
               <a
                 key={href}
                 href={href}
-                onClick={() => setOpen(false)}
+                onClick={hash ? (e) => { e.preventDefault(); setOpen(false); window.location.href = href; } : () => setOpen(false)}
                 style={{
                   fontFamily: "'Open Sans', sans-serif",
                   fontWeight: isActive(href, exact, hash) ? 700 : 600,

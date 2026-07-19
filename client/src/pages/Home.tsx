@@ -159,7 +159,7 @@ export default function Home() {
               marginBottom: "12px",
             }}
           >
-            Søger du bedemand i København?
+            Søger du bedemand i København eller Nordsjælland?
           </p>
           <p
             style={{
@@ -170,45 +170,9 @@ export default function Home() {
               lineHeight: 1.6,
             }}
           >
-            Kim Bondo dækker hele København og Nordsjælland — tilgængelig døgnet rundt.
+            Kim Bondo og Marie Thjellesen dækker hele København og Nordsjælland — tilgængelig hele døgnet.
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px" }}>
-            <a
-              href="/kim-bondo/kobenhavn"
-              style={{
-                display: "inline-block",
-                background: "#84A98C",
-                color: "#fff",
-                fontFamily: "'Open Sans', sans-serif",
-                fontWeight: 700,
-                fontSize: "14px",
-                padding: "12px 28px",
-                borderRadius: "3px",
-                textDecoration: "none",
-                letterSpacing: "0.04em",
-              }}
-            >
-              Bedemand København
-            </a>
-            <a
-              href="/kim-bondo/faq"
-              style={{
-                display: "inline-block",
-                background: "transparent",
-                color: "rgba(255,255,255,0.70)",
-                fontFamily: "'Open Sans', sans-serif",
-                fontWeight: 600,
-                fontSize: "14px",
-                padding: "12px 28px",
-                borderRadius: "3px",
-                textDecoration: "none",
-                letterSpacing: "0.04em",
-                border: "1px solid rgba(255,255,255,0.20)",
-              }}
-            >
-              Spørgsmål og svar
-            </a>
-          </div>
+
         </section>
 
         {/* ── FOOTER ── */}
