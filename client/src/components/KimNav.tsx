@@ -116,7 +116,7 @@ export default function KimNav() {
       </nav>
 
       {/* ── MOBILE HAMBURGER ── */}
-      <div className="kimnav-mobile-menu">
+      <div className="kimnav-mobile-menu" style={{ position: "relative" }}>
         <button
           className="kimnav-hamburger"
           onClick={() => setOpen((v) => !v)}
@@ -143,14 +143,16 @@ export default function KimNav() {
           <div
             style={{
               position: "absolute",
-              top: "100%",
+              top: "calc(100% + 8px)",
               right: 0,
-              left: 0,
+              left: "auto",
+              minWidth: "220px",
               background: "#F9F8F6",
-              borderTop: "1px solid #e0dcd6",
-              borderBottom: "1px solid #e0dcd6",
-              zIndex: 100,
-              padding: "12px 24px 16px",
+              border: "1px solid #e0dcd6",
+              borderRadius: "4px",
+              boxShadow: "0 4px 16px rgba(0,0,0,0.10)",
+              zIndex: 200,
+              padding: "8px 0 12px",
               display: "flex",
               flexDirection: "column",
               gap: "0px",
@@ -168,7 +170,7 @@ export default function KimNav() {
                   color: isActive(href, exact, hash) ? "#84A98C" : "#3d5260",
                   textDecoration: "none",
                   letterSpacing: "0.02em",
-                  padding: "10px 0",
+                  padding: "10px 20px",
                   borderBottom: "1px solid #ede9e4",
                   display: "flex",
                   alignItems: "center",
@@ -191,7 +193,7 @@ export default function KimNav() {
                 color: "#84A98C",
                 textDecoration: "none",
                 letterSpacing: "0.03em",
-                padding: "12px 0 4px",
+                padding: "12px 20px 4px",
                 display: "block",
               }}
             >
