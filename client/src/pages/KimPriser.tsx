@@ -298,7 +298,7 @@ export default function KimPriser() {
             price: "Fra 17.395 kr.",
             items: [
               "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-              "100 % bæredygtig, danskproduceret kiste lavet af genbrugsmaterialer",
+              "Danskproduceret kiste med lavt klimaaftryk",
               "Klassisk hvid bionedbrydelig urne",
               "Klargøring af kiste, påklædning og ilægning i kiste",
               "Rustvognskørsel fra hospital eller kapel til højtidelighed",

@@ -388,7 +388,7 @@ export default function KimBondo() {
               color: "#3d5260",
             }}
           >
-            Som en naturlig del af mit virke tilbyder jeg udelukkende kister produceret i Danmark af 100 % genbrugsmaterialer. Der er ikke fældet et eneste nyt træ for at skabe kisten. Det giver jer mulighed for at vælge en afsked, der er smuk og lokal, og som samtidig tager fuldt hensyn til den natur, vi er en del af.
+            Som en naturlig del af mit virke tilbyder jeg kister produceret i Danmark – de fleste med meget lavt klimaaftryk. Det giver jer mulighed for at vælge en afsked, der er smuk og lokal, og som samtidig tager hensyn til den natur, vi er en del af.
           </p>
         </div>
       </section>
@@ -475,7 +475,7 @@ export default function KimBondo() {
                 price: "Fra 17.395 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-                  "100 % bæredygtig, danskproduceret kiste lavet af genbrugsmaterialer",
+                  "Danskproduceret kiste med lavt klimaaftryk",
                   "Klassisk hvid bionedbrydelig urne",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
                   "Rustvognskørsel fra hospital eller kapel til højtidelighed",
