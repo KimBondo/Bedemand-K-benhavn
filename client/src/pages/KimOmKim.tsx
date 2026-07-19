@@ -90,6 +90,50 @@ export default function KimOmKim() {
                 flexShrink: 0,
               }}
             />
+            {/* Kontaktknapper under billedet */}
+            <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "16px", width: "clamp(180px, 30vw, 280px)", flexShrink: 0 }}>
+              <a
+                href="tel:22211437"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "8px",
+                  background: "#84A98C",
+                  color: "#fff",
+                  fontFamily: "'Open Sans', sans-serif",
+                  fontWeight: 700,
+                  fontSize: "15px",
+                  padding: "13px 20px",
+                  borderRadius: "3px",
+                  textDecoration: "none",
+                  letterSpacing: "0.03em",
+                }}
+              >
+                📞 Ring: 22 21 14 37
+              </a>
+              <a
+                href="mailto:kim@bedemandkobenhavn.dk"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "8px",
+                  background: "transparent",
+                  color: "#3d5260",
+                  fontFamily: "'Open Sans', sans-serif",
+                  fontWeight: 600,
+                  fontSize: "14px",
+                  padding: "11px 20px",
+                  borderRadius: "3px",
+                  textDecoration: "none",
+                  letterSpacing: "0.02em",
+                  border: "1.5px solid #84A98C",
+                }}
+              >
+                ✉️ Skriv en e-mail
+              </a>
+            </div>
             <div style={{ flex: 1, minWidth: "260px" }}>
               <p style={s.body}>
                 Jeg er selvstændig bedemand i København og Nordsjælland, og for mig er det en hjertesag at møde mennesker med nærvær, ro og en dyb tillid til, at også de tungeste stunder bærer mening i sig.
