@@ -207,7 +207,7 @@ export default function KimPriser() {
             Prisen afhænger af jeres ønsker og behov. Jeg gennemgår altid alle
             udgifter med jer, inden vi beslutter noget – så I ved præcis, hvad I
             siger ja til. Jeg søger desuden begravelseshjælp på jeres vegne, som
-            Den bliver direkte modregnet på fakturaen.
+            den bliver direkte modregnet på fakturaen.
           </p>
           <p
             style={{
@@ -334,6 +334,9 @@ export default function KimPriser() {
             >
               {pkg.subtitle}
             </p>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.10em", color: "#84A98C", textTransform: "uppercase", marginBottom: "10px", marginTop: "4px" }}>
+              {pkg.title} indeholder
+            </p>
             <ul style={{ listStyle: "none", padding: 0, marginBottom: "20px" }}>
               {pkg.items.map((item) => (
                 <li
@@ -374,18 +377,7 @@ export default function KimPriser() {
           </section>
         ))}
 
-        <p
-          style={{
-            textAlign: "center",
-            fontSize: "14px",
-            color: "#7a8f99",
-            fontStyle: "italic",
-            maxWidth: "600px",
-            margin: "0 auto 48px",
-          }}
-        >
-          Alle priseksempler er beregnet på hverdage. Rustvognskørsel i weekenden er 50% dyrere.
-        </p>
+
 
         {/* ── NOT INCLUDED SECTION ── */}
         <div

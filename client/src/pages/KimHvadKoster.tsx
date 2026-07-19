@@ -35,7 +35,7 @@ export default function KimHvadKoster() {
         faqItems={[
           { question: "Hvad koster en begravelse i Danmark?", answer: "En typisk begravelse eller bisættelse koster i 2026 alt fra 20.000 kr. til 60.000 kr. afhængigt af valg af kiste, gravsted, gravsten og ceremonitype." },
           { question: "Hvad er den billigste begravelse?", answer: "Den billigste løsning er afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos Kim starter denne løsning fra 15.500 kr." },
-          { question: "Hvad koster en bisættelse i København?", answer: "En bisættelse med ceremoni i København koster typisk 25.000–40.000 kr. alt inklusiv. Bedemandshonoraret starter fra 17.395 kr." },
+          { question: "Hvad koster en bisættelse i København?", answer: "Kims honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 17.395 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
           { question: "Hvad er begravelseshjælp?", answer: "Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af afdødes formue." },
           { question: "Er der skjulte udgifter ved en begravelse?", answer: "Hos Kim gennemgås alle udgifter på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
         ]}
@@ -177,10 +177,10 @@ export default function KimHvadKoster() {
           <h2 style={s.h2}>Spørgsmål om priser</h2>
           {[
             { q: "Hvad er den billigste begravelse?", a: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos Kim starter denne løsning fra 15.500 kr. inkl. alt koordinering, men ekskl. kremering og urne." },
-            { q: "Hvad koster en bisættelse i København?", a: "En bisættelse med ceremoni i København koster typisk 25.000–40.000 kr. alt inklusiv. Bedemandshonoraret starter fra 17.395 kr., og dertil kommer kremering, blomster og eventuel kapelleje." },
+            { q: "Hvad koster en bisættelse i København?", a: "Kims honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 17.395 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
             { q: "Er der skjulte udgifter?", a: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
             { q: "Kan man betale i rater?", a: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning der passer til jer." },
-            { q: "Hvad koster det at bruge Kim som bedemand?", a: "Kims honorar starter fra 15.500 kr. for afsked uden ceremoni og fra 17.395 kr. for bisættelse med ceremoni. Se den fulde prisliste på prissiden." },
+            { q: "Hvad koster det at bruge Kim som bedemand?", a: "Kims honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 15.500 kr. (uden ceremoni), 17.395 kr. (bisættelse) og 18.500 kr. (begravelse). Se den fulde prisliste på prissiden." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>

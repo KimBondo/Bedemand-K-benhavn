@@ -8,7 +8,7 @@ import { useLocation } from "wouter";
  */
 
 const NAV_LINKS = [
-  { href: "/kim-bondo", label: "Om Kim", exact: true },
+  { href: "/kim-bondo/om-kim", label: "Om Kim", exact: true },
   { href: "/kim-bondo/afskeder", label: "Afskeder" },
   { href: "/kim-bondo/priser", label: "Priser" },
   { href: "/kim-bondo/produkter", label: "Produkter" },
