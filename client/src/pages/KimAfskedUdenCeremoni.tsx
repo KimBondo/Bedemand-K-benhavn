@@ -33,6 +33,7 @@ export default function KimAfskedUdenCeremoni() {
           flexWrap: "wrap",
           justifyContent: "space-between",
           alignItems: "center",
+          position: "relative",
           gap: "8px",
           borderBottom: "1px solid #e0dcd6",
         }}

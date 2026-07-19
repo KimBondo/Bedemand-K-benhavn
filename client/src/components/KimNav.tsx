@@ -1,8 +1,10 @@
+import { useState } from "react";
 import { useLocation } from "wouter";
 
 /**
- * KimNav – fælles navigationskomponent til alle Kim Bondos sider.
- * Fremhæver det aktuelle menupunkt med grøn farve og en understregning.
+ * KimNav – fælles responsiv navigationskomponent til alle Kim Bondos sider.
+ * Desktop: vandret række med aktiv-tilstand (grøn farve + understregning).
+ * Mobil: hamburger-knap åbner en lodret dropdown-menu.
  */
 
 const NAV_LINKS = [
@@ -15,9 +17,10 @@ const NAV_LINKS = [
   { href: "/kim-bondo/hvad-koster-en-begravelse", label: "Hvad koster det?" },
   { href: "/kim-bondo/omraade", label: "Alle byer" },
   { href: "/kim-bondo/faq", label: "FAQ" },
+  { href: "/kim-bondo#kontakt", label: "Kontakt", exact: false, hash: true },
 ];
 
-const BASE_STYLE: React.CSSProperties = {
+const BASE: React.CSSProperties = {
   fontFamily: "'Open Sans', sans-serif",
   fontWeight: 600,
   fontSize: "clamp(13px, 1.4vw, 15px)",
@@ -25,56 +28,178 @@ const BASE_STYLE: React.CSSProperties = {
   letterSpacing: "0.02em",
   paddingBottom: "2px",
   transition: "color 0.15s ease",
+  whiteSpace: "nowrap",
 };
 
-const ACTIVE_STYLE: React.CSSProperties = {
-  ...BASE_STYLE,
+const ACTIVE: React.CSSProperties = {
+  ...BASE,
   color: "#84A98C",
   borderBottom: "2px solid #84A98C",
 };
 
-const INACTIVE_STYLE: React.CSSProperties = {
-  ...BASE_STYLE,
+const INACTIVE: React.CSSProperties = {
+  ...BASE,
   color: "#3d5260",
   borderBottom: "2px solid transparent",
 };
 
 export default function KimNav() {
   const [location] = useLocation();
+  const [open, setOpen] = useState(false);
+
+  function isActive(href: string, exact?: boolean, hash?: boolean) {
+    if (hash) return false;
+    if (exact) return location === href;
+    return location === href || location.startsWith(href + "/") || location.startsWith(href + "?");
+  }
 
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: "24px", flexWrap: "wrap" }}>
-      {NAV_LINKS.map(({ href, label, exact }) => {
-        const isActive = exact
-          ? location === href
-          : location === href || location.startsWith(href + "/") || location.startsWith(href + "?");
-        return (
+    <>
+      <style>{`
+        .kimnav-desktop {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          flex-wrap: wrap;
+        }
+        .kimnav-hamburger {
+          display: none;
+          background: none;
+          border: none;
+          cursor: pointer;
+          padding: 6px;
+          color: #3d5260;
+        }
+        .kimnav-mobile-menu {
+          display: none;
+        }
+        @media (max-width: 900px) {
+          .kimnav-desktop {
+            display: none !important;
+          }
+          .kimnav-hamburger {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .kimnav-mobile-menu {
+            display: block;
+          }
+        }
+      `}</style>
+
+      {/* ── DESKTOP NAV ── */}
+      <nav className="kimnav-desktop" aria-label="Kim Bondo navigation">
+        {NAV_LINKS.map(({ href, label, exact, hash }) => (
           <a
             key={href}
             href={href}
-            style={isActive ? ACTIVE_STYLE : INACTIVE_STYLE}
+            style={isActive(href, exact, hash) ? ACTIVE : INACTIVE}
           >
             {label}
           </a>
-        );
-      })}
-      {/* Kontakt-link (hash-link, aldrig "aktiv") */}
-      <a href="/kim-bondo#kontakt" style={INACTIVE_STYLE}>Kontakt</a>
-      {/* Telefon */}
-      <a
-        href="tel:22211437"
-        style={{
-          fontFamily: "'Open Sans', sans-serif",
-          fontWeight: 700,
-          fontSize: "clamp(14px, 1.6vw, 18px)",
-          color: "#84A98C",
-          textDecoration: "none",
-          whiteSpace: "nowrap",
-          letterSpacing: "0.03em",
-        }}
-      >
-        Tlf: 22 21 14 37
-      </a>
-    </div>
+        ))}
+        <a
+          href="tel:22211437"
+          style={{
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 700,
+            fontSize: "clamp(14px, 1.6vw, 18px)",
+            color: "#84A98C",
+            textDecoration: "none",
+            whiteSpace: "nowrap",
+            letterSpacing: "0.03em",
+          }}
+        >
+          Tlf: 22 21 14 37
+        </a>
+      </nav>
+
+      {/* ── MOBILE HAMBURGER ── */}
+      <div className="kimnav-mobile-menu">
+        <button
+          className="kimnav-hamburger"
+          onClick={() => setOpen((v) => !v)}
+          aria-label={open ? "Luk menu" : "Åbn menu"}
+          aria-expanded={open}
+        >
+          {open ? (
+            /* X icon */
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          ) : (
+            /* Hamburger icon */
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          )}
+        </button>
+
+        {open && (
+          <div
+            style={{
+              position: "absolute",
+              top: "100%",
+              right: 0,
+              left: 0,
+              background: "#F9F8F6",
+              borderTop: "1px solid #e0dcd6",
+              borderBottom: "1px solid #e0dcd6",
+              zIndex: 100,
+              padding: "12px 24px 16px",
+              display: "flex",
+              flexDirection: "column",
+              gap: "0px",
+            }}
+          >
+            {NAV_LINKS.map(({ href, label, exact, hash }) => (
+              <a
+                key={href}
+                href={href}
+                onClick={() => setOpen(false)}
+                style={{
+                  fontFamily: "'Open Sans', sans-serif",
+                  fontWeight: isActive(href, exact, hash) ? 700 : 600,
+                  fontSize: "15px",
+                  color: isActive(href, exact, hash) ? "#84A98C" : "#3d5260",
+                  textDecoration: "none",
+                  letterSpacing: "0.02em",
+                  padding: "10px 0",
+                  borderBottom: "1px solid #ede9e4",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                }}
+              >
+                {label}
+                {isActive(href, exact, hash) && (
+                  <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#84A98C", flexShrink: 0 }} />
+                )}
+              </a>
+            ))}
+            <a
+              href="tel:22211437"
+              onClick={() => setOpen(false)}
+              style={{
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 700,
+                fontSize: "16px",
+                color: "#84A98C",
+                textDecoration: "none",
+                letterSpacing: "0.03em",
+                padding: "12px 0 4px",
+                display: "block",
+              }}
+            >
+              📞 Ring: 22 21 14 37
+            </a>
+          </div>
+        )}
+      </div>
+    </>
   );
 }

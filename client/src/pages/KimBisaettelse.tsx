@@ -34,6 +34,7 @@ export default function KimBisaettelse() {
           flexWrap: "wrap",
           justifyContent: "space-between",
           alignItems: "center",
+          position: "relative",
           gap: "8px",
           borderBottom: "1px solid #e0dcd6",
         }}
@@ -276,6 +277,7 @@ export default function KimBisaettelse() {
                 color: "#fff",
                 display: "flex",
                 alignItems: "center",
+          position: "relative",
                 justifyContent: "center",
                 fontFamily: "'Lora', serif",
                 fontWeight: 700,
