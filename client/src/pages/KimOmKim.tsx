@@ -78,21 +78,36 @@ export default function KimOmKim() {
       {/* ── BRØDTEKST ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-          <p style={s.body}>
-            Jeg er selvstændig bedemand i København og Nordsjælland, og for mig er det en hjertesag at møde mennesker med nærvær, ro og en dyb tillid til, at også de tungeste stunder bærer mening i sig.
-          </p>
-          <p style={s.body}>
-            Min tilgang bygger på en solid baggrund i krisehåndtering og svære samtaler. Jeg ved, hvor vigtigt det er at kunne rumme både tårer, tavshed og et befriende smil – uden at skynde på nogen. Det er ikke en opgave for mig at hjælpe jer igennem en afsked. Det er et privilegium.
-          </p>
-          <p style={s.body}>
-            Som selvstændig bedemand er jeg den eneste, I taler med – fra det øjeblik I ringer, til afskeden er overstået. Ingen omstillinger, intet bureaukrati. Bare direkte kontakt til mig, døgnet rundt.
-          </p>
-          <p style={s.body}>
-            Jeg lægger stor vægt på gennemsigtighed. I skal aldrig være i tvivl om, hvad tingene koster, eller hvad der sker næste skridt. Jeg bruger moderne værktøjer til at holde overblikket for jer, så I kan bruge jeres energi på hinanden i stedet for på papirarbejde.
-          </p>
-          <p style={{ ...s.body, marginBottom: 0 }}>
-            Jeg dækker hele København og Nordsjælland og er altid klar til at tage en uforpligtende samtale – ring eller skriv, når det passer jer.
-          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "48px", alignItems: "flex-start", marginBottom: "40px" }}>
+            <img
+              src="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
+              alt="Kim Bondo – Bedemand i København og Nordsjælland"
+              style={{
+                width: "clamp(180px, 30vw, 280px)",
+                height: "auto",
+                objectFit: "contain",
+                borderRadius: "4px",
+                flexShrink: 0,
+              }}
+            />
+            <div style={{ flex: 1, minWidth: "260px" }}>
+              <p style={s.body}>
+                Jeg er selvstændig bedemand i København og Nordsjælland, og for mig er det en hjertesag at møde mennesker med nærvær, ro og en dyb tillid til, at også de tungeste stunder bærer mening i sig.
+              </p>
+              <p style={s.body}>
+                Min tilgang bygger på en solid baggrund i krisehåndtering og svære samtaler. Jeg ved, hvor vigtigt det er at kunne rumme både tårer, tavshed og et befriende smil – uden at skynde på nogen. Det er ikke en opgave for mig at hjælpe jer igennem en afsked. Det er et privilegium.
+              </p>
+              <p style={s.body}>
+                Som selvstændig bedemand er jeg den eneste, I taler med – fra det øjeblik I ringer, til afskeden er ovestået. Ingen omstillinger, intet bureaukrati. Bare direkte kontakt til mig, døgnet rundt.
+              </p>
+              <p style={s.body}>
+                Jeg lægger stor vægt på gennemsigtighed. I skal aldrig være i tvivl om, hvad tingene koster, eller hvad der sker næste skridt. Jeg bruger moderne værktøjer til at holde overblikket for jer, så I kan bruge jeres energi på hinanden i stedet for på papirarbejde.
+              </p>
+              <p style={{ ...s.body, marginBottom: 0 }}>
+                Jeg dækker hele København og Nordsjælland og er altid klar til at tage en uforpligtende samtale – ring eller skriv, når det passer jer.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
