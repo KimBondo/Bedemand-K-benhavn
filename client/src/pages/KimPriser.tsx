@@ -278,7 +278,6 @@ export default function KimPriser() {
               "Anmodning v/ kirkeministeriet",
               "Ansøgning om begravelseshjælp",
               "Bedemand tilstede ved højtideligheden",
-              "Tillæg på 1.200 kr. ved afhentning andet sted end på hospital",
             ],
           },
           {
@@ -310,7 +309,6 @@ export default function KimPriser() {
               "Kontakt til kordegn, krematorie og kirkegård",
               "Anmodning v/ kirkeministeriet",
               "Ansøgning om begravelseshjælp",
-              "Tillæg på 1.200 kr. ved afhentning andet sted end på hospital",
             ],
           },
         ].map((pkg) => (
