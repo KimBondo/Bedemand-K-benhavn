@@ -1,5 +1,6 @@
 import SEO from "@/components/SEO";
 import ContactForm from "@/components/ContactForm";
+import KimNav from "@/components/KimNav";
 import SchemaOrg from "@/components/SchemaOrg";
 
 /**
