@@ -41,7 +41,7 @@ export default function KimFrederiksberg() {
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Frederiksberg?", answer: "Kim Bondo er selvstændig bedemand og dækker Frederiksberg og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en begravelse på Frederiksberg?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 19.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
+        { question: "Hvad koster en begravelse på Frederiksberg?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
         { question: "Hvilke krematorier og kirker er der på Frederiksberg?", answer: "Frederiksberg har Frederiksberg Krematorium og en række smukke kirker, herunder Frederiksberg Kirke og Sankt Thomas Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
         { question: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", answer: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Frederiksberg, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen." },
@@ -176,7 +176,7 @@ export default function KimFrederiksberg() {
             {[
               { type: "Afsked uden ceremoni", price: "15.500 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
               { type: "Bisættelse med ceremoni", price: "17.395 kr.", href: "/kim-bondo/bisaettelse" },
-              { type: "Begravelse i kiste", price: "19.500 kr.", href: "/kim-bondo/begravelse" },
+              { type: "Begravelse i kiste", price: "18.500 kr.", href: "/kim-bondo/begravelse" },
             ].map((p) => (
               <div key={p.type} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#84A98C", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
@@ -198,7 +198,7 @@ export default function KimFrederiksberg() {
           <h2 style={s.h2}>Spørgsmål om bedemand på Frederiksberg</h2>
           {[
             { q: "Hvem er bedemand på Frederiksberg?", a: "Kim Bondo er selvstændig bedemand og dækker Frederiksberg og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en begravelse på Frederiksberg?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 19.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
+            { q: "Hvad koster en begravelse på Frederiksberg?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
             { q: "Hvilke krematorier og kirker er der på Frederiksberg?", a: "Frederiksberg har Frederiksberg Krematorium og en række smukke kirker, herunder Frederiksberg Kirke og Sankt Thomas Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
             { q: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", a: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Frederiksberg, uden religiøse ritualer." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },

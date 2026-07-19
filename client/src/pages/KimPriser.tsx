@@ -271,21 +271,16 @@ export default function KimPriser() {
 
         {/* ── FORKLARENDE TEKST OM PRIS OG KØRSLER ── */}
         <section style={{ marginBottom: "64px" }}>
-          <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2vw, 24px)", color: "#2F3E46", marginBottom: "28px" }}>
+          <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2vw, 24px)", color: "#2F3E46", marginBottom: "20px" }}>
             Hvad påvirker prisen?
           </h3>
-          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
-            Prisen på en afsked afhænger i høj grad af, hvor afdøde skal hentes, samt hvor mange kørsler der er behov for med rustvognen.
+          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "16px" }}>
+            Prisen på en afsked afhænger primært af, hvor afdøde skal hentes, og hvor mange kørsler der er behov for med rustvognen. Afhentning fra privat hjem kræver typisk mere tid og ressourcer end afhentning fra hospital eller hospice.
           </p>
-          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
-            Når afhentningen foregår fra et privat hjem, indebærer det ofte en større praktisk opgave end ved afhentning på et hospital, plejehjem eller hospice. I private hjem er der jævnligt trange pladsforhold og trapper, hvilket kræver mere tid og ekstra ressourcer til at sikre en respektfuld og omsorgsfuld håndtering. Samtidig er det nødvendigt at arrangere afhentningen hurtigt fra enten hjemmet, plejehjemmet eller hospicet, så afdøde kan blive bragt til et kistehotel indtil selve højtideligheden.
+          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "20px" }}>
+            Alle priseksempler herunder er beregnet på hverdage. Rustvognskørslen i weekenden er 50% dyrere.
           </p>
-          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
-            Antallet af kørsler med rustvognen har ligeledes indflydelse på den endelige pris. Hvis det er muligt at køre afdøde direkte fra hospitalets kapel til kirken eller kapellet på selve dagen, reduceres antallet af kørsler, hvilket afspejler sig i en lavere pris. Det er dog værd at bemærke, at hospitalernes kapeller som regel holder lukket for afhentning om lørdagen, hvorfor denne løsning primært lader sig gøre på hverdage. Hvis afdøde først skal omvejen forbi et kistehotel, medfører det en ekstra kørsel.
-          </p>
-          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260" }}>
-            Ved en bisættelse, hvor der efterfølgende sker kremering, vil der som udgangspunkt være to kørsler med rustvognen, men hvis afdøde først har været på kistehotellet, bliver det til tre kørsler i alt. Ved en jordfæstelse, hvor kisten sænkes i jorden, kan logistikken ofte forenkles. Hvis afdøde kan afhentes direkte på hospitalet, og begravelsen foregår på kirkegården lige omkring kirken, kan det klares med en enkelt kørsel, hvilket gør denne løsning mere økonomisk. Hvis kirkegården ligger et andet sted end kirken, køres der efter højtideligheden videre til det valgte gravsted, hvilket kræver en kørsel mere.
-          </p>
+          <a href="/kim-bondo/hvad-koster-en-begravelse" style={{ color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>Læs mere om hvad der påvirker prisen →</a>
         </section>
 
         <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", marginBottom: "64px" }} />
@@ -524,8 +519,8 @@ export default function KimPriser() {
             {
               heading: "1. Kiste og urne",
               rows: [
-                ["Klassisk hvid kiste (100 % bæredygtig, danskproduceret)", "6.200 kr."],
-                ["Klassisk hvid bionedbrydelig urne", "1.200 kr."],
+                ["Klassisk hvid kiste (En klassisk kremeringskiste til bisættelser, fremstillet i spån og MDF)", "6.500 kr."],
+                ["Klassisk hvid bionedbrydelig urne", "1.250 kr."],
               ],
             },
             {

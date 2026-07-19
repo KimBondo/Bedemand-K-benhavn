@@ -40,7 +40,7 @@ export default function KimKobenhavn() {
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i København?", answer: "Kim Bondo er selvstændig bedemand og dækker hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en begravelse i København?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 19.500 kr. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+        { question: "Hvad koster en begravelse i København?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
         { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde. Ved en begravelse sættes kisten i jord. Begge kan have kirkelig eller borgerlig ceremoni." },
         { question: "Kan jeg vælge en borgerlig ceremoni i København?", answer: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen." },
@@ -175,7 +175,7 @@ export default function KimKobenhavn() {
             {[
               { type: "Afsked uden ceremoni", price: "15.500 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
               { type: "Bisættelse med ceremoni", price: "17.395 kr.", href: "/kim-bondo/bisaettelse" },
-              { type: "Begravelse i kiste", price: "19.500 kr.", href: "/kim-bondo/begravelse" },
+              { type: "Begravelse i kiste", price: "18.500 kr.", href: "/kim-bondo/begravelse" },
             ].map((p) => (
               <div key={p.type} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#84A98C", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
@@ -197,7 +197,7 @@ export default function KimKobenhavn() {
           <h2 style={s.h2}>Spørgsmål om bedemand i København</h2>
           {[
             { q: "Hvem er bedemand i København?", a: "Kim Bondo er selvstændig bedemand og dækker hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en begravelse i København?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 19.500 kr. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+            { q: "Hvad koster en begravelse i København?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
             { q: "Hvad er forskellen på bisættelse og begravelse?", a: "Ved en bisættelse kremeres afdøde — asken kan efterfølgende nedsættes, spredes eller opbevares. Ved en begravelse sættes kisten i jord på en kirkegård. Begge kan have kirkelig eller borgerlig ceremoni." },
             { q: "Kan jeg vælge en borgerlig ceremoni i København?", a: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme, uden religiøse ritualer. Du bestemmer selv indholdet." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
@@ -274,15 +274,87 @@ export default function KimKobenhavn() {
 
 
       {/* ── FOOTER ── */}
-      <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
-        <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand i København – Kim Bondo</p>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
-        <a href="#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
-        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+      <footer
+        style={{
+          background: "#2F3E46",
+          color: "#ffffff",
+          textAlign: "center",
+          padding: "80px 32px",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "'Lora', serif",
+            fontWeight: 600,
+            fontSize: "clamp(18px, 2.5vw, 26px)",
+            marginBottom: "16px",
+            letterSpacing: "0.02em",
+          }}
+        >
+          Bedemand København og Nordsjælland
         </p>
-        <p style={{ marginTop: "40px", fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#5a7a6a" }}>
-          © {new Date().getFullYear()} Bedemand København ApS · <a href="/kim-bondo/priser" style={{ color: "#5a7a6a", textDecoration: "none" }}>Priser</a> · <a href="/kim-bondo/afskeder" style={{ color: "#5a7a6a", textDecoration: "none" }}>Afskeder</a>
+        <p
+          style={{
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 400,
+            fontSize: "clamp(14px, 1.6vw, 18px)",
+            color: "rgba(255,255,255,0.70)",
+            marginBottom: "16px",
+            letterSpacing: "0.03em",
+          }}
+        >
+          Kim Bondo
+        </p>
+        <p
+          style={{
+            fontSize: "15px",
+            color: "rgba(255,255,255,0.65)",
+            marginBottom: "32px",
+            lineHeight: 1.7,
+          }}
+        >
+          Vandtårnsvej 62A, 2860 Søborg
+        </p>
+        <a
+          href="/kim-bondo#kontakt"
+          style={{
+            display: "inline-block",
+            background: "#84A98C",
+            color: "#ffffff",
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 700,
+            fontSize: "clamp(15px, 1.8vw, 18px)",
+            padding: "18px 40px",
+            borderRadius: "3px",
+            textDecoration: "none",
+            letterSpacing: "0.05em",
+            marginBottom: "48px",
+          }}
+        >
+          Kontakt mig
+        </a>
+        <p
+          style={{
+            fontSize: "13px",
+            color: "rgba(255,255,255,0.35)",
+            marginTop: "16px",
+          }}
+        >
+          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
+          <a
+            href="tel:22211437"
+            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+          >
+            Tlf.: 22 21 14 37
+          </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="mailto:kontakt@bedemandkøbenhavn.dk"
+            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+          >
+            kontakt@bedemandkøbenhavn.dk
+          </a>
+          {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>
       </footer>
     </div>
