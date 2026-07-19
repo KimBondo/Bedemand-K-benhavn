@@ -232,7 +232,7 @@ export default function KimAfskeder() {
       <section style={{ background: "#fff", padding: "56px 32px", textAlign: "center" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "20px" }}>Praktisk information</p>
         <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px" }}>Nyttige sider</h2>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#5a7a6a", marginBottom: "32px", maxWidth: "520px", margin: "0 auto 32px" }}>Hvad skal man gøre ved dødsfald? Hvad kan man søge i begravelsesbistænd? Og dækker Kim dit område?</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#5a7a6a", marginBottom: "32px", maxWidth: "520px", margin: "0 auto 32px" }}>Hvad skal man gøre ved dødsfald? Hvad kan man søge i begravelseshjælp? Og dækker Kim dit område?</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
             { label: "Hvad koster en begravelse?", href: "/kim-bondo/hvad-koster-en-begravelse" },
@@ -256,12 +256,18 @@ export default function KimAfskeder() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(14px, 1.6vw, 18px)", color: "rgba(255,255,255,0.70)", marginBottom: "32px" }}>
           Kim Bondo
         </p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(13px, 1.4vw, 15px)", color: "rgba(255,255,255,0.70)", marginBottom: "24px" }}>
+          Vandtårnsvæj 62A, 2860 Søborg
+        </p>
         <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
           Kontakt mig
         </a>
-        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.25)" }}>
-          © {new Date().getFullYear()} Bedemand København ApS · Kim Bondo · Vandtårnsvej 62A, 2860 Søborg ·{" "}
+        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.35)", marginTop: "16px" }}>
+          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvæj 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a href="mailto:kontakt@bedemandkøbenhavn.dk" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>kontakt@bedemandkøbenhavn.dk</a>
+          {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>
       </footer>
     </div>

@@ -142,7 +142,7 @@ export default function KimOmKim() {
                 Min tilgang bygger på en solid baggrund i krisehåndtering og svære samtaler. Jeg ved, hvor vigtigt det er at kunne rumme både tårer, tavshed og et befriende smil – uden at skynde på nogen. Det er ikke en opgave for mig at hjælpe jer igennem en afsked. Det er et privilegium.
               </p>
               <p style={s.body}>
-                Som selvstændig bedemand er jeg den eneste, I taler med – fra det øjeblik I ringer, til afskeden er ovestået. Ingen omstillinger, intet bureaukrati. Bare direkte kontakt til mig, døgnet rundt.
+                Som selvstændig bedemand er jeg den eneste, I taler med – fra det øjeblik I ringer, til afskeden er overstået. Ingen omstillinger, intet bureaukrati. Bare direkte kontakt til mig, døgnet rundt.
               </p>
               <p style={s.body}>
                 Jeg lægger stor vægt på gennemsigtighed. I skal aldrig være i tvivl om, hvad tingene koster, eller hvad der sker næste skridt. Jeg bruger moderne værktøjer til at holde overblikket for jer, så I kan bruge jeres energi på hinanden i stedet for på papirarbejde.
