@@ -294,7 +294,6 @@ export default function KimPriser() {
               "Ansøgning om begravelseshjælp",
               "Bedemand tilstede ved højtideligheden",
               "Udlægning af blomster på graven",
-              "Tillæg på 1.200 kr. ved afhentning andet sted end på hospital",
             ],
           },
           {
@@ -497,6 +496,7 @@ export default function KimPriser() {
               note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
               rows: [
                 ["Klargøring af kiste, afhentning og ilægning i kiste", "2.500 kr."],
+                ["Tillæg ved afhentning andet sted end på hospital", "1.200 kr."],
               ],
             },
             {
