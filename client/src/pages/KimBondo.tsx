@@ -242,8 +242,8 @@ export default function KimBondo() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
-          SECTION 2: INTRODUKTION OG TILLID
-          – "Tryghed og god energi, når alt andet ramler"
+          SECTION 2: MØD MIG / SÅDAN HJÆLPER JEG
+          – Tryghed, logistik, frihed og bæredygtighed samlet
       ══════════════════════════════════════════════════════ */}
       <section
         style={{
@@ -298,7 +298,7 @@ export default function KimBondo() {
               marginBottom: "28px",
             }}
           >
-            Tryghed og god energi, når alt andet ramler
+            Sådan hjælper jeg
           </h2>
           <p
             style={{
@@ -315,58 +315,82 @@ export default function KimBondo() {
               fontSize: "clamp(15px, 1.6vw, 17px)",
               lineHeight: 1.85,
               color: "#3d5260",
+              marginBottom: "20px",
             }}
           >
             Jeg møder jer præcis der, hvor I er. Hvad enten sorgen kalder på
-dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
-            behøv – som et nærværende menneske med tid og rum til det, I har brug for. Med mange års erfaring i
-            at lytte til og rumme mennesker i svære livsfaser, tager jeg mig den
-            tid, det kræver at bære det tunge, så I kan koncentrere jer om andre ting.
+            dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
+            behov – som et nærværende menneske med tid og rum til det, I har brug for.
+          </p>
+          <h3
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 600,
+              fontSize: "clamp(18px, 2vw, 22px)",
+              color: "#2F3E46",
+              marginBottom: "12px",
+              marginTop: "32px",
+              lineHeight: 1.3,
+            }}
+          >
+            Den sikre logistik i baggrunden
+          </h3>
+          <p
+            style={{
+              fontSize: "clamp(15px, 1.6vw, 17px)",
+              lineHeight: 1.85,
+              color: "#3d5260",
+              marginBottom: "20px",
+            }}
+          >
+            Jeg garanterer en fuldstændig tryg og sikker afvikling af alt det praktiske. Jeg har altid helt styr på drejebogen, rustvognskørslen og den præcise koordinering med myndigheder, kirker, kapeller og krematorier. Alt det praktiske glider lydløst i baggrunden, så I roligt kan sænke skuldrene.
+          </p>
+          <h3
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 600,
+              fontSize: "clamp(18px, 2vw, 22px)",
+              color: "#2F3E46",
+              marginBottom: "12px",
+              marginTop: "32px",
+              lineHeight: 1.3,
+            }}
+          >
+            Friheden til at vælge selv
+          </h3>
+          <p
+            style={{
+              fontSize: "clamp(15px, 1.6vw, 17px)",
+              lineHeight: 1.85,
+              color: "#3d5260",
+              marginBottom: "20px",
+            }}
+          >
+            For mig findes der ingen faste skabeloner. Hvad enten den smukke afsked skal foregå i en traditionel kirke, et kapel, hjemme i stuen, i sommerhuset eller ude i haven, skaber jeg rammerne for det. Det vigtigste er, at afskeden bliver personlig, kærlig og føles helt rigtig for jer.
+          </p>
+          <h3
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 600,
+              fontSize: "clamp(18px, 2vw, 22px)",
+              color: "#2F3E46",
+              marginBottom: "12px",
+              marginTop: "32px",
+              lineHeight: 1.3,
+            }}
+          >
+            Omsorg for naturen – Bæredygtig afsked
+          </h3>
+          <p
+            style={{
+              fontSize: "clamp(15px, 1.6vw, 17px)",
+              lineHeight: 1.85,
+              color: "#3d5260",
+            }}
+          >
+            Som en naturlig del af mit virke tilbyder jeg udelukkende kister produceret i Danmark af 100 % genbrugsmaterialer. Der er ikke fældet et eneste nyt træ for at skabe kisten. Det giver jer mulighed for at vælge en afsked, der er smuk og lokal, og som samtidig tager fuldt hensyn til den natur, vi er en del af.
           </p>
         </div>
-      </section>
-
-      <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
-
-      {/* ══════════════════════════════════════════════════════
-          SECTION 3: BÆREDYGTIGHED OG VÆRDIER
-          – "Omsorg for naturen – Bæredygtig afsked"
-      ══════════════════════════════════════════════════════ */}
-      <section
-        style={{
-          maxWidth: "760px",
-          margin: "0 auto",
-          padding: SECTION_PADDING,
-          textAlign: "center",
-        }}
-      >
-        <h2
-          style={{
-            fontFamily: "'Lora', serif",
-            fontWeight: 600,
-            fontSize: "clamp(20px, 2.5vw, 30px)",
-            color: "#2F3E46",
-            marginBottom: "20px",
-            lineHeight: 1.3,
-          }}
-        >
-          Omsorg for naturen – Bæredygtig afsked
-        </h2>
-        <p
-          style={{
-            fontSize: "clamp(15px, 1.6vw, 17px)",
-            lineHeight: 1.85,
-            color: "#3d5260",
-            marginBottom: "32px",
-          }}
-        >
-          Som en naturlig del af mit virke tilbyder jeg udelukkende kister
-          produceret i Danmark af 100 % genbrugsmaterialer. Der er ikke fældet
-          et eneste nyt træ for at skabe kisten. Det giver jer mulighed for at
-          vælge en afsked, der er smuk og lokal, og som samtidig tager fuldt
-          hensyn til den natur, vi er en del af.
-        </p>
-
       </section>
 
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
@@ -411,31 +435,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
         </p>
       </section>
 
-      {/* FORKLARENDE TEKST OM PRIS OG KØRSLER */}
-      <section
-        style={{
-          background: "#F9F8F6",
-          padding: "0 32px 64px",
-        }}
-      >
-        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
-          <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2vw, 24px)", color: "#2F3E46", marginBottom: "28px" }}>
-            Hvad påvirker prisen?
-          </h3>
-          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
-            Prisen på en afsked afhænger i høj grad af, hvor afdøde skal hentes, samt hvor mange kørsler der er behov for med rustvognen.
-          </p>
-          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
-            Når afhentningen foregår fra et privat hjem, indebærer det ofte en større praktisk opgave end ved afhentning på et hospital, plejehjem eller hospice. I private hjem er der jævnligt trange pladsforhold og trapper, hvilket kræver mere tid og ekstra ressourcer til at sikre en respektfuld og omsorgsfuld håndtering. Samtidig er det nødvendigt at arrangere afhentningen hurtigt fra enten hjemmet, plejehjemmet eller hospicet, så afdøde kan blive bragt til et kistehotel indtil selve højtideligheden.
-          </p>
-          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "28px" }}>
-            Antallet af kørsler med rustvognen har ligeledes indflydelse på den endelige pris. Hvis det er muligt at køre afdøde direkte fra hospitalets kapel til kirken eller kapellet på selve dagen, reduceres antallet af kørsler, hvilket afspejler sig i en lavere pris. Det er dog værd at bemærke, at hospitalernes kapeller som regel holder lukket for afhentning om lørdagen, hvorfor denne løsning primært lader sig gøre på hverdage. Hvis afdøde først skal omvejen forbi et kistehotel, medfører det en ekstra kørsel.
-          </p>
-          <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260" }}>
-            Ved en bisættelse, hvor der efterfølgende sker kremering, vil der som udgangspunkt være to kørsler med rustvognen, men hvis afdøde først har været på kistehotellet, bliver det til tre kørsler i alt. Ved en jordfæstelse, hvor kisten sænkes i jorden, kan logistikken ofte forenkles. Hvis afdøde kan afhentes direkte på hospitalet, og begravelsen foregår på kirkegården lige omkring kirken, kan det klares med en enkelt kørsel, hvilket gør denne løsning mere økonomisk. Hvis kirkegården ligger et andet sted end kirken, køres der efter højtideligheden videre til det valgte gravsted, hvilket kræver en kørsel mere.
-          </p>
-        </div>
-      </section>
+
 
       {/* 3 PRISSCENARIER */}
       <section
@@ -754,161 +754,7 @@ dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
         </div>
       </section>
 
-      {/* ══════════════════════════════════════════════════════
-          SECTION 5: LOGISTIK OG ERFARING
-          – "Den sikre logistik" + "Friheden til at vælge"
-          – Rådhuspladsbillede som visuelt element
-      ══════════════════════════════════════════════════════ */}
-      <section
-        style={{
-          maxWidth: "1100px",
-          margin: "0 auto",
-          padding: SECTION_PADDING,
-        }}
-      >
-        {/* Rådhuspladsbillede øverst i sektionen */}
-        <div
-          style={{
-            marginBottom: "64px",
-            borderRadius: "4px",
-            overflow: "hidden",
-            boxShadow: "0 4px 24px rgba(0,0,0,0.12)",
-            maxWidth: "760px",
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-        >
-          <img
-            src="/manus-storage/kim-hearse-black_c31e9475.png"
-            alt="Sort rustvogn på Rådhuspladsen i København – Kim Bondo Bedemand"
-            style={{
-              width: "100%",
-              aspectRatio: "4/3",
-              objectFit: "cover",
-              display: "block",
-            }}
-          />
-          <p
-            style={{
-              padding: "10px 16px",
-              fontSize: "13px",
-              color: "#9a9087",
-              fontStyle: "italic",
-              background: "#F9F8F6",
-              textAlign: "center",
-            }}
-          >
-            Rådhuspladsen, København
-          </p>
-        </div>
 
-        {/* To tekstkolonner */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-            gap: "64px",
-          }}
-        >
-          <div>
-            <h2
-              style={{
-                fontFamily: "'Lora', serif",
-                fontWeight: 600,
-                fontSize: "clamp(20px, 2.5vw, 28px)",
-                color: "#2F3E46",
-                marginBottom: "20px",
-                lineHeight: 1.3,
-              }}
-            >
-              Den sikre logistik i baggrunden
-            </h2>
-            <p
-              style={{
-                fontSize: "clamp(15px, 1.6vw, 17px)",
-                lineHeight: 1.85,
-                color: "#3d5260",
-              }}
-            >
-              Min tilgang til mennesker bygger på min dybe baggrund med
-              krisehåndtering og svære samtaler. Samtidig garanterer jeg en
-              fuldstændig tryg og sikker afvikling af alt det praktiske. Jeg har
-              altid helt styr på drejebogen, rustvognskørslen og den præcise
-              koordinering med myndigheder, kirker, kapeller og krematorier. Alt det
-              praktiske glider lydløst i baggrunden, så I roligt kan sænke
-              skuldrene og vide, at der er 100 % tjek på detaljerne.
-            </p>
-          </div>
-          <div>
-            <h2
-              style={{
-                fontFamily: "'Lora', serif",
-                fontWeight: 600,
-                fontSize: "clamp(20px, 2.5vw, 28px)",
-                color: "#2F3E46",
-                marginBottom: "20px",
-                lineHeight: 1.3,
-              }}
-            >
-              Friheden til at vælge selv
-            </h2>
-            <p
-              style={{
-                fontSize: "clamp(15px, 1.6vw, 17px)",
-                lineHeight: 1.85,
-                color: "#3d5260",
-              }}
-            >
-              For mig findes der ingen faste skabeloner. Hvad enten den smukke
-              afsked skal foregå i en traditionel kirke, et kapel, hjemme i
-              stuen, i sommerhuset eller ude i haven, skaber jeg rammerne for
-              det. Det vigtigste er, at afskeden bliver personlig, kærlig og
-              føles helt rigtig for jer – kisten skal nok komme frem.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════════════════════
-          SECTION 6: LIVETS OVERGANGE
-          – "En brik i livets store overgange"
-      ══════════════════════════════════════════════════════ */}
-      <section
-        style={{
-          background: "#F9F8F6",
-          padding: SECTION_PADDING,
-          textAlign: "center",
-        }}
-      >
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <h2
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(22px, 3vw, 36px)",
-              color: "#2F3E46",
-              marginBottom: "32px",
-              lineHeight: 1.3,
-            }}
-          >
-            Et trygt frirum i en svær tid
-          </h2>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 18px)",
-              lineHeight: 1.9,
-              color: "#3d5260",
-            }}
-          >
-            Jeg ser det som mit ansvar at overtage de tunge praktiske byrder fra
-            jeres skuldre, så I i stedet får et frirum til eftertanke og fred.
-            Jeg forlader aldrig en familie, før jeg mærker, at der er skabt
-            fuldstændig ro om forløbet, og at I føler jer holdt om. Og husk –
-            I er altid velkomne til at kontakte mig, hvis der opstår det mindste
-            spørgsmål undervejs eller bagefter.
-          </p>
-        </div>
-      </section>
 
       {/* ══════════════════════════════════════════════════════
           SECTION 7: KONTAKTFORMULAR
