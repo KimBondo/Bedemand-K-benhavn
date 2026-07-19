@@ -1,5 +1,5 @@
 import ContactForm from "@/components/ContactForm";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
@@ -24,6 +24,20 @@ const SECTION_PADDING = "96px 32px";
 
 export default function KimBondo() {
   const [openCard, setOpenCard] = useState<number | null>(null);
+
+  // Scroll to hash anchor on mount (e.g. /kim-bondo#kontakt from nav links)
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      // Short delay lets React finish rendering before scrolling
+      const timer = setTimeout(() => {
+        const el = document.querySelector(hash);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 150);
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
   return (
     <div
       style={{
