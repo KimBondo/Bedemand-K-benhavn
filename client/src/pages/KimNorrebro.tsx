@@ -23,16 +23,16 @@ export default function KimNorrebro() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Nørrebro – Kim Bondo | Bisættelse og begravelse på Amager"
+        title="Bedemand Nørrebro – Kim Bondo | Bisættelse og begravelse på Nørrebro"
         description="Søger du en bedemand på Nørrebro? Kim Bondo er personlig bedemand på Nørrebro og i hele København. Hjælp til bisættelse, begravelse og afsked – gennemsigtige priser fra 15.500 kr. Ring 22 21 14 37 døgnet rundt."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/norrebro"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Nørrebro?", answer: "Kim Bondo er selvstændig bedemand og dækker Nørrebro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en begravelse på Amager?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Amager?", answer: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Blågårds Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Kim Bondo koordinerer direkte med de rette instanser." },
-        { question: "Kan jeg vælge en borgerlig ceremoni på Amager?", answer: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
+        { question: "Hvad koster en begravelse på Nørrebro?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
+        { question: "Hvilke krematorier og kirker er der på Nørrebro?", answer: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Blågårds Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Kim Bondo koordinerer direkte med de rette instanser." },
+        { question: "Kan jeg vælge en borgerlig ceremoni på Nørrebro?", answer: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Nørrebro, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen." },
       ]} />
 
@@ -98,12 +98,12 @@ export default function KimNorrebro() {
 
       {/* ── HERO ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
-        <p style={s.label}>Bedemand på Amager</p>
+        <p style={s.label}>Bedemand på Nørrebro</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
           Personlig bedemand på Nørrebro
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier på Amager med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
+          Jeg er selvstændig bedemand og hjælper familier på Nørrebro med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -118,7 +118,7 @@ export default function KimNorrebro() {
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Nærværende og tilgængelig</p>
-          <h2 style={s.h2}>Bedemand på Amager</h2>
+          <h2 style={s.h2}>Bedemand på Nørrebro</h2>
           <p style={s.body}>
             Nørrebro er en af Københavns mest levende og mangfoldige bydele — fra Blågårds Plads og Nørrebroparken til Bispebjerg og Frederiksberg Have. Bydelen er hjemsted for den historiske Assistens Kirkegård, hvor bl.a. H.C. Andersen og Søren Kierkegaard er begravet. Jeg kender de lokale kirker, kapeller og krematorier og koordinerer direkte med de rette instanser, så I ikke skal stå med det selv.
           </p>
@@ -133,11 +133,11 @@ export default function KimNorrebro() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <p style={s.label}>Mine ydelser</p>
-          <h2 style={s.h2}>Hvad hjælper jeg med på Amager?</h2>
+          <h2 style={s.h2}>Hvad hjælper jeg med på Nørrebro?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
               { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og krematorium på Nørrebro og i København.", href: "/kim-bondo/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af Amagers kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/kim-bondo/begravelse" },
+              { title: "Begravelse", desc: "Kiste i jord på en af kirkegårdene på Nørrebro og omegn på Nørrebro og omegn. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/kim-bondo/begravelse" },
               { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 15.500 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
               { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Nørrebros kirker.", href: "/kim-bondo/kirkelig-afsked" },
               { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer, men med fuld personlighed.", href: "/kim-bondo/borgerlig-afsked" },
@@ -157,7 +157,7 @@ export default function KimNorrebro() {
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Gennemsigtige priser</p>
-          <h2 style={s.h2}>Hvad koster en begravelse på Amager?</h2>
+          <h2 style={s.h2}>Hvad koster en begravelse på Nørrebro?</h2>
           <p style={s.body}>
             Priserne hos Kim Bondo er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
           </p>
@@ -187,9 +187,9 @@ export default function KimNorrebro() {
           <h2 style={s.h2}>Spørgsmål om bedemand på Nørrebro</h2>
           {[
             { q: "Hvem er bedemand på Nørrebro?", a: "Kim Bondo er selvstændig bedemand og dækker Nørrebro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en begravelse på Amager?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Amager?", a: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Blågårds Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Kim Bondo koordinerer direkte med de rette instanser." },
-            { q: "Kan jeg vælge en borgerlig ceremoni på Amager?", a: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
+            { q: "Hvad koster en begravelse på Nørrebro?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
+            { q: "Hvilke krematorier og kirker er der på Nørrebro?", a: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Blågårds Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Kim Bondo koordinerer direkte med de rette instanser." },
+            { q: "Kan jeg vælge en borgerlig ceremoni på Nørrebro?", a: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Nørrebro, uden religiøse ritualer." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
@@ -265,7 +265,7 @@ export default function KimNorrebro() {
 
       {/* ── FOOTER ── */}
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
-        <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand på Amager – Kim Bondo</p>
+        <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand på Nørrebro – Kim Bondo</p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
