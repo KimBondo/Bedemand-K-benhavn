@@ -224,7 +224,7 @@ export default function KimProdukter() {
           <p style={s.label}>Urner</p>
           <h2 style={{ ...s.h2, marginBottom: "12px" }}>Vores urner</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Alle urner er prissat til 1.250 kr. Vi tilbyder et smukt udvalg i forskellige farver og materialer — fra bionedbrydelige naturuurner til klassiske museumsurner.
+            Alle urner er prissat til 1.250 kr. Vi tilbyder et smukt udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner.
           </p>
           <div
             style={{
