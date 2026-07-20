@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 
 /**
@@ -23,8 +24,8 @@ export default function KimHuskeliste() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Huskeliste ved dødsfald – Bedemand Kim Bondo, København og Nordsjælland"
-        description="Praktisk huskeliste når en nærtstående dør. Hvad skal der gøres, hvem kontakter man, og hvad hjælper Kim Bondo med? Overblik over læge, myndigheder, økonomi og opsigelser."
+        title="Huskeliste ved dødsfald – Bedemand Kim Bondo"
+        description="Hvad skal du gøre, når en nærtstående dør? Kim Bondos huskeliste guider dig trin for trin. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/huskeliste"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

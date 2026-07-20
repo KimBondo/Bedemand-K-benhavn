@@ -113,8 +113,8 @@ export default function KimProdukter() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Kister og urner – Kim Bondo Bedemand København og Nordsjælland"
-        description="Se vores udvalg af kister og urner med gennemsigtige priser. Kim Bondo – personlig bedemand i København og Nordsjælland. Ring 22 21 14 37."
+        title="Kister og urner – Bedemand Kim Bondo"
+        description="Se vores kister og urner med gennemsigtige priser. Alle urner 1.250 kr. Kim Bondo – bedemand i København. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/produkter"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

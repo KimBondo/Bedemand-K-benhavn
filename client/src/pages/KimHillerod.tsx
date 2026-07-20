@@ -23,8 +23,8 @@ export default function KimHillerod() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Hillerød – Kim Bondo | Bisættelse og begravelse i Hillerød"
-        description="Søger du en bedemand i Hillerød? Kim Bondo hjælper familier i Hillerød og omegn med bisættelse, begravelse og afsked. Personlig og nærværende hjælp – ring 22 21 14 37 døgnet rundt."
+        title="Bedemand Hillerød – Kim Bondo"
+        description="Personlig bedemand i Hillerød. Bisættelse og begravelse med nærvær og ro. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/hillerod"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

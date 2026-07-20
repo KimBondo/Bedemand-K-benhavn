@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 
 /**
@@ -22,8 +23,8 @@ export default function KimBegravelseshjaelp() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Begravelseshjælp 2026 – Bedemand Kim Bondo, København og Nordsjælland"
-        description="Hvad er begravelseshjælp, hvem kan søge, og hvad er satserne i 2026? Kim Bondo hjælper med ansøgningen som en del af sit arbejde — uden ekstra besvær for jer."
+        title="Begravelseshjælp – Bedemand Kim Bondo"
+        description="Søg begravelseshjælp fra det offentlige. Kim Bondo hjælper med ansøgningen. Beløb fra 1.050 til 13.550 kr. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/begravelseshjaelp"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

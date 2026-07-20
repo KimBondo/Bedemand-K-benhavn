@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 
 /**
@@ -18,8 +19,8 @@ export default function KimAfskedUdenCeremoni() {
       }}
     >
       <SEO
-        title="Afsked uden ceremoni – Bedemand Kim Bondo, København og Nordsjælland"
-        description="En enkel og respektfuld afsked uden formel ceremoni. Kim Bondo hjælper med alt det praktiske, så I kan bruge energien på hinanden. Priser fra 15.500 kr."
+        title="Afsked uden ceremoni – Bedemand Kim Bondo"
+        description="Enkel afsked uden højtidelighed fra 15.500 kr. Kim Bondo hjælper med kremering og alt det praktiske. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

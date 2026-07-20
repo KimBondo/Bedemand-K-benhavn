@@ -23,8 +23,8 @@ export default function KimGentofte() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Gentofte – Kim Bondo | Bisættelse og begravelse i Gentofte"
-        description="Søger du en bedemand i Gentofte? Kim Bondo hjælper familier i Gentofte, Hellerup og omegn med bisættelse, begravelse og afsked. Personlig og nærværende hjælp – ring 22 21 14 37 døgnet rundt."
+        title="Bedemand Gentofte – Kim Bondo"
+        description="Personlig bedemand i Gentofte. Bisættelse og begravelse med nærvær og ro. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/gentofte"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

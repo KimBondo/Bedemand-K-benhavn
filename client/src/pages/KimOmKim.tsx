@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 
 /**
@@ -16,8 +17,8 @@ export default function KimOmKim() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Om Kim Bondo – Personlig bedemand i København og Nordsjælland"
-        description="Mød Kim Bondo – selvstændig bedemand i København og Nordsjælland. Nærvær, ro og gennemsigtighed fra første opkald til den sidste afsked. Ring 22 21 14 37 døgnet rundt."
+        title="Om Kim Bondo – Personlig bedemand, København"
+        description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i København og Nordsjælland. Ring 22 21 14 37."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/om-kim"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

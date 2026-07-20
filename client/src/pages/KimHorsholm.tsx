@@ -23,8 +23,8 @@ export default function KimHorsholm() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Hørsholm – Kim Bondo | Bisættelse og begravelse i Hørsholm"
-        description="Søger du en bedemand i Hørsholm? Kim Bondo hjælper familier i Hørsholm og omegn med bisættelse, begravelse og afsked. Personlig og nærværende hjælp – ring 22 21 14 37 døgnet rundt."
+        title="Bedemand Hørsholm – Kim Bondo"
+        description="Personlig bedemand i Hørsholm. Bisættelse og begravelse med nærvær og ro. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/horsholm"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

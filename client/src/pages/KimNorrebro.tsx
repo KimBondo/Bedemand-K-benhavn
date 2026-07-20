@@ -23,8 +23,8 @@ export default function KimNorrebro() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Nørrebro – Kim Bondo | Bisættelse og begravelse på Nørrebro"
-        description="Søger du en bedemand på Nørrebro? Kim Bondo er personlig bedemand på Nørrebro og i hele København. Hjælp til bisættelse, begravelse og afsked – gennemsigtige priser fra 15.500 kr. Ring 22 21 14 37 døgnet rundt."
+        title="Bedemand Nørrebro – Kim Bondo"
+        description="Personlig bedemand på Nørrebro. Bisættelse og begravelse med nærvær og ro. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/norrebro"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

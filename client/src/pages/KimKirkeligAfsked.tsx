@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 
 /**
@@ -22,8 +23,8 @@ export default function KimKirkeligAfsked() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Kirkelig afsked – Bedemand Kim Bondo, København og Nordsjælland"
-        description="En kirkelig begravelse eller bisættelse i kirke eller kapel med præst. Kim Bondo hjælper med planlægning, kontakt til kirken og hele det praktiske forløb."
+        title="Kirkelig afsked – Bedemand Kim Bondo"
+        description="Kirkelig begravelse eller bisættelse med præst. Kim Bondo koordinerer kirke, kordegn og hele forløbet. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

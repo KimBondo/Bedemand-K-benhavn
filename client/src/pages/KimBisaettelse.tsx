@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 
 /**
@@ -19,8 +20,8 @@ export default function KimBisaettelse() {
       }}
     >
       <SEO
-        title="Bisættelse – Bedemand Kim Bondo, København og Nordsjælland"
-        description="Bisættelse med nærvær og ro. Kim Bondo hjælper jer gennem hele forløbet – fra første kontakt til kremering og urnenedsættelse eller askespredning. Priser fra 15.500 kr."
+        title="Bisættelse – Bedemand Kim Bondo, København"
+        description="Hjælp til bisættelse i København og Nordsjælland. Kim Bondo tager sig af alt det praktiske. Ring 22 21 14 37 – døgnet rundt."
         url="https://bedemandkobenhavn.dk/kim-bondo/bisaettelse"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

@@ -23,8 +23,8 @@ export default function KimVesterbro() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Vesterbro – Kim Bondo | Bisættelse og begravelse på Vesterbro"
-        description="Søger du en bedemand på Vesterbro? Kim Bondo er personlig bedemand på Vesterbro og i hele København. Hjælp til bisættelse, begravelse og afsked – gennemsigtige priser fra 15.500 kr. Ring 22 21 14 37 døgnet rundt."
+        title="Bedemand Vesterbro – Kim Bondo"
+        description="Personlig bedemand på Vesterbro. Bisættelse og begravelse med nærvær og ro. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/vesterbro"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 
 /**
@@ -18,8 +19,8 @@ export default function KimAfskeder() {
       }}
     >
       <SEO
-        title="Afskeder – Bedemand Kim Bondo, København og Nordsjælland"
-        description="Bisættelse, begravelse, afsked uden ceremoni eller askespredning – Kim Bondo hjælper jer med at finde den afskedsform, der passer til jer. Gennemsigtige priser fra 15.500 kr."
+        title="Afskeder – Bisættelse og begravelse, Kim Bondo"
+        description="Kirkelig, borgerlig eller naturlig afsked. Kim Bondo hjælper med alle typer afskeder i København og Nordsjælland. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/afskeder"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

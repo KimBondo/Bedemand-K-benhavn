@@ -68,8 +68,8 @@ export default function KimFaq() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Spørgsmål og svar – Bedemand Kim Bondo | FAQ om begravelse og bisættelse"
-        description="Svar på de mest stillede spørgsmål om begravelse, bisættelse, priser og praktiske forhold. Kim Bondo – personlig bedemand i København og Nordsjælland. Ring 22 21 14 37."
+        title="FAQ – Spørgsmål om begravelse, Kim Bondo"
+        description="Svar på de mest stillede spørgsmål om begravelse og bisættelse. Kim Bondo bedemand i København og Nordsjælland. Ring 22 21 14 37."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/faq"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

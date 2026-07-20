@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 
 /**
@@ -18,8 +19,8 @@ export default function KimAskespredning() {
       }}
     >
       <SEO
-        title="Askespredning over havet – Bedemand Kim Bondo, København og Nordsjælland"
-        description="Askespredning over havet er en smuk og fri afsked. Kim Bondo hjælper med regler, praktik og hele forløbet. Priser fra 15.500 kr."
+        title="Askespredning – Bedemand Kim Bondo, København"
+        description="Hjælp til askespredning til søs eller på land. Kim Bondo søger tilladelse og koordinerer hele forløbet. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/askespredning"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
