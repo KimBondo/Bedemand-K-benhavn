@@ -73,7 +73,15 @@ export default function KimFaq() {
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/faq"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
-      <SchemaOrg type="FAQPage" faqItems={allFaqItems} />
+      <SchemaOrg
+        type="FAQPage"
+        faqItems={allFaqItems}
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
+          { name: "FAQ", url: "https://bedemandkobenhavn.dk/kim-bondo/faq" }
+        ]}
+      />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>

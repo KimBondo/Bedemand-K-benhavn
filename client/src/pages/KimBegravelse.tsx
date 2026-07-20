@@ -25,6 +25,14 @@ export default function KimBegravelse() {
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
+      <SchemaOrg
+        type="both"
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Begravelse", url: "https://bedemandkobenhavn.dk/kim-bondo/begravelse" }
+        ]}
+      />
       {/* ── HEADER ── */}
       <header
         style={{

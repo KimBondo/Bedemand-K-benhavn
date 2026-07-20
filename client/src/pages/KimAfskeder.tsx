@@ -25,6 +25,14 @@ export default function KimAfskeder() {
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
+      <SchemaOrg
+        type="both"
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Afskeder", url: "https://bedemandkobenhavn.dk/kim-bondo/afskeder" }
+        ]}
+      />
       {/* ── HEADER ── */}
       <header
         style={{

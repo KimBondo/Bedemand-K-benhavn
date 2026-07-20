@@ -39,6 +39,11 @@ export default function KimHvadKoster() {
           { question: "Hvad er begravelseshjælp?", answer: "Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af afdødes formue." },
           { question: "Er der skjulte udgifter ved en begravelse?", answer: "Hos Kim gennemgås alle udgifter på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
         ]}
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Hvad koster en begravelse?", url: "https://bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse" }
+        ]}
       />
 
       {/* ── HEADER ── */}

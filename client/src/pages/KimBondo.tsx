@@ -54,7 +54,13 @@ export default function KimBondo() {
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
-      <SchemaOrg type="LocalBusiness" />
+      <SchemaOrg
+        type="both"
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo – Bedemand", url: "https://bedemandkobenhavn.dk/kim-bondo" }
+        ]}
+      />
 
       {/* ══════════════════════════════════════════════════════
           SECTION 1: HERO

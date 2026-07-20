@@ -143,7 +143,14 @@ export default function KimProdukter() {
         url="https://bedemandkobenhavn.dk/kim-bondo/produkter"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
-      <SchemaOrg type="LocalBusiness" />
+      <SchemaOrg
+        type="both"
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Kister og urner", url: "https://bedemandkobenhavn.dk/kim-bondo/produkter" }
+        ]}
+      />
 
       <style>{hoverZoomStyle}</style>
       {/* ── HEADER ── */}
