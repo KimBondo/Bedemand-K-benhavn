@@ -25,8 +25,8 @@ export default function KimHvadKoster() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Hvad koster en begravelse? Priser 2026"
-        description="Hvad koster en begravelse i 2026? Ærligt overblik over alle udgifter: bedemand, kiste, kremering og gravsted. Kim Bondo, København."
+        title="Hvad koster en begravelse i 2026? Priser"
+        description="Ærligt overblik over alle udgifter ved begravelse i 2026: bedemand, kiste, kremering, gravsted og begravelseshjælp. Kim Bondo, København."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/hvad-koster-en-begravelse"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

@@ -23,8 +23,8 @@ export default function KimBorgerligAfsked() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Borgerlig afsked – Bedemand Kim Bondo"
-        description="Borgerlig begravelse eller bisættelse uden kirke. Kim Bondo hjælper med seremoni, kapel og alt praktisk. Ring 22 21 14 37."
+        title="Borgerlig begravelse – Bedemand Kim Bondo"
+        description="Borgerlig begravelse eller bisættelse uden kirke i København. Kim Bondo hjælper med ceremoni, kapel og alt praktisk. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/borgerlig-afsked"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

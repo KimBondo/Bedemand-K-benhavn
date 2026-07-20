@@ -20,7 +20,7 @@ export default function KimAskespredning() {
     >
       <SEO
         title="Askespredning – Bedemand Kim Bondo, København"
-        description="Hjælp til askespredning til søs eller på land. Kim Bondo søger tilladelse og koordinerer hele forløbet. Ring 22 21 14 37."
+        description="Askespredning til søs eller på land i Danmark. Kim Bondo hjælper med tilladelse og ceremoni. Ring 22 21 14 37 – døgnet rundt."
         url="https://bedemandkobenhavn.dk/kim-bondo/askespredning"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

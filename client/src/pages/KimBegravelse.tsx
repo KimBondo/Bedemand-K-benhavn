@@ -19,8 +19,8 @@ export default function KimBegravelse() {
       }}
     >
       <SEO
-        title="Begravelse – Bedemand Kim Bondo, København"
-        description="Hjælp til begravelse i København og Nordsjælland. Kim Bondo koordinerer alt fra kiste til kirkegård. Ring 22 21 14 37 – døgnet rundt."
+        title="Begravelse i København – Bedemand Kim Bondo"
+        description="Personlig hjælp til begravelse i København og Nordsjælland. Kim Bondo koordinerer kiste, kirkegård og ceremoni. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/begravelse"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

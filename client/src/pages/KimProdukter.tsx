@@ -13,6 +13,19 @@ const NAV = (
   <KimNav />
 );
 
+const hoverZoomStyle = `
+  .product-img {
+    transition: transform 220ms cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: transform;
+  }
+  .product-img:hover {
+    transform: scale(1.06);
+  }
+  .product-img-wrap {
+    overflow: hidden;
+  }
+`;
+
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "16px", lineHeight: 1.8, color: "#3d4f5a", marginBottom: "16px" } as React.CSSProperties,
   h2: { fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(22px, 3vw, 32px)", color: "#2F3E46", marginBottom: "16px", marginTop: "0" } as React.CSSProperties,
@@ -126,12 +139,13 @@ export default function KimProdukter() {
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Kister og urner – Bedemand Kim Bondo"
-        description="Se vores kister og urner med gennemsigtige priser. Alle urner 1.250 kr. Kim Bondo – bedemand i København. Ring 22 21 14 37."
+        description="Vælg kiste fra 6.000 kr. eller urne til 1.250 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/produkter"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="LocalBusiness" />
 
+      <style>{hoverZoomStyle}</style>
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
         <style>{`
@@ -210,10 +224,11 @@ export default function KimProdukter() {
                   border: "1px solid #e0dcd6",
                 }}
               >
-                <div style={{ height: "220px", overflow: "hidden", background: "#e8e4df" }}>
+                <div className="product-img-wrap" style={{ height: "220px", background: "#e8e4df" }}>
                   <img
                     src={k.image}
                     alt={k.alt || k.name}
+                    className="product-img"
                     style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
                   />
                 </div>
@@ -255,10 +270,11 @@ export default function KimProdukter() {
                   border: "1px solid #e0dcd6",
                 }}
               >
-                <div style={{ background: "#e8e4df", textAlign: "center" }}>
+                <div className="product-img-wrap" style={{ background: "#e8e4df", textAlign: "center" }}>
                   <img
                     src={u.image}
                     alt={u.alt || u.name}
+                    className="product-img"
                     style={{ width: "100%", height: "auto", display: "block" }}
                   />
                 </div>

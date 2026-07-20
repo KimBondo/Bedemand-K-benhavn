@@ -24,7 +24,7 @@ export default function KimFrederiksberg() {
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Frederiksberg – Kim Bondo"
-        description="Personlig bedemand på Frederiksberg. Bisættelse og begravelse med nærvær og ro. Gennemsigtige priser. Ring 22 21 14 37."
+        description="Personlig bedemand på Frederiksberg. Bisættelse fra 17.395 kr. og begravelse fra 18.500 kr. Gennemsigtige priser. Ring 22 21 14 37."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/frederiksberg"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

@@ -21,7 +21,7 @@ export default function KimPriser() {
     >
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
-        description="Bisættelse fra 17.395 kr., begravelse fra 18.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer – ring 22 21 14 37."
+        description="Bisættelse fra 17.395 kr., begravelse fra 18.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/priser"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

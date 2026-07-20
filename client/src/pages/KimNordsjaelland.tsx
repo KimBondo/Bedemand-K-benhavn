@@ -24,7 +24,7 @@ export default function KimNordsjaelland() {
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Nordsjælland – Kim Bondo"
-        description="Personlig bedemand i Nordsjælland. Bisættelse og begravelse med nærvær og ro. Gennemsigtige priser. Ring 22 21 14 37."
+        description="Personlig bedemand i hele Nordsjælland. Bisættelse og begravelse med nærvær, ro og gennemsigtige priser. Ring 22 21 14 37."
         url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/nordsjaelland"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

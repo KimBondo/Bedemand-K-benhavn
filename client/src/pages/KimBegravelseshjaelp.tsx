@@ -23,8 +23,8 @@ export default function KimBegravelseshjaelp() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Begravelseshjælp – Bedemand Kim Bondo"
-        description="Søg begravelseshjælp fra det offentlige. Kim Bondo hjælper med ansøgningen. Beløb fra 1.050 til 13.550 kr. Ring 22 21 14 37."
+        title="Begravelseshjælp – søg tilskud, Kim Bondo"
+        description="Få hjælp til at søge begravelseshjælp fra det offentlige. Tilskud fra 1.050–13.550 kr. Kim Bondo guider jer igennem ansøgningen. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/begravelseshjaelp"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
