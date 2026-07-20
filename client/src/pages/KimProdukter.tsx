@@ -25,6 +25,7 @@ const KISTER = [
     name: "Basiskiste",
     priceLabel: "6.000 kr.",
     image: "/manus-storage/Basis6greb_5925250a.webp",
+    alt: "Basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
     description: "Umalet.",
   },
   {
@@ -32,6 +33,7 @@ const KISTER = [
     name: "Klassisk hvid kiste",
     priceLabel: "6.500 kr.",
     image: "/manus-storage/Klassiskhvid_b0f458b9.jpg",
+    alt: "Klassisk hvid kiste til bisættelse – fremstillet i spån og MDF, Kim Bondo bedemand",
     description: "En klassisk kremeringskiste til bisættelser, fremstillet i spån og MDF.",
   },
   {
@@ -39,6 +41,7 @@ const KISTER = [
     name: "Gaia",
     priceLabel: "6.800 kr.",
     image: "/manus-storage/Gaia_5d419152.webp",
+    alt: "Gaia kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse og begravelse",
     description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende og kisten har et markant lavere klimaaftryk end en traditionel hvid kiste. Både til bisættelse og begravelse.",
   },
   {
@@ -46,6 +49,7 @@ const KISTER = [
     name: "Orbit papirkiste",
     priceLabel: "8.800 kr.",
     image: "/manus-storage/Orbit_924a6cd2.webp",
+    alt: "Orbit papirkiste i ReBoard – let og miljøvenlig kiste til begravelse og kremering",
     description: "Orbit er fremstillet i ReBoard, som er produceret med 80 % færre træfibre end materialet i en traditionel kiste. Kisten vejer 12 kg, hvilket gør den let at håndtere. Den kan printes i alle farver og motiver og er testet til både begravelse og kremering.",
   },
   {
@@ -53,6 +57,7 @@ const KISTER = [
     name: "Massiv fyr",
     priceLabel: "8.000 kr.",
     image: "/manus-storage/Massiv_fyr_55990efe.webp",
+    alt: "Massiv fyrkiste med knaster – naturlig og varm kiste til begravelse, Kim Bondo bedemand",
     description: "Kisten i fyrretræ med knaster har et varmt og naturligt udtryk, hvor træets struktur og levende detaljer får lov at stå frem. Knasterne giver hver kiste sit eget særpræg og understreger det enkle og særlige udtryk.",
   },
 ];
@@ -63,6 +68,7 @@ const URNER = [
     name: "Askerør Solnedgang",
     priceLabel: "1.250 kr.",
     image: "/manus-storage/Askeror_Solnedgang_faf27b72.jpeg",
+    alt: "Askerør Solnedgang – biologisk nedbrydeligt askerør i genanvendt karton til askespredning",
     description: "Vores askerør er fremstillet i genanvendt karton og pap. Materialet er biologisk nedbrydeligt og egner sig til askespredning, enten til vands eller som en del af en ceremoni. Det enkle udtryk gør den til et fint valg til en personlig og værdig afsked.",
   },
   {
@@ -70,6 +76,7 @@ const URNER = [
     name: "Creme Natur biourne",
     priceLabel: "1.250 kr.",
     image: "/manus-storage/CremeNaturbiourne_f3a0617c.jpg",
+    alt: "Creme Natur biourne – biologisk nedbrydeligt urne i bioplast, Kim Bondo bedemand",
     description: "Natur urnerne er lavet af bioplast, som tager mellem 4 og 9 år at nedbryde i jorden.",
   },
   {
@@ -77,6 +84,7 @@ const URNER = [
     name: "Grøn Natur biourne",
     priceLabel: "1.250 kr.",
     image: "/manus-storage/GronNaturbiourne_df52a9c7.jpg",
+    alt: "Grøn Natur biourne – grøn biologisk nedbrydeligt urne i bioplast, Kim Bondo bedemand",
     description: "Natur urnerne er lavet af bioplast, som tager mellem 4 og 9 år at nedbryde i jorden.",
   },
   {
@@ -84,6 +92,7 @@ const URNER = [
     name: "Rød Natur biourne",
     priceLabel: "1.250 kr.",
     image: "/manus-storage/RodNaturbiourne_033ebb28.jpg",
+    alt: "Rød Natur biourne – rød biologisk nedbrydeligt urne i bioplast, Kim Bondo bedemand",
     description: "Natur urnerne er lavet af bioplast, som tager mellem 4 og 9 år at nedbryde i jorden.",
   },
   {
@@ -91,6 +100,7 @@ const URNER = [
     name: "Brun museumsurne",
     priceLabel: "1.250 kr.",
     image: "/manus-storage/Brunmuseumsurne_7e293ad9.jpeg",
+    alt: "Brun museumsurne – urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
     description: "Vores museumsurne er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
   {
@@ -98,6 +108,7 @@ const URNER = [
     name: "Grøn museumsurne",
     priceLabel: "1.250 kr.",
     image: "/manus-storage/Gronmuseumsurne_9a41f59e.jpeg",
+    alt: "Grøn museumsurne – grøn urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
     description: "Vores museumsurne er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
   {
@@ -105,6 +116,7 @@ const URNER = [
     name: "Rød museumsurne",
     priceLabel: "1.250 kr.",
     image: "/manus-storage/Rodmuseumsurne_d3d2fec3.jpeg",
+    alt: "Rød museumsurne – rød urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
     description: "Vores museumsurne er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
 ];
@@ -201,7 +213,7 @@ export default function KimProdukter() {
                 <div style={{ height: "220px", overflow: "hidden", background: "#e8e4df" }}>
                   <img
                     src={k.image}
-                    alt={k.name}
+                    alt={k.alt || k.name}
                     style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
                   />
                 </div>
@@ -246,7 +258,7 @@ export default function KimProdukter() {
                 <div style={{ background: "#e8e4df", textAlign: "center" }}>
                   <img
                     src={u.image}
-                    alt={u.name}
+                    alt={u.alt || u.name}
                     style={{ width: "100%", height: "auto", display: "block" }}
                   />
                 </div>
