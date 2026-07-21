@@ -505,7 +505,7 @@ export default function KimPriser() {
               note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage.",
               rows: [
                 ["Klargøring af kiste, afhentning og ilægning i kiste", "2.500 kr."],
-                ["Tillæg ved afhentning andet sted end på hospital", "1.200 kr."],
+                ["Tillæg ved afhentning i private hjem", "1.200 kr."],
               ],
             },
             {
