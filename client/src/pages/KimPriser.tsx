@@ -512,7 +512,7 @@ export default function KimPriser() {
               heading: "3. Transport",
               note: "50 % tillæg efter kl. 16.00 på hverdage samt i weekender og på helligdage. Rustvognskørsel inkluderer én kørsel med 20 km.",
               rows: [
-                ["Rustvognskørsel (én kørsel, inkl. 20 km)", "2.000 kr."],
+                ["Rustvognskørsel (én kørsel, inkl. 20 km)", "1.950 kr."],
                 ["Urnekørsel (fra krematoriet til kirkegårdskontor)", "900 kr."],
                 ["Blomsterkørsel og udlægning på kirkegård", "1.400 kr."],
               ],
@@ -520,7 +520,7 @@ export default function KimPriser() {
             {
               heading: "4. Blomster og pynt",
               rows: [
-                ["Kistepynt (lille)", "2.000 kr."],
+                ["Kistepynt (lille)", "1.500 kr."],
                 ["Kistepynt (mellem)", "2.500 kr."],
                 ["Kistepynt (stor)", "3.500 kr."],
                 ["Blomsterkrans eller blomsterhjerte", "2.500 kr."],
