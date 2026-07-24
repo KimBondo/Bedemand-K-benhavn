@@ -141,7 +141,7 @@ export default function KimProdukter() {
         title="Kister og urner – Bedemand Kim Bondo"
         description="Vælg kiste fra 6.000 kr. eller urne til 1.250 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/produkter"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg
         type="both"

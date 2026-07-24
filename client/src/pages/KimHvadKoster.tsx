@@ -27,8 +27,8 @@ export default function KimHvadKoster() {
       <SEO
         title="Hvad koster en begravelse i 2026? Priser"
         description="Ærligt overblik over alle udgifter ved begravelse i 2026: bedemand, kiste, kremering, gravsted og begravelseshjælp. Kim Bondo, København."
-        url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/hvad-koster-en-begravelse"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        url="https://bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse"
+        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg
         type="both"
@@ -219,7 +219,7 @@ export default function KimHvadKoster() {
           Kender du nogen, der står over for at planlægge en begravelse? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/hvad-koster-en-begravelse")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{

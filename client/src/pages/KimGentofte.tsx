@@ -25,8 +25,8 @@ export default function KimGentofte() {
       <SEO
         title="Bedemand Gentofte – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Gentofte. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
-        url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/gentofte"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        url="https://bedemandkobenhavn.dk/kim-bondo/gentofte"
+        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Gentofte?", answer: "Jeg er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
@@ -204,7 +204,7 @@ export default function KimGentofte() {
           Kender du nogen i Gentofte, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/gentofte")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/gentofte")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{

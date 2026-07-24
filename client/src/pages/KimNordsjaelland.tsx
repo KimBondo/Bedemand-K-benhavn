@@ -25,8 +25,8 @@ export default function KimNordsjaelland() {
       <SEO
         title="Bedemand Nordsjælland – Kim Bondo"
         description="Personlig bedemand i hele Nordsjælland. Bisættelse og begravelse med nærvær, ro og gennemsigtige priser. Ring 22 21 14 37."
-        url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/nordsjaelland"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        url="https://bedemandkobenhavn.dk/kim-bondo/nordsjaelland"
+        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg er selvstændig bedemand og dækker hele Nordsjælland og København. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
@@ -277,7 +277,7 @@ export default function KimNordsjaelland() {
           Kender du nogen i Nordsjælland, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/nordsjaelland")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/nordsjaelland")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{

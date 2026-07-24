@@ -26,8 +26,8 @@ export default function KimKobenhavn() {
       <SEO
         title="Bedemand København – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i København. Bisættelse fra 17.395 kr., begravelse fra 18.500 kr. Ingen skjulte gebyrer. Ring 22 21 14 37."
-        url="https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/kobenhavn"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        url="https://bedemandkobenhavn.dk/kim-bondo/kobenhavn"
+        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i København?", answer: "Jeg er selvstændig bedemand og dækker hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
@@ -239,7 +239,7 @@ export default function KimKobenhavn() {
           Kender du nogen på udkig efter en bedemand i København? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/kobenhavn")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/kobenhavn")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{

@@ -27,7 +27,7 @@ export default function KimHuskeliste() {
         title="Huskeliste ved dødsfald – Bedemand Kim Bondo"
         description="Hvad skal du gøre, når en nærtstående dør? Kim Bondos trin-for-trin huskeliste hjælper dig i den svære tid. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/huskeliste"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       <SchemaOrg
@@ -248,7 +248,7 @@ export default function KimHuskeliste() {
           Kender du nogen, der kan have brug for denne huskeliste?
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkbh-8wuvn9as.manus.space/kim-bondo/huskeliste")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/huskeliste")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
