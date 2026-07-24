@@ -822,7 +822,7 @@ export default function KimBondo() {
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "16px" }}>Viden og vejledning</p>
           <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(22px, 3vw, 32px)", color: "#2F3E46", marginBottom: "12px", marginTop: 0 }}>Artikler om afsked og begravelse</h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "40px", maxWidth: "600px" }}>
-            Her deler jeg viden om de spørgsmål, jeg oftest møder. Læs og bliʾv klogere, så I kan træffe de rigtige valg i en svær tid.
+            Her deler jeg viden om de spørgsmål, jeg oftest møder. Læs og bliv klogere, så I kan træffe de rigtige valg i en svær tid.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "28px" }}>
             {[
@@ -834,7 +834,7 @@ export default function KimBondo() {
               },
               {
                 title: "Sådan vælger du den rigtige afsked",
-                excerpt: "Bisaettelse, begravelse eller afsked uden ceremoni? Kirkelig eller borgerlig? Her gennemgår jeg forskellene, så I kan vælge den afsked, der passer til jer.",
+                excerpt: "Bisættelse, begravelse eller afsked uden ceremoni? Kirkelig eller borgerlig? Her gennemgår jeg forskellene, så I kan vælge den afsked, der passer til jer.",
                 href: "/kim-bondo/afskeder",
                 label: "Se alle afskeder",
               },
