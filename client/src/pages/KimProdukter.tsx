@@ -82,7 +82,7 @@ const URNER = [
     priceLabel: "1.250 kr.",
     image: "/manus-storage/Askeror_Solnedgang_faf27b72.jpeg",
     alt: "Askerør Solnedgang – biologisk nedbrydeligt askerør i genanvendt karton til askespredning",
-    description: "Vores askerør er fremstillet i genanvendt karton og pap. Materialet er biologisk nedbrydeligt og egner sig til askespredning, enten til vands eller som en del af en ceremoni. Det enkle udtryk gør den til et fint valg til en personlig og værdig afsked.",
+    description: "Dette askerør er fremstillet i genanvendt karton og pap. Materialet er biologisk nedbrydeligt og egner sig til askespredning, enten til vands eller som en del af en ceremoni. Det enkle udtryk gør den til et fint valg til en personlig og værdig afsked.",
   },
   {
     id: "creme-natur-biourn",
@@ -114,7 +114,7 @@ const URNER = [
     priceLabel: "1.250 kr.",
     image: "/manus-storage/Brunmuseumsurne_7e293ad9.jpeg",
     alt: "Brun museumsurne – urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
-    description: "Vores museumsurne er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
+    description: "Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
   {
     id: "gron-museumsurne",
@@ -122,7 +122,7 @@ const URNER = [
     priceLabel: "1.250 kr.",
     image: "/manus-storage/Gronmuseumsurne_9a41f59e.jpeg",
     alt: "Grøn museumsurne – grøn urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
-    description: "Vores museumsurne er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
+    description: "Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
   {
     id: "rod-museumsurne",
@@ -130,7 +130,7 @@ const URNER = [
     priceLabel: "1.250 kr.",
     image: "/manus-storage/Rodmuseumsurne_d3d2fec3.jpeg",
     alt: "Rød museumsurne – rød urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
-    description: "Vores museumsurne er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
+    description: "Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
 ];
 
@@ -201,7 +201,7 @@ export default function KimProdukter() {
           Vælg med ro og overblik
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "600px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Her finder I vores udvalg af kister og urner med gennemsigtige priser. Ring til mig, hvis I har spørgsmål til et bestemt produkt.
+          Her finder I mit udvalg af kister og urner med gennemsigtige priser. Ring til mig, hvis I har spørgsmål til et bestemt produkt.
         </p>
         <a href="tel:22211437" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring på 22 21 14 37</a>
       </section>
@@ -210,9 +210,9 @@ export default function KimProdukter() {
       <section style={{ background: "#fff", padding: "80px 32px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <p style={s.label}>Kister</p>
-          <h2 style={{ ...s.h2, marginBottom: "12px" }}>Vores kister</h2>
+          <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine kister</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Vi tilbyder et udvalg af kister i forskellige materialer og udtryk. Alle kister er af høj kvalitet og vælges med omhu. Har I spørgsmål til et bestemt produkt, er I altid velkomne til at ringe.
+            Jeg tilbyder et udvalg af kister i forskellige materialer og udtryk. Alle kister er af høj kvalitet og vælges med omhu. Har I spørgsmål til et bestemt produkt, er I altid velkomne til at ringe.
           </p>
           <div
             style={{
@@ -236,7 +236,7 @@ export default function KimProdukter() {
                     src={k.image}
                     alt={k.alt || k.name}
                     className="product-img"
-                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                    style={{ width: "100 %", height: "100 %", objectFit: "cover", display: "block" }}
                   />
                 </div>
                 <div style={{ padding: "24px" }}>
@@ -256,9 +256,9 @@ export default function KimProdukter() {
       <section style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <p style={s.label}>Urner</p>
-          <h2 style={{ ...s.h2, marginBottom: "12px" }}>Vores urner</h2>
+          <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine urner</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Alle urner er prissat til 1.250 kr. Vi tilbyder et smukt udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner.
+            Alle urner er prissat til 1.250 kr. Jeg tilbyder et smukt udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner.
           </p>
           <div
             style={{
@@ -282,7 +282,7 @@ export default function KimProdukter() {
                     src={u.image}
                     alt={u.alt || u.name}
                     className="product-img"
-                    style={{ width: "100%", height: "auto", display: "block" }}
+                    style={{ width: "100 %", height: "auto", display: "block" }}
                   />
                 </div>
                 <div style={{ padding: "20px" }}>
@@ -389,10 +389,10 @@ export default function KimProdukter() {
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="mailto:kontakt@bedemandkøbenhavn.dk"
+            href="mailto:kim@bedemandkobenhavn.dk"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
-            kontakt@bedemandkøbenhavn.dk
+            kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>

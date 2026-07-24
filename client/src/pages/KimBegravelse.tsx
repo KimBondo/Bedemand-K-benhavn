@@ -152,7 +152,7 @@ export default function KimBegravelse() {
           { num: "5", title: "Gravstedet", text: "Gravstedet bliver et varigt sted at vende tilbage til. Jeg hjælper med at finde det rette gravsted og kan rådgive om vedligeholdelse og gravsten." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
-            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50%", background: "#84A98C", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
+            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50 %", background: "#84A98C", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
               {step.num}
             </div>
             <div>

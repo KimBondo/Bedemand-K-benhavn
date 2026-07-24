@@ -281,7 +281,7 @@ export default function KimBisaettelse() {
               style={{
                 minWidth: "44px",
                 height: "44px",
-                borderRadius: "50%",
+                borderRadius: "50 %",
                 background: "#84A98C",
                 color: "#fff",
                 display: "flex",

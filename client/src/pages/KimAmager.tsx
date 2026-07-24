@@ -29,11 +29,11 @@ export default function KimAmager() {
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand på Amager?", answer: "Kim Bondo er selvstændig bedemand og dækker Amager og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
+        { question: "Hvem er bedemand på Amager?", answer: "Jeg er selvstændig bedemand og dækker Amager og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en begravelse på Amager?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
         { question: "Hvilke krematorier og kirker er der på Amager?", answer: "Amager har bl.a. Sundby Krematorium og en række kirker, herunder Sundby Kirke og Kastrup Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
-        { question: "Kan jeg vælge en borgerlig ceremoni på Amager?", answer: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
-        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen." },
+        { question: "Kan jeg vælge en borgerlig ceremoni på Amager?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
+        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
       ]} />
 
       {/* ── HEADER ── */}
@@ -159,7 +159,7 @@ export default function KimAmager() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse på Amager?</h2>
           <p style={s.body}>
-            Priserne hos Kim Bondo er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
+            Mine priser er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
@@ -186,11 +186,11 @@ export default function KimAmager() {
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand på Amager</h2>
           {[
-            { q: "Hvem er bedemand på Amager?", a: "Kim Bondo er selvstændig bedemand og dækker Amager og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
+            { q: "Hvem er bedemand på Amager?", a: "Jeg er selvstændig bedemand og dækker Amager og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en begravelse på Amager?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
             { q: "Hvilke krematorier og kirker er der på Amager?", a: "Amager har bl.a. Sundby Krematorium og en række kirker, herunder Sundby Kirke og Kastrup Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
-            { q: "Kan jeg vælge en borgerlig ceremoni på Amager?", a: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
-            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
+            { q: "Kan jeg vælge en borgerlig ceremoni på Amager?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
+            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>

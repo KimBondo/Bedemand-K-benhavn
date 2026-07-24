@@ -42,7 +42,7 @@ const KIM_LOCAL_BUSINESS = {
   "description": "Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra 17.395 kr., begravelse fra 18.500 kr.",
   "url": `${BASE_URL}/kim-bondo`,
   "telephone": "+4522211437",
-  "email": "kontakt@bedemandkøbenhavn.dk",
+  "email": "kim@bedemandkobenhavn.dk",
   "vatID": "DK45084159",
   "address": {
     "@type": "PostalAddress",
@@ -86,7 +86,7 @@ const KIM_LOCAL_BUSINESS = {
     "@type": "Person",
     "name": "Kim Bondo",
     "telephone": "+4522211437",
-    "email": "kontakt@bedemandkøbenhavn.dk"
+    "email": "kim@bedemandkobenhavn.dk"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",

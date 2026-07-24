@@ -29,11 +29,11 @@ export default function KimVesterbro() {
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand på Vesterbro?", answer: "Kim Bondo er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
+        { question: "Hvem er bedemand på Vesterbro?", answer: "Jeg er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
         { question: "Hvilke krematorier og kirker er der på Vesterbro?", answer: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Absalons Kirke og Enghave Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
-        { question: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", answer: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
-        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen." },
+        { question: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
+        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
       ]} />
 
       {/* ── HEADER ── */}
@@ -159,7 +159,7 @@ export default function KimVesterbro() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse på Vesterbro?</h2>
           <p style={s.body}>
-            Priserne hos Kim Bondo er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
+            Mine priser er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
@@ -186,11 +186,11 @@ export default function KimVesterbro() {
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand på Vesterbro</h2>
           {[
-            { q: "Hvem er bedemand på Vesterbro?", a: "Kim Bondo er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
+            { q: "Hvem er bedemand på Vesterbro?", a: "Jeg er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en begravelse på Vesterbro?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
             { q: "Hvilke krematorier og kirker er der på Vesterbro?", a: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Absalons Kirke og Enghave Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
-            { q: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", a: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
-            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
+            { q: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
+            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>

@@ -30,11 +30,11 @@ export default function KimKobenhavn() {
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand i København?", answer: "Kim Bondo er selvstændig bedemand og dækker hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
+        { question: "Hvem er bedemand i København?", answer: "Jeg er selvstændig bedemand og dækker hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en begravelse i København?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
         { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde. Ved en begravelse sættes kisten i jord. Begge kan have kirkelig eller borgerlig ceremoni." },
-        { question: "Kan jeg vælge en borgerlig ceremoni i København?", answer: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme, uden religiøse ritualer." },
-        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen." },
+        { question: "Kan jeg vælge en borgerlig ceremoni i København?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme, uden religiøse ritualer." },
+        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
       ]} />
 
       {/* ── HEADER ── */}
@@ -160,7 +160,7 @@ export default function KimKobenhavn() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse i København?</h2>
           <p style={s.body}>
-            Priserne hos Kim Bondo er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
+            Mine priser er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
@@ -187,11 +187,11 @@ export default function KimKobenhavn() {
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand i København</h2>
           {[
-            { q: "Hvem er bedemand i København?", a: "Kim Bondo er selvstændig bedemand og dækker hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
+            { q: "Hvem er bedemand i København?", a: "Jeg er selvstændig bedemand og dækker hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en begravelse i København?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
             { q: "Hvad er forskellen på bisættelse og begravelse?", a: "Ved en bisættelse kremeres afdøde — asken kan efterfølgende nedsættes, spredes eller opbevares. Ved en begravelse sættes kisten i jord på en kirkegård. Begge kan have kirkelig eller borgerlig ceremoni." },
-            { q: "Kan jeg vælge en borgerlig ceremoni i København?", a: "Ja — Kim Bondo hjælper med borgerlige ceremonier i kapel eller anden egnet ramme, uden religiøse ritualer. Du bestemmer selv indholdet." },
-            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Kim hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
+            { q: "Kan jeg vælge en borgerlig ceremoni i København?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme, uden religiøse ritualer. Du bestemmer selv indholdet." },
+            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
@@ -340,10 +340,10 @@ export default function KimKobenhavn() {
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="mailto:kontakt@bedemandkøbenhavn.dk"
+            href="mailto:kim@bedemandkobenhavn.dk"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
-            kontakt@bedemandkøbenhavn.dk
+            kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>

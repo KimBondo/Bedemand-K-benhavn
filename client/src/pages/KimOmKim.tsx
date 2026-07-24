@@ -201,7 +201,7 @@ export default function KimOmKim() {
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
           {" "}&nbsp;·&nbsp;{" "}
-          <a href="mailto:kontakt@bedemandkøbenhavn.dk" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>kontakt@bedemandkøbenhavn.dk</a>
+          <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>
       </footer>

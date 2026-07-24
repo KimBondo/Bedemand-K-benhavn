@@ -120,12 +120,12 @@ export default function KimHvadKoster() {
             {[
               { num: "1", title: "Bisættelse eller begravelse?", body: "Bisættelse (kremering) er typisk billigere end begravelse i jord, fordi man undgår udgifterne til gravsted og gravsten. Mange vælger bisættelse med efterfølgende urnenedsættelse." },
               { num: "2", title: "Kirkelig eller borgerlig ceremoni?", body: "En kirkelig ceremoni i Folkekirkens kirker er gratis for medlemmer. En borgerlig ceremoni kræver leje af kapel, hvilket typisk koster 1.000–3.000 kr." },
-              { num: "3", title: "Kistens pris", body: "Kister varierer enormt i pris — fra en enkel fyrretræskiste til 2.500 kr. til en avanceret egetræskiste til 15.000 kr. og derover. Jeg hjælper jer med at finde den rigtige." },
+              { num: "3", title: "Kistens pris", body: "Kister varierer i pris — fra en enkel basiskiste til 6.000 kr. til en massiv fyrretræskiste til 8.000 kr. Jeg tilbyder også hvide kister og naturkister. Jeg hjælper jer med at finde den rigtige." },
               { num: "4", title: "Gravsted og gravsten", body: "Gravstedet er en af de største enkeltudgifter. Prisen afhænger af kommunen, gravstedets størrelse og gravstenstype. Mange vælger fællesgrav for at undgå løbende vedligeholdelse." },
               { num: "5", title: "Blomster og annonce", body: "Blomster og kistepynt er valgfrit og kan tilpasses ethvert budget. En avisannonce er heller ikke obligatorisk — mange familier bruger sociale medier i stedet." },
             ].map((item) => (
               <div key={item.num} style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
-                <div style={{ flexShrink: 0, width: "40px", height: "40px", background: "#84A98C", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px" }}>{item.num}</div>
+                <div style={{ flexShrink: 0, width: "40px", height: "40px", background: "#84A98C", borderRadius: "50 %", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px" }}>{item.num}</div>
                 <div>
                   <h3 style={{ ...s.h3, fontSize: "17px", marginBottom: "8px" }}>{item.title}</h3>
                   <p style={{ ...s.body, marginBottom: 0, fontSize: "15px" }}>{item.body}</p>
@@ -145,14 +145,14 @@ export default function KimHvadKoster() {
             Prisen på en afsked afhænger i høj grad af, hvor afdøde skal hentes, samt hvor mange kørsler der er behov for med rustvognen.
           </p>
           <p style={s.body}>
-            Når afhentningen foregår fra et privat hjem, indebærer det ofte en større praktisk opgave end ved afhentning på et hospital, plejehjem eller hospice. I private hjem er der jævnligt trange pladsforhold og trapper, hvilket kræver mere tid og ekstra ressourcer til at sikre en respektfuld og omsorgsfuld håndtering. Samtidig er det nødvendigt at arrangere afhentningen hurtigt fra enten hjemmet, plejehjemmet eller hospicet, så afdøde kan blive bragt til et kistehotel indtil selve højtideligheden.
+            Når afhentningen foregår fra et privat hjem, indebærer det ofte en større praktisk opgave end ved afhentning på et hospital, plejehjem eller hospice. I private hjem er der jævnligt trange pladsforhold og trapper, hvilket kræver mere tid og ekstra ressourcer til at sikre en respektfuld og omsorgsfuld håndtering. Samtidig er det nødvendigt at arrangere afhentningen hurtigt fra enten hjemmet, plejehjemmet eller hospicet, så afdøde kan blive bragt til et kisteophold indtil selve højtideligheden.
           </p>
           <h3 style={s.h3}>Hvor mange kørsler er der brug for?</h3>
           <p style={s.body}>
-            Antallet af kørsler med rustvognen har ligeledes indflydelse på den endelige pris. Hvis det er muligt at køre afdøde direkte fra hospitalets kapel til kirken eller kapellet på selve dagen, reduceres antallet af kørsler, hvilket afspejler sig i en lavere pris. Det er dog værd at bemærke, at hospitalernes kapeller som regel holder lukket for afhentning om lørdagen, hvorfor denne løsning primært lader sig gøre på hverdage. Hvis afdøde først skal omvejen forbi et kistehotel, medfører det en ekstra kørsel.
+            Antallet af kørsler med rustvognen har ligeledes indflydelse på den endelige pris. Hvis det er muligt at køre afdøde direkte fra hospitalets kapel til kirken eller kapellet på selve dagen, reduceres antallet af kørsler, hvilket afspejler sig i en lavere pris. Det er dog værd at bemærke, at hospitalernes kapeller som regel holder lukket for afhentning om lørdagen, hvorfor denne løsning primært lader sig gøre på hverdage. Hvis afdøde først skal omvejen forbi et kisteophold, medfører det en ekstra kørsel.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Ved en bisættelse, hvor der efterfølgende sker kremering, vil der som udgangspunkt være to kørsler med rustvognen, men hvis afdøde først har været på kistehotellet, bliver det til tre kørsler i alt. Ved en jordfæstelse, hvor kisten sænkes i jorden, kan logistikken ofte forenkles. Hvis afdøde kan afhentes direkte på hospitalet, og begravelsen foregår på kirkegården lige omkring kirken, kan det klares med en enkelt kørsel, hvilket gør denne løsning mere økonomisk.
+            Ved en bisættelse, hvor der efterfølgende sker kremering, vil der som udgangspunkt være to kørsler med rustvognen, men hvis afdøde først har været på kisteopholdlet, bliver det til tre kørsler i alt. Ved en jordfæstelse, hvor kisten sænkes i jorden, kan logistikken ofte forenkles. Hvis afdøde kan afhentes direkte på hospitalet, og begravelsen foregår på kirkegården lige omkring kirken, kan det klares med en enkelt kørsel, hvilket gør denne løsning mere økonomisk.
           </p>
         </div>
       </section>
@@ -319,10 +319,10 @@ export default function KimHvadKoster() {
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="mailto:kontakt@bedemandkøbenhavn.dk"
+            href="mailto:kim@bedemandkobenhavn.dk"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
-            kontakt@bedemandkøbenhavn.dk
+            kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>

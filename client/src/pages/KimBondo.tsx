@@ -190,7 +190,7 @@ export default function KimBondo() {
               src="/manus-storage/kim-beach-solo_609d5ab7.png"
               alt="Kim Bondo med sort Mercedes rustvogn ved den danske kyst"
               style={{
-                width: "100%",
+                width: "100 %",
                 aspectRatio: "4/3",
                 objectFit: "cover",
                 objectPosition: "center",
@@ -259,7 +259,7 @@ export default function KimBondo() {
             src="/manus-storage/kim-garden-coffin_90a67244.jpg"
             alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
             style={{
-              width: "100%",
+              width: "100 %",
               maxWidth: "480px",
               aspectRatio: "16/9",
               objectFit: "cover",
@@ -275,7 +275,7 @@ export default function KimBondo() {
               color: "#9a9087",
               fontStyle: "italic",
               textAlign: "center",
-              width: "100%",
+              width: "100 %",
               lineHeight: 1.6,
             }}
           >
@@ -531,7 +531,7 @@ export default function KimBondo() {
                 <button
                   onClick={() => setOpenCard(isOpen ? null : idx)}
                   style={{
-                    width: "100%",
+                    width: "100 %",
                     background: "none",
                     border: "none",
                     cursor: "pointer",
@@ -724,7 +724,7 @@ export default function KimBondo() {
               margin: "32px auto 0",
             }}
           >
-            Alle priseksempler er beregnet på hverdage. Rustvognskørsel i weekenden er 50% dyrere.
+            Alle priseksempler er beregnet på hverdage. Rustvognskørsel i weekenden er 50 % dyrere.
             Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
           </p>
 
@@ -948,10 +948,10 @@ export default function KimBondo() {
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="mailto:kontakt@bedemandkøbenhavn.dk"
+            href="mailto:kim@bedemandkobenhavn.dk"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
-            kontakt@bedemandkøbenhavn.dk
+            kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>

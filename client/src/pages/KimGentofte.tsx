@@ -29,7 +29,7 @@ export default function KimGentofte() {
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand i Gentofte?", answer: "Kim Bondo er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
+        { question: "Hvem er bedemand i Gentofte?", answer: "Jeg er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en bisættelse i Gentofte?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
         { question: "Hvilke kirker bruges i Gentofte?", answer: "Kim Bondo koordinerer med Gentofte Kirke, Hellerup Kirke, Charlottenlund Kirke og øvrige kirker og kapeller i Gentofte Kommune." },
       ]} />
@@ -154,7 +154,7 @@ export default function KimGentofte() {
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand i Gentofte</h2>
           {[
-            { q: "Hvem er bedemand i Gentofte?", a: "Kim Bondo er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
+            { q: "Hvem er bedemand i Gentofte?", a: "Jeg er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en bisættelse i Gentofte?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
             { q: "Hvilke kirker bruges i Gentofte?", a: "Kim Bondo koordinerer med Gentofte Kirke, Hellerup Kirke, Charlottenlund Kirke og øvrige kirker og kapeller i Gentofte Kommune." },
             { q: "Dækker Kim også Hellerup og Charlottenlund?", a: "Ja — Hellerup, Charlottenlund, Vangede og Dyssegård er alle en del af mit dækningsområde." },
@@ -305,10 +305,10 @@ export default function KimGentofte() {
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="mailto:kontakt@bedemandkøbenhavn.dk"
+            href="mailto:kim@bedemandkobenhavn.dk"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
-            kontakt@bedemandkøbenhavn.dk
+            kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>

@@ -168,7 +168,7 @@ export default function KimAskespredning() {
           { num: "3", title: "Askespredningen", text: "Pårørende afhenter typisk urnen ved krematoriet og forestår selv spredningen. I kan også lade mig koordinere det på jeres vegne. Spredningen kan være en lille, intim ceremoni for de nærmeste." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
-            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50%", background: "#84A98C", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
+            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50 %", background: "#84A98C", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
               {step.num}
             </div>
             <div>

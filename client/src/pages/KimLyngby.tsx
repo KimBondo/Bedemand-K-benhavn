@@ -29,7 +29,7 @@ export default function KimLyngby() {
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand i Lyngby?", answer: "Kim Bondo er selvstændig bedemand og dækker Lyngby-Taarbæk Kommune og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
+        { question: "Hvem er bedemand i Lyngby?", answer: "Jeg er selvstændig bedemand og dækker Lyngby-Taarbæk Kommune og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en bisættelse i Lyngby?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
         { question: "Hvilke kirker bruges i Lyngby?", answer: "Kim Bondo koordinerer med Lyngby Kirke, Taarbæk Kirke og øvrige kirker og kapeller i Lyngby-Taarbæk Kommune." },
         { question: "Dækker Kim også Virum og Sorgenfri?", answer: "Ja — Virum, Sorgenfri og Kongens Lyngby er alle en del af mit dækningsområde." },
@@ -155,7 +155,7 @@ export default function KimLyngby() {
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand i Lyngby</h2>
           {[
-            { q: "Hvem er bedemand i Lyngby?", a: "Kim Bondo er selvstændig bedemand og dækker Lyngby-Taarbæk og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
+            { q: "Hvem er bedemand i Lyngby?", a: "Jeg er selvstændig bedemand og dækker Lyngby-Taarbæk og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en bisættelse i Lyngby?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter. Se den fulde prisliste på prissiden." },
             { q: "Hvilke kirker bruges i Lyngby?", a: "Kim Bondo koordinerer med Lyngby Kirke, Taarbæk Kirke og øvrige kirker og kapeller i Lyngby-Taarbæk Kommune." },
             { q: "Dækker Kim også Virum og Sorgenfri?", a: "Ja — Virum, Sorgenfri og Kongens Lyngby er alle en del af mit dækningsområde." },
@@ -306,10 +306,10 @@ export default function KimLyngby() {
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="mailto:kontakt@bedemandkøbenhavn.dk"
+            href="mailto:kim@bedemandkobenhavn.dk"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
-            kontakt@bedemandkøbenhavn.dk
+            kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>

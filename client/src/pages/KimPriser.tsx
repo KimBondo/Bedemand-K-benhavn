@@ -263,7 +263,7 @@ export default function KimPriser() {
             Prisen på en afsked afhænger primært af, hvor afdøde skal hentes, og hvor mange kørsler der er behov for med rustvognen. Afhentning fra privat hjem kræver typisk mere tid og ressourcer end afhentning fra hospital eller hospice.
           </p>
           <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "20px" }}>
-            Alle priseksempler herunder er beregnet på hverdage. Rustvognskørslen i weekenden er 50% dyrere.
+            Alle priseksempler herunder er beregnet på hverdage. Rustvognskørslen i weekenden er 50 % dyrere.
           </p>
           <a href="/kim-bondo/hvad-koster-en-begravelse" style={{ color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>Læs mere om hvad der påvirker prisen →</a>
         </section>
@@ -562,7 +562,7 @@ export default function KimPriser() {
               </h3>
               <table
                 style={{
-                  width: "100%",
+                  width: "100 %",
                   borderCollapse: "collapse",
                   marginBottom: section.note ? "12px" : "0",
                 }}
@@ -579,7 +579,7 @@ export default function KimPriser() {
                           fontSize: "15px",
                           color: "#3d5260",
                           lineHeight: 1.6,
-                          width: "70%",
+                          width: "70 %",
                         }}
                       >
                         {label}
@@ -791,7 +791,7 @@ export default function KimPriser() {
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.35)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
           {" "}&nbsp;·&nbsp;{" "}
-          <a href="mailto:kontakt@bedemandkøbenhavn.dk" style={{ color: "rgba(255,255,255,0.35)", textDecoration: "underline" }}>kontakt@bedemandkøbenhavn.dk</a>
+          <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.35)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
         </p>
       </footer>
