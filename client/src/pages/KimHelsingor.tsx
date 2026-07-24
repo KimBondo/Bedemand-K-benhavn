@@ -30,8 +30,8 @@ export default function KimHelsingor() {
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Helsingør?", answer: "Jeg er selvstændig bedemand og dækker Helsingør og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en bisættelse i Helsingør?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-        { question: "Hvilke kirker og kapeller bruges i Helsingør?", answer: "Kim Bondo koordinerer med Helsingør Domkirke, Skt. Olai Kirke og øvrige kirker og kapeller i Helsingør Kommune." },
+        { question: "Hvad koster en bisættelse i Helsingør?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+        { question: "Hvilke kirker og kapeller bruges i Helsingør?", answer: "Jeg koordinerer med Helsingør Domkirke, Skt. Olai Kirke og øvrige kirker og kapeller i Helsingør Kommune." },
       ]} />
 
       {/* ── HEADER ── */}
@@ -158,8 +158,8 @@ export default function KimHelsingor() {
           <h2 style={s.h2}>Spørgsmål om bedemand i Helsingør</h2>
           {[
             { q: "Hvem er bedemand i Helsingør?", a: "Jeg er selvstændig bedemand og dækker Helsingør og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en bisættelse i Helsingør?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter. Se den fulde prisliste på prissiden." },
-            { q: "Hvilke kirker og kapeller bruges i Helsingør?", a: "Kim Bondo koordinerer med Helsingør Domkirke, Skt. Olai Kirke og øvrige kirker og kapeller i Helsingør Kommune." },
+            { q: "Hvad koster en bisættelse i Helsingør?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter. Se den fulde prisliste på prissiden." },
+            { q: "Hvilke kirker og kapeller bruges i Helsingør?", a: "Jeg koordinerer med Helsingør Domkirke, Skt. Olai Kirke og øvrige kirker og kapeller i Helsingør Kommune." },
             { q: "Kan Kim hjælpe med begravelseshjælp i Helsingør?", a: "Ja — jeg hjælper med ansøgning om offentlig begravelseshjælp som en del af mit arbejde, uanset om I bor i Helsingør eller et andet sted i mit dækningsområde." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>

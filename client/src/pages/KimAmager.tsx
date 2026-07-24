@@ -31,7 +31,7 @@ export default function KimAmager() {
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Amager?", answer: "Jeg er selvstændig bedemand og dækker Amager og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en begravelse på Amager?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Amager?", answer: "Amager har bl.a. Sundby Krematorium og en række kirker, herunder Sundby Kirke og Kastrup Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
+        { question: "Hvilke krematorier og kirker er der på Amager?", answer: "Amager har bl.a. Sundby Krematorium og en række kirker, herunder Sundby Kirke og Kastrup Kirke. Jeg koordinerer direkte med de rette instanser." },
         { question: "Kan jeg vælge en borgerlig ceremoni på Amager?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
       ]} />
@@ -188,7 +188,7 @@ export default function KimAmager() {
           {[
             { q: "Hvem er bedemand på Amager?", a: "Jeg er selvstændig bedemand og dækker Amager og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en begravelse på Amager?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Amager?", a: "Amager har bl.a. Sundby Krematorium og en række kirker, herunder Sundby Kirke og Kastrup Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
+            { q: "Hvilke krematorier og kirker er der på Amager?", a: "Amager har bl.a. Sundby Krematorium og en række kirker, herunder Sundby Kirke og Kastrup Kirke. Jeg koordinerer direkte med de rette instanser." },
             { q: "Kan jeg vælge en borgerlig ceremoni på Amager?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (

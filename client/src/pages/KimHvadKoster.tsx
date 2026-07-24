@@ -34,10 +34,10 @@ export default function KimHvadKoster() {
         type="both"
         faqItems={[
           { question: "Hvad koster en begravelse i Danmark?", answer: "En typisk begravelse eller bisættelse koster i 2026 alt fra 20.000 kr. til 60.000 kr. afhængigt af valg af kiste, gravsted, gravsten og ceremonitype." },
-          { question: "Hvad er den billigste begravelse?", answer: "Den billigste løsning er afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos Kim starter denne løsning fra 15.500 kr." },
-          { question: "Hvad koster en bisættelse i København?", answer: "Kims honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 17.395 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
+          { question: "Hvad er den billigste begravelse?", answer: "Den billigste løsning er afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 15.500 kr." },
+          { question: "Hvad koster en bisættelse i København?", answer: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 17.395 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
           { question: "Hvad er begravelseshjælp?", answer: "Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af afdødes formue." },
-          { question: "Er der skjulte udgifter ved en begravelse?", answer: "Hos Kim gennemgås alle udgifter på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
+          { question: "Er der skjulte udgifter ved en begravelse?", answer: "Hos mig gennemgås alle udgifter på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
         ]}
         breadcrumbs={[
           { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
@@ -103,7 +103,7 @@ export default function KimHvadKoster() {
             Få et uforpligtende tilbud
           </a>
           <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
-            Se Kims priser
+            Se mine priser
           </a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
@@ -152,7 +152,7 @@ export default function KimHvadKoster() {
             Antallet af kørsler med rustvognen har ligeledes indflydelse på den endelige pris. Hvis det er muligt at køre afdøde direkte fra hospitalets kapel til kirken eller kapellet på selve dagen, reduceres antallet af kørsler, hvilket afspejler sig i en lavere pris. Det er dog værd at bemærke, at hospitalernes kapeller som regel holder lukket for afhentning om lørdagen, hvorfor denne løsning primært lader sig gøre på hverdage. Hvis afdøde først skal omvejen forbi et kisteophold, medfører det en ekstra kørsel.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Ved en bisættelse, hvor der efterfølgende sker kremering, vil der som udgangspunkt være to kørsler med rustvognen, men hvis afdøde først har været på kisteopholdlet, bliver det til tre kørsler i alt. Ved en jordfæstelse, hvor kisten sænkes i jorden, kan logistikken ofte forenkles. Hvis afdøde kan afhentes direkte på hospitalet, og begravelsen foregår på kirkegården lige omkring kirken, kan det klares med en enkelt kørsel, hvilket gør denne løsning mere økonomisk.
+            Ved en bisættelse, hvor der efterfølgende sker kremering, vil der som udgangspunkt være to kørsler med rustvognen, men hvis afdøde først har været på kisteopholdet, bliver det til tre kørsler i alt. Ved en jordfæstelse, hvor kisten sænkes i jorden, kan logistikken ofte forenkles. Hvis afdøde kan afhentes direkte på hospitalet, og begravelsen foregår på kirkegården lige omkring kirken, kan det klares med en enkelt kørsel, hvilket gør denne løsning mere økonomisk.
           </p>
         </div>
       </section>
@@ -181,11 +181,11 @@ export default function KimHvadKoster() {
           <p style={s.label}>Ofte stillede spørgsmål</p>
           <h2 style={s.h2}>Spørgsmål om priser</h2>
           {[
-            { q: "Hvad er den billigste begravelse?", a: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos Kim starter denne løsning fra 15.500 kr. inkl. alt koordinering, men ekskl. kremering og urne." },
-            { q: "Hvad koster en bisættelse i København?", a: "Kims honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 17.395 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
+            { q: "Hvad er den billigste begravelse?", a: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 15.500 kr. inkl. alt koordinering, men ekskl. kremering og urne." },
+            { q: "Hvad koster en bisættelse i København?", a: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 17.395 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
             { q: "Er der skjulte udgifter?", a: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
             { q: "Kan man betale i rater?", a: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning der passer til jer." },
-            { q: "Hvad koster det at bruge Kim som bedemand?", a: "Kims honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 15.500 kr. (uden ceremoni), 17.395 kr. (bisættelse) og 18.500 kr. (begravelse). Se den fulde prisliste på prissiden." },
+            { q: "Hvad koster det at bruge dig som bedemand?", a: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 15.500 kr. (uden ceremoni), 17.395 kr. (bisættelse) og 18.500 kr. (begravelse). Se den fulde prisliste på prissiden." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
@@ -200,7 +200,7 @@ export default function KimHvadKoster() {
         <p style={s.label}>Læs mere</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Se Kims fulde prisliste", href: "/kim-bondo/priser" },
+            { label: "Se min fulde prisliste", href: "/kim-bondo/priser" },
             { label: "Begravelseshjælp 2026", href: "/kim-bondo/begravelseshjaelp" },
             { label: "Bisættelse", href: "/kim-bondo/bisaettelse" },
             { label: "Begravelse", href: "/kim-bondo/begravelse" },

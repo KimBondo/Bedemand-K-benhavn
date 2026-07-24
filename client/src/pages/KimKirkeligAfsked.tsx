@@ -24,7 +24,7 @@ export default function KimKirkeligAfsked() {
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Kirkelig begravelse – Bedemand Kim Bondo"
-        description="Kirkelig begravelse eller bisættelse med præst i København. Kim Bondo koordinerer kirke, kordegn og hele forløbet. Ring 22 21 14 37."
+        description="Kirkelig begravelse eller bisættelse med præst i København. Jeg koordinerer kirke, kordegn og hele forløbet. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
         image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />

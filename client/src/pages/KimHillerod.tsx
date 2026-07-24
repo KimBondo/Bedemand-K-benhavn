@@ -30,8 +30,8 @@ export default function KimHillerod() {
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Hillerød?", answer: "Jeg er selvstændig bedemand og dækker Hillerød og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en bisættelse i Hillerød?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-        { question: "Hvilke kirker bruges i Hillerød?", answer: "Kim Bondo koordinerer med Hillerød Kirke, Frederiksborg Slotskirke og øvrige kirker og kapeller i Hillerød Kommune." },
+        { question: "Hvad koster en bisættelse i Hillerød?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+        { question: "Hvilke kirker bruges i Hillerød?", answer: "Jeg koordinerer med Hillerød Kirke, Frederiksborg Slotskirke og øvrige kirker og kapeller i Hillerød Kommune." },
         { question: "Dækker Kim også Allerød og Fredensborg?", answer: "Ja — Allerød, Fredensborg og Birkerød er alle en del af mit dækningsområde i Nordsjælland." },
       ]} />
 
@@ -156,8 +156,8 @@ export default function KimHillerod() {
           <h2 style={s.h2}>Spørgsmål om bedemand i Hillerød</h2>
           {[
             { q: "Hvem er bedemand i Hillerød?", a: "Jeg er selvstændig bedemand og dækker Hillerød og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en bisættelse i Hillerød?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-            { q: "Hvilke kirker bruges i Hillerød?", a: "Kim Bondo koordinerer med Hillerød Kirke, Frederiksborg Slotskirke og øvrige kirker og kapeller i Hillerød Kommune." },
+            { q: "Hvad koster en bisættelse i Hillerød?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+            { q: "Hvilke kirker bruges i Hillerød?", a: "Jeg koordinerer med Hillerød Kirke, Frederiksborg Slotskirke og øvrige kirker og kapeller i Hillerød Kommune." },
             { q: "Dækker Kim også Allerød og Fredensborg?", a: "Ja — Allerød, Fredensborg og Birkerød er alle en del af mit dækningsområde i Nordsjælland." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>

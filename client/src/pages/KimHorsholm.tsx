@@ -30,8 +30,8 @@ export default function KimHorsholm() {
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Hørsholm?", answer: "Jeg er selvstændig bedemand og dækker Hørsholm og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en bisættelse i Hørsholm?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-        { question: "Hvilke kirker bruges i Hørsholm?", answer: "Kim Bondo koordinerer med Hørsholm Kirke og øvrige kirker og kapeller i Hørsholm Kommune og omegn." },
+        { question: "Hvad koster en bisættelse i Hørsholm?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+        { question: "Hvilke kirker bruges i Hørsholm?", answer: "Jeg koordinerer med Hørsholm Kirke og øvrige kirker og kapeller i Hørsholm Kommune og omegn." },
       ]} />
 
       {/* ── HEADER ── */}
@@ -155,8 +155,8 @@ export default function KimHorsholm() {
           <h2 style={s.h2}>Spørgsmål om bedemand i Hørsholm</h2>
           {[
             { q: "Hvem er bedemand i Hørsholm?", a: "Jeg er selvstændig bedemand og dækker Hørsholm og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en bisættelse i Hørsholm?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos Kim Bondo. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-            { q: "Hvilke kirker bruges i Hørsholm?", a: "Kim Bondo koordinerer med Hørsholm Kirke og øvrige kirker og kapeller i Hørsholm Kommune og omegn, herunder Rungsted og Kokkedal." },
+            { q: "Hvad koster en bisættelse i Hørsholm?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+            { q: "Hvilke kirker bruges i Hørsholm?", a: "Jeg koordinerer med Hørsholm Kirke og øvrige kirker og kapeller i Hørsholm Kommune og omegn, herunder Rungsted og Kokkedal." },
             { q: "Dækker Kim også Rungsted og Kokkedal?", a: "Ja — Rungsted, Kokkedal og Vedbæk er alle en del af mit dækningsområde. Ring på 22 21 14 37 for at høre mere." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>

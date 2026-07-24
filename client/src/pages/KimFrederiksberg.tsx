@@ -31,7 +31,7 @@ export default function KimFrederiksberg() {
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Frederiksberg?", answer: "Jeg er selvstændig bedemand og dækker Frederiksberg og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en begravelse på Frederiksberg?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Frederiksberg?", answer: "Frederiksberg har Frederiksberg Krematorium og en række smukke kirker, herunder Frederiksberg Kirke og Sankt Thomas Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
+        { question: "Hvilke krematorier og kirker er der på Frederiksberg?", answer: "Frederiksberg har Frederiksberg Krematorium og en række smukke kirker, herunder Frederiksberg Kirke og Sankt Thomas Kirke. Jeg koordinerer direkte med de rette instanser." },
         { question: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Frederiksberg, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
       ]} />
@@ -188,7 +188,7 @@ export default function KimFrederiksberg() {
           {[
             { q: "Hvem er bedemand på Frederiksberg?", a: "Jeg er selvstændig bedemand og dækker Frederiksberg og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en begravelse på Frederiksberg?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Frederiksberg?", a: "Frederiksberg har Frederiksberg Krematorium og en række smukke kirker, herunder Frederiksberg Kirke og Sankt Thomas Kirke. Kim Bondo koordinerer direkte med de rette instanser." },
+            { q: "Hvilke krematorier og kirker er der på Frederiksberg?", a: "Frederiksberg har Frederiksberg Krematorium og en række smukke kirker, herunder Frederiksberg Kirke og Sankt Thomas Kirke. Jeg koordinerer direkte med de rette instanser." },
             { q: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Frederiksberg, uden religiøse ritualer." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (
