@@ -344,8 +344,8 @@ function DirectorColumn({
           flex: 1,
         }}
       >
-        {bio.split('\n').map((line, i) => (
-          <span key={i}>{line}{i < bio.split('\n').length - 1 && <br />}</span>
+        {bio.split('\n').map((line, i, arr) => (
+          <span key={i} style={i === arr.length - 1 ? { display: 'block', marginTop: '16px' } : {}}>{line}</span>
         ))}
       </p>
 
