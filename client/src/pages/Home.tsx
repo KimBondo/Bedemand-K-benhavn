@@ -345,7 +345,7 @@ function DirectorColumn({
         }}
       >
         {bio.split('\n').map((line, i, arr) => (
-          <span key={i} style={i === arr.length - 1 ? { display: 'block', marginTop: '16px' } : {}}>{line}</span>
+          <span key={i} style={i === arr.length - 1 ? { display: 'block', marginTop: '24px' } : {}}>{line}</span>
         ))}
       </p>
 
