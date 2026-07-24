@@ -111,7 +111,7 @@ export default function Home() {
             <DirectorColumn
               name="Marie Thjellesen"
               title="Bedemand"
-              bio="Med min baggrund som jordemoder og familieterapeut ser jeg det som et smukt privilegium at støtte jer i livets sværeste overgang. Min opgave er at lytte til jeres ønsker og guide jer med dyb omsorg og faglig omhu. Jeg skaber overblikket og rammen, så I får en personlig og smuk afsked."
+              bio="Med min faglige baggrund som jordemoder og familieterapeut og i mit arbejde som bedemand, er det vigtigste for mig at tilbyde jer; ro og nærvær, tryghed og forudsigelighed. At skabe en tydelig ramme, så I får den afsked I ønsker. Jeg er med jer hele vejen."
               address="Holbergsgade 26, 1. tv., 1057 København K"
               phone="29 29 66 89"
               phoneLink="tel:29296689"
