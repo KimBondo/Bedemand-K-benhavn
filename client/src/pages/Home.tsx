@@ -111,7 +111,7 @@ export default function Home() {
             <DirectorColumn
               name="Marie Thjellesen"
               title="Bedemand"
-              bio="Med min faglige baggrund som jordemoder og familieterapeut og i mit arbejde som bedemand, er det vigtigste for mig at tilbyde jer; ro og nærvær, tryghed og forudsigelighed. At skabe en tydelig ramme, så I får den afsked I ønsker. Jeg er med jer hele vejen."
+              bio="Med min faglige baggrund som jordemoder og familieterapeut og i mit arbejde som bedemand, er det vigtigste for mig at tilbyde jer; ro og nærvær, tryghed og forudsigelighed. At skabe en tydelig ramme, så I får den afsked I ønsker.\n\nJeg er med jer hele vejen."
               address="Holbergsgade 26, 1. tv., 1057 København K"
               phone="29 29 66 89"
               phoneLink="tel:29296689"
@@ -344,7 +344,9 @@ function DirectorColumn({
           flex: 1,
         }}
       >
-        {bio}
+        {bio.split('\n\n').map((line, i) => (
+          <span key={i}>{line}{i < bio.split('\n\n').length - 1 && <><br /><br /></>}</span>
+        ))}
       </p>
 
       {/* Contact block */}
