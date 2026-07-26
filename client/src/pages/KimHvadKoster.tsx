@@ -16,14 +16,14 @@ const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
   h2: { fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "16px", marginTop: "0" } as React.CSSProperties,
   h3: { fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(17px, 2vw, 22px)", color: "#2F3E46", marginBottom: "12px", marginTop: "0" } as React.CSSProperties,
-  label: { fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase" as const, marginBottom: "16px" },
-  link: { color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px" } as React.CSSProperties,
+  label: { fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase" as const, marginBottom: "16px" },
+  link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
 
 export default function KimHvadKoster() {
   return (
-    <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
+    <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Hvad koster en begravelse i 2026? Komplet guide med alle udgifter"
         description="Komplet guide til alle udgifter ved en afsked i 2026: bedemand, kremering, gravsted, kapelleje og begravelseshjælp. Officielle takster for København og Nordsjælland. Kim Bondo."
@@ -54,7 +54,7 @@ export default function KimHvadKoster() {
       display: inline-flex !important;
       align-items: center;
       gap: 8px;
-      background: #84A98C;
+      background: #3D6B4F;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -68,8 +68,8 @@ export default function KimHvadKoster() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Hvad koster en begravelse?</span>
         </div>
@@ -99,15 +99,15 @@ export default function KimHvadKoster() {
           Det er et af de mest søgte spørgsmål — og et af de sværeste at svare på, fordi prisen afhænger af mange valg. Her får du et ærligt og konkret overblik.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Få et uforpligtende tilbud
           </a>
           <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Se mine priser
           </a>
         </div>
-        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
+          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
         </p>
       </section>
 
@@ -125,7 +125,7 @@ export default function KimHvadKoster() {
               { num: "5", title: "Blomster og annonce", body: "Blomster og kistepynt er valgfrit og kan tilpasses ethvert budget. En avisannonce er heller ikke obligatorisk — mange familier bruger sociale medier i stedet." },
             ].map((item) => (
               <div key={item.num} style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
-                <div style={{ flexShrink: 0, width: "40px", height: "40px", background: "#84A98C", borderRadius: "50 %", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px" }}>{item.num}</div>
+                <div style={{ flexShrink: 0, width: "40px", height: "40px", background: "#3D6B4F", borderRadius: "50 %", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px" }}>{item.num}</div>
                 <div>
                   <h3 style={{ ...s.h3, fontSize: "17px", marginBottom: "8px" }}>{item.title}</h3>
                   <p style={{ ...s.body, marginBottom: 0, fontSize: "15px" }}>{item.body}</p>
@@ -182,7 +182,7 @@ export default function KimHvadKoster() {
       {/* ── GUIDE INTRO ── */}
       <section style={{ background: "#2F3E46", padding: "80px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto", textAlign: "center" }}>
-          <p style={{ ...s.label, color: "#84A98C" }}>Den komplette guide</p>
+          <p style={{ ...s.label, color: "#3D6B4F" }}>Den komplette guide</p>
           <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.5vw, 40px)", color: "#fff", lineHeight: 1.2, marginBottom: "24px" }}>
             Hvad koster det reelt?
           </h2>
@@ -191,7 +191,7 @@ export default function KimHvadKoster() {
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px" }}>
             {["Kremering", "Gravsted", "Kapelleje", "Kisteopbevaring", "Begravelseshjælp", "Samlet eksempel"].map((item) => (
-              <span key={item} style={{ background: "rgba(132,169,140,0.25)", color: "#84A98C", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", padding: "6px 16px", borderRadius: "20px", border: "1px solid rgba(132,169,140,0.4)" }}>{item}</span>
+              <span key={item} style={{ background: "rgba(132,169,140,0.25)", color: "#3D6B4F", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", padding: "6px 16px", borderRadius: "20px", border: "1px solid rgba(132,169,140,0.4)" }}>{item}</span>
             ))}
           </div>
         </div>
@@ -334,7 +334,7 @@ export default function KimHvadKoster() {
               </tbody>
             </table>
           </div>
-          <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderLeft: "4px solid #84A98C", borderRadius: "3px", padding: "20px 24px" }}>
+          <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderLeft: "4px solid #3D6B4F", borderRadius: "3px", padding: "20px 24px" }}>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, margin: 0 }}>
               Jeg indhenter altid de konkrete priser fra den relevante kirkegård og gennemgår dem med jer, inden I beslutter jer. I betaler aldrig for noget, I ikke kender på forhånd.
             </p>
@@ -428,7 +428,7 @@ export default function KimHvadKoster() {
               </tbody>
             </table>
           </div>
-          <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderLeft: "4px solid #84A98C", borderRadius: "3px", padding: "20px 24px", marginBottom: "16px" }}>
+          <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderLeft: "4px solid #3D6B4F", borderRadius: "3px", padding: "20px 24px", marginBottom: "16px" }}>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, margin: 0 }}>
               <strong>Vigtigt:</strong> Udgifter til bedemand og begravelse indgår <em>ikke</em> i formueberegningen. Det er altså boets øvrige formue, der afgør, om I er berettiget til hjælp.
             </p>
@@ -461,7 +461,7 @@ export default function KimHvadKoster() {
               </thead>
               <tbody>
                 <tr>
-                  <td colSpan={3} style={{ padding: "14px 0 6px", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#84A98C", textTransform: "uppercase" }}>Bedemandens ydelser</td>
+                  <td colSpan={3} style={{ padding: "14px 0 6px", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase" }}>Bedemandens ydelser</td>
                 </tr>
                 {[
                   ["Bisættelse inkl. honorar, kiste, urne, 2 kørsler", "17.395 kr.", "Kim Bondo"],
@@ -494,8 +494,8 @@ export default function KimHvadKoster() {
                   <td></td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #e0dcd6" }}>
-                  <td style={{ padding: "11px 12px 11px 0", color: "#84A98C", fontWeight: 600 }}>Fratrukket begravelseshjælp (ved berettigelse)</td>
-                  <td style={{ padding: "11px 12px", color: "#84A98C", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>−13.550 kr.</td>
+                  <td style={{ padding: "11px 12px 11px 0", color: "#3D6B4F", fontWeight: 600 }}>Fratrukket begravelseshjælp (ved berettigelse)</td>
+                  <td style={{ padding: "11px 12px", color: "#3D6B4F", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>−13.550 kr.</td>
                   <td style={{ padding: "11px 0", color: "#7a8f99", fontSize: "14px" }}>Udbetaling DK</td>
                 </tr>
                 <tr>
@@ -649,7 +649,7 @@ export default function KimHvadKoster() {
           href="/kim-bondo#kontakt"
           style={{
             display: "inline-block",
-            background: "#84A98C",
+            background: "#3D6B4F",
             color: "#ffffff",
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 700,

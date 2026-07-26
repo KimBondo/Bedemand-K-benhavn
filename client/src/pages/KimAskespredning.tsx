@@ -10,6 +10,7 @@ import KimNav from "@/components/KimNav";
 export default function KimAskespredning() {
   return (
     <div
+      role="main"
       style={{
         fontFamily: "'Open Sans', sans-serif",
         background: "#F9F8F6",
@@ -62,7 +63,7 @@ export default function KimAskespredning() {
       display: inline-flex !important;
       align-items: center;
       gap: 8px;
-      background: #84A98C;
+      background: #3D6B4F;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -76,8 +77,8 @@ export default function KimAskespredning() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>
             ← Tilbage til Kim Bondo
           </a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>
@@ -105,7 +106,7 @@ export default function KimAskespredning() {
 
       {/* ── HERO ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "16px" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>
           Askespredning
         </p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, marginBottom: "24px", maxWidth: "700px", margin: "0 auto 24px" }}>
@@ -115,7 +116,7 @@ export default function KimAskespredning() {
           For dem der ønsker en afsked i forbundethed med naturen og havet. Jeg hjælper med alt det praktiske – regler, dokumentation og koordinering – så I kan fokusere på at sige farvel.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Kontakt mig
           </a>
           <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -124,7 +125,7 @@ export default function KimAskespredning() {
         </div>
         <p style={{ fontSize: "14px", color: "#9aacb4", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
+          <a href="tel:22211437" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
         </p>
       </section>
 
@@ -139,7 +140,7 @@ export default function KimAskespredning() {
           Askespredning er en afskedsform, hvor afdødes aske spredes over havet i stedet for at blive stedfæstet på en kirkegård. Det er en smuk og symbolsk afsked, der giver en følelse af frihed og forbundethed med naturen.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Askespredning foregår som en forlængelse af en <a href="/kim-bondo/bisaettelse" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>bisættelse</a>: afdøde kremeres, asken samles i en urne, og asken spredes derefter over åbent hav. Det kan ske med eller uden en forudgående ceremoni.
+          Askespredning foregår som en forlængelse af en <a href="/kim-bondo/bisaettelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a>: afdøde kremeres, asken samles i en urne, og asken spredes derefter over åbent hav. Det kan ske med eller uden en forudgående ceremoni.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           Mange familier vælger selve spredningen som en lille, intim ceremoni for de nærmeste – ude på havet, i det åbne og frie.
@@ -184,7 +185,7 @@ export default function KimAskespredning() {
           { num: "3", title: "Askespredningen", text: "Pårørende afhenter typisk urnen ved krematoriet og forestår selv spredningen. I kan også lade mig koordinere det på jeres vegne. Spredningen kan være en lille, intim ceremoni for de nærmeste." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
-            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50 %", background: "#84A98C", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
+            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50 %", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
               {step.num}
             </div>
             <div>
@@ -206,7 +207,7 @@ export default function KimAskespredning() {
           Prisen afhænger af, om der ønskes en ceremoni inden kremeringen, og hvilken kiste og urne I vælger. En afsked uden ceremoni med efterfølgende askespredning starter fra <strong>15.500 kr.</strong> Kremering og urne kommer oveni – jeg hjælper med at indhente tilbud og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Se den fulde prisliste
           </a>
           <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -233,7 +234,7 @@ export default function KimAskespredning() {
             <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(15px, 1.7vw, 18px)", color: "#2F3E46", marginBottom: "12px", lineHeight: 1.4 }}>{item.q}</h3>
             <p style={{ fontSize: "clamp(14px, 1.5vw, 16px)", color: "#4a6270", lineHeight: 1.8 }}>
               {item.a}{" "}
-              {item.link && <a href={item.link} style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>{item.linkText}</a>}
+              {item.link && <a href={item.link} style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>{item.linkText}</a>}
             </p>
           </div>
         ))}
@@ -256,7 +257,7 @@ export default function KimAskespredning() {
             </a>
           ))}
         </div>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
           Kontakt mig
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", marginTop: "16px" }}>

@@ -11,6 +11,7 @@ import KimNav from "@/components/KimNav";
 export default function KimBisaettelse() {
   return (
     <div
+      role="main"
       style={{
         fontFamily: "'Open Sans', sans-serif",
         background: "#F9F8F6",
@@ -65,7 +66,7 @@ export default function KimBisaettelse() {
       display: inline-flex !important;
       align-items: center;
       gap: 8px;
-      background: #84A98C;
+      background: #3D6B4F;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -79,14 +80,14 @@ export default function KimBisaettelse() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
           <a
             href="/kim-bondo"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: 600,
               fontSize: "clamp(12px, 1.3vw, 14px)",
-              color: "#84A98C",
+              color: "#3D6B4F",
               textDecoration: "none",
               letterSpacing: "0.04em",
             }}
@@ -135,7 +136,7 @@ export default function KimBisaettelse() {
 
       {/* ── HERO ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "16px" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>
           Bisættelse
         </p>
         <h1
@@ -168,7 +169,7 @@ export default function KimBisaettelse() {
             href="/kim-bondo#kontakt"
             style={{
               display: "inline-block",
-              background: "#84A98C",
+              background: "#3D6B4F",
               color: "#ffffff",
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: 700,
@@ -202,7 +203,7 @@ export default function KimBisaettelse() {
         </div>
         <p style={{ fontSize: "14px", color: "#9aacb4", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}>
+          <a href="tel:22211437" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>
             22 21 14 37
           </a>
         </p>
@@ -225,10 +226,10 @@ export default function KimBisaettelse() {
           Hvad er en bisættelse?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          En bisættelse er en afskedsform, hvor afdøde kremeres efter ceremonien. Asken samles i en urne, som familien efterfølgende kan vælge at nedsætte på en kirkegård, bruge til <a href="/kim-bondo/askespredning" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>askespredning over havet</a> eller tage med til udlandet.
+          En bisættelse er en afskedsform, hvor afdøde kremeres efter ceremonien. Asken samles i en urne, som familien efterfølgende kan vælge at nedsætte på en kirkegård, bruge til <a href="/kim-bondo/askespredning" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredning over havet</a> eller tage med til udlandet.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Mange vælger bisættelse frem for en traditionel <a href="/kim-bondo/begravelse" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi det giver større fleksibilitet i forhold til gravsted og stedfæstelse. Det er ikke en billigere eller mere upersonlig afsked – det er blot en anden måde at sige farvel på.
+          Mange vælger bisættelse frem for en traditionel <a href="/kim-bondo/begravelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi det giver større fleksibilitet i forhold til gravsted og stedfæstelse. Det er ikke en billigere eller mere upersonlig afsked – det er blot en anden måde at sige farvel på.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           Jeg lægger samme omsorg og nærvær i en bisættelse som i alle andre afskeder. Ceremonien kan være kirkelig eller borgerlig, og den kan tilpasses præcis til afdødes og familiens ønsker.
@@ -293,7 +294,7 @@ export default function KimBisaettelse() {
                 minWidth: "44px",
                 height: "44px",
                 borderRadius: "50 %",
-                background: "#84A98C",
+                background: "#3D6B4F",
                 color: "#fff",
                 display: "flex",
                 alignItems: "center",
@@ -350,7 +351,7 @@ export default function KimBisaettelse() {
           En <strong>borgerlig bisættelse</strong> foregår uden religiøse ritualer og kan arrangeres helt efter familiens ønsker. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation. I vælger selv en taler, musik og indhold.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          Ønsker I en enklere løsning, kan bisættelsen også foregå <a href="/kim-bondo/afsked-uden-ceremoni" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a> – direkte til krematoriet, med mulighed for en mindesammenkomst på et senere tidspunkt.
+          Ønsker I en enklere løsning, kan bisættelsen også foregå <a href="/kim-bondo/afsked-uden-ceremoni" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a> – direkte til krematoriet, med mulighed for en mindesammenkomst på et senere tidspunkt.
         </p>
       </section>
 
@@ -391,7 +392,7 @@ export default function KimBisaettelse() {
             href="/kim-bondo/priser"
             style={{
               display: "inline-block",
-              background: "#84A98C",
+              background: "#3D6B4F",
               color: "#ffffff",
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: 700,
@@ -496,7 +497,7 @@ export default function KimBisaettelse() {
             <p style={{ fontSize: "clamp(14px, 1.5vw, 16px)", color: "#4a6270", lineHeight: 1.8 }}>
               {item.a.replace(item.linkText || "", "")}{" "}
               {item.link && (
-                <a href={item.link} style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>
+                <a href={item.link} style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>
                   {item.linkText}
                 </a>
               )}
@@ -559,7 +560,7 @@ export default function KimBisaettelse() {
           href="/kim-bondo#kontakt"
           style={{
             display: "inline-block",
-            background: "#84A98C",
+            background: "#3D6B4F",
             color: "#ffffff",
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 700,

@@ -7,7 +7,7 @@ import KimNav from "@/components/KimNav";
 /**
  * Kim Bondo – Personal Homepage
  * Design: Nordic Quietism — warm off-white (#F9F8F6), charcoal text (#2F3E46),
- *         sage green CTAs (#84A98C), Lora serif headings + Open Sans body.
+ *         sage green CTAs (#3D6B4F), Lora serif headings + Open Sans body.
  *
  * Section order (revised):
  *   1. Hero — headline + underheadline + kystbillede (beach/hearse)
@@ -40,6 +40,7 @@ export default function KimBondo() {
 
   return (
     <div
+      role="main"
       style={{
         fontFamily: "'Open Sans', sans-serif",
         background: "#F9F8F6",
@@ -85,7 +86,7 @@ export default function KimBondo() {
       display: inline-flex !important;
       align-items: center;
       gap: 8px;
-      background: #84A98C;
+      background: #3D6B4F;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -99,7 +100,7 @@ export default function KimBondo() {
   }
 `}</style>
           <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-            <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+            <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
             <span
               style={{
                 fontFamily: "'Lora', serif",
@@ -211,7 +212,7 @@ export default function KimBondo() {
               href="#kontakt"
               style={{
                 display: "inline-block",
-                background: "#84A98C",
+                background: "#3D6B4F",
                 color: "#ffffff",
                 fontFamily: "'Open Sans', sans-serif",
                 fontWeight: 700,
@@ -235,7 +236,7 @@ export default function KimBondo() {
               eller ring på{" "}
               <a
                 href="tel:22211437"
-                style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}
+                style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}
               >
                 22 21 14 37
               </a>
@@ -571,7 +572,7 @@ export default function KimBondo() {
                         fontFamily: "'Lora', serif",
                         fontWeight: 700,
                         fontSize: "clamp(18px, 2vw, 22px)",
-                        color: "#84A98C",
+                        color: "#3D6B4F",
                         margin: 0,
                       }}
                     >
@@ -581,7 +582,7 @@ export default function KimBondo() {
                   <span
                     style={{
                       fontSize: "28px",
-                      color: "#84A98C",
+                      color: "#3D6B4F",
                       fontWeight: 300,
                       lineHeight: 1,
                       display: "inline-block",
@@ -633,7 +634,7 @@ export default function KimBondo() {
                             style={{
                               position: "absolute",
                               left: 0,
-                              color: "#84A98C",
+                              color: "#3D6B4F",
                               fontWeight: 700,
                             }}
                           >
@@ -648,7 +649,7 @@ export default function KimBondo() {
                       style={{
                         display: "block",
                         textAlign: "center",
-                        background: "#84A98C",
+                        background: "#3D6B4F",
                         color: "#ffffff",
                         fontFamily: "'Open Sans', sans-serif",
                         fontWeight: 600,
@@ -750,7 +751,7 @@ export default function KimBondo() {
             <a
               href="/kim-bondo/priser"
               style={{
-                color: "#84A98C",
+                color: "#3D6B4F",
                 textDecoration: "underline",
                 fontWeight: 600,
               }}
@@ -801,7 +802,7 @@ export default function KimBondo() {
             Du er også altid velkommen til at ringe direkte på{" "}
             <a
               href="tel:22211437"
-              style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}
+              style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}
             >
               22 21 14 37
             </a>
@@ -813,7 +814,7 @@ export default function KimBondo() {
               href="https://g.page/r/INDSÆT-DIT-GOOGLE-BUSINESS-ID-HER/review"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C" }}
+              style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}
             >
               ⭐ Skriv en anmeldelse på Google
             </a>
@@ -829,7 +830,7 @@ export default function KimBondo() {
       ══════════════════════════════════════════════════════ */}
       <section style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "16px" }}>Viden og vejledning</p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>Viden og vejledning</p>
           <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(22px, 3vw, 32px)", color: "#2F3E46", marginBottom: "12px", marginTop: 0 }}>Artikler om afsked og begravelse</h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "40px", maxWidth: "600px" }}>
             Her deler jeg viden om de spørgsmål, jeg oftest møder. Læs og bliv klogere, så I kan træffe de rigtige valg i en svær tid.
@@ -870,7 +871,7 @@ export default function KimBondo() {
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", lineHeight: 1.7, color: "#3d4f5a", marginBottom: "20px", flex: 1 }}>{article.excerpt}</p>
                 <a
                   href={article.href}
-                  style={{ color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "14px", alignSelf: "flex-start" }}
+                  style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "14px", alignSelf: "flex-start" }}
                 >
                   {article.label} →
                 </a>
@@ -928,7 +929,7 @@ export default function KimBondo() {
           href="#kontakt"
           style={{
             display: "inline-block",
-            background: "#84A98C",
+            background: "#3D6B4F",
             color: "#ffffff",
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 700,

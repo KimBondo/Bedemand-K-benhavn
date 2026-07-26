@@ -10,6 +10,7 @@ import KimNav from "@/components/KimNav";
 export default function KimBegravelse() {
   return (
     <div
+      role="main"
       style={{
         fontFamily: "'Open Sans', sans-serif",
         background: "#F9F8F6",
@@ -64,7 +65,7 @@ export default function KimBegravelse() {
       display: inline-flex !important;
       align-items: center;
       gap: 8px;
-      background: #84A98C;
+      background: #3D6B4F;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -78,8 +79,8 @@ export default function KimBegravelse() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>
             ← Tilbage til Kim Bondo
           </a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>
@@ -107,7 +108,7 @@ export default function KimBegravelse() {
 
       {/* ── HERO ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "16px" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>
           Begravelse
         </p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, marginBottom: "24px", maxWidth: "700px", margin: "0 auto 24px" }}>
@@ -117,7 +118,7 @@ export default function KimBegravelse() {
           En begravelse er en af de ældste og mest betydningsfulde afskedsformer. Kisten sænkes i jorden på et gravsted, der bliver et varigt sted at mindes. Jeg hjælper jer med alt fra den første samtale til jordfæstelsen.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Kontakt mig
           </a>
           <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -126,7 +127,7 @@ export default function KimBegravelse() {
         </div>
         <p style={{ fontSize: "14px", color: "#9aacb4", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
+          <a href="tel:22211437" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
         </p>
       </section>
 
@@ -141,10 +142,10 @@ export default function KimBegravelse() {
           En begravelse er en afskedsform, hvor kisten med afdøde sænkes ned i jorden på et gravsted. Det er en tradition, der har eksisteret i århundreder, og som for mange familier giver en stærk og konkret fornemmelse af et sted at mindes og vende tilbage til.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Den væsentligste forskel på en begravelse og en <a href="/kim-bondo/bisaettelse" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at ved en begravelse forbliver kisten intakt i jorden, mens afdøde ved en bisættelse kremeres og asken samles i en urne.
+          Den væsentligste forskel på en begravelse og en <a href="/kim-bondo/bisaettelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at ved en begravelse forbliver kisten intakt i jorden, mens afdøde ved en bisættelse kremeres og asken samles i en urne.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          En begravelse kan foregå med kirkelig ceremoni, borgerlig ceremoni eller <a href="/kim-bondo/afsked-uden-ceremoni" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a>. Jeg hjælper jer med at finde den form, der passer til afdødes og familiens ønsker.
+          En begravelse kan foregå med kirkelig ceremoni, borgerlig ceremoni eller <a href="/kim-bondo/afsked-uden-ceremoni" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a>. Jeg hjælper jer med at finde den form, der passer til afdødes og familiens ønsker.
         </p>
       </section>
 
@@ -163,7 +164,7 @@ export default function KimBegravelse() {
           { num: "5", title: "Gravstedet", text: "Gravstedet bliver et varigt sted at vende tilbage til. Jeg hjælper med at finde det rette gravsted og kan rådgive om vedligeholdelse og gravsten." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
-            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50 %", background: "#84A98C", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
+            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50 %", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
               {step.num}
             </div>
             <div>
@@ -185,7 +186,7 @@ export default function KimBegravelse() {
           En begravelse starter fra <strong>18.500 kr.</strong> i mit honorar. Prisen inkluderer koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje kommer oveni – jeg hjælper jer med at indhente tilbud og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Se den fulde prisliste
           </a>
           <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -212,7 +213,7 @@ export default function KimBegravelse() {
             <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(15px, 1.7vw, 18px)", color: "#2F3E46", marginBottom: "12px", lineHeight: 1.4 }}>{item.q}</h3>
             <p style={{ fontSize: "clamp(14px, 1.5vw, 16px)", color: "#4a6270", lineHeight: 1.8 }}>
               {item.a}{" "}
-              {item.link && <a href={item.link} style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>{item.linkText}</a>}
+              {item.link && <a href={item.link} style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>{item.linkText}</a>}
             </p>
           </div>
         ))}
@@ -235,7 +236,7 @@ export default function KimBegravelse() {
             </a>
           ))}
         </div>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
           Kontakt mig
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", marginTop: "16px" }}>

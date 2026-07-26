@@ -29,7 +29,7 @@ const hoverZoomStyle = `
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "16px", lineHeight: 1.8, color: "#3d4f5a", marginBottom: "16px" } as React.CSSProperties,
   h2: { fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(22px, 3vw, 32px)", color: "#2F3E46", marginBottom: "16px", marginTop: "0" } as React.CSSProperties,
-  label: { fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase" as const, marginBottom: "16px", display: "block" },
+  label: { fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase" as const, marginBottom: "16px", display: "block" },
 };
 
 const KISTER = [
@@ -136,7 +136,7 @@ const URNER = [
 
 export default function KimProdukter() {
   return (
-    <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
+    <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Kister og urner – Bedemand Kim Bondo"
         description="Vælg kiste fra 6.000 kr. eller urne til 1.250 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
@@ -181,7 +181,7 @@ export default function KimProdukter() {
       display: inline-flex !important;
       align-items: center;
       gap: 8px;
-      background: #84A98C;
+      background: #3D6B4F;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -195,8 +195,8 @@ export default function KimProdukter() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Kister og urner</span>
         </div>
@@ -223,7 +223,7 @@ export default function KimProdukter() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "600px", margin: "0 auto 32px", lineHeight: 1.7 }}>
           Her finder I mit udvalg af kister og urner med gennemsigtige priser. Ring til mig, hvis I har spørgsmål til et bestemt produkt.
         </p>
-        <a href="tel:22211437" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring på 22 21 14 37</a>
+        <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring på 22 21 14 37</a>
       </section>
 
       {/* ── KISTER ── */}
@@ -264,7 +264,7 @@ export default function KimProdukter() {
                 </div>
                 <div style={{ padding: "24px" }}>
                   <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "20px", color: "#2F3E46", marginBottom: "8px", marginTop: 0 }}>{k.name}</h3>
-                  <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "22px", color: "#84A98C", marginBottom: "16px" }}>{k.priceLabel}</p>
+                  <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "22px", color: "#3D6B4F", marginBottom: "16px" }}>{k.priceLabel}</p>
                   <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d4f5a", lineHeight: 1.75, fontStyle: k.description === "Tilføj din beskrivelse her." ? "italic" : "normal" }}>
                     {k.description}
                   </p>
@@ -313,7 +313,7 @@ export default function KimProdukter() {
                 </div>
                 <div style={{ padding: "20px" }}>
                   <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", color: "#2F3E46", marginBottom: "6px", marginTop: 0 }}>{u.name}</h3>
-                  <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", color: "#84A98C", marginBottom: "12px" }}>{u.priceLabel}</p>
+                  <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", color: "#3D6B4F", marginBottom: "12px" }}>{u.priceLabel}</p>
                   <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3d4f5a", lineHeight: 1.75, fontStyle: u.description === "Tilføj din beskrivelse her." ? "italic" : "normal" }}>
                     {u.description}
                   </p>
@@ -333,8 +333,8 @@ export default function KimProdukter() {
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt — eller ring direkte.
           </p>
           <ContactForm />
-          <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
+            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
           </p>
         </div>
       </section>
@@ -385,7 +385,7 @@ export default function KimProdukter() {
           href="/kim-bondo#kontakt"
           style={{
             display: "inline-block",
-            background: "#84A98C",
+            background: "#3D6B4F",
             color: "#ffffff",
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 700,

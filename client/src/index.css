@@ -7,7 +7,7 @@
  * DESIGN SYSTEM — Nordic Quietism
  * Background: #F9F8F6 (warm off-white)
  * Text Primary: #2F3E46 (deep charcoal)
- * CTA Primary: #84A98C (muted sage green)
+ * CTA Primary: #3D6B4F (muted sage green)
  * CTA Hover: #6B8F73 (deeper sage)
  * CTA Secondary: #A8B8A1 (quiet gray-green)
  * Divider: #DDD8D0 (parchment)
@@ -118,7 +118,7 @@
   .btn-primary {
     display: block;
     width: 100%;
-    background-color: #84A98C;
+    background-color: #3D6B4F;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -154,7 +154,7 @@
     transition: border-color 200ms ease-out, color 200ms ease-out, transform 160ms ease-out;
   }
   .btn-secondary:hover {
-    border-color: #84A98C;
+    border-color: #3D6B4F;
     color: #5C6E74;
   }
   .btn-secondary:active {

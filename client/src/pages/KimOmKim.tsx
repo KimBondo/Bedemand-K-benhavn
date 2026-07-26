@@ -49,12 +49,12 @@ function PersonSchema() {
 
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.85, color: "#3d4f5a", marginBottom: "24px" } as React.CSSProperties,
-  label: { fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase" as const, marginBottom: "16px", display: "block" } as React.CSSProperties,
+  label: { fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase" as const, marginBottom: "16px", display: "block" } as React.CSSProperties,
 };
 
 export default function KimOmKim() {
   return (
-    <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
+    <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Om Kim Bondo – Personlig bedemand, København"
         description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 22 21 14 37."
@@ -79,7 +79,7 @@ export default function KimOmKim() {
               display: inline-flex !important;
               align-items: center;
               gap: 8px;
-              background: #84A98C;
+              background: #3D6B4F;
               color: #fff;
               font-family: 'Open Sans', sans-serif;
               font-weight: 700;
@@ -93,8 +93,8 @@ export default function KimOmKim() {
           }
         `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Om Kim</span>
         </div>
@@ -115,12 +115,12 @@ export default function KimOmKim() {
         </h1>
         <a
           href="/kim-bondo#kontakt"
-          style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}
+          style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}
         >
           Kontakt mig
         </a>
-        <p style={{ marginTop: "14px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+        <p style={{ marginTop: "14px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
+          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
         </p>
       </section>
 
@@ -152,7 +152,7 @@ export default function KimOmKim() {
                   alignItems: "center",
                   justifyContent: "center",
                   gap: "8px",
-                  background: "#84A98C",
+                  background: "#3D6B4F",
                   color: "#fff",
                   fontFamily: "'Open Sans', sans-serif",
                   fontWeight: 700,
@@ -181,7 +181,7 @@ export default function KimOmKim() {
                   borderRadius: "3px",
                   textDecoration: "none",
                   letterSpacing: "0.02em",
-                  border: "1.5px solid #84A98C",
+                  border: "1.5px solid #3D6B4F",
                 }}
               >
                 ✉️ Skriv en e-mail
@@ -218,14 +218,14 @@ export default function KimOmKim() {
           Ring eller skriv til mig — jeg er tilgængelig døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", marginBottom: "32px" }}>
-          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Skriv til mig
           </a>
           <a href="tel:22211437" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Ring: 22 21 14 37
           </a>
         </div>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#84A98C" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
           Vandtårnsvej 62A, 2860 Søborg
         </p>
       </section>
@@ -238,7 +238,7 @@ export default function KimOmKim() {
         <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.65)", marginBottom: "32px", lineHeight: 1.7 }}>
           Vandtårnsvej 62A, 2860 Søborg
         </p>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
+        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
           Kontakt mig
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.35)", marginTop: "16px" }}>

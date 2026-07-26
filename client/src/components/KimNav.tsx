@@ -33,8 +33,8 @@ const BASE: React.CSSProperties = {
 
 const ACTIVE: React.CSSProperties = {
   ...BASE,
-  color: "#84A98C",
-  borderBottom: "2px solid #84A98C",
+  color: "#3D6B4F",
+  borderBottom: "2px solid #3D6B4F",
 };
 
 const INACTIVE: React.CSSProperties = {
@@ -106,7 +106,7 @@ export default function KimNav() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 700,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "#84A98C",
+            color: "#3D6B4F",
             textDecoration: "none",
             whiteSpace: "nowrap",
             letterSpacing: "0.03em",
@@ -168,7 +168,7 @@ export default function KimNav() {
                   fontFamily: "'Open Sans', sans-serif",
                   fontWeight: isActive(href, exact, hash) ? 700 : 600,
                   fontSize: "15px",
-                  color: isActive(href, exact, hash) ? "#84A98C" : "#3d5260",
+                  color: isActive(href, exact, hash) ? "#3D6B4F" : "#3d5260",
                   textDecoration: "none",
                   letterSpacing: "0.02em",
                   padding: "10px 20px",
@@ -180,7 +180,7 @@ export default function KimNav() {
               >
                 {label}
                 {isActive(href, exact, hash) && (
-                  <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#84A98C", flexShrink: 0 }} />
+                  <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#3D6B4F", flexShrink: 0 }} />
                 )}
               </a>
             ))}
@@ -191,7 +191,7 @@ export default function KimNav() {
                 fontFamily: "'Open Sans', sans-serif",
                 fontWeight: 700,
                 fontSize: "16px",
-                color: "#84A98C",
+                color: "#3D6B4F",
                 textDecoration: "none",
                 letterSpacing: "0.03em",
                 padding: "12px 20px 4px",

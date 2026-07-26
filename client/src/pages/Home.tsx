@@ -31,7 +31,7 @@ export default function Home() {
       {/* ─── SOLID BLUE BACKGROUND ───────────────────────────────────────── */}
 
       {/* ─── SCROLLABLE CONTENT ──────────────────────────────────────────── */}
-      <div style={{ position: "relative", zIndex: 2 }}>
+      <main style={{ position: "relative", zIndex: 2 }}>
 
 
         {/* ── HERO TEXT ── */}
@@ -125,6 +125,7 @@ export default function Home() {
               initials="MT"
               portraitSrc="/manus-storage/marie-portrait-new_3f60d1bf.jpeg"
               portraitAlt="Marie Thjellesen – Bedemand"
+              portraitSrcSet="/manus-storage/marie-portrait-new_3f60d1bf_464w_7461174f.webp 464w, /manus-storage/marie-portrait-new_3f60d1bf_930w_aaa60cf2.webp 930w, /manus-storage/marie-portrait-new_3f60d1bf_1400w_c06def5b.webp 1400w"
             />
             <DirectorColumn
               name="Kim Bondo"
@@ -139,6 +140,7 @@ export default function Home() {
               initials="KB"
               portraitSrc="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
               portraitAlt="Kim Bondo – Bedemand"
+              portraitSrcSet="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_464w_fad65f06.webp 464w, /manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_930w_0ebe7e5b.webp 930w, /manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_1400w_7b940c54.webp 1400w"
             />
           </div>
         </div>
@@ -158,7 +160,7 @@ export default function Home() {
               fontWeight: 600,
               fontSize: "12px",
               letterSpacing: "0.12em",
-              color: "#84A98C",
+              color: "#3D6B4F",
               textTransform: "uppercase",
               marginBottom: "12px",
             }}
@@ -198,7 +200,7 @@ export default function Home() {
             © {new Date().getFullYear()} Bedemand København og Nordsjælland &nbsp;·&nbsp; To selvstændige bedemænd
           </p>
         </footer>
-      </div>
+      </main>
 
       {/* Responsive */}
       <style>{`
@@ -227,6 +229,7 @@ interface DirectorColumnProps {
   initials: string;
   portraitSrc?: string;
   portraitAlt?: string;
+  portraitSrcSet?: string;
 }
 
 function DirectorColumn({
@@ -243,6 +246,7 @@ function DirectorColumn({
   initials,
   portraitSrc,
   portraitAlt,
+  portraitSrcSet,
 }: DirectorColumnProps) {
   return (
     <div
@@ -272,15 +276,17 @@ function DirectorColumn({
       >
       {portraitSrc ? (
         <picture style={{ width: "100%", height: "100%", display: "block" }}>
-          {portraitSrc.includes("marie-portrait-new") && (
-            <source srcSet="/manus-storage/marie-portrait-new_3f60d1bf_edd70dba.webp" type="image/webp" />
-          )}
-          {portraitSrc.includes("kim-bondo-portrait-neutral-bg") && (
-            <source srcSet="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_d2b7aeac.webp" type="image/webp" />
+          {portraitSrcSet && (
+            <source
+              srcSet={portraitSrcSet}
+              type="image/webp"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 464px"
+            />
           )}
           <img
             src={portraitSrc}
             alt={portraitAlt || name}
+            fetchPriority="high"
             style={{
               width: "100%",
               height: "100%",
@@ -320,7 +326,7 @@ function DirectorColumn({
       </div>
 
       {/* Name & Title */}
-      <h3
+      <h2
         style={{
           fontFamily: "'Lora', serif",
           fontWeight: 600,
@@ -332,7 +338,7 @@ function DirectorColumn({
         }}
       >
         {name}
-      </h3>
+      </h2>
       <p
         style={{
           fontFamily: "'Open Sans', sans-serif",

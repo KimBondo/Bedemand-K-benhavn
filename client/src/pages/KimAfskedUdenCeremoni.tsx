@@ -10,6 +10,7 @@ import KimNav from "@/components/KimNav";
 export default function KimAfskedUdenCeremoni() {
   return (
     <div
+      role="main"
       style={{
         fontFamily: "'Open Sans', sans-serif",
         background: "#F9F8F6",
@@ -62,7 +63,7 @@ export default function KimAfskedUdenCeremoni() {
       display: inline-flex !important;
       align-items: center;
       gap: 8px;
-      background: #84A98C;
+      background: #3D6B4F;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -76,8 +77,8 @@ export default function KimAfskedUdenCeremoni() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>
             ← Tilbage til Kim Bondo
           </a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>
@@ -105,7 +106,7 @@ export default function KimAfskedUdenCeremoni() {
 
       {/* ── HERO ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "16px" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>
           Afsked uden ceremoni
         </p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, marginBottom: "24px", maxWidth: "700px", margin: "0 auto 24px" }}>
@@ -115,7 +116,7 @@ export default function KimAfskedUdenCeremoni() {
           Ikke alle afskeder behøver en formel ceremoni. En afsked uden ceremoni er en stille og diskret løsning, der håndteres med samme omsorg og værdighed som alle andre afskeder.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Kontakt mig
           </a>
           <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -124,7 +125,7 @@ export default function KimAfskedUdenCeremoni() {
         </div>
         <p style={{ fontSize: "14px", color: "#9aacb4", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
+          <a href="tel:22211437" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
         </p>
       </section>
 
@@ -139,10 +140,10 @@ export default function KimAfskedUdenCeremoni() {
           En afsked uden ceremoni betyder, at der ikke afholdes en formel højtidelighed i kirke, kapel eller anden lokation. I stedet transporteres afdøde direkte til krematoriet eller gravstedet, hvor den praktiske del håndteres med respekt og omhu.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Det er ikke en kold eller upersonlig afsked – det er blot en enklere form. Mange familier vælger at holde en mindesammenkomst på et andet tidspunkt, for eksempel ved urnenedsættelsen, ved <a href="/kim-bondo/askespredning" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>askespredningen</a> eller på en særlig mærkedag.
+          Det er ikke en kold eller upersonlig afsked – det er blot en enklere form. Mange familier vælger at holde en mindesammenkomst på et andet tidspunkt, for eksempel ved urnenedsættelsen, ved <a href="/kim-bondo/askespredning" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredningen</a> eller på en særlig mærkedag.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          Løsningen kan kombineres med både <a href="/kim-bondo/bisaettelse" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> og <a href="/kim-bondo/begravelse" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>begravelse</a>.
+          Løsningen kan kombineres med både <a href="/kim-bondo/bisaettelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> og <a href="/kim-bondo/begravelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse</a>.
         </p>
       </section>
 
@@ -175,7 +176,7 @@ export default function KimAfskedUdenCeremoni() {
           { num: "4", title: "Urne eller gravsted", text: "Ved bisættelse samles asken i en urne, som efterfølgende kan nedsættes, spredes over havet eller tages med til udlandet. Ved begravelse stedfæstes kisten på gravstedet." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
-            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50 %", background: "#84A98C", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
+            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50 %", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
               {step.num}
             </div>
             <div>
@@ -197,7 +198,7 @@ export default function KimAfskedUdenCeremoni() {
           En afsked uden ceremoni starter fra <strong>15.500 kr.</strong> Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste. Udgifter som kremering, gravsted og urne kommer oveni – jeg hjælper med at indhente tilbud og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Se den fulde prisliste
           </a>
           <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -224,7 +225,7 @@ export default function KimAfskedUdenCeremoni() {
             <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(15px, 1.7vw, 18px)", color: "#2F3E46", marginBottom: "12px", lineHeight: 1.4 }}>{item.q}</h3>
             <p style={{ fontSize: "clamp(14px, 1.5vw, 16px)", color: "#4a6270", lineHeight: 1.8 }}>
               {item.a}{" "}
-              {item.link && <a href={item.link} style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>{item.linkText}</a>}
+              {item.link && <a href={item.link} style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>{item.linkText}</a>}
             </p>
           </div>
         ))}
@@ -247,7 +248,7 @@ export default function KimAfskedUdenCeremoni() {
             </a>
           ))}
         </div>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
           Kontakt mig
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", marginTop: "16px" }}>

@@ -10,6 +10,7 @@ import KimNav from "@/components/KimNav";
 export default function KimAfskeder() {
   return (
     <div
+      role="main"
       style={{
         fontFamily: "'Open Sans', sans-serif",
         background: "#F9F8F6",
@@ -52,7 +53,7 @@ export default function KimAfskeder() {
       display: inline-flex !important;
       align-items: center;
       gap: 8px;
-      background: #84A98C;
+      background: #3D6B4F;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -66,8 +67,8 @@ export default function KimAfskeder() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>
             ← Tilbage til Kim Bondo
           </a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>
@@ -95,7 +96,7 @@ export default function KimAfskeder() {
 
       {/* ── HERO ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "16px" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>
           Afskeder
         </p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, marginBottom: "24px", maxWidth: "700px", margin: "0 auto 24px" }}>
@@ -174,7 +175,7 @@ export default function KimAfskeder() {
                 <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2vw, 24px)", color: "#2F3E46", lineHeight: 1.2 }}>
                   {card.title}
                 </h2>
-                <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "11px", letterSpacing: "0.1em", color: "#84A98C", textTransform: "uppercase", background: "#f0f4f2", padding: "4px 10px", borderRadius: "2px", whiteSpace: "nowrap" }}>
+                <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "11px", letterSpacing: "0.1em", color: "#3D6B4F", textTransform: "uppercase", background: "#f0f4f2", padding: "4px 10px", borderRadius: "2px", whiteSpace: "nowrap" }}>
                   {card.tag}
                 </span>
               </div>
@@ -184,7 +185,7 @@ export default function KimAfskeder() {
               <ul style={{ listStyle: "none", padding: 0, margin: "0 0 28px 0" }}>
                 {card.details.map((d, i) => (
                   <li key={i} style={{ fontSize: "14px", color: "#4a6270", lineHeight: 1.7, paddingLeft: "18px", position: "relative" }}>
-                    <span style={{ position: "absolute", left: 0, color: "#84A98C", fontWeight: 700 }}>·</span>
+                    <span style={{ position: "absolute", left: 0, color: "#3D6B4F", fontWeight: 700 }}>·</span>
                     {d}
                   </li>
                 ))}
@@ -193,13 +194,13 @@ export default function KimAfskeder() {
                 href={card.href}
                 style={{
                   display: "inline-block",
-                  color: "#84A98C",
+                  color: "#3D6B4F",
                   fontFamily: "'Open Sans', sans-serif",
                   fontWeight: 700,
                   fontSize: "15px",
                   textDecoration: "none",
                   letterSpacing: "0.03em",
-                  borderBottom: "2px solid #84A98C",
+                  borderBottom: "2px solid #3D6B4F",
                   paddingBottom: "2px",
                 }}
               >
@@ -221,10 +222,10 @@ export default function KimAfskeder() {
           Det er helt normalt at være usikker. Mange familier har aldrig stået i denne situation før, og der er mange valg at tage i en svær tid. Jeg er her for at hjælpe jer – ikke til at sælge jer noget, men til at lytte og rådgive.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "40px" }}>
-          Ring til mig, skriv en besked, eller kig på <a href="/kim-bondo/priser" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>prissiden</a> for at få et overblik over hvad de forskellige afskeder koster. Jeg gennemgår altid alle udgifter med jer på forhånd.
+          Ring til mig, skriv en besked, eller kig på <a href="/kim-bondo/priser" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>prissiden</a> for at få et overblik over hvad de forskellige afskeder koster. Jeg gennemgår altid alle udgifter med jer på forhånd.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Kontakt mig
           </a>
           <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -233,13 +234,13 @@ export default function KimAfskeder() {
         </div>
         <p style={{ fontSize: "14px", color: "#9aacb4", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
+          <a href="tel:22211437" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
         </p>
       </section>
 
       {/* ── PRAKTISKE LINKS ── */}
       <section style={{ background: "#fff", padding: "56px 32px", textAlign: "center" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "20px" }}>Praktisk information</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "20px" }}>Praktisk information</p>
         <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px" }}>Nyttige sider</h2>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#5a7a6a", marginBottom: "32px", maxWidth: "520px", margin: "0 auto 32px" }}>Hvad skal man gøre ved dødsfald? Hvad kan man søge i begravelseshjælp? Og dækker Kim dit område?</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
@@ -268,7 +269,7 @@ export default function KimAfskeder() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(13px, 1.4vw, 15px)", color: "rgba(255,255,255,0.70)", marginBottom: "24px" }}>
           Vandtårnsvej 62A, 2860 Søborg
         </p>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#84A98C", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
+        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
           Kontakt mig
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.35)", marginTop: "16px" }}>

@@ -11,6 +11,7 @@ import KimNav from "@/components/KimNav";
 export default function KimPriser() {
   return (
     <div
+      role="main"
       style={{
         fontFamily: "'Open Sans', sans-serif",
         background: "#F9F8F6",
@@ -53,7 +54,7 @@ export default function KimPriser() {
       display: inline-flex !important;
       align-items: center;
       gap: 8px;
-      background: #84A98C;
+      background: #3D6B4F;
       color: #fff;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -68,14 +69,14 @@ export default function KimPriser() {
 `}</style>
         {/* Left: back link + title */}
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#84A98C", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
           <a
             href="/kim-bondo"
             style={{
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: 600,
               fontSize: "clamp(12px, 1.3vw, 14px)",
-              color: "#84A98C",
+              color: "#3D6B4F",
               textDecoration: "none",
               letterSpacing: "0.04em",
             }}
@@ -159,7 +160,7 @@ export default function KimPriser() {
           href="/kim-bondo#kontakt"
           style={{
             display: "inline-block",
-            background: "#84A98C",
+            background: "#3D6B4F",
             color: "#ffffff",
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 700,
@@ -308,7 +309,7 @@ export default function KimPriser() {
           <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", lineHeight: 1.85, color: "#3d5260", marginBottom: "20px" }}>
             Alle priseksempler herunder er beregnet på hverdage. Rustvognskørslen i weekenden er 50 % dyrere.
           </p>
-          <a href="/kim-bondo/hvad-koster-en-begravelse" style={{ color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>Læs mere om hvad der påvirker prisen →</a>
+          <a href="/kim-bondo/hvad-koster-en-begravelse" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>Læs mere om hvad der påvirker prisen →</a>
         </section>
 
         <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", marginBottom: "64px" }} />
@@ -386,7 +387,7 @@ export default function KimPriser() {
             >
               {pkg.subtitle}
             </p>
-            <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.10em", color: "#84A98C", textTransform: "uppercase", marginBottom: "10px", marginTop: "4px" }}>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.10em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "10px", marginTop: "4px" }}>
               {pkg.title} indeholder
             </p>
             <ul style={{ listStyle: "none", padding: 0, marginBottom: "20px" }}>
@@ -406,7 +407,7 @@ export default function KimPriser() {
                     style={{
                       position: "absolute",
                       left: 0,
-                      color: "#84A98C",
+                      color: "#3D6B4F",
                       fontWeight: 700,
                     }}
                   >
@@ -494,7 +495,7 @@ export default function KimPriser() {
             style={{
               display: "inline-block",
               background: "#F9F8F6",
-              border: "1px solid #84A98C",
+              border: "1px solid #3D6B4F",
               color: "#2F3E46",
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: 600,
@@ -737,7 +738,7 @@ export default function KimPriser() {
             href="/kim-bondo#kontakt"
             style={{
               display: "inline-block",
-              background: "#84A98C",
+              background: "#3D6B4F",
               color: "#ffffff",
               fontFamily: "'Open Sans', sans-serif",
               fontWeight: 700,
@@ -761,7 +762,7 @@ export default function KimPriser() {
             eller ring på{" "}
             <a
               href="tel:22211437"
-              style={{ color: "#84A98C", fontWeight: 600, textDecoration: "none" }}
+              style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}
             >
               22 21 14 37
             </a>
@@ -807,7 +808,7 @@ export default function KimPriser() {
           href="/kim-bondo#kontakt"
           style={{
             display: "inline-block",
-            background: "#84A98C",
+            background: "#3D6B4F",
             color: "#ffffff",
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 700,

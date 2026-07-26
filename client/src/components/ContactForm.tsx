@@ -59,7 +59,7 @@ export default function ContactForm() {
       <div
         style={{
           background: "#eaf2eb",
-          border: "1.5px solid #84A98C",
+          border: "1.5px solid #3D6B4F",
           borderRadius: "4px",
           padding: "36px 32px",
           textAlign: "center",
@@ -148,7 +148,7 @@ export default function ContactForm() {
         type="submit"
         style={{
           width: "100%",
-          background: "#84A98C",
+          background: "#3D6B4F",
           color: "#ffffff",
           fontFamily: "'Open Sans', sans-serif",
           fontWeight: 700,

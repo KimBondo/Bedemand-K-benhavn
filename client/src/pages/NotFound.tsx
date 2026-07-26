@@ -5,13 +5,13 @@ export default function NotFound() {
   const [, setLocation] = useLocation();
 
   return (
-    <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "48px 24px", textAlign: "center" }}>
+    <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "48px 24px", textAlign: "center" }}>
       <SEO
         title="Side ikke fundet – Bedemand Kim Bondo"
         description="Siden du leder efter findes ikke. Gå tilbage til forsiden og find hjælp til bisættelse og begravelse i København."
         noindex={true}
       />
-      <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#84A98C", textTransform: "uppercase", marginBottom: "16px" }}>
+      <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>
         Fejl 404
       </p>
       <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 48px)", color: "#2F3E46", marginBottom: "16px", lineHeight: 1.2 }}>
@@ -23,7 +23,7 @@ export default function NotFound() {
       <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", justifyContent: "center" }}>
         <button
           onClick={() => setLocation("/")}
-          style={{ background: "#84A98C", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "15px", padding: "14px 32px", borderRadius: "3px", border: "none", cursor: "pointer", letterSpacing: "0.04em" }}
+          style={{ background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "15px", padding: "14px 32px", borderRadius: "3px", border: "none", cursor: "pointer", letterSpacing: "0.04em" }}
         >
           Gå til forsiden
         </button>
@@ -34,8 +34,8 @@ export default function NotFound() {
           Bedemand Kim Bondo
         </a>
       </div>
-      <p style={{ marginTop: "48px", fontSize: "14px", color: "#84A98C" }}>
-        Brug for hjælp? Ring på <a href="tel:22211437" style={{ color: "#84A98C", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+      <p style={{ marginTop: "48px", fontSize: "14px", color: "#3D6B4F" }}>
+        Brug for hjælp? Ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
       </p>
     </div>
   );
