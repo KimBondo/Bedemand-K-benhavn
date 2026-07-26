@@ -25,8 +25,8 @@ export default function KimHvadKoster() {
   return (
     <div style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Hvad koster en begravelse i 2026? Priser"
-        description="Ærligt overblik over alle udgifter ved begravelse i 2026: bedemand, kiste, kremering, gravsted og begravelseshjælp. Kim Bondo, København."
+        title="Hvad koster en begravelse i 2026? Komplet guide med alle udgifter"
+        description="Komplet guide til alle udgifter ved en afsked i 2026: bedemand, kremering, gravsted, kapelleje og begravelseshjælp. Officielle takster for København og Nordsjælland. Kim Bondo."
         url="https://bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse"
         image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
@@ -172,6 +172,358 @@ export default function KimHvadKoster() {
             Jeg hjælper med ansøgningen som en del af mit arbejde — I behøver ikke selv stå med det.
           </p>
           <a href="/kim-bondo/begravelseshjaelp" style={s.link}>Læs mere om begravelseshjælp →</a>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
+          HVAD KOSTER DET REELT? — KOMPLET GUIDE
+          ══════════════════════════════════════════════════════ */}
+
+      {/* ── GUIDE INTRO ── */}
+      <section style={{ background: "#2F3E46", padding: "80px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto", textAlign: "center" }}>
+          <p style={{ ...s.label, color: "#84A98C" }}>Den komplette guide</p>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.5vw, 40px)", color: "#fff", lineHeight: 1.2, marginBottom: "24px" }}>
+            Hvad koster det reelt?
+          </h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 19px)", color: "rgba(255,255,255,0.80)", lineHeight: 1.75, maxWidth: "600px", margin: "0 auto 32px" }}>
+            De fleste bedemænd viser én pris. Den dækker bedemandens eget honorar og måske kisten. Men en afsked består af mange udgifter — og de fleste af dem bestemmer bedemanden ikke prisen på. Denne guide viser dem alle.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px" }}>
+            {["Kremering", "Gravsted", "Kapelleje", "Kisteopbevaring", "Begravelseshjælp", "Samlet eksempel"].map((item) => (
+              <span key={item} style={{ background: "rgba(132,169,140,0.25)", color: "#84A98C", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", padding: "6px 16px", borderRadius: "20px", border: "1px solid rgba(132,169,140,0.4)" }}>{item}</span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── DEL 1: KREMERING ── */}
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.label}>Del 1 — Kun ved bisættelse</p>
+          <h2 style={s.h2}>Kremering</h2>
+          <p style={s.body}>
+            Kremering er en kommunal ydelse og betales direkte til krematoriet — ikke til bedemanden. Prisen afhænger af, hvilket krematorium der benyttes. Som udgangspunkt vælges det krematorium, der ligger tættest på ceremoniestedet eller afdødes bopæl. Jeg hjælper med at vælge den løsning, der giver mest mening for jer.
+          </p>
+          <div style={{ overflowX: "auto", marginBottom: "24px" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
+              <thead>
+                <tr style={{ borderBottom: "2px solid #e0dcd6" }}>
+                  <th style={{ textAlign: "left", padding: "10px 12px 10px 0", color: "#2F3E46", fontWeight: 700 }}>Krematorium</th>
+                  <th style={{ textAlign: "right", padding: "10px 12px", color: "#2F3E46", fontWeight: 700, whiteSpace: "nowrap" }}>Pris, voksen</th>
+                  <th style={{ textAlign: "left", padding: "10px 0", color: "#7a8f99", fontWeight: 600 }}>Bemærkning</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["Bispebjerg Krematorium (Kbh. NV)", "3.075 kr.", "Betjener Kbh. Kommune"],
+                  ["Sundby Krematorium (Kbh. S)", "3.075 kr.", "Betjener Kbh. Kommune"],
+                  ["Søndermark Krematorium (Frederiksberg)", "2.781 kr.", "Kun borgere bosat på Frederiksberg"],
+                  ["Søndermark Krematorium (Frederiksberg)", "3.027 kr.", "Borgere bosat uden for Frederiksberg"],
+                  ["Hillerød Krematorium", "3.078 kr.", "Betjener Nordsjælland"],
+                  ["Ballerup Krematorium", "3.155 kr.", "Betjener Storkøbenhavn vest"],
+                  ["Glostrup Krematorium", "3.405 kr.", "Betjener Storkøbenhavn vest"],
+                  ["Fælleskrematoriet (Ringsted)", "3.410 kr.", "Kisten kan indleveres i Helsingør"],
+                ].map(([name, price, note], i) => (
+                  <tr key={i} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                    <td style={{ padding: "12px 12px 12px 0", color: "#3d5260", lineHeight: 1.5 }}>{name}</td>
+                    <td style={{ padding: "12px 12px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
+                    <td style={{ padding: "12px 0", color: "#7a8f99", fontSize: "14px" }}>{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99", fontStyle: "italic", lineHeight: 1.7 }}>
+            Kilde: Danbegravelse.dk (opdateret april 2026) og Frederiksberg Kommune (2026-takster). Priserne fastsættes af det enkelte krematorium og reguleres typisk hvert år.
+          </p>
+        </div>
+      </section>
+
+      {/* ── DEL 2: GRAVSTED ── */}
+      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.label}>Del 2 — Kiste- og urnegrave</p>
+          <h2 style={s.h2}>Gravsted og kirkegårdsafgifter</h2>
+          <p style={s.body}>
+            Gravstedet er den udgift, der varierer mest — og som oftest overrasker pårørende. Prisen afhænger af kommunen, kirkegårdens beliggenhed, gravstedets type og størrelse samt, om der ønskes vedligeholdelse. Priserne herunder er for <em>erhvervelse af brugsret</em> til gravstedet. Hertil kommer gravning og eventuelt vedligeholdelse.
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "32px" }}>Københavns Kommune — 2026-takster</h3>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#7a8f99", marginBottom: "16px", fontStyle: "italic" }}>Kilde: kk.dk — gælder Bispebjerg, Vestre, Assistens, Sundby og Brønshøj Kirkegård</p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "14px", letterSpacing: "0.06em", color: "#2F3E46", textTransform: "uppercase", marginBottom: "8px" }}>Kistegrave (3 m², 20 år)</p>
+          <div style={{ overflowX: "auto", marginBottom: "28px" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
+              <tbody>
+                {[
+                  ["Traditionelt kistegravsted m. tujahæk og perlesten", "13.442 kr."],
+                  ["Kistegravsted m. kantsten", "18.033 kr."],
+                  ["Kistefællesgravsted i græs m. liggesten", "10.861 kr."],
+                  ["Kistefællesgravsted i græs u. liggesten", "9.523 kr."],
+                  ["Gravning af kistegrav (tillæg)", "7.055 kr."],
+                ].map(([label, price]) => (
+                  <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                    <td style={{ padding: "11px 12px 11px 0", color: "#3d5260" }}>{label}</td>
+                    <td style={{ padding: "11px 0", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "14px", letterSpacing: "0.06em", color: "#2F3E46", textTransform: "uppercase", marginBottom: "8px" }}>Urnegrave (1 m², 10 år)</p>
+          <div style={{ overflowX: "auto", marginBottom: "28px" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
+              <tbody>
+                {[
+                  ["Traditionelt urnegravsted m. indramning og renholdelse", "8.976 kr."],
+                  ["Traditionelt urnegravsted m. indramning (u. renholdelse)", "4.751 kr."],
+                  ["Urnefællesgravsted i græs m. liggesten", "5.459 kr."],
+                  ["Urneplads i urnemur/kolumbarium (10 år)", "2.047 kr."],
+                  ["Askefællesgrav (engangsbeløb)", "3.617 kr."],
+                  ["Gravning af urnegrav (tillæg)", "1.199 kr."],
+                  ["Udenbys tillæg (afdøde bosat uden for Kbh. Kommune)", "530–1.060 kr."],
+                ].map(([label, price]) => (
+                  <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                    <td style={{ padding: "11px 12px 11px 0", color: "#3d5260" }}>{label}</td>
+                    <td style={{ padding: "11px 0", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <h3 style={{ ...s.h3, marginTop: "40px" }}>Frederiksberg Kommune — 2026-takster</h3>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#7a8f99", marginBottom: "16px", fontStyle: "italic" }}>Kilde: frederiksberg.dk — gælder Frederiksberg ældre Kirkegård, Solbjerg Parkkirkegård og Søndermark Kirkegård</p>
+          <div style={{ overflowX: "auto", marginBottom: "16px" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
+              <tbody>
+                {[
+                  ["Kistegravsted 3 m², 20 år (Frederiksberg ældre Kirkegård)", "8.654 kr."],
+                  ["Kistegravsted 3 m², 20 år (Solbjerg / Søndermark)", "4.341 kr."],
+                  ["Urnegravsted 1 m², 10 år", "1.603 kr."],
+                  ["Gravning kistegrav", "7.138 kr."],
+                  ["Urnenedsættelse inkl. gravning", "995 kr."],
+                ].map(([label, price]) => (
+                  <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                    <td style={{ padding: "11px 12px 11px 0", color: "#3d5260" }}>{label}</td>
+                    <td style={{ padding: "11px 0", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99", fontStyle: "italic", lineHeight: 1.7, marginBottom: "32px" }}>
+            Bemærk: Frederiksberg-borgere betaler lavere takst. Ikke-borgere betaler dobbelt takst for køb af gravsted (gælder ikke fornyelse).
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "40px" }}>Nordsjælland — Vejledende prisniveau</h3>
+          <p style={s.body}>
+            Kirkegårdsafgifter i Nordsjælland fastsættes af den enkelte sognekirke og kommune og varierer betydeligt. Nedenstående er vejledende intervaller baseret på typiske takster i området.
+          </p>
+          <div style={{ overflowX: "auto", marginBottom: "20px" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
+              <tbody>
+                {[
+                  ["Kistegravsted (20 år)", "5.000–15.000 kr."],
+                  ["Urnegravsted (10 år)", "1.500–6.000 kr."],
+                  ["Gravning af kistegrav", "5.000–8.000 kr."],
+                  ["Gravning af urnegrav", "800–1.500 kr."],
+                ].map(([label, price]) => (
+                  <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                    <td style={{ padding: "11px 12px 11px 0", color: "#3d5260" }}>{label}</td>
+                    <td style={{ padding: "11px 0", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderLeft: "4px solid #84A98C", borderRadius: "3px", padding: "20px 24px" }}>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, margin: 0 }}>
+              Jeg indhenter altid de konkrete priser fra den relevante kirkegård og gennemgår dem med jer, inden I beslutter jer. I betaler aldrig for noget, I ikke kender på forhånd.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── DEL 3: KAPELLEJE OG MUSIK ── */}
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.label}>Del 3 — Ceremonistedet</p>
+          <h2 style={s.h2}>Kapelleje og musikudgifter</h2>
+          <p style={s.body}>
+            Hvis ceremonien afholdes i en Folkekirkens kirke, er der som udgangspunkt ingen kapelleje for kirkens medlemmer — men der betales for organist og evt. kantor. Afholdes ceremonien i et kommunalt kapel, betales der leje direkte til kapellet.
+          </p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "32px", marginTop: "8px" }}>
+            <div>
+              <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "14px", letterSpacing: "0.06em", color: "#2F3E46", textTransform: "uppercase", marginBottom: "12px" }}>Københavns Kommune</p>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
+                <tbody>
+                  {[
+                    ["Søndre/Sundby Kapel (½ time)", "1.154 kr."],
+                    ["Vestre Kirkegård, store sal (1 time)", "2.308 kr."],
+                    ["Orgelspil og sang (½ time)", "1.352 kr."],
+                    ["Orgelspil uden sang (½ time)", "676 kr."],
+                    ["Kisteopbevaring pr. uge", "272 kr."],
+                  ].map(([label, price]) => (
+                    <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                      <td style={{ padding: "10px 8px 10px 0", color: "#3d5260", fontSize: "14px" }}>{label}</td>
+                      <td style={{ padding: "10px 0", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap", fontSize: "14px" }}>{price}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div>
+              <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "14px", letterSpacing: "0.06em", color: "#2F3E46", textTransform: "uppercase", marginBottom: "12px" }}>Frederiksberg Kommune</p>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
+                <tbody>
+                  {[
+                    ["Lille kapelsal (35 min.)", "1.149 kr."],
+                    ["Store kapelsal (35 min.)", "2.068 kr."],
+                    ["Kisteopbevaring, første uge", "617 kr."],
+                    ["Kisteopbevaring pr. døgn herefter", "71 kr."],
+                  ].map(([label, price]) => (
+                    <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                      <td style={{ padding: "10px 8px 10px 0", color: "#3d5260", fontSize: "14px" }}>{label}</td>
+                      <td style={{ padding: "10px 0", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap", fontSize: "14px" }}>{price}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99", fontStyle: "italic", lineHeight: 1.7, marginTop: "20px" }}>
+            Kilde: Københavns Kommune (kk.dk) og Frederiksberg Kommune (frederiksberg.dk), 2026-takster.
+          </p>
+        </div>
+      </section>
+
+      {/* ── DEL 4: BEGRAVELSESHJÆLP DETALJERET ── */}
+      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.label}>Del 4 — Offentligt tilskud</p>
+          <h2 style={s.h2}>Begravelseshjælp — alle satser for 2026</h2>
+          <p style={s.body}>
+            Begravelseshjælp er et offentligt tilskud, der søges hos Udbetaling Danmark. Jeg søger altid begravelseshjælp på jeres vegne og modregner beløbet direkte på fakturaen. I behøver ikke selv stå med ansøgningen.
+          </p>
+          <div style={{ overflowX: "auto", marginBottom: "20px" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
+              <thead>
+                <tr style={{ borderBottom: "2px solid #e0dcd6" }}>
+                  <th style={{ textAlign: "left", padding: "10px 12px 10px 0", color: "#2F3E46", fontWeight: 700 }}>Situation</th>
+                  <th style={{ textAlign: "right", padding: "10px 12px", color: "#2F3E46", fontWeight: 700, whiteSpace: "nowrap" }}>Maks. tilskud</th>
+                  <th style={{ textAlign: "right", padding: "10px 0", color: "#2F3E46", fontWeight: 700, whiteSpace: "nowrap" }}>Bortfalder ved formue over</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["Afdøde over 18 år m. ægtefælle/børn under 18", "13.550 kr.", "58.800 kr."],
+                  ["Afdøde over 18 år, enlig uden børn", "13.550 kr.", "36.250 kr."],
+                  ["Afdøde under 18 år", "11.300 kr.", "— (fast beløb)"],
+                  ["Afdøde født før 1. april 1957", "Min. 1.050 kr.", "Uanset formue"],
+                ].map(([situation, max, limit]) => (
+                  <tr key={situation} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                    <td style={{ padding: "12px 12px 12px 0", color: "#3d5260", lineHeight: 1.5 }}>{situation}</td>
+                    <td style={{ padding: "12px 12px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{max}</td>
+                    <td style={{ padding: "12px 0", color: "#7a8f99", textAlign: "right", whiteSpace: "nowrap", fontSize: "14px" }}>{limit}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderLeft: "4px solid #84A98C", borderRadius: "3px", padding: "20px 24px", marginBottom: "16px" }}>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, margin: 0 }}>
+              <strong>Vigtigt:</strong> Udgifter til bedemand og begravelse indgår <em>ikke</em> i formueberegningen. Det er altså boets øvrige formue, der afgør, om I er berettiget til hjælp.
+            </p>
+          </div>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75 }}>
+            Sygeforsikring "danmark" yder desuden op til <strong>1.400 kr.</strong> i tilskud til medlemmer.
+          </p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99", fontStyle: "italic", lineHeight: 1.7 }}>
+            Kilde: Udbetaling Danmark / borger.dk, 2026-satser.
+          </p>
+        </div>
+      </section>
+
+      {/* ── DEL 5: SAMLET EKSEMPEL ── */}
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.label}>Del 5 — Realistisk eksempel</p>
+          <h2 style={s.h2}>Hvad koster en typisk bisættelse i København?</h2>
+          <p style={s.body}>
+            Nedenstående er et realistisk eksempel på en bisættelse med kirkelig ceremoni i Københavns Kommune på en hverdag. Afdøde hentes fra hospital.
+          </p>
+          <div style={{ overflowX: "auto", marginBottom: "24px" }}>
+            <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
+              <thead>
+                <tr style={{ borderBottom: "2px solid #e0dcd6" }}>
+                  <th style={{ textAlign: "left", padding: "10px 12px 10px 0", color: "#2F3E46", fontWeight: 700 }}>Post</th>
+                  <th style={{ textAlign: "right", padding: "10px 12px", color: "#2F3E46", fontWeight: 700, whiteSpace: "nowrap" }}>Beløb</th>
+                  <th style={{ textAlign: "left", padding: "10px 0", color: "#7a8f99", fontWeight: 600, fontSize: "13px" }}>Hvem bestemmer prisen?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colSpan={3} style={{ padding: "14px 0 6px", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#84A98C", textTransform: "uppercase" }}>Bedemandens ydelser</td>
+                </tr>
+                {[
+                  ["Bisættelse inkl. honorar, kiste, urne, 2 kørsler", "17.395 kr.", "Kim Bondo"],
+                  ["Kistepynt (lille)", "1.500 kr.", "Kim Bondo"],
+                ].map(([label, price, who]) => (
+                  <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                    <td style={{ padding: "11px 12px 11px 0", color: "#3d5260" }}>{label}</td>
+                    <td style={{ padding: "11px 12px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
+                    <td style={{ padding: "11px 0", color: "#7a8f99", fontSize: "14px" }}>{who}</td>
+                  </tr>
+                ))}
+                <tr>
+                  <td colSpan={3} style={{ padding: "14px 0 6px", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#5a7a6a", textTransform: "uppercase" }}>Tredjepartsudgifter</td>
+                </tr>
+                {[
+                  ["Kremering (Bispebjerg Krematorium)", "3.075 kr.", "Krematoriet"],
+                  ["Urnegravsted, traditionelt m. indramning (10 år)", "4.751 kr.", "Kbh. Kommune"],
+                  ["Gravning af urnegrav", "1.199 kr.", "Kbh. Kommune"],
+                  ["Orgelspil og sang (½ time)", "1.352 kr.", "Kirken"],
+                ].map(([label, price, who]) => (
+                  <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                    <td style={{ padding: "11px 12px 11px 0", color: "#3d5260" }}>{label}</td>
+                    <td style={{ padding: "11px 12px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
+                    <td style={{ padding: "11px 0", color: "#7a8f99", fontSize: "14px" }}>{who}</td>
+                  </tr>
+                ))}
+                <tr style={{ borderTop: "2px solid #2F3E46" }}>
+                  <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Samlet brutto</td>
+                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 29.272 kr.</td>
+                  <td></td>
+                </tr>
+                <tr style={{ borderBottom: "1px solid #e0dcd6" }}>
+                  <td style={{ padding: "11px 12px 11px 0", color: "#84A98C", fontWeight: 600 }}>Fratrukket begravelseshjælp (ved berettigelse)</td>
+                  <td style={{ padding: "11px 12px", color: "#84A98C", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>−13.550 kr.</td>
+                  <td style={{ padding: "11px 0", color: "#7a8f99", fontSize: "14px" }}>Udbetaling DK</td>
+                </tr>
+                <tr>
+                  <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Realistisk nettoudgift</td>
+                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "18px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 15.722 kr.</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div style={{ background: "#F9F8F6", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "20px 24px" }}>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", lineHeight: 1.75, margin: 0, fontStyle: "italic" }}>
+              Dette er et eksempel. Den faktiske pris afhænger af jeres valg og den kirkegård, I vælger. Jeg gennemgår altid alle udgifter med jer, inden vi beslutter noget — ingen overraskelser på fakturaen.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── NOTE OM PRISFORSKELLE ── */}
+      <section style={{ background: "#F9F8F6", padding: "56px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <h3 style={s.h3}>En note om prisforskelle i landet</h3>
+          <p style={s.body}>
+            Det er svært at lave én samlet guide, der dækker hele Danmark — fordi kirkegårdsafgifter og krematorietakster fastsættes lokalt og varierer betydeligt. En kistebegravelse i en lille nordjysk kommune kan koste halvt så meget i kirkegårdsafgifter som i København.
+          </p>
+          <p style={{ ...s.body, marginBottom: 0 }}>
+            Det, jeg kan love jer, er dette: Uanset hvor I bor i mit dækningsområde — København eller Nordsjælland — indhenter jeg de konkrete priser fra de relevante myndigheder og gennemgår dem med jer. I betaler aldrig for noget, I ikke kender på forhånd.
+          </p>
         </div>
       </section>
 

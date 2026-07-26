@@ -192,64 +192,107 @@ export default function KimPriser() {
 
       <div style={{ maxWidth: "900px", margin: "0 auto", padding: "72px 32px" }}>
 
-        {/* ── INTRO ── */}
+       {/* ── INTRO ── */}
+       <section style={{ marginBottom: "64px" }}>
+         <h2
+           style={{
+             fontFamily: "'Lora', serif",
+             fontWeight: 600,
+             fontSize: "clamp(20px, 2.5vw, 28px)",
+             color: "#2F3E46",
+             marginBottom: "16px",
+           }}
+         >
+           Hvad koster en begravelse eller bisættelse?
+         </h2>
+         <p
+           style={{
+             fontSize: "15px",
+             color: "#3d5260",
+             lineHeight: 1.85,
+             marginBottom: "20px",
+           }}
+         >
+           Prisen afhænger af jeres ønsker og behov. Jeg gennemgår altid alle
+           udgifter med jer, inden vi beslutter noget – så I ved præcis, hvad I
+           siger ja til. Jeg søger desuden begravelseshjælp på jeres vegne, som
+           den bliver direkte modregnet på fakturaen.
+         </p>
+         <p
+           style={{
+             fontSize: "15px",
+             color: "#3d5260",
+             lineHeight: 1.85,
+             marginBottom: "24px",
+           }}
+         >
+           De vigtigste faktorer for den samlede pris er valg af kiste og urne,
+           ceremonitype, transport samt eventuelle blomster og annoncer.
+         </p>
+         <div
+           style={{
+             background: "#ffffff",
+             border: "1px solid #e0dcd6",
+             borderRadius: "4px",
+             padding: "28px 32px",
+           }}
+         >
+           <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
+             <strong>Bisættelse fra 17.395 kr.</strong>
+           </p>
+           <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
+             <strong>Begravelse fra 18.500 kr.</strong>
+           </p>
+           <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
+             <strong>Afsked uden ceremoni fra 15.500 kr.</strong>
+           </p>
+           <p style={{ fontSize: "14px", color: "#7a8f99", lineHeight: 1.7, marginTop: "12px", fontStyle: "italic" }}>
+             Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
+           </p>
+         </div>
+       </section>
+        {/* ── ETISK PRISTEKST (Variant B) ── */}
         <section style={{ marginBottom: "64px" }}>
           <h2
             style={{
               fontFamily: "'Lora', serif",
-              fontWeight: 600,
+              fontWeight: 700,
               fontSize: "clamp(20px, 2.5vw, 28px)",
               color: "#2F3E46",
-              marginBottom: "16px",
-            }}
-          >
-            Hvad koster en begravelse eller bisættelse?
-          </h2>
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#3d5260",
-              lineHeight: 1.85,
               marginBottom: "20px",
             }}
           >
-            Prisen afhænger af jeres ønsker og behov. Jeg gennemgår altid alle
-            udgifter med jer, inden vi beslutter noget – så I ved præcis, hvad I
-            siger ja til. Jeg søger desuden begravelseshjælp på jeres vegne, som
-            den bliver direkte modregnet på fakturaen.
+            Prisgennemsigtighed er ikke et tilbud. Det er en ret.
+          </h2>
+          <p style={{ fontSize: "16px", color: "#3d5260", lineHeight: 1.85, marginBottom: "20px" }}>
+            Da jeg begyndte som bedemand, undrede jeg mig over en ting: Hvorfor var det så svært at finde ud af, hvad en begravelse kostede? Branchen har i årtier opereret med priser, der først kom frem ved det fysiske møde — på et tidspunkt, hvor pårørende er sårbare, pressede og sjældent i stand til at sammenligne.
           </p>
-          <p
-            style={{
-              fontSize: "15px",
-              color: "#3d5260",
-              lineHeight: 1.85,
-              marginBottom: "24px",
-            }}
-          >
-            De vigtigste faktorer for den samlede pris er valg af kiste og urne,
-            ceremonitype, transport samt eventuelle blomster og annoncer.
+          <p style={{ fontSize: "16px", color: "#3d5260", lineHeight: 1.85, marginBottom: "20px" }}>
+            Det har jeg valgt at gøre anderledes.
           </p>
-          <div
-            style={{
-              background: "#ffffff",
-              border: "1px solid #e0dcd6",
-              borderRadius: "4px",
-              padding: "28px 32px",
-            }}
-          >
-            <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-              <strong>Bisættelse fra 17.395 kr.</strong>
-            </p>
-            <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-              <strong>Begravelse fra 18.500 kr.</strong>
-            </p>
-            <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-              <strong>Afsked uden ceremoni fra 15.500 kr.</strong>
-            </p>
-            <p style={{ fontSize: "14px", color: "#7a8f99", lineHeight: 1.7, marginTop: "12px", fontStyle: "italic" }}>
-              Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
-            </p>
+          <p style={{ fontSize: "16px", color: "#3d5260", lineHeight: 1.85, marginBottom: "20px" }}>
+            Her finder I alle mine priser — enkeltpriser, pakkepriser og de tredjepartsudgifter, jeg ikke selv bestemmer, men som I alligevel skal kende. Jeg søger begravelseshjælp på jeres vegne og modregner den direkte på fakturaen. Og hjemmebesøg er altid inkluderet — fordi det menneskelige møde ikke er et tilvalg.
+          </p>
+          <p style={{ fontSize: "16px", color: "#2F3E46", lineHeight: 1.85, marginBottom: "28px", fontWeight: 600 }}>
+            Jeg er ikke den billigste bedemand i København. Men jeg er den, der fortæller jer, hvad det koster — inden I beslutter jer.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
+            <div style={{ background: "#ffffff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "20px 28px", flex: "1", minWidth: "200px" }}>
+              <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "4px" }}><strong>Bisættelse fra 17.395 kr.</strong></p>
+              <p style={{ fontSize: "13px", color: "#7a8f99", margin: 0 }}>inkl. honorar, kiste, urne og 2 kørsler</p>
+            </div>
+            <div style={{ background: "#ffffff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "20px 28px", flex: "1", minWidth: "200px" }}>
+              <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "4px" }}><strong>Begravelse fra 18.500 kr.</strong></p>
+              <p style={{ fontSize: "13px", color: "#7a8f99", margin: 0 }}>inkl. honorar, kiste og 2 kørsler</p>
+            </div>
+            <div style={{ background: "#ffffff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "20px 28px", flex: "1", minWidth: "200px" }}>
+              <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "4px" }}><strong>Afsked uden ceremoni fra 15.500 kr.</strong></p>
+              <p style={{ fontSize: "13px", color: "#7a8f99", margin: 0 }}>inkl. honorar, kiste, urne og 1 kørsel</p>
+            </div>
           </div>
+          <p style={{ fontSize: "13px", color: "#7a8f99", lineHeight: 1.7, marginTop: "16px", fontStyle: "italic" }}>
+            Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen — i ro og mag. Hjemmebesøg er altid inkluderet.
+          </p>
         </section>
 
         <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", marginBottom: "64px" }} />
