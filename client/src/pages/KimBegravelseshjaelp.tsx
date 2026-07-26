@@ -172,14 +172,28 @@ export default function KimBegravelseshjaelp() {
         </div>
       </section>
 
-      {/* ── LINKS ── */}
-      <section style={{ background: "#F9F8F6", padding: "64px 32px", textAlign: "center" }}>
-        <p style={s.label}>Relaterede sider</p>
+     {/* ── LINKS ── */}
+     <section style={{ background: "#F9F8F6", padding: "64px 32px", textAlign: "center" }}>
+       <p style={s.label}>Relaterede sider</p>
+        {/* ── FREMHÆVET INTERN LINK TIL GUIDE ── */}
+        <div style={{ maxWidth: "760px", margin: "0 auto 32px", background: "#fff", border: "1px solid #e0dcd6", borderLeft: "4px solid #84A98C", borderRadius: "3px", padding: "24px 28px", textAlign: "left" }}>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.10em", color: "#84A98C", textTransform: "uppercase", marginBottom: "8px" }}>Læs videre</p>
+          <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(17px, 2vw, 20px)", color: "#2F3E46", marginBottom: "10px" }}>
+            Hvad koster en begravelse reelt — inkl. kremering og gravsted?
+          </p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, marginBottom: "16px" }}>
+            Begravelseshjælpen dækker en del af udgifterne — men hvad er de samlede udgifter? Se vores komplette guide med officielle 2026-takster for kremering, gravsted, kapelleje og et realistisk priseksempel.
+          </p>
+          <a href="/kim-bondo/hvad-koster-en-begravelse" style={{ color: "#84A98C", textDecoration: "none", borderBottom: "1px solid #84A98C", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px" }}>
+            Se den komplette prisguide →
+          </a>
+        </div>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
             { label: "Se priser", href: "/kim-bondo/priser" },
             { label: "Huskeliste ved dødsfald", href: "/kim-bondo/huskeliste" },
             { label: "Se alle afskeder", href: "/kim-bondo/afskeder" },
+            { label: "Hvad koster det reelt?", href: "/kim-bondo/hvad-koster-en-begravelse" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
               {link.label}
