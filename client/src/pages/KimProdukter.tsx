@@ -45,7 +45,7 @@ const KISTER = [
     id: "klassisk-hvid",
     name: "Klassisk hvid kiste",
     priceLabel: "6.500 kr.",
-    image: "/manus-storage/Klassiskhvid_b0f458b9.jpg",
+    image: "/manus-storage/Klassiskhvid_b0f458b9_8686480b.webp",
     alt: "Klassisk hvid kiste til bisættelse – fremstillet i spån og MDF, Kim Bondo bedemand",
     description: "En klassisk kremeringskiste til bisættelser, fremstillet i spån og MDF.",
   },

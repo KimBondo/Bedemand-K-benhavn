@@ -127,19 +127,22 @@ export default function KimOmKim() {
       {/* ── BRØDTEKST ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "48px", alignItems: "flex-start", marginBottom: "40px" }}>
-            <img
-              src="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
-              alt="Kim Bondo – Bedemand i København og Nordsjælland"
-              loading="lazy"
-              style={{
-                width: "clamp(180px, 30vw, 280px)",
-                height: "auto",
-                objectFit: "contain",
-                borderRadius: "4px",
-                flexShrink: 0,
-              }}
-            />
+         <div style={{ display: "flex", flexWrap: "wrap", gap: "48px", alignItems: "flex-start", marginBottom: "40px" }}>
+           <picture style={{ flexShrink: 0 }}>
+             <source srcSet="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_d2b7aeac.webp" type="image/webp" />
+              <img
+                src="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
+                alt="Kim Bondo – Bedemand i København og Nordsjælland"
+                loading="lazy"
+                style={{
+                  width: "clamp(180px, 30vw, 280px)",
+                  height: "auto",
+                  objectFit: "contain",
+                  borderRadius: "4px",
+                  display: "block",
+                }}
+              />
+            </picture>
             {/* Kontaktknapper under billedet */}
             <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "16px", width: "clamp(180px, 30vw, 280px)", flexShrink: 0 }}>
               <a

@@ -185,20 +185,23 @@ export default function KimBondo() {
               overflow: "hidden",
               boxShadow: "0 4px 24px rgba(0,0,0,0.12)",
             }}
-          >
-           <img
-             src="/manus-storage/kim-beach-solo_609d5ab7.png"
-             alt="Kim Bondo med sort Mercedes rustvogn ved den danske kyst"
-             fetchPriority="high"
-             loading="eager"
-             style={{
-               width: "100 %",
-               aspectRatio: "4/3",
-               objectFit: "cover",
-               objectPosition: "center",
-               display: "block",
-             }}
-           />
+         >
+          <picture style={{ display: "block" }}>
+            <source srcSet="/manus-storage/kim-beach-solo_609d5ab7_9e76bac0.webp" type="image/webp" />
+            <img
+              src="/manus-storage/kim-beach-solo_609d5ab7.png"
+              alt="Kim Bondo med sort Mercedes rustvogn ved den danske kyst"
+              fetchPriority="high"
+              loading="eager"
+              style={{
+                width: "100%",
+                aspectRatio: "4/3",
+                objectFit: "cover",
+                objectPosition: "center",
+                display: "block",
+              }}
+            />
+          </picture>
           </div>
 
 
@@ -256,22 +259,25 @@ export default function KimBondo() {
           alignItems: "start",
         }}
       >
-        {/* Haven-kiste billede */}
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-         <img
-           src="/manus-storage/kim-garden-coffin_90a67244.jpg"
-           alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
-            loading="lazy"
-           style={{
-             width: "100 %",
-             maxWidth: "480px",
-              aspectRatio: "16/9",
-              objectFit: "cover",
-              objectPosition: "center",
-              borderRadius: "4px",
-              boxShadow: "0 8px 32px rgba(47,62,70,0.12)",
-            }}
-          />
+       {/* Haven-kiste billede */}
+       <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+         <picture>
+           <source srcSet="/manus-storage/kim-garden-coffin_90a67244_84209ed1.webp" type="image/webp" />
+            <img
+              src="/manus-storage/kim-garden-coffin_90a67244.jpg"
+              alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
+              loading="lazy"
+              style={{
+                width: "100%",
+                maxWidth: "480px",
+                aspectRatio: "16/9",
+                objectFit: "cover",
+                objectPosition: "center",
+                borderRadius: "4px",
+                boxShadow: "0 8px 32px rgba(47,62,70,0.12)",
+              }}
+            />
+          </picture>
           <p
             style={{
               marginTop: "10px",

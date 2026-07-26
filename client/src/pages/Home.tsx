@@ -270,18 +270,26 @@ function DirectorColumn({
           justifyContent: "center",
         }}
       >
-       {portraitSrc ? (
-        <img
-          src={portraitSrc}
-          alt={portraitAlt || name}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-             objectPosition: "center top",
-             display: "block",
-           }}
-         />
+      {portraitSrc ? (
+        <picture style={{ width: "100%", height: "100%", display: "block" }}>
+          {portraitSrc.includes("marie-portrait-new") && (
+            <source srcSet="/manus-storage/marie-portrait-new_3f60d1bf_edd70dba.webp" type="image/webp" />
+          )}
+          {portraitSrc.includes("kim-bondo-portrait-neutral-bg") && (
+            <source srcSet="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_d2b7aeac.webp" type="image/webp" />
+          )}
+          <img
+            src={portraitSrc}
+            alt={portraitAlt || name}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              objectPosition: "center top",
+              display: "block",
+            }}
+          />
+        </picture>
         ) : (
           <>
             <span
