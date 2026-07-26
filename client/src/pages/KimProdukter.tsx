@@ -251,13 +251,16 @@ export default function KimProdukter() {
                   border: "1px solid #e0dcd6",
                 }}
               >
-                <div className="product-img-wrap" style={{ height: "220px", background: "#e8e4df" }}>
-                  <img
-                    src={k.image}
-                    alt={k.alt || k.name}
-                    className="product-img"
-                    style={{ width: "100 %", height: "100 %", objectFit: "cover", display: "block" }}
-                  />
+               <div className="product-img-wrap" style={{ height: "220px", background: "#e8e4df" }}>
+                 <img
+                   src={k.image}
+                   alt={k.alt || k.name}
+                   className="product-img"
+                    loading="lazy"
+                    width="440"
+                    height="220"
+                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                 />
                 </div>
                 <div style={{ padding: "24px" }}>
                   <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "20px", color: "#2F3E46", marginBottom: "8px", marginTop: 0 }}>{k.name}</h3>
@@ -297,13 +300,16 @@ export default function KimProdukter() {
                   border: "1px solid #e0dcd6",
                 }}
               >
-                <div className="product-img-wrap" style={{ background: "#e8e4df", textAlign: "center" }}>
-                  <img
-                    src={u.image}
-                    alt={u.alt || u.name}
-                    className="product-img"
-                    style={{ width: "100 %", height: "auto", display: "block" }}
-                  />
+               <div className="product-img-wrap" style={{ background: "#e8e4df", textAlign: "center" }}>
+                 <img
+                   src={u.image}
+                   alt={u.alt || u.name}
+                   className="product-img"
+                    loading="lazy"
+                    width="300"
+                    height="300"
+                    style={{ width: "100%", height: "auto", display: "block" }}
+                 />
                 </div>
                 <div style={{ padding: "20px" }}>
                   <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", color: "#2F3E46", marginBottom: "6px", marginTop: 0 }}>{u.name}</h3>

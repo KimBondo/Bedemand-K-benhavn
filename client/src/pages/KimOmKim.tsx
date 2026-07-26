@@ -131,6 +131,7 @@ export default function KimOmKim() {
             <img
               src="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
               alt="Kim Bondo – Bedemand i København og Nordsjælland"
+              loading="lazy"
               style={{
                 width: "clamp(180px, 30vw, 280px)",
                 height: "auto",

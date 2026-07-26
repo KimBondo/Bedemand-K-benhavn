@@ -271,13 +271,14 @@ function DirectorColumn({
         }}
       >
         {portraitSrc ? (
-          <img
-            src={portraitSrc}
-            alt={portraitAlt || name}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
+         <img
+           src={portraitSrc}
+           alt={portraitAlt || name}
+            loading="lazy"
+           style={{
+             width: "100%",
+             height: "100%",
+             objectFit: "cover",
               objectPosition: "center top",
               display: "block",
             }}
