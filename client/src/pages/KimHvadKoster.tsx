@@ -533,7 +533,7 @@ export default function KimHvadKoster() {
           <p style={s.label}>Ofte stillede spørgsmål</p>
           <h2 style={s.h2}>Spørgsmål om priser</h2>
           {[
-            { q: "Hvad er den billigste begravelse?", a: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 15.500 kr. inkl. alt koordinering, men ekskl. kremering og urne." },
+          { q: "Hvad er den billigste begravelse?", a: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 15.500 kr. inkl. alt koordinering, men ekskl. kremering og urne." },
             { q: "Hvad koster en bisættelse i København?", a: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 17.395 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
             { q: "Er der skjulte udgifter?", a: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
             { q: "Kan man betale i rater?", a: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning der passer til jer." },
@@ -544,6 +544,14 @@ export default function KimHvadKoster() {
               <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
             </div>
           ))}
+          {/* ── Begravelseshjælp FAQ med link ── */}
+          <div style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
+            <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>Hvad er begravelseshjælp, og kan I hjælpe med at søge det?</h3>
+            <p style={{ ...s.body, marginBottom: "12px" }}>
+              Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af afdødes formue. Jeg søger begravelseshjælp på jeres vegne og modregner beløbet direkte på fakturaen — I behøver ikke selv stå med ansøgningen.
+            </p>
+            <a href="/kim-bondo/begravelseshjaelp" style={s.link}>Læs alt om begravelseshjælp og 2026-satser →</a>
+          </div>
         </div>
       </section>
 
