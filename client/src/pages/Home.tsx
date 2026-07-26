@@ -21,10 +21,10 @@ export default function Home() {
         backgroundColor: "#1a3a6b",
       }}
     >
-      <SEO
-        title="Bedemand København og Nordsjælland – Personlig og nærværende hjælp"
-        description="Find en personlig bedemand i København og Nordsjælland. Marie Thjellesen og Kim Bondo hjælper jer med bisættelse, begravelse og afsked – med nærvær, ro og gennemsigtige priser fra 15.500 kr. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/"
+     <SEO
+       title="Bedemand København og Nordsjælland – Personlig og nærværende hjælp"
+        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 17.395 kr., begravelse fra 18.500 kr. Nærvær, ro og gennemsigtige priser. Ring 22 21 14 37."
+       url="https://bedemandkobenhavn.dk/"
         image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="WebSite" />

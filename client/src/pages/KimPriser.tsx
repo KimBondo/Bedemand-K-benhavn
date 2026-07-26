@@ -236,16 +236,16 @@ export default function KimPriser() {
              borderRadius: "4px",
              padding: "28px 32px",
            }}
-         >
-           <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-             <strong>Bisættelse fra 17.395 kr.</strong>
-           </p>
-           <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-             <strong>Begravelse fra 18.500 kr.</strong>
-           </p>
-           <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-             <strong>Afsked uden ceremoni fra 15.500 kr.</strong>
-           </p>
+        >
+          <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
+            <strong style={{ fontSize: "20px", color: "#2F3E46" }}>Bisættelse fra 17.395 kr.</strong>
+          </p>
+          <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
+            <strong style={{ fontSize: "20px", color: "#2F3E46" }}>Begravelse fra 18.500 kr.</strong>
+          </p>
+          <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
+            <strong style={{ fontSize: "20px", color: "#2F3E46" }}>Afsked uden ceremoni fra 15.500 kr.</strong>
+          </p>
            <p style={{ fontSize: "14px", color: "#7a8f99", lineHeight: 1.7, marginTop: "12px", fontStyle: "italic" }}>
              Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
            </p>
@@ -627,17 +627,17 @@ export default function KimPriser() {
                       >
                         {label}
                       </td>
-                      <td
-                        style={{
-                          padding: "12px 0",
-                          fontSize: "15px",
-                          color: "#2F3E46",
-                          fontWeight: 600,
-                          textAlign: "right",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        {price}
+                     <td
+                       style={{
+                          padding: "12px 0 12px 24px",
+                         fontSize: "15px",
+                         color: "#2F3E46",
+                         fontWeight: 600,
+                         textAlign: "right",
+                         whiteSpace: "nowrap",
+                       }}
+                     >
+                       {price}
                       </td>
                     </tr>
                   ))}
