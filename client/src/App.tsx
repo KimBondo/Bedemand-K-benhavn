@@ -5,38 +5,42 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
-import KimBondo from "./pages/KimBondo";
-import KimPriser from "./pages/KimPriser";
-import KimAfskeder from "./pages/KimAfskeder";
-import KimBisaettelse from "./pages/KimBisaettelse";
-import KimBegravelse from "./pages/KimBegravelse";
-import KimAfskedUdenCeremoni from "./pages/KimAfskedUdenCeremoni";
-import KimAskespredning from "./pages/KimAskespredning";
-import KimKirkeligAfsked from "./pages/KimKirkeligAfsked";
-import KimBorgerligAfsked from "./pages/KimBorgerligAfsked";
-import KimHuskeliste from "./pages/KimHuskeliste";
-import KimBegravelseshjaelp from "./pages/KimBegravelseshjaelp";
-import KimOmraade from "./pages/KimOmraade";
-import KimHvadKoster from "./pages/KimHvadKoster";
-import KimHelsingor from "./pages/KimHelsingor";
-import KimHorsholm from "./pages/KimHorsholm";
-import KimGentofte from "./pages/KimGentofte";
-import KimLyngby from "./pages/KimLyngby";
-import KimHillerod from "./pages/KimHillerod";
-import KimKobenhavn from "./pages/KimKobenhavn";
-import KimFaq from "./pages/KimFaq";
-import KimNordsjaelland from "./pages/KimNordsjaelland";
-import KimFrederiksberg from "./pages/KimFrederiksberg";
-import KimAmager from "./pages/KimAmager";
-import KimOsterbro from "./pages/KimOsterbro";
-import KimNorrebro from "./pages/KimNorrebro";
-import KimVesterbro from "./pages/KimVesterbro";
-import KimProdukter from "./pages/KimProdukter";
-import KimOmKim from "./pages/KimOmKim";
+import { lazy, Suspense } from "react";
+
+// Route-level code splitting — reduces initial JS bundle by ~250 KiB
+const KimBondo = lazy(() => import("./pages/KimBondo"));
+const KimPriser = lazy(() => import("./pages/KimPriser"));
+const KimAfskeder = lazy(() => import("./pages/KimAfskeder"));
+const KimBisaettelse = lazy(() => import("./pages/KimBisaettelse"));
+const KimBegravelse = lazy(() => import("./pages/KimBegravelse"));
+const KimAfskedUdenCeremoni = lazy(() => import("./pages/KimAfskedUdenCeremoni"));
+const KimAskespredning = lazy(() => import("./pages/KimAskespredning"));
+const KimKirkeligAfsked = lazy(() => import("./pages/KimKirkeligAfsked"));
+const KimBorgerligAfsked = lazy(() => import("./pages/KimBorgerligAfsked"));
+const KimHuskeliste = lazy(() => import("./pages/KimHuskeliste"));
+const KimBegravelseshjaelp = lazy(() => import("./pages/KimBegravelseshjaelp"));
+const KimOmraade = lazy(() => import("./pages/KimOmraade"));
+const KimHvadKoster = lazy(() => import("./pages/KimHvadKoster"));
+const KimHelsingor = lazy(() => import("./pages/KimHelsingor"));
+const KimHorsholm = lazy(() => import("./pages/KimHorsholm"));
+const KimGentofte = lazy(() => import("./pages/KimGentofte"));
+const KimLyngby = lazy(() => import("./pages/KimLyngby"));
+const KimHillerod = lazy(() => import("./pages/KimHillerod"));
+const KimKobenhavn = lazy(() => import("./pages/KimKobenhavn"));
+const KimFaq = lazy(() => import("./pages/KimFaq"));
+const KimNordsjaelland = lazy(() => import("./pages/KimNordsjaelland"));
+const KimFrederiksberg = lazy(() => import("./pages/KimFrederiksberg"));
+const KimAmager = lazy(() => import("./pages/KimAmager"));
+const KimOsterbro = lazy(() => import("./pages/KimOsterbro"));
+const KimNorrebro = lazy(() => import("./pages/KimNorrebro"));
+const KimVesterbro = lazy(() => import("./pages/KimVesterbro"));
+const KimProdukter = lazy(() => import("./pages/KimProdukter"));
+const KimOmKim = lazy(() => import("./pages/KimOmKim"));
 
 
 function Router() {
   return (
+    <Suspense fallback={<div style={{ minHeight: "100vh", background: "#F9F8F6" }} />}>
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/kim-bondo"} component={KimBondo} />
@@ -71,6 +75,7 @@ function Router() {
       {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>
+    </Suspense>
   );
 }
 

@@ -270,19 +270,18 @@ function DirectorColumn({
           justifyContent: "center",
         }}
       >
-        {portraitSrc ? (
-         <img
-           src={portraitSrc}
-           alt={portraitAlt || name}
-            loading="lazy"
-           style={{
-             width: "100%",
-             height: "100%",
-             objectFit: "cover",
-              objectPosition: "center top",
-              display: "block",
-            }}
-          />
+       {portraitSrc ? (
+        <img
+          src={portraitSrc}
+          alt={portraitAlt || name}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+             objectPosition: "center top",
+             display: "block",
+           }}
+         />
         ) : (
           <>
             <span
@@ -331,10 +330,10 @@ function DirectorColumn({
           fontFamily: "'Open Sans', sans-serif",
           fontSize: "12px",
           fontWeight: 600,
-          letterSpacing: "0.12em",
-          textTransform: "uppercase",
-          color: "#84A98C",
-          marginBottom: "24px",
+         letterSpacing: "0.12em",
+         textTransform: "uppercase",
+         color: "#4A7A55",
+         marginBottom: "24px",
         }}
       >
         {title}
@@ -377,9 +376,9 @@ function DirectorColumn({
         <p
           style={{
             fontFamily: "'Open Sans', sans-serif",
-            fontSize: "14px",
-            color: "#5C6E74",
-            lineHeight: 1.5,
+         fontSize: "14px",
+         color: "#3d4f5a",
+         lineHeight: 1.5,
           }}
         >
           {address}
