@@ -219,6 +219,28 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    sourcemap: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Vendor chunk: React + React DOM
+          "vendor-react": ["react", "react-dom"],
+          // UI chunk: Radix + shadcn components
+          "vendor-ui": [
+            "@radix-ui/react-accordion",
+            "@radix-ui/react-dialog",
+            "@radix-ui/react-dropdown-menu",
+            "@radix-ui/react-navigation-menu",
+            "@radix-ui/react-tooltip",
+            "class-variance-authority",
+            "clsx",
+            "tailwind-merge",
+          ],
+          // Animation chunk: framer-motion (large)
+          "vendor-motion": ["framer-motion"],
+        },
+      },
+    },
   },
   server: {
     port: 3000,
