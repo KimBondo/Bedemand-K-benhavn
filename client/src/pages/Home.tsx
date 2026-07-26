@@ -10,6 +10,8 @@ import SEO from "@/components/SEO";
  * Interaction policy: NO animations on load. ONE permitted interaction: 200ms button hover.
  */
 
+import SchemaOrg from "@/components/SchemaOrg";
+
 export default function Home() {
   return (
     <div
@@ -25,6 +27,7 @@ export default function Home() {
         url="https://bedemandkobenhavn.dk/"
         image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
+      <SchemaOrg type="WebSite" />
       {/* ─── SOLID BLUE BACKGROUND ───────────────────────────────────────── */}
 
       {/* ─── SCROLLABLE CONTENT ──────────────────────────────────────────── */}

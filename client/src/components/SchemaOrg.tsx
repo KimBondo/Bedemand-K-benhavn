@@ -2,7 +2,8 @@ import { useEffect } from "react";
 
 /**
  * SchemaOrg – injects JSON-LD structured data into <head>.
- * Supports FuneralHome (LocalBusiness), FAQPage, Service and BreadcrumbList schemas.
+ * Supports FuneralHome (LocalBusiness), FAQPage, Service, BreadcrumbList,
+ * WebSite (sitelinks searchbox), Organization and ItemList schemas.
  *
  * Google uses these for rich results in local search, knowledge panels and FAQ snippets.
  */
@@ -23,11 +24,20 @@ export interface ServiceItem {
   price?: string;
 }
 
+export interface ProductItem {
+  name: string;
+  description: string;
+  image: string;
+  price: string;
+  sku: string;
+}
+
 interface SchemaOrgProps {
-  type: "LocalBusiness" | "FAQPage" | "both";
+  type: "LocalBusiness" | "FAQPage" | "both" | "WebSite" | "ItemList";
   faqItems?: FAQItem[];
   breadcrumbs?: BreadcrumbItem[];
   services?: ServiceItem[];
+  products?: ProductItem[];
   pageUrl?: string;
 }
 
@@ -129,9 +139,40 @@ const KIM_LOCAL_BUSINESS = {
   ]
 };
 
-export default function SchemaOrg({ type, faqItems, breadcrumbs, services, pageUrl }: SchemaOrgProps) {
+const WEBSITE_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${BASE_URL}/#website`,
+  "url": BASE_URL,
+  "name": "Bedemand København og Nordsjælland",
+  "description": "Find en personlig bedemand i København og Nordsjælland. Bisættelse, begravelse og afsked med nærvær og ro.",
+  "inLanguage": "da-DK",
+  "publisher": {
+    "@type": "Organization",
+    "@id": `${BASE_URL}/#organization`,
+    "name": "Bedemand København",
+    "url": BASE_URL,
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${BASE_URL}/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png`
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+4522211437",
+      "contactType": "customer service",
+      "areaServed": "DK",
+      "availableLanguage": "Danish"
+    }
+  }
+};
+
+export default function SchemaOrg({ type, faqItems, breadcrumbs, services, products, pageUrl }: SchemaOrgProps) {
   useEffect(() => {
     const schemas: object[] = [];
+
+    if (type === "WebSite") {
+      schemas.push(WEBSITE_SCHEMA);
+    }
 
     if (type === "LocalBusiness" || type === "both") {
       schemas.push(KIM_LOCAL_BUSINESS);
@@ -192,6 +233,39 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, pageU
       });
     }
 
+    // ItemList schema – for product/catalog pages
+    if (type === "ItemList" && products && products.length > 0) {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Kister og urner",
+        "description": "Udvalg af kister og urner til begravelse og bisættelse",
+        "url": pageUrl || `${BASE_URL}/kim-bondo/produkter`,
+        "numberOfItems": products.length,
+        "itemListElement": products.map((product, idx) => ({
+          "@type": "ListItem",
+          "position": idx + 1,
+          "item": {
+            "@type": "Product",
+            "name": product.name,
+            "description": product.description,
+            "image": product.image.startsWith("http") ? product.image : `${BASE_URL}${product.image}`,
+            "sku": product.sku,
+            "offers": {
+              "@type": "Offer",
+              "price": product.price,
+              "priceCurrency": "DKK",
+              "availability": "https://schema.org/InStock",
+              "seller": {
+                "@type": "LocalBusiness",
+                "@id": `${BASE_URL}/kim-bondo`
+              }
+            }
+          }
+        }))
+      });
+    }
+
     // Inject each schema as a separate <script> tag
     const elements: HTMLScriptElement[] = [];
     schemas.forEach((schema, i) => {
@@ -209,7 +283,7 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, pageU
     return () => {
       elements.forEach((el) => el.remove());
     };
-  }, [type, faqItems, breadcrumbs, services, pageUrl]);
+  }, [type, faqItems, breadcrumbs, services, products, pageUrl]);
 
   return null;
 }

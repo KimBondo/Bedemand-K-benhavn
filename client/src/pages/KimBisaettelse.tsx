@@ -34,6 +34,17 @@ export default function KimBisaettelse() {
           { name: "Bisættelse", url: "https://bedemandkobenhavn.dk/kim-bondo/bisaettelse" }
         ]}
       />
+      <SchemaOrg
+        type="FAQPage"
+        faqItems={[
+          { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. Begge kan foregå med eller uden ceremoni." },
+          { question: "Kan man holde en bisættelse uden ceremoni?", answer: "Ja. En afsked uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde en mindesammenkomst på et senere tidspunkt." },
+          { question: "Hvad sker der med urnen efter bisættelsen?", answer: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper med at finde den løsning, der passer til afdødes og familiens ønsker." },
+          { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering. Det er et valg, mange familier sætter pris på." },
+          { question: "Hvad er inkluderet i prisen for bisættelse?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter som kremering, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket." },
+        ]}
+        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/bisaettelse"
+      />
       {/* ── HEADER ── */}
       <header
         style={{

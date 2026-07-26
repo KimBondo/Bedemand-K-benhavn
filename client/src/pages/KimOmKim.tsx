@@ -1,6 +1,45 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import { useEffect } from "react";
+
+function PersonSchema() {
+  useEffect(() => {
+    const schema = {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://bedemandkobenhavn.dk/kim-bondo/om-kim#kim-bondo",
+      "name": "Kim Bondo",
+      "jobTitle": "Selvstændig bedemand",
+      "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
+      "url": "https://bedemandkobenhavn.dk/kim-bondo",
+      "image": "https://bedemandkobenhavn.dk/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png",
+      "telephone": "+4522211437",
+      "email": "kim@bedemandkobenhavn.dk",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Vandtårnsvej 62A",
+        "addressLocality": "Søborg",
+        "postalCode": "2860",
+        "addressCountry": "DK"
+      },
+      "worksFor": {
+        "@type": "LocalBusiness",
+        "@id": "https://bedemandkobenhavn.dk/kim-bondo"
+      },
+      "knowsAbout": ["Bisættelse", "Begravelse", "Afsked uden ceremoni", "Askespredning", "Begravelseshjælp"]
+    };
+    const existing = document.querySelector('script[data-schema-id="person-kim-bondo"]');
+    if (existing) existing.remove();
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.setAttribute("data-schema-id", "person-kim-bondo");
+    script.textContent = JSON.stringify(schema, null, 2);
+    document.head.appendChild(script);
+    return () => { script.remove(); };
+  }, []);
+  return null;
+}
 
 /**
  * Kim Bondo – Om Kim
@@ -31,6 +70,7 @@ export default function KimOmKim() {
           { name: "Om Kim", url: "https://bedemandkobenhavn.dk/kim-bondo/om-kim" }
         ]}
       />
+      <PersonSchema />
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
         <style>{`

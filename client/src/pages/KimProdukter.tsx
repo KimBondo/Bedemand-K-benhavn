@@ -151,6 +151,26 @@ export default function KimProdukter() {
           { name: "Kister og urner", url: "https://bedemandkobenhavn.dk/kim-bondo/produkter" }
         ]}
       />
+      <SchemaOrg
+        type="ItemList"
+        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/produkter"
+        products={[
+          ...KISTER.map(k => ({
+            name: k.name,
+            description: k.description,
+            image: k.image,
+            price: k.priceLabel.replace(/[^0-9]/g, ""),
+            sku: k.id,
+          })),
+          ...URNER.map(u => ({
+            name: u.name,
+            description: u.description,
+            image: u.image,
+            price: u.priceLabel.replace(/[^0-9]/g, ""),
+            sku: u.id,
+          })),
+        ]}
+      />
 
       <style>{hoverZoomStyle}</style>
       {/* ── HEADER ── */}

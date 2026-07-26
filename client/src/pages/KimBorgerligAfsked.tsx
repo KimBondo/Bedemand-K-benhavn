@@ -30,6 +30,22 @@ export default function KimBorgerligAfsked() {
       />
 
       <SchemaOrg type="LocalBusiness" />
+      <SchemaOrg
+        type="both"
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Borgerlig afsked", url: "https://bedemandkobenhavn.dk/kim-bondo/borgerlig-afsked" }
+        ]}
+        faqItems={[
+          { question: "Hvad er forskellen på en borgerlig og en kirkelig afsked?", answer: "En borgerlig afsked ledes ikke af en præst og følger ingen religiøse ritualer. I stedet tilpasses ceremonien frit efter familiens ønsker. En kirkelig afsked ledes af en præst og følger Folkekirkens traditioner." },
+          { question: "Hvem kan lede en borgerlig ceremoni?", answer: "Ceremonien kan ledes af en person fra familien, en nær ven eller en professionel ceremonileder. Humanistisk Samfund tilbyder uddannede ceremoniledere. Jeg kan også hjælpe med at gennemføre en ceremoni, som I planlægger." },
+          { question: "Kan en borgerlig afsked foregå i en kirke?", answer: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. En borgerlig ceremoni kan holdes i et kapel, hjemme eller et andet sted — men ikke i en kirke." },
+          { question: "Kan en borgerlig ceremoni kombineres med askespredning?", answer: "Ja. Efter en borgerlig bisættelse kan urnen bruges til askespredning over havet. Jeg hjælper med at arrangere begge dele." },
+          { question: "Hvad koster en borgerlig afsked?", answer: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste — jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser." },
+        ]}
+        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/borgerlig-afsked"
+      />
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
 <style>{`

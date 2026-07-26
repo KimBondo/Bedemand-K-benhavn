@@ -26,6 +26,22 @@ export default function KimAskespredning() {
       />
 
       <SchemaOrg type="LocalBusiness" />
+      <SchemaOrg
+        type="both"
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Askespredning", url: "https://bedemandkobenhavn.dk/kim-bondo/askespredning" }
+        ]}
+        faqItems={[
+          { question: "Er askespredning tilladt i Danmark?", answer: "Ja, askespredning over havet er tilladt i Danmark, men kræver at afdøde har udtrykt ønske om det. Hvis der ikke foreligger en skriftlig erklæring, kan pårørende udfylde en tro- og love erklæring. Jeg hjælper gerne med det." },
+          { question: "Kan askespredning kombineres med en ceremoni?", answer: "Ja. Askespredning kan kombineres med en kirkelig eller borgerlig bisættelse inden kremeringen. Nogen vælger at lade selve spredningen være en lille ceremoni for de nærmeste." },
+          { question: "Kan man sprede asken selv?", answer: "Ja. Pårørende afhenter typisk urnen ved krematoriet og forestår selv spredningen. Jeg kan koordinere det på jeres vegne, hvis I foretrækker det." },
+          { question: "Hvad sker der med urnen efter spredningen?", answer: "Urnen må ikke efterlades i havet. Den tages med tilbage og bortskaffes. Jeg hjælper med dette, hvis det ønskes." },
+          { question: "Kan man sprede asken i en skov?", answer: "Nej, reglerne i Danmark tillader kun askespredning over åbent hav eller større fjorde og bugter. Det er ikke tilladt at sprede asken på land, i skove, søer eller vandløb." },
+        ]}
+        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/askespredning"
+      />
       {/* ── HEADER ── */}
       <header
         style={{

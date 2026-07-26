@@ -30,6 +30,22 @@ export default function KimKirkeligAfsked() {
       />
 
       <SchemaOrg type="LocalBusiness" />
+      <SchemaOrg
+        type="both"
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Kirkelig afsked", url: "https://bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked" }
+        ]}
+        faqItems={[
+          { question: "Kan man få en kirkelig afsked uden at være medlem af Folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af Folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen." },
+          { question: "Kan man holde ceremonien i en anden kirke end den lokale?", answer: "Ja, det er muligt, hvis der er en særlig tilknytning til den ønskede kirke — f.eks. tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Præsten vurderer tilknytningen." },
+          { question: "Kan en kirkelig ceremoni kombineres med askespredning?", answer: "Ja. Efter en kirkelig bisættelse kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det. Jeg hjælper med at arrangere begge dele." },
+          { question: "Er ceremonien i kirken gratis?", answer: "Som medlem af Folkekirken er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd." },
+          { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde den bedste løsning." },
+        ]}
+        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
+      />
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
 <style>{`

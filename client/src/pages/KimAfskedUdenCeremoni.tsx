@@ -26,6 +26,22 @@ export default function KimAfskedUdenCeremoni() {
       />
 
       <SchemaOrg type="LocalBusiness" />
+      <SchemaOrg
+        type="both"
+        breadcrumbs={[
+          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Afsked uden ceremoni", url: "https://bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni" }
+        ]}
+        faqItems={[
+          { question: "Kan man holde en mindesammenkomst på et andet tidspunkt?", answer: "Ja. Mange familier vælger at holde en mindesammenkomst på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme." },
+          { question: "Kan en afsked uden ceremoni kombineres med askespredning?", answer: "Ja. Efter en bisættelse uden ceremoni kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det." },
+          { question: "Er en afsked uden ceremoni billigere?", answer: "Ja, det er typisk den mest enkle og prisvenlige løsning, da der ikke er udgifter til kirke eller kapel. Men prisen afhænger stadig af valg af kiste, urne og kørsel." },
+          { question: "Behandles afdøde stadig med værdighed?", answer: "Absolut. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form." },
+          { question: "Hvad er forskellen på afsked uden ceremoni og en traditionel bisættelse?", answer: "En traditionel bisættelse inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En afsked uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed." },
+        ]}
+        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni"
+      />
       {/* ── HEADER ── */}
       <header
         style={{
