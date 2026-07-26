@@ -118,7 +118,7 @@ export default function Home() {
               phoneLink="tel:29296689"
               callLabel="Ring direkte til Marie"
               websiteLabel="Gå til Maries hjemmeside"
-              websiteHref="http://mariesbegravelser.dk"
+              websiteHref="https://mariesbegravelser.dk/"
               initials="MT"
               portraitSrc="/manus-storage/marie-portrait-new_3f60d1bf.jpeg"
               portraitAlt="Marie Thjellesen – Bedemand"
