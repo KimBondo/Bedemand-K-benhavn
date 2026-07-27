@@ -279,7 +279,12 @@ async function main() {
 </script>`;
 
   // Inject the inline script right before </body>
-  const output = template.replace("</body>", inlineScript + "\n</body>");
+  // Inject the inline script IMMEDIATELY AFTER <div id="root"></div>
+  // and BEFORE the React bundle script — so it runs synchronously before React hydrates
+  const output = template.replace(
+    '<div id="root"></div>',
+    '<div id="root"></div>\n' + inlineScript
+  );
 
   // Also inject the correct meta for the root route (/) into the static <head>
   // so that crawlers that don't execute JS still see correct title/description
