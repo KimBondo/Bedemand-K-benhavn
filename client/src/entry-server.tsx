@@ -5,7 +5,6 @@
  */
 import { renderToString } from "react-dom/server";
 import { Router } from "wouter";
-import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import ErrorBoundary from "./components/ErrorBoundary";
@@ -48,7 +47,6 @@ function SSRApp() {
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
-          <Toaster />
           <Switch>
             <Route path={"/"} component={Home} />
             <Route path={"/kim-bondo"} component={KimBondo} />
