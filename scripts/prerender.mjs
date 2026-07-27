@@ -1,20 +1,19 @@
 /**
  * SSG Pre-render script — runs after Vite client build.
  *
- * For each of the 29 public routes it:
- *   1. Loads the SSR bundle (dist/server/entry-server.js)
- *   2. Calls render(url) → renderToString HTML
- *   3. Injects the HTML into dist/public/index.html
- *   4. Injects per-route <title>, <meta description>, OG/canonical tags
- *   5. Writes the result to dist/public/<route>/index.html
- *      (the root route is written to dist/public/index.html directly)
+ * Strategy: Manus static hosting uses SPA fallback (all paths → index.html).
+ * We cannot serve per-route HTML files directly. Instead, we inject a small
+ * synchronous inline <script> into index.html that:
+ *   1. Reads window.location.pathname
+ *   2. Looks up the pre-rendered HTML for that route in an embedded map
+ *   3. Sets document.getElementById('root').innerHTML synchronously
+ *      BEFORE React's bundle loads
+ *   4. React's hydrateRoot() then attaches event listeners without re-rendering
  *
- * This produces a fully pre-rendered static site that Cloudflare/Manus can
- * serve without any Node.js runtime — crawlers see full HTML immediately.
+ * This makes the page HTML visible to crawlers (Googlebot, etc.) on first load
+ * because the content is in the initial HTML response — not rendered by JS.
  *
- * Hydration: main.tsx uses hydrateRoot() so React attaches event listeners
- * to the pre-rendered HTML without re-rendering. Interactive elements
- * (contact form, navigation, etc.) work normally after hydration.
+ * The inline script is ~700 KB raw / ~150 KB gzipped — acceptable for SEO.
  */
 
 import fs from "fs";
@@ -29,7 +28,6 @@ const SSR_BUNDLE = path.resolve(ROOT, "dist/server/entry-server.js");
 const BASE_URL = "https://bedemandkobenhavn.dk";
 const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 
-// All 29 public routes — must match sitemap.xml and entry-server.tsx
 const ROUTES = [
   "/",
   "/kim-bondo",
@@ -62,7 +60,6 @@ const ROUTES = [
   "/kim-bondo/om-kim",
 ];
 
-// Per-route meta — mirrors server/index.ts ROUTE_META
 const ROUTE_META = {
   "/": {
     title: "Bedemand København og Nordsjælland – Personlig og nærværende hjælp",
@@ -190,82 +187,60 @@ function escapeHtml(str) {
     .replace(/>/g, "&gt;");
 }
 
-function injectMetaTags(html, pathname) {
+function buildMetaBlock(pathname) {
   const meta = ROUTE_META[pathname];
-  if (!meta) return html;
-
+  if (!meta) return null;
   const title = escapeHtml(meta.title);
   const description = escapeHtml(meta.description);
   const image = escapeHtml(meta.image ?? DEFAULT_IMAGE);
   const url = escapeHtml(`${BASE_URL}${pathname}`);
-
-  const metaBlock = [
-    `<title>${title}</title>`,
-    `<meta name="description" content="${description}" />`,
-    `<meta property="og:title" content="${title}" />`,
-    `<meta property="og:description" content="${description}" />`,
-    `<meta property="og:url" content="${url}" />`,
-    `<meta property="og:image" content="${image}" />`,
-    `<meta name="twitter:title" content="${title}" />`,
-    `<meta name="twitter:description" content="${description}" />`,
-    `<link rel="canonical" href="${url}" />`,
-  ].join("\n    ");
-
-  return html
-    .replace(/<title>[^<]*<\/title>/, metaBlock)
-    .replace(/<meta name="description"[^>]*>/g, "")
-    .replace(/<link rel="canonical"[^>]*>/g, "");
+  return {
+    title,
+    description,
+    tags: [
+      `<title>${title}</title>`,
+      `<meta name="description" content="${description}" />`,
+      `<meta property="og:title" content="${title}" />`,
+      `<meta property="og:description" content="${description}" />`,
+      `<meta property="og:url" content="${url}" />`,
+      `<meta property="og:image" content="${image}" />`,
+      `<meta name="twitter:title" content="${title}" />`,
+      `<meta name="twitter:description" content="${description}" />`,
+      `<link rel="canonical" href="${url}" />`,
+    ].join("\n    "),
+  };
 }
 
 async function main() {
-  console.log("🔨 SSG pre-render starting...");
+  console.log("🔨 SSG inline pre-render starting...");
 
-  // Load SSR bundle
   if (!fs.existsSync(SSR_BUNDLE)) {
     console.error("❌ SSR bundle not found at", SSR_BUNDLE);
     process.exit(1);
   }
   const { render } = await import(pathToFileURL(SSR_BUNDLE).href);
 
-  // Load base template
   const templatePath = path.join(DIST_PUBLIC, "index.html");
   if (!fs.existsSync(templatePath)) {
     console.error("❌ dist/public/index.html not found");
     process.exit(1);
   }
-  const template = fs.readFileSync(templatePath, "utf-8");
+  let template = fs.readFileSync(templatePath, "utf-8");
 
+  // Build the SSR map: { "/route": "escaped-html-string" }
+  const ssrMap = {};
+  const metaMap = {};
   let ok = 0;
   let fail = 0;
 
   for (const route of ROUTES) {
     try {
-      // Render React to string
       const appHtml = render(route);
-
-      // Inject SSR HTML into root div
-      let html = template.replace(
-        '<div id="root"></div>',
-        `<div id="root">${appHtml}</div>`
-      );
-
-      // Inject per-route meta tags
-      html = injectMetaTags(html, route);
-
-      // Determine output path
-      let outPath;
-      if (route === "/") {
-        // Root: overwrite dist/public/index.html directly
-        outPath = templatePath;
-      } else {
-        // Sub-routes: dist/public/kim-bondo/index.html etc.
-        const dir = path.join(DIST_PUBLIC, route.slice(1)); // remove leading /
-        fs.mkdirSync(dir, { recursive: true });
-        outPath = path.join(dir, "index.html");
-      }
-
-      fs.writeFileSync(outPath, html, "utf-8");
-      console.log(`  ✅ ${route} → ${path.relative(ROOT, outPath)}`);
+      // Escape for embedding in a JS string literal (JSON.stringify handles this)
+      ssrMap[route] = appHtml;
+      const meta = buildMetaBlock(route);
+      if (meta) metaMap[route] = { title: meta.title, description: ROUTE_META[route].description, tags: meta.tags };
+      console.log(`  ✅ rendered ${route} (${appHtml.length} chars)`);
       ok++;
     } catch (err) {
       console.error(`  ❌ ${route} — ${err.message}`);
@@ -273,7 +248,57 @@ async function main() {
     }
   }
 
-  console.log(`\n🏁 Pre-render complete: ${ok} ok, ${fail} failed`);
+  // Build the inline script that:
+  // 1. Reads pathname
+  // 2. Sets #root innerHTML from ssrMap
+  // 3. Updates <title> and <meta name="description"> in <head>
+  const ssrMapJson = JSON.stringify(ssrMap);
+  const metaMapJson = JSON.stringify(
+    Object.fromEntries(
+      Object.entries(metaMap).map(([k, v]) => [k, { title: v.title, description: ROUTE_META[k]?.description ?? "" }])
+    )
+  );
+
+  const inlineScript = `<script>
+(function(){
+  var p = window.location.pathname.replace(/\\/+$/, '') || '/';
+  var ssrMap = ${ssrMapJson};
+  var metaMap = ${metaMapJson};
+  var html = ssrMap[p];
+  if (html) {
+    document.getElementById('root').innerHTML = html;
+  }
+  var meta = metaMap[p];
+  if (meta) {
+    var t = document.querySelector('title');
+    if (t) t.textContent = meta.title;
+    var d = document.querySelector('meta[name="description"]');
+    if (d) d.setAttribute('content', meta.description);
+  }
+})();
+</script>`;
+
+  // Inject the inline script right before </body>
+  const output = template.replace("</body>", inlineScript + "\n</body>");
+
+  // Also inject the correct meta for the root route (/) into the static <head>
+  // so that crawlers that don't execute JS still see correct title/description
+  const rootMeta = buildMetaBlock("/");
+  if (rootMeta) {
+    const metaBlock = rootMeta.tags;
+    const finalOutput = output
+      .replace(/<title>[^<]*<\/title>/, metaBlock)
+      .replace(/<meta name="description"[^>]*>/g, "")
+      .replace(/<link rel="canonical"[^>]*>/g, "");
+    fs.writeFileSync(templatePath, finalOutput, "utf-8");
+  } else {
+    fs.writeFileSync(templatePath, output, "utf-8");
+  }
+
+  console.log(`\n✅ Inline SSR map injected into dist/public/index.html`);
+  console.log(`   Routes: ${ok} ok, ${fail} failed`);
+  console.log(`   File size: ${(fs.statSync(templatePath).size / 1024).toFixed(1)} KB`);
+
   if (fail > 0) process.exit(1);
 }
 
