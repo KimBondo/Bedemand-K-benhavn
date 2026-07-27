@@ -3,9 +3,14 @@ import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
 import fs from "fs";
+import { pathToFileURL } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+// NOTE: esbuild bundles server/index.ts into dist/index.js, so __dirname resolves
+// to the directory where node is invoked from (typically the project root), NOT dist/.
+// We use import.meta.url to get the actual location of the bundled file at runtime.
+const DIST_DIR = path.dirname(fileURLToPath(import.meta.url));
 
 const BASE_URL = "https://bedemandkobenhavn.dk";
 const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
@@ -170,6 +175,24 @@ async function startServer() {
   const app = express();
   const server = createServer(app);
 
+  // Load SSR render function (only in production)
+  let ssrRender: ((url: string) => string) | null = null;
+  if (process.env.NODE_ENV === "production") {
+    try {
+      // dist/index.js has __dirname = dist/, so SSR bundle is at dist/server/entry-server.js
+      const ssrPath = path.resolve(DIST_DIR, "server", "entry-server.js");
+      if (fs.existsSync(ssrPath)) {
+        const ssrModule = await import(pathToFileURL(ssrPath).href);
+        ssrRender = ssrModule.render;
+        console.log("SSR render function loaded successfully");
+      } else {
+        console.warn("SSR bundle not found at", ssrPath, "— falling back to CSR");
+      }
+    } catch (e) {
+      console.warn("Failed to load SSR bundle:", e, "— falling back to CSR");
+    }
+  }
+
   // Security headers
   app.use((_req, res, next) => {
     // HSTS — tell browsers to always use HTTPS for 1 year
@@ -200,17 +223,37 @@ async function startServer() {
       ? path.resolve(__dirname, "public")
       : path.resolve(__dirname, "..", "dist", "public");
 
-  app.use(express.static(staticPath));
+  // index: false prevents express.static from serving index.html directly for "/"
+  // which would bypass our SSR handler (app.get("*")) that injects rendered React HTML.
+  app.use(express.static(staticPath, { index: false }));
 
   // Handle client-side routing — inject per-route meta tags into index.html
   app.get("*", (req, res) => {
     const indexPath = path.join(staticPath, "index.html");
-    fs.readFile(indexPath, "utf-8", (err, html) => {
+    fs.readFile(indexPath, "utf-8", (err, template) => {
       if (err) {
         res.status(500).send("Server error");
         return;
       }
       const pathname = req.path;
+
+      let html = template;
+
+      // SSR: render React to string and inject into <div id="root">
+      if (ssrRender) {
+        try {
+          const appHtml = ssrRender(pathname);
+          html = template.replace(
+            '<div id="root"></div>',
+            `<div id="root">${appHtml}</div>`
+          );
+        } catch (e) {
+          console.error("SSR render error for", pathname, ":", e);
+          // Fall back to CSR on SSR error
+          html = template;
+        }
+      }
+
       const injected = injectMetaTags(html, pathname);
       res.setHeader("Content-Type", "text/html; charset=utf-8");
       res.send(injected);

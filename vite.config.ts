@@ -204,9 +204,17 @@ function vitePluginStorageProxy(): Plugin {
 }
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
+// SSR build must NOT include jsxLocPlugin — it forces jsxDEV (dev runtime) which crashes in Node SSR
+// Use jsxImportSource to force production JSX runtime (jsx, not jsxDEV) in SSR bundle
+const ssrPlugins = [
+  react({ jsxRuntime: "automatic" }),
+  tailwindcss(),
+  vitePluginManusRuntime(),
+  vitePluginStorageProxy(),
+];
 
 export default defineConfig({
-  plugins,
+  plugins: process.env.VITE_SSR ? ssrPlugins : plugins,
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
@@ -220,27 +228,29 @@ export default defineConfig({
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
     sourcemap: true,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          // Vendor chunk: React + React DOM
-          "vendor-react": ["react", "react-dom"],
-          // UI chunk: Radix + shadcn components
-          "vendor-ui": [
-            "@radix-ui/react-accordion",
-            "@radix-ui/react-dialog",
-            "@radix-ui/react-dropdown-menu",
-            "@radix-ui/react-navigation-menu",
-            "@radix-ui/react-tooltip",
-            "class-variance-authority",
-            "clsx",
-            "tailwind-merge",
-          ],
-          // Animation chunk: framer-motion (large)
-          "vendor-motion": ["framer-motion"],
+    rollupOptions: process.env.VITE_SSR
+      ? {}
+      : {
+          output: {
+            manualChunks: {
+              // Vendor chunk: React + React DOM
+              "vendor-react": ["react", "react-dom"],
+              // UI chunk: Radix + shadcn components
+              "vendor-ui": [
+                "@radix-ui/react-accordion",
+                "@radix-ui/react-dialog",
+                "@radix-ui/react-dropdown-menu",
+                "@radix-ui/react-navigation-menu",
+                "@radix-ui/react-tooltip",
+                "class-variance-authority",
+                "clsx",
+                "tailwind-merge",
+              ],
+              // Animation chunk: framer-motion (large)
+              "vendor-motion": ["framer-motion"],
+            },
+          },
         },
-      },
-    },
   },
   server: {
     port: 3000,

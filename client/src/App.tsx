@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Router, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
@@ -38,7 +38,7 @@ const KimProdukter = lazy(() => import("./pages/KimProdukter"));
 const KimOmKim = lazy(() => import("./pages/KimOmKim"));
 
 
-function Router() {
+function AppRouter() {
   return (
     <Suspense fallback={<div style={{ minHeight: "100vh", background: "#F9F8F6" }} />}>
     <Switch>
@@ -89,11 +89,10 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider
         defaultTheme="light"
-        // switchable
       >
         <TooltipProvider>
           <Toaster />
-          <Router />
+          <AppRouter />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
