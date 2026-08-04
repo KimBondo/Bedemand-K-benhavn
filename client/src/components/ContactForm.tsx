@@ -1,15 +1,38 @@
 /**
  * ContactForm – Kim Bondo
- * Simple contact form: name, phone, message.
+ * Simple contact form: name, phone, and optional timing/message field.
  * Uses mailto: as the action so it works without a backend.
- * On submit, opens the user's email client pre-filled with the message.
+ * Fires dataLayer events for Google Tag Manager conversion tracking.
+ *
+ * Props:
+ *   variant="default"  → name + phone + message (produktsiden)
+ *   variant="priser"   → name + phone + hvornår (prissiden)
  */
 
 import { useState } from "react";
 
-export default function ContactForm() {
+// ── GTM dataLayer helper ─────────────────────────────────────────────────────
+declare global {
+  interface Window {
+    dataLayer: Record<string, unknown>[];
+  }
+}
+
+function pushEvent(event: string, params?: Record<string, unknown>) {
+  if (typeof window !== "undefined") {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event, ...params });
+  }
+}
+
+// ── Component ────────────────────────────────────────────────────────────────
+interface ContactFormProps {
+  variant?: "default" | "priser";
+}
+
+export default function ContactForm({ variant = "default" }: ContactFormProps) {
   const [submitted, setSubmitted] = useState(false);
-  const [form, setForm] = useState({ name: "", phone: "", message: "" });
+  const [form, setForm] = useState({ name: "", phone: "", message: "", timing: "" });
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -19,12 +42,21 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    // ── Conversion tracking ──────────────────────────────────────────────────
+    pushEvent("form_submit", {
+      form_type: variant === "priser" ? "priser_contact" : "product_contact",
+      has_phone: !!form.phone,
+    });
+
     const subject = encodeURIComponent(
       `Henvendelse fra ${form.name || "hjemmesiden"}`
     );
-    const body = encodeURIComponent(
-      `Navn: ${form.name}\nTelefon: ${form.phone}\n\nBesked:\n${form.message}`
-    );
+    const bodyText =
+      variant === "priser"
+        ? `Navn: ${form.name}\nTelefon: ${form.phone}\n\nHvornår passer det at ringe:\n${form.timing}`
+        : `Navn: ${form.name}\nTelefon: ${form.phone}\n\nBesked:\n${form.message}`;
+    const body = encodeURIComponent(bodyText);
     window.location.href = `mailto:kim@bedemandkobenhavn.dk?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
@@ -86,11 +118,11 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} noValidate>
-      <label style={labelStyle} htmlFor="name">
+      <label style={labelStyle} htmlFor="cf-name">
         Navn
       </label>
       <input
-        id="name"
+        id="cf-name"
         name="name"
         type="text"
         placeholder="Dit fulde navn"
@@ -100,11 +132,11 @@ export default function ContactForm() {
         style={inputStyle}
       />
 
-      <label style={labelStyle} htmlFor="phone">
+      <label style={labelStyle} htmlFor="cf-phone">
         Telefon
       </label>
       <input
-        id="phone"
+        id="cf-phone"
         name="phone"
         type="tel"
         placeholder="Dit telefonnummer"
@@ -113,23 +145,42 @@ export default function ContactForm() {
         style={inputStyle}
       />
 
-      <label style={labelStyle} htmlFor="message">
-        Besked
-      </label>
-      <textarea
-        id="message"
-        name="message"
-        placeholder="Skriv gerne kort, hvad det drejer sig om – der er ingen forkerte spørgsmål."
-        value={form.message}
-        onChange={handleChange}
-        required
-        rows={6}
-        style={{
-          ...inputStyle,
-          resize: "vertical",
-          lineHeight: 1.7,
-        }}
-      />
+      {variant === "priser" ? (
+        <>
+          <label style={labelStyle} htmlFor="cf-timing">
+            Hvornår passer det, jeg ringer?
+          </label>
+          <input
+            id="cf-timing"
+            name="timing"
+            type="text"
+            placeholder="F.eks. hverdage efter kl. 16, eller hvornår som helst"
+            value={form.timing}
+            onChange={handleChange}
+            style={inputStyle}
+          />
+        </>
+      ) : (
+        <>
+          <label style={labelStyle} htmlFor="cf-message">
+            Besked
+          </label>
+          <textarea
+            id="cf-message"
+            name="message"
+            placeholder="Skriv gerne kort, hvad det drejer sig om – der er ingen forkerte spørgsmål."
+            value={form.message}
+            onChange={handleChange}
+            required
+            rows={6}
+            style={{
+              ...inputStyle,
+              resize: "vertical",
+              lineHeight: 1.7,
+            }}
+          />
+        </>
+      )}
 
       <p
         style={{

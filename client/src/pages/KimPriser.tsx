@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import ContactForm from "@/components/ContactForm";
 
 /**
  * Kim Bondo – Komplet Prisliste
@@ -349,8 +350,18 @@ export default function KimPriser() {
             Jeg kommer hjem til jer og hjælper med at skrive ønskerne ned: hvad der skal ske, hvad det koster, hvem der skal ringes til. Det tager en time, og så er det ordnet. Det koster ingenting, og der er ingen forpligtelse bagefter.
           </p>
           <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", marginTop: "8px" }}>
-            Ring 22 21 14 37
+          Ring 22 21 14 37
           </a>
+        </section>
+
+        {/* ── KONTAKTFORMULAR ── */}
+        <section style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px" }}>
+          <span style={s.label}>Skriv til mig</span>
+          <h2 style={{ ...s.h2, marginBottom: "8px" }}>Har du spørgsmål til priserne?</h2>
+          <p style={{ ...s.body, marginBottom: "28px" }}>
+            Udfyld formularen, så ringer jeg tilbage på et tidspunkt, der passer dig. Ingen forpligtelse.
+          </p>
+          <ContactForm variant="priser" />
         </section>
 
       </div>
