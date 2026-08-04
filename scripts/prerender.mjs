@@ -29,6 +29,8 @@ const BASE_URL = "https://bedemandkobenhavn.dk";
 const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 
 const ROUTES = [
+  // NOTE: "/" must be first — its meta is injected as static HTML in <head>
+  // All other routes get their meta injected via the inline JS script
   "/",
   "/kim-bondo",
   "/kim-bondo/priser",
@@ -248,16 +250,26 @@ async function main() {
     }
   }
 
-  // Build the inline script that:
-  // 1. Reads pathname
-  // 2. Sets #root innerHTML from ssrMap
-  // 3. Updates <title> and <meta name="description"> in <head>
+  // Build the full meta map for the inline script (all OG + Twitter + canonical tags)
+  // The inline script updates ALL head meta tags in the browser for non-/ routes
   const ssrMapJson = JSON.stringify(ssrMap);
-  const metaMapJson = JSON.stringify(
-    Object.fromEntries(
-      Object.entries(metaMap).map(([k, v]) => [k, { title: v.title, description: ROUTE_META[k]?.description ?? "" }])
-    )
-  );
+
+  // Full meta map: each route gets title, description, and all OG/Twitter/canonical tags
+  const fullMetaMap = {};
+  for (const [route, meta] of Object.entries(metaMap)) {
+    if (route === "/") continue; // / is handled by static HTML injection below
+    const m = ROUTE_META[route];
+    if (!m) continue;
+    const image = m.image ?? DEFAULT_IMAGE;
+    const url = `${BASE_URL}${route}`;
+    fullMetaMap[route] = {
+      title: meta.title,
+      description: m.description,
+      url,
+      image,
+    };
+  }
+  const metaMapJson = JSON.stringify(fullMetaMap);
 
   const inlineScript = `<script>
 (function(){
@@ -270,10 +282,29 @@ async function main() {
   }
   var meta = metaMap[p];
   if (meta) {
+    // Update <title>
     var t = document.querySelector('title');
     if (t) t.textContent = meta.title;
-    var d = document.querySelector('meta[name="description"]');
-    if (d) d.setAttribute('content', meta.description);
+    // Helper: upsert a meta tag
+    function setMeta(sel, attrName, attrVal, content) {
+      var el = document.querySelector(sel);
+      if (!el) { el = document.createElement('meta'); el.setAttribute(attrName, attrVal); document.head.appendChild(el); }
+      el.setAttribute('content', content);
+    }
+    function setLink(rel, href) {
+      var el = document.querySelector('link[rel="' + rel + '"]');
+      if (!el) { el = document.createElement('link'); el.setAttribute('rel', rel); document.head.appendChild(el); }
+      el.setAttribute('href', href);
+    }
+    setMeta('meta[name="description"]', 'name', 'description', meta.description);
+    setMeta('meta[property="og:title"]', 'property', 'og:title', meta.title);
+    setMeta('meta[property="og:description"]', 'property', 'og:description', meta.description);
+    setMeta('meta[property="og:url"]', 'property', 'og:url', meta.url);
+    setMeta('meta[property="og:image"]', 'property', 'og:image', meta.image);
+    setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', meta.title);
+    setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', meta.description);
+    setMeta('meta[name="twitter:image"]', 'name', 'twitter:image', meta.image);
+    setLink('canonical', meta.url);
   }
 })();
 </script>`;
@@ -291,10 +322,14 @@ async function main() {
   const rootMeta = buildMetaBlock("/");
   if (rootMeta) {
     const metaBlock = rootMeta.tags;
-    const finalOutput = output
-      .replace(/<title>[^<]*<\/title>/, metaBlock)
-      .replace(/<meta name="description"[^>]*>/g, "")
-      .replace(/<link rel="canonical"[^>]*>/g, "");
+    // Step 1: Remove existing title, description and canonical from template
+    // (they will be replaced by the full metaBlock below)
+    const cleaned = output
+      .replace(/<title>[^<]*<\/title>/, "<!--TITLE_PLACEHOLDER-->")
+      .replace(/<meta\s+name="description"[^>]*\/?>/g, "")
+      .replace(/<link\s+rel="canonical"[^>]*\/?>/g, "");
+    // Step 2: Insert the full metaBlock (title + description + OG + Twitter + canonical)
+    const finalOutput = cleaned.replace("<!--TITLE_PLACEHOLDER-->", metaBlock);
     fs.writeFileSync(templatePath, finalOutput, "utf-8");
   } else {
     fs.writeFileSync(templatePath, output, "utf-8");
