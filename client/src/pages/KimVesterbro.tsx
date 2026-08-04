@@ -30,7 +30,7 @@ export default function KimVesterbro() {
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Vesterbro?", answer: "Jeg er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
+        { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
         { question: "Hvilke krematorier og kirker er der på Vesterbro?", answer: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Absalons Kirke og Enghave Kirke. Jeg koordinerer direkte med de rette instanser." },
         { question: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
@@ -138,7 +138,7 @@ export default function KimVesterbro() {
             {[
               { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og krematorium på Vesterbro og i København.", href: "/kim-bondo/bisaettelse" },
               { title: "Begravelse", desc: "Kiste i jord på en af kirkegårdene på Vesterbro og omegn. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/kim-bondo/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 15.500 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
+              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 13.550 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
               { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Vesterbros kirker.", href: "/kim-bondo/kirkelig-afsked" },
               { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer, men med fuld personlighed.", href: "/kim-bondo/borgerlig-afsked" },
               { title: "Askespredning", desc: "Spredning af aske over havet ud for Sjællands kyst. En fri og naturlig afsked.", href: "/kim-bondo/askespredning" },
@@ -163,9 +163,9 @@ export default function KimVesterbro() {
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
-              { type: "Afsked uden ceremoni", price: "15.500 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
-              { type: "Bisættelse med ceremoni", price: "17.395 kr.", href: "/kim-bondo/bisaettelse" },
-              { type: "Begravelse i kiste", price: "18.500 kr.", href: "/kim-bondo/begravelse" },
+              { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
+              { type: "Bisættelse med ceremoni", price: "19.500 kr.", href: "/kim-bondo/bisaettelse" },
+              { type: "Begravelse i kiste", price: "21.500 kr.", href: "/kim-bondo/begravelse" },
             ].map((p) => (
               <div key={p.type} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
@@ -187,7 +187,7 @@ export default function KimVesterbro() {
           <h2 style={s.h2}>Spørgsmål om bedemand på Vesterbro</h2>
           {[
             { q: "Hvem er bedemand på Vesterbro?", a: "Jeg er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en begravelse på Vesterbro?", a: "En afsked uden ceremoni starter fra 15.500 kr. En bisættelse med ceremoni fra 17.395 kr. En begravelse i kiste fra 18.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
+            { q: "Hvad koster en begravelse på Vesterbro?", a: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
             { q: "Hvilke krematorier og kirker er der på Vesterbro?", a: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Absalons Kirke og Enghave Kirke. Jeg koordinerer direkte med de rette instanser." },
             { q: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },

@@ -51,7 +51,7 @@ export default function KimBondo() {
     >
       <SEO
         title="Bedemand Kim Bondo – København og Nordsjælland"
-        description="Personlig bedemand med nærvær og ro. Bisættelse fra 17.395 kr., begravelse fra 18.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
+        description="Personlig bedemand med nærvær og ro. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://bedemandkobenhavn.dk/kim-bondo"
         image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
@@ -480,7 +480,7 @@ export default function KimBondo() {
                 title: "Den enkle bisættelse",
                 subtitle:
                   "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed og det er en hverdag.",
-                price: "Fra 17.395 kr.",
+                price: "Fra 19.500 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
                   "Danskproduceret kiste med lavt klimaaftryk",
@@ -498,7 +498,7 @@ export default function KimBondo() {
                 title: "Den enkle begravelse",
                 subtitle:
                   "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirken og kirkegården er samme sted.",
-                price: "Fra 18.500 kr.",
+                price: "Fra 21.500 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
                   "100 % bæredygtig, danskproduceret genbrugskiste",
@@ -515,7 +515,7 @@ export default function KimBondo() {
                 title: "Afsked uden ceremoni",
                 subtitle:
                   "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til krematoriet på en hverdag – uden forudgående højtidelighed.",
-                price: "Fra 15.500 kr.",
+                price: "Fra 13.550 kr.",
                 items: [
                   "100 % bæredygtig, danskproduceret genbrugskiste",
                   "Klassisk hvid urne",

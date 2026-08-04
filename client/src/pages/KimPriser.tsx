@@ -22,7 +22,7 @@ export default function KimPriser() {
     >
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
-        description="Bisættelse fra 17.395 kr., begravelse fra 18.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
+        description="Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/priser"
         image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
@@ -239,13 +239,13 @@ export default function KimPriser() {
            }}
         >
           <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-            <strong style={{ fontSize: "20px", color: "#2F3E46" }}>Bisættelse fra 17.395 kr.</strong>
+            <strong style={{ fontSize: "20px", color: "#2F3E46" }}>Bisættelse fra 19.500 kr.</strong>
           </p>
           <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-            <strong style={{ fontSize: "20px", color: "#2F3E46" }}>Begravelse fra 18.500 kr.</strong>
+            <strong style={{ fontSize: "20px", color: "#2F3E46" }}>Begravelse fra 21.500 kr.</strong>
           </p>
           <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "8px" }}>
-            <strong style={{ fontSize: "20px", color: "#2F3E46" }}>Afsked uden ceremoni fra 15.500 kr.</strong>
+            <strong style={{ fontSize: "20px", color: "#2F3E46" }}>Afsked uden ceremoni fra 13.550 kr.</strong>
           </p>
            <p style={{ fontSize: "14px", color: "#7a8f99", lineHeight: 1.7, marginTop: "12px", fontStyle: "italic" }}>
              Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
@@ -266,28 +266,22 @@ export default function KimPriser() {
             Prisgennemsigtighed er ikke et tilbud. Det er en ret.
           </h2>
           <p style={{ fontSize: "16px", color: "#3d5260", lineHeight: 1.85, marginBottom: "20px" }}>
-            Da jeg begyndte som bedemand, undrede jeg mig over en ting: Hvorfor var det så svært at finde ud af, hvad en begravelse kostede? Branchen har i årtier opereret med priser, der først kom frem ved det fysiske møde — på et tidspunkt, hvor pårørende er sårbare, pressede og sjældent i stand til at sammenligne.
-          </p>
-          <p style={{ fontSize: "16px", color: "#3d5260", lineHeight: 1.85, marginBottom: "20px" }}>
-            Det har jeg valgt at gøre anderledes.
-          </p>
-          <p style={{ fontSize: "16px", color: "#3d5260", lineHeight: 1.85, marginBottom: "20px" }}>
-            Her finder I alle mine priser — enkeltpriser, pakkepriser og de tredjepartsudgifter, jeg ikke selv bestemmer, men som I alligevel skal kende. Jeg søger begravelseshjælp på jeres vegne og modregner den direkte på fakturaen. Og hjemmebesøg er altid inkluderet — fordi det menneskelige møde ikke er et tilvalg.
-          </p>
-          <p style={{ fontSize: "16px", color: "#2F3E46", lineHeight: 1.85, marginBottom: "28px", fontWeight: 600 }}>
-            Jeg er ikke den billigste bedemand i København. Men jeg er den, der fortæller jer, hvad det koster — inden I beslutter jer.
-          </p>
+            Da jeg begyndte som bedemand, undrede jeg mig over én ting: hvorfor var det så svært at finde ud af, hvad en begravelse kostede? Branchen har i årtier oplyst priser først ved det fysiske møde — på et tidspunkt, hvor pårørende er sårbare, pressede og sjældent i stand til at sammenligne.
+         </p>
+         <p style={{ fontSize: "16px", color: "#3d5260", lineHeight: 1.85, marginBottom: "20px" }}>
+            Her står alt: mine priser, mine tillæg, og de udgifter jeg ikke selv bestemmer over. Jeg er ikke den billigste bedemand i København. Men jeg er den, der fortæller jer hele regnestykket, inden I beslutter jer.
+         </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
             <div style={{ background: "#ffffff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "20px 28px", flex: "1", minWidth: "200px" }}>
-              <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "4px" }}><strong>Bisættelse fra 17.395 kr.</strong></p>
+              <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "4px" }}><strong>Bisættelse fra 19.500 kr.</strong></p>
               <p style={{ fontSize: "13px", color: "#7a8f99", margin: 0 }}>inkl. honorar, kiste, urne og 2 kørsler</p>
             </div>
             <div style={{ background: "#ffffff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "20px 28px", flex: "1", minWidth: "200px" }}>
-              <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "4px" }}><strong>Begravelse fra 18.500 kr.</strong></p>
-              <p style={{ fontSize: "13px", color: "#7a8f99", margin: 0 }}>inkl. honorar, kiste og 2 kørsler</p>
+              <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "4px" }}><strong>Begravelse fra 21.500 kr.</strong></p>
+              <p style={{ fontSize: "13px", color: "#7a8f99", margin: 0 }}>inkl. honorar, kiste og 1 kørsel</p>
             </div>
             <div style={{ background: "#ffffff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "20px 28px", flex: "1", minWidth: "200px" }}>
-              <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "4px" }}><strong>Afsked uden ceremoni fra 15.500 kr.</strong></p>
+              <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.8, marginBottom: "4px" }}><strong>Afsked uden ceremoni 13.550 kr.</strong></p>
               <p style={{ fontSize: "13px", color: "#7a8f99", margin: 0 }}>inkl. honorar, kiste, urne og 1 kørsel</p>
             </div>
           </div>
@@ -319,48 +313,47 @@ export default function KimPriser() {
           {
             title: "Den enkle bisættelse",
             subtitle: "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed og det er en hverdag.",
-            price: "Fra 17.395 kr.",
+            price: "Fra 19.500 kr.",
             items: [
               "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-              "Danskproduceret kiste med lavt klimaaftryk",
-              "Klassisk hvid bionedbrydelig urne",
-              "Klargøring af kiste, påklædning og ilægning i kiste",
-              "Rustvognskørsel fra hospital eller kapel til højtidelighed",
-              "Rustvognskørsel fra højtidelighed til krematorie",
+             "Danskproduceret kiste med lavt klimaaftryk",
+              "Natururne",
+              "Klargøring, påklædning og ilægning i kiste",
+              "To rustvognskørsler: til højtideligheden og videre til krematoriet",
               "Kontakt til kordegn, præst, krematorie og kirkegård",
-              "Anmodning v/ kirkeministeriet",
-              "Ansøgning om begravelseshjælp",
-              "Bedemand tilstede ved højtideligheden",
+              "Anmodning ved Kirkeministeriet",
+              "Ansøgning om begravelseshjælp på jeres vegne",
+              "Jeg er selv til stede ved højtideligheden",
             ],
           },
           {
             title: "Den enkle begravelse",
             subtitle: "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirken og kirkegården er samme sted.",
-            price: "Fra 18.500 kr.",
+            price: "Fra 21.500 kr.",
             items: [
               "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-              "100 % bæredygtig, danskproduceret genbrugskiste",
-              "Klargøring af kiste, påklædning og ilægning i kiste",
+             "100 % bæredygtig, danskproduceret genbrugskiste",
+              "Klargøring, påklædning og ilægning i kiste",
               "Rustvognskørsel fra hospital til højtideligheden",
               "Kontakt til kordegn, præst og kirkegård",
-              "Anmodning v/ kirkeministeriet",
-              "Ansøgning om begravelseshjælp",
-              "Bedemand tilstede ved højtideligheden",
+              "Anmodning ved Kirkeministeriet",
+              "Ansøgning om begravelseshjælp på jeres vegne",
+              "Jeg er selv til stede ved højtideligheden",
               "Udlægning af blomster på graven",
             ],
           },
           {
             title: "Afsked uden ceremoni",
             subtitle: "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til krematoriet på en hverdag – uden forudgående højtidelighed.",
-            price: "Fra 15.500 kr.",
+            price: "13.550 kr.",
             items: [
-              "100 % bæredygtig, danskproduceret genbrugskiste",
-              "Klassisk hvid bionedbrydelig urne",
-              "Klargøring af kiste, påklædning og ilægning i kiste",
-              "Rustvognskørsel fra hospital eller kapel til krematoriet",
+              "Basiskiste",
+              "Natururne",
+              "Klargøring, påklædning og ilægning i kiste",
+              "Rustvognskørsel til krematoriet",
               "Kontakt til kordegn, krematorie og kirkegård",
-              "Anmodning v/ kirkeministeriet",
-              "Ansøgning om begravelseshjælp",
+              "Anmodning ved Kirkeministeriet",
+              "Ansøgning om begravelseshjælp på jeres vegne",
             ],
           },
         ].map((pkg) => (
@@ -426,9 +419,16 @@ export default function KimPriser() {
               }}
             >
               {pkg.price}
-            </p>
-          </section>
-        ))}
+           </p>
+           {pkg.title !== "Afsked uden ceremoni" && (
+             <p style={{ marginTop: "12px" }}>
+               <a href="/kim-bondo/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
+                 Se hele udvalget med priser her →
+               </a>
+             </p>
+           )}
+         </section>
+       ))}
 
 
 
@@ -488,28 +488,6 @@ export default function KimPriser() {
 
         <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", marginBottom: "64px" }} />
 
-        {/* ── LINK TO PRODUKTER ── */}
-        <div style={{ textAlign: "center", marginBottom: "64px" }}>
-          <a
-            href="/kim-bondo/produkter"
-            style={{
-              display: "inline-block",
-              background: "#F9F8F6",
-              border: "1px solid #3D6B4F",
-              color: "#2F3E46",
-              fontFamily: "'Open Sans', sans-serif",
-              fontWeight: 600,
-              fontSize: "15px",
-              padding: "14px 32px",
-              borderRadius: "3px",
-              textDecoration: "none",
-              letterSpacing: "0.03em",
-            }}
-          >
-            Se kister og urner med billeder og priser →
-          </a>
-        </div>
-
         {/* ── COMPLETE PRICE TABLE ── */}
         <section style={{ marginBottom: "64px" }}>
           <h2
@@ -540,8 +518,8 @@ export default function KimPriser() {
             {
               heading: "1. Kiste og urne",
               rows: [
-                ["Klassisk hvid kiste (En klassisk kremeringskiste til bisættelser, fremstillet i spån og MDF)", "6.500 kr."],
-                ["Klassisk hvid bionedbrydelig urne", "1.250 kr."],
+                ["Kister fra", "6.000 kr."],
+                ["Urner fra", "950 kr."],
               ],
             },
             {
@@ -577,15 +555,15 @@ export default function KimPriser() {
               note: "Honoraret dækker al kontakt med pårørende gennem hele forløbet, håndtering af papirarbejde – herunder anmeldelse til hjemsogn og ansøgning om kommunal begravelseshjælp – samt koordinering med myndigheder, kirker, kapeller og krematorier.",
               rows: [
                 ["Honorar ved begravelse eller bisættelse", "4.500 kr."],
-                ["Honorar ved afsked uden ceremoni (direkte kremering)", "3.500 kr."],
+                ["Honorar ved afsked uden ceremoni", "3.500 kr."],
               ],
             },
             {
               heading: "6. Øvrige ydelser",
               rows: [
                 ["Fremvisning i kapel", "900 kr."],
-                ["Dødsannonce – udarbejdelse og indrykning", "400 kr."],
-                ["Sangblade, bestilling fra ekstern leverandør", "400 kr. (tilbud indhentes)"],
+                ["Dødsannonce, udarbejdelse og indrykning", "400 kr. + avisens pris"],
+                ["Sangblade fra ekstern leverandør", "400 kr. + tilbud indhentes"],
                 ["Rådgivning og udarbejdelse af \"Min Sidste Vilje\" (hjemmebesøg)", "Gratis"],
               ],
             },
@@ -603,8 +581,15 @@ export default function KimPriser() {
                 }}
               >
                 {section.heading}
-              </h3>
-              <table
+             </h3>
+             {section.heading === "1. Kiste og urne" && (
+               <p style={{ marginBottom: "12px" }}>
+                 <a href="/kim-bondo/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
+                   Se hele udvalget med billeder og priser her →
+                 </a>
+               </p>
+             )}
+             <table
                 style={{
                   width: "100 %",
                   borderCollapse: "collapse",

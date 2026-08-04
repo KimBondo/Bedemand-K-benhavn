@@ -30,7 +30,7 @@ export default function KimHorsholm() {
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Hørsholm?", answer: "Jeg er selvstændig bedemand og dækker Hørsholm og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en bisættelse i Hørsholm?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+        { question: "Hvad koster en bisættelse i Hørsholm?", answer: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
         { question: "Hvilke kirker bruges i Hørsholm?", answer: "Jeg koordinerer med Hørsholm Kirke og øvrige kirker og kapeller i Hørsholm Kommune og omegn." },
       ]} />
 
@@ -135,7 +135,7 @@ export default function KimHorsholm() {
             {[
               { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med Hørsholm Kirke og øvrige kirker i området.", href: "/kim-bondo/bisaettelse" },
               { title: "Begravelse", desc: "Kiste i jord på en af Hørsholms kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/kim-bondo/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Priser fra 15.500 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
+              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Priser fra 13.550 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
               { title: "Askespredning", desc: "Spredning af aske over havet ud for Nordsjællands kyst. En fri og naturlig afsked.", href: "/kim-bondo/askespredning" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
@@ -155,7 +155,7 @@ export default function KimHorsholm() {
           <h2 style={s.h2}>Spørgsmål om bedemand i Hørsholm</h2>
           {[
             { q: "Hvem er bedemand i Hørsholm?", a: "Jeg er selvstændig bedemand og dækker Hørsholm og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en bisættelse i Hørsholm?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+            { q: "Hvad koster en bisættelse i Hørsholm?", a: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
             { q: "Hvilke kirker bruges i Hørsholm?", a: "Jeg koordinerer med Hørsholm Kirke og øvrige kirker og kapeller i Hørsholm Kommune og omegn, herunder Rungsted og Kokkedal." },
             { q: "Dækker Kim også Rungsted og Kokkedal?", a: "Ja — Rungsted, Kokkedal og Vedbæk er alle en del af mit dækningsområde. Ring på 22 21 14 37 for at høre mere." },
           ].map((faq, i) => (

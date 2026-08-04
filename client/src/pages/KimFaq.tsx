@@ -44,7 +44,7 @@ const FAQ_SECTIONS = [
   {
     title: "Priser og økonomi",
     items: [
-      { q: "Hvad koster en begravelse?", a: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved begravelse eller bisættelse med ceremoni. Den samlede pakkepris – inkl. kiste, urne, transport og koordinering – starter fra 15.500 kr. (uden ceremoni), 17.395 kr. (bisættelse med ceremoni) og 18.500 kr. (begravelse i kiste). Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje.", link: "/kim-bondo/hvad-koster-en-begravelse" },
+      { q: "Hvad koster en begravelse?", a: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved begravelse eller bisættelse med ceremoni. Den samlede pakkepris – inkl. kiste, urne, transport og koordinering – starter fra 13.550 kr. (uden ceremoni), 19.500 kr. (bisættelse med ceremoni) og 21.500 kr. (begravelse i kiste). Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje.", link: "/kim-bondo/hvad-koster-en-begravelse" },
       { q: "Hvad er ikke inkluderet i prisen?", a: "Gravsten, gravsted, leje af kapel, kisteophold, urnenedsættelse og kremering er ikke en del af mit honorar. Jeg hjælper med at indhente tilbud og holde overblikket over alle udgifter.", link: "/kim-bondo/priser" },
       { q: "Hvad er begravelseshjælp?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Tilskuddet afhænger af afdødes formue. Jeg hjælper med ansøgningen.", link: "/kim-bondo/begravelseshjaelp" },
       { q: "Er der ekstra betaling i weekenden?", a: "Ja — rustvognskørslen i weekenden (lørdag og søndag) er 50 % dyrere end på hverdage. Det fremgår tydeligt af prislisten.", link: "/kim-bondo/priser" },

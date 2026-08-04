@@ -40,6 +40,7 @@ const KISTER = [
     image: "/manus-storage/Basis6greb_5925250a.webp",
     alt: "Basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
     description: "Umalet.",
+    use: "bisættelse" as const,
   },
   {
     id: "klassisk-hvid",
@@ -48,6 +49,7 @@ const KISTER = [
     image: "/manus-storage/Klassiskhvid_b0f458b9_8686480b.webp",
     alt: "Klassisk hvid kiste til bisættelse – fremstillet i spån og MDF, Kim Bondo bedemand",
     description: "En klassisk kremeringskiste til bisættelser, fremstillet i spån og MDF.",
+    use: "bisættelse" as const,
   },
   {
     id: "gaia",
@@ -56,6 +58,7 @@ const KISTER = [
     image: "/manus-storage/Gaia_5d419152.webp",
     alt: "Gaia kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse og begravelse",
     description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende og kisten har et markant lavere klimaaftryk end en traditionel hvid kiste. Både til bisættelse og begravelse.",
+    use: "begge" as const,
   },
   {
     id: "orbit",
@@ -64,6 +67,7 @@ const KISTER = [
     image: "/manus-storage/Orbit_924a6cd2.webp",
     alt: "Orbit papirkiste i ReBoard – let og miljøvenlig kiste til begravelse og kremering",
     description: "Orbit er fremstillet i ReBoard, som er produceret med 80 % færre træfibre end materialet i en traditionel kiste. Kisten vejer 12 kg, hvilket gør den let at håndtere. Den kan printes i alle farver og motiver og er testet til både begravelse og kremering.",
+    use: "begge" as const,
   },
   {
     id: "massiv-fyr",
@@ -72,6 +76,7 @@ const KISTER = [
     image: "/manus-storage/Massiv_fyr_55990efe.webp",
     alt: "Massiv fyrkiste med knaster – naturlig og varm kiste til begravelse, Kim Bondo bedemand",
     description: "Kisten i fyrretræ med knaster har et varmt og naturligt udtryk, hvor træets struktur og levende detaljer får lov at stå frem. Knasterne giver hver kiste sit eget særpræg og understreger det enkle og særlige udtryk.",
+    use: "begravelse" as const,
   },
 ];
 
@@ -264,8 +269,20 @@ export default function KimProdukter() {
                 </div>
                 <div style={{ padding: "24px" }}>
                   <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "20px", color: "#2F3E46", marginBottom: "8px", marginTop: 0 }}>{k.name}</h3>
-                  <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "22px", color: "#3D6B4F", marginBottom: "16px" }}>{k.priceLabel}</p>
-                  <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d4f5a", lineHeight: 1.75, fontStyle: k.description === "Tilføj din beskrivelse her." ? "italic" : "normal" }}>
+                 <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "22px", color: "#3D6B4F", marginBottom: "16px" }}>{k.priceLabel}</p>
+                  <p style={{ marginBottom: "12px" }}>
+                    {(k.use === "bisættelse" || k.use === "begge") && (
+                      <span style={{ display: "inline-block", background: "#EAF2ED", color: "#2a5c3f", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "12px", letterSpacing: "0.08em", padding: "3px 10px", borderRadius: "2px", textTransform: "uppercase", marginRight: "6px" }}>
+                        Bisættelse
+                      </span>
+                    )}
+                    {(k.use === "begravelse" || k.use === "begge") && (
+                      <span style={{ display: "inline-block", background: "#EDF2F7", color: "#2c4a6e", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "12px", letterSpacing: "0.08em", padding: "3px 10px", borderRadius: "2px", textTransform: "uppercase" }}>
+                        Begravelse
+                      </span>
+                    )}
+                  </p>
+                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d4f5a", lineHeight: 1.75, fontStyle: k.description === "Tilføj din beskrivelse her." ? "italic" : "normal" }}>
                     {k.description}
                   </p>
                 </div>

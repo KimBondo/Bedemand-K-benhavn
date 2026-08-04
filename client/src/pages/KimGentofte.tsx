@@ -30,7 +30,7 @@ export default function KimGentofte() {
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Gentofte?", answer: "Jeg er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en bisættelse i Gentofte?", answer: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+        { question: "Hvad koster en bisættelse i Gentofte?", answer: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
         { question: "Hvilke kirker bruges i Gentofte?", answer: "Jeg koordinerer med Gentofte Kirke, Hellerup Kirke, Charlottenlund Kirke og øvrige kirker og kapeller i Gentofte Kommune." },
       ]} />
 
@@ -135,7 +135,7 @@ export default function KimGentofte() {
             {[
               { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med Gentofte Kirke, Hellerup Kirke og øvrige kirker.", href: "/kim-bondo/bisaettelse" },
               { title: "Begravelse", desc: "Kiste i jord på en af Gentoftes kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/kim-bondo/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Priser fra 15.500 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
+              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Priser fra 13.550 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
               { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst.", href: "/kim-bondo/kirkelig-afsked" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
@@ -155,7 +155,7 @@ export default function KimGentofte() {
           <h2 style={s.h2}>Spørgsmål om bedemand i Gentofte</h2>
           {[
             { q: "Hvem er bedemand i Gentofte?", a: "Jeg er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en bisættelse i Gentofte?", a: "En bisættelse med ceremoni starter fra 17.395 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
+            { q: "Hvad koster en bisættelse i Gentofte?", a: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
             { q: "Hvilke kirker bruges i Gentofte?", a: "Jeg koordinerer med Gentofte Kirke, Hellerup Kirke, Charlottenlund Kirke og øvrige kirker og kapeller i Gentofte Kommune." },
             { q: "Dækker Kim også Hellerup og Charlottenlund?", a: "Ja — Hellerup, Charlottenlund, Vangede og Dyssegård er alle en del af mit dækningsområde." },
           ].map((faq, i) => (

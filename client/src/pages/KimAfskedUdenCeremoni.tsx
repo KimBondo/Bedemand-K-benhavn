@@ -21,7 +21,7 @@ export default function KimAfskedUdenCeremoni() {
     >
       <SEO
         title="Afsked uden ceremoni – Bedemand Kim Bondo"
-        description="Enkel afsked uden ceremoni i København. Kremering og urnenedsættelse uden kirke. Fra 15.500 kr. Kim Bondo – ring 22 21 14 37 døgnet rundt."
+        description="Enkel afsked uden ceremoni i København. Kremering og urnenedsættelse uden kirke. Fra 13.550 kr. Kim Bondo – ring 22 21 14 37 døgnet rundt."
         url="https://bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni"
         image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
@@ -195,7 +195,7 @@ export default function KimAfskedUdenCeremoni() {
           Hvad koster en afsked uden ceremoni?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          En afsked uden ceremoni starter fra <strong>15.500 kr.</strong> Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste. Udgifter som kremering, gravsted og urne kommer oveni – jeg hjælper med at indhente tilbud og holde overblikket.
+          En afsked uden ceremoni starter fra <strong>13.550 kr.</strong> Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste. Udgifter som kremering, gravsted og urne kommer oveni – jeg hjælper med at indhente tilbud og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
