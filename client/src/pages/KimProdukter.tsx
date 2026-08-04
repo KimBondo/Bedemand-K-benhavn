@@ -79,7 +79,7 @@ const URNER = [
   {
     id: "askeror-solnedgang",
     name: "Askerør Solnedgang",
-    priceLabel: "1.250 kr.",
+    priceLabel: "950 kr.",
     image: "/manus-storage/Askeror_Solnedgang_faf27b72.jpeg",
     alt: "Askerør Solnedgang – biologisk nedbrydeligt askerør i genanvendt karton til askespredning",
     description: "Dette askerør er fremstillet i genanvendt karton og pap. Materialet er biologisk nedbrydeligt og egner sig til askespredning, enten til vands eller som en del af en ceremoni. Det enkle udtryk gør den til et fint valg til en personlig og værdig afsked.",
@@ -111,7 +111,7 @@ const URNER = [
   {
     id: "brun-museumsurne",
     name: "Brun museumsurne",
-    priceLabel: "1.250 kr.",
+    priceLabel: "1.350 kr.",
     image: "/manus-storage/Brunmuseumsurne_7e293ad9.jpeg",
     alt: "Brun museumsurne – urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
     description: "Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
@@ -119,7 +119,7 @@ const URNER = [
   {
     id: "gron-museumsurne",
     name: "Grøn museumsurne",
-    priceLabel: "1.250 kr.",
+    priceLabel: "1.350 kr.",
     image: "/manus-storage/Gronmuseumsurne_9a41f59e.jpeg",
     alt: "Grøn museumsurne – grøn urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
     description: "Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
@@ -127,7 +127,7 @@ const URNER = [
   {
     id: "rod-museumsurne",
     name: "Rød museumsurne",
-    priceLabel: "1.250 kr.",
+    priceLabel: "1.350 kr.",
     image: "/manus-storage/Rodmuseumsurne_d3d2fec3.jpeg",
     alt: "Rød museumsurne – rød urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
     description: "Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
@@ -139,7 +139,7 @@ export default function KimProdukter() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Kister og urner – Bedemand Kim Bondo"
-        description="Vælg kiste fra 6.000 kr. eller urne til 1.250 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
+        description="Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/produkter"
         image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
       />
@@ -281,7 +281,7 @@ export default function KimProdukter() {
           <p style={s.label}>Urner</p>
           <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine urner</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Alle urner er prissat til 1.250 kr. Jeg tilbyder et smukt udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner.
+            Urnerne koster fra 950 kr. Jeg tilbyder et udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner.
           </p>
           <div
             style={{
