@@ -9,6 +9,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { Route, Switch } from "wouter";
+import { Suspense } from "react";
 
 // Direct imports — no lazy() for SSR
 import Home from "./pages/Home";
@@ -47,6 +48,7 @@ function SSRApp() {
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
+          <Suspense fallback={<div style={{ minHeight: "100vh", background: "#F9F8F6" }} />}>
           <Switch>
             <Route path={"/"} component={Home} />
             <Route path={"/kim-bondo"} component={KimBondo} />
@@ -80,6 +82,7 @@ function SSRApp() {
             <Route path={"/404"} component={NotFound} />
             <Route component={NotFound} />
           </Switch>
+          </Suspense>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
