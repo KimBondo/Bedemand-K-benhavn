@@ -25,7 +25,7 @@ export default function Home() {
        title="Bedemand København og Nordsjælland – Personlig og nærværende hjælp"
         description="To selvstændige bedemænd i København og Nordsjælland. Marie Thjellesen og Kim Bondo hjælper jer med bisættelse, begravelse og afsked — med nærvær, ro og gennemsigtige priser."
        url="https://bedemandkobenhavn.dk/"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="WebSite" />
       {/* ─── SOLID BLUE BACKGROUND ───────────────────────────────────────── */}
@@ -123,9 +123,9 @@ export default function Home() {
               websiteLabel="Gå til Maries hjemmeside"
               websiteHref="https://mariesbegravelser.dk/"
               initials="MT"
-              portraitSrc="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/marie-portrait-new_3f60d1bf.jpeg"
+              portraitSrc="/images/marie-portrait-new_3f60d1bf.webp"
               portraitAlt="Marie Thjellesen – Bedemand"
-              portraitSrcSet="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/marie-portrait-new_3f60d1bf_464w_7461174f.webp 464w, https://bedemandkbh-8wuvn9as.manus.space/manus-storage/marie-portrait-new_3f60d1bf_930w_aaa60cf2.webp 930w, https://bedemandkbh-8wuvn9as.manus.space/manus-storage/marie-portrait-new_3f60d1bf_1400w_c06def5b.webp 1400w"
+              portraitSrcSet="/images/marie-portrait-new_3f60d1bf_464w_7461174f.webp 464w, /images/marie-portrait-new_3f60d1bf_930w_aaa60cf2.webp 930w, /images/marie-portrait-new_3f60d1bf_1400w_c06def5b.webp 1400w"
             />
             <DirectorColumn
               name="Kim Bondo"
@@ -138,9 +138,9 @@ export default function Home() {
               websiteLabel="Gå til Kims hjemmeside"
               websiteHref="/kim-bondo"
               initials="KB"
-              portraitSrc="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
+              portraitSrc="/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp"
               portraitAlt="Kim Bondo – Bedemand"
-              portraitSrcSet="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_464w_fad65f06.webp 464w, https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_930w_0ebe7e5b.webp 930w, https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_1400w_7b940c54.webp 1400w"
+              portraitSrcSet="/images/kim-bondo-portrait-neutral-bg_dfb527d8_464w_fad65f06.webp 464w, /images/kim-bondo-portrait-neutral-bg_dfb527d8_930w_0ebe7e5b.webp 930w, /images/kim-bondo-portrait-neutral-bg_dfb527d8_1400w_7b940c54.webp 1400w"
             />
           </div>
         </div>

@@ -40,7 +40,7 @@ export default function KimOmraade() {
         title="Dækningsområde – Bedemand Kim Bondo"
         description="Kim Bondo dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring 22 21 14 37 – døgnet rundt."
         url="https://bedemandkobenhavn.dk/kim-bondo/omraade"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
       <SchemaOrg type="LocalBusiness" />

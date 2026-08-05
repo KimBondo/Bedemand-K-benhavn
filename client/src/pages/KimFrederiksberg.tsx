@@ -26,7 +26,7 @@ export default function KimFrederiksberg() {
         title="Bedemand Frederiksberg – Kim Bondo"
         description="Personlig bedemand på Frederiksberg. Bisættelse fra 19.500 kr. og begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/frederiksberg"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Frederiksberg?", answer: "Jeg er selvstændig bedemand og dækker Frederiksberg og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
