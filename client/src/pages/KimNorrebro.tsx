@@ -26,7 +26,7 @@ export default function KimNorrebro() {
         title="Bedemand Nørrebro – Kim Bondo, døgnet rundt"
         description="Personlig bedemand på Nørrebro. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
         url="https://bedemandkobenhavn.dk/kim-bondo/norrebro"
-        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Nørrebro?", answer: "Jeg er selvstændig bedemand og dækker Nørrebro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },

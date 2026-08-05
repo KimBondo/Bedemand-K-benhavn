@@ -13,7 +13,7 @@ function PersonSchema() {
       "jobTitle": "Selvstændig bedemand",
       "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
       "url": "https://bedemandkobenhavn.dk/kim-bondo",
-      "image": "https://bedemandkobenhavn.dk/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png",
+      "image": "https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png",
       "telephone": "+4522211437",
       "email": "kim@bedemandkobenhavn.dk",
       "address": {
@@ -59,7 +59,7 @@ export default function KimOmKim() {
         title="Om Kim Bondo – Personlig bedemand, København"
         description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/om-kim"
-        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       <SchemaOrg
@@ -129,9 +129,9 @@ export default function KimOmKim() {
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
          <div style={{ display: "flex", flexWrap: "wrap", gap: "48px", alignItems: "flex-start", marginBottom: "40px" }}>
            <picture style={{ flexShrink: 0 }}>
-             <source srcSet="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_d2b7aeac.webp" type="image/webp" />
+             <source srcSet="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8_d2b7aeac.webp" type="image/webp" />
               <img
-                src="/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
+                src="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png"
                 alt="Kim Bondo – Bedemand i København og Nordsjælland"
                 loading="lazy"
                 style={{

@@ -26,7 +26,7 @@ export default function KimBorgerligAfsked() {
         title="Borgerlig afsked – Bedemand Kim Bondo"
         description="Borgerlig begravelse eller bisættelse uden kirke i København. Kim Bondo hjælper med ceremoni, kapel og alt praktisk. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/borgerlig-afsked"
-        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       <SchemaOrg type="LocalBusiness" />
