@@ -26,7 +26,7 @@ export default function KimLyngby() {
         title="Bedemand Lyngby – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Lyngby-Taarbæk. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/lyngby"
-        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Lyngby?", answer: "Jeg er selvstændig bedemand og dækker Lyngby-Taarbæk Kommune og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
