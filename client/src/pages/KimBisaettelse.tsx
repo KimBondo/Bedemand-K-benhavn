@@ -445,13 +445,13 @@ export default function KimBisaettelse() {
         {[
           {
             q: "Hvad er forskellen på bisættelse og begravelse?",
-            a: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. Begge kan foregå med eller uden ceremoni. Læs mere om begravelse her.",
+            a: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. Begge kan foregå med eller uden ceremoni.",
             link: "/kim-bondo/begravelse",
             linkText: "Læs mere om begravelse her",
           },
           {
             q: "Kan man holde en bisættelse uden ceremoni?",
-            a: "Ja. En afsked uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde en mindesammenkomst på et senere tidspunkt. Læs mere om afsked uden ceremoni.",
+            a: "Ja. En afsked uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde en mindesammenkomst på et senere tidspunkt.",
             link: "/kim-bondo/afsked-uden-ceremoni",
             linkText: "Læs mere om afsked uden ceremoni",
           },
