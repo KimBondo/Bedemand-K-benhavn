@@ -3,11 +3,13 @@ import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 import ContactForm from "@/components/ContactForm";
 
+
 /**
  * Kim Bondo – Komplet Prisliste
  * Design: Nordic Quietism — same tokens as KimBondo.tsx
  * Tone: nærværende, præcis og tryghedsskabende
  */
+
 
 const s = {
   page: { fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 } as React.CSSProperties,
@@ -21,6 +23,7 @@ const s = {
   price: { fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "22px", color: "#3D6B4F" } as React.CSSProperties,
   li: { fontFamily: "'Open Sans', sans-serif", fontSize: "15px", lineHeight: 1.8, color: "#3d5260", marginBottom: "4px" } as React.CSSProperties,
 };
+
 
 function PricePackage({
   label,
@@ -66,6 +69,7 @@ function PricePackage({
   );
 }
 
+
 function PriceTable({ rows }: { rows: [string, string][] }) {
   return (
     <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
@@ -80,6 +84,7 @@ function PriceTable({ rows }: { rows: [string, string][] }) {
     </table>
   );
 }
+
 
 export default function KimPriser() {
   return (
@@ -99,8 +104,48 @@ export default function KimPriser() {
         ]}
       />
 
-      {/* ── NAV ── */}
-      <KimNav />
+
+      {/* ── HEADER ── */}
+      <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
+        <style>{`
+  @media (max-width: 768px) {
+    .mobile-call-btn {
+      display: inline-flex !important;
+      align-items: center;
+      gap: 8px;
+      background: #3D6B4F;
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 10px 20px;
+      border-radius: 3px;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+  }
+`}</style>
+        <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
+          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
+          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
+          <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
+          <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Priser</span>
+        </div>
+        <KimNav />
+        {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
+        <a
+          href="tel:22211437"
+          style={{ display: "none" }}
+          className="mobile-call-btn"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+          Ring op
+        </a>
+      </header>
+
 
       {/* ── HERO ── */}
       <div style={{ background: "#2F3E46", padding: "64px 32px 56px" }}>
@@ -118,8 +163,10 @@ export default function KimPriser() {
         </div>
       </div>
 
+
       {/* ── CONTENT ── */}
       <div style={s.wrap}>
+
 
         {/* ── INTRO ── */}
         <section style={{ paddingTop: "56px", marginBottom: "56px" }}>
@@ -135,10 +182,13 @@ export default function KimPriser() {
           </p>
         </section>
 
+
         <hr style={s.hr} />
+
 
         {/* ── DE TRE FORLØB ── */}
         <h2 style={s.h2}>De tre forløb</h2>
+
 
         <PricePackage
           label="Bisættelse"
@@ -160,6 +210,7 @@ export default function KimPriser() {
           linkAfter={true}
         />
 
+
         <PricePackage
           label="Begravelse"
           title="Den enkle begravelse"
@@ -179,6 +230,7 @@ export default function KimPriser() {
           note="Købt som enkeltposter koster det 21.900 kr. Samlet sparer I 400 kr."
           linkAfter={true}
         />
+
 
         <section style={{ marginBottom: "56px" }}>
           <span style={s.label}>Afsked uden ceremoni</span>
@@ -211,7 +263,9 @@ export default function KimPriser() {
           </p>
         </section>
 
+
         <hr style={s.hr} />
+
 
         {/* ── AFTEN/WEEKEND ── */}
         <section style={{ marginBottom: "56px" }}>
@@ -230,7 +284,9 @@ export default function KimPriser() {
           </p>
         </section>
 
+
         <hr style={s.hr} />
+
 
         {/* ── KOMMUNALE TAKSTER ── */}
         <section style={{ marginBottom: "56px" }}>
@@ -258,7 +314,9 @@ export default function KimPriser() {
           </p>
         </section>
 
+
         <hr style={s.hr} />
+
 
         {/* ── BLOMSTER OG GRAVSTEN ── */}
         <section style={{ marginBottom: "56px" }}>
@@ -268,11 +326,14 @@ export default function KimPriser() {
           </p>
         </section>
 
+
         <hr style={s.hr} />
+
 
         {/* ── ALLE ENKELTPRISER ── */}
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Alle enkeltpriser</h2>
+
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Kister og urner</h3>
           <p style={{ marginBottom: "12px" }}>
@@ -281,6 +342,7 @@ export default function KimPriser() {
             </a>
           </p>
           <p style={{ ...s.small, marginBottom: "32px" }}>Kister fra 6.000 kr. · Urner fra 950 kr.</p>
+
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Klargøring, afhentning og transport</h3>
           <PriceTable rows={[
@@ -292,6 +354,7 @@ export default function KimPriser() {
           ]} />
           <p style={{ ...s.small, fontStyle: "italic", marginBottom: "32px" }}>50 % tillæg efter kl. 16 på hverdage samt weekender og helligdage.</p>
 
+
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Honorar</h3>
           <PriceTable rows={[
             ["Ved begravelse eller bisættelse", "4.500 kr."],
@@ -300,6 +363,7 @@ export default function KimPriser() {
           <p style={{ ...s.body, marginBottom: "32px" }}>
             Honoraret dækker al kontakt med jer gennem hele forløbet, alt papirarbejde — anmeldelse til hjemsogn og ansøgning om begravelseshjælp — samt koordinering med myndigheder, kirker, kapeller og krematorier.
           </p>
+
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Blomster og pynt</h3>
           <PriceTable rows={[
@@ -311,6 +375,7 @@ export default function KimPriser() {
             ["10 farvelroser til rustvognen", "500 kr."],
           ]} />
 
+
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Øvrige ydelser</h3>
           <PriceTable rows={[
             ["Fremvisning i kapel", "900 kr."],
@@ -319,7 +384,9 @@ export default function KimPriser() {
           ]} />
         </section>
 
+
         <hr style={s.hr} />
+
 
         {/* ── DØDSANNONCER ── */}
         <section style={{ marginBottom: "56px" }}>
@@ -329,6 +396,7 @@ export default function KimPriser() {
           </p>
         </section>
 
+
         {/* ── SANGBLADE ── */}
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Sangblade</h2>
@@ -337,7 +405,9 @@ export default function KimPriser() {
           </p>
         </section>
 
+
         <hr style={s.hr} />
+
 
         {/* ── MIN SIDSTE VILJE ── */}
         <section style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px" }}>
@@ -354,6 +424,7 @@ export default function KimPriser() {
           </a>
         </section>
 
+
         {/* ── KONTAKTFORMULAR ── */}
         <section style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px" }}>
           <span style={s.label}>Skriv til mig</span>
@@ -363,6 +434,7 @@ export default function KimPriser() {
           </p>
           <ContactForm variant="priser" />
         </section>
+
 
       </div>
     </div>
