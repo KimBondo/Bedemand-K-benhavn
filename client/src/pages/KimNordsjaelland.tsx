@@ -26,7 +26,7 @@ export default function KimNordsjaelland() {
         title="Bedemand Nordsjælland – Kim Bondo"
         description="Personlig bedemand i hele Nordsjælland. Bisættelse og begravelse med nærvær, ro og gennemsigtige priser. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/nordsjaelland"
-        image="https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg er selvstændig bedemand og dækker hele Nordsjælland og København. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
