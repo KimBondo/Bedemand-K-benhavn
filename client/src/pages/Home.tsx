@@ -287,13 +287,13 @@ function DirectorColumn({
             src={portraitSrc}
             alt={portraitAlt || name}
             fetchPriority="high"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              objectPosition: "center top",
-              display: "block",
-            }}
+           style={{
+             width: "100%",
+             height: "100%",
+             objectFit: "cover",
+              objectPosition: "center center",
+             display: "block",
+           }}
           />
         </picture>
         ) : (
