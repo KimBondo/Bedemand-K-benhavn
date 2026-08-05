@@ -26,7 +26,7 @@ export default function KimOsterbro() {
         title="Bedemand Østerbro – Kim Bondo, døgnet rundt"
         description="Personlig bedemand på Østerbro. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
         url="https://bedemandkobenhavn.dk/kim-bondo/osterbro"
-        image="https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Østerbro?", answer: "Jeg er selvstændig bedemand og dækker Østerbro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },

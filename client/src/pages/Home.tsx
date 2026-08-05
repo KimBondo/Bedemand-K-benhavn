@@ -25,7 +25,7 @@ export default function Home() {
        title="Bedemand København og Nordsjælland – Personlig og nærværende hjælp"
         description="To selvstændige bedemænd i København og Nordsjælland. Marie Thjellesen og Kim Bondo hjælper jer med bisættelse, begravelse og afsked — med nærvær, ro og gennemsigtige priser."
        url="https://bedemandkobenhavn.dk/"
-        image="https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="WebSite" />
       {/* ─── SOLID BLUE BACKGROUND ───────────────────────────────────────── */}
@@ -261,11 +261,11 @@ function DirectorColumn({
     >
       {/* Portrait */}
       <div
-        style={{
-          width: "100%",
-          aspectRatio: "3/4",
-          maxHeight: "340px",
-          backgroundColor: "#E0DDD8",
+       style={{
+         width: "100%",
+         aspectRatio: "3/4",
+          maxHeight: "480px",
+         backgroundColor: "#E0DDD8",
           marginBottom: "28px",
           overflow: "hidden",
           display: "flex",

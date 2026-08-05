@@ -13,7 +13,7 @@ function PersonSchema() {
       "jobTitle": "Selvstændig bedemand",
       "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
       "url": "https://bedemandkobenhavn.dk/kim-bondo",
-      "image": "https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png",
+      "image": "https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-bondo-portrait-neutral-bg_dfb527d8.png",
       "telephone": "+4522211437",
       "email": "kim@bedemandkobenhavn.dk",
       "address": {
@@ -59,7 +59,7 @@ export default function KimOmKim() {
         title="Om Kim Bondo – Personlig bedemand, København"
         description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/om-kim"
-        image="https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
 
       <SchemaOrg
