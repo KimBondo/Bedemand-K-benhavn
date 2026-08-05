@@ -263,7 +263,7 @@ export default function KimBondo() {
        {/* Haven-kiste billede */}
        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
          <picture>
-           <source srcSet="/images/kim-garden-coffin_90a67244_84209ed1.webp" type="image/webp" />
+           <source srcSet="/images/kim-garden-coffin_90a67244.webp" type="image/webp" />
             <img
               src="/images/kim-garden-coffin_90a67244.jpg"
               alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
