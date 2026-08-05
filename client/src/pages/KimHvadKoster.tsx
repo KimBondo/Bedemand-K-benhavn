@@ -465,7 +465,7 @@ export default function KimHvadKoster() {
                 </tr>
                 {[
                   ["Bisættelse inkl. honorar, kiste, urne, 2 kørsler", "19.500 kr.", "Kim Bondo"],
-                  ["Kistepynt (lille)", "1.500 kr.", "Kim Bondo"],
+                  ["Kistepynt (lille)", "2.500 kr.", "Kim Bondo"],
                 ].map(([label, price, who]) => (
                   <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
                     <td style={{ padding: "11px 12px 11px 0", color: "#3d5260" }}>{label}</td>
@@ -490,7 +490,7 @@ export default function KimHvadKoster() {
                 ))}
                 <tr style={{ borderTop: "2px solid #2F3E46" }}>
                   <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Samlet brutto</td>
-                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 29.272 kr.</td>
+                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 32.377 kr.</td>
                   <td></td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #e0dcd6" }}>
@@ -500,7 +500,7 @@ export default function KimHvadKoster() {
                 </tr>
                 <tr>
                   <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Realistisk nettoudgift</td>
-                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "18px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 15.722 kr.</td>
+                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "18px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 18.827 kr.</td>
                   <td></td>
                 </tr>
               </tbody>
