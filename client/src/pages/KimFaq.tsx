@@ -71,7 +71,7 @@ export default function KimFaq() {
         title="FAQ – Begravelse og bisættelse, Kim Bondo"
         description="Svar på de mest stillede spørgsmål om begravelse, bisættelse, priser og begravelseshjælp. Kim Bondo bedemand i København. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/faq"
-        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg
         type="FAQPage"

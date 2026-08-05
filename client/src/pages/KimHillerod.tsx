@@ -26,7 +26,7 @@ export default function KimHillerod() {
         title="Bedemand Hillerød – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Hillerød og omegn. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37."
         url="https://bedemandkobenhavn.dk/kim-bondo/hillerod"
-        image="https://bedemandkobenhavn.dk/manus-storage/kim-beach-solo_609d5ab7.png"
+        image="https://bedemandkobenhavn.dkhttps://bedemandkbh-8wuvn9as.manus.space/manus-storage/kim-beach-solo_609d5ab7.png"
       />
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand i Hillerød?", answer: "Jeg er selvstændig bedemand og dækker Hillerød og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
