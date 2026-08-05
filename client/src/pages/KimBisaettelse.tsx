@@ -469,7 +469,7 @@ export default function KimBisaettelse() {
           },
           {
             q: "Hvad er inkluderet i prisen?",
-            a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter som kremering, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket. Se den fulde prisliste.",
+            a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter som kremering, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket.",
             link: "/kim-bondo/priser",
             linkText: "Se den fulde prisliste",
           },
