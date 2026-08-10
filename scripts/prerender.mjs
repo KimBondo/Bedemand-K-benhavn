@@ -1,4 +1,4 @@
-const BASE_URL = "https://www.bedemandkobenhavn.dk";/**
+/**
  * SSG Pre-render script — runs after Vite client build.
  *
  * Strategy: Manus static hosting uses SPA fallback (all paths → index.html).
