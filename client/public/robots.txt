@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bedemandkobenhavn.dk/sitemap.xml
+
+Sitemap: https://www.bedemandkobenhavn.dk/sitemap.xml
