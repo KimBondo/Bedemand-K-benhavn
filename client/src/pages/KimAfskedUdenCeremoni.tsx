@@ -22,7 +22,7 @@ export default function KimAfskedUdenCeremoni() {
       <SEO
         title="Afsked uden ceremoni – Bedemand Kim Bondo"
         description="Enkel afsked uden ceremoni i København. Kremering og urnenedsættelse uden kirke. Fra 13.550 kr. Kim Bondo – ring 22 21 14 37 døgnet rundt."
-        url="https://bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -30,9 +30,9 @@ export default function KimAfskedUdenCeremoni() {
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Afsked uden ceremoni", url: "https://bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Afsked uden ceremoni", url: "https://www.bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni" }
         ]}
         faqItems={[
           { question: "Kan man holde en mindesammenkomst på et andet tidspunkt?", answer: "Ja. Mange familier vælger at holde en mindesammenkomst på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme." },
@@ -41,7 +41,7 @@ export default function KimAfskedUdenCeremoni() {
           { question: "Behandles afdøde stadig med værdighed?", answer: "Absolut. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form." },
           { question: "Hvad er forskellen på afsked uden ceremoni og en traditionel bisættelse?", answer: "En traditionel bisættelse inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En afsked uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed." },
         ]}
-        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni"
+        pageUrl="https://www.bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni"
       />
       {/* ── HEADER ── */}
       <header
