@@ -209,7 +209,7 @@ async function startServer() {
         "script-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://eu.umami.is https://files.manuscdn.com",
         "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
         "font-src 'self' https://fonts.gstatic.com",
-        "img-src 'self' data: https://bedemandkobenhavn.dk https://*.manus.space https://*.manuscdn.com",
+        "img-src 'self' data: https://www.bedemandkobenhavn.dk https://*.manus.space https://*.manuscdn.com",
         "connect-src 'self' https://eu.umami.is",
         "frame-ancestors 'self' https://*.manus.space https://*.manus.computer",
       ].join("; ")
