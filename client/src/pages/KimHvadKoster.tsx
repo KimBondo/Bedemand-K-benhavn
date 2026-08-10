@@ -27,7 +27,7 @@ export default function KimHvadKoster() {
       <SEO
         title="Hvad koster en begravelse i 2026? Komplet guide med alle udgifter"
         description="Komplet guide til alle udgifter ved en afsked i 2026: bedemand, kremering, gravsted, kapelleje og begravelseshjælp. Officielle takster for København og Nordsjælland. Kim Bondo."
-        url="https://bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
@@ -40,9 +40,9 @@ export default function KimHvadKoster() {
           { question: "Er der skjulte udgifter ved en begravelse?", answer: "Hos mig gennemgås alle udgifter på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
         ]}
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Hvad koster en begravelse?", url: "https://bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Hvad koster en begravelse?", url: "https://www.bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse" }
         ]}
       />
 
@@ -579,7 +579,7 @@ export default function KimHvadKoster() {
           Kender du nogen, der står over for at planlægge en begravelse? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
