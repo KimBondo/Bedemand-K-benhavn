@@ -25,7 +25,7 @@ export default function KimHelsingor() {
       <SEO
         title="Bedemand Helsingør – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Helsingør og Nordsjælland. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/helsingor"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/helsingor"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={[
@@ -207,7 +207,7 @@ export default function KimHelsingor() {
           Kender du nogen i Helsingør, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/helsingor")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/helsingor")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
