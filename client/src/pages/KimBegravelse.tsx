@@ -22,16 +22,16 @@ export default function KimBegravelse() {
       <SEO
         title="Begravelse i København – Bedemand Kim Bondo"
         description="Personlig hjælp til begravelse i København og Nordsjælland. Jeg koordinerer kiste, kirkegård og ceremoni. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/begravelse"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/begravelse"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Begravelse", url: "https://bedemandkobenhavn.dk/kim-bondo/begravelse" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Begravelse", url: "https://www.bedemandkobenhavn.dk/kim-bondo/begravelse" }
         ]}
       />
       <SchemaOrg
@@ -43,7 +43,7 @@ export default function KimBegravelse() {
           { question: "Kan man vælge en miljøvenlig kiste til begravelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer. En miljøvenlig kiste er et smukt valg for dem, der ønsker en afsked i harmoni med naturen." },
           { question: "Hvad er inkluderet i prisen for begravelse?", answer: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud." },
         ]}
-        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/begravelse"
+        pageUrl="https://www.bedemandkobenhavn.dk/kim-bondo/begravelse"
       />
       {/* ── HEADER ── */}
       <header
