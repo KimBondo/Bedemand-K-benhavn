@@ -24,7 +24,7 @@ export default function Home() {
      <SEO
        title="Bedemand København og Nordsjælland – Personlig og nærværende hjælp"
         description="To selvstændige bedemænd i København og Nordsjælland. Marie Thjellesen og Kim Bondo hjælper jer med bisættelse, begravelse og afsked — med nærvær, ro og gennemsigtige priser."
-       url="https://bedemandkobenhavn.dk/"
+       url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="WebSite" />
