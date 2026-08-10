@@ -808,18 +808,7 @@ export default function KimBondo() {
             </a>
             .
           </p>
-          {/* Google Business Profile – opdater linket når din profil er oprettet på Google */}
-          <p style={{ marginBottom: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99", textAlign: "center" }}>
-            <a
-              href="https://g.page/r/INDSÆT-DIT-GOOGLE-BUSINESS-ID-HER/review"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}
-            >
-              ⭐ Skriv en anmeldelse på Google
-            </a>
-            {" "}· Hjælper andre med at finde Kim
-          </p>
+          {/* Google Business anmeldelseslink tilføjes her, når Google Business-profil er verificeret */}
           <ContactForm />
         </div>
       </section>

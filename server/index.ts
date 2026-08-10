@@ -256,7 +256,13 @@ async function startServer() {
 
       const injected = injectMetaTags(html, pathname);
       res.setHeader("Content-Type", "text/html; charset=utf-8");
-      res.send(injected);
+      // Return 404 for unknown routes; known routes are those defined in ROUTE_META
+      const isKnownRoute = pathname === "/" || pathname in ROUTE_META;
+      if (isKnownRoute) {
+        res.send(injected);
+      } else {
+        res.status(404).send(injected);
+      }
     });
   });
 
