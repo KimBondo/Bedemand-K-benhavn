@@ -23,16 +23,16 @@ export default function KimBisaettelse() {
       <SEO
         title="Bisættelse i København – Bedemand Kim Bondo"
         description="Personlig hjælp til bisættelse i København og Nordsjælland. Kim Bondo tager sig af alt det praktiske. Ring 22 21 14 37 – døgnet rundt."
-        url="https://bedemandkobenhavn.dk/kim-bondo/bisaettelse"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/bisaettelse"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Bisættelse", url: "https://bedemandkobenhavn.dk/kim-bondo/bisaettelse" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Bisættelse", url: "https://www.bedemandkobenhavn.dk/kim-bondo/bisaettelse" }
         ]}
       />
       <SchemaOrg
@@ -44,7 +44,7 @@ export default function KimBisaettelse() {
           { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering. Det er et valg, mange familier sætter pris på." },
           { question: "Hvad er inkluderet i prisen for bisættelse?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter som kremering, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket." },
         ]}
-        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/bisaettelse"
+        pageUrl="https://www.bedemandkobenhavn.dk/kim-bondo/bisaettelse"
       />
       {/* ── HEADER ── */}
       <header
