@@ -70,16 +70,16 @@ export default function KimFaq() {
       <SEO
         title="FAQ – Begravelse og bisættelse, Kim Bondo"
         description="Svar på de mest stillede spørgsmål om begravelse, bisættelse, priser og begravelseshjælp. Kim Bondo bedemand i København. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/faq"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/faq"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="FAQPage"
         faqItems={allFaqItems}
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "FAQ", url: "https://bedemandkobenhavn.dk/kim-bondo/faq" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "FAQ", url: "https://www.bedemandkobenhavn.dk/kim-bondo/faq" }
         ]}
       />
 
