@@ -145,20 +145,20 @@ export default function KimProdukter() {
       <SEO
         title="Kister og urner – Bedemand Kim Bondo"
         description="Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/produkter"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/produkter"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Kister og urner", url: "https://bedemandkobenhavn.dk/kim-bondo/produkter" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Kister og urner", url: "https://www.bedemandkobenhavn.dk/kim-bondo/produkter" }
         ]}
       />
       <SchemaOrg
         type="ItemList"
-        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/produkter"
+        pageUrl="https://www.bedemandkobenhavn.dk/kim-bondo/produkter"
         products={[
           ...KISTER.map(k => ({
             name: k.name,
