@@ -8,11 +8,11 @@ function PersonSchema() {
     const schema = {
       "@context": "https://schema.org",
       "@type": "Person",
-      "@id": "https://bedemandkobenhavn.dk/kim-bondo/om-kim#kim-bondo",
+      "@id": "https://www.bedemandkobenhavn.dk/kim-bondo/om-kim#kim-bondo",
       "name": "Kim Bondo",
       "jobTitle": "Selvstændig bedemand",
       "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
-      "url": "https://bedemandkobenhavn.dk/kim-bondo",
+      "url": "https://www.bedemandkobenhavn.dk/kim-bondo",
       "image": "/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp",
       "telephone": "+4522211437",
       "email": "kim@bedemandkobenhavn.dk",
@@ -25,7 +25,7 @@ function PersonSchema() {
       },
       "worksFor": {
         "@type": "LocalBusiness",
-        "@id": "https://bedemandkobenhavn.dk/kim-bondo"
+        "@id": "https://www.bedemandkobenhavn.dk/kim-bondo"
       },
       "knowsAbout": ["Bisættelse", "Begravelse", "Afsked uden ceremoni", "Askespredning", "Begravelseshjælp"]
     };
@@ -58,16 +58,16 @@ export default function KimOmKim() {
       <SEO
         title="Om Kim Bondo – Personlig bedemand, København"
         description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/om-kim"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/om-kim"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Om Kim", url: "https://bedemandkobenhavn.dk/kim-bondo/om-kim" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Om Kim", url: "https://www.bedemandkobenhavn.dk/kim-bondo/om-kim" }
         ]}
       />
       <PersonSchema />
