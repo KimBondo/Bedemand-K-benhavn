@@ -24,7 +24,7 @@ const ROOT = path.resolve(__dirname, "..");
 const DIST_PUBLIC = path.resolve(ROOT, "dist/public");
 const SSR_BUNDLE = path.resolve(ROOT, "dist/server/entry-server.js");
 
-const BASE_URL = "https://bedemandkobenhavn.dk";
+const BASE_URL = "https://www.bedemandkobenhavn.dk";
 const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 
 const ROUTES = [

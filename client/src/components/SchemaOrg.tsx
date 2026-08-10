@@ -41,7 +41,7 @@ interface SchemaOrgProps {
   pageUrl?: string;
 }
 
-const BASE_URL = "https://bedemandkobenhavn.dk";
+const BASE_URL = "https://www.bedemandkobenhavn.dk";
 
 const KIM_LOCAL_BUSINESS = {
   "@context": "https://schema.org",

@@ -22,16 +22,16 @@ export default function KimAfskeder() {
       <SEO
         title="Afskeder og ceremonier – Bedemand Kim Bondo"
         description="Kirkelig, borgerlig eller stille afsked i København. Kim Bondo tilrettelægger begravelse og bisættelse efter jeres ønsker. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/afskeder"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/afskeder"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Afskeder", url: "https://bedemandkobenhavn.dk/kim-bondo/afskeder" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Afskeder", url: "https://www.bedemandkobenhavn.dk/kim-bondo/afskeder" }
         ]}
       />
       {/* ── HEADER ── */}

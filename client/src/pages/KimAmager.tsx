@@ -25,7 +25,7 @@ export default function KimAmager() {
       <SEO
         title="Bedemand Amager – Kim Bondo, døgnet rundt"
         description="Personlig bedemand på Amager. Bisættelse og begravelse med nærvær, ro og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
-        url="https://bedemandkobenhavn.dk/kim-bondo/amager"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/amager"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={[
@@ -238,7 +238,7 @@ export default function KimAmager() {
           Kender du nogen på Amager, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/amager")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/amager")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{

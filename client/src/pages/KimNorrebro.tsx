@@ -25,7 +25,7 @@ export default function KimNorrebro() {
       <SEO
         title="Bedemand Nørrebro – Kim Bondo, døgnet rundt"
         description="Personlig bedemand på Nørrebro. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
-        url="https://bedemandkobenhavn.dk/kim-bondo/norrebro"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/norrebro"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={[
@@ -238,7 +238,7 @@ export default function KimNorrebro() {
           Kender du nogen på Nørrebro, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/norrebro")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/norrebro")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
