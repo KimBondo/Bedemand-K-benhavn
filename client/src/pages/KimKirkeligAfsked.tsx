@@ -25,7 +25,7 @@ export default function KimKirkeligAfsked() {
       <SEO
         title="Kirkelig afsked – Bedemand Kim Bondo"
         description="Kirkelig begravelse eller bisættelse med præst i København. Jeg koordinerer kirke, kordegn og hele forløbet. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -33,9 +33,9 @@ export default function KimKirkeligAfsked() {
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Kirkelig afsked", url: "https://bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Kirkelig afsked", url: "https://www.bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked" }
         ]}
         faqItems={[
           { question: "Kan man få en kirkelig afsked uden at være medlem af Folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af Folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen." },
@@ -44,7 +44,7 @@ export default function KimKirkeligAfsked() {
           { question: "Er ceremonien i kirken gratis?", answer: "Som medlem af Folkekirken er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd." },
           { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde den bedste løsning." },
         ]}
-        pageUrl="https://bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
+        pageUrl="https://www.bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
       />
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
