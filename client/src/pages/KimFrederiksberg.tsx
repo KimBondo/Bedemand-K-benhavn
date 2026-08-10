@@ -25,7 +25,7 @@ export default function KimFrederiksberg() {
       <SEO
         title="Bedemand Frederiksberg – Kim Bondo"
         description="Personlig bedemand på Frederiksberg. Bisættelse fra 19.500 kr. og begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/frederiksberg"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/frederiksberg"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={[
@@ -238,7 +238,7 @@ export default function KimFrederiksberg() {
           Kender du nogen på Frederiksberg, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/frederiksberg")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/frederiksberg")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
