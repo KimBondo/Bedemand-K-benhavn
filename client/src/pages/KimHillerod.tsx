@@ -25,7 +25,7 @@ export default function KimHillerod() {
       <SEO
         title="Bedemand Hillerød – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Hillerød og omegn. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/hillerod"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/hillerod"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={[
@@ -205,7 +205,7 @@ export default function KimHillerod() {
           Kender du nogen i Hillerød, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/hillerod")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/hillerod")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
