@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 // We use import.meta.url to get the actual location of the bundled file at runtime.
 const DIST_DIR = path.dirname(fileURLToPath(import.meta.url));
 
-const BASE_URL = "https://bedemandkobenhavn.dk";
+const BASE_URL = "https://www.bedemandkobenhavn.dk";
 const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 
 // Per-route meta-data table — title + description injected into raw HTML before React loads
