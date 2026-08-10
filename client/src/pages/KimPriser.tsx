@@ -92,15 +92,15 @@ export default function KimPriser() {
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
         description="Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/priser"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/priser"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Priser", url: "https://bedemandkobenhavn.dk/kim-bondo/priser" },
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
+          { name: "Priser", url: "https://www.bedemandkobenhavn.dk/kim-bondo/priser" },
         ]}
       />
 
