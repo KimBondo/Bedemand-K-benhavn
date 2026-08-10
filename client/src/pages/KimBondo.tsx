@@ -52,14 +52,14 @@ export default function KimBondo() {
       <SEO
         title="Bedemand Kim Bondo – København og Nordsjælland"
         description="Personlig bedemand med nærvær og ro. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
-        url="https://bedemandkobenhavn.dk/kim-bondo"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo – Bedemand", url: "https://bedemandkobenhavn.dk/kim-bondo" }
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Kim Bondo – Bedemand", url: "https://www.bedemandkobenhavn.dk/kim-bondo" }
         ]}
       />
 
