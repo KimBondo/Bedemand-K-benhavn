@@ -26,14 +26,14 @@ export default function KimHuskeliste() {
       <SEO
         title="Huskeliste ved dødsfald – Bedemand Kim Bondo"
         description="Hvad skal du gøre, når en nærtstående dør? Kim Bondos trin-for-trin huskeliste hjælper dig i den svære tid. Ring 22 21 14 37."
-        url="https://bedemandkobenhavn.dk/kim-bondo/huskeliste"
+        url="https://www.bedemandkobenhavn.dk/kim-bondo/huskeliste"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
       <SchemaOrg
         type="both"
         breadcrumbs={[
-          { name: "Forside", url: "https://bedemandkobenhavn.dk/" },
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
           { name: "Huskeliste", url: "https://bedemandkobenhavn.dk/kim-bondo/huskeliste" }
         ]}
@@ -248,7 +248,7 @@ export default function KimHuskeliste() {
           Kender du nogen, der kan have brug for denne huskeliste?
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://bedemandkobenhavn.dk/kim-bondo/huskeliste")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/huskeliste")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
