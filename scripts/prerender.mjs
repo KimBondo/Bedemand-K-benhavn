@@ -56,15 +56,15 @@ const ROUTES = [
 
 const ROUTE_META = {
   "/": {
-    title: "Bedemand K\u00f8benhavn og Nordsj\u00e6lland \u2013 Personlig og n\u00e6rv\u00e6rende hj\u00e6lp",
-    description: "To selvst\u00e6ndige bedem\u00e6nd i K\u00f8benhavn og Nordsj\u00e6lland. Marie Thjellesen og Kim Bondo hj\u00e6lper jer med bis\u00e6ttelse, begravelse og afsked \u2014 med n\u00e6rv\u00e6r, ro og gennemsigtige priser.",
+    title: "Bedemand K\u00f8benhavn og Nordsj\u00e6lland \u2013 Personlig hj\u00e6lp",
+    description: "To selvst\u00e6ndige bedem\u00e6nd i K\u00f8benhavn og Nordsj\u00e6lland. Marie Thjellesen og Kim Bondo hj\u00e6lper med ro og gennemsigtige priser.",
   },
   "/kim-bondo": {
     title: "Bedemand Kim Bondo \u2013 K\u00f8benhavn og Nordsj\u00e6lland",
     description: "Personlig bedemand med n\u00e6rv\u00e6r og ro. Bis\u00e6ttelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/kim-bondo/priser": {
-    title: "Priser \u2013 Bedemand Kim Bondo | Gennemsigtige priser fra 13.550 kr.",
+    title: "Priser \u2013 Bedemand Kim Bondo fra 13.550 kr.",
     description: "Se alle priser for bis\u00e6ttelse, begravelse og afsked uden ceremoni. Ingen skjulte gebyrer. Bis\u00e6ttelse fra 19.500 kr., begravelse fra 21.500 kr.",
   },
   "/kim-bondo/afskeder": {
@@ -105,7 +105,7 @@ const ROUTE_META = {
   },
   "/kim-bondo/omraade": {
     title: "D\u00e6kningsomr\u00e5de \u2013 Bedemand Kim Bondo",
-    description: "Kim Bondo d\u00e6kker hele K\u00f8benhavn og Nordsj\u00e6lland. Se hvilke kommuner og byer der er inden for d\u00e6kningsomr\u00e5det.",
+    description: "Kim Bondo d\u00e6kker hele K\u00f8benhavn og Nordsj\u00e6lland. Se hvilke kommuner og byer der er inden for d\u00e6kningsomr\u00e5det, og ring 22 21 14 37.",
   },
   "/kim-bondo/hvad-koster-en-begravelse": {
     title: "Hvad koster en begravelse? Komplet guide 2026 \u2013 Kim Bondo",
@@ -160,7 +160,7 @@ const ROUTE_META = {
     description: "Personlig bedemand p\u00e5 N\u00f8rrebro. Kim Bondo hj\u00e6lper med bis\u00e6ttelse og begravelse p\u00e5 N\u00f8rrebro i K\u00f8benhavn. Ring 22 21 14 37.",
   },
   "/kim-bondo/vesterbro": {
-    title: "Bedemand Vesterbro \u2013 Kim Bondo | Personlig hj\u00e6lp p\u00e5 Vesterbro",
+    title: "Bedemand Vesterbro \u2013 Kim Bondo | Personlig hj\u00e6lp",
     description: "Personlig bedemand p\u00e5 Vesterbro. Kim Bondo hj\u00e6lper med bis\u00e6ttelse og begravelse p\u00e5 Vesterbro i K\u00f8benhavn. Ring 22 21 14 37.",
   },
   "/kim-bondo/produkter": {
@@ -193,8 +193,8 @@ function injectMetaIntoHtml(html, route) {
   const description = escapeHtml(meta.description);
   const image = escapeHtml(meta.image ?? DEFAULT_IMAGE);
   // Canonical: forsiden = https://www.bedemandkobenhavn.dk (ingen trailing slash)
-  // Undersider = https://www.bedemandkobenhavn.dk/kim-bondo osv.
-  const canonicalUrl = route === "/" ? BASE_URL : `${BASE_URL}${route}`;
+  // Undersider = https://www.bedemandkobenhavn.dk/kim-bondo/ (med trailing slash — matcher Cloudflare Pages 308-redirect)
+  const canonicalUrl = route === "/" ? BASE_URL : `${BASE_URL}${route}/`;
   const url = escapeHtml(canonicalUrl);
 
   let out = html;
