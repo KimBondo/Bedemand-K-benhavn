@@ -31,7 +31,7 @@ export default function KimVesterbro() {
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Vesterbro?", answer: "Jeg er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Vesterbro?", answer: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Absalons Kirke og Enghave Kirke. Jeg koordinerer direkte med de rette instanser." },
+        { question: "Hvilke krematorier og kirker er der på Vesterbro?", answer: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Enghave Kirke. Jeg koordinerer direkte med de rette instanser." },
         { question: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
       ]} />
@@ -188,7 +188,7 @@ export default function KimVesterbro() {
           {[
             { q: "Hvem er bedemand på Vesterbro?", a: "Jeg er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en begravelse på Vesterbro?", a: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Vesterbro?", a: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Absalons Kirke og Enghave Kirke. Jeg koordinerer direkte med de rette instanser." },
+            { q: "Hvilke krematorier og kirker er der på Vesterbro?", a: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Enghave Kirke. Jeg koordinerer direkte med de rette instanser." },
             { q: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (

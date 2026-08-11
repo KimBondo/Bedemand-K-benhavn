@@ -31,7 +31,7 @@ export default function KimOsterbro() {
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Østerbro?", answer: "Jeg er selvstændig bedemand og dækker Østerbro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en begravelse på Østerbro?", answer: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Østerbro?", answer: "Østerbro har bl.a. Bispebjerg Krematorium og en række smukke kirker, herunder Brorsons Kirke og Sankt Johannes Kirke. Assistens Kirkegård ligger tæt på. Jeg koordinerer direkte med de rette instanser." },
+        { question: "Hvilke krematorier og kirker er der på Østerbro?", answer: "Østerbro har bl.a. Bispebjerg Krematorium og en række smukke kirker, herunder Sankt Jakobs Kirke (Østerbrogade 59) og Sions Kirke (Østerbrogade 192). Assistens Kirkegård ligger tæt på. Jeg koordinerer direkte med de rette instanser." },
         { question: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Østerbro, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
       ]} />
@@ -188,7 +188,7 @@ export default function KimOsterbro() {
           {[
             { q: "Hvem er bedemand på Østerbro?", a: "Jeg er selvstændig bedemand og dækker Østerbro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en begravelse på Østerbro?", a: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Østerbro?", a: "Østerbro har bl.a. Bispebjerg Krematorium og en række smukke kirker, herunder Brorsons Kirke og Sankt Johannes Kirke. Assistens Kirkegård ligger tæt på. Jeg koordinerer direkte med de rette instanser." },
+            { q: "Hvilke krematorier og kirker er der på Østerbro?", a: "Østerbro har bl.a. Bispebjerg Krematorium og en række smukke kirker, herunder Sankt Jakobs Kirke (Østerbrogade 59) og Sions Kirke (Østerbrogade 192). Assistens Kirkegård ligger tæt på. Jeg koordinerer direkte med de rette instanser." },
             { q: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Østerbro, uden religiøse ritualer." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (

@@ -31,7 +31,7 @@ export default function KimNorrebro() {
       <SchemaOrg type="both" faqItems={[
         { question: "Hvem er bedemand på Nørrebro?", answer: "Jeg er selvstændig bedemand og dækker Nørrebro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
         { question: "Hvad koster en begravelse på Nørrebro?", answer: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Nørrebro?", answer: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Blågårds Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Jeg koordinerer direkte med de rette instanser." },
+        { question: "Hvilke krematorier og kirker er der på Nørrebro?", answer: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Brorsons Kirke, Sankt Johannes Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Jeg koordinerer direkte med de rette instanser." },
         { question: "Kan jeg vælge en borgerlig ceremoni på Nørrebro?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Nørrebro, uden religiøse ritualer." },
         { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
       ]} />
@@ -188,7 +188,7 @@ export default function KimNorrebro() {
           {[
             { q: "Hvem er bedemand på Nørrebro?", a: "Jeg er selvstændig bedemand og dækker Nørrebro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
             { q: "Hvad koster en begravelse på Nørrebro?", a: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Nørrebro?", a: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Blågårds Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Jeg koordinerer direkte med de rette instanser." },
+            { q: "Hvilke krematorier og kirker er der på Nørrebro?", a: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Brorsons Kirke, Sankt Johannes Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Jeg koordinerer direkte med de rette instanser." },
             { q: "Kan jeg vælge en borgerlig ceremoni på Nørrebro?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Nørrebro, uden religiøse ritualer." },
             { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
           ].map((faq, i) => (
