@@ -445,6 +445,13 @@ export default function KimProdukter() {
           >
             Persondatapolitik
           </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="#cookieindstillinger"
+            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+          >
+            Cookieindstillinger
+          </a>
         </p>
       </footer>
     </div>

@@ -278,6 +278,8 @@ export default function KimOsterbro() {
           <a href="/kim-bondo/omraade" style={{ color: "rgba(255,255,255,0.40)", textDecoration: "none" }}>Dækningsområde</a>
           &nbsp;·&nbsp;
           <a href="/kim-bondo/persondatapolitik" style={{ color: "rgba(255,255,255,0.40)", textDecoration: "none" }}>Persondatapolitik</a>
+          &nbsp;·&nbsp;
+          <a href="#cookieindstillinger" style={{ color: "rgba(255,255,255,0.40)", textDecoration: "none" }}>Cookieindstillinger</a>
         </p>
       </footer>
     </div>

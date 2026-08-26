@@ -588,6 +588,13 @@ export default function KimBisaettelse() {
           >
             Persondatapolitik
           </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="#cookieindstillinger"
+            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+          >
+            Cookieindstillinger
+          </a>
         </p>
       </section>
     </div>

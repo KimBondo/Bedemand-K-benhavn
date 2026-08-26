@@ -138,14 +138,31 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Cookies og statistik</h2>
           <p style={s.body}>
-            Siden bruger Google Tag Manager og Google Analytics til at se, hvor mange der besøger siderne, og hvilke sider der bliver læst. Det hjælper mig med at skrive om det, folk faktisk leder efter. Google Analytics placerer cookies i din browser og registrerer blandt andet din IP-adresse i afkortet form.
+            <strong>Der bliver ikke sat cookies, før du har sagt ja.</strong> Første
+            gang du besøger siden, bliver du spurgt, om jeg må måle, hvordan siden
+            bliver brugt. Siger du nej — eller lader du være med at svare — indlæses
+            der ingen måleværktøjer, og der lander ingen statistikcookies i din
+            browser. Siden virker præcis lige så godt.
           </p>
           <p style={s.body}>
-            Jeg bruger ikke statistikken til at identificere dig som person, og oplysningerne sælges ikke videre.
+            Siger du ja, indlæses Google Tag Manager og Google Analytics, som
+            placerer cookies i din browser (blandt andet <code>_ga</code>) og
+            registrerer din IP-adresse i afkortet form. Det hjælper mig med at se,
+            hvilke sider der bliver læst, så jeg kan skrive om det, folk faktisk
+            leder efter. Jeg bruger ikke statistikken til at identificere dig som
+            person, og oplysningerne sælges ikke videre.
           </p>
           <p style={s.body}>
-            Du kan altid slette cookies i din browsers indstillinger eller bruge en browser-udvidelse, der blokerer statistikcookies. Du kan også fravælge Google Analytics via{" "}
-            <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" style={s.link}>Googles eget fravalgsværktøj</a>.
+            Dit valg gemmes lokalt i din browser i 12 måneder — ikke som en cookie,
+            men i browserens eget lager — og derefter bliver du spurgt igen.
+          </p>
+          <p style={s.body}>
+            <a href="#cookieindstillinger" style={s.link}>
+              Skift dine cookieindstillinger
+            </a>{" "}
+            — du kan trække dit samtykke tilbage når som helst, og lige så let som
+            du gav det. Fravælger du, slettes de statistikcookies, der måtte være
+            sat i forvejen.
           </p>
         </div>
       </section>
