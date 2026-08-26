@@ -128,7 +128,7 @@ export default function CookieConsent() {
         zIndex: 9999,
         background: "#2F3E46",
         color: "#ffffff",
-        padding: "18px 24px 20px",
+        padding: "16px 24px",
         boxShadow: "0 -4px 24px rgba(0,0,0,0.18)",
       }}
     >
@@ -152,8 +152,7 @@ export default function CookieConsent() {
             flex: "1 1 320px",
           }}
         >
-          Må jeg måle med Google Analytics, hvordan siden bliver brugt? Der
-          sættes ingen cookies, før du siger ja.{" "}
+          Jeg bruger cookies til statistik.{" "}
           <a
             href="/kim-bondo/persondatapolitik"
             style={{ color: "#b0c4b1", textDecoration: "underline" }}
@@ -179,7 +178,7 @@ export default function CookieConsent() {
               border: "1.5px solid rgba(255,255,255,0.55)",
             }}
           >
-            Nej tak
+            Afvis
           </button>
           <button
             type="button"
@@ -191,7 +190,7 @@ export default function CookieConsent() {
               border: "1.5px solid #3D6B4F",
             }}
           >
-            Ja tak
+            Tillad cookies
           </button>
         </div>
       </div>
