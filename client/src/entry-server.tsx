@@ -42,6 +42,7 @@ import KimNorrebro from "./pages/KimNorrebro";
 import KimVesterbro from "./pages/KimVesterbro";
 import KimProdukter from "./pages/KimProdukter";
 import KimOmKim from "./pages/KimOmKim";
+import KimPersondatapolitik from "./pages/KimPersondatapolitik";
 
 function SSRApp() {
   return (
@@ -79,6 +80,7 @@ function SSRApp() {
             <Route path={"/kim-bondo/vesterbro"} component={KimVesterbro} />
             <Route path={"/kim-bondo/produkter"} component={KimProdukter} />
             <Route path={"/kim-bondo/om-kim"} component={KimOmKim} />
+            <Route path={"/kim-bondo/persondatapolitik"} component={KimPersondatapolitik} />
             <Route path={"/404"} component={NotFound} />
             <Route component={NotFound} />
           </Switch>

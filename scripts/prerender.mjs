@@ -172,6 +172,10 @@ const ROUTE_META = {
     title: "Om Kim Bondo \u2013 Personlig bedemand i K\u00f8benhavn",
     description: "L\u00e6r Kim Bondo at kende. Bedemand med hjerte, n\u00e6rv\u00e6r og spirituel forankring. Kim hj\u00e6lper familier i sorg med ro og omsorg.",
   },
+  "/kim-bondo/persondatapolitik": {
+    title: "Persondatapolitik \u2013 Bedemand Kim Bondo",
+    description: "S\u00e5dan behandler Bedemand K\u00f8benhavn ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR.",
+  },
 };
 
 function escapeHtml(str) {
