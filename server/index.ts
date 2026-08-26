@@ -210,7 +210,7 @@ async function startServer() {
         "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
         "font-src 'self' https://fonts.gstatic.com",
         "img-src 'self' data: https://www.bedemandkobenhavn.dk https://*.manus.space https://*.manuscdn.com",
-        "connect-src 'self' https://eu.umami.is",
+        "connect-src 'self' https://eu.umami.is https://api.web3forms.com",
         "frame-ancestors 'self' https://*.manus.space https://*.manus.computer",
       ].join("; ")
     );
