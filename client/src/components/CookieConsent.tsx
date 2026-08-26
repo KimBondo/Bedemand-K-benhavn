@@ -107,7 +107,7 @@ export default function CookieConsent() {
     fontFamily: "'Open Sans', sans-serif",
     fontWeight: 700,
     fontSize: "15px",
-    padding: "13px 28px",
+    padding: "11px 26px",
     borderRadius: "3px",
     letterSpacing: "0.04em",
     cursor: "pointer",
@@ -128,7 +128,7 @@ export default function CookieConsent() {
         zIndex: 9999,
         background: "#2F3E46",
         color: "#ffffff",
-        padding: "24px 24px 28px",
+        padding: "18px 24px 20px",
         boxShadow: "0 -4px 24px rgba(0,0,0,0.18)",
       }}
     >
@@ -152,17 +152,14 @@ export default function CookieConsent() {
             flex: "1 1 320px",
           }}
         >
-          Må jeg måle, hvordan siden bliver brugt? Det sker med Google Analytics
-          og hjælper mig med at skrive om det, folk faktisk leder efter. Siden
-          virker præcis lige så godt, hvis du siger nej — og der bliver ikke sat
-          nogen cookies, før du har sagt ja.{" "}
+          Må jeg måle med Google Analytics, hvordan siden bliver brugt? Der
+          sættes ingen cookies, før du siger ja.{" "}
           <a
             href="/kim-bondo/persondatapolitik"
             style={{ color: "#b0c4b1", textDecoration: "underline" }}
           >
-            Læs persondatapolitikken
+            Persondatapolitik
           </a>
-          .
         </p>
         <div
           style={{
@@ -194,7 +191,7 @@ export default function CookieConsent() {
               border: "1.5px solid #3D6B4F",
             }}
           >
-            Ja, det må du gerne
+            Ja tak
           </button>
         </div>
       </div>

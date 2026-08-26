@@ -82,7 +82,7 @@ const ROUTE_META = {
   },
   "/kim-bondo/afsked-uden-ceremoni": {
     title: "Afsked uden ceremoni \u2013 Bedemand Kim Bondo fra 13.550 kr.",
-    description: "En enkel og v\u00e6rdig afsked uden ceremoni fra 13.550 kr. Kremering og urnenedsaettelse uden offentlig seremoni \u2013 Kim Bondo hj\u00e6lper jer.",
+    description: "En enkel og v\u00e6rdig afsked uden ceremoni fra 13.550 kr. Kremering og urneneds\u00e6ttelse uden offentlig ceremoni \u2013 Kim Bondo hj\u00e6lper jer.",
   },
   "/kim-bondo/askespredning": {
     title: "Askespredning i Danmark \u2013 Bedemand Kim Bondo",

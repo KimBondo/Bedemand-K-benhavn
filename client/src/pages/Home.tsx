@@ -198,6 +198,10 @@ export default function Home() {
             }}
           >
             © {new Date().getFullYear()} Bedemand København og Nordsjælland &nbsp;·&nbsp; To selvstændige bedemænd
+            {" "}&nbsp;·&nbsp;{" "}
+            <a href="/kim-bondo/persondatapolitik" style={{ color: "rgba(255,255,255,0.50)", textDecoration: "underline" }}>Persondatapolitik</a>
+            {" "}&nbsp;·&nbsp;{" "}
+            <a href="#cookieindstillinger" style={{ color: "rgba(255,255,255,0.50)", textDecoration: "underline" }}>Cookieindstillinger</a>
           </p>
         </footer>
       </main>
