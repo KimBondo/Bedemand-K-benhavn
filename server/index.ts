@@ -133,6 +133,10 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     title: "Om Kim Bondo – Personlig bedemand i København",
     description: "Lær Kim Bondo at kende. Bedemand med hjerte, nærvær og spirituel forankring. Kim hjælper familier i sorg med ro og omsorg.",
   },
+  "/kim-bondo/persondatapolitik": {
+    title: "Persondatapolitik – Bedemand Kim Bondo",
+    description: "Sådan behandler Bedemand København ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR.",
+  },
 };
 
 function escapeHtml(str: string): string {

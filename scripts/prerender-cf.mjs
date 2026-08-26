@@ -57,6 +57,7 @@ const ROUTES = [
   "/kim-bondo/vesterbro",
   "/kim-bondo/produkter",
   "/kim-bondo/om-kim",
+  "/kim-bondo/persondatapolitik",
 ];
 
 const ROUTE_META = {
