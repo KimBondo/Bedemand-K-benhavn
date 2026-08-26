@@ -41,6 +41,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/persondatapolitik</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.bedemandkobenhavn.dk/kim-bondo/produkter</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>

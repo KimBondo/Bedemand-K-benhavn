@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 /**
  * SchemaOrg – injects JSON-LD structured data into <head>.
  * Supports FuneralHome (LocalBusiness), FAQPage, Service, BreadcrumbList,
@@ -109,7 +107,7 @@ const KIM_LOCAL_BUSINESS = {
           "name": "Enkel bisættelse",
           "description": "Komplet bisættelse med koordinering, klargøring, rustvognskørsel og kremering."
         },
-        "price": "17395",
+        "price": "19500",
         "priceCurrency": "DKK"
       },
       {
@@ -119,7 +117,7 @@ const KIM_LOCAL_BUSINESS = {
           "name": "Enkel begravelse",
           "description": "Komplet begravelse med koordinering, klargøring, rustvognskørsel og kistenedsættelse."
         },
-        "price": "18500",
+        "price": "21500",
         "priceCurrency": "DKK"
       },
       {
@@ -129,7 +127,7 @@ const KIM_LOCAL_BUSINESS = {
           "name": "Afsked uden ceremoni",
           "description": "Stille afsked uden ceremoni – kremering og urnenedsættelse."
         },
-        "price": "15500",
+        "price": "13550",
         "priceCurrency": "DKK"
       }
     ]
@@ -167,123 +165,117 @@ const WEBSITE_SCHEMA = {
 };
 
 export default function SchemaOrg({ type, faqItems, breadcrumbs, services, products, pageUrl }: SchemaOrgProps) {
-  useEffect(() => {
-    const schemas: object[] = [];
+  const schemas: object[] = [];
 
-    if (type === "WebSite") {
-      schemas.push(WEBSITE_SCHEMA);
-    }
+  if (type === "WebSite") {
+    schemas.push(WEBSITE_SCHEMA);
+  }
 
-    if (type === "LocalBusiness" || type === "both") {
-      schemas.push(KIM_LOCAL_BUSINESS);
-    }
+  if (type === "LocalBusiness" || type === "both") {
+    schemas.push(KIM_LOCAL_BUSINESS);
+  }
 
-    if ((type === "FAQPage" || type === "both") && faqItems && faqItems.length > 0) {
-      schemas.push({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": faqItems.map((item) => ({
-          "@type": "Question",
-          "name": item.question,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": item.answer
-          }
-        }))
-      });
-    }
-
-    // BreadcrumbList – always inject when breadcrumbs are provided
-    if (breadcrumbs && breadcrumbs.length > 0) {
-      schemas.push({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": breadcrumbs.map((crumb, idx) => ({
-          "@type": "ListItem",
-          "position": idx + 1,
-          "name": crumb.name,
-          "item": crumb.url
-        }))
-      });
-    }
-
-    // Service schemas – for service-specific pages
-    if (services && services.length > 0) {
-      services.forEach((svc) => {
-        schemas.push({
-          "@context": "https://schema.org",
-          "@type": "Service",
-          "serviceType": svc.name,
-          "name": svc.name,
-          "description": svc.description,
-          "provider": {
-            "@type": "LocalBusiness",
-            "@id": `${BASE_URL}/kim-bondo`
-          },
-          "areaServed": { "@type": "AdministrativeArea", "name": "København og Nordsjælland" },
-          ...(svc.price ? {
-            "offers": {
-              "@type": "Offer",
-              "price": svc.price,
-              "priceCurrency": "DKK"
-            }
-          } : {}),
-          ...(pageUrl ? { "url": pageUrl } : {})
-        });
-      });
-    }
-
-    // ItemList schema – for product/catalog pages
-    if (type === "ItemList" && products && products.length > 0) {
-      schemas.push({
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Kister og urner",
-        "description": "Udvalg af kister og urner til begravelse og bisættelse",
-        "url": pageUrl || `${BASE_URL}/kim-bondo/produkter`,
-        "numberOfItems": products.length,
-        "itemListElement": products.map((product, idx) => ({
-          "@type": "ListItem",
-          "position": idx + 1,
-          "item": {
-            "@type": "Product",
-            "name": product.name,
-            "description": product.description,
-            "image": product.image.startsWith("http") ? product.image : `${BASE_URL}${product.image}`,
-            "sku": product.sku,
-            "offers": {
-              "@type": "Offer",
-              "price": product.price,
-              "priceCurrency": "DKK",
-              "availability": "https://schema.org/InStock",
-              "seller": {
-                "@type": "LocalBusiness",
-                "@id": `${BASE_URL}/kim-bondo`
-              }
-            }
-          }
-        }))
-      });
-    }
-
-    // Inject each schema as a separate <script> tag
-    const elements: HTMLScriptElement[] = [];
-    schemas.forEach((schema, i) => {
-      const existing = document.querySelector(`script[data-schema-id="schema-${i}"]`);
-      if (existing) existing.remove();
-
-      const script = document.createElement("script");
-      script.type = "application/ld+json";
-      script.setAttribute("data-schema-id", `schema-${i}`);
-      script.textContent = JSON.stringify(schema, null, 2);
-      document.head.appendChild(script);
-      elements.push(script);
+  if ((type === "FAQPage" || type === "both") && faqItems && faqItems.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqItems.map((item) => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": item.answer
+        }
+      }))
     });
+  }
 
-    return () => {
-      elements.forEach((el) => el.remove());
-    };
-  }, [type, faqItems, breadcrumbs, services, products, pageUrl]);
+  // BreadcrumbList – always inject when breadcrumbs are provided
+  if (breadcrumbs && breadcrumbs.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": breadcrumbs.map((crumb, idx) => ({
+        "@type": "ListItem",
+        "position": idx + 1,
+        "name": crumb.name,
+        "item": crumb.url
+      }))
+    });
+  }
 
-  return null;
+  // Service schemas – for service-specific pages
+  if (services && services.length > 0) {
+    services.forEach((svc) => {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": svc.name,
+        "name": svc.name,
+        "description": svc.description,
+        "provider": {
+          "@type": "LocalBusiness",
+          "@id": `${BASE_URL}/kim-bondo`
+        },
+        "areaServed": { "@type": "AdministrativeArea", "name": "København og Nordsjælland" },
+        ...(svc.price ? {
+          "offers": {
+            "@type": "Offer",
+            "price": svc.price,
+            "priceCurrency": "DKK"
+          }
+        } : {}),
+        ...(pageUrl ? { "url": pageUrl } : {})
+      });
+    });
+  }
+
+  // ItemList schema – for product/catalog pages
+  if (type === "ItemList" && products && products.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Kister og urner",
+      "description": "Udvalg af kister og urner til begravelse og bisættelse",
+      "url": pageUrl || `${BASE_URL}/kim-bondo/produkter`,
+      "numberOfItems": products.length,
+      "itemListElement": products.map((product, idx) => ({
+        "@type": "ListItem",
+        "position": idx + 1,
+        "item": {
+          "@type": "Product",
+          "name": product.name,
+          "description": product.description,
+          "image": product.image.startsWith("http") ? product.image : `${BASE_URL}${product.image}`,
+          "sku": product.sku,
+          "offers": {
+            "@type": "Offer",
+            "price": product.price,
+            "priceCurrency": "DKK",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "LocalBusiness",
+              "@id": `${BASE_URL}/kim-bondo`
+            }
+          }
+        }
+      }))
+    });
+  }
+
+  return (
+    <>
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          data-schema-id={`schema-${i}`}
+          dangerouslySetInnerHTML={{
+            // \u003c forhindrer at et "</script>" i data bryder ud af taggen
+            __html: JSON.stringify(schema).replace(/</g, "\\u003c"),
+          }}
+        />
+      ))}
+    </>
+  );
 }
