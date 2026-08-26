@@ -1,15 +1,35 @@
 /**
  * ContactForm – Kim Bondo
- * Simple contact form: name, phone, and optional timing/message field.
- * Uses mailto: as the action so it works without a backend.
- * Fires dataLayer events for Google Tag Manager conversion tracking.
+ *
+ * Sender henvendelsen via Web3Forms (https://web3forms.com) direkte til
+ * kim@bedemandkobenhavn.dk. Kræver ingen backend — siden er statisk.
+ *
+ * OPSÆTNING (engangs, ca. 1 minut):
+ *   1. Gå til https://web3forms.com, skriv kim@bedemandkobenhavn.dk og få en access key på mail.
+ *   2. Sæt nøglen ind som VITE_WEB3FORMS_KEY i .env — eller indsæt den direkte i
+ *      FALLBACK_ACCESS_KEY nedenfor.
+ *   3. Bekræft adressen via mailen fra Web3Forms, ellers sendes der intet.
+ *
+ * Hvis nøglen mangler, eller hvis afsendelsen fejler, falder formularen tilbage
+ * til den gamle mailto:-løsning, så en henvendelse aldrig går tabt i stilhed.
  *
  * Props:
- *   variant="default"  → name + phone + message (produktsiden)
- *   variant="priser"   → name + phone + hvornår (prissiden)
+ *   variant="default"  → navn + telefon + besked (produktsiden)
+ *   variant="priser"   → navn + telefon + hvornår (prissiden)
  */
 
 import { useState } from "react";
+
+// ── Konfiguration ────────────────────────────────────────────────────────────
+const RECIPIENT = "kim@bedemandkobenhavn.dk";
+const PHONE_DISPLAY = "22 21 14 37";
+const PHONE_HREF = "+4522211437";
+
+// Indsæt din Web3Forms access key her hvis du ikke bruger .env-filen:
+const FALLBACK_ACCESS_KEY = "";
+
+const ACCESS_KEY =
+  (import.meta.env.VITE_WEB3FORMS_KEY as string | undefined) || FALLBACK_ACCESS_KEY;
 
 // ── GTM dataLayer helper ─────────────────────────────────────────────────────
 declare global {
@@ -30,9 +50,19 @@ interface ContactFormProps {
   variant?: "default" | "priser";
 }
 
+type Status = "idle" | "sending" | "sent" | "mailto" | "error";
+
 export default function ContactForm({ variant = "default" }: ContactFormProps) {
-  const [submitted, setSubmitted] = useState(false);
-  const [form, setForm] = useState({ name: "", phone: "", message: "", timing: "" });
+  const [status, setStatus] = useState<Status>("idle");
+  const [form, setForm] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: "",
+    timing: "",
+    // Honeypot — udfyldes kun af bots
+    botcheck: "",
+  });
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -40,25 +70,83 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const buildBody = () =>
+    variant === "priser"
+      ? `Navn: ${form.name}\nTelefon: ${form.phone}\nE-mail: ${form.email || "(ikke oplyst)"}\n\nHvornår passer det at ringe:\n${form.timing}`
+      : `Navn: ${form.name}\nTelefon: ${form.phone}\nE-mail: ${form.email || "(ikke oplyst)"}\n\nBesked:\n${form.message}`;
 
-    // ── Conversion tracking ──────────────────────────────────────────────────
+  const buildSubject = () =>
+    `Henvendelse fra hjemmesiden – ${form.name || "ukendt afsender"}`;
+
+  const mailtoHref = () =>
+    `mailto:${RECIPIENT}?subject=${encodeURIComponent(buildSubject())}&body=${encodeURIComponent(buildBody())}`;
+
+  const openMailClient = () => {
+    window.location.href = mailtoHref();
+    setStatus("mailto");
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (status === "sending") return;
+
+    // Bot fanget i honeypot — lad som om alt gik godt, send intet.
+    if (form.botcheck) {
+      setStatus("sent");
+      return;
+    }
+
     pushEvent("form_submit", {
       form_type: variant === "priser" ? "priser_contact" : "product_contact",
       has_phone: !!form.phone,
     });
 
-    const subject = encodeURIComponent(
-      `Henvendelse fra ${form.name || "hjemmesiden"}`
-    );
-    const bodyText =
-      variant === "priser"
-        ? `Navn: ${form.name}\nTelefon: ${form.phone}\n\nHvornår passer det at ringe:\n${form.timing}`
-        : `Navn: ${form.name}\nTelefon: ${form.phone}\n\nBesked:\n${form.message}`;
-    const body = encodeURIComponent(bodyText);
-    window.location.href = `mailto:kim@bedemandkobenhavn.dk?subject=${subject}&body=${body}`;
-    setSubmitted(true);
+    // Ingen nøgle konfigureret endnu → brug den gamle mailto-løsning
+    if (!ACCESS_KEY) {
+      openMailClient();
+      return;
+    }
+
+    setStatus("sending");
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: ACCESS_KEY,
+          subject: buildSubject(),
+          from_name: "Bedemand København",
+          // replyto sætter Svar-til i mailen, så Kim kan svare direkte
+          replyto: form.email || undefined,
+          Navn: form.name,
+          Telefon: form.phone,
+          "E-mail": form.email || "(ikke oplyst)",
+          ...(variant === "priser"
+            ? { "Hvornår passer det at ringe": form.timing }
+            : { Besked: form.message }),
+          Side: typeof window !== "undefined" ? window.location.pathname : "",
+        }),
+      });
+
+      const data = await res.json().catch(() => null);
+
+      if (res.ok && data?.success) {
+        pushEvent("form_submit_success", {
+          form_type: variant === "priser" ? "priser_contact" : "product_contact",
+        });
+        setStatus("sent");
+      } else {
+        console.error("Web3Forms-fejl:", data);
+        setStatus("error");
+      }
+    } catch (err) {
+      console.error("Kunne ikke sende formularen:", err);
+      setStatus("error");
+    }
   };
 
   const inputStyle: React.CSSProperties = {
@@ -86,9 +174,12 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
     marginBottom: "8px",
   };
 
-  if (submitted) {
+  // ── Kvittering ─────────────────────────────────────────────────────────────
+  if (status === "sent" || status === "mailto") {
     return (
       <div
+        role="status"
+        aria-live="polite"
         style={{
           background: "#eaf2eb",
           border: "1.5px solid #3D6B4F",
@@ -109,15 +200,39 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
           Tak for din besked
         </p>
         <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.7 }}>
-          Din e-mail-klient er åbnet med beskeden klar til afsendelse. Kim
-          vender tilbage hurtigst muligt.
+          {status === "sent"
+            ? "Din besked er sendt. Kim vender tilbage hurtigst muligt — og du er altid velkommen til at ringe på "
+            : "Din e-mail-klient er åbnet med beskeden klar til afsendelse. Du er også velkommen til at ringe på "}
+          <a
+            href={`tel:${PHONE_HREF}`}
+            style={{ color: "#3D6B4F", fontWeight: 600 }}
+          >
+            {PHONE_DISPLAY}
+          </a>
+          .
         </p>
       </div>
     );
   }
 
+  const sending = status === "sending";
+
   return (
     <form onSubmit={handleSubmit} noValidate>
+      {/* Honeypot — skjult for mennesker, udfyldes af bots */}
+      <input
+        type="checkbox"
+        name="botcheck"
+        tabIndex={-1}
+        autoComplete="off"
+        checked={!!form.botcheck}
+        onChange={(e) =>
+          setForm({ ...form, botcheck: e.target.checked ? "1" : "" })
+        }
+        style={{ display: "none" }}
+        aria-hidden="true"
+      />
+
       <label style={labelStyle} htmlFor="cf-name">
         Navn
       </label>
@@ -129,6 +244,7 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
         value={form.name}
         onChange={handleChange}
         required
+        autoComplete="name"
         style={inputStyle}
       />
 
@@ -142,6 +258,22 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
         placeholder="Dit telefonnummer"
         value={form.phone}
         onChange={handleChange}
+        required
+        autoComplete="tel"
+        style={inputStyle}
+      />
+
+      <label style={labelStyle} htmlFor="cf-email">
+        E-mail (valgfrit)
+      </label>
+      <input
+        id="cf-email"
+        name="email"
+        type="email"
+        placeholder="Så kan Kim også svare dig på skrift"
+        value={form.email}
+        onChange={handleChange}
+        autoComplete="email"
         style={inputStyle}
       />
 
@@ -195,11 +327,45 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
         besvare din henvendelse.
       </p>
 
+      {status === "error" && (
+        <div
+          role="alert"
+          style={{
+            background: "#fdf2f0",
+            border: "1.5px solid #c0665a",
+            borderRadius: "4px",
+            padding: "16px 18px",
+            marginBottom: "20px",
+            fontSize: "14px",
+            color: "#7a3b33",
+            lineHeight: 1.7,
+          }}
+        >
+          Beskeden kunne desværre ikke sendes lige nu. Ring endelig på{" "}
+          <a
+            href={`tel:${PHONE_HREF}`}
+            style={{ color: "#7a3b33", fontWeight: 700 }}
+          >
+            {PHONE_DISPLAY}
+          </a>{" "}
+          — eller{" "}
+          <a
+            href={mailtoHref()}
+            onClick={() => setStatus("mailto")}
+            style={{ color: "#7a3b33", fontWeight: 700 }}
+          >
+            send den som almindelig e-mail
+          </a>
+          .
+        </div>
+      )}
+
       <button
         type="submit"
+        disabled={sending}
         style={{
           width: "100%",
-          background: "#3D6B4F",
+          background: sending ? "#7d9a89" : "#3D6B4F",
           color: "#ffffff",
           fontFamily: "'Open Sans', sans-serif",
           fontWeight: 700,
@@ -208,10 +374,10 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
           border: "none",
           borderRadius: "3px",
           letterSpacing: "0.05em",
-          cursor: "pointer",
+          cursor: sending ? "default" : "pointer",
         }}
       >
-        Send besked
+        {sending ? "Sender …" : "Send besked"}
       </button>
     </form>
   );
