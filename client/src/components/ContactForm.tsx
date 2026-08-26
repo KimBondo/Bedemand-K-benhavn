@@ -26,7 +26,7 @@ const PHONE_DISPLAY = "22 21 14 37";
 const PHONE_HREF = "+4522211437";
 
 // Indsæt din Web3Forms access key her hvis du ikke bruger .env-filen:
-const FALLBACK_ACCESS_KEY = "";
+const FALLBACK_ACCESS_KEY = "c89cef24-833d-4af6-87cb-ca108350220c";
 
 const ACCESS_KEY =
   (import.meta.env.VITE_WEB3FORMS_KEY as string | undefined) || FALLBACK_ACCESS_KEY;
