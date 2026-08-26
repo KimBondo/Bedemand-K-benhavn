@@ -323,8 +323,9 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
           fontStyle: "italic",
         }}
       >
-        Dine oplysninger deles ikke med tredjepart og bruges udelukkende til at
-        besvare din henvendelse.
+        Din besked sendes til Kims indbakke gennem en ekstern formulartjeneste
+        (Web3Forms). Oplysningerne bruges udelukkende til at besvare din
+        henvendelse — de sælges ikke og bruges ikke til markedsføring.
       </p>
 
       {status === "error" && (
