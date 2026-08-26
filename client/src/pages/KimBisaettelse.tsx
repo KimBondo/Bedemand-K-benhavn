@@ -581,6 +581,13 @@ export default function KimBisaettelse() {
         </p>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.25)", marginTop: "40px" }}>
           © {new Date().getFullYear()} Bedemand København ApS · Kim Bondo · Vandtårnsvej 62A, 2860 Søborg
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="/kim-bondo/persondatapolitik"
+            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+          >
+            Persondatapolitik
+          </a>
         </p>
       </section>
     </div>

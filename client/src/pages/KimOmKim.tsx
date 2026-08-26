@@ -247,6 +247,13 @@ export default function KimOmKim() {
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="/kim-bondo/persondatapolitik"
+            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+          >
+            Persondatapolitik
+          </a>
         </p>
       </footer>
     </div>
