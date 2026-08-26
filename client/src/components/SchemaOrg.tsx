@@ -133,7 +133,8 @@ const KIM_LOCAL_BUSINESS = {
     ]
   },
   "sameAs": [
-    "https://www.facebook.com/bedemandkobenhavn"
+    "https://www.facebook.com/bedemandkobenhavn",
+    "https://maps.google.com/?cid=18270352265939613039"
   ]
 };
 

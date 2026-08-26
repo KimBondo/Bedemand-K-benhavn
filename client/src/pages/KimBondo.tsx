@@ -808,8 +808,29 @@ export default function KimBondo() {
             </a>
             .
           </p>
-          {/* Google Business anmeldelseslink tilføjes her, når Google Business-profil er verificeret */}
           <ContactForm />
+          <p
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontSize: "14px",
+              lineHeight: 1.7,
+              color: "#7a8f99",
+              textAlign: "center",
+              marginTop: "40px",
+              marginBottom: 0,
+            }}
+          >
+            Har jeg hjulpet dig og din familie? Så sætter jeg stor pris på, hvis du vil{" "}
+            <a
+              href="https://g.page/r/CW91ldyVVI39EBM/review"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#3D6B4F", fontWeight: 600 }}
+            >
+              dele din oplevelse på Google
+            </a>{" "}
+            — det hjælper andre, der står samme sted, med at turde tage kontakt.
+          </p>
         </div>
       </section>
 
