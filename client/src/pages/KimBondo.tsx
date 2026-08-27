@@ -100,7 +100,6 @@ export default function KimBondo() {
   }
 `}</style>
           <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-            <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
             <span
               style={{
                 fontFamily: "'Lora', serif",

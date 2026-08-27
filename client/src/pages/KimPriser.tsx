@@ -22,6 +22,7 @@ const s = {
   hr: { border: "none", borderTop: "1px solid #e0dcd6", margin: "56px 0" } as React.CSSProperties,
   price: { fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "22px", color: "#3D6B4F" } as React.CSSProperties,
   li: { fontFamily: "'Open Sans', sans-serif", fontSize: "15px", lineHeight: 1.8, color: "#3d5260", marginBottom: "4px" } as React.CSSProperties,
+  link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px", fontWeight: 600 } as React.CSSProperties,
 };
 
 
@@ -126,8 +127,7 @@ export default function KimPriser() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
+          <a href="/" style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2, textDecoration: "none" }}>Bedemand København og Nordsjælland</a>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Priser</span>
         </div>
         <KimNav />
@@ -309,6 +309,12 @@ export default function KimPriser() {
           </p>
           <p style={s.body}>
             Jeg regner jeres konkrete tal sammen, inden I siger ja til noget. Og jeg søger begravelseshjælpen for jer — den modregnes direkte på fakturaen, så I ikke skal lægge ud.
+          </p>
+          <p style={{ marginBottom: "0" }}>
+            <a href="/hvad-koster-en-begravelse/" style={s.link}>Hvad koster en begravelse? Se den fulde gennemgang af alle udgifter →</a>
+          </p>
+          <p style={{ marginBottom: "0", marginTop: "10px" }}>
+            <a href="/begravelseshjaelp/" style={s.link}>Begravelseshjælp: hvem kan få den, og hvor meget? →</a>
           </p>
         </section>
 

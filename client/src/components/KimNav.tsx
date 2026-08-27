@@ -8,17 +8,29 @@ import { useLocation } from "wouter";
  */
 
 const NAV_LINKS = [
-  { href: "/om-kim", label: "Om Kim", exact: true },
-  { href: "/afskeder", label: "Afskeder" },
   { href: "/priser", label: "Priser" },
+  { href: "/afskeder", label: "Afskeder" },
   { href: "/produkter", label: "Produkter" },
   { href: "/huskeliste", label: "Huskeliste" },
-  { href: "/begravelseshjaelp", label: "Begravelseshjælp" },
-  { href: "/hvad-koster-en-begravelse", label: "Hvad koster det?" },
-  { href: "/omraade", label: "Alle byer" },
+  { href: "/omraade", label: "Områder" },
   { href: "/faq", label: "FAQ" },
+  { href: "/om-kim", label: "Om Kim", exact: true },
   { href: "/#kontakt", label: "Kontakt", exact: false, hash: true },
 ];
+
+/**
+ * Kontakt-punktet: har den aktuelle side sin egen kontaktsektion, ruller vi
+ * derhen i stedet for at sende folk væk til forsiden.
+ */
+function goToKontakt() {
+  const lokal = typeof document !== "undefined" ? document.getElementById("kontakt") : null;
+  if (lokal) {
+    lokal.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (typeof history !== "undefined") history.replaceState(null, "", "#kontakt");
+  } else {
+    window.location.href = "/#kontakt";
+  }
+}
 
 const BASE: React.CSSProperties = {
   fontFamily: "'Open Sans', sans-serif",
@@ -95,7 +107,7 @@ export default function KimNav() {
             key={href}
             href={href}
             style={isActive(href, exact, hash) ? ACTIVE : INACTIVE}
-            onClick={hash ? (e) => { e.preventDefault(); window.location.href = href; } : undefined}
+            onClick={hash ? (e) => { e.preventDefault(); goToKontakt(); } : undefined}
           >
             {label}
           </a>
@@ -163,7 +175,7 @@ export default function KimNav() {
               <a
                 key={href}
                 href={href}
-                onClick={hash ? (e) => { e.preventDefault(); setOpen(false); window.location.href = href; } : () => setOpen(false)}
+                onClick={hash ? (e) => { e.preventDefault(); setOpen(false); goToKontakt(); } : () => setOpen(false)}
                 style={{
                   fontFamily: "'Open Sans', sans-serif",
                   fontWeight: isActive(href, exact, hash) ? 700 : 600,
