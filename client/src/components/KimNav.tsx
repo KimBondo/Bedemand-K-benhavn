@@ -8,13 +8,13 @@ import { useLocation } from "wouter";
  */
 
 const NAV_LINKS = [
-  { href: "/priser", label: "Priser" },
-  { href: "/afskeder", label: "Afskeder" },
-  { href: "/produkter", label: "Produkter" },
-  { href: "/huskeliste", label: "Huskeliste" },
-  { href: "/omraade", label: "Områder" },
-  { href: "/faq", label: "FAQ" },
-  { href: "/om-kim", label: "Om Kim", exact: true },
+  { href: "/priser/", label: "Priser" },
+  { href: "/afskeder/", label: "Afskeder" },
+  { href: "/produkter/", label: "Produkter" },
+  { href: "/huskeliste/", label: "Huskeliste" },
+  { href: "/omraade/", label: "Områder" },
+  { href: "/faq/", label: "FAQ" },
+  { href: "/om-kim/", label: "Om Kim", exact: true },
   { href: "/#kontakt", label: "Kontakt", exact: false, hash: true },
 ];
 

@@ -26,7 +26,7 @@ export default function KimPersondatapolitik() {
       <SEO
         title="Persondatapolitik – Bedemand Kim Bondo"
         description="Sådan behandler Bedemand København ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR."
-        url="https://www.bedemandkobenhavn.dk/persondatapolitik"
+        url="https://www.bedemandkobenhavn.dk/persondatapolitik/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -284,7 +284,7 @@ export default function KimPersondatapolitik() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -312,21 +312,21 @@ export default function KimPersondatapolitik() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>

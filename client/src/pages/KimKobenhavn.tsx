@@ -34,7 +34,7 @@ export default function KimKobenhavn() {
       <SEO
         title="Bedemand København – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i hele København. Faste priser, ingen mellemled, og jeg kører selv ud — også om natten. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kobenhavn"
+        url="https://www.bedemandkobenhavn.dk/kobenhavn/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={FAQ} />
@@ -108,7 +108,7 @@ export default function KimKobenhavn() {
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
-          <a href="/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
+          <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
           eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
@@ -144,12 +144,12 @@ export default function KimKobenhavn() {
           <h2 style={s.h2}>Hvad hjælper jeg med i København?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering på Bispebjerg eller Sundby Krematorium med ceremoni i kirke eller kapel.", href: "/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af Københavns kirkegårde. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
-              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres sognekirke eller en anden kirke, I holder af.", href: "/kirkelig-afsked" },
-              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — i et kapel eller et sted, I selv vælger.", href: "/borgerlig-afsked" },
-              { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg står for tilladelser og papirarbejde.", href: "/askespredning" },
+              { title: "Bisættelse", desc: "Kremering på Bispebjerg eller Sundby Krematorium med ceremoni i kirke eller kapel.", href: "/bisaettelse/" },
+              { title: "Begravelse", desc: "Kiste i jord på en af Københavns kirkegårde. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres sognekirke eller en anden kirke, I holder af.", href: "/kirkelig-afsked/" },
+              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — i et kapel eller et sted, I selv vælger.", href: "/borgerlig-afsked/" },
+              { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg står for tilladelser og papirarbejde.", href: "/askespredning/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -171,9 +171,9 @@ export default function KimKobenhavn() {
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
-              { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/afsked-uden-ceremoni" },
-              { type: "Bisættelse med ceremoni", price: "19.500 kr.", href: "/bisaettelse" },
-              { type: "Begravelse i kiste", price: "21.500 kr.", href: "/begravelse" },
+              { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { type: "Bisættelse med ceremoni", price: "19.500 kr.", href: "/bisaettelse/" },
+              { type: "Begravelse i kiste", price: "21.500 kr.", href: "/begravelse/" },
             ].map((p) => (
               <div key={p.type} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
@@ -183,7 +183,7 @@ export default function KimKobenhavn() {
             ))}
           </div>
           <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
           </p>
         </div>
       </section>
@@ -199,8 +199,8 @@ export default function KimKobenhavn() {
               <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
-          <a href="/omraade" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Alle byer</a>
-    <a href="/faq" style={s.link}>Se alle spørgsmål og svar →</a>
+          <a href="/omraade/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Alle byer</a>
+    <a href="/faq/" style={s.link}>Se alle spørgsmål og svar →</a>
         </div>
       </section>
 
@@ -209,10 +209,10 @@ export default function KimKobenhavn() {
         <p style={s.label}>Se også</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Bedemand Gentofte", href: "/gentofte" },
-            { label: "Bedemand Lyngby", href: "/lyngby" },
-            { label: "Bedemand Helsingør", href: "/helsingor" },
-            { label: "Dækningsområde", href: "/omraade" },
+            { label: "Bedemand Gentofte", href: "/gentofte/" },
+            { label: "Bedemand Lyngby", href: "/lyngby/" },
+            { label: "Bedemand Helsingør", href: "/helsingor/" },
+            { label: "Dækningsområde", href: "/omraade/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
           ))}
@@ -290,7 +290,7 @@ export default function KimKobenhavn() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -300,7 +300,7 @@ export default function KimKobenhavn() {
         <p
           style={{
             fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "32px",
             lineHeight: 1.7,
           }}
@@ -328,36 +328,36 @@ export default function KimKobenhavn() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

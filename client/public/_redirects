@@ -2,5 +2,5 @@
 /kim-bondo/*    /:splat    301
 /kim-bondo      /          301
 
-# Cloudflare Pages: SPA fallback — alle ukendte ruter serverer index.html
-/*    /index.html   200
+# Ingen SPA-fallback: alle rigtige sider er forudbyggede som statisk HTML,
+# så ukendte adresser skal svare 404 (Cloudflare Pages serverer 404.html).

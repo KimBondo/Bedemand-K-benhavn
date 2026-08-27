@@ -85,7 +85,7 @@ const KIM_LOCAL_BUSINESS = {
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": "Fra 13.550 kr.",
+  "priceRange": "13550-21500",
   "currenciesAccepted": "DKK",
   "paymentAccepted": "Bankoverførsel, MobilePay",
   "image": `${BASE_URL}/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp`,

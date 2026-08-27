@@ -28,10 +28,16 @@ export default function NotFound() {
           Gå til forsiden
         </button>
         <a
-          href="/"
+          href="/priser/"
           style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}
         >
-          Bedemand Kim Bondo
+          Se priser
+        </a>
+        <a
+          href="/omraade/"
+          style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}
+        >
+          Områder
         </a>
       </div>
       <p style={{ marginTop: "48px", fontSize: "14px", color: "#3D6B4F" }}>

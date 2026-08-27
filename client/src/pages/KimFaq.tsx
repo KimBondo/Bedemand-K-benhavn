@@ -38,7 +38,7 @@ const FAQ_SECTIONS = [
       { q: "Hvad er en afsked uden ceremoni?", a: "En afsked uden ceremoni er den mest enkle form for afsked, hvor afdøde køres direkte til krematoriet uden en formel ceremoni. Det er den billigste løsning og vælges ofte, hvis afdøde ønskede det enkelt.", link: "/afsked-uden-ceremoni" },
       { q: "Hvad er en borgerlig ceremoni?", a: "En borgerlig ceremoni er en afsked uden religiøse ritualer. I bestemmer selv indholdet — musik, taler, tekster — og ceremonien holdes typisk i et kapel eller en anden egnet ramme.", link: "/borgerlig-afsked" },
       { q: "Hvad er en kirkelig ceremoni?", a: "En kirkelig ceremoni følger den danske folkekirkes ritualer med jordpåkastelse, salmer og præst. Ceremonien holdes typisk i en kirke, men kan også holdes i et kapel.", link: "/kirkelig-afsked" },
-      { q: "Hvad er askespredning, og hvem kan vælge det?", a: "Askespredning betyder, at afdødes aske spredes over havet eller i naturen. Det kræver tilladelse fra myndighederne, og jeg hjælper med det hele — fra ansøgning til selve spredningen.", link: "/askespredning" },
+      { q: "Hvad er askespredning, og hvem kan vælge det?", a: "Askespredning betyder, at asken spredes over åbent hav. Det er ikke tilladt at sprede aske på land, i skove, søer eller vandløb. Der skal ikke søges tilladelse, men afdøde skal have ønsket det — det bekræftes med en tro og love-erklæring, som jeg hjælper jer med.", link: "/askespredning/" },
     ],
   },
   {
@@ -70,7 +70,7 @@ export default function KimFaq() {
       <SEO
         title="FAQ – Begravelse og bisættelse, Kim Bondo"
         description="Svar på de mest stillede spørgsmål om begravelse, bisættelse, priser og begravelseshjælp. Kim Bondo bedemand i København. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/faq"
+        url="https://www.bedemandkobenhavn.dk/faq/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
@@ -78,7 +78,7 @@ export default function KimFaq() {
         faqItems={allFaqItems}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "FAQ", url: "https://www.bedemandkobenhavn.dk/faq" }
+          { name: "FAQ", url: "https://www.bedemandkobenhavn.dk/faq/" }
         ]}
       />
 
@@ -193,7 +193,7 @@ export default function KimFaq() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -203,7 +203,7 @@ export default function KimFaq() {
         <p
           style={{
             fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "32px",
             lineHeight: 1.7,
           }}
@@ -231,36 +231,36 @@ export default function KimFaq() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

@@ -25,16 +25,15 @@ export default function KimBorgerligAfsked() {
       <SEO
         title="Borgerlig afsked – Bedemand Kim Bondo"
         description="Borgerlig begravelse eller bisættelse uden kirke i København. Kim Bondo hjælper med ceremoni, kapel og alt praktisk. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/borgerlig-afsked"
+        url="https://www.bedemandkobenhavn.dk/borgerlig-afsked/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
-      <SchemaOrg type="LocalBusiness" />
       <SchemaOrg
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Borgerlig afsked", url: "https://www.bedemandkobenhavn.dk/borgerlig-afsked" }
+          { name: "Borgerlig afsked", url: "https://www.bedemandkobenhavn.dk/borgerlig-afsked/" }
         ]}
         faqItems={[
           { question: "Hvad er forskellen på en borgerlig og en kirkelig afsked?", answer: "En borgerlig afsked ledes ikke af en præst og følger ingen religiøse ritualer. I stedet tilpasses ceremonien frit efter familiens ønsker. En kirkelig afsked ledes af en præst og følger Folkekirkens traditioner." },
@@ -67,7 +66,7 @@ export default function KimBorgerligAfsked() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/afskeder" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til afskeder</a>
+          <a href="/afskeder/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til afskeder</a>
           <a href="/" style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2, textDecoration: "none" }}>Bedemand København og Nordsjælland</a>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Borgerlig afsked</span>
         </div>
@@ -113,7 +112,7 @@ export default function KimBorgerligAfsked() {
             En borgerlig afsked er en ceremoni uden præst og religiøse ritualer. I stedet er fokus helt på den afdødes liv, de minder I deler, og den musik og de ord, der betød noget. Ceremonien kan holdes i et kapel, hjemme eller et andet sted med særlig betydning for familien.
           </p>
           <p style={s.body}>
-            Ceremonien kan afsluttes med enten en <a href="/begravelse" style={s.link}>begravelse</a> eller en <a href="/bisaettelse" style={s.link}>bisættelse</a> — eller efterfølges af <a href="/askespredning" style={s.link}>askespredning over havet</a>.
+            Ceremonien kan afsluttes med enten en <a href="/begravelse/" style={s.link}>begravelse</a> eller en <a href="/bisaettelse/" style={s.link}>bisættelse</a> — eller efterfølges af <a href="/askespredning/" style={s.link}>askespredning over havet</a>.
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px", marginTop: "40px" }}>
@@ -202,10 +201,10 @@ export default function KimBorgerligAfsked() {
         <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "32px" }}>Overvej også</h2>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Kirkelig afsked", href: "/kirkelig-afsked" },
-            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni" },
-            { label: "Se alle afskeder", href: "/afskeder" },
-            { label: "Se priser", href: "/priser" },
+            { label: "Kirkelig afsked", href: "/kirkelig-afsked/" },
+            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni/" },
+            { label: "Se alle afskeder", href: "/afskeder/" },
+            { label: "Se priser", href: "/priser/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
               {link.label}
@@ -240,7 +239,7 @@ export default function KimBorgerligAfsked() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -250,7 +249,7 @@ export default function KimBorgerligAfsked() {
         <p
           style={{
             fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "32px",
             lineHeight: 1.7,
           }}
@@ -278,36 +277,36 @@ export default function KimBorgerligAfsked() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

@@ -1,44 +1,41 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
-import { useEffect } from "react";
 
+const PERSON_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.bedemandkobenhavn.dk/om-kim/#kim-bondo",
+  "name": "Kim Bondo",
+  "jobTitle": "Selvstændig bedemand",
+  "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
+  "url": "https://www.bedemandkobenhavn.dk/om-kim/",
+  "image": "https://www.bedemandkobenhavn.dk/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp",
+  "telephone": "+4522211437",
+  "email": "kim@bedemandkobenhavn.dk",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Vandtårnsvej 62A",
+    "addressLocality": "Søborg",
+    "postalCode": "2860",
+    "addressCountry": "DK"
+  },
+  "worksFor": { "@id": "https://www.bedemandkobenhavn.dk/#business" },
+  "knowsAbout": ["Bisættelse", "Begravelse", "Afsked uden ceremoni", "Askespredning", "Begravelseshjælp"]
+};
+
+/**
+ * Person-skemaet skrives under gengivelsen, så det står i den statiske HTML
+ * og kan læses af Google uden JavaScript.
+ */
 function PersonSchema() {
-  useEffect(() => {
-    const schema = {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": "https://www.bedemandkobenhavn.dk/om-kim#kim-bondo",
-      "name": "Kim Bondo",
-      "jobTitle": "Selvstændig bedemand",
-      "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
-      "url": "https://www.bedemandkobenhavn.dk/",
-      "image": "/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp",
-      "telephone": "+4522211437",
-      "email": "kim@bedemandkobenhavn.dk",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Vandtårnsvej 62A",
-        "addressLocality": "Søborg",
-        "postalCode": "2860",
-        "addressCountry": "DK"
-      },
-      "worksFor": {
-        "@type": "LocalBusiness",
-        "@id": "https://www.bedemandkobenhavn.dk/"
-      },
-      "knowsAbout": ["Bisættelse", "Begravelse", "Afsked uden ceremoni", "Askespredning", "Begravelseshjælp"]
-    };
-    const existing = document.querySelector('script[data-schema-id="person-kim-bondo"]');
-    if (existing) existing.remove();
-    const script = document.createElement("script");
-    script.type = "application/ld+json";
-    script.setAttribute("data-schema-id", "person-kim-bondo");
-    script.textContent = JSON.stringify(schema, null, 2);
-    document.head.appendChild(script);
-    return () => { script.remove(); };
-  }, []);
-  return null;
+  return (
+    <script
+      type="application/ld+json"
+      data-schema-id="person-kim-bondo"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(PERSON_SCHEMA).replace(/</g, "\\u003c") }}
+    />
+  );
 }
 
 /**
@@ -58,7 +55,7 @@ export default function KimOmKim() {
       <SEO
         title="Om Kim Bondo – Personlig bedemand, København"
         description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/om-kim"
+        url="https://www.bedemandkobenhavn.dk/om-kim/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -66,7 +63,7 @@ export default function KimOmKim() {
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Om Kim", url: "https://www.bedemandkobenhavn.dk/om-kim" }
+          { name: "Om Kim", url: "https://www.bedemandkobenhavn.dk/om-kim/" }
         ]}
       />
       <PersonSchema />
@@ -232,29 +229,29 @@ export default function KimOmKim() {
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(18px, 2.5vw, 26px)", color: "#fff", marginBottom: "12px", letterSpacing: "0.03em" }}>
           Kim Bondo
         </p>
-        <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.65)", marginBottom: "32px", lineHeight: 1.7 }}>
+        <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.82)", marginBottom: "32px", lineHeight: 1.7 }}>
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
           Kontakt mig
         </a>
-        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.35)", marginTop: "16px" }}>
+        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
           {" "}&nbsp;·&nbsp;{" "}
-          <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
+          <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

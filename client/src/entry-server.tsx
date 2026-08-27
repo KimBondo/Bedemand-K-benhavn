@@ -12,7 +12,6 @@ import { Route, Switch } from "wouter";
 import { Suspense } from "react";
 
 // Direct imports — no lazy() for SSR
-import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import KimBondo from "./pages/KimBondo";
 import KimPriser from "./pages/KimPriser";

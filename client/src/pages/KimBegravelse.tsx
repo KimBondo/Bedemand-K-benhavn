@@ -22,7 +22,7 @@ export default function KimBegravelse() {
       <SEO
         title="Begravelse i København – Bedemand Kim Bondo"
         description="Personlig hjælp til begravelse i København og Nordsjælland. Jeg koordinerer kiste, kirkegård og ceremoni. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/begravelse"
+        url="https://www.bedemandkobenhavn.dk/begravelse/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -30,7 +30,7 @@ export default function KimBegravelse() {
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Begravelse", url: "https://www.bedemandkobenhavn.dk/begravelse" }
+          { name: "Begravelse", url: "https://www.bedemandkobenhavn.dk/begravelse/" }
         ]}
       />
       <SchemaOrg
@@ -38,9 +38,9 @@ export default function KimBegravelse() {
         faqItems={[
           { question: "Hvad er forskellen på begravelse og bisættelse?", answer: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. Begge kan foregå med eller uden ceremoni." },
           { question: "Kan man have en borgerlig begravelse?", answer: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation." },
-          { question: "Kan en begravelse foregå uden ceremoni?", answer: "Ja. Kisten kan transporteres direkte til gravstedet, hvor jordfæstelsen finder sted uden en formel højtidelighed. Mange familier vælger at holde en mindesammenkomst på et andet tidspunkt." },
-          { question: "Kan man vælge en miljøvenlig kiste til begravelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer. En miljøvenlig kiste er et smukt valg for dem, der ønsker en afsked i harmoni med naturen." },
-          { question: "Hvad er inkluderet i prisen for begravelse?", answer: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud." },
+          { question: "Kan en begravelse foregå uden ceremoni?", answer: "Ja. Kisten kan transporteres direkte til gravstedet, hvor jordfæstelsen finder sted uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et andet tidspunkt." },
+          { question: "Kan man vælge en miljøvenlig kiste?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer. En miljøvenlig kiste er et smukt valg for dem, der ønsker en afsked i harmoni med naturen." },
+          { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/begravelse"
       />
@@ -114,7 +114,7 @@ export default function KimBegravelse() {
           <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Kontakt mig
           </a>
-          <a href="/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
+          <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Se priser
           </a>
         </div>
@@ -135,10 +135,10 @@ export default function KimBegravelse() {
           En begravelse er en afskedsform, hvor kisten med afdøde sænkes ned i jorden på et gravsted. Det er en tradition, der har eksisteret i århundreder, og som for mange familier giver en stærk og konkret fornemmelse af et sted at mindes og vende tilbage til.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Den væsentligste forskel på en begravelse og en <a href="/bisaettelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at ved en begravelse forbliver kisten intakt i jorden, mens afdøde ved en bisættelse kremeres og asken samles i en urne.
+          Den væsentligste forskel på en begravelse og en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at ved en begravelse forbliver kisten intakt i jorden, mens afdøde ved en bisættelse kremeres og asken samles i en urne.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          En begravelse kan foregå med kirkelig ceremoni, borgerlig ceremoni eller <a href="/afsked-uden-ceremoni" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a>. Jeg hjælper jer med at finde den form, der passer til afdødes og familiens ønsker.
+          En begravelse kan foregå med kirkelig ceremoni, borgerlig ceremoni eller <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a>. Jeg hjælper jer med at finde den form, der passer til afdødes og familiens ønsker.
         </p>
       </section>
 
@@ -179,7 +179,7 @@ export default function KimBegravelse() {
           En begravelse starter fra <strong>21.500 kr.</strong> hos mig. Prisen inkluderer koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje kommer oveni – jeg hjælper jer med at indhente tilbud og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/priser" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Se den fulde prisliste
           </a>
           <a href="/#kontakt" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -196,11 +196,11 @@ export default function KimBegravelse() {
           Ofte stillede spørgsmål om begravelse
         </h2>
         {[
-          { q: "Hvad er forskellen på begravelse og bisættelse?", a: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. Begge kan foregå med eller uden ceremoni.", link: "/bisaettelse", linkText: "Læs mere om bisættelse" },
+          { q: "Hvad er forskellen på begravelse og bisættelse?", a: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. Begge kan foregå med eller uden ceremoni.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
           { q: "Kan man have en borgerlig begravelse?", a: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation.", link: null, linkText: null },
-          { q: "Kan en begravelse foregå uden ceremoni?", a: "Ja. Kisten kan transporteres direkte til gravstedet, hvor jordfæstelsen finder sted uden en formel højtidelighed. Mange familier vælger at holde en mindesammenkomst på et andet tidspunkt.", link: "/afsked-uden-ceremoni", linkText: "Læs mere om afsked uden ceremoni" },
+          { q: "Kan en begravelse foregå uden ceremoni?", a: "Ja. Kisten kan transporteres direkte til gravstedet, hvor jordfæstelsen finder sted uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et andet tidspunkt.", link: "/afsked-uden-ceremoni/", linkText: "Læs mere om afsked uden ceremoni" },
           { q: "Kan man vælge en miljøvenlig kiste?", a: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer. En miljøvenlig kiste er et smukt valg for dem, der ønsker en afsked i harmoni med naturen.", link: null, linkText: null },
-          { q: "Hvad er inkluderet i prisen?", a: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud.", link: "/priser", linkText: "Se den fulde prisliste" },
+          { q: "Hvad er inkluderet i prisen?", a: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud.", link: "/priser/", linkText: "Se den fulde prisliste" },
         ].map((item, i) => (
           <div key={i} style={{ borderTop: "1px solid #e0dcd6", paddingTop: "28px", paddingBottom: "28px" }}>
             <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(15px, 1.7vw, 18px)", color: "#2F3E46", marginBottom: "12px", lineHeight: 1.4 }}>{item.q}</h3>
@@ -214,15 +214,15 @@ export default function KimBegravelse() {
 
       {/* ── FOOTER / RELATEREDE ── */}
       <section style={{ background: "#2F3E46", padding: "64px 32px", textAlign: "center" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "rgba(255,255,255,0.5)", textTransform: "uppercase", marginBottom: "24px" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "rgba(255,255,255,0.82)", textTransform: "uppercase", marginBottom: "24px" }}>
           Andre afskeder
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", marginBottom: "48px" }}>
           {[
-            { label: "Bisættelse", href: "/bisaettelse" },
-            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni" },
-            { label: "Askespredning", href: "/askespredning" },
-            { label: "Se alle afskeder", href: "/afskeder" },
+            { label: "Bisættelse", href: "/bisaettelse/" },
+            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni/" },
+            { label: "Askespredning", href: "/askespredning/" },
+            { label: "Se alle afskeder", href: "/afskeder/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "rgba(255,255,255,0.08)", color: "rgba(255,255,255,0.85)", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid rgba(255,255,255,0.15)" }}>
               {link.label}
@@ -232,23 +232,23 @@ export default function KimBegravelse() {
         <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
           Kontakt mig
         </a>
-        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", marginTop: "16px" }}>
+        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>22 21 14 37</a>
+          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>22 21 14 37</a>
         </p>
-        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.25)", marginTop: "40px" }}>
+        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
           © {new Date().getFullYear()} Bedemand København ApS · Kim Bondo · Vandtårnsvej 62A, 2860 Søborg
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

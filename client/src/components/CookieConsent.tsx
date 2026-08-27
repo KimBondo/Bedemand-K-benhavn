@@ -154,7 +154,7 @@ export default function CookieConsent() {
         >
           Jeg bruger cookies til statistik.{" "}
           <a
-            href="/persondatapolitik"
+            href="/persondatapolitik/"
             style={{ color: "#b0c4b1", textDecoration: "underline" }}
           >
             Persondatapolitik

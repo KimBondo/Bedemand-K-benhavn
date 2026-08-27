@@ -39,7 +39,7 @@ const KISTER = [
     priceLabel: "6.000 kr.",
     image: "/images/Basis6greb_5925250a.webp",
     alt: "Basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
-    description: "Umalet.",
+    description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse, og den indgår i bisættelsespakken. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
     use: "bisættelse" as const,
   },
   {
@@ -95,7 +95,7 @@ const URNER = [
     priceLabel: "1.250 kr.",
     image: "/images/CremeNaturbiourne_f3a0617c.jpg",
     alt: "Creme Natur biourne – biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
-    description: "Natururnerne er lavet af bioplast, som tager mellem 4 og 9 år at nedbryde i jorden.",
+    description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Den indgår i bisættelsespakken.",
   },
   {
     id: "gron-natur-biourn",
@@ -103,7 +103,7 @@ const URNER = [
     priceLabel: "1.250 kr.",
     image: "/images/GronNaturbiourne_df52a9c7.jpg",
     alt: "Grøn Natur biourne – grøn biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
-    description: "Natururnerne er lavet af bioplast, som tager mellem 4 og 9 år at nedbryde i jorden.",
+    description: "Samme urne i en dæmpet grøn farve, som falder naturligt ind på et skovgravsted eller i en plæne. Bioplasten tager mellem 4 og 9 år om at blive nedbrudt i jorden.",
   },
   {
     id: "rod-natur-biourn",
@@ -111,7 +111,7 @@ const URNER = [
     priceLabel: "1.250 kr.",
     image: "/images/RodNaturbiourne_033ebb28.jpg",
     alt: "Rød Natur biourne – rød biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
-    description: "Natururnerne er lavet af bioplast, som tager mellem 4 og 9 år at nedbryde i jorden.",
+    description: "Den varmeste af de tre farver — en mørk, rødlig tone. Som de øvrige natururner er den lavet af bioplast, der tager mellem 4 og 9 år om at blive nedbrudt i jorden.",
   },
   {
     id: "brun-museumsurne",
@@ -119,7 +119,7 @@ const URNER = [
     priceLabel: "1.350 kr.",
     image: "/images/Brunmuseumsurne_7e293ad9.jpeg",
     alt: "Brun museumsurne – urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
-    description: "Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
+    description: "Den brune er den mest klassiske af museumsurnerne. Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
   {
     id: "gron-museumsurne",
@@ -127,7 +127,7 @@ const URNER = [
     priceLabel: "1.350 kr.",
     image: "/images/Gronmuseumsurne_9a41f59e.jpeg",
     alt: "Grøn museumsurne – grøn urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
-    description: "Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
+    description: "Den grønne tone falder godt i et naturgravsted. Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
   {
     id: "rod-museumsurne",
@@ -135,7 +135,7 @@ const URNER = [
     priceLabel: "1.350 kr.",
     image: "/images/Rodmuseumsurne_d3d2fec3.jpeg",
     alt: "Rød museumsurne – rød urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
-    description: "Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
+    description: "Den røde er den kraftigste i farven. Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
 ];
 
@@ -145,14 +145,14 @@ export default function KimProdukter() {
       <SEO
         title="Kister og urner – Bedemand Kim Bondo"
         description="Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/produkter"
+        url="https://www.bedemandkobenhavn.dk/produkter/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kister og urner", url: "https://www.bedemandkobenhavn.dk/produkter" }
+          { name: "Kister og urner", url: "https://www.bedemandkobenhavn.dk/produkter/" }
         ]}
       />
       <SchemaOrg
@@ -378,7 +378,7 @@ export default function KimProdukter() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -388,7 +388,7 @@ export default function KimProdukter() {
         <p
           style={{
             fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "32px",
             lineHeight: 1.7,
           }}
@@ -416,36 +416,36 @@ export default function KimProdukter() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

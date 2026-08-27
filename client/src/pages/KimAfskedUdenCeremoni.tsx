@@ -22,19 +22,18 @@ export default function KimAfskedUdenCeremoni() {
       <SEO
         title="Afsked uden ceremoni – Bedemand Kim Bondo"
         description="Enkel afsked uden ceremoni i København. Kremering og urnenedsættelse uden kirke. Fra 13.550 kr. Kim Bondo – ring 22 21 14 37 døgnet rundt."
-        url="https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni"
+        url="https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
-      <SchemaOrg type="LocalBusiness" />
       <SchemaOrg
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Afsked uden ceremoni", url: "https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni" }
+          { name: "Afsked uden ceremoni", url: "https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni/" }
         ]}
         faqItems={[
-          { question: "Kan man holde en mindesammenkomst på et andet tidspunkt?", answer: "Ja. Mange familier vælger at holde en mindesammenkomst på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme." },
+          { question: "Kan man holde et mindesamvær på et andet tidspunkt?", answer: "Ja. Mange familier vælger at holde et mindesamvær på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme." },
           { question: "Kan en afsked uden ceremoni kombineres med askespredning?", answer: "Ja. Efter en bisættelse uden ceremoni kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det." },
           { question: "Er en afsked uden ceremoni billigere?", answer: "Ja, det er typisk den mest enkle og prisvenlige løsning, da der ikke er udgifter til kirke eller kapel. Men prisen afhænger stadig af valg af kiste, urne og kørsel." },
           { question: "Behandles afdøde stadig med værdighed?", answer: "Absolut. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form." },
@@ -112,7 +111,7 @@ export default function KimAfskedUdenCeremoni() {
           <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Kontakt mig
           </a>
-          <a href="/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
+          <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Se priser
           </a>
         </div>
@@ -133,10 +132,10 @@ export default function KimAfskedUdenCeremoni() {
           En afsked uden ceremoni betyder, at der ikke afholdes en formel højtidelighed i kirke, kapel eller anden lokation. I stedet transporteres afdøde direkte til krematoriet eller gravstedet, hvor den praktiske del håndteres med respekt og omhu.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Det er ikke en kold eller upersonlig afsked – det er blot en enklere form. Mange familier vælger at holde en mindesammenkomst på et andet tidspunkt, for eksempel ved urnenedsættelsen, ved <a href="/askespredning" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredningen</a> eller på en særlig mærkedag.
+          Det er ikke en kold eller upersonlig afsked – det er blot en enklere form. Mange familier vælger at holde et mindesamvær på et andet tidspunkt, for eksempel ved urnenedsættelsen, ved <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredningen</a> eller på en særlig mærkedag.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          Løsningen kan kombineres med både <a href="/bisaettelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> og <a href="/begravelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse</a>.
+          Løsningen kan kombineres med både <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> og <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse</a>.
         </p>
       </section>
 
@@ -191,7 +190,7 @@ export default function KimAfskedUdenCeremoni() {
           En afsked uden ceremoni starter fra <strong>13.550 kr.</strong> Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til kremering og gravsted kommer oveni – jeg hjælper med at indhente tilbud og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/priser" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Se den fulde prisliste
           </a>
           <a href="/#kontakt" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -208,11 +207,11 @@ export default function KimAfskedUdenCeremoni() {
           Ofte stillede spørgsmål
         </h2>
         {[
-          { q: "Kan man holde en mindesammenkomst på et andet tidspunkt?", a: "Ja. Mange familier vælger at holde en mindesammenkomst på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme.", link: null, linkText: null },
-          { q: "Kan en afsked uden ceremoni kombineres med askespredning?", a: "Ja. Efter en bisættelse uden ceremoni kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det.", link: "/askespredning", linkText: "Læs mere om askespredning" },
-          { q: "Er en afsked uden ceremoni billigere?", a: "Ja, det er typisk den mest enkle og prisvenlige løsning, da der ikke er udgifter til kirke eller kapel. Men prisen afhænger stadig af valg af kiste, urne og kørsel.", link: "/priser", linkText: "Se den fulde prisliste" },
+          { q: "Kan man holde et mindesamvær på et andet tidspunkt?", a: "Ja. Mange familier vælger at holde et mindesamvær på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme.", link: null, linkText: null },
+          { q: "Kan en afsked uden ceremoni kombineres med askespredning?", a: "Ja. Efter en bisættelse uden ceremoni kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det.", link: "/askespredning/", linkText: "Læs mere om askespredning" },
+          { q: "Er en afsked uden ceremoni billigere?", a: "Ja, det er typisk den mest enkle og prisvenlige løsning, da der ikke er udgifter til kirke eller kapel. Men prisen afhænger stadig af valg af kiste, urne og kørsel.", link: "/priser/", linkText: "Se den fulde prisliste" },
           { q: "Behandles afdøde stadig med værdighed?", a: "Absolut. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form.", link: null, linkText: null },
-          { q: "Hvad er forskellen på afsked uden ceremoni og en traditionel bisættelse?", a: "En traditionel bisættelse inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En afsked uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed.", link: "/bisaettelse", linkText: "Læs mere om bisættelse" },
+          { q: "Hvad er forskellen på afsked uden ceremoni og en traditionel bisættelse?", a: "En traditionel bisættelse inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En afsked uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
         ].map((item, i) => (
           <div key={i} style={{ borderTop: "1px solid #e0dcd6", paddingTop: "28px", paddingBottom: "28px" }}>
             <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(15px, 1.7vw, 18px)", color: "#2F3E46", marginBottom: "12px", lineHeight: 1.4 }}>{item.q}</h3>
@@ -226,15 +225,15 @@ export default function KimAfskedUdenCeremoni() {
 
       {/* ── FOOTER / RELATEREDE ── */}
       <section style={{ background: "#2F3E46", padding: "64px 32px", textAlign: "center" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "rgba(255,255,255,0.5)", textTransform: "uppercase", marginBottom: "24px" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "rgba(255,255,255,0.82)", textTransform: "uppercase", marginBottom: "24px" }}>
           Andre afskeder
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", marginBottom: "48px" }}>
           {[
-            { label: "Bisættelse", href: "/bisaettelse" },
-            { label: "Begravelse", href: "/begravelse" },
-            { label: "Askespredning", href: "/askespredning" },
-            { label: "Se alle afskeder", href: "/afskeder" },
+            { label: "Bisættelse", href: "/bisaettelse/" },
+            { label: "Begravelse", href: "/begravelse/" },
+            { label: "Askespredning", href: "/askespredning/" },
+            { label: "Se alle afskeder", href: "/afskeder/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "rgba(255,255,255,0.08)", color: "rgba(255,255,255,0.85)", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid rgba(255,255,255,0.15)" }}>
               {link.label}
@@ -244,23 +243,23 @@ export default function KimAfskedUdenCeremoni() {
         <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
           Kontakt mig
         </a>
-        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", marginTop: "16px" }}>
+        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>22 21 14 37</a>
+          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>22 21 14 37</a>
         </p>
-        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.25)", marginTop: "40px" }}>
+        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
           © {new Date().getFullYear()} Bedemand København ApS · Kim Bondo · Vandtårnsvej 62A, 2860 Søborg
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

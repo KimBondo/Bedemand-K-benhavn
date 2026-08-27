@@ -55,13 +55,8 @@ export default function KimBondo() {
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg
-        type="both"
-        breadcrumbs={[
-          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo – Bedemand", url: "https://www.bedemandkobenhavn.dk/" }
-        ]}
-      />
+      <SchemaOrg type="both" />
+      <SchemaOrg type="WebSite" />
 
       {/* ══════════════════════════════════════════════════════
           SECTION 1: HERO
@@ -482,11 +477,10 @@ export default function KimBondo() {
                 price: "Fra 19.500 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-                  "Danskproduceret kiste med lavt klimaaftryk",
-                  "Klassisk hvid bionedbrydelig urne",
+                  "Basiskiste — danskproduceret med lavt klimaaftryk",
+                  "Natururne",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
-                  "Rustvognskørsel fra hospital eller kapel til højtidelighed",
-                  "Rustvognskørsel fra højtidelighed til krematorium",
+                  "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet",
                   "Kontakt til kordegn, præst, krematorium og kirkegård",
                   "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
@@ -500,9 +494,9 @@ export default function KimBondo() {
                 price: "Fra 21.500 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-                  "bæredygtig, danskproduceret genbrugskiste",
+                  "Massiv fyr — kiste i fyrretræ med knaster",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
-                  "Rustvognskørsel fra hospital til højtideligheden",
+                  "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til graven",
                   "Kontakt til kordegn, præst og kirkegård",
                   "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
@@ -516,8 +510,8 @@ export default function KimBondo() {
                   "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til krematoriet på en hverdag – uden forudgående højtidelighed.",
                 price: "Fra 13.550 kr.",
                 items: [
-                  "bæredygtig, danskproduceret genbrugskiste",
-                  "Klassisk hvid urne",
+                  "Basiskiste — danskproduceret med lavt klimaaftryk",
+                  "Natururne",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
                   "Rustvognskørsel fra hospital eller kapel til krematoriet",
                   "Kontakt til kordegn, krematorium og kirkegård",
@@ -748,7 +742,7 @@ export default function KimBondo() {
           >
             Ønsker du at se de specifikke enkeltpriser?{" "}
             <a
-              href="/priser"
+              href="/priser/"
               style={{
                 color: "#3D6B4F",
                 textDecoration: "underline",
@@ -849,19 +843,19 @@ export default function KimBondo() {
               {
                 title: "Hvad sker der efter et dødsfald?",
                 excerpt: "Når en nærtestående dør, er der mange praktiske ting, der skal ordnes. Her er en oversigt over de første skridt — hvem skal kontaktes, og hvad sker der med afdøde.",
-                href: "/huskeliste",
+                href: "/huskeliste/",
                 label: "Læs huskelisten",
               },
               {
                 title: "Sådan vælger du den rigtige afsked",
                 excerpt: "Bisættelse, begravelse eller afsked uden ceremoni? Kirkelig eller borgerlig? Her gennemgår jeg forskellene, så I kan vælge den afsked, der passer til jer.",
-                href: "/afskeder",
+                href: "/afskeder/",
                 label: "Se alle afskeder",
               },
               {
                 title: "Hvad koster en begravelse i 2026?",
                 excerpt: "Mange er overraskede over, hvad en begravelse egentlig koster. Her er en ærlig gennemgang af, hvad der påvirker prisen — og hvad du kan forvente at betale.",
-                href: "/hvad-koster-en-begravelse",
+                href: "/hvad-koster-en-begravelse/",
                 label: "Læs om priser",
               },
             ].map((article) => (
@@ -917,7 +911,7 @@ export default function KimBondo() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -927,7 +921,7 @@ export default function KimBondo() {
         <p
           style={{
             fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "32px",
             lineHeight: 1.7,
           }}
@@ -955,36 +949,36 @@ export default function KimBondo() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

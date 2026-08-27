@@ -21,27 +21,29 @@ const s = {
 };
 
 
+const FAQ = [
+  { question: "Hvad er den billigste begravelse?", answer: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 13.550 kr. inkl. al koordinering, men ekskl. kremering og gravsted." },
+  { question: "Hvad koster en bisættelse i København?", answer: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 19.500 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
+  { question: "Er der skjulte udgifter?", answer: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
+  { question: "Kan man betale i rater?", answer: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning, der passer til jer." },
+  { question: "Hvad koster det at bruge Kim som bedemand?", answer: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 13.550 kr. (uden ceremoni), 19.500 kr. (bisættelse) og 21.500 kr. (begravelse). Se den fulde prisliste på prissiden." },
+];
+
 export default function KimHvadKoster() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Hvad koster en begravelse i 2026? Komplet guide med alle udgifter"
-        description="Komplet guide til alle udgifter ved en afsked i 2026: bedemand, kremering, gravsted, kapelleje og begravelseshjælp. Officielle takster for København og Nordsjælland. Kim Bondo."
-        url="https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse"
+        title="Hvad koster en begravelse i 2026? Alle udgifter samlet"
+        description="Alle udgifter ved en afsked i 2026: bedemand, kremering, gravsted, kapelleje og begravelseshjælp — med officielle takster for København og Nordsjælland."
+        url="https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="both"
-        faqItems={[
-          { question: "Hvad koster en begravelse i Danmark?", answer: "En typisk begravelse eller bisættelse koster i 2026 alt fra 20.000 kr. til 60.000 kr. afhængigt af valg af kiste, gravsted, gravsten og ceremonitype." },
-          { question: "Hvad er den billigste begravelse?", answer: "Den billigste løsning er afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 13.550 kr." },
-          { question: "Hvad koster en bisættelse i København?", answer: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 19.500 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
-          { question: "Hvad er begravelseshjælp?", answer: "Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af afdødes formue." },
-          { question: "Er der skjulte udgifter ved en begravelse?", answer: "Hos mig gennemgås alle udgifter på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
-        ]}
+        faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Hvad koster en begravelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse" }
+          { name: "Hvad koster en begravelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/" }
         ]}
       />
 
@@ -99,7 +101,7 @@ export default function KimHvadKoster() {
           <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Få et uforpligtende tilbud
           </a>
-          <a href="/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
+          <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Se mine priser
           </a>
         </div>
@@ -117,7 +119,7 @@ export default function KimHvadKoster() {
             {[
               { num: "1", title: "Bisættelse eller begravelse?", body: "Bisættelse (kremering) er typisk billigere end begravelse i jord, fordi man undgår udgifterne til gravsted og gravsten. Mange vælger bisættelse med efterfølgende urnenedsættelse." },
               { num: "2", title: "Kirkelig eller borgerlig ceremoni?", body: "En kirkelig ceremoni i Folkekirkens kirker er gratis for medlemmer. En borgerlig ceremoni kræver leje af kapel, hvilket typisk koster 1.000–3.000 kr." },
-              { num: "3", title: "Kistens pris", body: "Kister varierer i pris — fra en enkel basiskiste til 6.000 kr. til en massiv fyrretræskiste til 8.000 kr. Jeg tilbyder også hvide kister og naturkister. Jeg hjælper jer med at finde den rigtige." },
+              { num: "3", title: "Kistens pris", body: "Kister varierer i pris — fra en enkel basiskiste til 6.000 kr. op til 8.800 kr. for den dyreste model. Jeg tilbyder også hvide kister og naturkister. Jeg hjælper jer med at finde den rigtige." },
               { num: "4", title: "Gravsted og gravsten", body: "Gravstedet er en af de største enkeltudgifter. Prisen afhænger af kommunen, gravstedets størrelse og gravstenstype. Mange vælger fællesgrav for at undgå løbende vedligeholdelse." },
               { num: "5", title: "Blomster og annonce", body: "Blomster og kistepynt er valgfrit og kan tilpasses ethvert budget. En avisannonce er heller ikke obligatorisk — mange familier bruger sociale medier i stedet." },
             ].map((item) => (
@@ -168,7 +170,7 @@ export default function KimHvadKoster() {
           <p style={s.body}>
             Jeg hjælper med ansøgningen som en del af mit arbejde — I behøver ikke selv stå med det.
           </p>
-          <a href="/begravelseshjaelp" style={s.link}>Læs mere om begravelseshjælp →</a>
+          <a href="/begravelseshjaelp/" style={s.link}>Læs mere om begravelseshjælp →</a>
         </div>
       </section>
 
@@ -529,25 +531,19 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Ofte stillede spørgsmål</p>
           <h2 style={s.h2}>Spørgsmål om priser</h2>
-          {[
-          { q: "Hvad er den billigste begravelse?", a: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 13.550 kr. inkl. al koordinering, men ekskl. kremering og gravsted." },
-            { q: "Hvad koster en bisættelse i København?", a: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 19.500 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
-            { q: "Er der skjulte udgifter?", a: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
-            { q: "Kan man betale i rater?", a: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning, der passer til jer." },
-            { q: "Hvad koster det at bruge dig som bedemand?", a: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 13.550 kr. (uden ceremoni), 19.500 kr. (bisættelse) og 21.500 kr. (begravelse). Se den fulde prisliste på prissiden." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
           {/* ── Begravelseshjælp FAQ med link ── */}
           <div style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-            <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>Hvad er begravelseshjælp, og kan I hjælpe med at søge det?</h3>
+            <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>Hvad er begravelseshjælp, og kan Kim hjælpe med at søge det?</h3>
             <p style={{ ...s.body, marginBottom: "12px" }}>
               Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af afdødes formue. Jeg søger begravelseshjælp på jeres vegne og modregner beløbet direkte på fakturaen — I behøver ikke selv stå med ansøgningen.
             </p>
-            <a href="/begravelseshjaelp" style={s.link}>Læs alt om begravelseshjælp og 2026-satser →</a>
+            <a href="/begravelseshjaelp/" style={s.link}>Læs alt om begravelseshjælp og 2026-satser →</a>
           </div>
         </div>
       </section>
@@ -557,11 +553,11 @@ export default function KimHvadKoster() {
         <p style={s.label}>Læs mere</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Se min fulde prisliste", href: "/priser" },
-            { label: "Begravelseshjælp 2026", href: "/begravelseshjaelp" },
-            { label: "Bisættelse", href: "/bisaettelse" },
-            { label: "Begravelse", href: "/begravelse" },
-            { label: "Huskeliste ved dødsfald", href: "/huskeliste" },
+            { label: "Se min fulde prisliste", href: "/priser/" },
+            { label: "Begravelseshjælp 2026", href: "/begravelseshjaelp/" },
+            { label: "Bisættelse", href: "/bisaettelse/" },
+            { label: "Begravelse", href: "/begravelse/" },
+            { label: "Huskeliste ved dødsfald", href: "/huskeliste/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
               {link.label}
@@ -625,7 +621,7 @@ export default function KimHvadKoster() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -635,7 +631,7 @@ export default function KimHvadKoster() {
         <p
           style={{
             fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "32px",
             lineHeight: 1.7,
           }}
@@ -663,36 +659,36 @@ export default function KimHvadKoster() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

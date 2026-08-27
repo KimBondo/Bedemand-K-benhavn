@@ -39,7 +39,7 @@ export default function KimOmraade() {
       <SEO
         title="Dækningsområde – Bedemand Kim Bondo"
         description="Kim Bondo dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring 22 21 14 37 – døgnet rundt."
-        url="https://www.bedemandkobenhavn.dk/omraade"
+        url="https://www.bedemandkobenhavn.dk/omraade/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -167,18 +167,18 @@ export default function KimOmraade() {
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
             {[
-              { label: "Bedemand Helsingør", href: "/helsingor" },
-              { label: "Bedemand Hørsholm", href: "/horsholm" },
-              { label: "Bedemand Gentofte", href: "/gentofte" },
-              { label: "Bedemand Lyngby", href: "/lyngby" },
-              { label: "Bedemand Hillerød", href: "/hillerod" },
-              { label: "Bedemand København", href: "/kobenhavn" },
-              { label: "Bedemand Nordsjælland", href: "/nordsjaelland" },
-              { label: "Bedemand Frederiksberg", href: "/frederiksberg" },
-              { label: "Bedemand Amager", href: "/amager" },
-              { label: "Bedemand Østerbro", href: "/osterbro" },
-              { label: "Bedemand Nørrebro", href: "/norrebro" },
-              { label: "Bedemand Vesterbro", href: "/vesterbro" },
+              { label: "Bedemand Helsingør", href: "/helsingor/" },
+              { label: "Bedemand Hørsholm", href: "/horsholm/" },
+              { label: "Bedemand Gentofte", href: "/gentofte/" },
+              { label: "Bedemand Lyngby", href: "/lyngby/" },
+              { label: "Bedemand Hillerød", href: "/hillerod/" },
+              { label: "Bedemand København", href: "/kobenhavn/" },
+              { label: "Bedemand Nordsjælland", href: "/nordsjaelland/" },
+              { label: "Bedemand Frederiksberg", href: "/frederiksberg/" },
+              { label: "Bedemand Amager", href: "/amager/" },
+              { label: "Bedemand Østerbro", href: "/osterbro/" },
+              { label: "Bedemand Nørrebro", href: "/norrebro/" },
+              { label: "Bedemand Vesterbro", href: "/vesterbro/" },
             ].map((link) => (
               <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "16px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
                 {link.label}
@@ -214,7 +214,7 @@ export default function KimOmraade() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -224,7 +224,7 @@ export default function KimOmraade() {
         <p
           style={{
             fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "32px",
             lineHeight: 1.7,
           }}
@@ -252,36 +252,36 @@ export default function KimOmraade() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

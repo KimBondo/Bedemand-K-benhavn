@@ -25,7 +25,7 @@ export default function KimBegravelseshjaelp() {
       <SEO
         title="Begravelseshjælp – søg tilskud, Kim Bondo"
         description="Få hjælp til at søge begravelseshjælp fra det offentlige. Tilskud fra 1.050–13.550 kr. Kim Bondo guider jer igennem ansøgningen. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/begravelseshjaelp"
+        url="https://www.bedemandkobenhavn.dk/begravelseshjaelp/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -33,7 +33,7 @@ export default function KimBegravelseshjaelp() {
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Begravelseshjælp", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp" }
+          { name: "Begravelseshjælp", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/" }
         ]}
       />
       {/* ── HEADER ── */}
@@ -181,16 +181,16 @@ export default function KimBegravelseshjaelp() {
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, marginBottom: "16px" }}>
             Begravelseshjælpen dækker en del af udgifterne — men hvad er de samlede udgifter? Se min komplette guide med officielle 2026-takster for kremering, gravsted, kapelleje og et realistisk priseksempel.
           </p>
-          <a href="/hvad-koster-en-begravelse" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px" }}>
+          <a href="/hvad-koster-en-begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px" }}>
             Se den komplette prisguide →
           </a>
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Se priser", href: "/priser" },
-            { label: "Huskeliste ved dødsfald", href: "/huskeliste" },
-            { label: "Se alle afskeder", href: "/afskeder" },
-            { label: "Hvad koster det reelt?", href: "/hvad-koster-en-begravelse" },
+            { label: "Se priser", href: "/priser/" },
+            { label: "Huskeliste ved dødsfald", href: "/huskeliste/" },
+            { label: "Se alle afskeder", href: "/afskeder/" },
+            { label: "Hvad koster det reelt?", href: "/hvad-koster-en-begravelse/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
               {link.label}
@@ -225,7 +225,7 @@ export default function KimBegravelseshjaelp() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -235,7 +235,7 @@ export default function KimBegravelseshjaelp() {
         <p
           style={{
             fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "32px",
             lineHeight: 1.7,
           }}
@@ -263,36 +263,36 @@ export default function KimBegravelseshjaelp() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>

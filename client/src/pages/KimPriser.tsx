@@ -61,7 +61,7 @@ function PricePackage({
       )}
       {linkAfter && (
         <p style={{ marginTop: "16px" }}>
-          <a href="/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
+          <a href="/produkter/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
             Se hele udvalget med priser her →
           </a>
         </p>
@@ -93,14 +93,14 @@ export default function KimPriser() {
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
         description="Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/priser"
+        url="https://www.bedemandkobenhavn.dk/priser/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Priser", url: "https://www.bedemandkobenhavn.dk/priser" },
+          { name: "Priser", url: "https://www.bedemandkobenhavn.dk/priser/" },
         ]}
       />
 
@@ -255,7 +255,7 @@ export default function KimPriser() {
           </ul>
           <p style={{ ...s.body, marginTop: "16px" }}>
             <strong>Vælger I en anden kiste eller urne, betaler I kun forskellen.</strong>{" "}
-            <a href="/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>
+            <a href="/produkter/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>
               Se hele udvalget med priser her →
             </a>
           </p>
@@ -269,7 +269,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Aften, weekend og helligdage</h2>
           <p style={s.body}>
-            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Det koster mig mere, og derfor er der et tillæg på 50 % på afhentning og kørsel. Ved en bisættelse svarer det typisk til 2.200 kr.
+            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Det koster mig mere, og derfor er der et tillæg på 50 % på afhentning og kørsel. Tillægget gælder efter kl. 16 på hverdage samt i weekender og på helligdage. Falder afhentningen og den første kørsel uden for arbejdstiden, svarer det til 2.250 kr.
           </p>
           <p style={s.body}>
             Det står her, fordi I skal kunne regne det ud selv — ikke opdage det på fakturaen.
@@ -294,7 +294,6 @@ export default function KimPriser() {
           </p>
           <PriceTable rows={[
             ["Kremering, voksen", "3.075 kr."],
-            ["Gravning af askefællesgrav", "407 kr."],
             ["Gravning af urnegrav", "1.199 kr."],
             ["Gravning af kistegrav, 3 m²", "7.055 kr."],
             ["Kisteopbevaring, pr. påbegyndt uge", "272 kr."],
@@ -341,7 +340,7 @@ export default function KimPriser() {
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Kister og urner</h3>
           <p style={{ marginBottom: "12px" }}>
-            <a href="/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
+            <a href="/produkter/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
               Se hele udvalget med billeder og priser her →
             </a>
           </p>

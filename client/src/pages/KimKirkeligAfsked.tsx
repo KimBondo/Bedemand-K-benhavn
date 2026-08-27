@@ -25,16 +25,15 @@ export default function KimKirkeligAfsked() {
       <SEO
         title="Kirkelig afsked – Bedemand Kim Bondo"
         description="Kirkelig begravelse eller bisættelse med præst i København. Jeg koordinerer kirke, kordegn og hele forløbet. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kirkelig-afsked"
+        url="https://www.bedemandkobenhavn.dk/kirkelig-afsked/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
-      <SchemaOrg type="LocalBusiness" />
       <SchemaOrg
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kirkelig afsked", url: "https://www.bedemandkobenhavn.dk/kirkelig-afsked" }
+          { name: "Kirkelig afsked", url: "https://www.bedemandkobenhavn.dk/kirkelig-afsked/" }
         ]}
         faqItems={[
           { question: "Kan man få en kirkelig afsked uden at være medlem af Folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af Folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen." },
@@ -67,7 +66,7 @@ export default function KimKirkeligAfsked() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/afskeder" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til afskeder</a>
+          <a href="/afskeder/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til afskeder</a>
           <a href="/" style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2, textDecoration: "none" }}>Bedemand København og Nordsjælland</a>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Kirkelig afsked</span>
         </div>
@@ -113,7 +112,7 @@ export default function KimKirkeligAfsked() {
             En kirkelig afsked er en ceremoni i kirke eller kapel, ledet af en præst fra Folkekirken. Den følger faste ritualer, men der er god plads til at tilpasse den, så den afspejler den afdødes liv og familiens ønsker — i valg af salmer, musik og prædikenens indhold.
           </p>
           <p style={s.body}>
-            Ceremonien kan afsluttes med enten en <a href="/begravelse" style={s.link}>begravelse</a> (kisten sænkes i jorden) eller en <a href="/bisaettelse" style={s.link}>bisættelse</a> (afdøde kremeres, og asken placeres i en urne).
+            Ceremonien kan afsluttes med enten en <a href="/begravelse/" style={s.link}>begravelse</a> (kisten sænkes i jorden) eller en <a href="/bisaettelse/" style={s.link}>bisættelse</a> (afdøde kremeres, og asken placeres i en urne).
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px", marginTop: "40px" }}>
@@ -143,12 +142,12 @@ export default function KimKirkeligAfsked() {
             <div style={{ background: "#fff", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
               <h3 style={s.h3}>Kirkelig begravelse</h3>
               <p style={s.body}>Ceremonien foregår i kirken. Herefter bæres kisten til gravstedet, hvor jordpåkastelsen og den endelige afsked finder sted. Familien samles om graven.</p>
-              <a href="/begravelse" style={s.link}>Læs mere om begravelse →</a>
+              <a href="/begravelse/" style={s.link}>Læs mere om begravelse →</a>
             </div>
             <div style={{ background: "#fff", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
               <h3 style={s.h3}>Kirkelig bisættelse</h3>
-              <p style={s.body}>Jordpåkastelsen sker i kirken som en del af ceremonien. Herefter transporteres kisten til krematoriet. Urnen kan efterfølgende nedsættes eller bruges til <a href="/askespredning" style={s.link}>askespredning</a>.</p>
-              <a href="/bisaettelse" style={s.link}>Læs mere om bisættelse →</a>
+              <p style={s.body}>Jordpåkastelsen sker i kirken som en del af ceremonien. Herefter transporteres kisten til krematoriet. Urnen kan efterfølgende nedsættes eller bruges til <a href="/askespredning/" style={s.link}>askespredning</a>.</p>
+              <a href="/bisaettelse/" style={s.link}>Læs mere om bisættelse →</a>
             </div>
           </div>
         </div>
@@ -222,9 +221,9 @@ export default function KimKirkeligAfsked() {
         <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "32px" }}>Ikke sikker på ceremonitypen?</h2>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Borgerlig afsked", href: "/borgerlig-afsked" },
-            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni" },
-            { label: "Se alle afskeder", href: "/afskeder" },
+            { label: "Borgerlig afsked", href: "/borgerlig-afsked/" },
+            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni/" },
+            { label: "Se alle afskeder", href: "/afskeder/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
               {link.label}
@@ -259,7 +258,7 @@ export default function KimKirkeligAfsked() {
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 400,
             fontSize: "clamp(14px, 1.6vw, 18px)",
-            color: "rgba(255,255,255,0.70)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "16px",
             letterSpacing: "0.03em",
           }}
@@ -269,7 +268,7 @@ export default function KimKirkeligAfsked() {
         <p
           style={{
             fontSize: "15px",
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(255,255,255,0.82)",
             marginBottom: "32px",
             lineHeight: 1.7,
           }}
@@ -297,36 +296,36 @@ export default function KimKirkeligAfsked() {
         <p
           style={{
             fontSize: "13px",
-            color: "rgba(255,255,255,0.35)",
+            color: "rgba(255,255,255,0.78)",
             marginTop: "16px",
           }}
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Tlf.: 22 21 14 37
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/persondatapolitik"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Persondatapolitik
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="#cookieindstillinger"
-            style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
             Cookieindstillinger
           </a>
