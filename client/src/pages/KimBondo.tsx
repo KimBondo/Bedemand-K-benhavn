@@ -11,7 +11,7 @@ import KimNav from "@/components/KimNav";
  *
  * Section order (revised):
  *   1. Hero — headline + underheadline + kystbillede (beach/hearse)
- *   2. Introduktion — "Tryghed og god energi…" + haven-kiste billede
+ *   2. Introduktion — "Ro, overblik og mening" + haven-kiste billede
  *   3. Bæredygtighed — "Omsorg for naturen – Bæredygtig afsked"
  *   4. Priser intro + 3 priseksempler (ingen tekst imellem)
  *   5. Logistik — "Den sikre logistik" + "Friheden til at vælge" + rådhuspladsbillede
@@ -315,7 +315,7 @@ export default function KimBondo() {
               marginBottom: "20px",
             }}
           >
-            Når vi mister en, vi har kær, opstår der ofte et øjeblikkeligt kaos af praktiske spørgsmål og dybe følelser. Min vigtigste opgave – uanset om vi mødes hjemme hos jer eller taler i telefon – er at skabe et rum med ro, overblik og tryghed.
+            Når vi mister en, vi har kær, opstår der ofte et øjeblikkeligt kaos af praktiske spørgsmål og dybe følelser. Min vigtigste opgave – uanset om vi mødes hjemme hos jer eller taler i telefon – er at skabe et rum med ro og overblik. Og at holde fast i, at også de tungeste stunder bærer mening i sig.
           </p>
           <p
             style={{
