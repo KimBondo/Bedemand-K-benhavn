@@ -295,6 +295,7 @@ export default function KimPriser() {
           <PriceTable rows={[
             ["Kremering, voksen", "3.075 kr."],
             ["Gravning af urnegrav", "1.199 kr."],
+            ["Askefællesgrav, engangsbeløb", "3.617 kr."],
             ["Gravning af kistegrav, 3 m²", "7.055 kr."],
             ["Kisteopbevaring, pr. påbegyndt uge", "272 kr."],
             ["Leje af kapel, ½ time", "1.154 kr."],

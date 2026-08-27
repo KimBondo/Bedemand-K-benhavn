@@ -120,7 +120,7 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
           access_key: ACCESS_KEY,
           subject: buildSubject(),
           from_name: "Bedemand København",
-          // replyto sætter Svar-til i mailen, så Kim kan svare direkte
+          // replyto sætter Svar-til i mailen, så der kan svares direkte
           replyto: form.email || undefined,
           Navn: form.name,
           Telefon: form.phone,
@@ -201,7 +201,7 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
         </p>
         <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.7 }}>
           {status === "sent"
-            ? "Din besked er sendt. Kim vender tilbage hurtigst muligt — og du er altid velkommen til at ringe på "
+            ? "Din besked er sendt. Jeg vender tilbage hurtigst muligt — og du er altid velkommen til at ringe på "
             : "Din e-mail-klient er åbnet med beskeden klar til afsendelse. Du er også velkommen til at ringe på "}
           <a
             href={`tel:${PHONE_HREF}`}
@@ -270,7 +270,7 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
         id="cf-email"
         name="email"
         type="email"
-        placeholder="Så kan Kim også svare dig på skrift"
+        placeholder="Så kan jeg også svare dig på skrift"
         value={form.email}
         onChange={handleChange}
         autoComplete="email"
@@ -323,7 +323,7 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
           fontStyle: "italic",
         }}
       >
-        Din besked sendes til Kims indbakke gennem en ekstern formulartjeneste
+        Din besked sendes til min indbakke gennem en ekstern formulartjeneste
         (Web3Forms). Oplysningerne bruges udelukkende til at besvare din
         henvendelse — de sælges ikke og bruges ikke til markedsføring. Læs mere i{" "}
         <a href="/persondatapolitik/" style={{ color: "#5a7a6a" }}>

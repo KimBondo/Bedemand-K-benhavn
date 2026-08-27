@@ -1,10 +1,16 @@
 # Indhold til bedemandkobenhavn.dk
-## Udarbejdet 26. juli 2026
+## Udarbejdet 26. juli 2026 · priseksempel og stier opdateret 27. august 2026
+
+---
+
+> **Bemærk:** Pakkepriserne er 13.550 / 19.500 / 21.500 kr., og begge pakker
+> indeholder **tre** rustvognskørsler. Står der andet et sted i dette dokument,
+> er det forældet — prissiden på sitet er facit.
 
 ---
 
 # TEKST 1 — Prisgennemsigtighed som etisk handling
-### Til brug på: /kim-bondo/priser (hero-sektion eller intro-boks)
+### Til brug på: /priser/ (hero-sektion eller intro-boks)
 ### Tone: Varm, direkte, personlig — Kims stemme
 
 ---
@@ -55,7 +61,7 @@ Det er ikke et tilbud. Det er en ret.
 ---
 
 # TEKST 2 — "Hvad koster det reelt?" — Den komplette guide
-### Til brug på: /kim-bondo/hvad-koster-en-begravelse (ny sektion eller selvstændig side)
+### Til brug på: /hvad-koster-en-begravelse/ (ny sektion eller selvstændig side)
 ### Alle priser er 2026-takster fra officielle kilder
 
 ---
@@ -231,16 +237,16 @@ Nedenstående er et realistisk eksempel på en bisættelse med kirkelig ceremoni
 | Post | Beløb | Hvem bestemmer prisen? |
 |---|---|---|
 | **Bedemandens ydelser (Kim Bondo)** | | |
-| Bisættelse inkl. honorar, kiste, urne, 2 kørsler | 17.395 kr. | Kim Bondo |
-| Kistepynt (lille) | 1.500 kr. | Kim Bondo |
+| Bisættelse inkl. honorar, kiste, urne, 3 kørsler | 19.500 kr. | Kim Bondo |
+| Kistepynt (lille) | 2.500 kr. | Kim Bondo |
 | **Tredjepartsudgifter** | | |
 | Kremering (Bispebjerg) | 3.075 kr. | Krematoriet |
 | Urnegravsted, traditionelt m. indramning (10 år) | 4.751 kr. | Kbh. Kommune |
 | Gravning af urnegrav | 1.199 kr. | Kbh. Kommune |
 | Orgelspil og sang (½ time) | 1.352 kr. | Kirken |
-| **Samlet** | **ca. 29.272 kr.** | |
+| **Samlet** | **ca. 32.377 kr.** | |
 | Fratrukket begravelseshjælp (ved berettigelse) | −13.550 kr. | Udbetaling DK |
-| **Realistisk nettoudgift** | **ca. 15.722 kr.** | |
+| **Realistisk nettoudgift** | **ca. 18.827 kr.** | |
 
 > Dette er et eksempel. Den faktiske pris afhænger af jeres valg og den kirkegård, I vælger. Jeg gennemgår altid alle udgifter med jer, inden vi beslutter noget.
 
