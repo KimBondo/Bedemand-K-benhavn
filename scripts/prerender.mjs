@@ -316,9 +316,14 @@ async function main() {
     }
   }
 
-  // Write _redirects for Cloudflare Pages SPA fallback
+  // Kopier _redirects fra client/public — dér ligger sandheden om viderestillinger.
+  // (Tidligere overskrev dette trin filen med kun SPA-fallback og slettede 301'erne.)
   const redirectsPath = path.join(DIST_PUBLIC, "_redirects");
-  fs.writeFileSync(redirectsPath, "/*    /index.html   200\n", "utf-8");
+  const redirectsKilde = path.resolve(ROOT, "client/public/_redirects");
+  const redirectsIndhold = fs.existsSync(redirectsKilde)
+    ? fs.readFileSync(redirectsKilde, "utf-8")
+    : "/*    /index.html   200\n";
+  fs.writeFileSync(redirectsPath, redirectsIndhold, "utf-8");
 
   console.log(`\n✅ Per-route SSG complete`);
   console.log(`   Routes: ${ok} ok, ${fail} failed`);

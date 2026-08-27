@@ -269,13 +269,12 @@ async function main() {
     }
   }
 
-  // Write _redirects for Cloudflare Pages: SPA fallback for any unknown route
-  // Known routes are served as static files; unknown routes fall back to index.html
-  const redirects = `# Cloudflare Pages _redirects
-# Known routes are served as static HTML files (per-route index.html)
-# Unknown routes fall back to root index.html for React router to handle
-/*    /index.html   200
-`;
+  // Kopier _redirects fra client/public — dér ligger sandheden om viderestillinger.
+  // (Tidligere blev filen overskrevet med kun SPA-fallback, hvilket slettede 301'erne.)
+  const redirectsKilde = path.resolve(ROOT, "client/public/_redirects");
+  const redirects = fs.existsSync(redirectsKilde)
+    ? fs.readFileSync(redirectsKilde, "utf-8")
+    : "/*    /index.html   200\n";
   fs.writeFileSync(path.join(DIST_PUBLIC, "_redirects"), redirects, "utf-8");
   console.log("  ✅ _redirects written");
 
