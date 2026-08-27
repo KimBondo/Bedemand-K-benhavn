@@ -35,7 +35,15 @@ export default function KimHorsholm() {
         url="https://www.bedemandkobenhavn.dk/horsholm/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg type="both" faqItems={FAQ} />
+      <SchemaOrg
+        type="both"
+        faqItems={FAQ}
+        breadcrumbs={[
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Områder", url: "https://www.bedemandkobenhavn.dk/omraade/" },
+          { name: "Bedemand Hørsholm", url: "https://www.bedemandkobenhavn.dk/horsholm/" },
+        ]}
+      />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -85,7 +93,7 @@ export default function KimHorsholm() {
           </li>
           <li style={{ color: "#b0b8bc" }}>›</li>
           <li>
-            <a href="/" style={{ color: "#3D6B4F", textDecoration: "none" }}>Kim Bondo</a>
+            <a href="/omraade/" style={{ color: "#3D6B4F", textDecoration: "none" }}>Områder</a>
           </li>
           <li style={{ color: "#b0b8bc" }}>›</li>
           <li style={{ color: "#3d4f5a", fontWeight: 600 }}>

@@ -123,11 +123,15 @@ export default function KimOmKim() {
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
          <div style={{ display: "flex", flexWrap: "wrap", gap: "48px", alignItems: "flex-start", marginBottom: "40px" }}>
            <picture style={{ flexShrink: 0 }}>
-             <source srcSet="/images/kim-bondo-portrait-neutral-bg_dfb527d8_d2b7aeac.webp" type="image/webp" />
               <img
                 src="/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp"
+                srcSet="/images/kim-bondo-portrait-neutral-bg_dfb527d8_464w_fad65f06.webp 464w, /images/kim-bondo-portrait-neutral-bg_dfb527d8_930w_0ebe7e5b.webp 930w, /images/kim-bondo-portrait-neutral-bg_dfb527d8_1400w_7b940c54.webp 1400w"
+                sizes="(max-width: 600px) 60vw, 280px"
+                width={1632}
+                height={2176}
                 alt="Kim Bondo – Bedemand i København og Nordsjælland"
                 loading="lazy"
+                decoding="async"
                 style={{
                   width: "clamp(180px, 30vw, 280px)",
                   height: "auto",

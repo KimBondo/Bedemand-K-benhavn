@@ -182,12 +182,14 @@ export default function KimBondo() {
             }}
          >
           <picture style={{ display: "block" }}>
-            <source srcSet="/images/kim-beach-solo_609d5ab7_9e76bac0.webp" type="image/webp" />
             <img
               src="/images/kim-beach-solo_609d5ab7.webp"
+              width={2304}
+              height={1536}
               alt="Kim Bondo med sort Mercedes rustvogn ved den danske kyst"
               fetchPriority="high"
               loading="eager"
+              decoding="async"
               style={{
                 width: "100%",
                 aspectRatio: "4/3",
@@ -260,8 +262,11 @@ export default function KimBondo() {
            <source srcSet="/images/kim-garden-coffin_90a67244.webp" type="image/webp" />
             <img
               src="/images/kim-garden-coffin_90a67244.jpg"
+              width={900}
+              height={510}
               alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
               loading="lazy"
+              decoding="async"
               style={{
                 width: "100%",
                 maxWidth: "480px",
