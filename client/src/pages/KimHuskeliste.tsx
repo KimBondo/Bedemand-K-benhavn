@@ -26,7 +26,7 @@ export default function KimHuskeliste() {
       <SEO
         title="Huskeliste ved dødsfald – Bedemand Kim Bondo"
         description="Hvad skal du gøre, når en nærtstående dør? Kim Bondos trin-for-trin huskeliste hjælper dig i den svære tid. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/huskeliste"
+        url="https://www.bedemandkobenhavn.dk/huskeliste"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -34,8 +34,7 @@ export default function KimHuskeliste() {
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Huskeliste", url: "https://bedemandkobenhavn.dk/kim-bondo/huskeliste" }
+          { name: "Huskeliste", url: "https://bedemandkobenhavn.dk/huskeliste" }
         ]}
       />
       {/* ── HEADER ── */}
@@ -61,7 +60,6 @@ export default function KimHuskeliste() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Huskeliste ved dødsfald</span>
         </div>
@@ -90,7 +88,7 @@ export default function KimHuskeliste() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Når man mister en nærtstående, fylder sorgen meget — og alligevel er der en række praktiske ting, der skal ordnes. Her er et overblik over de vigtigste skridt, og hvad jeg hjælper med.
         </p>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+        <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Kontakt mig
         </a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
@@ -111,7 +109,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Begravelse, bisættelse eller askespredning?</h3>
           <p style={s.body}>
-            Der skal tages stilling til, hvordan afskeden skal foregå — og om der skal være en ceremoni. Skal det være en <a href="/kim-bondo/kirkelig-afsked" style={s.link}>kirkelig</a> eller <a href="/kim-bondo/borgerlig-afsked" style={s.link}>borgerlig</a> ceremoni, eller en <a href="/kim-bondo/afsked-uden-ceremoni" style={s.link}>afsked uden ceremoni</a>? Økonomi spiller også en rolle — se <a href="/kim-bondo/priser" style={s.link}>mine priser</a> for et realistisk overblik.
+            Der skal tages stilling til, hvordan afskeden skal foregå — og om der skal være en ceremoni. Skal det være en <a href="/kirkelig-afsked" style={s.link}>kirkelig</a> eller <a href="/borgerlig-afsked" style={s.link}>borgerlig</a> ceremoni, eller en <a href="/afsked-uden-ceremoni" style={s.link}>afsked uden ceremoni</a>? Økonomi spiller også en rolle — se <a href="/priser" style={s.link}>mine priser</a> for et realistisk overblik.
           </p>
 
           <h3 style={s.h3}>Dødsanmeldelse til myndighederne</h3>
@@ -162,7 +160,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Begravelseshjælp</h3>
           <p style={s.body}>
-            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. I 2026 er det maksimale tilskud op til <strong>13.550 kr.</strong> Jeg hjælper med at ansøge om begravelseshjælp som en del af mit arbejde. <a href="/kim-bondo/begravelseshjaelp" style={s.link}>Læs mere om begravelseshjælp →</a>
+            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. I 2026 er det maksimale tilskud op til <strong>13.550 kr.</strong> Jeg hjælper med at ansøge om begravelseshjælp som en del af mit arbejde. <a href="/begravelseshjaelp" style={s.link}>Læs mere om begravelseshjælp →</a>
           </p>
 
           <h3 style={s.h3}>Skifteretten</h3>
@@ -248,7 +246,7 @@ export default function KimHuskeliste() {
           Kender du nogen, der kan have brug for denne huskeliste?
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/huskeliste")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/huskeliste")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -315,7 +313,7 @@ export default function KimHuskeliste() {
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -356,7 +354,7 @@ export default function KimHuskeliste() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

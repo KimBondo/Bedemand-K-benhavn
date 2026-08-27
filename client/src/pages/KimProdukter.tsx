@@ -145,20 +145,19 @@ export default function KimProdukter() {
       <SEO
         title="Kister og urner – Bedemand Kim Bondo"
         description="Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/produkter"
+        url="https://www.bedemandkobenhavn.dk/produkter"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Kister og urner", url: "https://www.bedemandkobenhavn.dk/kim-bondo/produkter" }
+          { name: "Kister og urner", url: "https://www.bedemandkobenhavn.dk/produkter" }
         ]}
       />
       <SchemaOrg
         type="ItemList"
-        pageUrl="https://www.bedemandkobenhavn.dk/kim-bondo/produkter"
+        pageUrl="https://www.bedemandkobenhavn.dk/produkter"
         products={[
           ...KISTER.map(k => ({
             name: k.name,
@@ -201,7 +200,6 @@ export default function KimProdukter() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Kister og urner</span>
         </div>
@@ -399,7 +397,7 @@ export default function KimProdukter() {
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -440,7 +438,7 @@ export default function KimProdukter() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

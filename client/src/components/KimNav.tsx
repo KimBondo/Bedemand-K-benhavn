@@ -8,16 +8,16 @@ import { useLocation } from "wouter";
  */
 
 const NAV_LINKS = [
-  { href: "/kim-bondo/om-kim", label: "Om Kim", exact: true },
-  { href: "/kim-bondo/afskeder", label: "Afskeder" },
-  { href: "/kim-bondo/priser", label: "Priser" },
-  { href: "/kim-bondo/produkter", label: "Produkter" },
-  { href: "/kim-bondo/huskeliste", label: "Huskeliste" },
-  { href: "/kim-bondo/begravelseshjaelp", label: "Begravelseshjælp" },
-  { href: "/kim-bondo/hvad-koster-en-begravelse", label: "Hvad koster det?" },
-  { href: "/kim-bondo/omraade", label: "Alle byer" },
-  { href: "/kim-bondo/faq", label: "FAQ" },
-  { href: "/kim-bondo#kontakt", label: "Kontakt", exact: false, hash: true },
+  { href: "/om-kim", label: "Om Kim", exact: true },
+  { href: "/afskeder", label: "Afskeder" },
+  { href: "/priser", label: "Priser" },
+  { href: "/produkter", label: "Produkter" },
+  { href: "/huskeliste", label: "Huskeliste" },
+  { href: "/begravelseshjaelp", label: "Begravelseshjælp" },
+  { href: "/hvad-koster-en-begravelse", label: "Hvad koster det?" },
+  { href: "/omraade", label: "Alle byer" },
+  { href: "/faq", label: "FAQ" },
+  { href: "/#kontakt", label: "Kontakt", exact: false, hash: true },
 ];
 
 const BASE: React.CSSProperties = {

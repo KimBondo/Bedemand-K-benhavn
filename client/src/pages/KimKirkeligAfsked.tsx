@@ -25,7 +25,7 @@ export default function KimKirkeligAfsked() {
       <SEO
         title="Kirkelig afsked – Bedemand Kim Bondo"
         description="Kirkelig begravelse eller bisættelse med præst i København. Jeg koordinerer kirke, kordegn og hele forløbet. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
+        url="https://www.bedemandkobenhavn.dk/kirkelig-afsked"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -34,8 +34,7 @@ export default function KimKirkeligAfsked() {
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Kirkelig afsked", url: "https://www.bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked" }
+          { name: "Kirkelig afsked", url: "https://www.bedemandkobenhavn.dk/kirkelig-afsked" }
         ]}
         faqItems={[
           { question: "Kan man få en kirkelig afsked uden at være medlem af Folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af Folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen." },
@@ -44,7 +43,7 @@ export default function KimKirkeligAfsked() {
           { question: "Er ceremonien i kirken gratis?", answer: "Som medlem af Folkekirken er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd." },
           { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde den bedste løsning." },
         ]}
-        pageUrl="https://www.bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked"
+        pageUrl="https://www.bedemandkobenhavn.dk/kirkelig-afsked"
       />
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -68,7 +67,7 @@ export default function KimKirkeligAfsked() {
   }
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-          <a href="/kim-bondo/afskeder" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til afskeder</a>
+          <a href="/afskeder" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til afskeder</a>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Kirkelig afsked</span>
@@ -98,7 +97,7 @@ export default function KimKirkeligAfsked() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           En kirkelig ceremoni er for mange en naturlig og meningsfuld ramme for afskeden. Jeg hjælper jer med alt det praktiske — fra kontakt til kirken og præsten til selve dagen.
         </p>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+        <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Kontakt mig
         </a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
@@ -115,7 +114,7 @@ export default function KimKirkeligAfsked() {
             En kirkelig afsked er en ceremoni i kirke eller kapel, ledet af en præst fra Folkekirken. Den følger faste ritualer, men der er god plads til at tilpasse den, så den afspejler den afdødes liv og familiens ønsker — i valg af salmer, musik og prædikenens indhold.
           </p>
           <p style={s.body}>
-            Ceremonien kan afsluttes med enten en <a href="/kim-bondo/begravelse" style={s.link}>begravelse</a> (kisten sænkes i jorden) eller en <a href="/kim-bondo/bisaettelse" style={s.link}>bisættelse</a> (afdøde kremeres, og asken placeres i en urne).
+            Ceremonien kan afsluttes med enten en <a href="/begravelse" style={s.link}>begravelse</a> (kisten sænkes i jorden) eller en <a href="/bisaettelse" style={s.link}>bisættelse</a> (afdøde kremeres, og asken placeres i en urne).
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px", marginTop: "40px" }}>
@@ -145,12 +144,12 @@ export default function KimKirkeligAfsked() {
             <div style={{ background: "#fff", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
               <h3 style={s.h3}>Kirkelig begravelse</h3>
               <p style={s.body}>Ceremonien foregår i kirken. Herefter bæres kisten til gravstedet, hvor jordpåkastelsen og den endelige afsked finder sted. Familien samles om graven.</p>
-              <a href="/kim-bondo/begravelse" style={s.link}>Læs mere om begravelse →</a>
+              <a href="/begravelse" style={s.link}>Læs mere om begravelse →</a>
             </div>
             <div style={{ background: "#fff", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
               <h3 style={s.h3}>Kirkelig bisættelse</h3>
-              <p style={s.body}>Jordpåkastelsen sker i kirken som en del af ceremonien. Herefter transporteres kisten til krematoriet. Urnen kan efterfølgende nedsættes eller bruges til <a href="/kim-bondo/askespredning" style={s.link}>askespredning</a>.</p>
-              <a href="/kim-bondo/bisaettelse" style={s.link}>Læs mere om bisættelse →</a>
+              <p style={s.body}>Jordpåkastelsen sker i kirken som en del af ceremonien. Herefter transporteres kisten til krematoriet. Urnen kan efterfølgende nedsættes eller bruges til <a href="/askespredning" style={s.link}>askespredning</a>.</p>
+              <a href="/bisaettelse" style={s.link}>Læs mere om bisættelse →</a>
             </div>
           </div>
         </div>
@@ -224,9 +223,9 @@ export default function KimKirkeligAfsked() {
         <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "32px" }}>Ikke sikker på ceremonitypen?</h2>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Borgerlig afsked", href: "/kim-bondo/borgerlig-afsked" },
-            { label: "Afsked uden ceremoni", href: "/kim-bondo/afsked-uden-ceremoni" },
-            { label: "Se alle afskeder", href: "/kim-bondo/afskeder" },
+            { label: "Borgerlig afsked", href: "/borgerlig-afsked" },
+            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni" },
+            { label: "Se alle afskeder", href: "/afskeder" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
               {link.label}
@@ -279,7 +278,7 @@ export default function KimKirkeligAfsked() {
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -320,7 +319,7 @@ export default function KimKirkeligAfsked() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

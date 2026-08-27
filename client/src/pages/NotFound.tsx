@@ -28,7 +28,7 @@ export default function NotFound() {
           Gå til forsiden
         </button>
         <a
-          href="/kim-bondo"
+          href="/"
           style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}
         >
           Bedemand Kim Bondo

@@ -326,7 +326,7 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
         Din besked sendes til Kims indbakke gennem en ekstern formulartjeneste
         (Web3Forms). Oplysningerne bruges udelukkende til at besvare din
         henvendelse — de sælges ikke og bruges ikke til markedsføring. Læs mere i{" "}
-        <a href="/kim-bondo/persondatapolitik" style={{ color: "#5a7a6a" }}>
+        <a href="/persondatapolitik" style={{ color: "#5a7a6a" }}>
           persondatapolitikken
         </a>
         .

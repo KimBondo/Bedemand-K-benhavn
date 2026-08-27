@@ -136,7 +136,7 @@ export default function Home() {
               phoneLink="tel:22211437"
               callLabel="Ring direkte til Kim"
               websiteLabel="Gå til Kims hjemmeside"
-              websiteHref="/kim-bondo"
+              websiteHref="/"
               initials="KB"
               portraitSrc="/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp"
               portraitAlt="Kim Bondo – Bedemand"
@@ -199,7 +199,7 @@ export default function Home() {
           >
             © {new Date().getFullYear()} Bedemand København og Nordsjælland &nbsp;·&nbsp; To selvstændige bedemænd
             {" "}&nbsp;·&nbsp;{" "}
-            <a href="/kim-bondo/persondatapolitik" style={{ color: "rgba(255,255,255,0.50)", textDecoration: "underline" }}>Persondatapolitik</a>
+            <a href="/persondatapolitik" style={{ color: "rgba(255,255,255,0.50)", textDecoration: "underline" }}>Persondatapolitik</a>
             {" "}&nbsp;·&nbsp;{" "}
             <a href="#cookieindstillinger" style={{ color: "rgba(255,255,255,0.50)", textDecoration: "underline" }}>Cookieindstillinger</a>
           </p>

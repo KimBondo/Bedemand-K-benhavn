@@ -8,11 +8,11 @@ function PersonSchema() {
     const schema = {
       "@context": "https://schema.org",
       "@type": "Person",
-      "@id": "https://www.bedemandkobenhavn.dk/kim-bondo/om-kim#kim-bondo",
+      "@id": "https://www.bedemandkobenhavn.dk/om-kim#kim-bondo",
       "name": "Kim Bondo",
       "jobTitle": "Selvstændig bedemand",
       "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
-      "url": "https://www.bedemandkobenhavn.dk/kim-bondo",
+      "url": "https://www.bedemandkobenhavn.dk/",
       "image": "/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp",
       "telephone": "+4522211437",
       "email": "kim@bedemandkobenhavn.dk",
@@ -25,7 +25,7 @@ function PersonSchema() {
       },
       "worksFor": {
         "@type": "LocalBusiness",
-        "@id": "https://www.bedemandkobenhavn.dk/kim-bondo"
+        "@id": "https://www.bedemandkobenhavn.dk/"
       },
       "knowsAbout": ["Bisættelse", "Begravelse", "Afsked uden ceremoni", "Askespredning", "Begravelseshjælp"]
     };
@@ -58,7 +58,7 @@ export default function KimOmKim() {
       <SEO
         title="Om Kim Bondo – Personlig bedemand, København"
         description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/om-kim"
+        url="https://www.bedemandkobenhavn.dk/om-kim"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -66,8 +66,7 @@ export default function KimOmKim() {
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Om Kim", url: "https://www.bedemandkobenhavn.dk/kim-bondo/om-kim" }
+          { name: "Om Kim", url: "https://www.bedemandkobenhavn.dk/om-kim" }
         ]}
       />
       <PersonSchema />
@@ -94,7 +93,6 @@ export default function KimOmKim() {
         `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Om Kim</span>
         </div>
@@ -114,7 +112,7 @@ export default function KimOmKim() {
           En personlig bedemand — fra første opkald til den sidste afsked
         </h1>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}
         >
           Kontakt mig
@@ -218,7 +216,7 @@ export default function KimOmKim() {
           Ring eller skriv til mig — jeg er tilgængelig døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", marginBottom: "32px" }}>
-          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+          <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Skriv til mig
           </a>
           <a href="tel:22211437" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
@@ -238,7 +236,7 @@ export default function KimOmKim() {
         <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.65)", marginBottom: "32px", lineHeight: 1.7 }}>
           Vandtårnsvej 62A, 2860 Søborg
         </p>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
+        <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
           Kontakt mig
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.35)", marginTop: "16px" }}>
@@ -249,7 +247,7 @@ export default function KimOmKim() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik
