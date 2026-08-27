@@ -22,7 +22,7 @@ export default function KimAfskeder() {
       <SEO
         title="Afskeder og ceremonier – Bedemand Kim Bondo"
         description="Kirkelig, borgerlig eller stille afsked i København. Kim Bondo tilrettelægger begravelse og bisættelse efter jeres ønsker. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/afskeder"
+        url="https://www.bedemandkobenhavn.dk/afskeder"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -30,8 +30,7 @@ export default function KimAfskeder() {
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Afskeder", url: "https://www.bedemandkobenhavn.dk/kim-bondo/afskeder" }
+          { name: "Afskeder", url: "https://www.bedemandkobenhavn.dk/afskeder" }
         ]}
       />
       {/* ── HEADER ── */}
@@ -68,9 +67,6 @@ export default function KimAfskeder() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>
-            ← Tilbage til Kim Bondo
-          </a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>
             Bedemand København og Nordsjælland
           </span>
@@ -118,7 +114,7 @@ export default function KimAfskeder() {
               tag: "Mest valgte",
               desc: "En bisættelse er den mest valgte afskedsform i Danmark. Afdøde kremeres efter ceremonien, og asken samles i en urne. Urnen kan nedsættes på en kirkegård, spredes over havet eller tages med til udlandet.",
               details: ["Kirkelig eller borgerlig ceremoni", "Kremering og urne", "Fleksibel stedfæstelse af asken", "Priser fra 19.500 kr."],
-              href: "/kim-bondo/bisaettelse",
+              href: "/bisaettelse",
               linkText: "Læs om bisættelse",
             },
             {
@@ -126,7 +122,7 @@ export default function KimAfskeder() {
               tag: "Traditionel",
               desc: "En begravelse er en traditionel afskedsform, hvor kisten sænkes i jorden på et gravsted. Det giver et varigt sted at mindes og vende tilbage til.",
               details: ["Kirkelig eller borgerlig ceremoni", "Kiste i jorden på gravsted", "Et varigt sted at mindes", "Priser fra 21.500 kr."],
-              href: "/kim-bondo/begravelse",
+              href: "/begravelse",
               linkText: "Læs om begravelse",
             },
             {
@@ -134,7 +130,7 @@ export default function KimAfskeder() {
               tag: "Enkel",
               desc: "En enkel og diskret afsked uden formel ceremoni. Kisten transporteres direkte til krematoriet eller gravstedet. Mange familier vælger at holde en mindesammenkomst på et andet tidspunkt.",
               details: ["Ingen formel ceremoni", "Direkte til krematorium eller gravsted", "Mulighed for mindesammenkomst senere", "Priser fra 13.550 kr."],
-              href: "/kim-bondo/afsked-uden-ceremoni",
+              href: "/afsked-uden-ceremoni",
               linkText: "Læs om afsked uden ceremoni",
             },
             {
@@ -142,7 +138,7 @@ export default function KimAfskeder() {
               tag: "Naturlig",
               desc: "Askespredning over havet er en fri og naturlig afsked. Asken spredes over åbent hav i stedet for at blive stedfæstet på en kirkegård. En smuk og symbolsk afsked for dem, der elsker havet.",
               details: ["Forlængelse af bisættelse", "Asken spredes over åbent hav", "Kan kombineres med ceremoni", "Priser fra 13.550 kr."],
-              href: "/kim-bondo/askespredning",
+              href: "/askespredning",
               linkText: "Læs om askespredning",
             },
             {
@@ -150,7 +146,7 @@ export default function KimAfskeder() {
               tag: "Med præst",
               desc: "En ceremoni i kirke eller kapel, ledet af en præst fra Folkekirken. Følger faste ritualer, men med god plads til at tilpasse salmer og indhold efter familiens ønsker.",
               details: ["Præst fra Folkekirken", "Salmer og jordpåkastelse", "Kan afsluttes med begravelse eller bisættelse", "Gratis kirkelig ceremoni for folkekirkens medlemmer"],
-              href: "/kim-bondo/kirkelig-afsked",
+              href: "/kirkelig-afsked",
               linkText: "Læs om kirkelig afsked",
             },
             {
@@ -158,7 +154,7 @@ export default function KimAfskeder() {
               tag: "Personlig",
               desc: "En ceremoni uden religiøse ritualer, tilpasset præcis som I ønsker det. Kan holdes i kapel, hjemme eller et sted med særlig betydning. Familien bestemmer musik, taler og indhold.",
               details: ["Ingen religiøse ritualer", "Fri valg af musik og taler", "Kapel, hjemme eller andet sted", "Kan afsluttes med begravelse, bisættelse eller askespredning"],
-              href: "/kim-bondo/borgerlig-afsked",
+              href: "/borgerlig-afsked",
               linkText: "Læs om borgerlig afsked",
             },
           ].map((card) => (
@@ -222,13 +218,13 @@ export default function KimAfskeder() {
           Det er helt normalt at være usikker. Mange familier har aldrig stået i denne situation før, og der er mange valg at tage i en svær tid. Jeg er her for at hjælpe jer – ikke til at sælge jer noget, men til at lytte og rådgive.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "40px" }}>
-          Ring til mig, skriv en besked, eller kig på <a href="/kim-bondo/priser" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>prissiden</a> for at få et overblik over hvad de forskellige afskeder koster. Jeg gennemgår altid alle udgifter med jer på forhånd.
+          Ring til mig, skriv en besked, eller kig på <a href="/priser" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>prissiden</a> for at få et overblik over hvad de forskellige afskeder koster. Jeg gennemgår altid alle udgifter med jer på forhånd.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+          <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Kontakt mig
           </a>
-          <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
+          <a href="/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Se priser
           </a>
         </div>
@@ -245,11 +241,11 @@ export default function KimAfskeder() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#5a7a6a", marginBottom: "32px", maxWidth: "520px", margin: "0 auto 32px" }}>Hvad skal man gøre ved dødsfald? Hvad kan man søge i begravelseshjælp? Og dækker Kim dit område?</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Hvad koster en begravelse?", href: "/kim-bondo/hvad-koster-en-begravelse" },
-            { label: "Huskeliste ved dødsfald", href: "/kim-bondo/huskeliste" },
-            { label: "Begravelseshjælp 2026", href: "/kim-bondo/begravelseshjaelp" },
-            { label: "Dækningsområde", href: "/kim-bondo/omraade" },
-            { label: "Se priser", href: "/kim-bondo/priser" },
+            { label: "Hvad koster en begravelse?", href: "/hvad-koster-en-begravelse" },
+            { label: "Huskeliste ved dødsfald", href: "/huskeliste" },
+            { label: "Begravelseshjælp 2026", href: "/begravelseshjaelp" },
+            { label: "Dækningsområde", href: "/omraade" },
+            { label: "Se priser", href: "/priser" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
               {link.label}
@@ -269,7 +265,7 @@ export default function KimAfskeder() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(13px, 1.4vw, 15px)", color: "rgba(255,255,255,0.70)", marginBottom: "24px" }}>
           Vandtårnsvej 62A, 2860 Søborg
         </p>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
+        <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
           Kontakt mig
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.35)", marginTop: "16px" }}>
@@ -280,7 +276,7 @@ export default function KimAfskeder() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

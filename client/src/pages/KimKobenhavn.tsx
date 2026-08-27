@@ -26,7 +26,7 @@ export default function KimKobenhavn() {
       <SEO
         title="Bedemand København – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i København. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Ingen skjulte gebyrer. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/kobenhavn"
+        url="https://www.bedemandkobenhavn.dk/kobenhavn"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={[
@@ -60,7 +60,6 @@ export default function KimKobenhavn() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – personlig bedemand i hele København</span>
         </div>
@@ -87,7 +86,7 @@ export default function KimKobenhavn() {
           </li>
           <li style={{ color: "#b0b8bc" }}>›</li>
           <li>
-            <a href="/kim-bondo" style={{ color: "#3D6B4F", textDecoration: "none" }}>Kim Bondo</a>
+            <a href="/" style={{ color: "#3D6B4F", textDecoration: "none" }}>Kim Bondo</a>
           </li>
           <li style={{ color: "#b0b8bc" }}>›</li>
           <li style={{ color: "#3d4f5a", fontWeight: 600 }}>
@@ -108,7 +107,7 @@ export default function KimKobenhavn() {
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
-          <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
+          <a href="/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
           eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
@@ -126,7 +125,7 @@ export default function KimKobenhavn() {
           <p style={s.body}>
             Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled — bare direkte kontakt med mig, Kim Bondo. Jeg er tilgængelig hele døgnet, også i weekender og på helligdage.
           </p>
-          <a href="/kim-bondo" style={s.link}>Læs mere om Kim Bondo →</a>
+          <a href="/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
       </section>
 
@@ -137,12 +136,12 @@ export default function KimKobenhavn() {
           <h2 style={s.h2}>Hvad hjælper jeg med i København?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og krematorium i hele København.", href: "/kim-bondo/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af Københavns kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/kim-bondo/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 13.550 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
-              { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Københavns kirker.", href: "/kim-bondo/kirkelig-afsked" },
-              { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer, men med fuld personlighed.", href: "/kim-bondo/borgerlig-afsked" },
-              { title: "Askespredning", desc: "Spredning af aske over havet ud for Sjællands kyst. En fri og naturlig afsked.", href: "/kim-bondo/askespredning" },
+              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og krematorium i hele København.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på en af Københavns kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Københavns kirker.", href: "/kirkelig-afsked" },
+              { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer, men med fuld personlighed.", href: "/borgerlig-afsked" },
+              { title: "Askespredning", desc: "Spredning af aske over havet ud for Sjællands kyst. En fri og naturlig afsked.", href: "/askespredning" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -164,9 +163,9 @@ export default function KimKobenhavn() {
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
-              { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
-              { type: "Bisættelse med ceremoni", price: "19.500 kr.", href: "/kim-bondo/bisaettelse" },
-              { type: "Begravelse i kiste", price: "21.500 kr.", href: "/kim-bondo/begravelse" },
+              { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { type: "Bisættelse med ceremoni", price: "19.500 kr.", href: "/bisaettelse" },
+              { type: "Begravelse i kiste", price: "21.500 kr.", href: "/begravelse" },
             ].map((p) => (
               <div key={p.type} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
@@ -176,7 +175,7 @@ export default function KimKobenhavn() {
             ))}
           </div>
           <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje — <a href="/kim-bondo/hvad-koster-en-begravelse" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse" style={s.link}>læs mere om hvad der påvirker prisen</a>.
           </p>
         </div>
       </section>
@@ -198,8 +197,8 @@ export default function KimKobenhavn() {
               <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
             </div>
           ))}
-          <a href="/kim-bondo/omraade" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Alle byer</a>
-    <a href="/kim-bondo/faq" style={s.link}>Se alle spørgsmål og svar →</a>
+          <a href="/omraade" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(13px, 1.4vw, 15px)", color: "#3d5260", textDecoration: "none", letterSpacing: "0.02em" }}>Alle byer</a>
+    <a href="/faq" style={s.link}>Se alle spørgsmål og svar →</a>
         </div>
       </section>
 
@@ -208,10 +207,10 @@ export default function KimKobenhavn() {
         <p style={s.label}>Se også</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Bedemand Gentofte", href: "/kim-bondo/gentofte" },
-            { label: "Bedemand Lyngby", href: "/kim-bondo/lyngby" },
-            { label: "Bedemand Helsingør", href: "/kim-bondo/helsingor" },
-            { label: "Dækningsområde", href: "/kim-bondo/omraade" },
+            { label: "Bedemand Gentofte", href: "/gentofte" },
+            { label: "Bedemand Lyngby", href: "/lyngby" },
+            { label: "Bedemand Helsingør", href: "/helsingor" },
+            { label: "Dækningsområde", href: "/omraade" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
           ))}
@@ -239,7 +238,7 @@ export default function KimKobenhavn() {
           Kender du nogen på udkig efter en bedemand i København? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/kobenhavn")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kobenhavn")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -307,7 +306,7 @@ export default function KimKobenhavn() {
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -348,7 +347,7 @@ export default function KimKobenhavn() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

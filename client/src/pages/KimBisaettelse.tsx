@@ -23,7 +23,7 @@ export default function KimBisaettelse() {
       <SEO
         title="Bisættelse i København – Bedemand Kim Bondo"
         description="Personlig hjælp til bisættelse i København og Nordsjælland. Kim Bondo tager sig af alt det praktiske. Ring 22 21 14 37 – døgnet rundt."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/bisaettelse"
+        url="https://www.bedemandkobenhavn.dk/bisaettelse"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -31,8 +31,7 @@ export default function KimBisaettelse() {
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Bisættelse", url: "https://www.bedemandkobenhavn.dk/kim-bondo/bisaettelse" }
+          { name: "Bisættelse", url: "https://www.bedemandkobenhavn.dk/bisaettelse" }
         ]}
       />
       <SchemaOrg
@@ -44,7 +43,7 @@ export default function KimBisaettelse() {
           { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering. Det er et valg, mange familier sætter pris på." },
           { question: "Hvad er inkluderet i prisen for bisættelse?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter som kremering, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket." },
         ]}
-        pageUrl="https://www.bedemandkobenhavn.dk/kim-bondo/bisaettelse"
+        pageUrl="https://www.bedemandkobenhavn.dk/bisaettelse"
       />
       {/* ── HEADER ── */}
       <header
@@ -81,19 +80,6 @@ export default function KimBisaettelse() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a
-            href="/kim-bondo"
-            style={{
-              fontFamily: "'Open Sans', sans-serif",
-              fontWeight: 600,
-              fontSize: "clamp(12px, 1.3vw, 14px)",
-              color: "#3D6B4F",
-              textDecoration: "none",
-              letterSpacing: "0.04em",
-            }}
-          >
-            ← Tilbage til Kim Bondo
-          </a>
           <span
             style={{
               fontFamily: "'Lora', serif",
@@ -166,7 +152,7 @@ export default function KimBisaettelse() {
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
-            href="/kim-bondo#kontakt"
+            href="/#kontakt"
             style={{
               display: "inline-block",
               background: "#3D6B4F",
@@ -183,7 +169,7 @@ export default function KimBisaettelse() {
             Kontakt mig
           </a>
           <a
-            href="/kim-bondo/priser"
+            href="/priser"
             style={{
               display: "inline-block",
               background: "transparent",
@@ -226,10 +212,10 @@ export default function KimBisaettelse() {
           Hvad er en bisættelse?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          En bisættelse er en afskedsform, hvor afdøde kremeres efter ceremonien. Asken samles i en urne, som familien efterfølgende kan vælge at nedsætte på en kirkegård, bruge til <a href="/kim-bondo/askespredning" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredning over havet</a> eller tage med til udlandet.
+          En bisættelse er en afskedsform, hvor afdøde kremeres efter ceremonien. Asken samles i en urne, som familien efterfølgende kan vælge at nedsætte på en kirkegård, bruge til <a href="/askespredning" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredning over havet</a> eller tage med til udlandet.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Mange vælger bisættelse frem for en traditionel <a href="/kim-bondo/begravelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi det giver større fleksibilitet i forhold til gravsted og stedfæstelse. Det er ikke en billigere eller mere upersonlig afsked – det er blot en anden måde at sige farvel på.
+          Mange vælger bisættelse frem for en traditionel <a href="/begravelse" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi det giver større fleksibilitet i forhold til gravsted og stedfæstelse. Det er ikke en billigere eller mere upersonlig afsked – det er blot en anden måde at sige farvel på.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           Jeg lægger samme omsorg og nærvær i en bisættelse som i alle andre afskeder. Ceremonien kan være kirkelig eller borgerlig, og den kan tilpasses præcis til afdødes og familiens ønsker.
@@ -351,7 +337,7 @@ export default function KimBisaettelse() {
           En <strong>borgerlig bisættelse</strong> foregår uden religiøse ritualer og kan arrangeres helt efter familiens ønsker. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation. I vælger selv en taler, musik og indhold.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          Ønsker I en enklere løsning, kan bisættelsen også foregå <a href="/kim-bondo/afsked-uden-ceremoni" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a> – direkte til krematoriet, med mulighed for en mindesammenkomst på et senere tidspunkt.
+          Ønsker I en enklere løsning, kan bisættelsen også foregå <a href="/afsked-uden-ceremoni" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a> – direkte til krematoriet, med mulighed for en mindesammenkomst på et senere tidspunkt.
         </p>
       </section>
 
@@ -389,7 +375,7 @@ export default function KimBisaettelse() {
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
-            href="/kim-bondo/priser"
+            href="/priser"
             style={{
               display: "inline-block",
               background: "#3D6B4F",
@@ -406,7 +392,7 @@ export default function KimBisaettelse() {
             Se den fulde prisliste
           </a>
           <a
-            href="/kim-bondo#kontakt"
+            href="/#kontakt"
             style={{
               display: "inline-block",
               background: "transparent",
@@ -446,19 +432,19 @@ export default function KimBisaettelse() {
           {
             q: "Hvad er forskellen på bisættelse og begravelse?",
             a: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. Begge kan foregå med eller uden ceremoni.",
-            link: "/kim-bondo/begravelse",
+            link: "/begravelse",
             linkText: "Læs mere om begravelse her",
           },
           {
             q: "Kan man holde en bisættelse uden ceremoni?",
             a: "Ja. En afsked uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde en mindesammenkomst på et senere tidspunkt.",
-            link: "/kim-bondo/afsked-uden-ceremoni",
+            link: "/afsked-uden-ceremoni",
             linkText: "Læs mere om afsked uden ceremoni",
           },
           {
             q: "Hvad sker der med urnen efter bisættelsen?",
             a: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper med at finde den løsning, der passer til afdødes og familiens ønsker.",
-            link: "/kim-bondo/askespredning",
+            link: "/askespredning",
             linkText: "Læs mere om askespredning",
           },
           {
@@ -470,7 +456,7 @@ export default function KimBisaettelse() {
           {
             q: "Hvad er inkluderet i prisen?",
             a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter som kremering, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket.",
-            link: "/kim-bondo/priser",
+            link: "/priser",
             linkText: "Se den fulde prisliste",
           },
         ].map((item, i) => (
@@ -531,10 +517,10 @@ export default function KimBisaettelse() {
           }}
         >
           {[
-            { label: "Begravelse", href: "/kim-bondo/begravelse" },
-            { label: "Afsked uden ceremoni", href: "/kim-bondo/afsked-uden-ceremoni" },
-            { label: "Askespredning", href: "/kim-bondo/askespredning" },
-            { label: "Se alle afskeder", href: "/kim-bondo/afskeder" },
+            { label: "Begravelse", href: "/begravelse" },
+            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni" },
+            { label: "Askespredning", href: "/askespredning" },
+            { label: "Se alle afskeder", href: "/afskeder" },
           ].map((link) => (
             <a
               key={link.href}
@@ -557,7 +543,7 @@ export default function KimBisaettelse() {
           ))}
         </div>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -583,7 +569,7 @@ export default function KimBisaettelse() {
           © {new Date().getFullYear()} Bedemand København ApS · Kim Bondo · Vandtårnsvej 62A, 2860 Søborg
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

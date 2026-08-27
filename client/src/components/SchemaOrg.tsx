@@ -44,11 +44,11 @@ const BASE_URL = "https://www.bedemandkobenhavn.dk";
 const KIM_LOCAL_BUSINESS = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "FuneralHome"],
-  "@id": `${BASE_URL}/kim-bondo`,
+  "@id": `${BASE_URL}/#business`,
   "name": "Kim Bondo – Bedemand København",
   "alternateName": "Bedemand Kim Bondo",
   "description": "Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra 19.500 kr., begravelse fra 21.500 kr.",
-  "url": `${BASE_URL}/kim-bondo`,
+  "url": BASE_URL,
   "telephone": "+4522211437",
   "email": "kim@bedemandkobenhavn.dk",
   "vatID": "DK45084159",
@@ -216,7 +216,7 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
         "description": svc.description,
         "provider": {
           "@type": "LocalBusiness",
-          "@id": `${BASE_URL}/kim-bondo`
+          "@id": `${BASE_URL}/#business`
         },
         "areaServed": { "@type": "AdministrativeArea", "name": "København og Nordsjælland" },
         ...(svc.price ? {
@@ -238,7 +238,7 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
       "@type": "ItemList",
       "name": "Kister og urner",
       "description": "Udvalg af kister og urner til begravelse og bisættelse",
-      "url": pageUrl || `${BASE_URL}/kim-bondo/produkter`,
+      "url": pageUrl || `${BASE_URL}/produkter`,
       "numberOfItems": products.length,
       "itemListElement": products.map((product, idx) => ({
         "@type": "ListItem",
@@ -256,7 +256,7 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
             "availability": "https://schema.org/InStock",
             "seller": {
               "@type": "LocalBusiness",
-              "@id": `${BASE_URL}/kim-bondo`
+              "@id": `${BASE_URL}/#business`
             }
           }
         }

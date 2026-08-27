@@ -39,7 +39,7 @@ export default function KimOmraade() {
       <SEO
         title="Dækningsområde – Bedemand Kim Bondo"
         description="Kim Bondo dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring 22 21 14 37 – døgnet rundt."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/omraade"
+        url="https://www.bedemandkobenhavn.dk/omraade"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -67,7 +67,6 @@ export default function KimOmraade() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Dækningsområde</span>
         </div>
@@ -96,7 +95,7 @@ export default function KimOmraade() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Jeg hjælper familier i hele Storkøbenhavn og Nordsjælland. Er du i tvivl om, om jeg dækker dit område — ring bare.
         </p>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+        <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Kontakt mig
         </a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
@@ -137,7 +136,7 @@ export default function KimOmraade() {
             <p style={{ ...s.body, marginBottom: "16px" }}>
               Ring til mig på <a href="tel:22211437" style={s.link}>22 21 14 37</a> — jeg finder altid en løsning. Befinder afdøde sig uden for mit primære område, kan vi i mange tilfælde stadig hjælpe med transport og koordinering.
             </p>
-            <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none" }}>
+            <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none" }}>
               Kontakt mig
             </a>
           </div>
@@ -155,7 +154,7 @@ export default function KimOmraade() {
           <p style={s.body}>
             Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled, ingen omstilling — bare direkte kontakt med mig.
           </p>
-          <a href="/kim-bondo" style={s.link}>Læs mere om Kim Bondo →</a>
+          <a href="/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
       </section>
 
@@ -169,18 +168,18 @@ export default function KimOmraade() {
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
             {[
-              { label: "Bedemand Helsingør", href: "/kim-bondo/helsingor" },
-              { label: "Bedemand Hørsholm", href: "/kim-bondo/horsholm" },
-              { label: "Bedemand Gentofte", href: "/kim-bondo/gentofte" },
-              { label: "Bedemand Lyngby", href: "/kim-bondo/lyngby" },
-              { label: "Bedemand Hillerød", href: "/kim-bondo/hillerod" },
-              { label: "Bedemand København", href: "/kim-bondo/kobenhavn" },
-              { label: "Bedemand Nordsjælland", href: "/kim-bondo/nordsjaelland" },
-              { label: "Bedemand Frederiksberg", href: "/kim-bondo/frederiksberg" },
-              { label: "Bedemand Amager", href: "/kim-bondo/amager" },
-              { label: "Bedemand Østerbro", href: "/kim-bondo/osterbro" },
-              { label: "Bedemand Nørrebro", href: "/kim-bondo/norrebro" },
-              { label: "Bedemand Vesterbro", href: "/kim-bondo/vesterbro" },
+              { label: "Bedemand Helsingør", href: "/helsingor" },
+              { label: "Bedemand Hørsholm", href: "/horsholm" },
+              { label: "Bedemand Gentofte", href: "/gentofte" },
+              { label: "Bedemand Lyngby", href: "/lyngby" },
+              { label: "Bedemand Hillerød", href: "/hillerod" },
+              { label: "Bedemand København", href: "/kobenhavn" },
+              { label: "Bedemand Nordsjælland", href: "/nordsjaelland" },
+              { label: "Bedemand Frederiksberg", href: "/frederiksberg" },
+              { label: "Bedemand Amager", href: "/amager" },
+              { label: "Bedemand Østerbro", href: "/osterbro" },
+              { label: "Bedemand Nørrebro", href: "/norrebro" },
+              { label: "Bedemand Vesterbro", href: "/vesterbro" },
             ].map((link) => (
               <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "16px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
                 {link.label}
@@ -234,7 +233,7 @@ export default function KimOmraade() {
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -275,7 +274,7 @@ export default function KimOmraade() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

@@ -25,7 +25,7 @@ const SECTION_PADDING = "96px 32px";
 export default function KimBondo() {
   const [openCard, setOpenCard] = useState<number | null>(null);
 
-  // Scroll to hash anchor on mount (e.g. /kim-bondo#kontakt from nav links)
+  // Scroll to hash anchor on mount (e.g. /#kontakt from nav links)
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {
@@ -52,14 +52,14 @@ export default function KimBondo() {
       <SEO
         title="Bedemand Kim Bondo – København og Nordsjælland"
         description="Personlig bedemand med nærvær og ro. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo"
+        url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo – Bedemand", url: "https://www.bedemandkobenhavn.dk/kim-bondo" }
+          { name: "Kim Bondo – Bedemand", url: "https://www.bedemandkobenhavn.dk/" }
         ]}
       />
 
@@ -749,7 +749,7 @@ export default function KimBondo() {
           >
             Ønsker du at se de specifikke enkeltpriser?{" "}
             <a
-              href="/kim-bondo/priser"
+              href="/priser"
               style={{
                 color: "#3D6B4F",
                 textDecoration: "underline",
@@ -850,19 +850,19 @@ export default function KimBondo() {
               {
                 title: "Hvad sker der efter et dødsfald?",
                 excerpt: "Når en nærtestående dør, er der mange praktiske ting, der skal ordnes. Her er en oversigt over de første skridt — hvem skal kontaktes, og hvad sker der med afdøde.",
-                href: "/kim-bondo/huskeliste",
+                href: "/huskeliste",
                 label: "Læs huskelisten",
               },
               {
                 title: "Sådan vælger du den rigtige afsked",
                 excerpt: "Bisættelse, begravelse eller afsked uden ceremoni? Kirkelig eller borgerlig? Her gennemgår jeg forskellene, så I kan vælge den afsked, der passer til jer.",
-                href: "/kim-bondo/afskeder",
+                href: "/afskeder",
                 label: "Se alle afskeder",
               },
               {
                 title: "Hvad koster en begravelse i 2026?",
                 excerpt: "Mange er overraskede over, hvad en begravelse egentlig koster. Her er en ærlig gennemgang af, hvad der påvirker prisen — og hvad du kan forvente at betale.",
-                href: "/kim-bondo/hvad-koster-en-begravelse",
+                href: "/hvad-koster-en-begravelse",
                 label: "Læs om priser",
               },
             ].map((article) => (
@@ -977,7 +977,7 @@ export default function KimBondo() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

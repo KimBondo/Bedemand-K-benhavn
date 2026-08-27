@@ -4,191 +4,185 @@
   <!-- ── FORSIDE ─────────────────────────────────────────────────────── -->
   <url>
     <loc>https://www.bedemandkobenhavn.dk/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- ── KIM BONDO – KERNESIDER ──────────────────────────────────────── -->
-  <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- ── KERNESIDER ──────────────────────────────────────────────────── -->
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/priser/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/priser/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/hvad-koster-en-begravelse/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/faq/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/faq/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/om-kim/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/om-kim/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- ── TYPER AF AFSKED ─────────────────────────────────────────────── -->
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/afskeder/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/afskeder/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/bisaettelse/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/bisaettelse/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/begravelse/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/begravelse/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/kirkelig-afsked/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/kirkelig-afsked/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/borgerlig-afsked/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/borgerlig-afsked/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/afsked-uden-ceremoni/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/askespredning/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/askespredning/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- ── VEJLEDNING OG PRODUKTER ─────────────────────────────────────── -->
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/huskeliste/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/huskeliste/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/begravelseshjaelp/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/begravelseshjaelp/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/produkter/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/produkter/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- ── OMRÅDER OG BYER ─────────────────────────────────────────────── -->
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/omraade/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/omraade/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/kobenhavn/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/kobenhavn/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/nordsjaelland/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/nordsjaelland/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/frederiksberg/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/frederiksberg/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/amager/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/amager/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/osterbro/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/osterbro/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/norrebro/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/norrebro/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/vesterbro/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/vesterbro/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/helsingor/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/helsingor/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/horsholm/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/horsholm/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/gentofte/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/gentofte/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/lyngby/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/lyngby/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/hillerod/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/hillerod/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- ── JURIDISK ────────────────────────────────────────────────────── -->
   <url>
-    <loc>https://www.bedemandkobenhavn.dk/kim-bondo/persondatapolitik/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://www.bedemandkobenhavn.dk/persondatapolitik/</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

@@ -60,7 +60,7 @@ function PricePackage({
       )}
       {linkAfter && (
         <p style={{ marginTop: "16px" }}>
-          <a href="/kim-bondo/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
+          <a href="/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
             Se hele udvalget med priser her →
           </a>
         </p>
@@ -92,15 +92,14 @@ export default function KimPriser() {
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
         description="Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/priser"
+        url="https://www.bedemandkobenhavn.dk/priser"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Priser", url: "https://www.bedemandkobenhavn.dk/kim-bondo/priser" },
+          { name: "Priser", url: "https://www.bedemandkobenhavn.dk/priser" },
         ]}
       />
 
@@ -128,7 +127,6 @@ export default function KimPriser() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Priser</span>
         </div>
@@ -257,7 +255,7 @@ export default function KimPriser() {
           </ul>
           <p style={{ ...s.body, marginTop: "16px" }}>
             <strong>Vælger I en anden kiste eller urne, betaler I kun forskellen.</strong>{" "}
-            <a href="/kim-bondo/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>
+            <a href="/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>
               Se hele udvalget med priser her →
             </a>
           </p>
@@ -337,7 +335,7 @@ export default function KimPriser() {
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Kister og urner</h3>
           <p style={{ marginBottom: "12px" }}>
-            <a href="/kim-bondo/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
+            <a href="/produkter" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontSize: "15px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600 }}>
               Se hele udvalget med billeder og priser her →
             </a>
           </p>

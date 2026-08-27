@@ -25,7 +25,7 @@ export default function KimLyngby() {
       <SEO
         title="Bedemand Lyngby – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Lyngby-Taarbæk. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/lyngby"
+        url="https://www.bedemandkobenhavn.dk/lyngby"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg type="both" faqItems={[
@@ -58,7 +58,6 @@ export default function KimLyngby() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand Lyngby</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Lyngby-Taarbæk og omegn</span>
         </div>
@@ -85,7 +84,7 @@ export default function KimLyngby() {
           </li>
           <li style={{ color: "#b0b8bc" }}>›</li>
           <li>
-            <a href="/kim-bondo" style={{ color: "#3D6B4F", textDecoration: "none" }}>Kim Bondo</a>
+            <a href="/" style={{ color: "#3D6B4F", textDecoration: "none" }}>Kim Bondo</a>
           </li>
           <li style={{ color: "#b0b8bc" }}>›</li>
           <li style={{ color: "#3d4f5a", fontWeight: 600 }}>
@@ -106,7 +105,7 @@ export default function KimLyngby() {
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
-          <a href="/kim-bondo/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
+          <a href="/priser" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
           eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
@@ -134,10 +133,10 @@ export default function KimLyngby() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Lyngby?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med Lyngby Kirke, Taarbæk Kirke og øvrige kirker.", href: "/kim-bondo/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af Lyngbys kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/kim-bondo/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Priser fra 13.550 kr.", href: "/kim-bondo/afsked-uden-ceremoni" },
-              { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer.", href: "/kim-bondo/borgerlig-afsked" },
+              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med Lyngby Kirke, Taarbæk Kirke og øvrige kirker.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på en af Lyngbys kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Priser fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer.", href: "/borgerlig-afsked" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -173,10 +172,10 @@ export default function KimLyngby() {
         <p style={s.label}>Se også</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Bedemand Gentofte", href: "/kim-bondo/gentofte" },
-            { label: "Bedemand Hillerød", href: "/kim-bondo/hillerod" },
-            { label: "Dækningsområde", href: "/kim-bondo/omraade" },
-            { label: "Se priser", href: "/kim-bondo/priser" },
+            { label: "Bedemand Gentofte", href: "/gentofte" },
+            { label: "Bedemand Hillerød", href: "/hillerod" },
+            { label: "Dækningsområde", href: "/omraade" },
+            { label: "Se priser", href: "/priser" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
           ))}
@@ -205,7 +204,7 @@ export default function KimLyngby() {
           Kender du nogen i Lyngby, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/kim-bondo/lyngby")}`}
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/lyngby")}`}
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -273,7 +272,7 @@ export default function KimLyngby() {
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -314,7 +313,7 @@ export default function KimLyngby() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

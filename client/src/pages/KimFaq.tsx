@@ -34,29 +34,29 @@ const FAQ_SECTIONS = [
   {
     title: "Typer af afsked",
     items: [
-      { q: "Hvad er forskellen på bisættelse og begravelse?", a: "Ved en bisættelse kremeres afdøde — asken kan efterfølgende nedsættes på en kirkegård, spredes over havet eller opbevares. Ved en begravelse sættes kisten i jord på en kirkegård. Begge kan have kirkelig eller borgerlig ceremoni.", link: "/kim-bondo/bisaettelse" },
-      { q: "Hvad er en afsked uden ceremoni?", a: "En afsked uden ceremoni er den mest enkle form for afsked, hvor afdøde køres direkte til krematoriet uden en formel ceremoni. Det er den billigste løsning og vælges ofte, hvis afdøde ønskede det enkelt.", link: "/kim-bondo/afsked-uden-ceremoni" },
-      { q: "Hvad er en borgerlig ceremoni?", a: "En borgerlig ceremoni er en afsked uden religiøse ritualer. I bestemmer selv indholdet — musik, taler, tekster — og ceremonien holdes typisk i et kapel eller en anden egnet ramme.", link: "/kim-bondo/borgerlig-afsked" },
-      { q: "Hvad er en kirkelig ceremoni?", a: "En kirkelig ceremoni følger den danske folkekirkes ritualer med jordpåkastelse, salmer og præst. Ceremonien holdes typisk i en kirke, men kan også holdes i et kapel.", link: "/kim-bondo/kirkelig-afsked" },
-      { q: "Hvad er askespredning, og hvem kan vælge det?", a: "Askespredning betyder, at afdødes aske spredes over havet eller i naturen. Det kræver tilladelse fra myndighederne, og jeg hjælper med det hele — fra ansøgning til selve spredningen.", link: "/kim-bondo/askespredning" },
+      { q: "Hvad er forskellen på bisættelse og begravelse?", a: "Ved en bisættelse kremeres afdøde — asken kan efterfølgende nedsættes på en kirkegård, spredes over havet eller opbevares. Ved en begravelse sættes kisten i jord på en kirkegård. Begge kan have kirkelig eller borgerlig ceremoni.", link: "/bisaettelse" },
+      { q: "Hvad er en afsked uden ceremoni?", a: "En afsked uden ceremoni er den mest enkle form for afsked, hvor afdøde køres direkte til krematoriet uden en formel ceremoni. Det er den billigste løsning og vælges ofte, hvis afdøde ønskede det enkelt.", link: "/afsked-uden-ceremoni" },
+      { q: "Hvad er en borgerlig ceremoni?", a: "En borgerlig ceremoni er en afsked uden religiøse ritualer. I bestemmer selv indholdet — musik, taler, tekster — og ceremonien holdes typisk i et kapel eller en anden egnet ramme.", link: "/borgerlig-afsked" },
+      { q: "Hvad er en kirkelig ceremoni?", a: "En kirkelig ceremoni følger den danske folkekirkes ritualer med jordpåkastelse, salmer og præst. Ceremonien holdes typisk i en kirke, men kan også holdes i et kapel.", link: "/kirkelig-afsked" },
+      { q: "Hvad er askespredning, og hvem kan vælge det?", a: "Askespredning betyder, at afdødes aske spredes over havet eller i naturen. Det kræver tilladelse fra myndighederne, og jeg hjælper med det hele — fra ansøgning til selve spredningen.", link: "/askespredning" },
     ],
   },
   {
     title: "Priser og økonomi",
     items: [
-      { q: "Hvad koster en begravelse?", a: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved begravelse eller bisættelse med ceremoni. Den samlede pakkepris – inkl. kiste, urne, transport og koordinering – starter fra 13.550 kr. (uden ceremoni), 19.500 kr. (bisættelse med ceremoni) og 21.500 kr. (begravelse i kiste). Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje.", link: "/kim-bondo/hvad-koster-en-begravelse" },
-      { q: "Hvad er ikke inkluderet i prisen?", a: "Gravsten, gravsted, leje af kapel, kisteophold, urnenedsættelse og kremering er ikke en del af mit honorar. Jeg hjælper med at indhente tilbud og holde overblikket over alle udgifter.", link: "/kim-bondo/priser" },
-      { q: "Hvad er begravelseshjælp?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Tilskuddet afhænger af afdødes formue. Jeg hjælper med ansøgningen.", link: "/kim-bondo/begravelseshjaelp" },
-      { q: "Er der ekstra betaling i weekenden?", a: "Ja — rustvognskørslen i weekenden (lørdag og søndag) er 50 % dyrere end på hverdage. Det fremgår tydeligt af prislisten.", link: "/kim-bondo/priser" },
-      { q: "Kan jeg få en fast pris på forhånd?", a: "Ja. Mit honorar er fast og gennemsigtigt. Du ved præcis hvad du betaler for, inden du underskriver noget.", link: "/kim-bondo/priser" },
+      { q: "Hvad koster en begravelse?", a: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved begravelse eller bisættelse med ceremoni. Den samlede pakkepris – inkl. kiste, urne, transport og koordinering – starter fra 13.550 kr. (uden ceremoni), 19.500 kr. (bisættelse med ceremoni) og 21.500 kr. (begravelse i kiste). Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje.", link: "/hvad-koster-en-begravelse" },
+      { q: "Hvad er ikke inkluderet i prisen?", a: "Gravsten, gravsted, leje af kapel, kisteophold, urnenedsættelse og kremering er ikke en del af mit honorar. Jeg hjælper med at indhente tilbud og holde overblikket over alle udgifter.", link: "/priser" },
+      { q: "Hvad er begravelseshjælp?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Tilskuddet afhænger af afdødes formue. Jeg hjælper med ansøgningen.", link: "/begravelseshjaelp" },
+      { q: "Er der ekstra betaling i weekenden?", a: "Ja — rustvognskørslen i weekenden (lørdag og søndag) er 50 % dyrere end på hverdage. Det fremgår tydeligt af prislisten.", link: "/priser" },
+      { q: "Kan jeg få en fast pris på forhånd?", a: "Ja. Mit honorar er fast og gennemsigtigt. Du ved præcis hvad du betaler for, inden du underskriver noget.", link: "/priser" },
     ],
   },
   {
     title: "Praktiske spørgsmål",
     items: [
-      { q: "Hvad skal jeg gøre, når nogen dør?", a: "Første skridt er at kontakte en læge, der kan konstatere dødsfaldet og udstede en dødsattest. Derefter kontakter du mig, og jeg guider dig igennem resten.", link: "/kim-bondo/huskeliste" },
-      { q: "Hvad skal jeg huske at ordne efter et dødsfald?", a: "Der er mange praktiske ting at ordne — fra myndighederne og banken til opsigelse af abonnementer. Jeg har lavet en huskeliste, der guider dig igennem de vigtigste trin.", link: "/kim-bondo/huskeliste" },
-      { q: "Hvilke områder dækker Kim?", a: "Jeg dækker hele København og Nordsjælland — herunder Helsingør, Hillerød, Gentofte, Lyngby, Hørsholm og alle Storkøbenhavns kommuner.", link: "/kim-bondo/omraade" },
+      { q: "Hvad skal jeg gøre, når nogen dør?", a: "Første skridt er at kontakte en læge, der kan konstatere dødsfaldet og udstede en dødsattest. Derefter kontakter du mig, og jeg guider dig igennem resten.", link: "/huskeliste" },
+      { q: "Hvad skal jeg huske at ordne efter et dødsfald?", a: "Der er mange praktiske ting at ordne — fra myndighederne og banken til opsigelse af abonnementer. Jeg har lavet en huskeliste, der guider dig igennem de vigtigste trin.", link: "/huskeliste" },
+      { q: "Hvilke områder dækker Kim?", a: "Jeg dækker hele København og Nordsjælland — herunder Helsingør, Hillerød, Gentofte, Lyngby, Hørsholm og alle Storkøbenhavns kommuner.", link: "/omraade" },
       { q: "Er Kim tilgængelig om natten og i weekenden?", a: "Ja — jeg er tilgængelig hele døgnet, alle ugens dage. Ring på 22 21 14 37 uanset tidspunktet.", link: null },
     ],
   },
@@ -70,7 +70,7 @@ export default function KimFaq() {
       <SEO
         title="FAQ – Begravelse og bisættelse, Kim Bondo"
         description="Svar på de mest stillede spørgsmål om begravelse, bisættelse, priser og begravelseshjælp. Kim Bondo bedemand i København. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/faq"
+        url="https://www.bedemandkobenhavn.dk/faq"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
       <SchemaOrg
@@ -78,8 +78,7 @@ export default function KimFaq() {
         faqItems={allFaqItems}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
-          { name: "FAQ", url: "https://www.bedemandkobenhavn.dk/kim-bondo/faq" }
+          { name: "FAQ", url: "https://www.bedemandkobenhavn.dk/faq" }
         ]}
       />
 
@@ -106,7 +105,6 @@ export default function KimFaq() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Spørgsmål og svar</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Bedemand København og Nordsjælland</span>
         </div>
@@ -214,7 +212,7 @@ export default function KimFaq() {
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -255,7 +253,7 @@ export default function KimFaq() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

@@ -25,7 +25,7 @@ export default function KimBegravelseshjaelp() {
       <SEO
         title="Begravelseshjælp – søg tilskud, Kim Bondo"
         description="Få hjælp til at søge begravelseshjælp fra det offentlige. Tilskud fra 1.050–13.550 kr. Kim Bondo guider jer igennem ansøgningen. Ring 22 21 14 37."
-        url="https://www.bedemandkobenhavn.dk/kim-bondo/begravelseshjaelp"
+        url="https://www.bedemandkobenhavn.dk/begravelseshjaelp"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
 
@@ -33,8 +33,7 @@ export default function KimBegravelseshjaelp() {
         type="both"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Kim Bondo", url: "https://www.bedemandkobenhavn.dk/kim-bondo" },
-          { name: "Begravelseshjælp", url: "https://www.bedemandkobenhavn.dk/kim-bondo/begravelseshjaelp" }
+          { name: "Begravelseshjælp", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp" }
         ]}
       />
       {/* ── HEADER ── */}
@@ -60,7 +59,6 @@ export default function KimBegravelseshjaelp() {
 `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Forsiden</a>
-          <a href="/kim-bondo" style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "clamp(12px, 1.3vw, 14px)", color: "#3D6B4F", textDecoration: "none", letterSpacing: "0.04em" }}>← Tilbage til Kim Bondo</a>
           <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2 }}>Bedemand København og Nordsjælland</span>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Begravelseshjælp</span>
         </div>
@@ -89,7 +87,7 @@ export default function KimBegravelseshjaelp() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           En begravelse eller bisættelse koster penge — og mange ved ikke, at der kan søges offentlig støtte. Jeg hjælper med ansøgningen som en del af mit arbejde.
         </p>
-        <a href="/kim-bondo#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+        <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Kontakt mig
         </a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
@@ -184,16 +182,16 @@ export default function KimBegravelseshjaelp() {
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, marginBottom: "16px" }}>
             Begravelseshjælpen dækker en del af udgifterne — men hvad er de samlede udgifter? Se vores komplette guide med officielle 2026-takster for kremering, gravsted, kapelleje og et realistisk priseksempel.
           </p>
-          <a href="/kim-bondo/hvad-koster-en-begravelse" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px" }}>
+          <a href="/hvad-koster-en-begravelse" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px" }}>
             Se den komplette prisguide →
           </a>
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Se priser", href: "/kim-bondo/priser" },
-            { label: "Huskeliste ved dødsfald", href: "/kim-bondo/huskeliste" },
-            { label: "Se alle afskeder", href: "/kim-bondo/afskeder" },
-            { label: "Hvad koster det reelt?", href: "/kim-bondo/hvad-koster-en-begravelse" },
+            { label: "Se priser", href: "/priser" },
+            { label: "Huskeliste ved dødsfald", href: "/huskeliste" },
+            { label: "Se alle afskeder", href: "/afskeder" },
+            { label: "Hvad koster det reelt?", href: "/hvad-koster-en-begravelse" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
               {link.label}
@@ -246,7 +244,7 @@ export default function KimBegravelseshjaelp() {
           Vandtårnsvej 62A, 2860 Søborg
         </p>
         <a
-          href="/kim-bondo#kontakt"
+          href="/#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -287,7 +285,7 @@ export default function KimBegravelseshjaelp() {
           {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
-            href="/kim-bondo/persondatapolitik"
+            href="/persondatapolitik"
             style={{ color: "rgba(255,255,255,0.45)", textDecoration: "underline" }}
           >
             Persondatapolitik

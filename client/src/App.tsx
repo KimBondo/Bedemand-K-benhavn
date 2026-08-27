@@ -43,36 +43,35 @@ function AppRouter() {
   return (
     <Suspense fallback={<div style={{ minHeight: "100vh", background: "#F9F8F6" }} />}>
     <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/kim-bondo"} component={KimBondo} />
-      <Route path={"/kim-bondo/priser"} component={KimPriser} />
-      <Route path={"/kim-bondo/afskeder"} component={KimAfskeder} />
-      <Route path={"/kim-bondo/bisaettelse"} component={KimBisaettelse} />
-      <Route path={"/kim-bondo/begravelse"} component={KimBegravelse} />
-      <Route path={"/kim-bondo/afsked-uden-ceremoni"} component={KimAfskedUdenCeremoni} />
-      <Route path={"/kim-bondo/askespredning"} component={KimAskespredning} />
-      <Route path={"/kim-bondo/kirkelig-afsked"} component={KimKirkeligAfsked} />
-      <Route path={"/kim-bondo/borgerlig-afsked"} component={KimBorgerligAfsked} />
-      <Route path={"/kim-bondo/huskeliste"} component={KimHuskeliste} />
-      <Route path={"/kim-bondo/begravelseshjaelp"} component={KimBegravelseshjaelp} />
-      <Route path={"/kim-bondo/omraade"} component={KimOmraade} />
-      <Route path={"/kim-bondo/hvad-koster-en-begravelse"} component={KimHvadKoster} />
-      <Route path={"/kim-bondo/helsingor"} component={KimHelsingor} />
-      <Route path={"/kim-bondo/horsholm"} component={KimHorsholm} />
-      <Route path={"/kim-bondo/gentofte"} component={KimGentofte} />
-      <Route path={"/kim-bondo/lyngby"} component={KimLyngby} />
-      <Route path={"/kim-bondo/hillerod"} component={KimHillerod} />
-      <Route path={"/kim-bondo/kobenhavn"} component={KimKobenhavn} />
-      <Route path={"/kim-bondo/faq"} component={KimFaq} />
-      <Route path={"/kim-bondo/nordsjaelland"} component={KimNordsjaelland} />
-      <Route path={"/kim-bondo/frederiksberg"} component={KimFrederiksberg} />
-      <Route path={"/kim-bondo/amager"} component={KimAmager} />
-      <Route path={"/kim-bondo/osterbro"} component={KimOsterbro} />
-      <Route path={"/kim-bondo/norrebro"} component={KimNorrebro} />
-      <Route path={"/kim-bondo/vesterbro"} component={KimVesterbro} />
-      <Route path={"/kim-bondo/produkter"} component={KimProdukter} />
-      <Route path={"/kim-bondo/om-kim"} component={KimOmKim} />
-      <Route path={"/kim-bondo/persondatapolitik"} component={KimPersondatapolitik} />
+      <Route path={"/"} component={KimBondo} />
+      <Route path={"/priser"} component={KimPriser} />
+      <Route path={"/afskeder"} component={KimAfskeder} />
+      <Route path={"/bisaettelse"} component={KimBisaettelse} />
+      <Route path={"/begravelse"} component={KimBegravelse} />
+      <Route path={"/afsked-uden-ceremoni"} component={KimAfskedUdenCeremoni} />
+      <Route path={"/askespredning"} component={KimAskespredning} />
+      <Route path={"/kirkelig-afsked"} component={KimKirkeligAfsked} />
+      <Route path={"/borgerlig-afsked"} component={KimBorgerligAfsked} />
+      <Route path={"/huskeliste"} component={KimHuskeliste} />
+      <Route path={"/begravelseshjaelp"} component={KimBegravelseshjaelp} />
+      <Route path={"/omraade"} component={KimOmraade} />
+      <Route path={"/hvad-koster-en-begravelse"} component={KimHvadKoster} />
+      <Route path={"/helsingor"} component={KimHelsingor} />
+      <Route path={"/horsholm"} component={KimHorsholm} />
+      <Route path={"/gentofte"} component={KimGentofte} />
+      <Route path={"/lyngby"} component={KimLyngby} />
+      <Route path={"/hillerod"} component={KimHillerod} />
+      <Route path={"/kobenhavn"} component={KimKobenhavn} />
+      <Route path={"/faq"} component={KimFaq} />
+      <Route path={"/nordsjaelland"} component={KimNordsjaelland} />
+      <Route path={"/frederiksberg"} component={KimFrederiksberg} />
+      <Route path={"/amager"} component={KimAmager} />
+      <Route path={"/osterbro"} component={KimOsterbro} />
+      <Route path={"/norrebro"} component={KimNorrebro} />
+      <Route path={"/vesterbro"} component={KimVesterbro} />
+      <Route path={"/produkter"} component={KimProdukter} />
+      <Route path={"/om-kim"} component={KimOmKim} />
+      <Route path={"/persondatapolitik"} component={KimPersondatapolitik} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
