@@ -19,21 +19,23 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
+const FAQ = [
+  { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal. Ring på 22 21 14 37." },
+  { question: "Hvad koster en begravelse i Hillerød?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Er der et krematorium i Hillerød?", answer: "Ja. Hillerød Krematorium ligger ved Skansekirkegården på Skansevej. Det blev etableret i 1967, og der blev udført omkring 2.000 kremeringer i 2025. Det er det eneste krematorium i drift i Nordsjælland, så mange familier længere ude på egnen bliver også kremeret her." },
+  { question: "Hvilke kapeller kan bruges i Hillerød?", answer: "Skansekapel på Skansevej og Nyhuse Kapel på Kapelvej. Begge har plads til 150 personer. Nyhuse Kapel er fra 1924 og blev moderniseret i 2018-19." },
+];
+
 export default function KimHillerod() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Hillerød – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Hillerød og omegn. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37."
+        description="Personlig bedemand i Hillerød og omegn. Nordsjællands eneste krematorium ligger her. Faste priser. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/hillerod"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand i Hillerød?", answer: "Jeg er selvstændig bedemand og dækker Hillerød og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en bisættelse i Hillerød?", answer: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-        { question: "Hvilke kirker bruges i Hillerød?", answer: "Jeg koordinerer med Hillerød Kirke, Frederiksborg Slotskirke og øvrige kirker og kapeller i Hillerød Kommune." },
-        { question: "Dækker Kim også Allerød og Fredensborg?", answer: "Ja — Allerød, Fredensborg og Birkerød er alle en del af mit dækningsområde i Nordsjælland." },
-      ]} />
+      <SchemaOrg type="both" faqItems={FAQ} />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -100,7 +102,7 @@ export default function KimHillerod() {
           Personlig bedemand i Hillerød
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg hjælper familier i Hillerød og det øvrige Nordsjælland med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
+          Jeg er selvstændig bedemand og hjælper familier i Hillerød og omegn med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -117,10 +119,17 @@ export default function KimHillerod() {
           <p style={s.label}>Lokal og personlig</p>
           <h2 style={s.h2}>Bedemand med kendskab til Hillerød</h2>
           <p style={s.body}>
-            Hillerød er midtpunktet i Nordsjælland, og jeg dækker hele kommunen — herunder Allerød, Fredensborg og Birkerød. Jeg kender de lokale kirker, kapeller og krematorier og koordinerer direkte med de rette instanser.
+            Hillerød Kommune omfatter Hillerød by og en række mindre byer — blandt andre Skævinge, Nødebo, Ny Hammersholt, Gørløse, Alsønderup og Uvelse. Nabokommunerne Allerød, Fredensborg og Rudersdal dækker jeg også, men de er selvstændige kommuner med deres egne kirkegårde og takster.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled — bare direkte kontakt med mig, Kim Bondo.
+            Hillerød er det sted i Nordsjælland, hvor der stadig kremeres. Krematoriet ved Skansekirkegården blev etableret i 1967 og udførte omkring 2.000 kremeringer i 2025. Det betyder kortere transport og mere fleksible tider for familier her i området.
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde i Hillerød</h3>
+          <p style={s.body}>
+            Kommunen har tre kirkegårde: Skansekirkegården på Skansevej med kapel og krematorium, Hillerød Kirkegård ved Østergade og Nyhuse Kirkegård på Kapelvej, som blev anlagt omkring 1803-04. Både Skansekapel og Nyhuse Kapel har plads til 150 personer.
+          </p>
+          <p style={s.body}>
+            Nyhuse Kapel er opført i 1924 af arkitekten M.P. Madsen og blev restaureret og moderniseret i 2018-19. Blandt kirkerne koordinerer jeg med Hillerød Kirke ved Østergade, Præstevang Kirke på Tamsborgvej og Frederiksborg Slotskirke.
           </p>
         </div>
       </section>
@@ -132,10 +141,10 @@ export default function KimHillerod() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Hillerød?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med Hillerød Kirke, Frederiksborg Slotskirke og øvrige kirker.", href: "/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af Hillerøds kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Priser fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
-              { title: "Askespredning", desc: "Spredning af aske i Nordsjællands natur eller over havet. En fri og naturlig afsked.", href: "/askespredning" },
+              { title: "Bisættelse", desc: "Kremering på Hillerød Krematorium ved Skansekirkegården med ceremoni i kirken eller i et af byens to kapeller.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på Skansekirkegården, Hillerød Kirkegård eller Nyhuse Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Hillerød Kirke eller Præstevang Kirke.", href: "/kirkelig-afsked" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -152,15 +161,10 @@ export default function KimHillerod() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand i Hillerød</h2>
-          {[
-            { q: "Hvem er bedemand i Hillerød?", a: "Jeg er selvstændig bedemand og dækker Hillerød og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en bisættelse i Hillerød?", a: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-            { q: "Hvilke kirker bruges i Hillerød?", a: "Jeg koordinerer med Hillerød Kirke, Frederiksborg Slotskirke og øvrige kirker og kapeller i Hillerød Kommune." },
-            { q: "Dækker Kim også Allerød og Fredensborg?", a: "Ja — Allerød, Fredensborg og Birkerød er alle en del af mit dækningsområde i Nordsjælland." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
         </div>

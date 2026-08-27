@@ -345,7 +345,7 @@ export default function KimHvadKoster() {
           <p style={s.label}>Del 3 — Ceremonistedet</p>
           <h2 style={s.h2}>Kapelleje og musikudgifter</h2>
           <p style={s.body}>
-            Hvis ceremonien afholdes i en Folkekirkens kirke, er der som udgangspunkt ingen kapelleje for kirkens medlemmer — men der betales for organist og evt. kantor. Afholdes ceremonien i et kommunalt kapel, betales der leje direkte til kapellet.
+            Hvis ceremonien afholdes i en af Folkekirkens kirker, er der som udgangspunkt ingen kapelleje for kirkens medlemmer — men der betales for organist og evt. kantor. Afholdes ceremonien i et kommunalt kapel, betales der leje direkte til kapellet.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "32px", marginTop: "8px" }}>
             <div>
@@ -461,7 +461,7 @@ export default function KimHvadKoster() {
                   <td colSpan={3} style={{ padding: "14px 0 6px", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase" }}>Bedemandens ydelser</td>
                 </tr>
                 {[
-                  ["Bisættelse inkl. honorar, kiste, urne, 2 kørsler", "19.500 kr.", "Kim Bondo"],
+                  ["Bisættelse inkl. honorar, kiste, urne, 3 kørsler", "19.500 kr.", "Kim Bondo"],
                   ["Kistepynt (lille)", "2.500 kr.", "Kim Bondo"],
                 ].map(([label, price, who]) => (
                   <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
@@ -530,10 +530,10 @@ export default function KimHvadKoster() {
           <p style={s.label}>Ofte stillede spørgsmål</p>
           <h2 style={s.h2}>Spørgsmål om priser</h2>
           {[
-          { q: "Hvad er den billigste begravelse?", a: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 13.550 kr. inkl. alt koordinering, men ekskl. kremering og urne." },
+          { q: "Hvad er den billigste begravelse?", a: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 13.550 kr. inkl. al koordinering, men ekskl. kremering og gravsted." },
             { q: "Hvad koster en bisættelse i København?", a: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 19.500 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
             { q: "Er der skjulte udgifter?", a: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
-            { q: "Kan man betale i rater?", a: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning der passer til jer." },
+            { q: "Kan man betale i rater?", a: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning, der passer til jer." },
             { q: "Hvad koster det at bruge dig som bedemand?", a: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 13.550 kr. (uden ceremoni), 19.500 kr. (bisættelse) og 21.500 kr. (begravelse). Se den fulde prisliste på prissiden." },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>

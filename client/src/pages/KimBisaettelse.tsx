@@ -125,7 +125,7 @@ export default function KimBisaettelse() {
             margin: "0 auto 24px",
           }}
         >
-          En mindeværdig afsked med urne
+          En værdig afsked med urne
         </h1>
         <p
           style={{

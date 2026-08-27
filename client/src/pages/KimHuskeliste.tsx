@@ -103,7 +103,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Læge og dødsattest</h3>
           <p style={s.body}>
-            Det første der skal ske er, at en læge konstaterer dødsfaldet og udsteder en dødsattest. Sker dødsfaldet på hospital eller hospice, sker dette automatisk. Sker det i hjemmet, skal lægen kontaktes. Jeg hjælper med at arrangere afhentning af afdøde, så afdøde kan bringes til et ventekapel.
+            Det første, der skal ske, er, at en læge konstaterer dødsfaldet og udsteder en dødsattest. Sker dødsfaldet på hospital eller hospice, sker dette automatisk. Sker det i hjemmet, skal lægen kontaktes. Jeg hjælper med at arrangere afhentning af afdøde, så afdøde kan bringes til et ventekapel.
           </p>
 
           <h3 style={s.h3}>Begravelse, bisættelse eller askespredning?</h3>
@@ -212,7 +212,7 @@ export default function KimHuskeliste() {
           <p style={s.stepNum}>5</p>
           <h2 style={s.h2}>Betaling af begravelsesudgifter</h2>
           <p style={s.body}>
-            Det er den person, der bestiller begravelsen, der hæfter for betalingen — ikke Skifteretten. Skifteretten sørger for, at udgifterne indgår i boet, så den der har betalt kan blive godtgjort.
+            Det er den person, der bestiller begravelsen, der hæfter for betalingen — ikke Skifteretten. Skifteretten sørger for, at udgifterne indgår i boet, så den, der har betalt, kan blive godtgjort.
           </p>
           <p style={s.body}>
             Typiske udgifter der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser.

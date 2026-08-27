@@ -118,7 +118,7 @@ export default function KimBorgerligAfsked() {
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px", marginTop: "40px" }}>
             {[
-              { title: "Musik", text: "Afdødes yndlingsmusik, sange der betød noget, eller hvad I finder passende. Ingen begrænsninger." },
+              { title: "Musik", text: "Afdødes yndlingsmusik, sange der betød noget, eller hvad I finder passende. I bestemmer selv." },
               { title: "Taler", text: "Familie og venner kan dele personlige minder og ord. Jeg hjælper med at strukturere forløbet." },
               { title: "Blomster og dekorationer", text: "Billeder, blomster og personlige genstande kan skabe en smuk og personlig ramme." },
               { title: "Sted", text: "Kapel, hjemme, udendørs eller et sted med særlig betydning — I bestemmer." },

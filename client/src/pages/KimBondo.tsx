@@ -172,7 +172,7 @@ export default function KimBondo() {
               margin: "0 auto 48px",
             }}
           >
-            Hos mig er der tid, uforstyrrelig ro og plads til jeres ønsker –
+            Hos mig er der tid, uforstyrret ro og plads til jeres ønsker –
             præcis som de er.
           </p>
 
@@ -285,7 +285,7 @@ export default function KimBondo() {
               color: "#9a9087",
               fontStyle: "italic",
               textAlign: "center",
-              width: "100 %",
+              width: "100%",
               lineHeight: 1.6,
             }}
           >
@@ -315,7 +315,7 @@ export default function KimBondo() {
               marginBottom: "20px",
             }}
           >
-            Når vi mister en, vi har kær, opstår der ofte et øjeblikkeligt kaos af praktiske spørgsmål og dybe følelser. Min vigtigste opgave – uanset om vi mødes hjemme hos jer eller taler i telefon – er at skabe et rum med ro, overblik og god energi.
+            Når vi mister en, vi har kær, opstår der ofte et øjeblikkeligt kaos af praktiske spørgsmål og dybe følelser. Min vigtigste opgave – uanset om vi mødes hjemme hos jer eller taler i telefon – er at skabe et rum med ro, overblik og tryghed.
           </p>
           <p
             style={{
@@ -435,7 +435,7 @@ export default function KimBondo() {
           }}
         >
           En værdig afsked skal ikke være forbundet med økonomisk utryghed
-          eller skjulte gebyrer. Ikke mindst lægger jeg stor vægt på 100 %
+          eller skjulte gebyrer. Ikke mindst lægger jeg stor vægt på fuld
           gennemskuelighed, så I kender alle udgifter på forhånd. Uanset hvilken
           løsning der føles rigtig for jer, er det hele afstemt efter faste,
           klare rammer uden ubehagelige overraskelser.
@@ -478,7 +478,7 @@ export default function KimBondo() {
               {
                 title: "Den enkle bisættelse",
                 subtitle:
-                  "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed og det er en hverdag.",
+                  "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed, og det er en hverdag.",
                 price: "Fra 19.500 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
@@ -486,11 +486,11 @@ export default function KimBondo() {
                   "Klassisk hvid bionedbrydelig urne",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
                   "Rustvognskørsel fra hospital eller kapel til højtidelighed",
-                  "Rustvognskørsel fra højtidelighed til krematorie",
-                  "Kontakt til kordegn, præst, krematorie og kirkegård",
+                  "Rustvognskørsel fra højtidelighed til krematorium",
+                  "Kontakt til kordegn, præst, krematorium og kirkegård",
                   "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
-                  "Bedemand tilstede ved højtideligheden",
+                  "Bedemand til stede ved højtideligheden",
                 ],
               },
               {
@@ -500,13 +500,13 @@ export default function KimBondo() {
                 price: "Fra 21.500 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-                  "100 % bæredygtig, danskproduceret genbrugskiste",
+                  "bæredygtig, danskproduceret genbrugskiste",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
                   "Rustvognskørsel fra hospital til højtideligheden",
                   "Kontakt til kordegn, præst og kirkegård",
                   "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
-                  "Bedemand tilstede ved højtideligheden",
+                  "Bedemand til stede ved højtideligheden",
                   "Udlægning af blomster på graven",
                 ],
               },
@@ -516,11 +516,11 @@ export default function KimBondo() {
                   "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til krematoriet på en hverdag – uden forudgående højtidelighed.",
                 price: "Fra 13.550 kr.",
                 items: [
-                  "100 % bæredygtig, danskproduceret genbrugskiste",
+                  "bæredygtig, danskproduceret genbrugskiste",
                   "Klassisk hvid urne",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
                   "Rustvognskørsel fra hospital eller kapel til krematoriet",
-                  "Kontakt til kordegn, krematorie og kirkegård",
+                  "Kontakt til kordegn, krematorium og kirkegård",
                   "Anmodning v/ kirkeministeriet",
                   "Ansøgning om begravelseshjælp",
                 ],
@@ -541,7 +541,7 @@ export default function KimBondo() {
                 <button
                   onClick={() => setOpenCard(isOpen ? null : idx)}
                   style={{
-                    width: "100 %",
+                    width: "100%",
                     background: "none",
                     border: "none",
                     cursor: "pointer",
@@ -734,7 +734,7 @@ export default function KimBondo() {
               margin: "32px auto 0",
             }}
           >
-            Alle priseksempler er beregnet på hverdage. Rustvognskørsel i weekenden er 50 % dyrere.
+            Alle priseksempler er beregnet på hverdage. Afhentning og rustvognskørsel er 50 % dyrere efter kl. 16 på hverdage samt i weekender og på helligdage.
             Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
           </p>
 

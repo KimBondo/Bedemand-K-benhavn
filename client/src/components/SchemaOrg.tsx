@@ -85,7 +85,7 @@ const KIM_LOCAL_BUSINESS = {
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": "Fra 19.500 kr.",
+  "priceRange": "Fra 13.550 kr.",
   "currenciesAccepted": "DKK",
   "paymentAccepted": "Bankoverførsel, MobilePay",
   "image": `${BASE_URL}/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp`,
@@ -105,7 +105,7 @@ const KIM_LOCAL_BUSINESS = {
         "itemOffered": {
           "@type": "Service",
           "name": "Enkel bisættelse",
-          "description": "Komplet bisættelse med koordinering, klargøring, rustvognskørsel og kremering."
+          "description": "Komplet bisættelse med koordinering, klargøring og rustvognskørsel."
         },
         "price": "19500",
         "priceCurrency": "DKK"
@@ -125,7 +125,7 @@ const KIM_LOCAL_BUSINESS = {
         "itemOffered": {
           "@type": "Service",
           "name": "Afsked uden ceremoni",
-          "description": "Stille afsked uden ceremoni – kremering og urnenedsættelse."
+          "description": "Stille afsked uden ceremoni. Kremering og urnenedsættelse afregnes til kommunen."
         },
         "price": "13550",
         "priceCurrency": "DKK"

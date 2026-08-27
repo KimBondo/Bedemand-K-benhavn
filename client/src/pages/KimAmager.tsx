@@ -19,22 +19,24 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
+const FAQ = [
+  { question: "Hvem er bedemand på Amager?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Amager — Sundbyerne, Islands Brygge, Ørestad, Tårnby, Kastrup og Dragør — og resten af København og Nordsjælland. Ring på 22 21 14 37, også om natten." },
+  { question: "Hvad koster en begravelse på Amager?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Er der et krematorium på Amager?", answer: "Ja. Sundby Krematorium ligger på Sundby Kirkegård, Kastrupvej 51. Det er det ene af Københavns Kommunes to krematorier — det andet er Bispebjerg. Mange bydele har ikke deres eget, så det er en praktisk fordel her." },
+  { question: "Kan jeg vælge en borgerlig ceremoni på Amager?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. De kan holdes i kapelsalen på Sundby Kirkegård eller et andet sted, der giver mening for jer." },
+  { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
+];
+
 export default function KimAmager() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Amager – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Amager. Bisættelse og begravelse med nærvær, ro og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
+        description="Personlig bedemand på Amager, i Tårnby og Dragør. Sundby Krematorium ligger i bydelen. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/amager"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand på Amager?", answer: "Jeg er selvstændig bedemand og dækker Amager og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en begravelse på Amager?", answer: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Amager?", answer: "Amager har bl.a. Sundby Krematorium og en række kirker, herunder Sundby Kirke og Kastrup Kirke. Jeg koordinerer direkte med de rette instanser." },
-        { question: "Kan jeg vælge en borgerlig ceremoni på Amager?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
-        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
-      ]} />
+      <SchemaOrg type="both" faqItems={FAQ} />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -101,7 +103,7 @@ export default function KimAmager() {
           Personlig bedemand på Amager
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier på Amager med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
+          Jeg er selvstændig bedemand på Amager. Sundby Kirkegård og Sundby Krematorium ligger få minutter væk, og jeg kører selv ud — også om natten og i weekenden.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -118,10 +120,17 @@ export default function KimAmager() {
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Amager</h2>
           <p style={s.body}>
-            Amager er en mangfoldig bydel med stærke lokale fællesskaber — fra Islands Brygge og Christianshavn til Sundby, Kastrup og Dragør. Jeg kender de lokale kirker, kapeller og krematorier og koordinerer direkte med de rette instanser, så I ikke skal stå med det selv.
+            Amager er delt mellem tre kommuner: Københavns Sundbyer, Islands Brygge og Ørestad, dernæst Tårnby med Kastrup, og yderst Dragør. Det har betydning i praksis, for hver kommune har sine egne kirkegårde og sine egne takster. Jeg holder styr på, hvilke der gælder for jer.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled — bare direkte kontakt med mig, Kim Bondo. Jeg er tilgængelig hele døgnet, også i weekender og på helligdage.
+            I taler med mig hele vejen — fra det første opkald til den sidste hilsen. Der er ingen omstilling og ingen sagsbehandler; ringer I klokken to om natten, er det mig, der tager telefonen.
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Amager</h3>
+          <p style={s.body}>
+            Sundby Kirkegård på Kastrupvej er amagerkanernes egen kirkegård — knap ti hektar, anlagt i 1872, med kiste-, urne- og børnegrave. Kapelsalen har 64 siddepladser og bruges til både kirkelige og borgerlige ceremonier. Sundby Krematorium ligger på samme adresse, og Amager er dermed en af de få dele af hovedstaden, hvor selve kremeringen sker i bydelen.
+          </p>
+          <p style={s.body}>
+            I Tårnby og Kastrup gælder andre kirkegårde: Tårnby Kirkegård på Englandsvej og Kastrup Kirkegård på Kastrupvej, hvor kapellet fra 1904 stadig bruges til både bisættelser og begravelser. Blandt kirkerne har jeg jævnlig kontakt med Sundby Kirke, Filips Kirke, Nathanaels Kirke, Tårnby Kirke og Kastrup Kirke.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
@@ -134,12 +143,12 @@ export default function KimAmager() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Amager?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og krematorium på Amager og i København.", href: "/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af Amagers kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
-              { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Amagers kirker.", href: "/kirkelig-afsked" },
-              { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer, men med fuld personlighed.", href: "/borgerlig-afsked" },
-              { title: "Askespredning", desc: "Spredning af aske over havet ud for Amagers kyst. En fri og naturlig afsked.", href: "/askespredning" },
+              { title: "Bisættelse", desc: "Kremering på Sundby Krematorium med ceremoni i kirke eller kapel. Jeg aftaler tid med både krematorium og kirkekontor.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på Sundby, Tårnby eller Kastrup Kirkegård. Jeg tager kontakten til kordegn, præst og kirkegårdskontor.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sundby Kirke, Filips Kirke eller Tårnby Kirke.", href: "/kirkelig-afsked" },
+              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — i kapelsalen på Sundby Kirkegård eller et sted, I selv vælger.", href: "/borgerlig-afsked" },
+              { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Amager er der kort vej ud i Øresund.", href: "/askespredning" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -157,7 +166,7 @@ export default function KimAmager() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse på Amager?</h2>
           <p style={s.body}>
-            Mine priser er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
+            Mine priser er faste, og de står her på siden. Der er ingen skjulte gebyrer — det I ser, er det I betaler for mit arbejde.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
@@ -183,16 +192,10 @@ export default function KimAmager() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand på Amager</h2>
-          {[
-            { q: "Hvem er bedemand på Amager?", a: "Jeg er selvstændig bedemand og dækker Amager og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en begravelse på Amager?", a: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Amager?", a: "Amager har bl.a. Sundby Krematorium og en række kirker, herunder Sundby Kirke og Kastrup Kirke. Jeg koordinerer direkte med de rette instanser." },
-            { q: "Kan jeg vælge en borgerlig ceremoni på Amager?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Amager, uden religiøse ritualer." },
-            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
           <a href="/faq" style={s.link}>Se alle spørgsmål og svar →</a>

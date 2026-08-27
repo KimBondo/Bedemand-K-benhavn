@@ -19,20 +19,23 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
+const FAQ = [
+  { question: "Hvem er bedemand i Gentofte?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Gentofte Kommune — Hellerup, Charlottenlund, Ordrup, Vangede, Dyssegård, Jægersborg, Klampenborg og Skovshoved — og resten af Nordsjælland og København. Ring på 22 21 14 37." },
+  { question: "Hvad koster en bisættelse i Gentofte?", answer: "En bisættelse med ceremoni starter ved 19.500 kr. hos mig. En afsked uden ceremoni starter ved 13.550 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen." },
+  { question: "Er der et krematorium i Gentofte?", answer: "Nej, ikke længere. Mariebjerg Krematorium lukkede 31. december 2010. Kremeringen sker i dag på Bispebjerg Krematorium i København eller i Hillerød. Ceremonien holdes stadig i Gentofte — i kirken eller i et af Mariebjergs to kapeller." },
+  { question: "Hvilke kirkegårde er der i Gentofte Kommune?", answer: "Fire: Gentofte Kirkegård ved Gentoftegade, Hellerup Kirkegård på C.V.E. Knuths Vej, Ordrup Kirkegård på Ellensvej og Mariebjerg Kirkegård på Mariebjergvej. Mariebjerg er den største med sine 25 hektar og er med i Kulturkanonen." },
+];
+
 export default function KimGentofte() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Gentofte – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Gentofte. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
+        description="Personlig bedemand i Gentofte, Hellerup, Charlottenlund og Vangede. Ceremoni i Mariebjergs kapeller. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/gentofte"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand i Gentofte?", answer: "Jeg er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en bisættelse i Gentofte?", answer: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-        { question: "Hvilke kirker bruges i Gentofte?", answer: "Jeg koordinerer med Gentofte Kirke, Hellerup Kirke, Messiaskirken, Ordrup Kirke og øvrige kirker og kapeller i Gentofte Kommune." },
-      ]} />
+      <SchemaOrg type="both" faqItems={FAQ} />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -99,7 +102,7 @@ export default function KimGentofte() {
           Personlig bedemand i Gentofte
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg hjælper familier i Gentofte, Hellerup, Charlottenlund og omegn med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen.
+          Jeg er selvstændig bedemand og hjælper familier i Gentofte Kommune med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -116,10 +119,17 @@ export default function KimGentofte() {
           <p style={s.label}>Lokal og personlig</p>
           <h2 style={s.h2}>Bedemand med kendskab til Gentofte</h2>
           <p style={s.body}>
-            Gentofte Kommune — Hellerup, Charlottenlund, Vangede og Dyssegård — er en del af mit primære dækningsområde. Jeg kender de lokale kirker, kapeller og krematorier, og koordinerer direkte med de rette instanser.
+            Gentofte Kommune består af syv bydele: Hellerup, Ordrup-Charlottenlund, Dyssegård, Vangede, Gentofte, Klampenborg-Skovshoved og Jægersborg. Kommunen har fire kirkegårde — Gentofte, Hellerup, Ordrup og Mariebjerg — og jeg koordinerer direkte med kirkegårdskontoret og med sognene.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled — bare direkte kontakt med mig, Kim Bondo.
+            Mariebjerg Krematorium lukkede ved udgangen af 2010, så der kremeres ikke længere i Gentofte. Det sker i stedet på Bispebjerg eller i Hillerød. Højtideligheden holdes stadig lokalt — i kirken eller i et af Mariebjergs to kapeller — og transporten sørger jeg for.
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde i Gentofte</h3>
+          <p style={s.body}>
+            Mariebjerg Kirkegård er anlagt 1926-36 af landskabsarkitekten G.N. Brandt og er optaget i Kulturkanonen: omkring 50 rektangulære gravafdelinger omkranset af takshække, alléer af skovfyr, søjleavnbøg, ahorn og pil, en børnegravplads med sten i græs og en gammel grusgrav omdannet til en græsklædt dal. De to kapeller tager henholdsvis 150 og 50 personer.
+          </p>
+          <p style={s.body}>
+            De øvrige kirkegårde er Gentofte Kirkegård omkring den middelalderlige Gentofte Kirke, Hellerup Kirkegård fra 1912 og Ordrup Kirkegård, hvis ældste del går tilbage til 1892. Blandt kirkerne koordinerer jeg med Gentofte Kirke fra 1100-tallet, Hellerup Kirke og Ordrup Kirke.
           </p>
         </div>
       </section>
@@ -131,10 +141,10 @@ export default function KimGentofte() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Gentofte?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med Gentofte Kirke, Hellerup Kirke og øvrige kirker.", href: "/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af Gentoftes kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Priser fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
-              { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst.", href: "/kirkelig-afsked" },
+              { title: "Bisættelse", desc: "Kremering på Bispebjerg eller i Hillerød med ceremoni i kirken eller i et af Mariebjergs kapeller.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på Gentofte, Hellerup, Ordrup eller Mariebjerg Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Gentofte Kirke, Hellerup Kirke eller Ordrup Kirke.", href: "/kirkelig-afsked" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -151,15 +161,10 @@ export default function KimGentofte() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand i Gentofte</h2>
-          {[
-            { q: "Hvem er bedemand i Gentofte?", a: "Jeg er selvstændig bedemand og dækker Gentofte, Hellerup, Charlottenlund og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en bisættelse i Gentofte?", a: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-            { q: "Hvilke kirker bruges i Gentofte?", a: "Jeg koordinerer med Gentofte Kirke, Hellerup Kirke, Messiaskirken, Ordrup Kirke og øvrige kirker og kapeller i Gentofte Kommune." },
-            { q: "Dækker Kim også Hellerup og Charlottenlund?", a: "Ja — Hellerup, Charlottenlund, Vangede og Dyssegård er alle en del af mit dækningsområde." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
         </div>

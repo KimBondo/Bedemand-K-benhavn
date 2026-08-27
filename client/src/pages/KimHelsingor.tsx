@@ -19,20 +19,23 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
+const FAQ = [
+  { question: "Hvem er bedemand i Helsingør?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Helsingør Kommune — Espergærde, Snekkersten, Ålsgårde, Hellebæk, Hornbæk, Kvistgård og Tikøb — og resten af Nordsjælland. Ring på 22 21 14 37." },
+  { question: "Hvad koster en begravelse i Helsingør?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Er der et krematorium i Helsingør?", answer: "Nej. Helsingør Krematorium blev nedlagt i 2013, og kremeringen foregår i dag på Fælleskrematoriet i Ringsted. Det ændrer ikke på selve afskeden: ceremonien holdes i Helsingør, i kirken eller i kirkegårdskapellet med 165 pladser. Jeg sørger for transport og koordinering." },
+  { question: "Hvilke kirker koordinerer du med i Helsingør?", answer: "Helsingør Domkirke, Skt. Olai — som er én og samme kirke — samt Sankt Mariæ Kirke, Vestervang Kirke og kirkerne i Espergærde, Snekkersten, Hornbæk, Hellebæk og Tikøb." },
+];
+
 export default function KimHelsingor() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Helsingør – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Helsingør og Nordsjælland. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37."
+        description="Personlig bedemand i Helsingør, Snekkersten, Espergærde og Hornbæk. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/helsingor"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand i Helsingør?", answer: "Jeg er selvstændig bedemand og dækker Helsingør og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en bisættelse i Helsingør?", answer: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-        { question: "Hvilke kirker og kapeller bruges i Helsingør?", answer: "Jeg koordinerer med Helsingør Domkirke, Skt. Olai Kirke og øvrige kirker og kapeller i Helsingør Kommune." },
-      ]} />
+      <SchemaOrg type="both" faqItems={FAQ} />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -99,7 +102,7 @@ export default function KimHelsingor() {
           Personlig bedemand i Helsingør
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg hjælper familier i Helsingør og omegn med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
+          Jeg er selvstændig bedemand og hjælper familier i Helsingør og langs kysten med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -116,13 +119,17 @@ export default function KimHelsingor() {
           <p style={s.label}>Lokal og personlig</p>
           <h2 style={s.h2}>Bedemand med kendskab til Helsingør</h2>
           <p style={s.body}>
-            Jeg er selvstændig bedemand og kender Helsingør og Nordsjælland godt — kirkerne, kapellerne, krematoriet og kirkegårdene. Det betyder, at jeg kan rådgive jer om de lokale muligheder og koordinere direkte med de rette instanser, uden at I skal stå med det selv.
+            Helsingør Kommune er Nordsjællands største og har 33 km kystlinje — fra Espergærde og Snekkersten i syd over Helsingør by til Ålsgårde, Hellebæk og Hornbæk mod nordvest, og indlands Kvistgård, Tikøb og Gurre. Jeg kender kirkerne, kapellet og kirkegårdene og koordinerer det hele for jer.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled, ingen omstilling — bare direkte kontakt med mig, Kim Bondo.
+            En ting overrasker næsten alle: Helsingør har ikke længere sit eget krematorium. Det blev nedlagt i 2013, og kremeringen sker nu i Ringsted. Selve højtideligheden foregår stadig i Helsingør — i kirken eller i kirkegårdskapellet — og transporten sørger jeg for.
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapel og kirkegård i Helsingør</h3>
+          <p style={s.body}>
+            Helsingør Kirkegård på Møllebakken går tilbage til 1580'erne og har siden 1820 været byens kirkegård. Kapellet fra 1903 er tegnet af arkitekten Valdemar Hamborg, har 165 pladser og fik nyt orgel i 2017. Kirkegården står stadig for omkring 900 bisættelser og 50 begravelser om året.
           </p>
           <p style={s.body}>
-            Jeg dækker hele Helsingør Kommune, herunder Hellebæk, Espergærde, Snekkersten og Tikøb.
+            På kirkegården står den franske krigergrav — en seks meter høj obelisk over 40 franske soldater, der døde på vej hjem fra krigsfangenskab i 1918-19. Der lægges krans hvert år den 11. november. Blandt kirkerne koordinerer jeg med Helsingør Domkirke, Skt. Olai, med Sankt Mariæ Kirke og med Vestervang Kirke.
           </p>
         </div>
       </section>
@@ -134,10 +141,10 @@ export default function KimHelsingor() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Helsingør?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med Helsingør Domkirke, Skt. Olai Kirke og øvrige kirker.", href: "/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af Helsingørs kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Mange vælger at holde en mindesammenkomst på et andet tidspunkt.", href: "/afsked-uden-ceremoni" },
-              { title: "Askespredning", desc: "Spredning af aske over havet ud for Helsingørs kyst. En smuk og symbolsk afsked.", href: "/askespredning" },
+              { title: "Bisættelse", desc: "Kremering på Fælleskrematoriet i Ringsted med ceremoni i kirken eller i kapellet på Helsingør Kirkegård.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på Helsingør Kirkegård eller en af kommunens øvrige kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Helsingør Domkirke eller Vestervang Kirke.", href: "/kirkelig-afsked" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -154,15 +161,10 @@ export default function KimHelsingor() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand i Helsingør</h2>
-          {[
-            { q: "Hvem er bedemand i Helsingør?", a: "Jeg er selvstændig bedemand og dækker Helsingør og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en bisættelse i Helsingør?", a: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter. Se den fulde prisliste på prissiden." },
-            { q: "Hvilke kirker og kapeller bruges i Helsingør?", a: "Jeg koordinerer med Helsingør Domkirke, Skt. Olai Kirke og øvrige kirker og kapeller i Helsingør Kommune." },
-            { q: "Kan Kim hjælpe med begravelseshjælp i Helsingør?", a: "Ja — jeg hjælper med ansøgning om offentlig begravelseshjælp som en del af mit arbejde, uanset om I bor i Helsingør eller et andet sted i mit dækningsområde." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
         </div>

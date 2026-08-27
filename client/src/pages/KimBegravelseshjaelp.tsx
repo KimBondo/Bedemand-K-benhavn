@@ -179,7 +179,7 @@ export default function KimBegravelseshjaelp() {
             Hvad koster en begravelse reelt — inkl. kremering og gravsted?
           </p>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, marginBottom: "16px" }}>
-            Begravelseshjælpen dækker en del af udgifterne — men hvad er de samlede udgifter? Se vores komplette guide med officielle 2026-takster for kremering, gravsted, kapelleje og et realistisk priseksempel.
+            Begravelseshjælpen dækker en del af udgifterne — men hvad er de samlede udgifter? Se min komplette guide med officielle 2026-takster for kremering, gravsted, kapelleje og et realistisk priseksempel.
           </p>
           <a href="/hvad-koster-en-begravelse" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px" }}>
             Se den komplette prisguide →

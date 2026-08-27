@@ -19,22 +19,24 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
+const FAQ = [
+  { question: "Hvem er bedemand på Østerbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Østerbro, resten af København og hele Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
+  { question: "Hvad koster en begravelse på Østerbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvilke kirkegårde og kapeller er der på Østerbro?", answer: "Holmens Kirkegård og Garnisons Kirkegård, som begge blev anlagt i 1660'erne og drives af sognenes menighedsråd. Kapellet på Holmens Kirkegård i Upsalagade har 110 pladser og bruges til både kirkelige og borgerlige ceremonier. Østerbro har ikke eget krematorium — kremeringen foregår på Bispebjerg." },
+  { question: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Kapellet på Holmens Kirkegård kan bruges af alle, uanset tro." },
+  { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
+];
+
 export default function KimOsterbro() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Østerbro – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Østerbro. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
+        description="Personlig bedemand på Østerbro. Holmens og Garnisons Kirkegård ligger i bydelen. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/osterbro"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand på Østerbro?", answer: "Jeg er selvstændig bedemand og dækker Østerbro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en begravelse på Østerbro?", answer: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Østerbro?", answer: "Østerbro har bl.a. Bispebjerg Krematorium og en række smukke kirker, herunder Sankt Jakobs Kirke (Østerbrogade 59) og Sions Kirke (Østerbrogade 192). Assistens Kirkegård ligger tæt på. Jeg koordinerer direkte med de rette instanser." },
-        { question: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Østerbro, uden religiøse ritualer." },
-        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
-      ]} />
+      <SchemaOrg type="both" faqItems={FAQ} />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -101,7 +103,7 @@ export default function KimOsterbro() {
           Personlig bedemand på Østerbro
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier på Østerbro med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
+          Jeg er selvstændig bedemand og hjælper familier på Østerbro med en rolig og værdig afsked. Én person hele vejen — og telefonen er åben døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -118,10 +120,17 @@ export default function KimOsterbro() {
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Østerbro</h2>
           <p style={s.body}>
-            Østerbro er en levende bydel med en stærk identitet — fra Fælledparken og Trianglen til de rolige villaveje mod nord. Bydelen har smukke kirker og kirkegårde, herunder den historiske Assistens Kirkegård. Jeg kender de lokale kirker, kapeller og krematorier og koordinerer direkte med de rette instanser.
+            Østerbro har ingen kommunal kirkegård, men to af byens ældste ligger her: Holmens Kirkegård fra 1662 og Garnisons Kirkegård fra 1664, som drives af sognenes menighedsråd i fællesskab. Kremeringen sker på Bispebjerg Krematorium få minutter væk, og jeg står for al koordineringen mellem kirke, kirkegård og krematorium.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled — bare direkte kontakt med mig, Kim Bondo. Jeg er tilgængelig hele døgnet, også i weekender og på helligdage.
+            Der er ingen omstilling og ingen sagsbehandler hos mig. Fra det første opkald til den sidste hilsen er det den samme person, I har med at gøre — og jeg tager telefonen hele døgnet, også i weekender og på helligdage.
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Østerbro</h3>
+          <p style={s.body}>
+            Holmens Kirkegård blev anlagt til flåden, Garnisons til hæren, og de ligger stadig side om side ved Øster Farimagsgade og Dag Hammarskjölds Allé. Kapellet på Holmens Kirkegård, Upsalagade 25, blev opført i 1902 af arkitekten Ludvig Fenger og har 110 siddepladser. Det bruges til både kirkelige og borgerlige ceremonier, har orgel og lydanlæg, og I kan komme ind en time før.
+          </p>
+          <p style={s.body}>
+            Det er ikke et neutralt lokale: i kapellet hænger Heinrich Dohms maleri »Den store hvide flok« fra 1915, og alterrelief og lysestager er udført af billedhuggeren Margrethe Sørensen. Blandt kirkerne i bydelen er Sankt Jakobs Kirke på Østerbrogade, Kildevældskirken, Sions Kirke, Esajas Kirke og Kastelskirken. Østerbro har ikke sit eget krematorium.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
@@ -134,12 +143,12 @@ export default function KimOsterbro() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Østerbro?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og krematorium på Østerbro og i København.", href: "/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på Assistens Kirkegård eller en af de nærliggende kirkegårde. Jeg koordinerer med kordegn og præst.", href: "/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
-              { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Østerbros kirker.", href: "/kirkelig-afsked" },
-              { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer, men med fuld personlighed.", href: "/borgerlig-afsked" },
-              { title: "Askespredning", desc: "Spredning af aske over havet ud for Sjællands kyst. En fri og naturlig afsked.", href: "/askespredning" },
+              { title: "Bisættelse", desc: "Kremering på Bispebjerg Krematorium med ceremoni i kirke eller i kapellet på Holmens Kirkegård.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på Holmens eller Garnisons Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Jakobs Kirke eller Kildevældskirken.", href: "/kirkelig-afsked" },
+              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — kapellet på Holmens Kirkegård kan bruges af alle.", href: "/borgerlig-afsked" },
+              { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Østerbro er der kort vej til Øresund.", href: "/askespredning" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -157,7 +166,7 @@ export default function KimOsterbro() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse på Østerbro?</h2>
           <p style={s.body}>
-            Mine priser er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
+            Mine priser er faste, og de står her på siden. Der er ingen skjulte gebyrer — det I ser, er det I betaler for mit arbejde.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
@@ -183,16 +192,10 @@ export default function KimOsterbro() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand på Østerbro</h2>
-          {[
-            { q: "Hvem er bedemand på Østerbro?", a: "Jeg er selvstændig bedemand og dækker Østerbro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en begravelse på Østerbro?", a: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Østerbro?", a: "Østerbro har bl.a. Bispebjerg Krematorium og en række smukke kirker, herunder Sankt Jakobs Kirke (Østerbrogade 59) og Sions Kirke (Østerbrogade 192). Assistens Kirkegård ligger tæt på. Jeg koordinerer direkte med de rette instanser." },
-            { q: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Østerbro, uden religiøse ritualer." },
-            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
           <a href="/faq" style={s.link}>Se alle spørgsmål og svar →</a>

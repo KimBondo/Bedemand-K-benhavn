@@ -199,7 +199,7 @@ export default function KimPriser() {
             "Natururne",
             "Klargøring, påklædning og ilægning i kiste",
             "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet",
-            "Kontakt til kordegn, præst, krematorie og kirkegård",
+            "Kontakt til kordegn, præst, krematorium og kirkegård",
             "Anmodning ved Kirkeministeriet",
             "Ansøgning om begravelseshjælp på jeres vegne",
             "Jeg er selv til stede ved højtideligheden",
@@ -246,7 +246,7 @@ export default function KimPriser() {
               "Natururne",
               "Klargøring, påklædning og ilægning i kiste",
               "Rustvognskørsel til krematoriet",
-              "Kontakt til kordegn, krematorie og kirkegård",
+              "Kontakt til kordegn, krematorium og kirkegård",
               "Anmodning ved Kirkeministeriet",
               "Ansøgning om begravelseshjælp på jeres vegne",
             ].map((item, i) => (
@@ -275,7 +275,7 @@ export default function KimPriser() {
             Det står her, fordi I skal kunne regne det ud selv — ikke opdage det på fakturaen.
           </p>
           <p style={s.body}>
-            Og en ting, som få ved: har I ikke travlt, kan afdøde ofte blive, hvor hun er, til næste morgen. Mange familier foretrækker det — der bliver tid til at sige farvel i ro. Så bortfalder tillægget. Det taler vi om, når I ringer.
+            Og en ting, som få ved: er der ikke noget, der haster, kan afdøde ofte blive, hvor vedkommende er, til næste morgen. Mange familier foretrækker det — der bliver tid til at sige farvel i ro. Så bortfalder tillægget. Det taler vi om, når I ringer.
           </p>
           <p style={s.body}>
             Afhentning i private hjem koster 1.200 kr. ekstra, fordi det kræver mere tid og altid to personer.
@@ -418,7 +418,7 @@ export default function KimPriser() {
           <span style={s.label}>Gratis hjemmebesøg</span>
           <h2 style={{ ...s.h2, marginBottom: "16px" }}>Min Sidste Vilje</h2>
           <p style={s.body}>
-            De fleste udskyder samtalen. Men det er en gave til sine børn at have taget stilling i forvejen.
+            De fleste udskyder samtalen. Men det er en gave til ens børn at have taget stilling i forvejen.
           </p>
           <p style={s.body}>
             Jeg kommer hjem til jer og hjælper med at skrive ønskerne ned: hvad der skal ske, hvad det koster, hvem der skal ringes til. Det tager en time, og så er det ordnet. Det koster ingenting, og der er ingen forpligtelse bagefter.

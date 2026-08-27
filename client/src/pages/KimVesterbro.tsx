@@ -19,22 +19,24 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
+const FAQ = [
+  { question: "Hvem er bedemand på Vesterbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Vesterbro og Kgs. Enghave, resten af København og hele Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
+  { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Er der et krematorium på Vestre Kirkegård?", answer: "Nej — det er en udbredt misforståelse. Der har aldrig ligget et krematorium på Vestre Kirkegård. Københavns Kommune har to: Bispebjerg og Sundby. Til gengæld har Vestre Kirkegård Nordre Kapel fra 1892, som er et af byens smukkeste ceremonirum, med plads til 225." },
+  { question: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Nordre Kapel på Vestre Kirkegård bruges til begge dele, og I kan også vælge en anden ramme." },
+  { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
+];
+
 export default function KimVesterbro() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Vesterbro – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Vesterbro. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
+        description="Personlig bedemand på Vesterbro og i Kgs. Enghave. Vestre Kirkegård og Nordre Kapel ligger i bydelen. Faste priser. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/vesterbro"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand på Vesterbro?", answer: "Jeg er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Vesterbro?", answer: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Enghave Kirke. Jeg koordinerer direkte med de rette instanser." },
-        { question: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
-        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
-      ]} />
+      <SchemaOrg type="both" faqItems={FAQ} />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -101,7 +103,7 @@ export default function KimVesterbro() {
           Personlig bedemand på Vesterbro
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier på Vesterbro med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
+          Jeg er selvstændig bedemand og hjælper familier på Vesterbro og i Kgs. Enghave med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -112,16 +114,23 @@ export default function KimVesterbro() {
         </p>
       </section>
 
-      {/* ── OM KIM PÅ AMAGER ── */}
+      {/* ── OM KIM PÅ VESTERBRO ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Vesterbro</h2>
           <p style={s.body}>
-            Vesterbro er en af Københavns mest pulserende bydele — fra Kødbyen og Istedgade til de stille villaveje mod Valby. Bydelen er hjemsted for Vestre Krematorium, et af Europas smukkeste krematorier, og Vestre Kirkegård, Skandinaviens største kirkegård. Jeg kender de lokale kirker, kapeller og krematorier og koordinerer direkte med de rette instanser, så I ikke skal stå med det selv.
+            Bydelen hedder officielt Vesterbro og Kgs. Enghave, og i den sydvestlige ende ligger Vestre Kirkegård — Danmarks største, 54 hektar, anlagt fra 1870 som landets første centralkirkegård. Der er intet krematorium på kirkegården; kremeringen sker på Bispebjerg eller Sundby, og det ordner jeg.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled — bare direkte kontakt med mig, Kim Bondo. Jeg er tilgængelig hele døgnet, også i weekender og på helligdage.
+            Jeg er den eneste, I skal forholde jer til. Ingen omstilling, ingen sagsbehandler — bare mig, fra det første opkald til den sidste hilsen, hele døgnet og også i weekenden.
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Vesterbro</h3>
+          <p style={s.body}>
+            Nordre Kapel fra 1892 er kirkegårdens ceremonikapel — 225 siddepladser, traditionelle kirkebænke og et nyrestaureret pibeorgel af I.P. Henriksen. Det er et af byens smukkeste rum at tage afsked i, og det kan bruges både kirkeligt og borgerligt. De to andre kapeller bruges ikke længere til ceremonier: Søndre Kapel fra 1906 hedder i dag Stjernevejspavillonen, og Østre Kapel fra 1913 bruges til kultur og teater.
+          </p>
+          <p style={s.body}>
+            Vestre Kirkegård er usædvanlig ved sin mangfoldighed — der er blandt andet færøske, grønlandske, muslimske og katolske afdelinger, og omkring 1.500 gravsten er registreret som bevaringsværdige. Blandt kirkerne i sognet er Sankt Matthæus Kirke i Matthæusgade, Enghave Kirke på Sønder Boulevard, Eliaskirken på Vesterbrogade, Kristkirken ved Enghave Plads og Mariakirken i Istedgade.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
@@ -134,12 +143,12 @@ export default function KimVesterbro() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Vesterbro?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og krematorium på Vesterbro og i København.", href: "/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af kirkegårdene på Vesterbro og omegn. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
-              { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Vesterbros kirker.", href: "/kirkelig-afsked" },
-              { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer, men med fuld personlighed.", href: "/borgerlig-afsked" },
-              { title: "Askespredning", desc: "Spredning af aske over havet ud for Sjællands kyst. En fri og naturlig afsked.", href: "/askespredning" },
+              { title: "Bisættelse", desc: "Kremering på Bispebjerg eller Sundby Krematorium med ceremoni i kirke eller i Nordre Kapel.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på Vestre Kirkegård. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Matthæus Kirke eller Enghave Kirke.", href: "/kirkelig-afsked" },
+              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — Nordre Kapel er en smuk ramme, også uden kirkelig medvirken.", href: "/borgerlig-afsked" },
+              { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg står for tilladelser og papirarbejde.", href: "/askespredning" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -157,7 +166,7 @@ export default function KimVesterbro() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse på Vesterbro?</h2>
           <p style={s.body}>
-            Mine priser er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
+            Mine priser er faste, og de står her på siden. Der er ingen skjulte gebyrer — det I ser, er det I betaler for mit arbejde.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
@@ -183,16 +192,10 @@ export default function KimVesterbro() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand på Vesterbro</h2>
-          {[
-            { q: "Hvem er bedemand på Vesterbro?", a: "Jeg er selvstændig bedemand og dækker Vesterbro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en begravelse på Vesterbro?", a: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Vesterbro?", a: "Vesterbro har bl.a. Vestre Krematorium – et af Europas smukkeste – og en række kirker, herunder Enghave Kirke. Jeg koordinerer direkte med de rette instanser." },
-            { q: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Vesterbro, uden religiøse ritualer." },
-            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
           <a href="/faq" style={s.link}>Se alle spørgsmål og svar →</a>

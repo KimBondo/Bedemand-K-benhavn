@@ -19,22 +19,24 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
+const FAQ = [
+  { question: "Hvem er bedemand på Nørrebro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Nørrebro, resten af København og hele Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
+  { question: "Hvad koster en begravelse på Nørrebro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Kan man stadig få gravsted på Assistens Kirkegård?", answer: "Ja. Assistens er fredet og en stor del af den er kirkegårdspark, men omkring en fjerdedel bruges stadig aktivt til begravelser og urnenedsættelser. Jeg hjælper med at finde ud af, hvad der er ledigt i den afdeling, I ønsker." },
+  { question: "Hvor foregår ceremonien, når man bor på Nørrebro?", answer: "Enten i en af bydelens kirker eller i Søndre Kapel på Bispebjerg Kirkegård. Der er ingen kapeller på selve Nørrebro, der kan bookes til ceremoni gennem kommunen — og Bispebjerg Krematorium ligger samme sted som kapellet." },
+  { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
+];
+
 export default function KimNorrebro() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Nørrebro – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Nørrebro. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37 – altid tilgængelig."
+        description="Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/norrebro"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand på Nørrebro?", answer: "Jeg er selvstændig bedemand og dækker Nørrebro og hele København og Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en begravelse på Nørrebro?", answer: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-        { question: "Hvilke krematorier og kirker er der på Nørrebro?", answer: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Brorsons Kirke, Sankt Johannes Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Jeg koordinerer direkte med de rette instanser." },
-        { question: "Kan jeg vælge en borgerlig ceremoni på Nørrebro?", answer: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Nørrebro, uden religiøse ritualer." },
-        { question: "Hvad er begravelseshjælp?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen." },
-      ]} />
+      <SchemaOrg type="both" faqItems={FAQ} />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -101,7 +103,7 @@ export default function KimNorrebro() {
           Personlig bedemand på Nørrebro
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier på Nørrebro med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
+          Jeg er selvstændig bedemand og hjælper familier på Nørrebro med en rolig og værdig afsked. Én person hele vejen — og telefonen er åben døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -112,16 +114,23 @@ export default function KimNorrebro() {
         </p>
       </section>
 
-      {/* ── OM KIM PÅ AMAGER ── */}
+      {/* ── OM KIM PÅ NØRREBRO ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Nørrebro</h2>
           <p style={s.body}>
-            Nørrebro er en af Københavns mest levende og mangfoldige bydele — fra Blågårds Plads og Nørrebroparken til Bispebjerg og Frederiksberg Have. Bydelen er hjemsted for den historiske Assistens Kirkegård, hvor bl.a. H.C. Andersen og Søren Kierkegaard er begravet. Jeg kender de lokale kirker, kapeller og krematorier og koordinerer direkte med de rette instanser, så I ikke skal stå med det selv.
+            Nørrebro er tæt, blandet og fuld af liv, og midt i det hele ligger Assistens Kirkegård fra 1760. Den er fredet og kendt langt ud over bydelen, men den er stadig en kirkegård i brug — man kan sagtens få gravsted der. Kremeringen sker på Bispebjerg Krematorium lige nord for bydelen.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled — bare direkte kontakt med mig, Kim Bondo. Jeg er tilgængelig hele døgnet, også i weekender og på helligdage.
+            Hos mig er der ingen omstilling og ingen sagsbehandler. Det er den samme person, I taler med fra første opkald til sidste hilsen, og jeg kører selv ud — også aften, weekend og helligdage.
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Nørrebro</h3>
+          <p style={s.body}>
+            På Assistens ligger Søren Kierkegaard, H.C. Andersen og Niels Bohr — og Dan Turèll og Natasja. Omkring en fjerdedel af arealet bruges stadig aktivt til begravelser og urnenedsættelser; resten er kirkegårdspark med gratis rundvisninger og guider. I Møllegade ligger desuden Mosaisk Nordre Begravelsesplads fra 1690'erne, der er fredet og ikke længere i brug.
+          </p>
+          <p style={s.body}>
+            Nørrebro har ingen kapeller, der kan bookes til ceremoni gennem Københavns Kommune. Det nærmeste er Søndre Kapel på Bispebjerg Kirkegård, og det bruger jeg jævnligt. Blandt kirkerne er Sankt Johannes Kirke ved Blegdamsvej, Hellig Kors Kirke på Kapelvej, Brorsons Kirke i Rantzausgade, Simeons Kirke i Sjællandsgade og Bethlehemskirken på Åboulevard. Bispebjerg er i øvrigt sin egen bydel — både kirkegården, krematoriet og Grundtvigs Kirke ligger dér.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
@@ -134,12 +143,12 @@ export default function KimNorrebro() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Nørrebro?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med kirke, kapel og krematorium på Nørrebro og i København.", href: "/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af kirkegårdene på Nørrebro og omegn på Nørrebro og omegn. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Den mest enkle løsning — priser fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
-              { title: "Kirkelig afsked", desc: "Traditionel kirkelig ceremoni med jordpåkastelse, salmer og præst i en af Nørrebros kirker.", href: "/kirkelig-afsked" },
-              { title: "Borgerlig afsked", desc: "Fri ceremoni i kapel eller anden egnet ramme — uden religiøse ritualer, men med fuld personlighed.", href: "/borgerlig-afsked" },
-              { title: "Askespredning", desc: "Spredning af aske over havet ud for Sjællands kyst. En fri og naturlig afsked.", href: "/askespredning" },
+              { title: "Bisættelse", desc: "Kremering på Bispebjerg Krematorium med ceremoni i kirke eller i Søndre Kapel.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på Assistens Kirkegård eller en af de nærliggende kirkegårde. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Johannes Kirke eller Hellig Kors Kirke.", href: "/kirkelig-afsked" },
+              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — typisk i Søndre Kapel på Bispebjerg eller et sted, I selv vælger.", href: "/borgerlig-afsked" },
+              { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg står for tilladelser og papirarbejde.", href: "/askespredning" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -157,7 +166,7 @@ export default function KimNorrebro() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse på Nørrebro?</h2>
           <p style={s.body}>
-            Mine priser er faste og gennemsigtige. Der er ingen skjulte gebyrer — det du ser, er det du betaler for mit honorar.
+            Mine priser er faste, og de står her på siden. Der er ingen skjulte gebyrer — det I ser, er det I betaler for mit arbejde.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
@@ -183,16 +192,10 @@ export default function KimNorrebro() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand på Nørrebro</h2>
-          {[
-            { q: "Hvem er bedemand på Nørrebro?", a: "Jeg er selvstændig bedemand og dækker Nørrebro og hele København og Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en begravelse på Nørrebro?", a: "En afsked uden ceremoni starter fra 13.550 kr. En bisættelse med ceremoni fra 19.500 kr. En begravelse i kiste fra 21.500 kr. Dertil kommer kremering, gravsted og eventuelle kapellejeudgifter." },
-            { q: "Hvilke krematorier og kirker er der på Nørrebro?", a: "Nørrebro har bl.a. Bispebjerg Krematorium og en række kirker, herunder Brorsons Kirke, Sankt Johannes Kirke og Sankt Stefans Kirke. Assistens Kirkegård – en af Københavns smukkeste – ligger midt på Nørrebro. Jeg koordinerer direkte med de rette instanser." },
-            { q: "Kan jeg vælge en borgerlig ceremoni på Nørrebro?", a: "Ja — Jeg hjælper med borgerlige ceremonier i kapel eller anden egnet ramme på Nørrebro, uden religiøse ritualer." },
-            { q: "Hvad er begravelseshjælp, og kan jeg søge det?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Jeg hjælper med ansøgningen — læs mere på begravelseshjælp-siden." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
           <a href="/faq" style={s.link}>Se alle spørgsmål og svar →</a>

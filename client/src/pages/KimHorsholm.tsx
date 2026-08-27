@@ -19,20 +19,23 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
+const FAQ = [
+  { question: "Hvem er bedemand i Hørsholm?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hørsholm, Rungsted, Usserød og Kokkedal samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
+  { question: "Hvad koster en begravelse i Hørsholm?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Er der et krematorium i Hørsholm?", answer: "Nej. Der er ikke krematorium i Hørsholm Kommune. Det nærmeste i drift er Hillerød Krematorium ved Skansekirkegården; ellers sker kremeringen i København. Ceremonien holdes stadig lokalt — i kirken eller i kapellet på Hørsholm Kirkegård." },
+  { question: "Kan alle bruge kapellet på Hørsholm Kirkegård?", answer: "Ja. Kapellet fra 1929 kan benyttes af alle, uanset tro. Højtideligheden varer op til en halv time, og en medarbejder fra kirkegården er altid med og hjælper med blomster og opstilling." },
+];
+
 export default function KimHorsholm() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Hørsholm – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Hørsholm og Nordsjælland. Bisættelse og begravelse med nærvær og gennemsigtige priser. Ring 22 21 14 37."
+        description="Personlig bedemand i Hørsholm, Rungsted og Kokkedal. Kapellet på Hørsholm Kirkegård kan benyttes af alle. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/horsholm"
         image="/images/kim-beach-solo_609d5ab7.webp"
       />
-      <SchemaOrg type="both" faqItems={[
-        { question: "Hvem er bedemand i Hørsholm?", answer: "Jeg er selvstændig bedemand og dækker Hørsholm og hele Nordsjælland. Ring på 22 21 14 37 – tilgængelig døgnet rundt." },
-        { question: "Hvad koster en bisættelse i Hørsholm?", answer: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-        { question: "Hvilke kirker bruges i Hørsholm?", answer: "Jeg koordinerer med Hørsholm Kirke og øvrige kirker og kapeller i Hørsholm Kommune og omegn." },
-      ]} />
+      <SchemaOrg type="both" faqItems={FAQ} />
 
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
@@ -99,7 +102,7 @@ export default function KimHorsholm() {
           Personlig bedemand i Hørsholm
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg hjælper familier i Hørsholm og omegn med at skabe en værdig og rolig afsked — fra første opkald til den sidste hilsen. Tilgængelig døgnet rundt.
+          Jeg er selvstændig bedemand og hjælper familier i Hørsholm og Rungsted med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
@@ -116,10 +119,17 @@ export default function KimHorsholm() {
           <p style={s.label}>Lokal og personlig</p>
           <h2 style={s.h2}>Bedemand med kendskab til Hørsholm</h2>
           <p style={s.body}>
-            Hørsholm og omegn — Rungsted, Kokkedal og Vedbæk — er en del af mit primære dækningsområde. Jeg kender de lokale kirker, kapeller og krematorier, og koordinerer direkte med de rette instanser, så I ikke selv skal stå med det.
+            Hørsholm Kommune er lille og overskuelig: selve Hørsholm, Rungsted mod kysten, Usserød, Sjælsmark og Kettinge. Kirkeligt hører Kokkedal til samme pastorat som Hørsholm og Rungsted, selv om byen ligger i Fredensborg Kommune — så jeg dækker også dér.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled — bare direkte kontakt med mig, Kim Bondo.
+            Der er ikke noget krematorium i Hørsholm. Kremeringen sker i Hillerød eller i København, mens selve højtideligheden holdes lokalt i kirken eller i kirkegårdskapellet. Transport og koordinering står jeg for.
+          </p>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirke, kapel og kirkegård i Hørsholm</h3>
+          <p style={s.body}>
+            Hørsholm Kirkegård på Kirkegårdsvej drives af menighedsrådet. Kapellet er opført i 1929 af arkitekten Borch, og det kan benyttes af alle, uanset tro. Højtideligheden varer op til en halv time, kapellet åbnes en time før, og der er altid en medarbejder fra kirkegården med, som hjælper med blomster og opstilling.
+          </p>
+          <p style={s.body}>
+            Hvælvingen i kapellet er udsmykket med motivet »Livets Træ«, færdiggjort i 1960 og inspireret af kirken San Clemente i Rom. Stenarbejdet udenfor med treenighedssymboler er siden blevet kirkegårdens logo, og klokketårnet kom til i 1958 med en klokke fra Rungsted Kirke. Blandt kirkerne koordinerer jeg med Hørsholm Kirke og Rungsted Kirke.
           </p>
         </div>
       </section>
@@ -131,10 +141,10 @@ export default function KimHorsholm() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Hørsholm?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering med kirkelig eller borgerlig ceremoni. Koordinering med Hørsholm Kirke og øvrige kirker i området.", href: "/bisaettelse" },
-              { title: "Begravelse", desc: "Kiste i jord på en af Hørsholms kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse" },
-              { title: "Afsked uden ceremoni", desc: "En enkel og diskret afsked, direkte til krematoriet. Priser fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
-              { title: "Askespredning", desc: "Spredning af aske over havet ud for Nordsjællands kyst. En fri og naturlig afsked.", href: "/askespredning" },
+              { title: "Bisættelse", desc: "Kremering i Hillerød eller København med ceremoni i Hørsholm Kirke, Rungsted Kirke eller kirkegårdskapellet.", href: "/bisaettelse" },
+              { title: "Begravelse", desc: "Kiste i jord på Hørsholm Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i Hørsholm Kirke eller Rungsted Kirke.", href: "/kirkelig-afsked" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -151,15 +161,10 @@ export default function KimHorsholm() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
           <h2 style={s.h2}>Spørgsmål om bedemand i Hørsholm</h2>
-          {[
-            { q: "Hvem er bedemand i Hørsholm?", a: "Jeg er selvstændig bedemand og dækker Hørsholm og hele Nordsjælland. Ring på 22 21 14 37 — tilgængelig døgnet rundt." },
-            { q: "Hvad koster en bisættelse i Hørsholm?", a: "En bisættelse med ceremoni starter fra 19.500 kr. hos mig. Dertil kommer kremering, blomster og eventuelle kapellejeudgifter." },
-            { q: "Hvilke kirker bruges i Hørsholm?", a: "Jeg koordinerer med Hørsholm Kirke og øvrige kirker og kapeller i Hørsholm Kommune og omegn, herunder Rungsted og Kokkedal." },
-            { q: "Dækker Kim også Rungsted og Kokkedal?", a: "Ja — Rungsted, Kokkedal og Vedbæk er alle en del af mit dækningsområde. Ring på 22 21 14 37 for at høre mere." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
             </div>
           ))}
         </div>
