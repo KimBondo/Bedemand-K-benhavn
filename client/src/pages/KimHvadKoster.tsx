@@ -162,7 +162,7 @@ export default function KimHvadKoster() {
           <p style={s.label}>Reducer udgifterne</p>
           <h2 style={s.h2}>Begravelseshjælp — hvad kan I søge?</h2>
           <p style={s.body}>
-            Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til <strong>13.550 kr.</strong> afhængigt af afdødes formue. Minimumstilskuddet er <strong>1.050 kr.</strong>
+            Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til <strong>13.550 kr.</strong> afhængigt af afdødes formue. Var afdøde født før 1. april 1957, udbetales der altid mindst <strong>1.050 kr.</strong> — uanset formue.
           </p>
           <p style={s.body}>
             Er afdøde eller den efterlevende ægtefælle/samlever medlem af <strong>Sygeforsikring 'danmark'</strong> gruppe 1 eller 2, kan der søges yderligere op til 1.400 kr.
