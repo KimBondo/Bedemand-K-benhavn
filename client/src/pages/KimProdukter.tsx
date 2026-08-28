@@ -37,7 +37,9 @@ const KISTER = [
     id: "basiskiste",
     name: "Basiskiste",
     priceLabel: "6.000 kr.",
-    image: "/images/Basis6greb_5925250a.webp",
+    image: "/images/basiskiste-umalet-trae.webp",
+    imgW: 2048,
+    imgH: 1366,
     alt: "Basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
     description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse, og den indgår i bisættelsespakken. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
     use: "bisættelse" as const,
@@ -46,7 +48,9 @@ const KISTER = [
     id: "klassisk-hvid",
     name: "Klassisk hvid kiste",
     priceLabel: "6.500 kr.",
-    image: "/images/Klassiskhvid_b0f458b9_8686480b.webp",
+    image: "/images/klassisk-hvid-kiste.webp",
+    imgW: 1200,
+    imgH: 1200,
     alt: "Klassisk hvid kiste til bisættelse – fremstillet i spån og MDF, Kim Bondo bedemand",
     description: "En klassisk kremeringskiste til bisættelser, fremstillet i spån og MDF.",
     use: "bisættelse" as const,
@@ -55,7 +59,9 @@ const KISTER = [
     id: "gaia",
     name: "Gaia",
     priceLabel: "6.800 kr.",
-    image: "/images/Gaia_5d419152.webp",
+    image: "/images/gaia-kiste-paulowniatrae.webp",
+    imgW: 2048,
+    imgH: 1365,
     alt: "Gaia kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse og begravelse",
     description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og kisten har et markant lavere klimaaftryk end en traditionel hvid kiste. Både til bisættelse og begravelse.",
     use: "begge" as const,
@@ -64,7 +70,9 @@ const KISTER = [
     id: "orbit",
     name: "Orbit papirkiste",
     priceLabel: "8.800 kr.",
-    image: "/images/Orbit_924a6cd2.webp",
+    image: "/images/orbit-papirkiste-reboard.webp",
+    imgW: 2048,
+    imgH: 1366,
     alt: "Orbit papirkiste i ReBoard – let og miljøvenlig kiste til begravelse og kremering",
     description: "Orbit er fremstillet i ReBoard, som er produceret med 80 % færre træfibre end materialet i en traditionel kiste. Kisten vejer 12 kg, hvilket gør den let at håndtere. Den kan printes i alle farver og motiver og er testet til både begravelse og kremering.",
     use: "begge" as const,
@@ -73,7 +81,9 @@ const KISTER = [
     id: "massiv-fyr",
     name: "Massiv fyr",
     priceLabel: "8.000 kr.",
-    image: "/images/Massiv_fyr_55990efe.webp",
+    image: "/images/massiv-fyrkiste.webp",
+    imgW: 2048,
+    imgH: 1366,
     alt: "Massiv fyrkiste med knaster – naturlig og varm kiste til begravelse, Kim Bondo bedemand",
     description: "Kisten i fyrretræ med knaster har et varmt og naturligt udtryk, hvor træets struktur og levende detaljer får lov at stå frem. Knasterne giver hver kiste sit eget særpræg og understreger det enkle og særlige udtryk.",
     use: "begravelse" as const,
@@ -85,7 +95,9 @@ const URNER = [
     id: "askeror-solnedgang",
     name: "Askerør Solnedgang",
     priceLabel: "950 kr.",
-    image: "/images/Askeror_Solnedgang_faf27b72.jpeg",
+    image: "/images/askeror-solnedgang.webp",
+    imgW: 1280,
+    imgH: 1919,
     alt: "Askerør Solnedgang – biologisk nedbrydeligt askerør i genanvendt karton til askespredning",
     description: "Dette askerør er fremstillet i genanvendt karton og pap. Materialet er biologisk nedbrydeligt og egner sig til askespredning, enten til vands eller som en del af en ceremoni. Det enkle udtryk gør det til et fint valg til en personlig og værdig afsked.",
   },
@@ -93,7 +105,9 @@ const URNER = [
     id: "creme-natur-biourn",
     name: "Creme Natur biourne",
     priceLabel: "1.250 kr.",
-    image: "/images/CremeNaturbiourne_f3a0617c.jpg",
+    image: "/images/creme-natur-biourne.webp",
+    imgW: 1200,
+    imgH: 1200,
     alt: "Creme Natur biourne – biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
     description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Den indgår i bisættelsespakken.",
   },
@@ -101,7 +115,9 @@ const URNER = [
     id: "gron-natur-biourn",
     name: "Grøn Natur biourne",
     priceLabel: "1.250 kr.",
-    image: "/images/GronNaturbiourne_df52a9c7.jpg",
+    image: "/images/gron-natur-biourne.webp",
+    imgW: 1200,
+    imgH: 1200,
     alt: "Grøn Natur biourne – grøn biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
     description: "Samme urne i en dæmpet grøn farve, som falder naturligt ind på et skovgravsted eller i en plæne. Bioplasten tager mellem 4 og 9 år om at blive nedbrudt i jorden.",
   },
@@ -109,7 +125,9 @@ const URNER = [
     id: "rod-natur-biourn",
     name: "Rød Natur biourne",
     priceLabel: "1.250 kr.",
-    image: "/images/RodNaturbiourne_033ebb28.jpg",
+    image: "/images/rod-natur-biourne.webp",
+    imgW: 1200,
+    imgH: 1200,
     alt: "Rød Natur biourne – rød biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
     description: "Den varmeste af de tre farver — en mørk, rødlig tone. Som de øvrige natururner er den lavet af bioplast, der tager mellem 4 og 9 år om at blive nedbrudt i jorden.",
   },
@@ -117,7 +135,9 @@ const URNER = [
     id: "brun-museumsurne",
     name: "Brun museumsurne",
     priceLabel: "1.350 kr.",
-    image: "/images/Brunmuseumsurne_7e293ad9.jpeg",
+    image: "/images/brun-museumsurne.webp",
+    imgW: 1280,
+    imgH: 1919,
     alt: "Brun museumsurne – urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
     description: "Den brune er den mest klassiske af museumsurnerne. Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
@@ -125,7 +145,9 @@ const URNER = [
     id: "gron-museumsurne",
     name: "Grøn museumsurne",
     priceLabel: "1.350 kr.",
-    image: "/images/Gronmuseumsurne_9a41f59e.jpeg",
+    image: "/images/gron-museumsurne.webp",
+    imgW: 1280,
+    imgH: 1919,
     alt: "Grøn museumsurne – grøn urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
     description: "Den grønne tone falder godt i et naturgravsted. Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
@@ -133,7 +155,9 @@ const URNER = [
     id: "rod-museumsurne",
     name: "Rød museumsurne",
     priceLabel: "1.350 kr.",
-    image: "/images/Rodmuseumsurne_d3d2fec3.jpeg",
+    image: "/images/rod-museumsurne.webp",
+    imgW: 1280,
+    imgH: 1919,
     alt: "Rød museumsurne – rød urne i genbrugspap med trælåg fra Bruunshaab Gamle Papfabrik",
     description: "Den røde er den kraftigste i farven. Museumsurnen er fremstillet i genbrugspap og lukkes med træ, uden brug af metal. Den fås både med og uden livets træ på. Urnen er udviklet af Søhøjlandets Begravelser og Blomstergalleri og produceret af Bruunshaab Gamle Papfabrik, begge fra Viborg-området.",
   },
@@ -146,7 +170,7 @@ export default function KimProdukter() {
         title="Kister og urner – Bedemand Kim Bondo"
         description="Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
         url="https://www.bedemandkobenhavn.dk/produkter/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"
@@ -255,12 +279,14 @@ export default function KimProdukter() {
               >
                <div className="product-img-wrap" style={{ height: "220px", background: "#e8e4df" }}>
                  <img
-                   src={k.image}
+                   src={k.image.replace(".webp", "-600w.webp")}
+                   srcSet={`${k.image.replace(".webp", "-600w.webp")} 600w, ${k.image} ${k.imgW}w`}
+                   sizes="(max-width: 700px) 100vw, 340px"
                    alt={k.alt || k.name}
                    className="product-img"
                     loading="lazy"
-                    width="440"
-                    height="220"
+                    width={k.imgW}
+                    height={k.imgH}
                     style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
                  />
                 </div>
@@ -316,12 +342,14 @@ export default function KimProdukter() {
               >
                <div className="product-img-wrap" style={{ background: "#e8e4df", textAlign: "center" }}>
                  <img
-                   src={u.image}
+                   src={u.image.replace(".webp", "-400w.webp")}
+                   srcSet={`${u.image.replace(".webp", "-400w.webp")} 400w, ${u.image} ${u.imgW}w`}
+                   sizes="(max-width: 700px) 100vw, 280px"
                    alt={u.alt || u.name}
                    className="product-img"
                     loading="lazy"
-                    width="300"
-                    height="300"
+                    width={u.imgW}
+                    height={u.imgH}
                     style={{ width: "100%", height: "auto", display: "block" }}
                  />
                 </div>

@@ -34,7 +34,7 @@ export default function KimAmager() {
         title="Bedemand Amager – Kim Bondo, døgnet rundt"
         description="Personlig bedemand på Amager, i Tårnby og Dragør. Sundby Krematorium ligger i bydelen. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/amager/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

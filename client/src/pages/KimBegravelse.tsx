@@ -23,7 +23,7 @@ export default function KimBegravelse() {
         title="Begravelse i København – Bedemand Kim Bondo"
         description="Personlig hjælp til begravelse i København og Nordsjælland. Jeg koordinerer kiste, kirkegård og ceremoni. Ring 22 21 14 37."
         url="https://www.bedemandkobenhavn.dk/begravelse/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
 
       <SchemaOrg

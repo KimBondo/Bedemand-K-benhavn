@@ -4,3 +4,28 @@
 
 # Ingen SPA-fallback: alle rigtige sider er forudbyggede som statisk HTML,
 # så ukendte adresser skal svare 404 (Cloudflare Pages serverer 404.html).
+
+# Gamle billedadresser -> nye beskrivende filnavne (omdøbt 28-08-2026)
+/images/Basis6greb_5925250a.webp                                /images/basiskiste-umalet-trae.webp             301
+/images/Klassiskhvid_b0f458b9_8686480b.webp                     /images/klassisk-hvid-kiste.webp                301
+/images/Klassiskhvid_b0f458b9.webp                              /images/klassisk-hvid-kiste.webp                301
+/images/Klassiskhvid_b0f458b9.jpg                               /images/klassisk-hvid-kiste.webp                301
+/images/Gaia_5d419152.webp                                      /images/gaia-kiste-paulowniatrae.webp           301
+/images/Orbit_924a6cd2.webp                                     /images/orbit-papirkiste-reboard.webp           301
+/images/Massiv_fyr_55990efe.webp                                /images/massiv-fyrkiste.webp                    301
+/images/Askeror_Solnedgang_faf27b72.jpeg                        /images/askeror-solnedgang.webp                 301
+/images/CremeNaturbiourne_f3a0617c.jpg                          /images/creme-natur-biourne.webp                301
+/images/GronNaturbiourne_df52a9c7.jpg                           /images/gron-natur-biourne.webp                 301
+/images/RodNaturbiourne_033ebb28.jpg                            /images/rod-natur-biourne.webp                  301
+/images/Brunmuseumsurne_7e293ad9.jpeg                           /images/brun-museumsurne.webp                   301
+/images/Gronmuseumsurne_9a41f59e.jpeg                           /images/gron-museumsurne.webp                   301
+/images/Rodmuseumsurne_d3d2fec3.jpeg                            /images/rod-museumsurne.webp                    301
+/images/kim-garden-coffin_90a67244.webp                         /images/hvid-kiste-blomster-have.webp           301
+/images/kim-garden-coffin_90a67244.jpg                          /images/hvid-kiste-blomster-have.webp           301
+/images/kim-beach-solo_609d5ab7.webp                            /images/kim-bondo-rustvogn-kyst.webp            301
+/images/kim-beach-solo_609d5ab7_9e76bac0.webp                   /images/kim-bondo-rustvogn-kyst.webp            301
+/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp             /images/kim-bondo-bedemand-portraet.webp        301
+/images/kim-bondo-portrait-neutral-bg_dfb527d8_d2b7aeac.webp    /images/kim-bondo-bedemand-portraet.webp        301
+/images/kim-bondo-portrait-neutral-bg_dfb527d8_1400w_7b940c54.webp /images/kim-bondo-bedemand-portraet-1400w.webp 301
+/images/kim-bondo-portrait-neutral-bg_dfb527d8_930w_0ebe7e5b.webp  /images/kim-bondo-bedemand-portraet-930w.webp  301
+/images/kim-bondo-portrait-neutral-bg_dfb527d8_464w_fad65f06.webp  /images/kim-bondo-bedemand-portraet-464w.webp  301

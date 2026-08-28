@@ -10,7 +10,7 @@ const PERSON_SCHEMA = {
   "jobTitle": "Selvstændig bedemand",
   "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
   "url": "https://www.bedemandkobenhavn.dk/om-kim/",
-  "image": "https://www.bedemandkobenhavn.dk/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp",
+  "image": "https://www.bedemandkobenhavn.dk/images/kim-bondo-bedemand-portraet.webp",
   "telephone": "+4522211437",
   "email": "kim@bedemandkobenhavn.dk",
   "address": {
@@ -56,7 +56,7 @@ export default function KimOmKim() {
         title="Om Kim Bondo – Personlig bedemand, København"
         description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 22 21 14 37."
         url="https://www.bedemandkobenhavn.dk/om-kim/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
 
       <SchemaOrg
@@ -124,8 +124,8 @@ export default function KimOmKim() {
          <div style={{ display: "flex", flexWrap: "wrap", gap: "48px", alignItems: "flex-start", marginBottom: "40px" }}>
            <picture style={{ flexShrink: 0 }}>
               <img
-                src="/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp"
-                srcSet="/images/kim-bondo-portrait-neutral-bg_dfb527d8_464w_fad65f06.webp 464w, /images/kim-bondo-portrait-neutral-bg_dfb527d8_930w_0ebe7e5b.webp 930w, /images/kim-bondo-portrait-neutral-bg_dfb527d8_1400w_7b940c54.webp 1400w"
+                src="/images/kim-bondo-bedemand-portraet-930w.webp"
+                srcSet="/images/kim-bondo-bedemand-portraet-464w.webp 464w, /images/kim-bondo-bedemand-portraet-930w.webp 930w, /images/kim-bondo-bedemand-portraet-1400w.webp 1400w"
                 sizes="(max-width: 600px) 60vw, 280px"
                 width={1632}
                 height={2176}

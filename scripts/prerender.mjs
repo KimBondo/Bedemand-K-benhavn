@@ -20,7 +20,7 @@ const ROOT = path.resolve(__dirname, "..");
 const DIST_PUBLIC = path.resolve(ROOT, "dist/public");
 const SSR_BUNDLE = path.resolve(ROOT, "dist/server/entry-server.js");
 const BASE_URL = "https://www.bedemandkobenhavn.dk";
-const DEFAULT_IMAGE = `${BASE_URL}/images/kim-beach-solo_609d5ab7.webp`;
+const DEFAULT_IMAGE = `${BASE_URL}/images/kim-bondo-rustvogn-kyst.webp`;
 
 const ROUTES = [
   "/",

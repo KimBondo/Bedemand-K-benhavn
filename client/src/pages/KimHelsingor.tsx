@@ -33,7 +33,7 @@ export default function KimHelsingor() {
         title="Bedemand Helsingør – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Helsingør, Snekkersten, Espergærde og Hornbæk. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/helsingor/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

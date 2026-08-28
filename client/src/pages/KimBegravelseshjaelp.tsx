@@ -26,7 +26,7 @@ export default function KimBegravelseshjaelp() {
         title="Begravelseshjælp – søg tilskud, Kim Bondo"
         description="Få hjælp til at søge begravelseshjælp fra det offentlige. Tilskud fra 1.050–13.550 kr. Kim Bondo guider jer igennem ansøgningen. Ring 22 21 14 37."
         url="https://www.bedemandkobenhavn.dk/begravelseshjaelp/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
 
       <SchemaOrg

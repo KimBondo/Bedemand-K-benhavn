@@ -53,7 +53,7 @@ export default function KimBondo() {
         title="Bedemand Kim Bondo – København og Nordsjælland"
         description="Personlig bedemand med nærvær og ro. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg type="both" />
       <SchemaOrg type="WebSite" />
@@ -183,9 +183,11 @@ export default function KimBondo() {
          >
           <picture style={{ display: "block" }}>
             <img
-              src="/images/kim-beach-solo_609d5ab7.webp"
-              width={2304}
-              height={1536}
+              src="/images/kim-bondo-rustvogn-kyst-1400w.webp"
+              srcSet="/images/kim-bondo-rustvogn-kyst-640w.webp 640w, /images/kim-bondo-rustvogn-kyst-960w.webp 960w, /images/kim-bondo-rustvogn-kyst-1400w.webp 1400w, /images/kim-bondo-rustvogn-kyst.webp 2304w"
+              sizes="(max-width: 1100px) 100vw, 1100px"
+              width={1400}
+              height={933}
               alt="Kim Bondo med sort Mercedes rustvogn ved den danske kyst"
               fetchPriority="high"
               loading="eager"
@@ -259,9 +261,8 @@ export default function KimBondo() {
        {/* Haven-kiste billede */}
        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
          <picture>
-           <source srcSet="/images/kim-garden-coffin_90a67244.webp" type="image/webp" />
             <img
-              src="/images/kim-garden-coffin_90a67244.jpg"
+              src="/images/hvid-kiste-blomster-have.webp"
               width={900}
               height={510}
               alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"

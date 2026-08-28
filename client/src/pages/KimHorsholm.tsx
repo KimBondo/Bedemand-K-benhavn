@@ -33,7 +33,7 @@ export default function KimHorsholm() {
         title="Bedemand Hørsholm – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Hørsholm, Rungsted og Kokkedal. Kapellet på Hørsholm Kirkegård kan benyttes af alle. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/horsholm/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

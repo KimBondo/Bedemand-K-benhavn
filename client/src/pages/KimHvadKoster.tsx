@@ -36,7 +36,7 @@ export default function KimHvadKoster() {
         title="Hvad koster en begravelse i 2026? Alle udgifter samlet"
         description="Alle udgifter ved en afsked i 2026: bedemand, kremering, gravsted, kapelleje og begravelseshjælp — med officielle takster for København og Nordsjælland."
         url="https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

@@ -24,7 +24,7 @@ export default function KimBisaettelse() {
         title="Bisættelse i København – Bedemand Kim Bondo"
         description="Personlig hjælp til bisættelse i København og Nordsjælland. Kim Bondo tager sig af alt det praktiske. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/bisaettelse/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
 
       <SchemaOrg

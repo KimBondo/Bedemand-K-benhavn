@@ -34,7 +34,7 @@ export default function KimNordsjaelland() {
         title="Bedemand Nordsjælland – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i hele Nordsjælland — fra Gentofte og Lyngby til Hillerød og Helsingør. Faste priser. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/nordsjaelland/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

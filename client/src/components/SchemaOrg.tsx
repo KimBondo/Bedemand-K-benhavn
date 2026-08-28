@@ -88,8 +88,8 @@ const KIM_LOCAL_BUSINESS = {
   "priceRange": "13550-21500",
   "currenciesAccepted": "DKK",
   "paymentAccepted": "Bankoverførsel, MobilePay",
-  "image": `${BASE_URL}/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp`,
-  "logo": `${BASE_URL}/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp`,
+  "image": `${BASE_URL}/images/kim-bondo-bedemand-portraet.webp`,
+  "logo": `${BASE_URL}/images/kim-bondo-bedemand-portraet.webp`,
   "founder": {
     "@type": "Person",
     "name": "Kim Bondo",
@@ -153,7 +153,7 @@ const WEBSITE_SCHEMA = {
     "url": BASE_URL,
     "logo": {
       "@type": "ImageObject",
-      "url": `${BASE_URL}/images/kim-bondo-portrait-neutral-bg_dfb527d8.webp`
+      "url": `${BASE_URL}/images/kim-bondo-bedemand-portraet.webp`
     },
     "contactPoint": {
       "@type": "ContactPoint",

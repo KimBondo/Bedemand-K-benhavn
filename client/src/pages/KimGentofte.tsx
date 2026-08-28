@@ -33,7 +33,7 @@ export default function KimGentofte() {
         title="Bedemand Gentofte – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Gentofte, Hellerup, Charlottenlund og Vangede. Ceremoni i Mariebjergs kapeller. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/gentofte/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

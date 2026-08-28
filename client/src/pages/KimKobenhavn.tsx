@@ -35,7 +35,7 @@ export default function KimKobenhavn() {
         title="Bedemand København – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i hele København. Faste priser, ingen mellemled, og jeg kører selv ud — også om natten. Ring 22 21 14 37."
         url="https://www.bedemandkobenhavn.dk/kobenhavn/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

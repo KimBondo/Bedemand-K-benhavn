@@ -34,7 +34,7 @@ export default function KimFrederiksberg() {
         title="Bedemand Frederiksberg – Kim Bondo"
         description="Personlig bedemand på Frederiksberg. Søndermark Krematorium og kommunens tre kirkegårde. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/frederiksberg/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

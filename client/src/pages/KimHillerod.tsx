@@ -33,7 +33,7 @@ export default function KimHillerod() {
         title="Bedemand Hillerød – Kim Bondo, døgnet rundt"
         description="Personlig bedemand i Hillerød og omegn. Nordsjællands eneste krematorium ligger her. Faste priser. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/hillerod/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

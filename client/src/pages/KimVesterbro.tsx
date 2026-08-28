@@ -34,7 +34,7 @@ export default function KimVesterbro() {
         title="Bedemand Vesterbro – Kim Bondo, døgnet rundt"
         description="Personlig bedemand på Vesterbro og i Kgs. Enghave. Vestre Kirkegård og Nordre Kapel ligger i bydelen. Faste priser. Ring 22 21 14 37 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/vesterbro/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"

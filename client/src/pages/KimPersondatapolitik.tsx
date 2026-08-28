@@ -27,7 +27,7 @@ export default function KimPersondatapolitik() {
         title="Persondatapolitik – Bedemand Kim Bondo"
         description="Sådan behandler Bedemand København ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR."
         url="https://www.bedemandkobenhavn.dk/persondatapolitik/"
-        image="/images/kim-beach-solo_609d5ab7.webp"
+        image="/images/kim-bondo-rustvogn-kyst.webp"
       />
 
       {/* ── HEADER ── */}
