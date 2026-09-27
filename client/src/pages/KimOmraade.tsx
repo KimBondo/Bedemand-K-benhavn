@@ -172,7 +172,7 @@ export default function KimOmraade() {
               { label: "Bedemand Gentofte", href: "/gentofte/" },
               { label: "Bedemand Lyngby", href: "/lyngby/" },
               { label: "Bedemand Hillerød", href: "/hillerod/" },
-              { label: "Bedemand København", href: "/kobenhavn/" },
+              { label: "Bedemand København", href: "/" },
               { label: "Bedemand Nordsjælland", href: "/nordsjaelland/" },
               { label: "Bedemand Frederiksberg", href: "/frederiksberg/" },
               { label: "Bedemand Amager", href: "/amager/" },

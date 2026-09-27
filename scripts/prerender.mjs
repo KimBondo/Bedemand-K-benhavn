@@ -41,7 +41,6 @@ const ROUTES = [
   "/gentofte",
   "/lyngby",
   "/hillerod",
-  "/kobenhavn",
   "/faq",
   "/nordsjaelland",
   "/frederiksberg",
@@ -56,7 +55,7 @@ const ROUTES = [
 
 const ROUTE_META = {
   "/": {
-    title: "Bedemand Kim Bondo \u2013 K\u00f8benhavn og Nordsj\u00e6lland",
+    title: "Bedemand K\u00f8benhavn \u2013 Kim Bondo, personlig bedemand d\u00f8gnet rundt",
     description: "Personlig bedemand med n\u00e6rv\u00e6r og ro. Bis\u00e6ttelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/afsked-uden-ceremoni": {
@@ -73,7 +72,7 @@ const ROUTE_META = {
   },
   "/askespredning": {
     title: "Askespredning \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Askespredning til s\u00f8s eller p\u00e5 land i Danmark. Kim Bondo hj\u00e6lper med tilladelse og ceremoni. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Askespredning over \u00e5bent hav. Kim Bondo hj\u00e6lper med tro og love-erkl\u00e6ring, papirer og det praktiske. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/begravelse": {
     title: "Begravelse i K\u00f8benhavn \u2013 Bedemand Kim Bondo",
@@ -126,10 +125,6 @@ const ROUTE_META = {
   "/kirkelig-afsked": {
     title: "Kirkelig afsked \u2013 Bedemand Kim Bondo",
     description: "Kirkelig begravelse eller bis\u00e6ttelse med pr\u00e6st i K\u00f8benhavn. Jeg koordinerer kirke, kordegn og hele forl\u00f8bet. Ring 22 21 14 37.",
-  },
-  "/kobenhavn": {
-    title: "Bedemand K\u00f8benhavn \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i hele K\u00f8benhavn. Faste priser, ingen mellemled, og jeg k\u00f8rer selv ud \u2014 ogs\u00e5 om natten. Ring 22 21 14 37.",
   },
   "/lyngby": {
     title: "Bedemand Lyngby \u2013 Kim Bondo, d\u00f8gnet rundt",

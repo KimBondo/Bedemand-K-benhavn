@@ -2,6 +2,11 @@
 /kim-bondo/*    /:splat    301
 /kim-bondo      /          301
 
+# /kobenhavn/ er lagt sammen med forsiden (27-09-2026). Sidefilen er fjernet,
+# så den forudbyggede side ikke længere vinder over videresendelsen.
+/kobenhavn/     /          301
+/kobenhavn      /          301
+
 # Ingen SPA-fallback: alle rigtige sider er forudbyggede som statisk HTML,
 # så ukendte adresser skal svare 404 (Cloudflare Pages serverer 404.html).
 

@@ -153,7 +153,7 @@ export default function KimPriser() {
             Priser
           </h1>
           <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
-            "Prisgennemsigtighed er ikke et tilbud. Det er en ret."
+            Prisgennemsigtighed er ikke et tilbud. Det er en ret.
           </p>
           <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Ring 22 21 14 37 — hele døgnet
@@ -253,6 +253,9 @@ export default function KimPriser() {
               <li key={i} style={s.li}>{item}</li>
             ))}
           </ul>
+          <p style={{ ...s.small, marginTop: "16px", fontStyle: "italic" }}>
+            Købt som enkeltposter koster det 15.250 kr. Samlet sparer I 1.700 kr.
+          </p>
           <p style={{ ...s.body, marginTop: "16px" }}>
             <strong>Vælger I en anden kiste eller urne, betaler I kun forskellen.</strong>{" "}
             <a href="/produkter/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>
@@ -414,7 +417,7 @@ export default function KimPriser() {
 
 
         {/* ── MIN SIDSTE VILJE ── */}
-        <section style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px" }}>
+        <section id="min-sidste-vilje" style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px" }}>
           <span style={s.label}>Gratis hjemmebesøg</span>
           <h2 style={{ ...s.h2, marginBottom: "16px" }}>Min Sidste Vilje</h2>
           <p style={s.body}>
@@ -441,6 +444,105 @@ export default function KimPriser() {
 
 
       </div>
+
+
+      <footer
+        style={{
+          background: "#2F3E46",
+          color: "#ffffff",
+          textAlign: "center",
+          padding: "80px 32px",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "'Lora', serif",
+            fontWeight: 600,
+            fontSize: "clamp(18px, 2.5vw, 26px)",
+            marginBottom: "16px",
+            letterSpacing: "0.02em",
+          }}
+        >
+          Bedemand København og Nordsjælland
+        </p>
+        <p
+          style={{
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 400,
+            fontSize: "clamp(14px, 1.6vw, 18px)",
+            color: "rgba(255,255,255,0.82)",
+            marginBottom: "16px",
+            letterSpacing: "0.03em",
+          }}
+        >
+          Kim Bondo
+        </p>
+        <p
+          style={{
+            fontSize: "15px",
+            color: "rgba(255,255,255,0.82)",
+            marginBottom: "32px",
+            lineHeight: 1.7,
+          }}
+        >
+          Vandtårnsvej 62A, 2860 Søborg
+        </p>
+        <a
+          href="/#kontakt"
+          style={{
+            display: "inline-block",
+            background: "#3D6B4F",
+            color: "#ffffff",
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 700,
+            fontSize: "clamp(15px, 1.8vw, 18px)",
+            padding: "18px 40px",
+            borderRadius: "3px",
+            textDecoration: "none",
+            letterSpacing: "0.05em",
+            marginBottom: "48px",
+          }}
+        >
+          Kontakt mig
+        </a>
+        <p
+          style={{
+            fontSize: "13px",
+            color: "rgba(255,255,255,0.78)",
+            marginTop: "16px",
+          }}
+        >
+          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
+          <a
+            href="tel:22211437"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Tlf.: 22 21 14 37
+          </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="mailto:kim@bedemandkobenhavn.dk"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            kim@bedemandkobenhavn.dk
+          </a>
+          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Persondatapolitik
+          </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="#cookieindstillinger"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Cookieindstillinger
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }

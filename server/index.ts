@@ -18,7 +18,7 @@ const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 // Per-route meta-data table — title + description injected into raw HTML before React loads
 const ROUTE_META: Record<string, { title: string; description: string; image?: string }> = {
   "/": {
-    title: "Bedemand Kim Bondo – København og Nordsjælland",
+    title: "Bedemand København – Kim Bondo, personlig bedemand døgnet rundt",
     description: "Personlig bedemand med nærvær og ro. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt.",
   },
   "/priser": {
@@ -43,7 +43,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/askespredning": {
     title: "Askespredning i Danmark – Bedemand Kim Bondo",
-    description: "Askespredning til søs eller på land i Danmark. Kim Bondo hjælper med tilladelse, koordinering og en personlig afskedsceremoni.",
+    description: "Askespredning over åbent hav. Kim Bondo hjælper med tro og love-erklæring, papirer og det praktiske. Ring 22 21 14 37 – døgnet rundt.",
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked – Bedemand Kim Bondo",
@@ -88,10 +88,6 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   "/hillerod": {
     title: "Bedemand Hillerød – Kim Bondo | Personlig hjælp i Hillerød",
     description: "Personlig bedemand i Hillerød og omegn. Kim Bondo hjælper med bisættelse og begravelse i Hillerød Kommune. Ring 22 21 14 37.",
-  },
-  "/kobenhavn": {
-    title: "Bedemand København – Kim Bondo | Personlig hjælp i København",
-    description: "Personlig bedemand i København. Kim Bondo hjælper med bisættelse og begravelse i hele Københavns Kommune. Ring 22 21 14 37.",
   },
   "/faq": {
     title: "Ofte stillede spørgsmål – Bedemand Kim Bondo",

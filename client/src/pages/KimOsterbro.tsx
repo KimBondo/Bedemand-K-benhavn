@@ -215,7 +215,7 @@ export default function KimOsterbro() {
         <p style={s.label}>Se også</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Bedemand København", href: "/kobenhavn/" },
+            { label: "Bedemand København", href: "/" },
             { label: "Bedemand Frederiksberg", href: "/frederiksberg/" },
             { label: "Bedemand Amager", href: "/amager/" },
             { label: "Bedemand Gentofte", href: "/gentofte/" },
@@ -281,7 +281,22 @@ export default function KimOsterbro() {
           eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
         </p>
         <p style={{ marginTop: "48px", fontFamily: "'Open Sans', sans-serif", fontSize: "12px", color: "rgba(255,255,255,0.78)" }}>
-          © {new Date().getFullYear()} Kim Bondo – Bedemand Østerbro &nbsp;·&nbsp;
+          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
+          <a
+            href="tel:22211437"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Tlf.: 22 21 14 37
+          </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="mailto:kim@bedemandkobenhavn.dk"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            kim@bedemandkobenhavn.dk
+          </a>
+          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp;{" "}
           <a href="/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Forsiden</a>
           &nbsp;·&nbsp;
           <a href="/omraade/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Dækningsområde</a>
