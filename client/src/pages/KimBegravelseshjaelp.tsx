@@ -127,7 +127,7 @@ export default function KimBegravelseshjaelp() {
           <p style={s.label}>Betingelser</p>
           <h2 style={s.h2}>Hvem kan søge begravelseshjælp?</h2>
           <p style={s.body}>
-            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. Var afdøde født før 1. april 1957, udbetales der altid mindst 1.050 kr. – uanset formue. For øvrige afhænger tilskuddet af formuen på tidspunktet for dødsfaldet.
+            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. Var afdøde født før 1. april 1957, udbetales der altid mindst 1.050 kr. – uanset formue. For øvrige afhænger tilskuddet af afdødes formue på tidspunktet for dødsfaldet.
           </p>
           <p style={s.body}>
             Begravelseshjælpen søges via Udbetaling Danmark. Jeg hjælper med ansøgningen som en del af mit arbejde, så I ikke selv skal stå med det i en svær tid.
