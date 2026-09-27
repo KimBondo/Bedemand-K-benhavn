@@ -28,7 +28,7 @@ const FAQ_SECTIONS = [
       { q: "Hvad laver en bedemand?", a: "En bedemand hjælper de pårørende med alt det praktiske i forbindelse med et dødsfald — fra afhentning af afdøde, koordinering med kirke, krematorium og myndigheder, til valg af kiste eller urne og planlægning af ceremonien. Jeg er med jer hele vejen.", link: null },
       { q: "Hvornår skal jeg kontakte en bedemand?", a: "Du kan kontakte mig, så snart du har behov — enten umiddelbart efter dødsfaldet eller allerede inden, hvis du ved, at det nærmer sig. Jeg er tilgængelig døgnet rundt på 22 21 14 37.", link: null },
       { q: "Hvad sker der, når jeg ringer til dig?", a: "Jeg tager telefonen personligt. Vi taler om situationen, og jeg guider jer igennem de første skridt. Der er ingen forpligtelse ved at ringe — bare menneskelig kontakt.", link: null },
-      { q: "Kan jeg planlægge begravelsen på forhånd?", a: "Ja. Mange vælger at planlægge deres egen afsked på forhånd, så de pårørende slipper for at træffe svære beslutninger i en svær tid. Med mit gratis hjemmebesøg „Min Sidste Vilje“ kommer jeg hjem til jer og hjælper med at skrive ønskerne ned — uden nogen forpligtelse. Ring til mig, så taler vi om mulighederne.", link: "/priser/#min-sidste-vilje" },
+      { q: "Kan jeg planlægge begravelsen på forhånd?", a: "Ja. Mange vælger at planlægge deres egen afsked på forhånd, så de pårørende slipper for at træffe svære beslutninger i en svær tid. Jeg tilbyder et gratis hjemmebesøg, Min Sidste Vilje, hvor vi skriver jeres ønsker ned – uden forpligtelse. Ring til mig, så taler vi om mulighederne.", link: "/priser/" },
     ],
   },
   {
