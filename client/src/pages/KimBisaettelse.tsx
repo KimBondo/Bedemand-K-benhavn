@@ -554,7 +554,21 @@ export default function KimBisaettelse() {
           </a>
         </p>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
-          © {new Date().getFullYear()} Bedemand København ApS · Kim Bondo · Vandtårnsvej 62A, 2860 Søborg
+          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
+          <a
+            href="tel:22211437"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Tlf.: 22 21 14 37
+          </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="mailto:kim@bedemandkobenhavn.dk"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            kim@bedemandkobenhavn.dk
+          </a>
+          {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/persondatapolitik/"

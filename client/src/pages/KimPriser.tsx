@@ -444,6 +444,105 @@ export default function KimPriser() {
 
 
       </div>
+
+
+      <footer
+        style={{
+          background: "#2F3E46",
+          color: "#ffffff",
+          textAlign: "center",
+          padding: "80px 32px",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "'Lora', serif",
+            fontWeight: 600,
+            fontSize: "clamp(18px, 2.5vw, 26px)",
+            marginBottom: "16px",
+            letterSpacing: "0.02em",
+          }}
+        >
+          Bedemand København og Nordsjælland
+        </p>
+        <p
+          style={{
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 400,
+            fontSize: "clamp(14px, 1.6vw, 18px)",
+            color: "rgba(255,255,255,0.82)",
+            marginBottom: "16px",
+            letterSpacing: "0.03em",
+          }}
+        >
+          Kim Bondo
+        </p>
+        <p
+          style={{
+            fontSize: "15px",
+            color: "rgba(255,255,255,0.82)",
+            marginBottom: "32px",
+            lineHeight: 1.7,
+          }}
+        >
+          Vandtårnsvej 62A, 2860 Søborg
+        </p>
+        <a
+          href="/#kontakt"
+          style={{
+            display: "inline-block",
+            background: "#3D6B4F",
+            color: "#ffffff",
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 700,
+            fontSize: "clamp(15px, 1.8vw, 18px)",
+            padding: "18px 40px",
+            borderRadius: "3px",
+            textDecoration: "none",
+            letterSpacing: "0.05em",
+            marginBottom: "48px",
+          }}
+        >
+          Kontakt mig
+        </a>
+        <p
+          style={{
+            fontSize: "13px",
+            color: "rgba(255,255,255,0.78)",
+            marginTop: "16px",
+          }}
+        >
+          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
+          <a
+            href="tel:22211437"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Tlf.: 22 21 14 37
+          </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="mailto:kim@bedemandkobenhavn.dk"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            kim@bedemandkobenhavn.dk
+          </a>
+          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="/persondatapolitik/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Persondatapolitik
+          </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="#cookieindstillinger"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Cookieindstillinger
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
