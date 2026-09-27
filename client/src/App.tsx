@@ -25,7 +25,6 @@ const KimHorsholm = lazy(() => import("./pages/KimHorsholm"));
 const KimGentofte = lazy(() => import("./pages/KimGentofte"));
 const KimLyngby = lazy(() => import("./pages/KimLyngby"));
 const KimHillerod = lazy(() => import("./pages/KimHillerod"));
-const KimKobenhavn = lazy(() => import("./pages/KimKobenhavn"));
 const KimFaq = lazy(() => import("./pages/KimFaq"));
 const KimNordsjaelland = lazy(() => import("./pages/KimNordsjaelland"));
 const KimFrederiksberg = lazy(() => import("./pages/KimFrederiksberg"));
@@ -60,7 +59,6 @@ function AppRouter() {
       <Route path={"/gentofte"} component={KimGentofte} />
       <Route path={"/lyngby"} component={KimLyngby} />
       <Route path={"/hillerod"} component={KimHillerod} />
-      <Route path={"/kobenhavn"} component={KimKobenhavn} />
       <Route path={"/faq"} component={KimFaq} />
       <Route path={"/nordsjaelland"} component={KimNordsjaelland} />
       <Route path={"/frederiksberg"} component={KimFrederiksberg} />

@@ -21,7 +21,7 @@ export default function KimAskespredning() {
     >
       <SEO
         title="Askespredning – Bedemand Kim Bondo, København"
-        description="Askespredning til søs eller på land i Danmark. Kim Bondo hjælper med tilladelse og ceremoni. Ring 22 21 14 37 – døgnet rundt."
+        description="Askespredning over åbent hav. Kim Bondo hjælper med tro og love-erklæring, papirer og det praktiske. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/askespredning/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -196,7 +196,7 @@ export default function KimAskespredning() {
           Hvad koster askespredning?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          Prisen afhænger af, om der ønskes en ceremoni inden kremeringen, og hvilken kiste og urne I vælger. En afsked uden ceremoni med efterfølgende askespredning starter fra <strong>13.550 kr.</strong> Kremering og gravsted kommer oveni – jeg hjælper med at indhente tilbud og holde overblikket.
+          Prisen afhænger af, om der ønskes en ceremoni inden kremeringen, og hvilken kiste og urne I vælger. En afsked uden ceremoni med efterfølgende askespredning starter fra <strong>13.550 kr.</strong> Kremering kommer oveni – jeg hjælper med at indhente tilbud og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
@@ -257,7 +257,21 @@ export default function KimAskespredning() {
           <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>22 21 14 37</a>
         </p>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
-          © {new Date().getFullYear()} Bedemand København ApS · Kim Bondo · Vandtårnsvej 62A, 2860 Søborg
+          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
+          <a
+            href="tel:22211437"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Tlf.: 22 21 14 37
+          </a>
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="mailto:kim@bedemandkobenhavn.dk"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            kim@bedemandkobenhavn.dk
+          </a>
+          {" "}&nbsp;·&nbsp; CVR.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/persondatapolitik/"

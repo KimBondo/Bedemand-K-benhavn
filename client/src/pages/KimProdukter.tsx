@@ -42,7 +42,7 @@ const KISTER = [
     imgH: 1366,
     alt: "Basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
     description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse, og den indgår i bisættelsespakken. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
-    use: "bisættelse" as const,
+    use: "begge" as const,
   },
   {
     id: "klassisk-hvid",
@@ -63,7 +63,7 @@ const KISTER = [
     imgW: 2048,
     imgH: 1365,
     alt: "Gaia kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse og begravelse",
-    description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og kisten har et markant lavere klimaaftryk end en traditionel hvid kiste. Både til bisættelse og begravelse.",
+    description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og træet binder CO2, mens det vokser. Både til bisættelse og begravelse.",
     use: "begge" as const,
   },
   {

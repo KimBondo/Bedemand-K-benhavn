@@ -127,7 +127,7 @@ export default function KimBegravelseshjaelp() {
           <p style={s.label}>Betingelser</p>
           <h2 style={s.h2}>Hvem kan søge begravelseshjælp?</h2>
           <p style={s.body}>
-            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. For afdøde født før 1. april 1957 udbetales hjælpen uanset formue. For øvrige afhænger tilskuddet af afdødes formue på tidspunktet for dødsfaldet.
+            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. Var afdøde født før 1. april 1957, udbetales der altid mindst 1.050 kr. – uanset formue. For øvrige afhænger tilskuddet af formuen på tidspunktet for dødsfaldet.
           </p>
           <p style={s.body}>
             Begravelseshjælpen søges via Udbetaling Danmark. Jeg hjælper med ansøgningen som en del af mit arbejde, så I ikke selv skal stå med det i en svær tid.
@@ -156,7 +156,7 @@ export default function KimBegravelseshjaelp() {
           <h2 style={s.h2}>Spørgsmål om begravelseshjælp</h2>
           {[
             { q: "Søger jeg selv, eller hjælper Kim med det?", a: "Jeg hjælper med ansøgningen som en del af mit arbejde. I behøver ikke selv stå med det." },
-            { q: "Hvornår udbetales begravelseshjælpen?", a: "Begravelseshjælpen udbetales typisk direkte til den person, der har bestilt og betalt for begravelsen, efter at ansøgningen er behandlet af Udbetaling Danmark." },
+            { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I giver mig fuldmagt, søger jeg hjælpen for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark behandler normalt ansøgningen inden for få uger." },
             { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Begravelseshjælpen reduceres eller bortfalder, hvis afdødes formue overstiger et vist beløb. Var afdøde født før 1. april 1957, udbetales minimumstilskuddet på 1.050 kr. dog altid — uanset formue." },
             { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring — ikke om vedkommende var lønmodtager eller selvstændig." },
             { q: "Er der andre tilskud end det offentlige?", a: "Ja. Er afdøde eller den efterlevende ægtefælle/samlever medlem af Sygeforsikring 'danmark' gruppe 1 eller 2, kan der søges om op til 1.400 kr. Enkelte fagforeninger har også begravelseshjælp." },

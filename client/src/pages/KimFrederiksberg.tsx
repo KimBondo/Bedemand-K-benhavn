@@ -156,7 +156,7 @@ export default function KimFrederiksberg() {
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Frederiksberg Kirke eller Solbjerg Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — salene på Søndermark kan indrettes helt uden religiøse symboler.", href: "/borgerlig-afsked/" },
-              { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg står for tilladelser og papirarbejde.", href: "/askespredning/" },
+              { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg hjælper med tro og love-erklæringen og det praktiske.", href: "/askespredning/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
@@ -215,7 +215,7 @@ export default function KimFrederiksberg() {
         <p style={s.label}>Se også</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
-            { label: "Bedemand København", href: "/kobenhavn/" },
+            { label: "Bedemand København", href: "/" },
             { label: "Bedemand Gentofte", href: "/gentofte/" },
             { label: "Bedemand Lyngby", href: "/lyngby/" },
             { label: "Bedemand Nordsjælland", href: "/nordsjaelland/" },

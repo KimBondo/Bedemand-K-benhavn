@@ -31,7 +31,6 @@ import KimHorsholm from "./pages/KimHorsholm";
 import KimGentofte from "./pages/KimGentofte";
 import KimLyngby from "./pages/KimLyngby";
 import KimHillerod from "./pages/KimHillerod";
-import KimKobenhavn from "./pages/KimKobenhavn";
 import KimFaq from "./pages/KimFaq";
 import KimNordsjaelland from "./pages/KimNordsjaelland";
 import KimFrederiksberg from "./pages/KimFrederiksberg";
@@ -68,7 +67,6 @@ function SSRApp() {
             <Route path={"/gentofte"} component={KimGentofte} />
             <Route path={"/lyngby"} component={KimLyngby} />
             <Route path={"/hillerod"} component={KimHillerod} />
-            <Route path={"/kobenhavn"} component={KimKobenhavn} />
             <Route path={"/faq"} component={KimFaq} />
             <Route path={"/nordsjaelland"} component={KimNordsjaelland} />
             <Route path={"/frederiksberg"} component={KimFrederiksberg} />

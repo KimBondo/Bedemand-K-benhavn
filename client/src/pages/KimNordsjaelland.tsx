@@ -257,7 +257,7 @@ export default function KimNordsjaelland() {
             { label: "Bedemand Hillerød", href: "/hillerod/" },
             { label: "Bedemand Hørsholm", href: "/horsholm/" },
             { label: "Bedemand Lyngby", href: "/lyngby/" },
-            { label: "Bedemand København", href: "/kobenhavn/" },
+            { label: "Bedemand København", href: "/" },
             { label: "Dækningsområde", href: "/omraade/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>

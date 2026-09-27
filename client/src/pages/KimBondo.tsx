@@ -50,7 +50,7 @@ export default function KimBondo() {
       }}
     >
       <SEO
-        title="Bedemand Kim Bondo – København og Nordsjælland"
+        title="Bedemand København – Kim Bondo, personlig bedemand døgnet rundt"
         description="Personlig bedemand med nærvær og ro. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
@@ -155,7 +155,7 @@ export default function KimBondo() {
               letterSpacing: "0.01em",
             }}
           >
-            En personlig afsked i trygge hænder
+            Bedemand København – en personlig afsked i trygge hænder
           </h1>
           <p
             style={{
@@ -351,7 +351,7 @@ export default function KimBondo() {
               marginBottom: "20px",
             }}
           >
-            Jeg garanterer en fuldstændig tryg og sikker afvikling af alt det praktiske. Jeg har altid helt styr på drejebogen, rustvognskørslen og den præcise koordinering med myndigheder, kirker, kapeller og krematorier. Alt det praktiske glider lydløst i baggrunden, så I roligt kan sænke skuldrene.
+            Jeg sørger for en tryg og sikker afvikling af alt det praktiske. Jeg har altid helt styr på drejebogen, rustvognskørslen og den præcise koordinering med myndigheder, kirker, kapeller og krematorier. Alt det praktiske glider lydløst i baggrunden, så I roligt kan sænke skuldrene.
           </p>
           <h3
             style={{
@@ -396,7 +396,7 @@ export default function KimBondo() {
               color: "#3d5260",
             }}
           >
-            Som en naturlig del af mit virke tilbyder jeg kister produceret i Danmark – de fleste med meget lavt klimaaftryk. Det giver jer mulighed for at vælge en afsked, der er smuk og lokal, og som samtidig tager hensyn til den natur, vi er en del af.
+            Som en naturlig del af mit virke tilbyder jeg også kister i lette og bæredygtige materialer, som tager hensyn til den natur, vi er en del af. Det giver jer mulighed for at vælge en afsked, der er både smuk og enkel.
           </p>
         </div>
       </section>
@@ -465,7 +465,7 @@ export default function KimBondo() {
               lineHeight: 1.3,
             }}
           >
-            Vores 3 priseksempler
+            Mine tre priseksempler
           </h2>
 
           <div

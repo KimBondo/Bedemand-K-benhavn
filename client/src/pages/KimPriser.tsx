@@ -153,7 +153,7 @@ export default function KimPriser() {
             Priser
           </h1>
           <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
-            "Prisgennemsigtighed er ikke et tilbud. Det er en ret."
+            Prisgennemsigtighed er ikke et tilbud. Det er en ret.
           </p>
           <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Ring 22 21 14 37 — hele døgnet
@@ -253,6 +253,9 @@ export default function KimPriser() {
               <li key={i} style={s.li}>{item}</li>
             ))}
           </ul>
+          <p style={{ ...s.small, marginTop: "16px", fontStyle: "italic" }}>
+            Købt som enkeltposter koster det 15.250 kr. Samlet sparer I 1.700 kr.
+          </p>
           <p style={{ ...s.body, marginTop: "16px" }}>
             <strong>Vælger I en anden kiste eller urne, betaler I kun forskellen.</strong>{" "}
             <a href="/produkter/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>
@@ -414,7 +417,7 @@ export default function KimPriser() {
 
 
         {/* ── MIN SIDSTE VILJE ── */}
-        <section style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px" }}>
+        <section id="min-sidste-vilje" style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px" }}>
           <span style={s.label}>Gratis hjemmebesøg</span>
           <h2 style={{ ...s.h2, marginBottom: "16px" }}>Min Sidste Vilje</h2>
           <p style={s.body}>
