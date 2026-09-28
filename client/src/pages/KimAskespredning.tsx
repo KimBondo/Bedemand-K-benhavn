@@ -28,6 +28,7 @@ export default function KimAskespredning() {
 
       <SchemaOrg
         type="both"
+        article={{ headline: "Askespredning over havet – en fri og naturlig afsked", url: "https://www.bedemandkobenhavn.dk/askespredning/", dateModified: "2026-09-28" }}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Askespredning", url: "https://www.bedemandkobenhavn.dk/askespredning/" }
@@ -104,6 +105,9 @@ export default function KimAskespredning() {
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, marginBottom: "24px", maxWidth: "700px", margin: "0 auto 24px" }}>
           Askespredning over havet – en fri og naturlig afsked
         </h1>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "-8px auto 24px", letterSpacing: "0.02em" }}>
+          Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
+        </p>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
           For dem der ønsker en afsked i forbundenhed med naturen og havet. Jeg hjælper med alt det praktiske – regler, dokumentation og koordinering – så I kan fokusere på at sige farvel.
         </p>

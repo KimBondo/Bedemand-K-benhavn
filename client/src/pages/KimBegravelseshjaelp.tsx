@@ -19,6 +19,14 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" },
 };
 
+const FAQ = [
+  { q: "Søger jeg selv, eller hjælper Kim med det?", a: "Jeg hjælper med ansøgningen som en del af mit arbejde. I behøver ikke selv stå med det." },
+  { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I giver mig fuldmagt, søger jeg hjælpen for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark behandler normalt ansøgningen inden for få uger." },
+  { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Begravelseshjælpen reduceres eller bortfalder, hvis afdødes formue overstiger et vist beløb. Var afdøde født før 1. april 1957, udbetales minimumstilskuddet på 1.050 kr. dog altid — uanset formue." },
+  { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring — ikke om vedkommende var lønmodtager eller selvstændig." },
+  { q: "Er der andre tilskud end det offentlige?", a: "Ja. Er afdøde eller den efterlevende ægtefælle/samlever medlem af Sygeforsikring 'danmark' gruppe 1 eller 2, kan der søges om op til 1.400 kr. Enkelte fagforeninger har også begravelseshjælp." },
+];
+
 export default function KimBegravelseshjaelp() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
@@ -31,6 +39,8 @@ export default function KimBegravelseshjaelp() {
 
       <SchemaOrg
         type="both"
+        faqItems={FAQ.map((f) => ({ question: f.q, answer: f.a }))}
+        article={{ headline: "Begravelseshjælp — hvad kan I søge?", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/", dateModified: "2026-09-28" }}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Begravelseshjælp", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/" }
@@ -83,6 +93,9 @@ export default function KimBegravelseshjaelp() {
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
           Begravelseshjælp — hvad kan I søge?
         </h1>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "-8px auto 24px", letterSpacing: "0.02em" }}>
+          Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
+        </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           En begravelse eller bisættelse koster penge — og mange ved ikke, at der kan søges offentlig støtte. Jeg hjælper med ansøgningen som en del af mit arbejde.
         </p>
@@ -154,13 +167,7 @@ export default function KimBegravelseshjaelp() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Ofte stillede spørgsmål</p>
           <h2 style={s.h2}>Spørgsmål om begravelseshjælp</h2>
-          {[
-            { q: "Søger jeg selv, eller hjælper Kim med det?", a: "Jeg hjælper med ansøgningen som en del af mit arbejde. I behøver ikke selv stå med det." },
-            { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I giver mig fuldmagt, søger jeg hjælpen for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark behandler normalt ansøgningen inden for få uger." },
-            { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Begravelseshjælpen reduceres eller bortfalder, hvis afdødes formue overstiger et vist beløb. Var afdøde født før 1. april 1957, udbetales minimumstilskuddet på 1.050 kr. dog altid — uanset formue." },
-            { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring — ikke om vedkommende var lønmodtager eller selvstændig." },
-            { q: "Er der andre tilskud end det offentlige?", a: "Ja. Er afdøde eller den efterlevende ægtefælle/samlever medlem af Sygeforsikring 'danmark' gruppe 1 eller 2, kan der søges om op til 1.400 kr. Enkelte fagforeninger har også begravelseshjælp." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
               <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>

@@ -37,6 +37,8 @@ export default function KimHillerod() {
       />
       <SchemaOrg
         type="both"
+        areaServed={["Hillerød"]}
+        pageUrl="https://www.bedemandkobenhavn.dk/hillerod/"
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },

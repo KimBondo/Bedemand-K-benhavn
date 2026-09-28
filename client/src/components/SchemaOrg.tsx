@@ -30,8 +30,20 @@ export interface ProductItem {
   sku: string;
 }
 
+export interface ArticleInfo {
+  headline: string;
+  url: string;
+  dateModified: string;
+}
+
 interface SchemaOrgProps {
-  type: "LocalBusiness" | "FAQPage" | "both" | "WebSite" | "ItemList";
+  type: "LocalBusiness" | "FAQPage" | "both" | "WebSite" | "ItemList" | "BreadcrumbList";
+  /** Områdesider: det konkrete område, siden handler om (erstatter det generelle serviceområde). */
+  areaServed?: string[];
+  /** Vejledende sider: overskrift og dato for seneste opdatering (vises også synligt på siden). */
+  article?: ArticleInfo;
+  /** Prissiden: de tre pakker som selvstændigt OfferCatalog. */
+  priceOffers?: boolean;
   faqItems?: FAQItem[];
   breadcrumbs?: BreadcrumbItem[];
   services?: ServiceItem[];
@@ -41,17 +53,57 @@ interface SchemaOrgProps {
 
 const BASE_URL = "https://www.bedemandkobenhavn.dk";
 
+const KIM_PERSON_ID = `${BASE_URL}/om-kim/#kim-bondo`;
+
+/** De tre pakker – navne, beskrivelser og priser svarer ordret til /priser/. */
+const PRICE_OFFERS = [
+  {
+    "@type": "Offer",
+    "name": "Den enkle bisættelse",
+    "description": "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage.",
+    "price": "19500",
+    "priceCurrency": "DKK",
+    "url": `${BASE_URL}/priser/`,
+    "itemOffered": { "@type": "Service", "name": "Bisættelse" }
+  },
+  {
+    "@type": "Offer",
+    "name": "Den enkle begravelse",
+    "description": "Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage.",
+    "price": "21500",
+    "priceCurrency": "DKK",
+    "url": `${BASE_URL}/priser/`,
+    "itemOffered": { "@type": "Service", "name": "Begravelse" }
+  },
+  {
+    "@type": "Offer",
+    "name": "Afsked uden ceremoni",
+    "description": "Afdøde køres direkte til krematoriet uden forudgående højtidelighed.",
+    "price": "13550",
+    "priceCurrency": "DKK",
+    "url": `${BASE_URL}/priser/`,
+    "itemOffered": { "@type": "Service", "name": "Afsked uden ceremoni" }
+  }
+];
+
 const KIM_LOCAL_BUSINESS = {
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "FuneralHome"],
+  "@type": "FuneralHome",
   "@id": `${BASE_URL}/#business`,
-  "name": "Kim Bondo – Bedemand København",
-  "alternateName": "Bedemand Kim Bondo",
+  "name": "Bedemand København",
+  "alternateName": ["Bedemand Kim Bondo", "Bedemand København ApS"],
+  "legalName": "Bedemand København ApS",
   "description": "Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra 19.500 kr., begravelse fra 21.500 kr.",
   "url": BASE_URL,
   "telephone": "+4522211437",
   "email": "kim@bedemandkobenhavn.dk",
   "vatID": "DK45084159",
+  "taxID": "45084159",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "CVR",
+    "value": "45084159"
+  },
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Vandtårnsvej 62A",
@@ -66,17 +118,7 @@ const KIM_LOCAL_BUSINESS = {
     "longitude": 12.5011
   },
   "areaServed": [
-    { "@type": "City", "name": "København" },
-    { "@type": "City", "name": "Frederiksberg" },
-    { "@type": "City", "name": "Gentofte" },
-    { "@type": "City", "name": "Lyngby-Taarbæk" },
-    { "@type": "City", "name": "Helsingør" },
-    { "@type": "City", "name": "Hillerød" },
-    { "@type": "City", "name": "Hørsholm" },
-    { "@type": "City", "name": "Nørrebro" },
-    { "@type": "City", "name": "Østerbro" },
-    { "@type": "City", "name": "Vesterbro" },
-    { "@type": "City", "name": "Amager" },
+    { "@type": "AdministrativeArea", "name": "København" },
     { "@type": "AdministrativeArea", "name": "Nordsjælland" }
   ],
   "openingHoursSpecification": {
@@ -92,45 +134,15 @@ const KIM_LOCAL_BUSINESS = {
   "logo": `${BASE_URL}/images/kim-bondo-bedemand-portraet.webp`,
   "founder": {
     "@type": "Person",
+    "@id": KIM_PERSON_ID,
     "name": "Kim Bondo",
-    "telephone": "+4522211437",
-    "email": "kim@bedemandkobenhavn.dk"
+    "jobTitle": "Bedemand",
+    "url": `${BASE_URL}/om-kim/`
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Begravelsesydelser",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Enkel bisættelse",
-          "description": "Komplet bisættelse med koordinering, klargøring og rustvognskørsel."
-        },
-        "price": "19500",
-        "priceCurrency": "DKK"
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Enkel begravelse",
-          "description": "Komplet begravelse med koordinering, klargøring, rustvognskørsel og kistenedsættelse."
-        },
-        "price": "21500",
-        "priceCurrency": "DKK"
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Afsked uden ceremoni",
-          "description": "Stille afsked uden ceremoni. Kremering og urnenedsættelse afregnes til kommunen."
-        },
-        "price": "13550",
-        "priceCurrency": "DKK"
-      }
-    ]
+    "name": "Priser",
+    "itemListElement": PRICE_OFFERS
   },
   "sameAs": [
     "https://www.facebook.com/bedemandkobenhavn",
@@ -165,7 +177,7 @@ const WEBSITE_SCHEMA = {
   }
 };
 
-export default function SchemaOrg({ type, faqItems, breadcrumbs, services, products, pageUrl }: SchemaOrgProps) {
+export default function SchemaOrg({ type, faqItems, breadcrumbs, services, products, pageUrl, areaServed, article, priceOffers }: SchemaOrgProps) {
   const schemas: object[] = [];
 
   if (type === "WebSite") {
@@ -173,7 +185,51 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
   }
 
   if (type === "LocalBusiness" || type === "both") {
-    schemas.push(KIM_LOCAL_BUSINESS);
+    if (areaServed && areaServed.length > 0) {
+      // Områdeside: samme virksomhed, men med det konkrete område som serviceområde.
+      const { hasOfferCatalog: _katalog, ...virksomhed } = KIM_LOCAL_BUSINESS;
+      schemas.push({
+        ...virksomhed,
+        "@id": `${pageUrl ?? BASE_URL}#funeralhome`,
+        "parentOrganization": { "@id": `${BASE_URL}/#business` },
+        ...(pageUrl ? { "url": pageUrl } : {}),
+        "areaServed": areaServed.map((navn) => ({ "@type": "Place", "name": navn })),
+      });
+    } else {
+      schemas.push(KIM_LOCAL_BUSINESS);
+    }
+  }
+
+  if (priceOffers) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "OfferCatalog",
+      "@id": `${BASE_URL}/priser/#pakker`,
+      "name": "De tre forløb",
+      "url": `${BASE_URL}/priser/`,
+      "provider": { "@id": `${BASE_URL}/#business` },
+      "itemListElement": PRICE_OFFERS,
+    });
+  }
+
+  if (article) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": article.headline,
+      "url": article.url,
+      "mainEntityOfPage": article.url,
+      "inLanguage": "da-DK",
+      "dateModified": article.dateModified,
+      "author": {
+        "@type": "Person",
+        "@id": KIM_PERSON_ID,
+        "name": "Kim Bondo",
+        "jobTitle": "Bedemand",
+        "url": `${BASE_URL}/om-kim/`
+      },
+      "publisher": { "@id": `${BASE_URL}/#business` },
+    });
   }
 
   if ((type === "FAQPage" || type === "both") && faqItems && faqItems.length > 0) {

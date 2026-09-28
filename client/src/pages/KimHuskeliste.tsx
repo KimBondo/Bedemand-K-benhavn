@@ -20,6 +20,13 @@ const s = {
   stepNum: { fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "48px", color: "#e0dcd6", lineHeight: 1, marginBottom: "8px" },
 };
 
+const FAQ = [
+  { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Herefter kan jeg kontaktes, og jeg hjælper med anmeldelse til myndighederne og den videre planlægning." },
+  { q: "Hvem har ansvaret for at planlægge begravelsen?", a: "Det er den person, der bestiller begravelsen, der har det juridiske ansvar for planlægningen og betalingen. Oftest er det den nærmeste pårørende." },
+  { q: "Hvad hjælper Kim med?", a: "Jeg hjælper med anmeldelse af dødsfaldet, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning — så I kan bruge energien på hinanden." },
+  { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen. Læs mere på siden om begravelseshjælp." },
+];
+
 export default function KimHuskeliste() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
@@ -32,9 +39,11 @@ export default function KimHuskeliste() {
 
       <SchemaOrg
         type="both"
+        faqItems={FAQ.map((f) => ({ question: f.q, answer: f.a }))}
+        article={{ headline: "Huskeliste ved dødsfald", url: "https://www.bedemandkobenhavn.dk/huskeliste/", dateModified: "2026-09-28" }}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
-          { name: "Huskeliste", url: "https://bedemandkobenhavn.dk/huskeliste" }
+          { name: "Huskeliste", url: "https://www.bedemandkobenhavn.dk/huskeliste/" }
         ]}
       />
       {/* ── HEADER ── */}
@@ -84,6 +93,9 @@ export default function KimHuskeliste() {
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
           Huskeliste ved dødsfald
         </h1>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "-8px auto 24px", letterSpacing: "0.02em" }}>
+          Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
+        </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Når man mister en nærtstående, fylder sorgen meget — og alligevel er der en række praktiske ting, der skal ordnes. Her er et overblik over de vigtigste skridt, og hvad jeg hjælper med.
         </p>
@@ -225,12 +237,7 @@ export default function KimHuskeliste() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Ofte stillede spørgsmål</p>
           <h2 style={s.h2}>Spørgsmål om hvad der sker ved dødsfald</h2>
-          {[
-            { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Herefter kan jeg kontaktes, og jeg hjælper med anmeldelse til myndighederne og den videre planlægning." },
-            { q: "Hvem har ansvaret for at planlægge begravelsen?", a: "Det er den person, der bestiller begravelsen, der har det juridiske ansvar for planlægningen og betalingen. Oftest er det den nærmeste pårørende." },
-            { q: "Hvad hjælper Kim med?", a: "Jeg hjælper med anmeldelse af dødsfaldet, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning — så I kan bruge energien på hinanden." },
-            { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen. Læs mere på siden om begravelseshjælp." },
-          ].map((faq, i) => (
+          {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
               <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>

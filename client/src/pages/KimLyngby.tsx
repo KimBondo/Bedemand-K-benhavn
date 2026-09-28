@@ -37,6 +37,8 @@ export default function KimLyngby() {
       />
       <SchemaOrg
         type="both"
+        areaServed={["Lyngby", "Virum", "Sorgenfri", "Taarbæk"]}
+        pageUrl="https://www.bedemandkobenhavn.dk/lyngby/"
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },

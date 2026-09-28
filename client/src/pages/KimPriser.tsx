@@ -98,6 +98,7 @@ export default function KimPriser() {
       />
       <SchemaOrg
         type="both"
+        priceOffers
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Priser", url: "https://www.bedemandkobenhavn.dk/priser/" },
