@@ -40,6 +40,7 @@ export default function KimHvadKoster() {
       />
       <SchemaOrg
         type="both"
+        article={{ headline: "Hvad koster en begravelse eller bisættelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/", dateModified: "2026-09-28" }}
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
@@ -94,6 +95,9 @@ export default function KimHvadKoster() {
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
           Hvad koster en begravelse eller bisættelse?
         </h1>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "-8px auto 24px", letterSpacing: "0.02em" }}>
+          Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
+        </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Det er et af de mest søgte spørgsmål — og et af de sværeste at svare på, fordi prisen afhænger af mange valg. Her får du et ærligt og konkret overblik.
         </p>

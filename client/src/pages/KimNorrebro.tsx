@@ -38,6 +38,8 @@ export default function KimNorrebro() {
       />
       <SchemaOrg
         type="both"
+        areaServed={["Nørrebro"]}
+        pageUrl="https://www.bedemandkobenhavn.dk/norrebro/"
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },

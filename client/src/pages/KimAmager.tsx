@@ -38,6 +38,8 @@ export default function KimAmager() {
       />
       <SchemaOrg
         type="both"
+        areaServed={["Amager", "Tårnby", "Dragør"]}
+        pageUrl="https://www.bedemandkobenhavn.dk/amager/"
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },

@@ -1,4 +1,5 @@
 import SEO from "@/components/SEO";
+import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 
 /**
@@ -28,6 +29,13 @@ export default function KimPersondatapolitik() {
         description="Sådan behandler Bedemand København ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR."
         url="https://www.bedemandkobenhavn.dk/persondatapolitik/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
+      />
+      <SchemaOrg
+        type="BreadcrumbList"
+        breadcrumbs={[
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Persondatapolitik", url: "https://www.bedemandkobenhavn.dk/persondatapolitik/" }
+        ]}
       />
 
       {/* ── HEADER ── */}

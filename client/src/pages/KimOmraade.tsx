@@ -43,7 +43,13 @@ export default function KimOmraade() {
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
 
-      <SchemaOrg type="LocalBusiness" />
+      <SchemaOrg
+        type="LocalBusiness"
+        breadcrumbs={[
+          { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
+          { name: "Områder", url: "https://www.bedemandkobenhavn.dk/omraade/" }
+        ]}
+      />
       {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
 <style>{`

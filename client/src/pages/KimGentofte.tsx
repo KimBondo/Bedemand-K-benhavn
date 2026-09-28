@@ -37,6 +37,8 @@ export default function KimGentofte() {
       />
       <SchemaOrg
         type="both"
+        areaServed={["Gentofte", "Hellerup", "Charlottenlund", "Vangede"]}
+        pageUrl="https://www.bedemandkobenhavn.dk/gentofte/"
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },

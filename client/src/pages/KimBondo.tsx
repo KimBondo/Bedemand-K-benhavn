@@ -55,7 +55,7 @@ export default function KimBondo() {
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
-      <SchemaOrg type="both" />
+      <SchemaOrg type="both" breadcrumbs={[{ name: "Forside", url: "https://www.bedemandkobenhavn.dk/" }]} />
       <SchemaOrg type="WebSite" />
 
       {/* ══════════════════════════════════════════════════════

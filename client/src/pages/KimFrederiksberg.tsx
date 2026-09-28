@@ -38,6 +38,8 @@ export default function KimFrederiksberg() {
       />
       <SchemaOrg
         type="both"
+        areaServed={["Frederiksberg"]}
+        pageUrl="https://www.bedemandkobenhavn.dk/frederiksberg/"
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },

@@ -38,6 +38,8 @@ export default function KimNordsjaelland() {
       />
       <SchemaOrg
         type="both"
+        areaServed={["Nordsjælland"]}
+        pageUrl="https://www.bedemandkobenhavn.dk/nordsjaelland/"
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
