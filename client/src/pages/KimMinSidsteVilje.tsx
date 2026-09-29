@@ -86,6 +86,9 @@ export default function KimMinSidsteVilje() {
           De fleste udskyder samtalen. Men det er en gave til dem, man efterlader, at have taget stilling i forvejen. Jeg hjælper jer gratis og uden forpligtelse.
         </p>
         <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til Kim – 22 21 14 37</a>
+        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a" }}>
+          eller <a href="#hent-dokumentet" style={s.link}>hent dokumentet og udfyld det selv</a>
+        </p>
       </section>
 
       {/* ── SÅDAN FOREGÅR DET ── */}
@@ -130,6 +133,23 @@ export default function KimMinSidsteVilje() {
           <p style={s.body}>
             Vil I vide, hvad en afsked koster, står alle mine priser åbent. <a href="/priser/" style={s.link}>Se mine priser</a>
           </p>
+
+          <div id="hent-dokumentet" style={{ marginTop: "48px", background: "#F4F1EC", borderLeft: "4px solid #3D6B4F", borderRadius: "3px", padding: "28px 28px 32px" }}>
+            <p style={s.label}>Hent dokumentet</p>
+            <h3 style={{ ...s.h3, marginBottom: "12px" }}>Udfyld Min Sidste Vilje selv</h3>
+            <p style={s.body}>
+              Du kan også hente dokumentet og udfylde det i dit eget tempo – direkte på computeren eller printet ud og skrevet i hånden. Udfyld det, du har lyst til, og spring resten over.
+            </p>
+            <p style={s.body}>
+              Dokumentet bliver kun hos dig; det sendes ikke til mig. Gem det et sted, hvor dine nærmeste kan finde det – og tag det gerne frem, hvis vi ses til en samtale.
+            </p>
+            <a href="/dokumenter/min-sidste-vilje.pdf" download="Min-Sidste-Vilje.pdf" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+              Hent Min Sidste Vilje (PDF, 6 sider)
+            </a>
+            <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", marginTop: "14px", marginBottom: 0 }}>
+              Dokumentet beskriver dine ønsker til afskeden. Det er ikke et testamente – ønsker om arv skal skrives i et testamente hos en advokat eller notar.
+            </p>
+          </div>
         </div>
       </section>
 
