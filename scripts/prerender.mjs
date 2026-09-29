@@ -51,6 +51,9 @@ const ROUTES = [
   "/produkter",
   "/om-kim",
   "/persondatapolitik",
+  "/fredensborg",
+  "/rudersdal",
+  "/min-sidste-vilje",
 ];
 
 const ROUTE_META = {
@@ -149,6 +152,18 @@ const ROUTE_META = {
   "/osterbro": {
     title: "Bedemand \u00d8sterbro \u2013 Kim Bondo, d\u00f8gnet rundt",
     description: "Personlig bedemand p\u00e5 \u00d8sterbro. Holmens og Garnisons Kirkeg\u00e5rd ligger i bydelen. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+  },
+  "/fredensborg": {
+    title: "Bedemand Fredensborg \u2013 Kim Bondo, d\u00f8gnet rundt",
+    description: "Personlig bedemand i Fredensborg, Humleb\u00e6k, Kokkedal og Niv\u00e5. Frit valg af kirkeg\u00e5rd i provstiet for folkekirkemedlemmer. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+  },
+  "/rudersdal": {
+    title: "Bedemand Rudersdal \u2013 Birker\u00f8d, Holte, N\u00e6rum, Vedb\u00e6k",
+    description: "Personlig bedemand i Birker\u00f8d, Holte, N\u00e6rum og Vedb\u00e6k. Rudersdals fem kirkeg\u00e5rde er kommunale. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+  },
+  "/min-sidste-vilje": {
+    title: "Min Sidste Vilje \u2013 gratis hjemmebes\u00f8g, Kim Bondo",
+    description: "Planl\u00e6g din egen afsked i ro. Gratis hjemmebes\u00f8g eller samtale over telefon eller video \u2013 uden forpligtelse. Du f\u00e5r dine \u00f8nsker p\u00e5 skrift. Ring 22 21 14 37.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",

@@ -125,6 +125,18 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     title: "Om Kim Bondo – Personlig bedemand i København",
     description: "Lær Kim Bondo at kende. Bedemand med hjerte, nærvær og spirituel forankring. Kim hjælper familier i sorg med ro og omsorg.",
   },
+  "/fredensborg": {
+    title: "Bedemand Fredensborg – Kim Bondo, døgnet rundt",
+    description: "Personlig bedemand i Fredensborg, Humlebæk, Kokkedal og Nivå. Frit valg af kirkegård i provstiet for folkekirkemedlemmer. Ring 22 21 14 37 — hele døgnet.",
+  },
+  "/rudersdal": {
+    title: "Bedemand Rudersdal – Birkerød, Holte, Nærum, Vedbæk",
+    description: "Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet.",
+  },
+  "/min-sidste-vilje": {
+    title: "Min Sidste Vilje – gratis hjemmebesøg, Kim Bondo",
+    description: "Planlæg din egen afsked i ro. Gratis hjemmebesøg eller samtale over telefon eller video – uden forpligtelse. Du får dine ønsker på skrift. Ring 22 21 14 37.",
+  },
   "/persondatapolitik": {
     title: "Persondatapolitik – Bedemand Kim Bondo",
     description: "Sådan behandler Bedemand København ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR.",

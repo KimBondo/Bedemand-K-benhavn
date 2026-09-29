@@ -427,6 +427,9 @@ export default function KimPriser() {
           <p style={s.body}>
             Jeg kommer hjem til jer og hjælper med at skrive ønskerne ned: hvad der skal ske, hvad det koster, hvem der skal ringes til. Det tager en time, og så er det ordnet. Det koster ingenting, og der er ingen forpligtelse bagefter.
           </p>
+          <p style={s.body}>
+            <a href="/min-sidste-vilje/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>Læs mere om Min Sidste Vilje →</a>
+          </p>
           <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", marginTop: "8px" }}>
           Ring 22 21 14 37
           </a>
