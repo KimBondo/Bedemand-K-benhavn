@@ -49,6 +49,7 @@ const FAQ_SECTIONS = [
       { q: "Hvad er ikke inkluderet i prisen?", a: "Gravsten, gravsted, leje af kapel, kisteophold, urnenedsættelse og kremering er ikke en del af mit honorar. Jeg hjælper med at indhente tilbud og holde overblikket over alle udgifter.", link: "/priser/" },
       { q: "Hvad er begravelseshjælp?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Tilskuddet afhænger af afdødes formue. Jeg hjælper med ansøgningen.", link: "/begravelseshjaelp/" },
       { q: "Er der ekstra betaling i weekenden?", a: "Ja — afhentning og rustvognskørsel koster 50 % ekstra efter kl. 16 på hverdage samt i weekender og på helligdage. Det fremgår tydeligt af prislisten.", link: "/priser/" },
+      { q: "Hvad koster en bedemand i Nordsjælland?", a: "Det samme som i København. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. og afsked uden ceremoni 13.550 kr. En rustvognskørsel koster 2.000 kr. i hele København og Nordsjælland – uanset om I bor i Valby eller Gilleleje.", link: "/nordsjaelland/" },
       { q: "Kan jeg få en fast pris på forhånd?", a: "Ja. Mit honorar er fast og gennemsigtigt. Du ved præcis, hvad du betaler for, inden du underskriver noget.", link: "/priser/" },
     ],
   },
