@@ -146,6 +146,9 @@ export default function KimMinSidsteVilje() {
             <a href="/dokumenter/min-sidste-vilje.pdf" download="Min-Sidste-Vilje.pdf" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
               Hent Min Sidste Vilje (PDF, 6 sider)
             </a>
+            <p style={{ ...s.body, fontSize: "14px", color: "#3d5260", marginTop: "14px", marginBottom: 0 }}>
+              Udfyld på skærmen i Adobe Reader, Chrome, Edge eller Preview på Mac – gem og print, når du er færdig. På iPhone og iPad kan du udfylde det i Filer-appen.
+            </p>
             <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", marginTop: "14px", marginBottom: 0 }}>
               Dokumentet beskriver dine ønsker til afskeden. Det er ikke et testamente – ønsker om arv skal skrives i et testamente hos en advokat eller notar.
             </p>
