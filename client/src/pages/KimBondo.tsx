@@ -792,6 +792,39 @@ export default function KimBondo() {
         </div>
       </section>
 
+      {/* ══════════════════════════════════════════════════════
+          MIN SIDSTE VILJE – gratis hjemmebesøg
+      ══════════════════════════════════════════════════════ */}
+      <section style={{ background: "#F9F8F6", padding: "0 32px 96px" }}>
+        <div
+          style={{
+            maxWidth: "760px",
+            margin: "0 auto",
+            background: "#ffffff",
+            border: "1px solid #e0dcd6",
+            borderLeft: "4px solid #3D6B4F",
+            borderRadius: "3px",
+            padding: "36px 36px 40px",
+          }}
+        >
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 12px" }}>
+            Gratis hjemmebesøg
+          </p>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(22px, 2.8vw, 30px)", color: "#2F3E46", margin: "0 0 14px", lineHeight: 1.25 }}>
+            Min Sidste Vilje – planlæg afskeden i ro
+          </h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d5260", margin: "0 0 24px" }}>
+            Det er en gave til dem, man efterlader, at have taget stilling i forvejen. Jeg kommer gerne hjem til jer – eller vi tager samtalen over telefon eller video. Det koster ingenting, og I får jeres ønsker med hjem på skrift. I kan også hente dokumentet og udfylde det selv.
+          </p>
+          <a
+            href="/min-sidste-vilje/"
+            style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}
+          >
+            Læs om Min Sidste Vilje
+          </a>
+        </div>
+      </section>
+
 
 
       {/* ══════════════════════════════════════════════════════
@@ -1005,6 +1038,13 @@ export default function KimBondo() {
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="/min-sidste-vilje/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Min Sidste Vilje
+          </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/persondatapolitik/"

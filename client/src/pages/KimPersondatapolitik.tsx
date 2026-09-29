@@ -339,6 +339,13 @@ export default function KimPersondatapolitik() {
             kim@bedemandkobenhavn.dk
           </a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp;{" "}
+          <a
+            href="/min-sidste-vilje/"
+            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
+          >
+            Min Sidste Vilje
+          </a>
         </p>
       </footer>
     </div>
