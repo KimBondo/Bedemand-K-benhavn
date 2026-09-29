@@ -8,6 +8,7 @@ import { Router } from "wouter";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import ErrorBoundary from "./components/ErrorBoundary";
+import MobilRingKnap from "./components/MobilRingKnap";
 import { Route, Switch } from "wouter";
 import { Suspense } from "react";
 
@@ -81,6 +82,7 @@ function SSRApp() {
             <Route component={NotFound} />
           </Switch>
           </Suspense>
+          <MobilRingKnap />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

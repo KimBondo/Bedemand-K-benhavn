@@ -125,7 +125,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Dødsanmeldelse til myndighederne</h3>
           <p style={s.body}>
-            Der skal foretages en dødsanmeldelse til afdødes bopælssogn. Jeg hjælper med dette som en del af mit arbejde, så I ikke selv skal stå med det.
+            Dødsfaldet skal anmeldes til afdødes bopælssogn senest 2 hverdage efter dødsfaldet. Jeg hjælper med dette som en del af mit arbejde, så I ikke selv skal stå med det.
           </p>
 
           <h3 style={s.h3}>Mindesamvær</h3>
@@ -158,7 +158,8 @@ export default function KimHuskeliste() {
             ))}
           </ul>
           <p style={{ ...s.body, marginTop: "8px" }}>
-            I Danmark skal en begravelse eller bisættelse som udgangspunkt finde sted senest 8 dage efter dødsfaldet. I praksis planlægges det ofte inden for 14 dage.
+            I Danmark skal en begravelse eller bisættelse normalt finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Jeg sørger for, at tidsplanen holder.{" "}
+            <a href="https://www.borger.dk/sundhed-og-sygdom/doedsfald--hospice-og-behandlingstestamente/Begravelse" target="_blank" rel="noopener noreferrer" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Læs reglerne på borger.dk</a>
           </p>
         </div>
       </section>
