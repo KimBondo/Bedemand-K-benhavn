@@ -356,7 +356,7 @@ export default function KimPriser() {
           <PriceTable rows={[
             ["Klargøring af kiste, afhentning og ilægning", "2.500 kr."],
             ["Tillæg ved afhentning i private hjem", "1.200 kr."],
-            ["Rustvognskørsel, én kørsel inkl. 20 km", "2.000 kr."],
+            ["Rustvognskørsel, én kørsel i hele København og Nordsjælland", "2.000 kr."],
             ["Urnekørsel fra krematorie til kirkegårdskontor", "900 kr."],
             ["Blomsterkørsel og udlægning på kirkegård", "900 kr."],
           ]} />
