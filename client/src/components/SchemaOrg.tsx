@@ -1,6 +1,6 @@
 /**
  * SchemaOrg – injects JSON-LD structured data into <head>.
- * Supports FuneralHome (LocalBusiness), FAQPage, Service, BreadcrumbList,
+ * Supports LocalBusiness (bedemand), FAQPage, Service, BreadcrumbList,
  * WebSite (sitelinks searchbox), Organization and ItemList schemas.
  *
  * Google uses these for rich results in local search, knowledge panels and FAQ snippets.
@@ -88,7 +88,7 @@ const PRICE_OFFERS = [
 
 const KIM_LOCAL_BUSINESS = {
   "@context": "https://schema.org",
-  "@type": "FuneralHome",
+  "@type": "LocalBusiness",
   "@id": `${BASE_URL}/#business`,
   "name": "Bedemand København",
   "alternateName": ["Bedemand Kim Bondo", "Bedemand København ApS"],
@@ -190,7 +190,7 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
       const { hasOfferCatalog: _katalog, ...virksomhed } = KIM_LOCAL_BUSINESS;
       schemas.push({
         ...virksomhed,
-        "@id": `${pageUrl ?? BASE_URL}#funeralhome`,
+        "@id": `${pageUrl ?? BASE_URL}#lokal`,
         "parentOrganization": { "@id": `${BASE_URL}/#business` },
         ...(pageUrl ? { "url": pageUrl } : {}),
         "areaServed": areaServed.map((navn) => ({ "@type": "Place", "name": navn })),
@@ -207,7 +207,6 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
       "@id": `${BASE_URL}/priser/#pakker`,
       "name": "De tre forløb",
       "url": `${BASE_URL}/priser/`,
-      "provider": { "@id": `${BASE_URL}/#business` },
       "itemListElement": PRICE_OFFERS,
     });
   }
