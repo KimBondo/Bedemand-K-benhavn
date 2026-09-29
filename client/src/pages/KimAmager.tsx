@@ -303,6 +303,8 @@ export default function KimAmager() {
           &nbsp;·&nbsp;
           <a href="/omraade/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Dækningsområde</a>
           &nbsp;·&nbsp;
+          <a href="/min-sidste-vilje/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Min Sidste Vilje</a>
+          &nbsp;·&nbsp;
           <a href="/persondatapolitik/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Persondatapolitik</a>
           &nbsp;·&nbsp;
           <a href="#cookieindstillinger" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Cookieindstillinger</a>

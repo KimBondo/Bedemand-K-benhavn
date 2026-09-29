@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { href: "/afskeder/", label: "Afskeder" },
   { href: "/produkter/", label: "Produkter" },
   { href: "/huskeliste/", label: "Huskeliste" },
+  { href: "/min-sidste-vilje/", label: "Min Sidste Vilje" },
   { href: "/nordsjaelland/", label: "Nordsjælland" },
   { href: "/omraade/", label: "Områder" },
   { href: "/faq/", label: "FAQ" },
@@ -36,7 +37,7 @@ function goToKontakt() {
 const BASE: React.CSSProperties = {
   fontFamily: "'Open Sans', sans-serif",
   fontWeight: 600,
-  fontSize: "clamp(13px, 1.4vw, 15px)",
+  fontSize: "clamp(13px, 1.05vw, 15px)",
   textDecoration: "none",
   letterSpacing: "0.02em",
   paddingBottom: "2px",
@@ -72,7 +73,7 @@ export default function KimNav() {
         .kimnav-desktop {
           display: flex;
           align-items: center;
-          gap: 20px;
+          gap: clamp(10px, 1.1vw, 20px);
           flex-wrap: wrap;
         }
         .kimnav-hamburger {
@@ -118,7 +119,7 @@ export default function KimNav() {
           style={{
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 700,
-            fontSize: "clamp(14px, 1.6vw, 18px)",
+            fontSize: "clamp(14px, 1.2vw, 18px)",
             color: "#3D6B4F",
             textDecoration: "none",
             whiteSpace: "nowrap",
