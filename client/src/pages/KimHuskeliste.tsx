@@ -158,7 +158,7 @@ export default function KimHuskeliste() {
             ))}
           </ul>
           <p style={{ ...s.body, marginTop: "8px" }}>
-            I Danmark skal en begravelse eller bisættelse normalt finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Jeg sørger for, at tidsplanen holder.{" "}
+            I Danmark skal en begravelse eller bisættelse normalt finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Kirkegården eller krematoriet kan forlænge fristen til 14 dage, når afdøde opbevares på køl, og det er almindeligt i praksis. Jeg sørger for, at tidsplanen holder.{" "}
             <a href="https://www.borger.dk/sundhed-og-sygdom/doedsfald--hospice-og-behandlingstestamente/Begravelse" target="_blank" rel="noopener noreferrer" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Læs reglerne på borger.dk</a>
           </p>
         </div>

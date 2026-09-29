@@ -36,6 +36,9 @@ const KimVesterbro = lazy(() => import("./pages/KimVesterbro"));
 const KimProdukter = lazy(() => import("./pages/KimProdukter"));
 const KimOmKim = lazy(() => import("./pages/KimOmKim"));
 const KimPersondatapolitik = lazy(() => import("./pages/KimPersondatapolitik"));
+const KimFredensborg = lazy(() => import("./pages/KimFredensborg"));
+const KimRudersdal = lazy(() => import("./pages/KimRudersdal"));
+const KimMinSidsteVilje = lazy(() => import("./pages/KimMinSidsteVilje"));
 
 
 function AppRouter() {
@@ -70,6 +73,9 @@ function AppRouter() {
       <Route path={"/produkter"} component={KimProdukter} />
       <Route path={"/om-kim"} component={KimOmKim} />
       <Route path={"/persondatapolitik"} component={KimPersondatapolitik} />
+      <Route path={"/fredensborg"} component={KimFredensborg} />
+      <Route path={"/rudersdal"} component={KimRudersdal} />
+      <Route path={"/min-sidste-vilje"} component={KimMinSidsteVilje} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
