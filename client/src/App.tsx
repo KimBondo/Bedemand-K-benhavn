@@ -3,6 +3,7 @@ import NotFound from "@/pages/NotFound";
 import { Route, Router, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import CookieConsent from "./components/CookieConsent";
+import MobilRingKnap from "./components/MobilRingKnap";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { lazy, Suspense } from "react";
 
@@ -90,6 +91,7 @@ function App() {
       >
         <TooltipProvider>
           <AppRouter />
+          <MobilRingKnap />
           <CookieConsent />
         </TooltipProvider>
       </ThemeProvider>

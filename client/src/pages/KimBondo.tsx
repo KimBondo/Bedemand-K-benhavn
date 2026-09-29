@@ -164,12 +164,43 @@ export default function KimBondo() {
               color: "#3d5260",
               lineHeight: 1.65,
               maxWidth: "620px",
-              margin: "0 auto 48px",
+              margin: "0 auto 28px",
             }}
           >
-            Hos mig er der tid, uforstyrret ro og plads til jeres ønsker –
-            præcis som de er.
+            Personlig bedemand i København og Nordsjælland. Jeg tager selv
+            telefonen og følger jer hele vejen – fra den første samtale til den
+            sidste afsked.
           </p>
+
+          <div style={{ textAlign: "center", marginBottom: "48px" }}>
+            <a
+              href="tel:22211437"
+              style={{
+                display: "inline-block",
+                background: "#3D6B4F",
+                color: "#ffffff",
+                fontFamily: "'Open Sans', sans-serif",
+                fontWeight: 700,
+                fontSize: "clamp(16px, 2vw, 19px)",
+                padding: "16px 36px",
+                borderRadius: "3px",
+                textDecoration: "none",
+                letterSpacing: "0.04em",
+              }}
+            >
+              Ring til Kim – 22 21 14 37
+            </a>
+            <p
+              style={{
+                marginTop: "12px",
+                fontSize: "14px",
+                color: "#7a8f99",
+                fontFamily: "'Open Sans', sans-serif",
+              }}
+            >
+              Døgnet rundt – hos mig er der tid, ro og plads til jeres ønsker.
+            </p>
+          </div>
 
           {/* KUN kystbillede (rustvogn ved havet) */}
           <div
@@ -221,7 +252,7 @@ export default function KimBondo() {
                 letterSpacing: "0.05em",
               }}
             >
-              Kontakt mig
+              Skriv til mig
             </a>
             <p
               style={{

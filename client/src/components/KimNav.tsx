@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { href: "/afskeder/", label: "Afskeder" },
   { href: "/produkter/", label: "Produkter" },
   { href: "/huskeliste/", label: "Huskeliste" },
+  { href: "/nordsjaelland/", label: "Nordsjælland" },
   { href: "/omraade/", label: "Områder" },
   { href: "/faq/", label: "FAQ" },
   { href: "/om-kim/", label: "Om Kim", exact: true },
