@@ -51,7 +51,7 @@ export default function KimBondo() {
     >
       <SEO
         title="Bedemand København – Kim Bondo, personlig bedemand døgnet rundt"
-        description="Personlig bedemand med nærvær og ro. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
+        description="Personlig bedemand i København, Nordsjælland og resten af Sjælland. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -276,6 +276,41 @@ export default function KimBondo() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
+          HVAD GØR JEG NU? – til dem, der lige har mistet
+      ══════════════════════════════════════════════════════ */}
+      <section style={{ background: "#EEF3EF", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto", textAlign: "center" }}>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 12px" }}>
+            Har I lige mistet en, I holder af?
+          </p>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.2vw, 34px)", color: "#2F3E46", lineHeight: 1.25, margin: "0 0 16px" }}>
+            Du behøver ikke have styr på det hele
+          </h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 28px" }}>
+            Ring til mig – også midt om natten. Vi tager det ét skridt ad gangen, og I behøver ikke have besluttet noget på forhånd.
+          </p>
+          <ol style={{ textAlign: "left", maxWidth: "560px", margin: "0 auto 32px", padding: 0, listStyle: "none", fontFamily: "'Open Sans', sans-serif", fontSize: "16px", lineHeight: 1.7, color: "#3d5260" }}>
+            {[
+              "Er dødsfaldet sket i hjemmet, skal en læge først konstatere det. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem hjælper personalet med det.",
+              "Ring derefter til mig. Der er ingen hast – afdøde kan ofte blive, hvor vedkommende er, til næste morgen, så I får tid til at sige farvel.",
+              "Resten finder vi ud af sammen, i jeres tempo.",
+            ].map((tekst, i) => (
+              <li key={i} style={{ display: "flex", gap: "14px", alignItems: "flex-start", marginBottom: "14px" }}>
+                <span aria-hidden="true" style={{ flexShrink: 0, width: "28px", height: "28px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", fontWeight: 700, fontSize: "14px", display: "inline-flex", alignItems: "center", justifyContent: "center", marginTop: "1px" }}>{i + 1}</span>
+                <span>{tekst}</span>
+              </li>
+            ))}
+          </ol>
+          <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+            Ring til Kim – 22 21 14 37
+          </a>
+          <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a" }}>
+            Vil du hellere læse først? <a href="/huskeliste/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se huskelisten ved dødsfald</a>
+          </p>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
           SECTION 2: MØD MIG / SÅDAN HJÆLPER JEG
           – Tryghed, logistik, frihed og bæredygtighed samlet
       ══════════════════════════════════════════════════════ */}
@@ -362,6 +397,27 @@ export default function KimBondo() {
             Jeg møder jer præcis der, hvor I er. Hvad enten sorgen kalder på
             dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
             behov – som et nærværende menneske med tid og rum til det, I har brug for.
+          </p>
+          <h3
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 600,
+              fontSize: "clamp(18px, 2vw, 22px)",
+              color: "#2F3E46",
+              marginBottom: "12px",
+            }}
+          >
+            Det er mig, I taler med – hele vejen
+          </h3>
+          <p
+            style={{
+              fontSize: "clamp(15px, 1.6vw, 17px)",
+              lineHeight: 1.85,
+              color: "#3d5260",
+              marginBottom: "20px",
+            }}
+          >
+            Når I ringer, er det mig, der tager telefonen. Det er også mig, der kommer hjem til jer, holder styr på det praktiske og selv er til stede ved højtideligheden. I bliver ikke sendt videre mellem skiftende medarbejdere, og I kan altid ringe til mig, når der dukker et spørgsmål op. Jeg hjælper familier i København, <a href="/nordsjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Nordsjælland</a> og <a href="/omraade/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>resten af Sjælland</a>.
           </p>
           <h3
             style={{

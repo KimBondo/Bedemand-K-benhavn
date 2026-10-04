@@ -19,8 +19,8 @@ export default function KimMinSidsteVilje() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Min Sidste Vilje – gratis hjemmebesøg, Kim Bondo"
-        description="Planlæg din egen afsked i ro. Gratis hjemmebesøg eller samtale over telefon eller video – uden forpligtelse. Du får dine ønsker på skrift. Ring 22 21 14 37."
+        title="Min Sidste Vilje – skema og ønsker til egen begravelse"
+        description="Skriv dine ønsker til din egen begravelse eller bisættelse ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring 22 21 14 37."
         url="https://www.bedemandkobenhavn.dk/min-sidste-vilje/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -83,7 +83,7 @@ export default function KimMinSidsteVilje() {
           Opdateret <time dateTime="2026-09-29">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          De fleste udskyder samtalen. Men det er en gave til dem, man efterlader, at have taget stilling i forvejen. Jeg hjælper jer gratis og uden forpligtelse.
+          De fleste udskyder samtalen. Men det er en gave til dem, man efterlader, at have skrevet sine ønsker til begravelse eller bisættelse ned i forvejen. Jeg hjælper gratis og uden forpligtelse – eller du kan hente skemaet og udfylde det selv.
         </p>
         <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til Kim – 22 21 14 37</a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a" }}>
@@ -136,7 +136,7 @@ export default function KimMinSidsteVilje() {
 
           <div id="hent-dokumentet" style={{ marginTop: "48px", background: "#F4F1EC", borderLeft: "4px solid #3D6B4F", borderRadius: "3px", padding: "28px 28px 32px" }}>
             <p style={s.label}>Hent dokumentet</p>
-            <h3 style={{ ...s.h3, marginBottom: "12px" }}>Udfyld Min Sidste Vilje selv</h3>
+            <h2 style={{ ...s.h3, marginBottom: "12px" }}>Hent skemaet Min Sidste Vilje</h2>
             <p style={s.body}>
               Du kan også hente dokumentet og udfylde det i dit eget tempo – direkte på computeren eller printet ud og skrevet i hånden. Udfyld det, du har lyst til, og spring resten over.
             </p>

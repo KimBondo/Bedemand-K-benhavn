@@ -23,7 +23,7 @@ const FAQ = [
   { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland og hele København. Ring på 22 21 14 37 — også midt om natten." },
   { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
   { question: "Er der et krematorium i Nordsjælland?", answer: "Ja, ét: Hillerød Krematorium ved Skansekirkegården. Krematorierne i Gentofte og Helsingør er nedlagt, i 2010 og 2013. Kremering for resten af Nordsjælland sker derfor i Hillerød, i Ringsted eller i København — men ceremonien holdes stadig i jeres egen kirke eller det lokale kapel." },
-  { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov og Hillerød — og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
+  { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs — og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
 
@@ -130,7 +130,7 @@ export default function KimNordsjaelland() {
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand i Nordsjælland</h2>
           <p style={s.body}>
-            Nordsjælland er ikke en kommune, men egnen nord for København mellem Isefjorden og Øresund. I praksis dækker jeg Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov og Hillerød. Kirkeligt hører hele området under Helsingør Stift.
+            Nordsjælland er ikke en kommune, men egnen nord for København mellem Isefjorden og Øresund. I praksis dækker jeg Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs. Kirkeligt hører hele området under Helsingør Stift.
           </p>
           <p style={s.body}>
             Der er én ting, mange bliver overraskede over: der er kun ét krematorium tilbage i Nordsjælland, og det ligger ved Skansekirkegården i Hillerød. Krematorierne i Gentofte og Helsingør blev nedlagt i henholdsvis 2010 og 2013. Ceremonien holdes stadig lokalt — det er kun selve kremeringen, der foregår et andet sted, og transporten sørger jeg for.
