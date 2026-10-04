@@ -278,9 +278,11 @@ export default function KimProdukter() {
                 }}
               >
                <div className="product-img-wrap" style={{ height: "220px", background: "#e8e4df" }}>
+                 <picture style={{ display: "block", width: "100%", height: "100%" }}>
+                 <source type="image/webp" srcSet={`${k.image.replace(".webp", "-600w.webp")} 600w, ${k.image} ${k.imgW}w`} sizes="(max-width: 700px) 100vw, 340px" />
                  <img
-                   src={k.image.replace(".webp", "-600w.webp")}
-                   srcSet={`${k.image.replace(".webp", "-600w.webp")} 600w, ${k.image} ${k.imgW}w`}
+                   src={k.image.replace(".webp", "-600w.jpg")}
+                   srcSet={`${k.image.replace(".webp", "-600w.jpg")} 600w, ${k.image.replace(".webp", ".jpg")} ${k.imgW}w`}
                    sizes="(max-width: 700px) 100vw, 340px"
                    alt={k.alt || k.name}
                    className="product-img"
@@ -289,6 +291,7 @@ export default function KimProdukter() {
                     height={k.imgH}
                     style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
                  />
+                 </picture>
                 </div>
                 <div style={{ padding: "24px" }}>
                   <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "20px", color: "#2F3E46", marginBottom: "8px", marginTop: 0 }}>{k.name}</h3>
@@ -341,9 +344,11 @@ export default function KimProdukter() {
                 }}
               >
                <div className="product-img-wrap" style={{ background: "#e8e4df", textAlign: "center" }}>
+                 <picture style={{ display: "block", width: "100%" }}>
+                 <source type="image/webp" srcSet={`${u.image.replace(".webp", "-400w.webp")} 400w, ${u.image} ${u.imgW}w`} sizes="(max-width: 700px) 100vw, 280px" />
                  <img
-                   src={u.image.replace(".webp", "-400w.webp")}
-                   srcSet={`${u.image.replace(".webp", "-400w.webp")} 400w, ${u.image} ${u.imgW}w`}
+                   src={u.image.replace(".webp", "-400w.jpg")}
+                   srcSet={`${u.image.replace(".webp", "-400w.jpg")} 400w, ${u.image.replace(".webp", ".jpg")} ${u.imgW}w`}
                    sizes="(max-width: 700px) 100vw, 280px"
                    alt={u.alt || u.name}
                    className="product-img"
@@ -352,6 +357,7 @@ export default function KimProdukter() {
                     height={u.imgH}
                     style={{ width: "100%", height: "auto", display: "block" }}
                  />
+                 </picture>
                 </div>
                 <div style={{ padding: "20px" }}>
                   <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", color: "#2F3E46", marginBottom: "6px", marginTop: 0 }}>{u.name}</h3>
