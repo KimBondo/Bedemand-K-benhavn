@@ -51,7 +51,7 @@ export default function KimBondo() {
     >
       <SEO
         title="Bedemand København – Kim Bondo, personlig bedemand døgnet rundt"
-        description="Personlig bedemand i København, Nordsjælland og resten af Sjælland. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Ring 22 21 14 37 – døgnet rundt."
+        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -417,7 +417,7 @@ export default function KimBondo() {
               marginBottom: "20px",
             }}
           >
-            Når I ringer, er det mig, der tager telefonen. Det er også mig, der kommer hjem til jer, holder styr på det praktiske og selv er til stede ved højtideligheden. I bliver ikke sendt videre mellem skiftende medarbejdere, og I kan altid ringe til mig, når der dukker et spørgsmål op. Jeg hjælper familier i København, <a href="/nordsjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Nordsjælland</a> og <a href="/omraade/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>resten af Sjælland</a>.
+            Når I ringer, er det mig, der tager telefonen. Det er også mig, der kommer hjem til jer, holder styr på det praktiske og selv er til stede ved højtideligheden. I bliver ikke sendt videre mellem skiftende medarbejdere, og I kan altid ringe til mig, når der dukker et spørgsmål op. Jeg hjælper familier i København og <a href="/nordsjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Nordsjælland</a>. Bor I et andet sted på Sjælland, så ring alligevel – så finder vi en løsning sammen.
           </p>
           <h3
             style={{

@@ -19,7 +19,7 @@ const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 const ROUTE_META: Record<string, { title: string; description: string; image?: string }> = {
   "/": {
     title: "Bedemand København – Kim Bondo, personlig bedemand døgnet rundt",
-    description: "Personlig bedemand i København, Nordsjælland og resten af Sjælland. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Ring 22 21 14 37 – døgnet rundt.",
+    description: "Personlig bedemand i København og Nordsjælland. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt.",
   },
   "/priser": {
     title: "Priser – Bedemand Kim Bondo | fra 13.550 kr.",

@@ -59,7 +59,7 @@ const ROUTES = [
 const ROUTE_META = {
   "/": {
     title: "Bedemand K\u00f8benhavn \u2013 Kim Bondo, personlig bedemand d\u00f8gnet rundt",
-    description: "Personlig bedemand i K\u00f8benhavn, Nordsj\u00e6lland og resten af Sj\u00e6lland. Bis\u00e6ttelse fra 19.500 kr., begravelse fra 21.500 kr. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/afsked-uden-ceremoni": {
     title: "Afsked uden ceremoni \u2013 Bedemand Kim Bondo",
