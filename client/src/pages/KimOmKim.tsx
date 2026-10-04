@@ -123,9 +123,10 @@ export default function KimOmKim() {
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
          <div style={{ display: "flex", flexWrap: "wrap", gap: "48px", alignItems: "flex-start", marginBottom: "40px" }}>
            <picture style={{ flexShrink: 0 }}>
+              <source type="image/webp" srcSet="/images/kim-bondo-bedemand-portraet-464w.webp 464w, /images/kim-bondo-bedemand-portraet-930w.webp 930w, /images/kim-bondo-bedemand-portraet-1400w.webp 1400w" sizes="(max-width: 600px) 60vw, 280px" />
               <img
-                src="/images/kim-bondo-bedemand-portraet-930w.webp"
-                srcSet="/images/kim-bondo-bedemand-portraet-464w.webp 464w, /images/kim-bondo-bedemand-portraet-930w.webp 930w, /images/kim-bondo-bedemand-portraet-1400w.webp 1400w"
+                src="/images/kim-bondo-bedemand-portraet-930w.jpg"
+                srcSet="/images/kim-bondo-bedemand-portraet-464w.jpg 464w, /images/kim-bondo-bedemand-portraet-930w.jpg 930w, /images/kim-bondo-bedemand-portraet-1400w.jpg 1400w"
                 sizes="(max-width: 600px) 60vw, 280px"
                 width={1632}
                 height={2176}

@@ -213,9 +213,10 @@ export default function KimBondo() {
             }}
          >
           <picture style={{ display: "block" }}>
+            <source type="image/webp" srcSet="/images/kim-bondo-rustvogn-kyst-640w.webp 640w, /images/kim-bondo-rustvogn-kyst-960w.webp 960w, /images/kim-bondo-rustvogn-kyst-1400w.webp 1400w, /images/kim-bondo-rustvogn-kyst.webp 2304w" sizes="(max-width: 1100px) 100vw, 1100px" />
             <img
-              src="/images/kim-bondo-rustvogn-kyst-1400w.webp"
-              srcSet="/images/kim-bondo-rustvogn-kyst-640w.webp 640w, /images/kim-bondo-rustvogn-kyst-960w.webp 960w, /images/kim-bondo-rustvogn-kyst-1400w.webp 1400w, /images/kim-bondo-rustvogn-kyst.webp 2304w"
+              src="/images/kim-bondo-rustvogn-kyst-1400w.jpg"
+              srcSet="/images/kim-bondo-rustvogn-kyst-640w.jpg 640w, /images/kim-bondo-rustvogn-kyst-960w.jpg 960w, /images/kim-bondo-rustvogn-kyst-1400w.jpg 1400w, /images/kim-bondo-rustvogn-kyst.jpg 2304w"
               sizes="(max-width: 1100px) 100vw, 1100px"
               width={1400}
               height={933}
@@ -292,8 +293,9 @@ export default function KimBondo() {
        {/* Haven-kiste billede */}
        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
          <picture>
+            <source type="image/webp" srcSet="/images/hvid-kiste-blomster-have.webp" />
             <img
-              src="/images/hvid-kiste-blomster-have.webp"
+              src="/images/hvid-kiste-blomster-have.jpg"
               width={900}
               height={510}
               alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
