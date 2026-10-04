@@ -19,7 +19,7 @@ const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 const ROUTE_META: Record<string, { title: string; description: string; image?: string }> = {
   "/": {
     title: "Bedemand København – Kim Bondo, personlig bedemand døgnet rundt",
-    description: "Personlig bedemand med nærvær og ro. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt.",
+    description: "Personlig bedemand i København og Nordsjælland. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt.",
   },
   "/priser": {
     title: "Priser – Bedemand Kim Bondo | fra 13.550 kr.",
@@ -134,8 +134,8 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet.",
   },
   "/min-sidste-vilje": {
-    title: "Min Sidste Vilje – gratis hjemmebesøg, Kim Bondo",
-    description: "Planlæg din egen afsked i ro. Gratis hjemmebesøg eller samtale over telefon eller video – uden forpligtelse. Du får dine ønsker på skrift. Ring 22 21 14 37.",
+    title: "Min Sidste Vilje – skema og ønsker til egen begravelse",
+    description: "Skriv dine ønsker til din egen begravelse eller bisættelse ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring 22 21 14 37.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik – Bedemand Kim Bondo",

@@ -185,6 +185,7 @@ export default function KimGentofte() {
         <p style={s.label}>Se også</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
+            { label: "Bedemand Nordsjælland", href: "/nordsjaelland/" },
             { label: "Bedemand Helsingør", href: "/helsingor/" },
             { label: "Bedemand Hørsholm", href: "/horsholm/" },
             { label: "Dækningsområde", href: "/omraade/" },

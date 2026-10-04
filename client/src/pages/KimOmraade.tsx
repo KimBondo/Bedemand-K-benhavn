@@ -98,7 +98,7 @@ export default function KimOmraade() {
           Bedemand i København og Nordsjælland
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg hjælper familier i hele Storkøbenhavn og Nordsjælland. Er du i tvivl om, om jeg dækker dit område — ring bare.
+          Jeg hjælper familier i hele Storkøbenhavn og Nordsjælland. Bor I et andet sted på Sjælland, så ring alligevel – så finder vi en løsning sammen.
         </p>
         <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Kontakt mig

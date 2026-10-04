@@ -247,7 +247,7 @@ export default function KimProdukter() {
           Vælg med ro og overblik
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "600px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Her finder I mit udvalg af kister og urner med gennemsigtige priser. I behøver ikke at have valgt på forhånd – vi finder sammen en løsning, der passer til den, I har mistet, og til jer.
+          Her finder I mit udvalg af kister og urner med gennemsigtige priser. I behøver ikke at have valgt på forhånd – vi finder sammen en løsning, der passer til den, I har mistet, og til jer. Se også <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>alle mine priser</a>.
         </p>
         <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring på 22 21 14 37</a>
       </section>

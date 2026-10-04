@@ -34,6 +34,7 @@ function PricePackage({
   items,
   note,
   linkAfter,
+  id,
 }: {
   label: string;
   title: string;
@@ -42,9 +43,10 @@ function PricePackage({
   items: string[];
   note?: string;
   linkAfter?: boolean;
+  id?: string;
 }) {
   return (
-    <section style={{ marginBottom: "56px" }}>
+    <section id={id} style={{ marginBottom: "56px", scrollMarginTop: "24px" }}>
       <span style={s.label}>{label}</span>
       <h3 style={s.h3}>{title}</h3>
       <p style={s.price}>{price}</p>
@@ -159,6 +161,21 @@ export default function KimPriser() {
           <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Ring 22 21 14 37 — hele døgnet
           </a>
+          <div style={{ marginTop: "36px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px" }}>
+            {[
+              { navn: "Bisættelse", pris: "Fra 19.500 kr.", href: "#bisaettelse" },
+              { navn: "Begravelse", pris: "Fra 21.500 kr.", href: "#begravelse" },
+              { navn: "Uden ceremoni", pris: "13.550 kr.", href: "#uden-ceremoni" },
+            ].map((p) => (
+              <a key={p.href} href={p.href} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "12px", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "3px", padding: "14px 18px", textDecoration: "none" }}>
+                <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#A8C5A0" }}>{p.navn}</span>
+                <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "20px", color: "#ffffff", whiteSpace: "nowrap" }}>{p.pris}</span>
+              </a>
+            ))}
+          </div>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "rgba(255,255,255,0.7)", marginTop: "12px", marginBottom: 0 }}>
+            Priserne gælder hverdage. Tryk for at se, hvad der er inkluderet.
+          </p>
         </div>
       </div>
 
@@ -190,6 +207,7 @@ export default function KimPriser() {
 
 
         <PricePackage
+          id="bisaettelse"
           label="Bisættelse"
           title="Den enkle bisættelse"
           price="Fra 19.500 kr."
@@ -211,6 +229,7 @@ export default function KimPriser() {
 
 
         <PricePackage
+          id="begravelse"
           label="Begravelse"
           title="Den enkle begravelse"
           price="Fra 21.500 kr."
@@ -231,7 +250,7 @@ export default function KimPriser() {
         />
 
 
-        <section style={{ marginBottom: "56px" }}>
+        <section id="uden-ceremoni" style={{ marginBottom: "56px", scrollMarginTop: "24px" }}>
           <span style={s.label}>Afsked uden ceremoni</span>
           <h3 style={s.h3}>Afsked uden ceremoni</h3>
           <p style={s.price}>13.550 kr.</p>
@@ -357,6 +376,7 @@ export default function KimPriser() {
             ["Klargøring af kiste, afhentning og ilægning", "2.500 kr."],
             ["Tillæg ved afhentning i private hjem", "1.200 kr."],
             ["Rustvognskørsel, én kørsel i hele København og Nordsjælland", "2.000 kr."],
+            ["Rustvognskørsel uden for København og Nordsjælland", "Efter aftale"],
             ["Urnekørsel fra krematorie til kirkegårdskontor", "900 kr."],
             ["Blomsterkørsel og udlægning på kirkegård", "900 kr."],
           ]} />

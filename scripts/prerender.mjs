@@ -59,7 +59,7 @@ const ROUTES = [
 const ROUTE_META = {
   "/": {
     title: "Bedemand K\u00f8benhavn \u2013 Kim Bondo, personlig bedemand d\u00f8gnet rundt",
-    description: "Personlig bedemand med n\u00e6rv\u00e6r og ro. Bis\u00e6ttelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/afsked-uden-ceremoni": {
     title: "Afsked uden ceremoni \u2013 Bedemand Kim Bondo",
@@ -162,8 +162,8 @@ const ROUTE_META = {
     description: "Personlig bedemand i Birker\u00f8d, Holte, N\u00e6rum og Vedb\u00e6k. Rudersdals fem kirkeg\u00e5rde er kommunale. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
   },
   "/min-sidste-vilje": {
-    title: "Min Sidste Vilje \u2013 gratis hjemmebes\u00f8g, Kim Bondo",
-    description: "Planl\u00e6g din egen afsked i ro. Gratis hjemmebes\u00f8g eller samtale over telefon eller video \u2013 uden forpligtelse. Du f\u00e5r dine \u00f8nsker p\u00e5 skrift. Ring 22 21 14 37.",
+    title: "Min Sidste Vilje \u2013 skema og \u00f8nsker til egen begravelse",
+    description: "Skriv dine \u00f8nsker til din egen begravelse eller bis\u00e6ttelse ned. Hent skemaet Min Sidste Vilje gratis, eller f\u00e5 hj\u00e6lp ved et gratis hjemmebes\u00f8g. Ring 22 21 14 37.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",
