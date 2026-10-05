@@ -94,7 +94,7 @@ const KIM_LOCAL_BUSINESS = {
   "alternateName": ["Bedemand Kim Bondo", "Bedemand København ApS"],
   "legalName": "Bedemand København ApS",
   "description": "Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra 19.500 kr., begravelse fra 21.500 kr.",
-  "url": BASE_URL,
+  "url": `${BASE_URL}/`,
   "telephone": "+4522211437",
   "email": "kim@bedemandkobenhavn.dk",
   "vatID": "DK45084159",
@@ -154,27 +154,12 @@ const WEBSITE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": `${BASE_URL}/#website`,
-  "url": BASE_URL,
-  "name": "Bedemand København og Nordsjælland",
-  "description": "Find en personlig bedemand i København og Nordsjælland. Bisættelse, begravelse og afsked med nærvær og ro.",
+  "url": `${BASE_URL}/`,
+  "name": "Bedemand København",
+  "description": "Personlig bedemand i København og Nordsjælland. Bisættelse, begravelse og afsked med nærvær og ro.",
   "inLanguage": "da-DK",
-  "publisher": {
-    "@type": "Organization",
-    "@id": `${BASE_URL}/#organization`,
-    "name": "Bedemand København",
-    "url": BASE_URL,
-    "logo": {
-      "@type": "ImageObject",
-      "url": `${BASE_URL}/images/kim-bondo-bedemand-portraet.webp`
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+4522211437",
-      "contactType": "customer service",
-      "areaServed": "DK",
-      "availableLanguage": "Danish"
-    }
-  }
+  // Udgiveren er selve virksomheden – samme @id som LocalBusiness, så der kun findes én identitet
+  "publisher": { "@id": `${BASE_URL}/#business` }
 };
 
 export default function SchemaOrg({ type, faqItems, breadcrumbs, services, products, pageUrl, areaServed, article, priceOffers }: SchemaOrgProps) {
@@ -185,18 +170,20 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
   }
 
   if (type === "LocalBusiness" || type === "both") {
+    // Altid den samme virksomhed (samme @id) – ingen lokale kopier eller "filialer"
+    schemas.push(KIM_LOCAL_BUSINESS);
     if (areaServed && areaServed.length > 0) {
-      // Områdeside: samme virksomhed, men med det konkrete område som serviceområde.
-      const { hasOfferCatalog: _katalog, ...virksomhed } = KIM_LOCAL_BUSINESS;
+      // Områdeside: den lokale tilstedeværelse beskrives som en ydelse, som virksomheden leverer i området
       schemas.push({
-        ...virksomhed,
-        "@id": `${pageUrl ?? BASE_URL}#lokal`,
-        "parentOrganization": { "@id": `${BASE_URL}/#business` },
-        ...(pageUrl ? { "url": pageUrl } : {}),
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "@id": `${pageUrl ?? BASE_URL}#ydelse`,
+        "name": `Bedemand ${areaServed[0]}`,
+        "serviceType": "Bedemand",
+        "provider": { "@id": `${BASE_URL}/#business` },
         "areaServed": areaServed.map((navn) => ({ "@type": "Place", "name": navn })),
+        ...(pageUrl ? { "url": pageUrl } : {}),
       });
-    } else {
-      schemas.push(KIM_LOCAL_BUSINESS);
     }
   }
 
