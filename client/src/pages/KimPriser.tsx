@@ -395,12 +395,12 @@ export default function KimPriser() {
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Blomster og pynt</h3>
           <PriceTable rows={[
-            ["Kistepynt, lille", "2.500 kr."],
-            ["Kistepynt, mellem", "3.000 kr."],
+            ["Kistepynt, lille", "1.800 kr."],
+            ["Kistepynt, mellem", "2.500 kr."],
             ["Kistepynt, stor", "3.500 kr."],
             ["Blomsterkrans eller blomsterhjerte", "2.500 kr."],
             ["Silkebånd — \"en sidste hilsen\"", "300 kr."],
-            ["10 farvelroser til rustvognen", "500 kr."],
+            ["10 farvelroser til rustvognen", "350 kr."],
           ]} />
 
 
