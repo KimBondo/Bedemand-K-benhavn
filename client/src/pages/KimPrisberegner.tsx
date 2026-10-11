@@ -24,9 +24,10 @@ const ADDONS = [
   { id: "pynt-stor", label: "Kistepynt stor", price: 3500 },
   { id: "roser", label: "10 farvelroser", price: 350 },
   { id: "aske", label: "Askespredning over havet", price: 2500 },
-  // Ikke relevant ved begravelse: der er ingen urne, og udlægning af blomster på graven indgår i begravelsespakken
+  // Urnekørsel giver ikke mening ved begravelse, hvor der ingen urne er
   { id: "urnekoersel", label: "Urnekørsel fra krematorie til kirkegårdskontor", price: 900, ikkeVed: "begravelse" },
-  { id: "blomsterkoersel", label: "Blomsterkørsel og udlægning på kirkegård", price: 900, ikkeVed: "begravelse" },
+  // Blomsterkørsel kan også være aktuel ved begravelse, fx når kirken ikke har egen kirkegård
+  { id: "blomsterkoersel", label: "Blomsterkørsel og udlægning på kirkegård", price: 900 },
 ] as const;
 
 /** Tilvalg, der giver mening for den valgte afskedsform. */
