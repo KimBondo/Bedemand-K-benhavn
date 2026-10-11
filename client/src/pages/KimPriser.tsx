@@ -174,7 +174,7 @@ export default function KimPriser() {
             ))}
           </div>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "rgba(255,255,255,0.7)", marginTop: "12px", marginBottom: 0 }}>
-            Priserne gælder hverdage. Tryk for at se, hvad der er inkluderet.
+            Priserne gælder hverdage. Tryk for at se, hvad der er inkluderet – eller <a href="/prisberegner/" style={{ color: "#A8C5A0", fontWeight: 600, textDecoration: "underline" }}>regn jeres eget overslag ud</a>.
           </p>
         </div>
       </div>
