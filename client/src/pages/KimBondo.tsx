@@ -846,6 +846,17 @@ export default function KimBondo() {
             >
               Se den komplette prisliste her
             </a>
+            {" "}eller{" "}
+            <a
+              href="/prisberegner/"
+              style={{
+                color: "#3D6B4F",
+                textDecoration: "underline",
+                fontWeight: 600,
+              }}
+            >
+              regn et overslag ud i prisberegneren
+            </a>
           </p>
         </div>
       </section>
