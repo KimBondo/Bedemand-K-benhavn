@@ -187,68 +187,87 @@
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/amager/</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/osterbro/</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/norrebro/</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/vesterbro/</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/helsingor/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/horsholm/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/gentofte/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/lyngby/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/hillerod/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://www.bedemandkobenhavn.dk/fredensborg/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/rudersdal/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.bedemandkobenhavn.dk/hornbaek/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bedemandkobenhavn.dk/alsgaarde/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.bedemandkobenhavn.dk/humlebaek/</loc>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

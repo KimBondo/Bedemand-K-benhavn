@@ -137,6 +137,18 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     title: "Min Sidste Vilje – skema og ønsker til egen begravelse",
     description: "Skriv dine ønsker til din egen begravelse eller bisættelse ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring 22 21 14 37.",
   },
+  "/hornbaek": {
+    title: "Bedemand Hornbæk – Kim Bondo, døgnet rundt",
+    description: "Personlig bedemand i Hornbæk og Hellebæk. Nærmeste krematorium i Hillerød. Faste priser og én person hele vejen. Ring 22 21 14 37.",
+  },
+  "/alsgaarde": {
+    title: "Bedemand Ålsgårde – Kim Bondo, døgnet rundt",
+    description: "Personlig bedemand i Ålsgårde og kystområdet. Nærmeste krematorium i Hillerød. Faste priser og én person hele vejen. Ring 22 21 14 37.",
+  },
+  "/humlebaek": {
+    title: "Bedemand Humlebæk – Kim Bondo, døgnet rundt",
+    description: "Personlig bedemand i Humlebæk og Espergærde. Nærmeste krematorium i Hillerød. Faste priser og én person hele vejen. Ring 22 21 14 37.",
+  },
   "/persondatapolitik": {
     title: "Persondatapolitik – Bedemand Kim Bondo",
     description: "Sådan behandler Bedemand København ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR.",

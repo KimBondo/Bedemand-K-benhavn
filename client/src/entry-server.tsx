@@ -42,6 +42,9 @@ import KimVesterbro from "./pages/KimVesterbro";
 import KimProdukter from "./pages/KimProdukter";
 import KimOmKim from "./pages/KimOmKim";
 import KimPersondatapolitik from "./pages/KimPersondatapolitik";
+import KimHornbaek from "./pages/KimHornbaek";
+import KimAlsgaarde from "./pages/KimAlsgaarde";
+import KimHumlebaek from "./pages/KimHumlebaek";
 import KimFredensborg from "./pages/KimFredensborg";
 import KimRudersdal from "./pages/KimRudersdal";
 import KimMinSidsteVilje from "./pages/KimMinSidsteVilje";
@@ -81,6 +84,9 @@ function SSRApp() {
             <Route path={"/produkter"} component={KimProdukter} />
             <Route path={"/om-kim"} component={KimOmKim} />
             <Route path={"/persondatapolitik"} component={KimPersondatapolitik} />
+            <Route path={"/hornbaek"} component={KimHornbaek} />
+            <Route path={"/alsgaarde"} component={KimAlsgaarde} />
+            <Route path={"/humlebaek"} component={KimHumlebaek} />
             <Route path={"/fredensborg"} component={KimFredensborg} />
             <Route path={"/rudersdal"} component={KimRudersdal} />
             <Route path={"/min-sidste-vilje"} component={KimMinSidsteVilje} />

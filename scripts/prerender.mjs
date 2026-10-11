@@ -54,6 +54,9 @@ const ROUTES = [
   "/fredensborg",
   "/rudersdal",
   "/min-sidste-vilje",
+  "/hornbaek",
+  "/alsgaarde",
+  "/humlebaek",
 ];
 
 const ROUTE_META = {
@@ -164,6 +167,18 @@ const ROUTE_META = {
   "/min-sidste-vilje": {
     title: "Min Sidste Vilje \u2013 skema og \u00f8nsker til egen begravelse",
     description: "Skriv dine \u00f8nsker til din egen begravelse eller bis\u00e6ttelse ned. Hent skemaet Min Sidste Vilje gratis, eller f\u00e5 hj\u00e6lp ved et gratis hjemmebes\u00f8g. Ring 22 21 14 37.",
+  },
+  "/hornbaek": {
+    title: "Bedemand Hornb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
+    description: "Personlig bedemand i Hornb\u00e6k og Helleb\u00e6k. N\u00e6rmeste krematorium i Hiller\u00f8d. Faste priser og \u00e9n person hele vejen. Ring 22 21 14 37.",
+  },
+  "/alsgaarde": {
+    title: "Bedemand \u00c5lsg\u00e5rde \u2013 Kim Bondo, d\u00f8gnet rundt",
+    description: "Personlig bedemand i \u00c5lsg\u00e5rde og kystomr\u00e5det. N\u00e6rmeste krematorium i Hiller\u00f8d. Faste priser og \u00e9n person hele vejen. Ring 22 21 14 37.",
+  },
+  "/humlebaek": {
+    title: "Bedemand Humleb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
+    description: "Personlig bedemand i Humleb\u00e6k og Esperg\u00e6rde. N\u00e6rmeste krematorium i Hiller\u00f8d. Faste priser og \u00e9n person hele vejen. Ring 22 21 14 37.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",
