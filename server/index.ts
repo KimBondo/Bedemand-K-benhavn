@@ -149,6 +149,10 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     title: "Bedemand Humlebæk – Kim Bondo, døgnet rundt",
     description: "Personlig bedemand i Humlebæk og Espergærde. Nærmeste krematorium i Hillerød. Faste priser og én person hele vejen. Ring 22 21 14 37.",
   },
+  "/prisberegner": {
+    title: "Prisberegner – Bedemand Kim Bondo",
+    description: "Få et vejledende overslag på begravelse eller bisættelse. Faste priser og gennemsigtighed. Ring 22 21 14 37.",
+  },
   "/persondatapolitik": {
     title: "Persondatapolitik – Bedemand Kim Bondo",
     description: "Sådan behandler Bedemand København ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR.",

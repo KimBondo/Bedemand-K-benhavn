@@ -42,6 +42,7 @@ import KimVesterbro from "./pages/KimVesterbro";
 import KimProdukter from "./pages/KimProdukter";
 import KimOmKim from "./pages/KimOmKim";
 import KimPersondatapolitik from "./pages/KimPersondatapolitik";
+import KimPrisberegner from "./pages/KimPrisberegner";
 import KimHornbaek from "./pages/KimHornbaek";
 import KimAlsgaarde from "./pages/KimAlsgaarde";
 import KimHumlebaek from "./pages/KimHumlebaek";
@@ -84,6 +85,7 @@ function SSRApp() {
             <Route path={"/produkter"} component={KimProdukter} />
             <Route path={"/om-kim"} component={KimOmKim} />
             <Route path={"/persondatapolitik"} component={KimPersondatapolitik} />
+            <Route path={"/prisberegner"} component={KimPrisberegner} />
             <Route path={"/hornbaek"} component={KimHornbaek} />
             <Route path={"/alsgaarde"} component={KimAlsgaarde} />
             <Route path={"/humlebaek"} component={KimHumlebaek} />
