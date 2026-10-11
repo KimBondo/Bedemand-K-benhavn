@@ -142,6 +142,9 @@ export default function KimRudersdal() {
           <p style={s.body}>
             Der er ikke krematorium i Rudersdal. Kremeringen sker på Hillerød Krematorium eller på Bispebjerg Krematorium i København. Transporten og koordineringen står jeg for, mens ceremonien holdes lokalt i kirken eller i et af kirkegårdenes kapeller.
           </p>
+          <p style={s.body}>
+            Mange familier i Birkerød, Holte og Vedbæk vælger Hillerød, fordi det er Nordsjællands eneste aktive krematorium og afstanden er kort. Jeg kender både kapellerne på Søllerød, Høsterkøb og Vedbæk og de praktiske forhold omkring transport og tider, så I kan fokusere på afskeden.
+          </p>
         </div>
       </section>
 
@@ -189,7 +192,13 @@ export default function KimRudersdal() {
             { label: "Bedemand Nordsjælland", href: "/nordsjaelland/" },
             { label: "Bedemand Lyngby", href: "/lyngby/" },
             { label: "Bedemand Gentofte", href: "/gentofte/" },
+            { label: "Bedemand Hillerød", href: "/hillerod/" },
+            { label: "Bedemand Hørsholm", href: "/horsholm/" },
+            { label: "Bedemand Fredensborg", href: "/fredensborg/" },
+            { label: "Dækningsområde", href: "/omraade/" },
             { label: "Se priser", href: "/priser/" },
+            { label: "Huskeliste", href: "/huskeliste/" },
+            { label: "Min Sidste Vilje", href: "/min-sidste-vilje/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
           ))}
