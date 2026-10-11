@@ -157,6 +157,9 @@ export default function KimNordsjaelland() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px", marginTop: "8px" }}>
             {[
               { by: "Helsingør", href: "/helsingor/" },
+              { by: "Hornbæk", href: "/hornbaek/" },
+              { by: "Ålsgårde", href: "/alsgaarde/" },
+              { by: "Humlebæk", href: "/humlebaek/" },
               { by: "Hørsholm", href: "/horsholm/" },
               { by: "Hillerød", href: "/hillerod/" },
               { by: "Lyngby", href: "/lyngby/" },
