@@ -8,7 +8,14 @@ import { useLocation } from "wouter";
  */
 
 const NAV_LINKS = [
-  { href: "/priser/", label: "Priser" },
+  { 
+    href: "/priser/", 
+    label: "Priser",
+    children: [
+      { href: "/priser/", label: "Prisliste" },
+      { href: "/prisberegner/", label: "Prisberegner" },
+    ]
+  },
   { href: "/afskeder/", label: "Afskeder" },
   { href: "/produkter/", label: "Produkter" },
   { href: "/huskeliste/", label: "Huskeliste" },
@@ -76,6 +83,10 @@ export default function KimNav() {
           gap: clamp(10px, 1.1vw, 20px);
           flex-wrap: wrap;
         }
+        .has-dropdown:hover .dropdown-menu {
+          opacity: 1 !important;
+          visibility: visible !important;
+        }
         .kimnav-hamburger {
           display: none;
           background: none;
@@ -104,15 +115,52 @@ export default function KimNav() {
 
       {/* ── DESKTOP NAV ── */}
       <nav className="kimnav-desktop" aria-label="Kim Bondo navigation">
-        {NAV_LINKS.map(({ href, label, exact, hash }) => (
-          <a
-            key={href}
-            href={href}
-            style={isActive(href, exact, hash) ? ACTIVE : INACTIVE}
-            onClick={hash ? (e) => { e.preventDefault(); goToKontakt(); } : undefined}
-          >
-            {label}
-          </a>
+        {NAV_LINKS.map(({ href, label, exact, hash, children }) => (
+          <div key={href} style={{ position: "relative" }} className={children ? "has-dropdown" : ""}>
+            <a
+              href={href}
+              style={isActive(href, exact, hash) ? ACTIVE : INACTIVE}
+              onClick={hash ? (e) => { e.preventDefault(); goToKontakt(); } : undefined}
+            >
+              {label}
+            </a>
+            {children && (
+              <div className="dropdown-menu" style={{
+                position: "absolute",
+                top: "100%",
+                left: 0,
+                minWidth: "180px",
+                background: "#fff",
+                border: "1px solid #e0dcd6",
+                borderRadius: "4px",
+                boxShadow: "0 4px 16px rgba(0,0,0,0.08)",
+                padding: "8px 0",
+                opacity: 0,
+                visibility: "hidden",
+                transition: "opacity 0.15s ease",
+                zIndex: 100,
+              }}>
+                {children.map((child) => (
+                  <a
+                    key={child.href}
+                    href={child.href}
+                    style={{
+                      display: "block",
+                      padding: "10px 16px",
+                      fontFamily: "'Open Sans', sans-serif",
+                      fontSize: "14px",
+                      color: "#2F3E46",
+                      textDecoration: "none",
+                    }}
+                    onMouseEnter={(e) => { e.currentTarget.style.background = "#f0f7f3"; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+                  >
+                    {child.label}
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
         ))}
         <a
           href="tel:22211437"
