@@ -24,7 +24,15 @@ const ADDONS = [
   { id: "pynt-stor", label: "Kistepynt stor", price: 3500 },
   { id: "roser", label: "10 farvelroser", price: 350 },
   { id: "aske", label: "Askespredning over havet", price: 2500 },
+  // Ikke relevant ved begravelse: der er ingen urne, og udlægning af blomster på graven indgår i begravelsespakken
+  { id: "urnekoersel", label: "Urnekørsel fra krematorie til kirkegårdskontor", price: 900, ikkeVed: "begravelse" },
+  { id: "blomsterkoersel", label: "Blomsterkørsel og udlægning på kirkegård", price: 900, ikkeVed: "begravelse" },
 ] as const;
+
+/** Tilvalg, der giver mening for den valgte afskedsform. */
+function relevant(addon: (typeof ADDONS)[number], base: keyof typeof BASE_PRICES | null) {
+  return !("ikkeVed" in addon && addon.ikkeVed === base);
+}
 
 export default function KimPrisberegner() {
   const [base, setBase] = useState<keyof typeof BASE_PRICES | null>(null);
@@ -34,7 +42,7 @@ export default function KimPrisberegner() {
   const basePrice = base ? BASE_PRICES[base] : 0;
   const addonTotal = Object.entries(addons).reduce((sum, [id, qty]) => {
     const addon = ADDONS.find((a) => a.id === id);
-    return sum + (addon ? addon.price * qty : 0);
+    return sum + (addon && relevant(addon, base) ? addon.price * qty : 0);
   }, 0);
   const total = basePrice + addonTotal;
 
@@ -141,7 +149,7 @@ export default function KimPrisberegner() {
 
           <h2 style={s.h2}>3. Tilvalg <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
           <div style={{ display: "grid", gap: "12px", marginBottom: "48px" }}>
-            {ADDONS.map((addon) => {
+            {ADDONS.filter((addon) => relevant(addon, base)).map((addon) => {
               const selected = !!addons[addon.id];
               const qty = addons[addon.id] || 1;
               return (
