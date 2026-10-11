@@ -404,6 +404,14 @@ export default function KimPriser() {
           ]} />
 
 
+          <h3 style={{ ...s.h3, marginTop: "32px" }}>Askespredning</h3>
+          <PriceTable rows={[
+            ["Askespredning over havet", "Fra 2.500 kr."],
+          ]} />
+          <p style={{ ...s.small, marginBottom: "32px" }}>
+            Inkluderer koordinering, tro-og-love-erklæring og det praktiske omkring spredningen.
+          </p>
+
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Øvrige ydelser</h3>
           <PriceTable rows={[
             ["Fremvisning i kapel", "900 kr."],
