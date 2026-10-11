@@ -57,6 +57,7 @@ const ROUTES = [
   "/hornbaek",
   "/alsgaarde",
   "/humlebaek",
+  "/prisberegner",
 ];
 
 const ROUTE_META = {
@@ -179,6 +180,10 @@ const ROUTE_META = {
   "/humlebaek": {
     title: "Bedemand Humleb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
     description: "Personlig bedemand i Humleb\u00e6k og Esperg\u00e6rde. N\u00e6rmeste krematorium i Hiller\u00f8d. Faste priser og \u00e9n person hele vejen. Ring 22 21 14 37.",
+  },
+  "/prisberegner": {
+    title: "Prisberegner \u2013 Bedemand Kim Bondo",
+    description: "F\u00e5 et vejledende overslag p\u00e5 begravelse eller bis\u00e6ttelse. Faste priser og gennemsigtighed. Ring 22 21 14 37.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",

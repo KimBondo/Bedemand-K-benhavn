@@ -147,11 +147,11 @@ export default function KimPrisberegner() {
               return (
                 <div key={addon.id} style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "16px 20px", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px" }}>
                   <label style={{ display: "flex", alignItems: "center", gap: "12px", cursor: "pointer", flex: 1 }}>
-                    <input type="checkbox" checked={selected} onChange={() => toggleAddon(addon.id, !!addon.quantity)} />
+                    <input type="checkbox" checked={selected} onChange={() => toggleAddon(addon.id, "quantity" in addon)} />
                     <span>{addon.label}</span>
                   </label>
                   <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-                    {selected && addon.quantity && (
+                    {selected && "quantity" in addon && (
                       <input type="number" min={1} value={qty} onChange={(e) => setQty(addon.id, Number(e.target.value))} style={{ width: "70px", padding: "6px 8px", border: "1px solid #e0dcd6", borderRadius: "3px" }} />
                     )}
                     <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
