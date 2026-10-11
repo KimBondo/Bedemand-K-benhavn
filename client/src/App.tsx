@@ -10,6 +10,7 @@ import { lazy, Suspense } from "react";
 // Route-level code splitting — reduces initial JS bundle by ~250 KiB
 const KimBondo = lazy(() => import("./pages/KimBondo"));
 const KimPriser = lazy(() => import("./pages/KimPriser"));
+const KimPrisberegner = lazy(() => import("./pages/KimPrisberegner"));
 const KimAfskeder = lazy(() => import("./pages/KimAfskeder"));
 const KimBisaettelse = lazy(() => import("./pages/KimBisaettelse"));
 const KimBegravelse = lazy(() => import("./pages/KimBegravelse"));
@@ -50,6 +51,7 @@ function AppRouter() {
     <Switch>
       <Route path={"/"} component={KimBondo} />
       <Route path={"/priser"} component={KimPriser} />
+      <Route path={"/prisberegner"} component={KimPrisberegner} />
       <Route path={"/afskeder"} component={KimAfskeder} />
       <Route path={"/bisaettelse"} component={KimBisaettelse} />
       <Route path={"/begravelse"} component={KimBegravelse} />
