@@ -3,14 +3,6 @@ import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 
-/**
- * Kim Bondo – Bedemand Østerbro (lokal SEO-landingsside)
- */
-
-const NAV = (
-  <KimNav />
-);
-
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
   h2: { fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "16px", marginTop: "0" } as React.CSSProperties,
@@ -48,65 +40,49 @@ export default function KimOsterbro() {
         ]}
       />
 
-      {/* ── HEADER ── */}
       <header style={{ background: "#F9F8F6", padding: "20px 24px", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "8px", borderBottom: "1px solid #e0dcd6", position: "relative" }}>
-<style>{`
-  @media (max-width: 768px) {
-    .mobile-call-btn {
-      display: inline-flex !important;
-      align-items: center;
-      gap: 8px;
-      background: #3D6B4F;
-      color: #fff;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 700;
-      font-size: 15px;
-      padding: 10px 20px;
-      border-radius: 3px;
-      text-decoration: none;
-      letter-spacing: 0.04em;
-      white-space: nowrap;
-    }
-  }
-`}</style>
+        <style>{`
+          @media (max-width: 768px) {
+            .mobile-call-btn {
+              display: inline-flex !important;
+              align-items: center;
+              gap: 8px;
+              background: #3D6B4F;
+              color: #fff;
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 700;
+              font-size: 15px;
+              padding: 10px 20px;
+              border-radius: 3px;
+              text-decoration: none;
+              letter-spacing: 0.04em;
+              white-space: nowrap;
+            }
+          }
+        `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2, textDecoration: "none" }}>Bedemand Østerbro</a>
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – personlig bedemand på Østerbro</span>
         </div>
         <KimNav />
-        {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
-        <a
-          href="tel:22211437"
-          style={{
-            display: "none",
-          }}
-          className="mobile-call-btn"
-        >
+        <a href="tel:22211437" style={{ display: "none" }} className="mobile-call-btn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
           Ring op
         </a>
       </header>
-      {/* ── BRØDKRUMMESTI ── */}
+
       <nav aria-label="breadcrumb" style={{ background: "#F0EDE8", padding: "10px 24px", borderBottom: "1px solid #e0dcd6" }}>
         <ol style={{ display: "flex", alignItems: "center", gap: "8px", listStyle: "none", margin: 0, padding: 0, fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99", flexWrap: "wrap" }}>
-          <li>
-            <a href="/" style={{ color: "#3D6B4F", textDecoration: "none" }}>Forsiden</a>
-          </li>
+          <li><a href="/" style={{ color: "#3D6B4F", textDecoration: "none" }}>Forsiden</a></li>
           <li style={{ color: "#b0b8bc" }}>›</li>
-          <li>
-            <a href="/omraade/" style={{ color: "#3D6B4F", textDecoration: "none" }}>Områder</a>
-          </li>
+          <li><a href="/omraade/" style={{ color: "#3D6B4F", textDecoration: "none" }}>Områder</a></li>
           <li style={{ color: "#b0b8bc" }}>›</li>
-          <li style={{ color: "#3d4f5a", fontWeight: 600 }}>
-            Bedemand Østerbro
-          </li>
+          <li style={{ color: "#3d4f5a", fontWeight: 600 }}>Bedemand Østerbro</li>
         </ol>
       </nav>
 
-
-      {/* ── HERO ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Bedemand på Østerbro</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
@@ -124,7 +100,6 @@ export default function KimOsterbro() {
         </p>
       </section>
 
-      {/* ── OM KIM PÅ ØSTERBRO ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Nærværende og tilgængelig</p>
@@ -140,13 +115,15 @@ export default function KimOsterbro() {
             Holmens Kirkegård blev anlagt til flåden, Garnisons til hæren, og de ligger stadig side om side ved Øster Farimagsgade og Dag Hammarskjölds Allé. Kapellet på Holmens Kirkegård, Upsalagade 25, blev opført i 1902 af arkitekten Ludvig Fenger og har 110 siddepladser. Det bruges til både kirkelige og borgerlige ceremonier, har orgel og lydanlæg, og I kan komme ind en time før.
           </p>
           <p style={s.body}>
+            Østerbro har flere kirker og tæt adgang til Bispebjerg Krematorium. Mange familier vælger en ceremoni i en lokal kirke eller kapel og lader kremeringen ske på Bispebjerg. Jeg holder styr på det praktiske.
+          </p>
+          <p style={s.body}>
             Det er ikke et neutralt lokale: i kapellet hænger Heinrich Dohms maleri »Den store hvide flok« fra 1915, og alterrelief og lysestager er udført af billedhuggeren Margrethe Sørensen. Blandt kirkerne i bydelen er Sankt Jakobs Kirke på Østerbrogade, Kildevældskirken, Sions Kirke, Esajas Kirke og Kastelskirken. Østerbro har ikke sit eget krematorium.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
       </section>
 
-      {/* ── YDELSER ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <p style={s.label}>Mine ydelser</p>
@@ -170,7 +147,6 @@ export default function KimOsterbro() {
         </div>
       </section>
 
-      {/* ── PRISER ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Gennemsigtige priser</p>
@@ -197,7 +173,6 @@ export default function KimOsterbro() {
         </div>
       </section>
 
-      {/* ── FAQ ── */}
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Spørgsmål og svar</p>
@@ -212,23 +187,25 @@ export default function KimOsterbro() {
         </div>
       </section>
 
-      {/* ── SE OGSÅ ── */}
       <section style={{ background: "#fff", padding: "56px 32px", textAlign: "center" }}>
         <p style={s.label}>Se også</p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
             { label: "Bedemand København", href: "/" },
-            { label: "Bedemand Frederiksberg", href: "/frederiksberg/" },
+            { label: "Bedemand Nørrebro", href: "/norrebro/" },
             { label: "Bedemand Amager", href: "/amager/" },
+            { label: "Bedemand Vesterbro", href: "/vesterbro/" },
             { label: "Bedemand Gentofte", href: "/gentofte/" },
             { label: "Dækningsområde", href: "/omraade/" },
+            { label: "Se priser", href: "/priser/" },
+            { label: "Huskeliste", href: "/huskeliste/" },
+            { label: "Min Sidste Vilje", href: "/min-sidste-vilje/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
           ))}
         </div>
       </section>
 
-      {/* ── KONTAKT ── */}
       <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
           <p style={{ ...s.label, textAlign: "center" }}>Kontakt Kim</p>
@@ -243,7 +220,6 @@ export default function KimOsterbro() {
         </div>
       </section>
 
-      {/* ── DEL PÅ FACEBOOK ── */}
       <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
           Kender du nogen på Østerbro, der kan have brug for en bedemand? Del denne side.
@@ -272,42 +248,12 @@ export default function KimOsterbro() {
         </a>
       </section>
 
-
-
-      {/* ── FOOTER ── */}
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand på Østerbro – Kim Bondo</p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
-        <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
-        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
-        </p>
-        <p style={{ marginTop: "48px", fontFamily: "'Open Sans', sans-serif", fontSize: "12px", color: "rgba(255,255,255,0.78)" }}>
-          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
-          <a
-            href="tel:22211437"
-            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
-          >
-            Tlf.: 22 21 14 37
-          </a>
-          {" "}&nbsp;·&nbsp;{" "}
-          <a
-            href="mailto:kim@bedemandkobenhavn.dk"
-            style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
-          >
-            kim@bedemandkobenhavn.dk
-          </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
-          {" "}&nbsp;·&nbsp;{" "}
-          <a href="/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Forsiden</a>
-          &nbsp;·&nbsp;
-          <a href="/omraade/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Dækningsområde</a>
-          &nbsp;·&nbsp;
-          <a href="/min-sidste-vilje/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Min Sidste Vilje</a>
-          &nbsp;·&nbsp;
-          <a href="/persondatapolitik/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Persondatapolitik</a>
-          &nbsp;·&nbsp;
-          <a href="#cookieindstillinger" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Cookieindstillinger</a>
+        <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Kontakt mig</a>
+        <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
+          © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, 2860 Søborg · Tlf.: 22 21 14 37 · kim@bedemandkobenhavn.dk · CVR.: 45084159
         </p>
       </footer>
     </div>
