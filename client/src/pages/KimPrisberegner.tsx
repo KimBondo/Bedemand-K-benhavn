@@ -22,7 +22,7 @@ const ADDONS = [
   { id: "pynt-lille", label: "Kistepynt lille", price: 1800 },
   { id: "pynt-mellem", label: "Kistepynt mellem", price: 2500 },
   { id: "pynt-stor", label: "Kistepynt stor", price: 3500 },
-  { id: "roser", label: "Farvelroser (pr. stk.)", price: 350, quantity: true },
+  { id: "roser", label: "10 farvelroser", price: 350 },
   { id: "aske", label: "Askespredning over havet", price: 2500 },
 ] as const;
 
