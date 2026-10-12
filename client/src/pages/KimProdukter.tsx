@@ -32,6 +32,8 @@ const s = {
   label: { fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase" as const, marginBottom: "16px", display: "block" },
 };
 
+type Brug = "bisættelse" | "begravelse" | "begge";
+
 const KISTER = [
   {
     id: "basiskiste",
@@ -42,7 +44,7 @@ const KISTER = [
     imgH: 1366,
     alt: "Basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
     description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse. Vælger I den i stedet for den klassiske hvide kiste i en af mine pakker, bliver prisen 500 kr. lavere ved bisættelse og 1.000 kr. lavere ved begravelse. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
-    use: "begge" as const,
+    use: "begge" as Brug,
   },
   {
     id: "klassisk-hvid",
@@ -53,7 +55,7 @@ const KISTER = [
     imgH: 1200,
     alt: "Klassisk hvid kiste til bisættelse og begravelse, Kim Bondo bedemand",
     description: "Den klassiske hvide kiste er standardkisten i mine pakker. Til bisættelse er den fremstillet i spån og MDF og koster 6.500 kr. Til begravelse bruges en særlig udgave, som koster 7.000 kr.",
-    use: "begge" as const,
+    use: "begge" as Brug,
   },
   {
     id: "gaia",
@@ -64,7 +66,7 @@ const KISTER = [
     imgH: 1365,
     alt: "Gaia kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse og begravelse",
     description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og træet binder CO2, mens det vokser. Både til bisættelse og begravelse.",
-    use: "begge" as const,
+    use: "begge" as Brug,
   },
   {
     id: "orbit",
@@ -75,7 +77,7 @@ const KISTER = [
     imgH: 1366,
     alt: "Orbit papirkiste i ReBoard – let og miljøvenlig kiste til begravelse og kremering",
     description: "Orbit er fremstillet i ReBoard, som er produceret med 80 % færre træfibre end materialet i en traditionel kiste. Kisten vejer 12 kg, hvilket gør den let at håndtere. Den kan printes i alle farver og motiver og er testet til både begravelse og kremering.",
-    use: "begge" as const,
+    use: "begge" as Brug,
   },
   {
     id: "massiv-fyr",
@@ -86,7 +88,7 @@ const KISTER = [
     imgH: 1366,
     alt: "Massiv fyrkiste med knaster – naturlig og varm kiste til bisættelse og begravelse, Kim Bondo bedemand",
     description: "Kisten i fyrretræ med knaster har et varmt og naturligt udtryk, hvor træets struktur og levende detaljer får lov at stå frem. Knasterne giver hver kiste sit eget særpræg og understreger det enkle og særlige udtryk. Den kan bruges både til bisættelse og begravelse.",
-    use: "begge" as const,
+    use: "begge" as Brug,
   },
 ];
 
