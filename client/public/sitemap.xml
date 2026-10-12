@@ -261,19 +261,19 @@
 
   <url>
     <loc>https://www.bedemandkobenhavn.dk/hornbaek/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/alsgaarde/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.bedemandkobenhavn.dk/humlebaek/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -284,6 +284,24 @@
     <lastmod>2026-08-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.bedemandkobenhavn.dk/hvad-sker-der/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.bedemandkobenhavn.dk/bisaettelse-nordsjaelland/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.bedemandkobenhavn.dk/soborg/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
