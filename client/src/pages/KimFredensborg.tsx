@@ -14,7 +14,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Fredensborg?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Fredensborg, Humlebæk, Kokkedal og Nivå samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
   { question: "Hvad koster en begravelse i Fredensborg?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Fredensborg Kommune?", answer: "Nej. Nordsjællands eneste krematorium ligger i Hillerød, og det er typisk dér, kremeringen sker. Ceremonien holdes stadig lokalt — i kirken eller i et kirkegårdskapel i kommunen." },
+  { question: "Er der et krematorium i Fredensborg Kommune?", answer: "Nej. Kremeringen sker i Hillerød, hvor Nordsjællands eneste krematorium ligger, eller i København – I vælger selv, ofte ud fra hvor I vil hente urnen, eller også bringer jeg den. Ceremonien holdes stadig lokalt — i kirken eller i et kirkegårdskapel i kommunen." },
   { question: "Kan man vælge en kirkegård i et andet sogn i Fredensborg?", answer: "Ja. Siden januar 2019 har det været gratis for medlemmer af folkekirken med bopæl i Fredensborg Provsti at blive begravet eller få urnen nedsat på kirkegårdene i alle provstiets sogne: Asminderød, Grønholt, Humlebæk, Hørsholm, Karlebo, Kokkedal og Rungsted. Jeg undersøger de aktuelle vilkår for jer." },
 ];
 
@@ -122,7 +122,7 @@ export default function KimFredensborg() {
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kremering</h3>
           <p style={s.body}>
-            Der er ikke krematorium i Fredensborg Kommune. Kremeringen sker typisk på Hillerød Krematorium, som er Nordsjællands eneste. Transporten og koordineringen står jeg for, mens ceremonien holdes lokalt.
+            Der er ikke krematorium i Fredensborg Kommune. Kremeringen kan ske på Hillerød Krematorium, som er Nordsjællands eneste, eller i København – I vælger selv, og mange vælger ud fra, hvor de helst vil hente urnen. I kan også lade mig bringe den. Transporten og koordineringen står jeg for, mens ceremonien holdes lokalt.
           </p>
         </div>
       </section>
@@ -133,7 +133,7 @@ export default function KimFredensborg() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Fredensborg?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering i Hillerød med ceremoni i en af kommunens kirker eller i et kirkegårdskapel.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Kremering i Hillerød eller København med ceremoni i en af kommunens kirker eller i et kirkegårdskapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på en af kirkegårdene i provstiet. Jeg koordinerer med kirkekontor, præst og kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Humlebæk er der kort vej til Øresund.", href: "/askespredning/" },

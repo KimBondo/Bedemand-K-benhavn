@@ -235,7 +235,7 @@ export default function KimPrisberegner() {
 
           <h2 style={s.h2}>{base ? 3 : 2}. Hvor skal det foregå? <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", marginBottom: "40px" }}>
-            {["København (Bispebjerg eller Sundby)", "Nordsjælland (Hillerød eller Ringsted)", "Ved ikke endnu / andet"].map((loc) => (
+            {["København (Bispebjerg eller Sundby)", "Nordsjælland (Hillerød eller Helsingør)", "Ved ikke endnu / andet"].map((loc) => (
               <label key={loc} style={{ display: "flex", alignItems: "center", gap: "8px", background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "12px 16px", cursor: "pointer" }}>
                 <input type="radio" name="location" checked={location === loc} onChange={() => setLocation(loc)} />
                 <span style={{ fontSize: "15px" }}>{loc}</span>

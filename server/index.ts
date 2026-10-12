@@ -143,7 +143,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/hornbaek": {
     title: "Bedemand Hornbæk – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Hornbæk og Hellebæk. Kremering i Hillerød eller Ringsted – I vælger frit. Faste priser. Ring 22 21 14 37 – døgnet rundt.",
+    description: "Personlig bedemand i Hornbæk og Hellebæk. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 22 21 14 37 – døgnet rundt.",
   },
   "/alsgaarde": {
     title: "Bedemand Ålsgårde – Kim Bondo, døgnet rundt",
@@ -151,7 +151,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/humlebaek": {
     title: "Bedemand Humlebæk – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Humlebæk og Espergærde. Kremering i Hillerød eller Ringsted – I vælger frit. Faste priser. Ring 22 21 14 37 – døgnet rundt.",
+    description: "Personlig bedemand i Humlebæk og Espergærde. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 22 21 14 37 – døgnet rundt.",
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",
