@@ -14,15 +14,42 @@ const NAV_LINKS = [
     children: [
       { href: "/priser/", label: "Prisliste" },
       { href: "/prisberegner/", label: "Prisberegner" },
+      { href: "/hvad-koster-en-begravelse/", label: "Hvad koster det?" },
     ]
   },
-  { href: "/afskeder/", label: "Afskeder" },
+  { 
+    href: "/afskeder/", 
+    label: "Afskeder",
+    children: [
+      { href: "/afskeder/", label: "Alle afskeder" },
+      { href: "/bisaettelse/", label: "Bisættelse" },
+      { href: "/begravelse/", label: "Begravelse" },
+      { href: "/afsked-uden-ceremoni/", label: "Uden ceremoni" },
+      { href: "/askespredning/", label: "Askespredning" },
+    ]
+  },
+  { 
+    href: "/hvad-sker-der/", 
+    label: "Vejledning",
+    children: [
+      { href: "/hvad-sker-der/", label: "Hvad sker der, når nogen dør?" },
+      { href: "/huskeliste/", label: "Huskeliste" },
+      { href: "/min-sidste-vilje/", label: "Min Sidste Vilje" },
+      { href: "/faq/", label: "FAQ" },
+    ]
+  },
+  { 
+    href: "/nordsjaelland/", 
+    label: "Områder",
+    children: [
+      { href: "/nordsjaelland/", label: "Nordsjælland" },
+      { href: "/omraade/", label: "Alle områder" },
+      { href: "/helsingor/", label: "Helsingør" },
+      { href: "/hillerod/", label: "Hillerød" },
+      { href: "/lyngby/", label: "Lyngby" },
+    ]
+  },
   { href: "/produkter/", label: "Produkter" },
-  { href: "/huskeliste/", label: "Huskeliste" },
-  { href: "/min-sidste-vilje/", label: "Min Sidste Vilje" },
-  { href: "/nordsjaelland/", label: "Nordsjælland" },
-  { href: "/omraade/", label: "Områder" },
-  { href: "/faq/", label: "FAQ" },
   { href: "/om-kim/", label: "Om Kim", exact: true },
   { href: "/#kontakt", label: "Kontakt", exact: false, hash: true },
 ];
