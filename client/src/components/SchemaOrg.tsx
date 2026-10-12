@@ -90,7 +90,7 @@ const PRICE_OFFERS = [
 
 const KIM_LOCAL_BUSINESS = {
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "FuneralHome"],
+  "@type": "LocalBusiness",
   "@id": `${BASE_URL}/#business`,
   "name": "Bedemand København",
   "alternateName": ["Bedemand Kim Bondo", "Bedemand København ApS"],
