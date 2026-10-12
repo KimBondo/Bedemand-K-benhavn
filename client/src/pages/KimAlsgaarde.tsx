@@ -29,7 +29,7 @@ export default function KimAlsgaarde() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["Ålsgårde"]}
+        areaServed={["Ålsgårde", "Hellebæk", "Hornbæk"]}
         pageUrl="https://www.bedemandkobenhavn.dk/alsgaarde/"
         faqItems={FAQ}
         breadcrumbs={[
