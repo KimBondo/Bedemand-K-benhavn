@@ -17,7 +17,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvad skal man gøre først, når nogen dør?", answer: "Kontakt en læge, som konstaterer dødsfaldet og udsteder dødsattest. Derefter kan bedemanden kontaktes. Jeg hjælper med anmeldelse til myndighederne og den videre planlægning." },
-  { question: "Hvor kremeres man i Nordsjælland?", answer: "Det eneste krematorium i drift i Nordsjælland er Hillerød Krematorium ved Skansekirkegården. Krematorierne i Helsingør og Gentofte er lukket. I København sker kremering på Bispebjerg eller Sundby." },
+  { question: "Hvor kremeres man i Nordsjælland?", answer: "På Hillerød Krematorium eller via aflevering i Helsingør, hvorfra kisterne køres samlet til Fælleskrematoriet i Ringsted. I København sker kremering på Bispebjerg, Sundby, Ballerup eller Glostrup." },
   { question: "Hvem anmelder dødsfaldet?", answer: "Bedemanden anmelder dødsfaldet til hjemsognet. Jeg sørger for det som en del af arbejdet, så de pårørende ikke selv skal kontakte myndighederne." },
   { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig starter en afsked uden ceremoni ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
   { question: "Kan man få begravelseshjælp?", answer: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med at ansøge om den." },
@@ -83,7 +83,7 @@ export default function KimHvadSkerDer() {
             Jeg anmelder dødsfaldet til hjemsognet og søger begravelseshjælp på jeres vegne. Jeg koordinerer med kirke eller kapel, krematorium og kirkegård, så I ikke selv skal holde styr på tider og kontakter.
           </p>
           <p style={s.body}>
-            I Nordsjælland sker kremering på Hillerød Krematorium ved Skansekirkegården – det eneste krematorium i drift i området. I København sker det på Bispebjerg eller Sundby. Ceremonien holdes stadig lokalt.
+            I Nordsjælland kan kremering ske på Hillerød Krematorium eller via aflevering i Helsingør til Fælleskrematoriet i Ringsted. I København og omegn sker det på Bispebjerg, Sundby, Ballerup eller Glostrup. Ceremonien holdes stadig lokalt.
           </p>
 
           <h2 style={s.h2}>Valg af afsked</h2>
