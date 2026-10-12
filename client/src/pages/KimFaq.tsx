@@ -56,7 +56,7 @@ const FAQ_SECTIONS = [
   {
     title: "Praktiske spørgsmål",
     items: [
-      { q: "Hvad skal jeg gøre, når nogen dør?", a: "Første skridt er at kontakte en læge, der kan konstatere dødsfaldet og udstede en dødsattest. Derefter kontakter du mig, og jeg guider dig igennem resten.", link: "/huskeliste/" },
+      { q: "Hvad skal jeg gøre, når nogen dør?", a: "Første skridt er at kontakte en læge, der kan konstatere dødsfaldet og udstede en dødsattest. Derefter kontakter du mig, og jeg guider dig igennem resten.", link: "/hvad-sker-der/" },
       { q: "Hvad skal jeg huske at ordne efter et dødsfald?", a: "Der er mange praktiske ting at ordne — fra myndighederne og banken til opsigelse af abonnementer. Jeg har lavet en huskeliste, der guider dig igennem de vigtigste trin.", link: "/huskeliste/" },
       { q: "Hvor hurtigt skal en begravelse finde sted?", a: "Hovedreglen er, at begravelse eller bisættelse skal finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Kirkegården eller krematoriet kan forlænge fristen til 14 dage, når afdøde opbevares på køl, og det er almindeligt i praksis. Jeg sørger for det hele, så I ikke skal tænke på fristerne.", link: "/huskeliste/" },
       { q: "Hvad gør man, hvis dødsfaldet sker i hjemmet?", a: "Ring til afdødes egen læge eller til 1813 uden for lægens åbningstid. Lægen skal konstatere dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig – døgnet rundt. Der er ingen hast; afdøde kan godt blive hjemme et stykke tid, hvis I ønsker at sige farvel i ro.", link: "/huskeliste/" },
