@@ -60,6 +60,7 @@ const ROUTES = [
   "/prisberegner",
   "/hvad-sker-der",
   "/bisaettelse-nordsjaelland",
+  "/soborg",
 ];
 
 const ROUTE_META = {
@@ -177,7 +178,7 @@ const ROUTE_META = {
   },
   "/alsgaarde": {
     title: "Bedemand \u00c5lsg\u00e5rde \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i \u00c5lsg\u00e5rde og kystomr\u00e5det. N\u00e6rmeste krematorium i Hiller\u00f8d. Faste priser og \u00e9n person hele vejen. Ring 22 21 14 37.",
+    description: "Personlig bedemand i \u00c5lsg\u00e5rde og Helleb\u00e6k. Jeg kender Helleb\u00e6k Kirke og \u00c5lsg\u00e5rde Kirkeg\u00e5rd og hj\u00e6lper jer hele vejen. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/humlebaek": {
     title: "Bedemand Humleb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
@@ -206,6 +207,10 @@ const ROUTE_META = {
   "/produkter": {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",
     description: "V\u00e6lg kiste fra 6.000 kr. eller urne fra 950 kr. B\u00e6redygtige og klassiske modeller. Kim Bondo bedemand i K\u00f8benhavn. Ring 22 21 14 37.",
+  },
+  "/soborg": {
+    title: "Bedemand S\u00f8borg & Gladsaxe \u2013 Kim Bondo, d\u00f8gnet rundt",
+    description: "Personlig bedemand med kontor p\u00e5 Vandt\u00e5rnsvej 62A i S\u00f8borg. Jeg hj\u00e6lper familier i hele Gladsaxe med bis\u00e6ttelse og begravelse. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/vesterbro": {
     title: "Bedemand Vesterbro \u2013 Kim Bondo, d\u00f8gnet rundt",

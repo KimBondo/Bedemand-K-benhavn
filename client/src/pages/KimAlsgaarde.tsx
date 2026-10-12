@@ -12,10 +12,11 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Ålsgårde?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Ålsgårde og kystområdet samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Ålsgårde?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Hvor sker kremeringen for familier i Ålsgårde?", answer: "Det nærmeste aktive krematorium er Hillerød Krematorium ved Skansekirkegården. Helsingør har ikke længere eget krematorium. Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
-  { question: "Hvilke kirker koordinerer du med omkring Ålsgårde?", answer: "Jeg koordinerer med de lokale kirker og kirkegårde i nærområdet." },
+  { question: "Hvilken kirke hører Ålsgårde til?", answer: "Ålsgårde hører til Hellebæk Sogn, og sognekirken er Hellebæk Kirke, Ved Kirken 2-4, 3140 Ålsgårde. Kirken ligger ved stranden og blev indviet i 1920. Jeg tager kontakten til kirkekontoret og præsten for jer." },
+  { question: "Kan urnen nedsættes på Ålsgårde Kirkegård?", answer: "Ja. Ålsgårde Kirkegård ved Ålsgårde Station er i dag primært en urnekirkegård. Jeg hjælper jer med at vælge gravsted og aftaler urnenedsættelsen med kirkegårdskontoret." },
+  { question: "Kan man stadig blive begravet i kiste i Ålsgårde?", answer: "Ålsgårde Kirkegård er i dag primært urnekirkegård med få ældre kistegravsteder. Ønsker I en kistebegravelse, undersøger jeg mulighederne på sognets kirkegårde – også den gamle Hellebæk Kirkegård i Teglstrup Hegn – og finder en løsning sammen med jer." },
+  { question: "Hvor foregår kremeringen, når man bor i Ålsgårde?", answer: "Helsingør har ikke længere eget krematorium. Ceremonien holdes lokalt, fx i Hellebæk Kirke, og bagefter sørger jeg for, at kisten køres til Fælleskrematoriet i Ringsted. I skal ikke selv tage dertil." },
+  { question: "Kommer du hjem til os i Ålsgårde?", answer: "Ja. Jeg kommer gerne hjem til jer i Ålsgårde, Hellebæk eller langs kysten, og telefonen er åben døgnet rundt på 22 21 14 37." },
 ];
 
 export default function KimAlsgaarde() {
@@ -23,7 +24,7 @@ export default function KimAlsgaarde() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Ålsgårde – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Ålsgårde og kystområdet. Nærmeste krematorium i Hillerød. Faste priser og én person hele vejen. Ring 22 21 14 37."
+        description="Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/alsgaarde/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -84,12 +85,9 @@ export default function KimAlsgaarde() {
 
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Bedemand i Ålsgårde</p>
-        <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
+        <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 40px" }}>
           Personlig bedemand i Ålsgårde
         </h1>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier i Ålsgårde og kystområdet med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
-        </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -101,18 +99,55 @@ export default function KimAlsgaarde() {
 
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Lokal og personlig</p>
-          <h2 style={s.h2}>Bedemand med kendskab til Ålsgårde</h2>
           <p style={s.body}>
-            Ålsgårde ligger i Helsingør Kommune langs kysten. Jeg kører selv ud og koordinerer med lokale kirker, kapeller og kirkegårde.
+            Jeg er selvstændig bedemand og hjælper familier i Ålsgårde, Hellebæk og hele kyststrækningen med en rolig og værdig afsked. Det er mig, I taler med fra det første opkald, og det er mig, der er med jer hele vejen. Telefonen er åben døgnet rundt.
           </p>
           <p style={s.body}>
-            Kremeringen sker primært på Hillerød Krematorium. Helsingør har ikke længere eget krematorium. Ceremonien holdes lokalt, og jeg sørger for transporten.
+            Ålsgårde ligger i Helsingør Kommune, ud til Øresund mellem Hellebæk og Hornbæk. Jeg kender området godt, og jeg ved, hvor meget det betyder for mange familier, at afskeden kan holdes tæt på der, hvor man har levet sit liv.
           </p>
-          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde omkring Ålsgårde</h3>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", margin: "8px 0 40px" }}>
+            <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 22 21 14 37</a>
+            <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
+          </div>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Lokal og personlig</h2>
           <p style={s.body}>
-            Jeg koordinerer med de lokale kirker og kirkegårde i nærområdet, så I ikke selv skal finde ud af de praktiske forhold.
+            Når nogen dør, står man pludselig med mange beslutninger på én gang. Jeg tager mig af det praktiske – dødsanmeldelse, kontakt til kirke, kirkegård og krematorium, kiste eller urne, blomster, annonce og ansøgning om begravelseshjælp – så I kan bruge tiden på hinanden. Jeg kommer gerne hjem til jer, og I får et skriftligt prisoverslag fra starten, så I ved, hvad tingene koster.
           </p>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Hellebæk Kirke ved stranden</h2>
+          <p style={s.body}>
+            Ålsgårde hører til Hellebæk Sogn, og sognets kirke er Hellebæk Kirke på Ved Kirken 2-4 i Ålsgårde. Kirken ligger smukt på en bakkeskrænt lige ved stranden og blev indviet i maj 1920. Den er tegnet i nybarok stil af arkitekt Søren Lemche, og en del af inventaret stammer fra det gamle kapel på Hellebækgård, som grev Schimmelmann indrettede i 1786 for arbejderne på Kronborg Geværfabrik.
+          </p>
+          <p style={s.body}>
+            Mange familier fra Ålsgårde og Hellebæk har en lang historie med kirken – barnedåb, konfirmationer og bryllupper – og derfor føles det naturligt at tage afsked her. Jeg tager kontakten til kirkekontoret og præsten, finder et tidspunkt, der passer, og hjælper jer med salmer, musik og det praktiske omkring dagen.
+          </p>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>To kirkegårde i sognet</h2>
+          <p style={s.body}>
+            Hellebæk Sogn har to kirkegårde, og de er meget forskellige.
+          </p>
+          <p style={s.body}>
+            <strong>Ålsgårde Kirkegård</strong> ligger centralt ved Ålsgårde Station og Ålsgårdecentret. Den blev anlagt i 1922 og blev i 1990'erne udvidet og omlagt til en urnekirkegård, hvor der stadig ligger nogle få af de gamle kistegravsteder mellem de nye urnegrave. Det er et oplagt valg, hvis I ønsker en bisættelse, og urnen skal have sin plads tæt på hjemmet.
+          </p>
+          <p style={s.body}>
+            <strong>Hellebæk Kirkegård</strong> er den gamle kirkegård, som hørte til kapellet på Hellebækgård. Den ligger gemt i en skovkrog af Teglstrup Hegn syd for Hellebæk – et stille og meget smukt sted.
+          </p>
+          <p style={s.body}>
+            Begge kirkegårde administreres af det samme kirkegårdskontor. Jeg tager kontakten, så I får overblik over gravstedstyper, priser og muligheder, før I skal beslutte jer.
+          </p>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Kremering og ceremoni</h2>
+          <p style={s.body}>
+            Helsingør har ikke længere sit eget krematorium. Ved en bisættelse holdes ceremonien stadig lokalt – i Hellebæk Kirke eller et kapel – og bagefter sørger jeg for, at kisten bliver kørt til Fælleskrematoriet i Ringsted. Urnen kommer tilbage, så den kan nedsættes på Ålsgårde Kirkegård, på en anden kirkegård eller askespredes over havet, hvis det var afdødes ønske.
+          </p>
+          <p style={s.body}>
+            Ved en begravelse sænkes kisten i jorden efter ceremonien. Og ønsker I det helt stille, kan jeg arrangere en afsked uden ceremoni.
+          </p>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Ring, når I er klar</h2>
+          <p style={s.body}>
+            Der er sjældent grund til at haste. Ring til mig på 22 21 14 37 – også hvis I bare har et enkelt spørgsmål – så finder vi sammen ud af, hvad der er bedst for jer.
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", margin: "8px 0 0" }}>
+            <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 22 21 14 37</a>
+            <a href="/prisberegner/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Prisberegner</a>
+          </div>
         </div>
       </section>
 
@@ -122,7 +157,7 @@ export default function KimAlsgaarde() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Ålsgårde?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering på Hillerød Krematorium.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering på Fælleskrematoriet i Ringsted.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },

@@ -18,7 +18,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Humlebæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Humlebæk, Espergærde og nærområdet samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
   { question: "Hvad koster en begravelse i Humlebæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Hvor sker kremeringen for familier i Humlebæk?", answer: "Det nærmeste aktive krematorium er Hillerød Krematorium ved Skansekirkegården. Helsingør har ikke længere eget krematorium (nedlagt i 2013). Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
+  { question: "Hvor sker kremeringen for familier i Humlebæk?", answer: "Helsingør Krematorium blev nedlagt i 2013, og kremeringen foregår i dag på Fælleskrematoriet i Ringsted. Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
   { question: "Hvilke kirker koordinerer du med omkring Humlebæk?", answer: "Blandt andet Espergærde Kirke og de øvrige kirker i nærområdet. Jeg kender de lokale kirkegårde og kapeller, så I ikke selv skal finde ud af de praktiske forhold." },
 ];
 
@@ -111,7 +111,7 @@ export default function KimHumlebaek() {
             Humlebæk ligger i Fredensborg Kommune og dækker både selve Humlebæk og nærområdet omkring Espergærde. Jeg kører selv ud og koordinerer med de lokale kirker, kapeller og kirkegårde.
           </p>
           <p style={s.body}>
-            Der er ikke længere krematorium i Helsingør. Kremeringen sker i dag primært på Hillerød Krematorium ved Skansekirkegården – det er det nærmeste aktive krematorium. Selve højtideligheden holdes stadig lokalt i kirken eller kapellet, og transporten sørger jeg for.
+            Helsingør har ikke længere sit eget krematorium. Det blev nedlagt i 2013, og kremeringen sker nu på Fælleskrematoriet i Ringsted. Selve højtideligheden foregår stadig lokalt – i kirken eller i kapellet – og jeg sørger for, at kisten bliver kørt til Ringsted, så I ikke selv skal tage stilling til det praktiske.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde omkring Humlebæk</h3>
           <p style={s.body}>
@@ -126,7 +126,7 @@ export default function KimHumlebaek() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Humlebæk?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering på Hillerød Krematorium.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering på Fælleskrematoriet i Ringsted.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },

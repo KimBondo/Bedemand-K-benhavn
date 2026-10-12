@@ -55,7 +55,16 @@ const NAV_LINKS = [
       { href: "/fredensborg/", label: "Fredensborg" },
       { href: "/rudersdal/", label: "Rudersdal" },
       { href: "/gentofte/", label: "Gentofte" },
-    ]
+    ],
+    // København vises som egen kolonne ved siden af Nordsjælland
+    koebenhavn: [
+      { href: "/frederiksberg/", label: "Frederiksberg" },
+      { href: "/amager/", label: "Amager" },
+      { href: "/osterbro/", label: "Østerbro" },
+      { href: "/norrebro/", label: "Nørrebro" },
+      { href: "/vesterbro/", label: "Vesterbro" },
+      { href: "/soborg/", label: "Søborg & Gladsaxe" },
+    ],
   },
   { href: "/produkter/", label: "Produkter" },
   { href: "/om-kim/", label: "Om Kim", exact: true },
@@ -150,7 +159,7 @@ export default function KimNav() {
 
       {/* ── DESKTOP NAV ── */}
       <nav className="kimnav-desktop" aria-label="Kim Bondo navigation">
-        {NAV_LINKS.map(({ href, label, exact, hash, children }) => (
+        {NAV_LINKS.map(({ href, label, exact, hash, children, koebenhavn }) => (
           <div key={href} style={{ position: "relative" }} className={children ? "has-dropdown" : ""}>
             <a
               href={href}
@@ -175,24 +184,36 @@ export default function KimNav() {
                 transition: "opacity 0.15s ease",
                 zIndex: 100,
               }}>
-                {children.map((child) => (
-                  <a
-                    key={child.href}
-                    href={child.href}
-                    style={{
-                      display: "block",
-                      padding: "10px 16px",
-                      fontFamily: "'Open Sans', sans-serif",
-                      fontSize: "14px",
-                      color: "#2F3E46",
-                      textDecoration: "none",
-                    }}
-                    onMouseEnter={(e) => { e.currentTarget.style.background = "#f0f7f3"; }}
-                    onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
-                  >
-                    {child.label}
-                  </a>
-                ))}
+                <div style={{ display: "flex" }}>
+                  {[children, koebenhavn].filter(Boolean).map((kolonne, i) => (
+                    <div key={i} style={i > 0 ? { borderLeft: "1px solid #ede9e4" } : undefined}>
+                      {i > 0 && (
+                        <div style={{ padding: "10px 16px 4px", fontFamily: "'Open Sans', sans-serif", fontSize: "12px", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: "#7a8f99" }}>
+                          København
+                        </div>
+                      )}
+                      {kolonne!.map((child) => (
+                        <a
+                          key={child.href}
+                          href={child.href}
+                          style={{
+                            display: "block",
+                            padding: "10px 16px",
+                            fontFamily: "'Open Sans', sans-serif",
+                            fontSize: "14px",
+                            color: "#2F3E46",
+                            textDecoration: "none",
+                            whiteSpace: "nowrap",
+                          }}
+                          onMouseEnter={(e) => { e.currentTarget.style.background = "#f0f7f3"; }}
+                          onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+                        >
+                          {child.label}
+                        </a>
+                      ))}
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
           </div>
