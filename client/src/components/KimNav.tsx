@@ -33,6 +33,7 @@ const NAV_LINKS = [
     label: "Vejledning",
     children: [
       { href: "/hvad-sker-der/", label: "Hvad sker der, når nogen dør?" },
+      { href: "/bisaettelse-nordsjaelland/", label: "Bisættelse i Nordsjælland" },
       { href: "/huskeliste/", label: "Huskeliste" },
       { href: "/min-sidste-vilje/", label: "Min Sidste Vilje" },
       { href: "/faq/", label: "FAQ" },
