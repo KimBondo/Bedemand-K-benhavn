@@ -37,7 +37,7 @@ export default function KimHillerod() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["Hillerød"]}
+        areaServed={["Hillerød", "Skævinge", "Nødebo", "Ny Hammersholt"]}
         pageUrl="https://www.bedemandkobenhavn.dk/hillerod/"
         faqItems={FAQ}
         breadcrumbs={[
