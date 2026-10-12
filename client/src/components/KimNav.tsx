@@ -48,6 +48,8 @@ const NAV_LINKS = [
       { href: "/helsingor/", label: "Helsingør" },
       { href: "/hillerod/", label: "Hillerød" },
       { href: "/lyngby/", label: "Lyngby" },
+      { href: "/fredensborg/", label: "Fredensborg" },
+      { href: "/rudersdal/", label: "Rudersdal" },
     ]
   },
   { href: "/produkter/", label: "Produkter" },
