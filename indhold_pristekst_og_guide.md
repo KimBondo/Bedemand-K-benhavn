@@ -101,7 +101,7 @@ Kremering er en kommunal ydelse og betales direkte til krematoriet. Prisen afhæ
 | Hillerød Krematorium | 3.078 kr. | Betjener Nordsjælland |
 | Ballerup Krematorium | 3.155 kr. | Betjener Storkøbenhavn vest |
 | Glostrup Krematorium | 3.405 kr. | Betjener Storkøbenhavn vest |
-| Fælleskrematoriet (Ringsted) | 3.410 kr. | Kisten kan indleveres i Helsingør |
+| Fælleskrematoriet (indlevering i Helsingør) | 3.410 kr. | Betjener bl.a. Helsingør Kommune |
 
 > **Hvad bestemmer, hvilket krematorium der bruges?**
 > Som udgangspunkt kan familien frit vælge krematorium. I praksis vælges typisk det, der ligger tættest på ceremoniestedet eller kirkegården, da det minimerer transport og koordinering. Jeg hjælper med at vælge den løsning, der giver mest mening for jer.

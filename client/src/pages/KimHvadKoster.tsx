@@ -226,7 +226,7 @@ export default function KimHvadKoster() {
                   ["Hillerød Krematorium", "3.078 kr.", "Betjener Nordsjælland"],
                   ["Ballerup Krematorium", "3.155 kr.", "Betjener Storkøbenhavn vest"],
                   ["Glostrup Krematorium", "3.405 kr.", "Betjener Storkøbenhavn vest"],
-                  ["Fælleskrematoriet (Ringsted)", "3.410 kr.", "Kisten kan indleveres i Helsingør"],
+                  ["Fælleskrematoriet (indlevering i Helsingør)", "3.410 kr.", "Betjener bl.a. Helsingør Kommune"],
                 ].map(([name, price, note], i) => (
                   <tr key={i} style={{ borderBottom: "1px solid #e0dcd6" }}>
                     <td style={{ padding: "12px 12px 12px 0", color: "#3d5260", lineHeight: 1.5 }}>{name}</td>
