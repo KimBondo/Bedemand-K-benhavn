@@ -16,7 +16,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvor sker kremeringen i Nordsjælland?", answer: "Det eneste krematorium i drift i Nordsjælland er Hillerød Krematorium ved Skansekirkegården. Krematorierne i Helsingør og Gentofte er lukket. Ceremonien holdes stadig lokalt." },
+  { question: "Hvor sker kremeringen i Nordsjælland?", answer: "På Hillerød Krematorium eller via aflevering i Helsingør, hvorfra flere kister transporteres samlet til Fælleskrematoriet i Ringsted. Ceremonien holdes stadig lokalt." },
   { question: "Hvad koster en bisættelse i Nordsjælland?", answer: "Hos mig starter en bisættelse med ceremoni ved 19.500 kr. En afsked uden ceremoni starter ved 13.550 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
   { question: "Hvor lang tid går der fra dødsfald til bisættelse?", answer: "Hovedreglen er senest 8 dage efter dødsfaldet. Fristen kan forlænges til 14 dage, når afdøde opbevares på køl. Jeg sørger for, at tidsplanen holder." },
   { question: "Kan ceremonien holdes lokalt, selv om kremeringen sker i Hillerød?", answer: "Ja. Ceremonien holdes i jeres egen kirke eller det lokale kapel. Det er kun selve kremeringen, der foregår i Hillerød, og transporten sørger jeg for." },
@@ -72,7 +72,7 @@ export default function KimBisaettelseNordsjaelland() {
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
           <h2 style={s.h2}>Kremering i Hillerød</h2>
           <p style={s.body}>
-            Det eneste krematorium i drift i Nordsjælland er Hillerød Krematorium ved Skansekirkegården. Krematorierne i Helsingør og Gentofte er lukket. Derfor bliver de fleste fra Nordsjælland kremeret i Hillerød, uanset hvor de bor.
+            I Nordsjælland kan kremering ske på Hillerød Krematorium ved Skansekirkegården. Man kan også aflevere afdøde i Helsingør, hvorfra flere kister køres samlet til Fælleskrematoriet i Ringsted. Ceremonien holdes stadig lokalt.
           </p>
           <p style={s.body}>
             Ceremonien holdes stadig lokalt – i jeres egen kirke eller det kapel, I vælger. Det er kun selve kremeringen, der foregår i Hillerød, og transporten sørger jeg for.
@@ -80,7 +80,7 @@ export default function KimBisaettelseNordsjaelland() {
 
           <h2 style={s.h2}>Sådan forløber det</h2>
           <p style={s.body}>
-            Jeg anmelder dødsfaldet, koordinerer med præst eller kirkekontor, booker kapel eller kirke og sørger for transport til og fra ceremonien. Efter ceremonien kører kisten til Hillerød Krematorium.
+            Jeg anmelder dødsfaldet, koordinerer med præst eller kirkekontor, booker kapel eller kirke og sørger for transport til og fra ceremonien. Efter ceremonien sørger jeg for transport til Hillerød Krematorium eller til aflevering i Helsingør, afhængigt af hvad der passer.
           </p>
           <p style={s.body}>
             I taler med mig hele vejen. Der er ingen omstilling og ingen sagsbehandler – bare mig, fra det første opkald til urnenedsættelsen.
