@@ -70,7 +70,7 @@ const PRICE_OFFERS = [
     "@type": "Offer",
     "name": "Den enkle begravelse",
     "description": "Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage.",
-    "price": "21500",
+    "price": "20500",
     "priceCurrency": "DKK",
     "url": `${BASE_URL}/priser/`,
     "itemOffered": { "@type": "Service", "name": "Begravelse" }
@@ -93,7 +93,7 @@ const KIM_LOCAL_BUSINESS = {
   "name": "Bedemand København",
   "alternateName": ["Bedemand Kim Bondo", "Bedemand København ApS"],
   "legalName": "Bedemand København ApS",
-  "description": "Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra 19.500 kr., begravelse fra 21.500 kr.",
+  "description": "Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra 19.500 kr., begravelse fra 20.500 kr.",
   "url": `${BASE_URL}/`,
   "telephone": "+4522211437",
   "email": "kim@bedemandkobenhavn.dk",
@@ -127,7 +127,7 @@ const KIM_LOCAL_BUSINESS = {
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": "13550-21500",
+  "priceRange": "13550-20500",
   "currenciesAccepted": "DKK",
   "paymentAccepted": "Bankoverførsel, MobilePay",
   "image": `${BASE_URL}/images/kim-bondo-bedemand-portraet.webp`,

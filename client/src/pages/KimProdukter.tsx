@@ -41,19 +41,19 @@ const KISTER = [
     imgW: 2048,
     imgH: 1366,
     alt: "Basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
-    description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse, og den indgår i bisættelsespakken. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
+    description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse. Vælger I den i stedet for den klassiske hvide kiste i en af mine pakker, bliver prisen 500 kr. lavere ved bisættelse og 1.000 kr. lavere ved begravelse. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
     use: "begge" as const,
   },
   {
     id: "klassisk-hvid",
     name: "Klassisk hvid kiste",
-    priceLabel: "6.500 kr.",
+    priceLabel: "Fra 6.500 kr.",
     image: "/images/klassisk-hvid-kiste.webp",
     imgW: 1200,
     imgH: 1200,
-    alt: "Klassisk hvid kiste til bisættelse – fremstillet i spån og MDF, Kim Bondo bedemand",
-    description: "En klassisk kremeringskiste til bisættelser, fremstillet i spån og MDF.",
-    use: "bisættelse" as const,
+    alt: "Klassisk hvid kiste til bisættelse og begravelse, Kim Bondo bedemand",
+    description: "Den klassiske hvide kiste er standardkisten i mine pakker. Til bisættelse er den fremstillet i spån og MDF og koster 6.500 kr. Til begravelse bruges en særlig udgave, som koster 7.000 kr.",
+    use: "begge" as const,
   },
   {
     id: "gaia",
@@ -84,9 +84,9 @@ const KISTER = [
     image: "/images/massiv-fyrkiste.webp",
     imgW: 2048,
     imgH: 1366,
-    alt: "Massiv fyrkiste med knaster – naturlig og varm kiste til begravelse, Kim Bondo bedemand",
-    description: "Kisten i fyrretræ med knaster har et varmt og naturligt udtryk, hvor træets struktur og levende detaljer får lov at stå frem. Knasterne giver hver kiste sit eget særpræg og understreger det enkle og særlige udtryk.",
-    use: "begravelse" as const,
+    alt: "Massiv fyrkiste med knaster – naturlig og varm kiste til bisættelse og begravelse, Kim Bondo bedemand",
+    description: "Kisten i fyrretræ med knaster har et varmt og naturligt udtryk, hvor træets struktur og levende detaljer får lov at stå frem. Knasterne giver hver kiste sit eget særpræg og understreger det enkle og særlige udtryk. Den kan bruges både til bisættelse og begravelse.",
+    use: "begge" as const,
   },
 ];
 
@@ -109,7 +109,7 @@ const URNER = [
     imgW: 1200,
     imgH: 1200,
     alt: "Creme Natur biourne – biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
-    description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Den indgår i bisættelsespakken.",
+    description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Natururnen indgår i mine pakker til bisættelse og afsked uden ceremoni — i den farve, I vælger.",
   },
   {
     id: "gron-natur-biourn",
@@ -324,7 +324,7 @@ export default function KimProdukter() {
           <p style={s.label}>Urner</p>
           <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine urner</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Urnerne koster fra 950 kr. Jeg tilbyder et udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner.
+            Urnerne koster fra 950 kr. Jeg tilbyder et udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner. Natururnen indgår i mine pakker; vælger I en anden urne, betaler I kun forskellen.
           </p>
           <div
             style={{

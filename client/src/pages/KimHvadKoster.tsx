@@ -26,7 +26,7 @@ const FAQ = [
   { question: "Hvad koster en bisættelse i København?", answer: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 19.500 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
   { question: "Er der skjulte udgifter?", answer: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
   { question: "Kan man betale i rater?", answer: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning, der passer til jer." },
-  { question: "Hvad koster det at bruge Kim som bedemand?", answer: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 13.550 kr. (uden ceremoni), 19.500 kr. (bisættelse) og 21.500 kr. (begravelse). Se den fulde prisliste på prissiden." },
+  { question: "Hvad koster det at bruge Kim som bedemand?", answer: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 13.550 kr. (uden ceremoni), 19.500 kr. (bisættelse) og 20.500 kr. (begravelse). Se den fulde prisliste på prissiden." },
 ];
 
 export default function KimHvadKoster() {

@@ -13,7 +13,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Helsingør?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Helsingør Kommune — Espergærde, Snekkersten, Ålsgårde, Hellebæk, Hornbæk, Kvistgård og Tikøb — og resten af Nordsjælland. Ring på 22 21 14 37." },
-  { question: "Hvad koster en begravelse i Helsingør?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse i Helsingør?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium i Helsingør?", answer: "Nej. Helsingør Krematorium blev nedlagt i 2013, og kremeringen foregår i dag på Fælleskrematoriet i Ringsted. Det ændrer ikke på selve afskeden: ceremonien holdes i Helsingør, i kirken eller i kirkegårdskapellet med 165 pladser. Jeg sørger for transport og koordinering." },
   { question: "Hvilke kirker koordinerer du med i Helsingør?", answer: "Helsingør Domkirke, Skt. Olai — som er én og samme kirke — samt Sankt Mariæ Kirke, Vestervang Kirke og kirkerne i Espergærde, Snekkersten, Hornbæk, Hellebæk og Tikøb." },
 ];

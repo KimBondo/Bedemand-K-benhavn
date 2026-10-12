@@ -94,7 +94,7 @@ export default function KimPriser() {
     <div role="main" style={s.page}>
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
-        description="Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
+        description="Bisættelse fra 19.500 kr., begravelse fra 20.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
         url="https://www.bedemandkobenhavn.dk/priser/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -164,7 +164,7 @@ export default function KimPriser() {
           <div style={{ marginTop: "36px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px" }}>
             {[
               { navn: "Bisættelse", pris: "Fra 19.500 kr.", href: "#bisaettelse" },
-              { navn: "Begravelse", pris: "Fra 21.500 kr.", href: "#begravelse" },
+              { navn: "Begravelse", pris: "Fra 20.500 kr.", href: "#begravelse" },
               { navn: "Uden ceremoni", pris: "13.550 kr.", href: "#uden-ceremoni" },
             ].map((p) => (
               <a key={p.href} href={p.href} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "12px", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "3px", padding: "14px 18px", textDecoration: "none" }}>
@@ -214,8 +214,8 @@ export default function KimPriser() {
           subtitle="Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage."
           items={[
             "Møde hjemme hos jer eller på telefon — som I ønsker",
-            "Basiskiste",
-            "Natururne",
+            "Klassisk hvid kiste — vælger I basiskisten, sparer I 500 kr.",
+            "Natururne — vælger I en anden urne, betaler I kun forskellen",
             "Klargøring, påklædning og ilægning i kiste",
             "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet",
             "Kontakt til kordegn, præst, krematorium og kirkegård",
@@ -223,7 +223,7 @@ export default function KimPriser() {
             "Ansøgning om begravelseshjælp på jeres vegne",
             "Jeg er selv til stede ved højtideligheden",
           ]}
-          note="Købt som enkeltposter koster det 20.250 kr. Samlet sparer I 750 kr."
+          note="Købt som enkeltposter koster det 20.750 kr. Samlet sparer I 1.250 kr."
           linkAfter={true}
         />
 
@@ -232,11 +232,11 @@ export default function KimPriser() {
           id="begravelse"
           label="Begravelse"
           title="Den enkle begravelse"
-          price="Fra 21.500 kr."
+          price="Fra 20.500 kr."
           subtitle="Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage."
           items={[
             "Møde hjemme hos jer eller på telefon",
-            "Massiv fyr — kiste i fyrretræ med knaster",
+            "Klassisk hvid kiste — vælger I basiskisten, sparer I 1.000 kr.",
             "Klargøring, påklædning og ilægning i kiste",
             "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til graven",
             "Kontakt til kordegn, præst og kirkegård",
@@ -245,7 +245,7 @@ export default function KimPriser() {
             "Jeg er selv til stede ved højtideligheden",
             "Udlægning af blomster på graven",
           ]}
-          note="Købt som enkeltposter koster det 21.900 kr. Samlet sparer I 400 kr."
+          note="Købt som enkeltposter koster det 20.900 kr. Samlet sparer I 400 kr."
           linkAfter={true}
         />
 
@@ -262,8 +262,8 @@ export default function KimPriser() {
           </p>
           <ul style={{ paddingLeft: "20px", margin: "16px 0 0" }}>
             {[
-              "Basiskiste",
-              "Natururne",
+              "Klassisk hvid kiste — vælger I basiskisten, sparer I 500 kr.",
+              "Natururne — vælger I en anden urne, betaler I kun forskellen",
               "Klargøring, påklædning og ilægning i kiste",
               "Rustvognskørsel til krematoriet",
               "Kontakt til kordegn, krematorium og kirkegård",
@@ -274,7 +274,7 @@ export default function KimPriser() {
             ))}
           </ul>
           <p style={{ ...s.small, marginTop: "16px", fontStyle: "italic" }}>
-            Købt som enkeltposter koster det 15.250 kr. Samlet sparer I 1.700 kr.
+            Købt som enkeltposter koster det 15.750 kr. Samlet sparer I 2.200 kr.
           </p>
           <p style={{ ...s.body, marginTop: "16px" }}>
             <strong>Vælger I en anden kiste eller urne, betaler I kun forskellen.</strong>{" "}

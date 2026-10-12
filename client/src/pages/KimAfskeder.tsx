@@ -118,7 +118,7 @@ export default function KimAfskeder() {
               title: "Begravelse",
               tag: "Traditionel",
               desc: "En begravelse er en traditionel afskedsform, hvor kisten sænkes i jorden på et gravsted. Det giver et varigt sted at mindes og vende tilbage til.",
-              details: ["Kirkelig eller borgerlig ceremoni", "Kiste i jorden på gravsted", "Et varigt sted at mindes", "Priser fra 21.500 kr."],
+              details: ["Kirkelig eller borgerlig ceremoni", "Kiste i jorden på gravsted", "Et varigt sted at mindes", "Priser fra 20.500 kr."],
               href: "/begravelse/",
               linkText: "Læs om begravelse",
             },

@@ -13,7 +13,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Hornbæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hornbæk, Hellebæk og nærområdet samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Hornbæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse i Hornbæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvor sker kremeringen for familier i Hornbæk?", answer: "Det nærmeste aktive krematorium er Hillerød Krematorium ved Skansekirkegården. Helsingør har ikke længere eget krematorium (nedlagt i 2013). Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
   { question: "Hvilke kirker koordinerer du med omkring Hornbæk?", answer: "Blandt andet Hornbæk Kirke og de øvrige kirker i nærområdet. Jeg kender de lokale kirkegårde og kapeller." },
 ];

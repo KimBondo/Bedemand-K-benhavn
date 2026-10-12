@@ -17,7 +17,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Gentofte?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Gentofte Kommune — Hellerup, Charlottenlund, Ordrup, Vangede, Dyssegård, Jægersborg, Klampenborg og Skovshoved — og resten af Nordsjælland og København. Ring på 22 21 14 37." },
-  { question: "Hvad koster en bisættelse i Gentofte?", answer: "En bisættelse med ceremoni starter ved 19.500 kr. hos mig. En afsked uden ceremoni starter ved 13.550 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen." },
+  { question: "Hvad koster en bisættelse i Gentofte?", answer: "En bisættelse med ceremoni starter ved 19.500 kr. hos mig. En afsked uden ceremoni starter ved 13.550 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen." },
   { question: "Er der et krematorium i Gentofte?", answer: "Nej, ikke længere. Mariebjerg Krematorium lukkede 31. december 2010. Kremeringen sker i dag på Bispebjerg Krematorium i København eller i Hillerød. Ceremonien holdes stadig i Gentofte — i kirken eller i et af Mariebjergs to kapeller." },
   { question: "Hvilke kirkegårde er der i Gentofte Kommune?", answer: "Fire: Gentofte Kirkegård ved Gentoftegade, Hellerup Kirkegård på C.V.E. Knuths Vej, Ordrup Kirkegård på Ellensvej og Mariebjerg Kirkegård på Mariebjergvej. Mariebjerg er den største med sine 25 hektar og er med i Kulturkanonen." },
 ];

@@ -21,7 +21,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland og hele København. Ring på 22 21 14 37 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
+  { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
   { question: "Er der et krematorium i Nordsjælland?", answer: "Ja, ét: Hillerød Krematorium ved Skansekirkegården. Krematorierne i Gentofte og Helsingør er nedlagt, i 2010 og 2013. Kremering for resten af Nordsjælland sker derfor i Hillerød, i Ringsted eller i København — men ceremonien holdes stadig i jeres egen kirke eller det lokale kapel." },
   { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs — og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
@@ -224,7 +224,7 @@ export default function KimNordsjaelland() {
             {[
               { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { type: "Bisættelse med ceremoni", price: "19.500 kr.", href: "/bisaettelse/" },
-              { type: "Begravelse i kiste", price: "21.500 kr.", href: "/begravelse/" },
+              { type: "Begravelse i kiste", price: "20.500 kr.", href: "/begravelse/" },
             ].map((p) => (
               <div key={p.type} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
