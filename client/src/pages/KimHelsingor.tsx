@@ -29,7 +29,7 @@ export default function KimHelsingor() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["Helsingør", "Snekkersten", "Espergærde", "Hornbæk"]}
+        areaServed={["Helsingør", "Snekkersten", "Espergærde", "Hornbæk", "Ålsgårde", "Hellebæk", "Kvistgård", "Tikøb"]}
         pageUrl="https://www.bedemandkobenhavn.dk/helsingor/"
         faqItems={FAQ}
         breadcrumbs={[
