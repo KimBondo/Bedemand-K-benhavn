@@ -58,6 +58,7 @@ const ROUTES = [
   "/alsgaarde",
   "/humlebaek",
   "/prisberegner",
+  "/hvad-sker-der",
 ];
 
 const ROUTE_META = {
@@ -184,6 +185,10 @@ const ROUTE_META = {
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",
     description: "Få et vejledende overslag på begravelse eller bisættelse. Faste priser og gennemsigtighed. Ring 22 21 14 37.",
+  },
+  "/hvad-sker-der": {
+    title: "Hvad sker der, når nogen dør? – Praktisk guide | Kim Bondo",
+    description: "Klar oversigt over de første skridt ved dødsfald i København og Nordsjælland. Læge, dødsattest, anmeldelse, krematorium og priser. Ring 22 21 14 37.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",
