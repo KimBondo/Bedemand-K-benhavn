@@ -59,6 +59,7 @@ const ROUTES = [
   "/humlebaek",
   "/prisberegner",
   "/hvad-sker-der",
+  "/bisaettelse-nordsjaelland",
 ];
 
 const ROUTE_META = {
@@ -189,6 +190,10 @@ const ROUTE_META = {
   "/hvad-sker-der": {
     title: "Hvad sker der, når nogen dør? – Praktisk guide | Kim Bondo",
     description: "Klar oversigt over de første skridt ved dødsfald i København og Nordsjælland. Læge, dødsattest, anmeldelse, krematorium og priser. Ring 22 21 14 37.",
+  },
+  "/bisaettelse-nordsjaelland": {
+    title: "Sådan forløber en bisættelse i Nordsjælland | Kim Bondo",
+    description: "Hvad sker der ved en bisættelse i Nordsjælland? Kremering i Hillerød, lokal ceremoni og klare priser. Ring 22 21 14 37.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",
