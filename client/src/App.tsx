@@ -19,6 +19,7 @@ const KimAskespredning = lazy(() => import("./pages/KimAskespredning"));
 const KimKirkeligAfsked = lazy(() => import("./pages/KimKirkeligAfsked"));
 const KimBorgerligAfsked = lazy(() => import("./pages/KimBorgerligAfsked"));
 const KimHuskeliste = lazy(() => import("./pages/KimHuskeliste"));
+const KimHvadSkerDer = lazy(() => import("./pages/KimHvadSkerDer"));
 const KimBegravelseshjaelp = lazy(() => import("./pages/KimBegravelseshjaelp"));
 const KimOmraade = lazy(() => import("./pages/KimOmraade"));
 const KimHvadKoster = lazy(() => import("./pages/KimHvadKoster"));
@@ -60,6 +61,7 @@ function AppRouter() {
       <Route path={"/kirkelig-afsked"} component={KimKirkeligAfsked} />
       <Route path={"/borgerlig-afsked"} component={KimBorgerligAfsked} />
       <Route path={"/huskeliste"} component={KimHuskeliste} />
+      <Route path={"/hvad-sker-der"} component={KimHvadSkerDer} />
       <Route path={"/begravelseshjaelp"} component={KimBegravelseshjaelp} />
       <Route path={"/omraade"} component={KimOmraade} />
       <Route path={"/hvad-koster-en-begravelse"} component={KimHvadKoster} />
