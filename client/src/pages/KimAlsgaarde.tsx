@@ -15,7 +15,7 @@ const FAQ = [
   { question: "Hvilken kirke hører Ålsgårde til?", answer: "Ålsgårde hører til Hellebæk Sogn, og sognekirken er Hellebæk Kirke, Ved Kirken 2-4, 3140 Ålsgårde. Kirken ligger ved stranden og blev indviet i 1920. Jeg tager kontakten til kirkekontoret og præsten for jer." },
   { question: "Kan urnen nedsættes på Ålsgårde Kirkegård?", answer: "Ja. Ålsgårde Kirkegård ved Ålsgårde Station er i dag primært en urnekirkegård. Jeg hjælper jer med at vælge gravsted og aftaler urnenedsættelsen med kirkegårdskontoret." },
   { question: "Kan man stadig blive begravet i kiste i Ålsgårde?", answer: "Ålsgårde Kirkegård er i dag primært urnekirkegård med få ældre kistegravsteder. Ønsker I en kistebegravelse, undersøger jeg mulighederne på sognets kirkegårde – også den gamle Hellebæk Kirkegård i Teglstrup Hegn – og finder en løsning sammen med jer." },
-  { question: "Hvor foregår kremeringen, når man bor i Ålsgårde?", answer: "Helsingør har ikke længere eget krematorium. Ceremonien holdes lokalt, fx i Hellebæk Kirke, og bagefter sørger jeg for, at kisten køres til Fælleskrematoriet i Ringsted. I skal ikke selv tage dertil." },
+  { question: "Hvor foregår kremeringen, når man bor i Ålsgårde?", answer: "I vælger selv. Helsingør har ikke længere eget krematorium, men I kan vælge Hillerød Krematorium – det eneste i Nordsjælland – eller Fælleskrematoriet i Ringsted via indleveringsstedet i Helsingør. Ceremonien holdes lokalt, fx i Hellebæk Kirke, og jeg sørger for transporten, så I ikke selv skal tage nogen steder hen." },
   { question: "Kommer du hjem til os i Ålsgårde?", answer: "Ja. Jeg kommer gerne hjem til jer i Ålsgårde, Hellebæk eller langs kysten, og telefonen er åben døgnet rundt på 22 21 14 37." },
 ];
 
@@ -135,7 +135,7 @@ export default function KimAlsgaarde() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kremering og ceremoni</h2>
           <p style={s.body}>
-            Helsingør har ikke længere sit eget krematorium. Ved en bisættelse holdes ceremonien stadig lokalt – i Hellebæk Kirke eller et kapel – og bagefter sørger jeg for, at kisten bliver kørt til Fælleskrematoriet i Ringsted. Urnen kommer tilbage, så den kan nedsættes på Ålsgårde Kirkegård, på en anden kirkegård eller askespredes over havet, hvis det var afdødes ønske.
+            Helsingør har ikke længere sit eget krematorium. Ved en bisættelse holdes ceremonien stadig lokalt – i Hellebæk Kirke eller et kapel – og bagefter sørger jeg for transporten til det krematorium, I har valgt: Hillerød Krematorium, som er det eneste i Nordsjælland, eller Fælleskrematoriet i Ringsted via indleveringsstedet i Helsingør. Urnen kommer tilbage, så den kan nedsættes på Ålsgårde Kirkegård, på en anden kirkegård eller askespredes over havet, hvis det var afdødes ønske.
           </p>
           <p style={s.body}>
             Ved en begravelse sænkes kisten i jorden efter ceremonien. Og ønsker I det helt stille, kan jeg arrangere en afsked uden ceremoni.
@@ -157,7 +157,7 @@ export default function KimAlsgaarde() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Ålsgårde?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering på Fælleskrematoriet i Ringsted.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering i Hillerød eller Ringsted – I vælger selv.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },

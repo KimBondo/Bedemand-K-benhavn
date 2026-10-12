@@ -111,7 +111,7 @@ export default function KimHorsholm() {
             Hørsholm Kommune er lille og overskuelig: selve Hørsholm, Rungsted mod kysten, Usserød, Sjælsmark og Kettinge. Kirkeligt hører Kokkedal til samme pastorat som Hørsholm og Rungsted, selv om byen ligger i Fredensborg Kommune — så jeg dækker også dér.
           </p>
           <p style={s.body}>
-            Der er ikke noget krematorium i Hørsholm. Kremeringen sker i Hillerød eller i København, mens selve højtideligheden holdes lokalt i kirken eller i kirkegårdskapellet. Transport og koordinering står jeg for.
+            Der er ikke noget krematorium i Hørsholm. Kremeringen kan ske i Hillerød eller i København – I vælger selv – mens selve højtideligheden holdes lokalt i kirken eller i kirkegårdskapellet. Transport og koordinering står jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirke, kapel og kirkegård i Hørsholm</h3>
           <p style={s.body}>

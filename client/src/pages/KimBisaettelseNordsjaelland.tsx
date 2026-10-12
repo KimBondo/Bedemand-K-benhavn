@@ -16,10 +16,10 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvor sker kremeringen i Nordsjælland?", answer: "På Hillerød Krematorium eller via aflevering i Helsingør, hvorfra flere kister transporteres samlet til Fælleskrematoriet i Ringsted. Ceremonien holdes stadig lokalt." },
+  { question: "Hvor sker kremeringen i Nordsjælland?", answer: "I vælger selv. Hillerød Krematorium er det eneste krematorium i Nordsjælland, og Fælleskrematoriet i Ringsted har blandt andet et indleveringssted i Helsingør. Jeg forklarer jer mulighederne, og ceremonien holdes stadig lokalt." },
   { question: "Hvad koster en bisættelse i Nordsjælland?", answer: "Hos mig starter en bisættelse med ceremoni ved 19.500 kr. En afsked uden ceremoni starter ved 13.550 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
   { question: "Hvor lang tid går der fra dødsfald til bisættelse?", answer: "Hovedreglen er senest 8 dage efter dødsfaldet. Fristen kan forlænges til 14 dage, når afdøde opbevares på køl. Jeg sørger for, at tidsplanen holder." },
-  { question: "Kan ceremonien holdes lokalt, selv om kremeringen sker i Hillerød?", answer: "Ja. Ceremonien holdes i jeres egen kirke eller det lokale kapel. Det er kun selve kremeringen, der foregår i Hillerød, og transporten sørger jeg for." },
+  { question: "Kan ceremonien holdes lokalt, selv om kremeringen sker et andet sted?", answer: "Ja. Ceremonien holdes i jeres egen kirke eller det lokale kapel. Det er kun selve kremeringen, der foregår et andet sted, og transporten sørger jeg for." },
 ];
 
 export default function KimBisaettelseNordsjaelland() {
@@ -27,7 +27,7 @@ export default function KimBisaettelseNordsjaelland() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Sådan forløber en bisættelse i Nordsjælland | Kim Bondo"
-        description="Hvad sker der ved en bisættelse i Nordsjælland? Kremering i Hillerød, lokal ceremoni og klare priser. Ring 22 21 14 37."
+        description="Sådan forløber en bisættelse i Nordsjælland: lokal ceremoni, kremering i Hillerød eller Ringsted – I vælger frit. Faste priser. Ring 22 21 14 37."
         url="https://www.bedemandkobenhavn.dk/bisaettelse-nordsjaelland/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -64,23 +64,23 @@ export default function KimBisaettelseNordsjaelland() {
           Sådan forløber en bisættelse i Nordsjælland
         </h1>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto", lineHeight: 1.7 }}>
-          Kremeringen sker i Hillerød. Ceremonien holdes lokalt. Jeg koordinerer det hele.
+          Ceremonien holdes lokalt, og I vælger selv, hvor kremeringen skal ske. Jeg koordinerer det hele.
         </p>
       </section>
 
       <section style={{ background: "#fff", padding: "48px 32px 72px" }}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-          <h2 style={s.h2}>Kremering i Hillerød</h2>
+          <h2 style={s.h2}>Kremering – I vælger selv</h2>
           <p style={s.body}>
-            I Nordsjælland kan kremering ske på Hillerød Krematorium ved Skansekirkegården. Man kan også aflevere afdøde i Helsingør, hvorfra flere kister køres samlet til Fælleskrematoriet i Ringsted. Ceremonien holdes stadig lokalt.
+            Hillerød Krematorium ved Skansekirkegården er det eneste krematorium i Nordsjælland. Man kan også vælge Fælleskrematoriet i Ringsted, som blandt andet har et indleveringssted i Helsingør. I bestemmer frit, og jeg fortæller jer gerne om forskellene, så I kan vælge det, der føles rigtigt. Ceremonien holdes stadig lokalt.
           </p>
           <p style={s.body}>
-            Ceremonien holdes stadig lokalt – i jeres egen kirke eller det kapel, I vælger. Det er kun selve kremeringen, der foregår i Hillerød, og transporten sørger jeg for.
+            Ceremonien holdes stadig lokalt – i jeres egen kirke eller det kapel, I vælger. Det er kun selve kremeringen, der foregår et andet sted, og transporten sørger jeg for.
           </p>
 
           <h2 style={s.h2}>Sådan forløber det</h2>
           <p style={s.body}>
-            Jeg anmelder dødsfaldet, koordinerer med præst eller kirkekontor, booker kapel eller kirke og sørger for transport til og fra ceremonien. Efter ceremonien sørger jeg for transport til Hillerød Krematorium eller til aflevering i Helsingør, afhængigt af hvad der passer.
+            Jeg anmelder dødsfaldet, koordinerer med præst eller kirkekontor, booker kapel eller kirke og sørger for transport til og fra ceremonien. Efter ceremonien sørger jeg for transporten – til Hillerød Krematorium eller til indleveringsstedet i Helsingør, alt efter hvad I har valgt.
           </p>
           <p style={s.body}>
             I taler med mig hele vejen. Der er ingen omstilling og ingen sagsbehandler – bare mig, fra det første opkald til urnenedsættelsen.
