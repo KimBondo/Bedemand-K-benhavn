@@ -109,7 +109,7 @@ const URNER = [
     imgW: 1200,
     imgH: 1200,
     alt: "Creme Natur biourne – biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
-    description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Den indgår i bisættelsespakken.",
+    description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Natururnen indgår i mine pakker til bisættelse og afsked uden ceremoni — i den farve, I vælger.",
   },
   {
     id: "gron-natur-biourn",
@@ -324,7 +324,7 @@ export default function KimProdukter() {
           <p style={s.label}>Urner</p>
           <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine urner</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Urnerne koster fra 950 kr. Jeg tilbyder et udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner.
+            Urnerne koster fra 950 kr. Jeg tilbyder et udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner. Natururnen indgår i mine pakker; vælger I en anden urne, betaler I kun forskellen.
           </p>
           <div
             style={{

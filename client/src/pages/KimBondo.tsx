@@ -51,7 +51,7 @@ export default function KimBondo() {
     >
       <SEO
         title="Bedemand København – Kim Bondo, personlig bedemand døgnet rundt"
-        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
+        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 19.500 kr., begravelse fra 20.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -586,7 +586,7 @@ export default function KimBondo() {
                 title: "Den enkle begravelse",
                 subtitle:
                   "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirken og kirkegården er samme sted.",
-                price: "Fra 21.500 kr.",
+                price: "Fra 20.500 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
                   "Klassisk hvid kiste (basiskiste: 1.000 kr. billigere)",

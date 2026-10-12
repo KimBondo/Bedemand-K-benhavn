@@ -3,7 +3,7 @@
 
 ---
 
-> **Bemærk:** Pakkepriserne er 13.550 / 19.500 / 21.500 kr., og begge pakker
+> **Bemærk:** Pakkepriserne er 13.550 / 19.500 / 20.500 kr., og begge pakker
 > indeholder **tre** rustvognskørsler. Står der andet et sted i dette dokument,
 > er det forældet — prissiden på sitet er facit.
 

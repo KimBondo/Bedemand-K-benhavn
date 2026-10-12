@@ -17,7 +17,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Lyngby?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Kgs. Lyngby, Virum, Sorgenfri, Lundtofte, Hjortekær og Taarbæk samt resten af Nordsjælland og København. Ring på 22 21 14 37." },
-  { question: "Hvad koster en begravelse i Lyngby?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse i Lyngby?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium i Lyngby?", answer: "Nej. Der kremeres ikke i Lyngby i dag; det sker på Bispebjerg Krematorium i København eller i Hillerød. Ceremonien holdes stadig lokalt, i kirken eller i kapellet på kirkegården, og jeg sørger for transport og koordinering." },
   { question: "Hvilke kirkegårde bruges i Lyngby?", answer: "Især Lyngby Parkkirkegård på Gyrithe Lemches Vej og Sorgenfri Kirkegård på Skovbrynet. Der er også Lundtofte Kirkegård og Taarbæk Kirkegård. Lyngby Assistens Kirkegård har ikke taget imod begravelser siden 2000." },
 ];

@@ -19,11 +19,11 @@ const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 const ROUTE_META: Record<string, { title: string; description: string; image?: string }> = {
   "/": {
     title: "Bedemand København – Kim Bondo, personlig bedemand døgnet rundt",
-    description: "Personlig bedemand i København og Nordsjælland. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt.",
+    description: "Personlig bedemand i København og Nordsjælland. Bisættelse fra 19.500 kr., begravelse fra 20.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt.",
   },
   "/priser": {
     title: "Priser – Bedemand Kim Bondo | fra 13.550 kr.",
-    description: "Se alle priser for bisættelse, begravelse og afsked uden ceremoni. Ingen skjulte gebyrer. Bisættelse fra 19.500 kr., begravelse fra 21.500 kr.",
+    description: "Se alle priser for bisættelse, begravelse og afsked uden ceremoni. Ingen skjulte gebyrer. Bisættelse fra 19.500 kr., begravelse fra 20.500 kr.",
   },
   "/afskeder": {
     title: "Typer af afskeder – Bedemand Kim Bondo",
@@ -34,8 +34,8 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Personlig bisættelse i København og Nordsjælland fra 19.500 kr. Kim Bondo er med jer hele vejen – fra første opkald til den sidste afsked.",
   },
   "/begravelse": {
-    title: "Begravelse i København – Bedemand Kim Bondo fra 21.500 kr.",
-    description: "Personlig begravelse i København og Nordsjælland fra 21.500 kr. Kirkegård, kiste og koordinering – Kim Bondo tager sig af alt det praktiske.",
+    title: "Begravelse i København – Bedemand Kim Bondo fra 20.500 kr.",
+    description: "Personlig begravelse i København og Nordsjælland fra 20.500 kr. Kirkegård, kiste og koordinering – Kim Bondo tager sig af alt det praktiske.",
   },
   "/afsked-uden-ceremoni": {
     title: "Afsked uden ceremoni – Bedemand Kim Bondo fra 13.550 kr.",

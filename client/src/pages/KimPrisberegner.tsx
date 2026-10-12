@@ -15,7 +15,7 @@ const s = {
 const BASE_PRICES = {
   uden: 13550,
   bisaettelse: 19500,
-  begravelse: 21500,
+  begravelse: 20500,
 } as const;
 
 type Base = keyof typeof BASE_PRICES;
@@ -35,6 +35,18 @@ const STANDARD_KISTE: Record<Base, string> = {
   bisaettelse: "hvid-bisaettelse",
   begravelse: "hvid-begravelse",
 };
+
+// Urne er kun aktuel, når afdøde kremeres. Natururnen indgår i pakken.
+const URNER = [
+  { id: "natur", label: "Natururne (creme, grøn eller rød)", price: 1250 },
+  { id: "askeroer", label: "Askerør – til askespredning", price: 950 },
+  { id: "museum", label: "Museumsurne (brun, grøn eller rød)", price: 1350 },
+];
+const STANDARD_URNE = URNER[0];
+
+function forskelTekst(forskel: number) {
+  return forskel === 0 ? "Indgår i prisen" : forskel < 0 ? `Spar ${(-forskel).toLocaleString("da-DK")} kr.` : `+ ${forskel.toLocaleString("da-DK")} kr.`;
+}
 
 function kisterTil(base: Base) {
   return KISTER.filter((k) => !k.kunVed || k.kunVed.includes(base));
@@ -69,11 +81,15 @@ export default function KimPrisberegner() {
   const standard = base ? KISTER.find((k) => k.id === STANDARD_KISTE[base])! : null;
   const valgtKiste = base ? kisterTil(base).find((k) => k.id === kiste) ?? standard : null;
   const kisteForskel = valgtKiste && standard ? valgtKiste.price - standard.price : 0;
+  const [urne, setUrne] = useState<string>(STANDARD_URNE.id);
+  const medUrne = base === "uden" || base === "bisaettelse";
+  const valgtUrne = URNER.find((u) => u.id === urne) ?? STANDARD_URNE;
+  const urneForskel = medUrne ? valgtUrne.price - STANDARD_URNE.price : 0;
   const addonTotal = Object.entries(addons).reduce((sum, [id, qty]) => {
     const addon = ADDONS.find((a) => a.id === id);
     return sum + (addon && relevant(addon, base) ? addon.price * qty : 0);
   }, 0);
-  const total = basePrice + kisteForskel + addonTotal;
+  const total = basePrice + kisteForskel + urneForskel + addonTotal;
 
   const toggleAddon = (id: string, hasQty: boolean) => {
     setAddons((prev) => {
@@ -151,7 +167,7 @@ export default function KimPrisberegner() {
             {([
               { key: "uden" as const, title: "Afsked uden ceremoni", price: "Fra 13.550 kr.", text: "En stille afsked uden fremmøde. Jeg står for det praktiske: dødsanmeldelse, koordinering med læge og krematorium, transport, klargøring af afdøde og valg af kiste og urne. I behøver ikke selv tage kontakt til myndigheder eller krematorium." },
               { key: "bisaettelse" as const, title: "Bisættelse", price: "Fra 19.500 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Jeg koordinerer hele forløbet: dødsanmeldelse, aftaler med præst eller kirkekontor, booker kapel eller kirke, sørger for transport til og fra ceremonien, koordinerer med krematoriet og står for klargøring af afdøde. Jeg er den, der holder styr på drejebogen, så I ikke skal tænke på det praktiske." },
-              { key: "begravelse" as const, title: "Begravelse", price: "Fra 21.500 kr.", text: "Ceremoni, hvorefter kisten sænkes i jorden. Jeg sørger for det samme som ved en bisættelse, plus koordinering med kirkegården om gravsted, gravning og tidspunkt for jordfæstelsen. I taler med mig hele vejen — fra den første samtale til selve afskeden." },
+              { key: "begravelse" as const, title: "Begravelse", price: "Fra 20.500 kr.", text: "Ceremoni, hvorefter kisten sænkes i jorden. Jeg sørger for det samme som ved en bisættelse, plus koordinering med kirkegården om gravsted, gravning og tidspunkt for jordfæstelsen. I taler med mig hele vejen — fra den første samtale til selve afskeden." },
             ]).map((opt) => (
               <label key={opt.key} style={{ display: "block", background: base === opt.key ? "#f0f7f3" : "#fff", border: `1.5px solid ${base === opt.key ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "20px 24px", cursor: "pointer" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", flexWrap: "wrap" }}>
@@ -168,7 +184,7 @@ export default function KimPrisberegner() {
 
           {base && standard && valgtKiste && (
             <>
-              <h2 style={s.h2}>2. Hvilken kiste?</h2>
+              <h2 style={s.h2}>2. {medUrne ? "Hvilken kiste og urne?" : "Hvilken kiste?"}</h2>
               <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
                 Prisen ovenfor er med en klassisk hvid kiste. Vælger I en anden kiste, betaler I kun forskellen — og vælger I basiskisten, bliver det billigere.{" "}
                 <a href="/produkter/" style={s.link}>Se kisterne med billeder</a>
@@ -184,12 +200,36 @@ export default function KimPrisberegner() {
                         <span>{k.label}</span>
                       </span>
                       <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
-                        {forskel === 0 ? "Indgår i prisen" : forskel < 0 ? `Spar ${(-forskel).toLocaleString("da-DK")} kr.` : `+ ${forskel.toLocaleString("da-DK")} kr.`}
+                        {forskelTekst(forskel)}
                       </span>
                     </label>
                   );
                 })}
               </div>
+              {medUrne && (
+                <>
+                  <h3 style={s.h3}>Og urnen?</h3>
+                  <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
+                    En natururne indgår i prisen. Vælger I en anden urne, betaler I kun forskellen.
+                  </p>
+                  <div style={{ display: "grid", gap: "12px", marginBottom: "40px" }}>
+                    {URNER.map((u) => {
+                      const valgt = valgtUrne.id === u.id;
+                      return (
+                        <label key={u.id} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px", background: valgt ? "#f0f7f3" : "#fff", border: `1px solid ${valgt ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "16px 20px", cursor: "pointer" }}>
+                          <span style={{ display: "flex", alignItems: "center", gap: "12px", flex: 1 }}>
+                            <input type="radio" name="urne" checked={valgt} onChange={() => setUrne(u.id)} />
+                            <span>{u.label}</span>
+                          </span>
+                          <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
+                            {forskelTekst(u.price - STANDARD_URNE.price)}
+                          </span>
+                        </label>
+                      );
+                    })}
+                  </div>
+                </>
+              )}
             </>
           )}
 

@@ -13,7 +13,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Ålsgårde?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Ålsgårde og kystområdet samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Ålsgårde?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 21.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse i Ålsgårde?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvor sker kremeringen for familier i Ålsgårde?", answer: "Det nærmeste aktive krematorium er Hillerød Krematorium ved Skansekirkegården. Helsingør har ikke længere eget krematorium. Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
   { question: "Hvilke kirker koordinerer du med omkring Ålsgårde?", answer: "Jeg koordinerer med de lokale kirker og kirkegårde i nærområdet." },
 ];
