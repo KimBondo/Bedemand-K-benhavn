@@ -143,7 +143,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/alsgaarde": {
     title: "Bedemand Ålsgårde – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Ålsgårde og kystområdet. Nærmeste krematorium i Hillerød. Faste priser og én person hele vejen. Ring 22 21 14 37.",
+    description: "Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring 22 21 14 37 – døgnet rundt.",
   },
   "/humlebaek": {
     title: "Bedemand Humlebæk – Kim Bondo, døgnet rundt",

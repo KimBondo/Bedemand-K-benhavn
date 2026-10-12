@@ -177,7 +177,7 @@ const ROUTE_META = {
   },
   "/alsgaarde": {
     title: "Bedemand \u00c5lsg\u00e5rde \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i \u00c5lsg\u00e5rde og kystomr\u00e5det. N\u00e6rmeste krematorium i Hiller\u00f8d. Faste priser og \u00e9n person hele vejen. Ring 22 21 14 37.",
+    description: "Personlig bedemand i \u00c5lsg\u00e5rde og Helleb\u00e6k. Jeg kender Helleb\u00e6k Kirke og \u00c5lsg\u00e5rde Kirkeg\u00e5rd og hj\u00e6lper jer hele vejen. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/humlebaek": {
     title: "Bedemand Humleb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
