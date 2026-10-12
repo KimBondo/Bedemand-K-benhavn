@@ -33,7 +33,7 @@ export default function KimHorsholm() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["Hørsholm", "Rungsted", "Kokkedal"]}
+        areaServed={["Hørsholm", "Rungsted", "Kokkedal", "Usserød", "Sjælsmark"]}
         pageUrl="https://www.bedemandkobenhavn.dk/horsholm/"
         faqItems={FAQ}
         breadcrumbs={[
