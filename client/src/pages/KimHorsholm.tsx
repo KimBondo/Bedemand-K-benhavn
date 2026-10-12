@@ -18,7 +18,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Hørsholm?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hørsholm, Rungsted, Usserød og Kokkedal samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
   { question: "Hvad koster en begravelse i Hørsholm?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Hørsholm?", answer: "Nej. Der er ikke krematorium i Hørsholm Kommune. Det nærmeste i drift er Hillerød Krematorium ved Skansekirkegården; ellers sker kremeringen i København. Ceremonien holdes stadig lokalt — i kirken eller i kapellet på Hørsholm Kirkegård." },
+  { question: "Er der et krematorium i Hørsholm?", answer: "Nej. Der er ikke krematorium i Hørsholm Kommune. Kremeringen sker i Hillerød eller i København – I vælger selv, ofte ud fra hvor I vil hente urnen, eller også bringer jeg den. Ceremonien holdes stadig lokalt — i kirken eller i kapellet på Hørsholm Kirkegård." },
   { question: "Kan alle bruge kapellet på Hørsholm Kirkegård?", answer: "Ja. Kapellet fra 1929 kan benyttes af alle, uanset tro. Højtideligheden varer op til en halv time, og en medarbejder fra kirkegården er altid med og hjælper med blomster og opstilling." },
 ];
 
@@ -111,7 +111,7 @@ export default function KimHorsholm() {
             Hørsholm Kommune er lille og overskuelig: selve Hørsholm, Rungsted mod kysten, Usserød, Sjælsmark og Kettinge. Kirkeligt hører Kokkedal til samme pastorat som Hørsholm og Rungsted, selv om byen ligger i Fredensborg Kommune — så jeg dækker også dér.
           </p>
           <p style={s.body}>
-            Der er ikke noget krematorium i Hørsholm. Kremeringen kan ske i Hillerød eller i København – I vælger selv – mens selve højtideligheden holdes lokalt i kirken eller i kirkegårdskapellet. Transport og koordinering står jeg for.
+            Der er ikke noget krematorium i Hørsholm. Kremeringen kan ske i Hillerød eller i København – I vælger selv, og mange vælger ud fra, hvor de helst vil hente urnen. I kan også lade mig bringe den. Selve højtideligheden holdes lokalt i kirken eller i kirkegårdskapellet, og transport og koordinering står jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirke, kapel og kirkegård i Hørsholm</h3>
           <p style={s.body}>
