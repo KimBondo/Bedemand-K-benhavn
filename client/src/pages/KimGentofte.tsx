@@ -33,7 +33,7 @@ export default function KimGentofte() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["Gentofte", "Hellerup", "Charlottenlund", "Vangede"]}
+        areaServed={["Gentofte", "Hellerup", "Charlottenlund", "Vangede", "Ordrup", "Dyssegård", "Klampenborg", "Skovshoved", "Jægersborg"]}
         pageUrl="https://www.bedemandkobenhavn.dk/gentofte/"
         faqItems={FAQ}
         breadcrumbs={[
