@@ -18,6 +18,28 @@ const BASE_PRICES = {
   begravelse: 21500,
 } as const;
 
+type Base = keyof typeof BASE_PRICES;
+
+// Pakkeprisen gælder med standardkisten. Vælges en anden kiste, betales kun forskellen.
+const KISTER: { id: string; label: string; price: number; kunVed?: Base[] }[] = [
+  { id: "basis", label: "Basiskiste", price: 6000 },
+  { id: "hvid-bisaettelse", label: "Klassisk hvid kiste", price: 6500, kunVed: ["uden", "bisaettelse"] },
+  { id: "hvid-begravelse", label: "Klassisk hvid kiste", price: 7000, kunVed: ["begravelse"] },
+  { id: "gaia", label: "Gaia – let kiste i paulowniatræ", price: 6800 },
+  { id: "massiv-fyr", label: "Massiv fyr – fyrretræ med knaster", price: 8000 },
+  { id: "orbit", label: "Orbit papirkiste", price: 8800 },
+];
+
+const STANDARD_KISTE: Record<Base, string> = {
+  uden: "hvid-bisaettelse",
+  bisaettelse: "hvid-bisaettelse",
+  begravelse: "hvid-begravelse",
+};
+
+function kisterTil(base: Base) {
+  return KISTER.filter((k) => !k.kunVed || k.kunVed.includes(base));
+}
+
 const ADDONS = [
   { id: "pynt-lille", label: "Kistepynt lille", price: 1800 },
   { id: "pynt-mellem", label: "Kistepynt mellem", price: 2500 },
@@ -40,12 +62,18 @@ export default function KimPrisberegner() {
   const [location, setLocation] = useState<string>("");
   const [addons, setAddons] = useState<Record<string, number>>({});
 
+  const [kiste, setKiste] = useState<string | null>(null);
+
   const basePrice = base ? BASE_PRICES[base] : 0;
+  // Er den valgte kiste ikke mulig ved afskedsformen, bruges standardkisten
+  const standard = base ? KISTER.find((k) => k.id === STANDARD_KISTE[base])! : null;
+  const valgtKiste = base ? kisterTil(base).find((k) => k.id === kiste) ?? standard : null;
+  const kisteForskel = valgtKiste && standard ? valgtKiste.price - standard.price : 0;
   const addonTotal = Object.entries(addons).reduce((sum, [id, qty]) => {
     const addon = ADDONS.find((a) => a.id === id);
     return sum + (addon && relevant(addon, base) ? addon.price * qty : 0);
   }, 0);
-  const total = basePrice + addonTotal;
+  const total = basePrice + kisteForskel + addonTotal;
 
   const toggleAddon = (id: string, hasQty: boolean) => {
     setAddons((prev) => {
@@ -138,7 +166,34 @@ export default function KimPrisberegner() {
             ))}
           </div>
 
-          <h2 style={s.h2}>2. Hvor skal det foregå? <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
+          {base && standard && valgtKiste && (
+            <>
+              <h2 style={s.h2}>2. Hvilken kiste?</h2>
+              <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
+                Prisen ovenfor er med en klassisk hvid kiste. Vælger I en anden kiste, betaler I kun forskellen — og vælger I basiskisten, bliver det billigere.{" "}
+                <a href="/produkter/" style={s.link}>Se kisterne med billeder</a>
+              </p>
+              <div style={{ display: "grid", gap: "12px", marginBottom: "40px" }}>
+                {kisterTil(base).map((k) => {
+                  const forskel = k.price - standard.price;
+                  const valgt = valgtKiste.id === k.id;
+                  return (
+                    <label key={k.id} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px", background: valgt ? "#f0f7f3" : "#fff", border: `1px solid ${valgt ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "16px 20px", cursor: "pointer" }}>
+                      <span style={{ display: "flex", alignItems: "center", gap: "12px", flex: 1 }}>
+                        <input type="radio" name="kiste" checked={valgt} onChange={() => setKiste(k.id)} />
+                        <span>{k.label}</span>
+                      </span>
+                      <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
+                        {forskel === 0 ? "Indgår i prisen" : forskel < 0 ? `Spar ${(-forskel).toLocaleString("da-DK")} kr.` : `+ ${forskel.toLocaleString("da-DK")} kr.`}
+                      </span>
+                    </label>
+                  );
+                })}
+              </div>
+            </>
+          )}
+
+          <h2 style={s.h2}>{base ? 3 : 2}. Hvor skal det foregå? <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", marginBottom: "40px" }}>
             {["København (Bispebjerg eller Sundby)", "Nordsjælland (Hillerød krematorium)", "Ved ikke endnu / andet"].map((loc) => (
               <label key={loc} style={{ display: "flex", alignItems: "center", gap: "8px", background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "12px 16px", cursor: "pointer" }}>
@@ -148,7 +203,7 @@ export default function KimPrisberegner() {
             ))}
           </div>
 
-          <h2 style={s.h2}>3. Tilvalg <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
+          <h2 style={s.h2}>{base ? 4 : 3}. Tilvalg <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
           <div style={{ display: "grid", gap: "12px", marginBottom: "48px" }}>
             {ADDONS.filter((addon) => relevant(addon, base)).map((addon) => {
               const selected = !!addons[addon.id];

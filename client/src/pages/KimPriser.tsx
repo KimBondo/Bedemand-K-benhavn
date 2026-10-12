@@ -214,7 +214,7 @@ export default function KimPriser() {
           subtitle="Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage."
           items={[
             "Møde hjemme hos jer eller på telefon — som I ønsker",
-            "Basiskiste",
+            "Klassisk hvid kiste — vælger I basiskisten, sparer I 500 kr.",
             "Natururne",
             "Klargøring, påklædning og ilægning i kiste",
             "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet",
@@ -223,7 +223,7 @@ export default function KimPriser() {
             "Ansøgning om begravelseshjælp på jeres vegne",
             "Jeg er selv til stede ved højtideligheden",
           ]}
-          note="Købt som enkeltposter koster det 20.250 kr. Samlet sparer I 750 kr."
+          note="Købt som enkeltposter koster det 20.750 kr. Samlet sparer I 1.250 kr."
           linkAfter={true}
         />
 
@@ -236,7 +236,7 @@ export default function KimPriser() {
           subtitle="Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage."
           items={[
             "Møde hjemme hos jer eller på telefon",
-            "Massiv fyr — kiste i fyrretræ med knaster",
+            "Klassisk hvid kiste — vælger I basiskisten, sparer I 1.000 kr.",
             "Klargøring, påklædning og ilægning i kiste",
             "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til graven",
             "Kontakt til kordegn, præst og kirkegård",
@@ -262,7 +262,7 @@ export default function KimPriser() {
           </p>
           <ul style={{ paddingLeft: "20px", margin: "16px 0 0" }}>
             {[
-              "Basiskiste",
+              "Klassisk hvid kiste — vælger I basiskisten, sparer I 500 kr.",
               "Natururne",
               "Klargøring, påklædning og ilægning i kiste",
               "Rustvognskørsel til krematoriet",
@@ -274,7 +274,7 @@ export default function KimPriser() {
             ))}
           </ul>
           <p style={{ ...s.small, marginTop: "16px", fontStyle: "italic" }}>
-            Købt som enkeltposter koster det 15.250 kr. Samlet sparer I 1.700 kr.
+            Købt som enkeltposter koster det 15.750 kr. Samlet sparer I 2.200 kr.
           </p>
           <p style={{ ...s.body, marginTop: "16px" }}>
             <strong>Vælger I en anden kiste eller urne, betaler I kun forskellen.</strong>{" "}
