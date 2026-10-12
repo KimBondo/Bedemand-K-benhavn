@@ -40,6 +40,8 @@ interface SchemaOrgProps {
   type: "LocalBusiness" | "FAQPage" | "both" | "WebSite" | "ItemList" | "BreadcrumbList";
   /** Områdesider: det konkrete område, siden handler om (erstatter det generelle serviceområde). */
   areaServed?: string[];
+  /** Navn på områdesidens Service, hvis det ikke blot er "Bedemand <første område>". */
+  serviceName?: string;
   /** Vejledende sider: overskrift og dato for seneste opdatering (vises også synligt på siden). */
   article?: ArticleInfo;
   /** Prissiden: de tre pakker som selvstændigt OfferCatalog. */
@@ -119,6 +121,20 @@ const KIM_LOCAL_BUSINESS = {
   },
   "areaServed": [
     { "@type": "AdministrativeArea", "name": "København" },
+    { "@type": "AdministrativeArea", "name": "Frederiksberg" },
+    { "@type": "AdministrativeArea", "name": "Gladsaxe" },
+    { "@type": "AdministrativeArea", "name": "Gentofte" },
+    { "@type": "AdministrativeArea", "name": "Lyngby-Taarbæk" },
+    { "@type": "AdministrativeArea", "name": "Rudersdal" },
+    { "@type": "AdministrativeArea", "name": "Furesø" },
+    { "@type": "AdministrativeArea", "name": "Allerød" },
+    { "@type": "AdministrativeArea", "name": "Hørsholm" },
+    { "@type": "AdministrativeArea", "name": "Fredensborg" },
+    { "@type": "AdministrativeArea", "name": "Helsingør" },
+    { "@type": "AdministrativeArea", "name": "Gribskov" },
+    { "@type": "AdministrativeArea", "name": "Hillerød" },
+    { "@type": "AdministrativeArea", "name": "Frederikssund" },
+    { "@type": "AdministrativeArea", "name": "Halsnæs" },
     { "@type": "AdministrativeArea", "name": "Nordsjælland" }
   ],
   "openingHoursSpecification": {
@@ -162,7 +178,7 @@ const WEBSITE_SCHEMA = {
   "publisher": { "@id": `${BASE_URL}/#business` }
 };
 
-export default function SchemaOrg({ type, faqItems, breadcrumbs, services, products, pageUrl, areaServed, article, priceOffers }: SchemaOrgProps) {
+export default function SchemaOrg({ type, faqItems, breadcrumbs, services, products, pageUrl, areaServed, serviceName, article, priceOffers }: SchemaOrgProps) {
   const schemas: object[] = [];
 
   if (type === "WebSite") {
@@ -178,7 +194,7 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
         "@context": "https://schema.org",
         "@type": "Service",
         "@id": `${pageUrl ?? BASE_URL}#ydelse`,
-        "name": `Bedemand ${areaServed[0]}`,
+        "name": serviceName ?? `Bedemand ${areaServed[0]}`,
         "serviceType": "Bedemand",
         "provider": { "@id": `${BASE_URL}/#business` },
         "areaServed": areaServed.map((navn) => ({ "@type": "Place", "name": navn })),
