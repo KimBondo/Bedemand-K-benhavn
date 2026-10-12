@@ -305,7 +305,7 @@ export default function KimBondo() {
             Ring til Kim – 22 21 14 37
           </a>
           <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a" }}>
-            Vil du hellere læse først? <a href="/huskeliste/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se huskelisten ved dødsfald</a>
+            Vil du hellere læse først? <a href="/hvad-sker-der/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se hvad der sker, når nogen dør</a> eller <a href="/huskeliste/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>huskelisten</a>
           </p>
         </div>
       </section>
@@ -980,10 +980,10 @@ export default function KimBondo() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "28px" }}>
             {[
               {
-                title: "Hvad sker der efter et dødsfald?",
-                excerpt: "Når en nærtestående dør, er der mange praktiske ting, der skal ordnes. Her er en oversigt over de første skridt — hvem skal kontaktes, og hvad sker der med afdøde.",
-                href: "/huskeliste/",
-                label: "Læs huskelisten",
+                title: "Hvad sker der, når nogen dør?",
+                excerpt: "En klar oversigt over de første skridt i København og Nordsjælland — læge, dødsattest, anmeldelse, krematorium og hvad jeg tager mig af.",
+                href: "/hvad-sker-der/",
+                label: "Læs guiden",
               },
               {
                 title: "Sådan vælger du den rigtige afsked",
