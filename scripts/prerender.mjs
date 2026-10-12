@@ -60,6 +60,7 @@ const ROUTES = [
   "/prisberegner",
   "/hvad-sker-der",
   "/bisaettelse-nordsjaelland",
+  "/soborg",
 ];
 
 const ROUTE_META = {
@@ -206,6 +207,10 @@ const ROUTE_META = {
   "/produkter": {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",
     description: "V\u00e6lg kiste fra 6.000 kr. eller urne fra 950 kr. B\u00e6redygtige og klassiske modeller. Kim Bondo bedemand i K\u00f8benhavn. Ring 22 21 14 37.",
+  },
+  "/soborg": {
+    title: "Bedemand S\u00f8borg & Gladsaxe \u2013 Kim Bondo, d\u00f8gnet rundt",
+    description: "Personlig bedemand med kontor p\u00e5 Vandt\u00e5rnsvej 62A i S\u00f8borg. Jeg hj\u00e6lper familier i hele Gladsaxe med bis\u00e6ttelse og begravelse. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/vesterbro": {
     title: "Bedemand Vesterbro \u2013 Kim Bondo, d\u00f8gnet rundt",

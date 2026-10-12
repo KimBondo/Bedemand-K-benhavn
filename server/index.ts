@@ -105,6 +105,10 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     title: "Bedemand Amager – Kim Bondo | Personlig hjælp på Amager",
     description: "Personlig bedemand på Amager. Kim Bondo hjælper med bisættelse og begravelse på Amager og i Kastrup. Ring 22 21 14 37.",
   },
+  "/soborg": {
+    title: "Bedemand Søborg & Gladsaxe – Kim Bondo, døgnet rundt",
+    description: "Personlig bedemand med kontor på Vandtårnsvej 62A i Søborg. Jeg hjælper familier i hele Gladsaxe med bisættelse og begravelse. Ring 22 21 14 37 – døgnet rundt.",
+  },
   "/osterbro": {
     title: "Bedemand Østerbro – Kim Bondo | Personlig hjælp på Østerbro",
     description: "Personlig bedemand på Østerbro. Kim Bondo hjælper med bisættelse og begravelse på Østerbro i København. Ring 22 21 14 37.",

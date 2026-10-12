@@ -187,6 +187,7 @@ export default function KimOmraade() {
               { label: "Bedemand Østerbro", href: "/osterbro/" },
               { label: "Bedemand Nørrebro", href: "/norrebro/" },
               { label: "Bedemand Vesterbro", href: "/vesterbro/" },
+              { label: "Bedemand Søborg & Gladsaxe", href: "/soborg/" },
             ].map((link) => (
               <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "16px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
                 {link.label}
