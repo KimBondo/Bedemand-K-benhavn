@@ -22,7 +22,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal. Ring på 22 21 14 37." },
   { question: "Hvad koster en begravelse i Hillerød?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Hillerød?", answer: "Ja. Hillerød Krematorium ligger ved Skansekirkegården på Skansevej. Det blev etableret i 1967. Man kan også aflevere afdøde i Helsingør, hvorfra kisterne køres samlet til Fælleskrematoriet i Ringsted." },
+  { question: "Er der et krematorium i Hillerød?", answer: "Ja. Hillerød Krematorium ligger ved Skansekirkegården på Skansevej. Det blev etableret i 1967. Familier kan også vælge Fælleskrematoriet i Ringsted, som blandt andet har et indleveringssted i Helsingør – valget er jeres." },
   { question: "Hvilke kapeller kan bruges i Hillerød?", answer: "Skansekapel på Skansevej og Nyhuse Kapel på Kapelvej. Begge har plads til 150 personer. Nyhuse Kapel er fra 1924 og blev moderniseret i 2018-19." },
 ];
 

@@ -14,7 +14,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Hornbæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hornbæk, Hellebæk og nærområdet samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
   { question: "Hvad koster en begravelse i Hornbæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Hvor sker kremeringen for familier i Hornbæk?", answer: "Helsingør Krematorium blev nedlagt i 2013, og kremeringen foregår i dag på Fælleskrematoriet i Ringsted. Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
+  { question: "Hvor sker kremeringen for familier i Hornbæk?", answer: "I vælger selv. Hillerød Krematorium er det eneste krematorium i Nordsjælland, og Fælleskrematoriet i Ringsted har et indleveringssted i Helsingør. Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
   { question: "Hvilke kirker koordinerer du med omkring Hornbæk?", answer: "Blandt andet Hornbæk Kirke og de øvrige kirker i nærområdet. Jeg kender de lokale kirkegårde og kapeller." },
 ];
 
@@ -23,7 +23,7 @@ export default function KimHornbaek() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Hornbæk – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Hornbæk og Hellebæk. Nærmeste krematorium i Hillerød. Faste priser og én person hele vejen. Ring 22 21 14 37."
+        description="Personlig bedemand i Hornbæk og Hellebæk. Kremering i Hillerød eller Ringsted – I vælger frit. Faste priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/hornbaek/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -107,7 +107,7 @@ export default function KimHornbaek() {
             Hornbæk ligger på kysten i Helsingør Kommune. Jeg kender de lokale kirker og kirkegårde og koordinerer det praktiske for jer.
           </p>
           <p style={s.body}>
-            Helsingør har ikke længere sit eget krematorium. Det blev nedlagt i 2013, og kremeringen sker nu på Fælleskrematoriet i Ringsted. Selve højtideligheden foregår stadig lokalt – i kirken eller i kapellet – og jeg sørger for, at kisten bliver kørt til Ringsted, så I ikke selv skal tage stilling til det praktiske.
+            Helsingør har ikke længere sit eget krematorium – det blev nedlagt i 2013. I kan i stedet vælge Hillerød Krematorium, som er det eneste krematorium i Nordsjælland, eller Fælleskrematoriet i Ringsted, som har et indleveringssted i Helsingør. Valget er jeres, og jeg forklarer gerne forskellene. Selve højtideligheden foregår stadig lokalt – i kirken eller i kapellet – og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde omkring Hornbæk</h3>
           <p style={s.body}>
@@ -122,7 +122,7 @@ export default function KimHornbaek() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Hornbæk?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering på Fælleskrematoriet i Ringsted.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering i Hillerød eller Ringsted – I vælger selv.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },

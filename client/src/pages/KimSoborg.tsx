@@ -161,6 +161,53 @@ export default function KimSoborg() {
         </div>
       </section>
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <p style={s.label}>Mine ydelser</p>
+          <h2 style={s.h2}>Hvad hjælper jeg med i Søborg og Gladsaxe?</h2>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
+            {[
+              { title: "Bisættelse", desc: "Ceremoni i kirken eller i kapellet på Gladsaxe Kirkegård, med kremering på Bispebjerg Krematorium.", href: "/bisaettelse/" },
+              { title: "Begravelse", desc: "Kiste i jord på Gladsaxe Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
+              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning – fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Søborg Kirke, Gladsaxe Kirke, Buddinge Kirke eller Bagsværd Kirke.", href: "/kirkelig-afsked/" },
+              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer – kapellet på Gladsaxe Kirkegård kan bruges til både kirkelige og borgerlige ceremonier.", href: "/borgerlig-afsked/" },
+              { title: "Askespredning", desc: "Spredning af asken over åbent hav, hvis det var afdødes ønske. Jeg søger tilladelsen for jer.", href: "/askespredning/" },
+            ].map((item) => (
+              <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
+                <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
+                <p style={{ ...s.body, fontSize: "15px", marginBottom: "16px" }}>{item.desc}</p>
+                <a href={item.href} style={s.link}>Læs mere →</a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.label}>Gennemsigtige priser</p>
+          <h2 style={s.h2}>Hvad koster en begravelse i Søborg og Gladsaxe?</h2>
+          <p style={s.body}>
+            Mine priser er faste, og de står her på siden. Der er ingen skjulte gebyrer – det I ser, er det I betaler for mit arbejde.
+          </p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
+            {[
+              { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { type: "Bisættelse med ceremoni", price: "19.500 kr.", href: "/bisaettelse/" },
+              { type: "Begravelse i kiste", price: "20.500 kr.", href: "/begravelse/" },
+            ].map((p) => (
+              <div key={p.type} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
+                <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
+                <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "28px", color: "#2F3E46", marginBottom: "16px" }}>fra {p.price}</p>
+                <a href={p.href} style={{ ...s.link, fontSize: "14px" }}>Læs mere →</a>
+              </div>
+            ))}
+          </div>
+          <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
+            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje – <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+          </p>
+        </div>
+      </section>
+      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <h2 style={s.h2}>Ofte stillede spørgsmål</h2>
           {FAQ.map((faq, i) => (
@@ -184,7 +231,8 @@ export default function KimSoborg() {
             { label: "Bedemand Lyngby", href: "/lyngby/" },
             { label: "Dækningsområde", href: "/omraade/" },
             { label: "Se priser", href: "/priser/" },
-            { label: "Prisberegner", href: "/prisberegner/" },
+            { label: "Huskeliste", href: "/huskeliste/" },
+            { label: "Min Sidste Vilje", href: "/min-sidste-vilje/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
           ))}
@@ -205,9 +253,37 @@ export default function KimSoborg() {
         </div>
       </section>
 
+      <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
+          Kender du nogen i Søborg eller Gladsaxe, der kan have brug for en bedemand? Del denne side.
+        </p>
+        <a
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/soborg/")}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "10px",
+            background: "#1877F2",
+            color: "#fff",
+            fontFamily: "'Open Sans', sans-serif",
+            fontWeight: 700,
+            fontSize: "15px",
+            padding: "12px 28px",
+            borderRadius: "3px",
+            textDecoration: "none",
+            letterSpacing: "0.03em",
+          }}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          Del på Facebook
+        </a>
+      </section>
+
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
-        <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand Søborg &amp; Gladsaxe – Kim Bondo</p>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
+        <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand i Søborg og Gladsaxe – Kim Bondo</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv – jeg er tilgængelig hele døgnet.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Kontakt mig</a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
           © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, 2860 Søborg · Tlf.: 22 21 14 37 · kim@bedemandkobenhavn.dk · CVR.: 45084159

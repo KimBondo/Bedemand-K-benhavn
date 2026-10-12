@@ -174,7 +174,7 @@ const ROUTE_META = {
   },
   "/hornbaek": {
     title: "Bedemand Hornb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Hornb\u00e6k og Helleb\u00e6k. N\u00e6rmeste krematorium i Hiller\u00f8d. Faste priser og \u00e9n person hele vejen. Ring 22 21 14 37.",
+    description: "Personlig bedemand i Hornb\u00e6k og Helleb\u00e6k. Kremering i Hiller\u00f8d eller Ringsted \u2013 I v\u00e6lger frit. Faste priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/alsgaarde": {
     title: "Bedemand \u00c5lsg\u00e5rde \u2013 Kim Bondo, d\u00f8gnet rundt",
@@ -182,7 +182,7 @@ const ROUTE_META = {
   },
   "/humlebaek": {
     title: "Bedemand Humleb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Humleb\u00e6k og Esperg\u00e6rde. N\u00e6rmeste krematorium i Hiller\u00f8d. Faste priser og \u00e9n person hele vejen. Ring 22 21 14 37.",
+    description: "Personlig bedemand i Humleb\u00e6k og Esperg\u00e6rde. Kremering i Hiller\u00f8d eller Ringsted \u2013 I v\u00e6lger frit. Faste priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",
@@ -194,7 +194,7 @@ const ROUTE_META = {
   },
   "/bisaettelse-nordsjaelland": {
     title: "Sådan forløber en bisættelse i Nordsjælland | Kim Bondo",
-    description: "Hvad sker der ved en bisættelse i Nordsjælland? Kremering i Hillerød, lokal ceremoni og klare priser. Ring 22 21 14 37.",
+    description: "S\u00e5dan forl\u00f8ber en bis\u00e6ttelse i Nordsj\u00e6lland: lokal ceremoni, kremering i Hiller\u00f8d eller Ringsted \u2013 I v\u00e6lger frit. Faste priser. Ring 22 21 14 37.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",
