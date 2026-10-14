@@ -70,7 +70,11 @@ export default function KimHvadSkerDer() {
 
       <section style={{ background: "#fff", padding: "48px 32px 72px" }}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-          <h2 style={s.h2}>De første timer</h2>
+          <h2 style={s.h2}>Hvad gør man, når nogen dør?</h2>
+          <p style={s.body}>
+            Først skal en læge erklære dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>, døgnet rundt. Jeg står for dødsanmeldelsen til myndighederne, ansøger om begravelseshjælp og hjælper jer med resten i jeres eget tempo.
+          </p>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>De første timer</h2>
           <p style={s.body}>
             Når et menneske dør, skal en læge konstaterer dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Først når dødsattesten er klar, kan bedemanden gå i gang med det videre arbejde.
           </p>

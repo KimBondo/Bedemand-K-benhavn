@@ -324,6 +324,9 @@ export default function KimBisaettelse() {
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
           En <strong>borgerlig bisættelse</strong> foregår uden religiøse ritualer og kan arrangeres helt efter familiens ønsker. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation. I vælger selv en taler, musik og indhold.
         </p>
+        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
+          Ved en kirkelig bisættelse står præsten for ceremonien, inden kisten køres til krematoriet. En borgerlig bisættelse kan I selv forme med egne taler og musik. Bagefter sørger jeg for urnekørsel og urnenedsættelse eller askespredning.
+        </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           Ønsker I en enklere løsning, kan bisættelsen også foregå <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a> – direkte til krematoriet, med mulighed for et mindesamvær på et senere tidspunkt.
         </p>

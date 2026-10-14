@@ -142,6 +142,10 @@ export default function KimNordsjaelland() {
           <p style={s.body}>
             I Gentofte er Mariebjerg Kirkegård optaget i Kulturkanonen, og de to kapeller dér tager henholdsvis 150 og 50 personer. Helsingør Kirkegård har byens kapel fra 1903 med 165 pladser, og i Hørsholm ligger kapellet fra 1929, som kan benyttes af alle uanset tro. Jeg kender rummene og ved, hvor mange der kan være.
           </p>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Bedemand på Nordkysten</h3>
+          <p style={s.body}>
+            Jeg hjælper også familier langs Nordkysten, i Hornbæk, Dronningmølle, Gilleleje og Tisvildeleje. Kremeringen sker på Hillerød Krematorium eller via indlevering i Helsingør, og jeg aftaler alt med kirken og kirkegården lokalt.
+          </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
       </section>

@@ -374,8 +374,30 @@ export default function KimProdukter() {
         </div>
       </section>
 
+      {/* ── BLOMSTER, SALMEARK, RUSTVOGN OG STEN ── */}
+      <section style={{ background: "#fff", padding: "80px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <h2 style={{ ...s.h2, fontSize: "clamp(20px, 2.6vw, 26px)", margin: "0 0 12px" }}>Kistepynt, bårebuketter og begravelsesblomster</h2>
+          <p style={s.body}>
+            Jeg bestiller kistepynt, bårebuketter, kranse og bånd hos en lokal blomsterhandler, og jeg sørger for, at blomsterne kommer ud på graven bagefter.
+          </p>
+          <h2 style={{ ...s.h2, fontSize: "clamp(20px, 2.6vw, 26px)", margin: "40px 0 12px" }}>Salmeark og sangark</h2>
+          <p style={s.body}>
+            Jeg laver salmeark eller sangark med billede og navn, så I har et smukt minde fra dagen, uanset om det er en kirkelig eller borgerlig afsked.
+          </p>
+          <h2 style={{ ...s.h2, fontSize: "clamp(20px, 2.6vw, 26px)", margin: "40px 0 12px" }}>Rustvogn</h2>
+          <p style={s.body}>
+            Jeg kører selv afdøde i min rustvogn, fra hjem, hospital eller plejehjem.
+          </p>
+          <h2 style={{ ...s.h2, fontSize: "clamp(20px, 2.6vw, 26px)", margin: "40px 0 12px" }}>Gravsten og urnesten</h2>
+          <p style={s.body}>
+            Jeg hjælper med kontakten til stenhuggeren, når I skal vælge en gravsten eller en urnesten.
+          </p>
+        </div>
+      </section>
+
       {/* ── KONTAKT ── */}
-      <section id="kontakt" style={{ background: "#fff", padding: "80px 32px" }}>
+      <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
           <p style={{ ...s.label, textAlign: "center" }}>Kontakt</p>
           <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "12px" }}>Har du spørgsmål?</h2>
