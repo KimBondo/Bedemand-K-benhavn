@@ -38,7 +38,7 @@ export default function KimOmraade() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Dækningsområde – Bedemand Kim Bondo"
-        description="Kim Bondo dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring 22 21 14 37 – døgnet rundt."
+        description="Kim Bondo dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring 28 14 60 11 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/omraade/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -78,7 +78,7 @@ export default function KimOmraade() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             display: "none",
           }}
@@ -104,7 +104,7 @@ export default function KimOmraade() {
           Kontakt mig
         </a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -139,7 +139,7 @@ export default function KimOmraade() {
           <div style={{ background: "#F9F8F6", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6", marginTop: "48px" }}>
             <h3 style={{ ...s.h3, fontSize: "18px" }}>Ikke sikker på, om jeg dækker dit område?</h3>
             <p style={{ ...s.body, marginBottom: "16px" }}>
-              Ring til mig på <a href="tel:22211437" style={s.link}>22 21 14 37</a> — jeg finder altid en løsning. Befinder afdøde sig uden for mit primære område, kan jeg i mange tilfælde stadig hjælpe med transport og koordinering.
+              Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> — jeg finder altid en løsning. Befinder afdøde sig uden for mit primære område, kan jeg i mange tilfælde stadig hjælpe med transport og koordinering.
             </p>
             <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none" }}>
               Kontakt mig
@@ -267,10 +267,10 @@ export default function KimOmraade() {
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a

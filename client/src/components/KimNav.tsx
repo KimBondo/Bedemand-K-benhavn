@@ -219,7 +219,7 @@ export default function KimNav() {
           </div>
         ))}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             fontFamily: "'Open Sans', sans-serif",
             fontWeight: 700,
@@ -230,7 +230,7 @@ export default function KimNav() {
             letterSpacing: "0.03em",
           }}
         >
-          Tlf: 22 21 14 37
+          Tlf: 28 14 60 11
         </a>
       </nav>
 
@@ -303,7 +303,7 @@ export default function KimNav() {
               </a>
             ))}
             <a
-              href="tel:22211437"
+              href="tel:+4528146011"
               onClick={() => setOpen(false)}
               style={{
                 fontFamily: "'Open Sans', sans-serif",
@@ -316,7 +316,7 @@ export default function KimNav() {
                 display: "block",
               }}
             >
-              📞 Ring: 22 21 14 37
+              📞 Ring: 28 14 60 11
             </a>
           </div>
         )}

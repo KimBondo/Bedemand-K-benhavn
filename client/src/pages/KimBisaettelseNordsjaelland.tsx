@@ -27,7 +27,7 @@ export default function KimBisaettelseNordsjaelland() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Sådan forløber en bisættelse i Nordsjælland | Kim Bondo"
-        description="Sådan forløber en bisættelse i Nordsjælland: lokal ceremoni, kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 22 21 14 37."
+        description="Sådan forløber en bisættelse i Nordsjælland: lokal ceremoni, kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/bisaettelse-nordsjaelland/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -93,8 +93,8 @@ export default function KimBisaettelseNordsjaelland() {
 
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "28px", textAlign: "center", marginTop: "40px" }}>
             <p style={{ ...s.body, marginBottom: "20px" }}>Har I brug for hjælp med en bisættelse i Nordsjælland?</p>
-            <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontWeight: 700, padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
-              Ring til Kim · 22 21 14 37
+            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontWeight: 700, padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
+              Ring til Kim · 28 14 60 11
             </a>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function KimBisaettelseNordsjaelland() {
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "64px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", marginBottom: "16px" }}>Bedemand København og Nordsjælland</p>
         <p style={{ marginBottom: "24px" }}>Kim Bondo · Vandtårnsvej 62A, 2860 Søborg</p>
-        <a href="tel:22211437" style={{ color: "#fff", textDecoration: "underline" }}>22 21 14 37</a>
+        <a href="tel:+4528146011" style={{ color: "#fff", textDecoration: "underline" }}>28 14 60 11</a>
       </footer>
     </div>
   );

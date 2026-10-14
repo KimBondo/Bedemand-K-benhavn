@@ -21,7 +21,7 @@ export default function KimBegravelse() {
     >
       <SEO
         title="Begravelse i København – Bedemand Kim Bondo"
-        description="Personlig hjælp til begravelse i København og Nordsjælland. Jeg koordinerer kiste, kirkegård og ceremoni. Ring 22 21 14 37."
+        description="Personlig hjælp til begravelse i København og Nordsjælland. Jeg koordinerer kiste, kirkegård og ceremoni. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/begravelse/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -86,7 +86,7 @@ export default function KimBegravelse() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             display: "none",
           }}
@@ -120,7 +120,7 @@ export default function KimBegravelse() {
         </div>
         <p style={{ fontSize: "14px", color: "#9aacb4", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
+          <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -234,15 +234,15 @@ export default function KimBegravelse() {
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>22 21 14 37</a>
+          <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>28 14 60 11</a>
         </p>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a

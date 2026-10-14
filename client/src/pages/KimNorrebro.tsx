@@ -12,7 +12,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand på Nørrebro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Nørrebro, resten af København og hele Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
+  { question: "Hvem er bedemand på Nørrebro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Nørrebro, resten af København og hele Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse på Nørrebro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Kan man stadig få gravsted på Assistens Kirkegård?", answer: "Ja. Assistens er fredet og en stor del af den er kirkegårdspark, men omkring en fjerdedel bruges stadig aktivt til begravelser og urnenedsættelser. Jeg hjælper med at finde ud af, hvad der er ledigt i den afdeling, I ønsker." },
   { question: "Hvor foregår ceremonien, når man bor på Nørrebro?", answer: "Enten i en af bydelens kirker eller i Søndre Kapel på Bispebjerg Kirkegård. Der er ingen kapeller på selve Nørrebro, der kan bookes til ceremoni gennem kommunen — og Bispebjerg Krematorium ligger samme sted som kapellet." },
@@ -24,7 +24,7 @@ export default function KimNorrebro() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Nørrebro – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
+        description="Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/norrebro/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -65,7 +65,7 @@ export default function KimNorrebro() {
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – personlig bedemand på Nørrebro</span>
         </div>
         <KimNav />
-        <a href="tel:22211437" style={{ display: "none" }} className="mobile-call-btn">
+        <a href="tel:+4528146011" style={{ display: "none" }} className="mobile-call-btn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
@@ -96,7 +96,7 @@ export default function KimNorrebro() {
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -215,7 +215,7 @@ export default function KimNorrebro() {
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>
         </div>
       </section>
@@ -253,7 +253,7 @@ export default function KimNorrebro() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Kontakt mig</a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
-          © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, 2860 Søborg · Tlf.: 22 21 14 37 · kim@bedemandkobenhavn.dk · CVR.: 45084159
+          © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR.: 45084159
         </p>
       </footer>
     </div>

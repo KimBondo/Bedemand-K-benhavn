@@ -16,7 +16,7 @@ const FAQ = [
   { question: "Kan urnen nedsættes på Ålsgårde Kirkegård?", answer: "Ja. Ålsgårde Kirkegård ved Ålsgårde Station er i dag primært en urnekirkegård. Jeg hjælper jer med at vælge gravsted og aftaler urnenedsættelsen med kirkegårdskontoret." },
   { question: "Kan man stadig blive begravet i kiste i Ålsgårde?", answer: "Ålsgårde Kirkegård er i dag primært urnekirkegård med få ældre kistegravsteder. Ønsker I en kistebegravelse, undersøger jeg mulighederne på sognets kirkegårde – også den gamle Hellebæk Kirkegård i Teglstrup Hegn – og finder en løsning sammen med jer." },
   { question: "Hvor foregår kremeringen, når man bor i Ålsgårde?", answer: "I vælger selv. Helsingør har ikke længere eget krematorium, men I kan vælge kremering i Hillerød – det eneste krematorium i Nordsjælland – eller indlevering i Helsingør. Ceremonien holdes lokalt, fx i Hellebæk Kirke, og jeg sørger for transporten, så I ikke selv skal tage nogen steder hen." },
-  { question: "Kommer du hjem til os i Ålsgårde?", answer: "Ja. Jeg kommer gerne hjem til jer i Ålsgårde, Hellebæk eller langs kysten, og telefonen er åben døgnet rundt på 22 21 14 37." },
+  { question: "Kommer du hjem til os i Ålsgårde?", answer: "Ja. Jeg kommer gerne hjem til jer i Ålsgårde, Hellebæk eller langs kysten, og telefonen er åben døgnet rundt på 28 14 60 11." },
 ];
 
 export default function KimAlsgaarde() {
@@ -24,7 +24,7 @@ export default function KimAlsgaarde() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Ålsgårde – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring 22 21 14 37 – døgnet rundt."
+        description="Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring 28 14 60 11 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/alsgaarde/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -65,7 +65,7 @@ export default function KimAlsgaarde() {
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Ålsgårde og kysten</span>
         </div>
         <KimNav />
-        <a href="tel:22211437" style={{ display: "none" }} className="mobile-call-btn">
+        <a href="tel:+4528146011" style={{ display: "none" }} className="mobile-call-btn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
@@ -93,7 +93,7 @@ export default function KimAlsgaarde() {
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -106,7 +106,7 @@ export default function KimAlsgaarde() {
             Ålsgårde ligger i Helsingør Kommune, ud til Øresund mellem Hellebæk og Hornbæk. Jeg kender området godt, og jeg ved, hvor meget det betyder for mange familier, at afskeden kan holdes tæt på der, hvor man har levet sit liv.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", margin: "8px 0 40px" }}>
-            <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 22 21 14 37</a>
+            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 28 14 60 11</a>
             <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
           </div>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Lokal og personlig</h2>
@@ -142,10 +142,10 @@ export default function KimAlsgaarde() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Ring, når I er klar</h2>
           <p style={s.body}>
-            Der er sjældent grund til at haste. Ring til mig på 22 21 14 37 – også hvis I bare har et enkelt spørgsmål – så finder vi sammen ud af, hvad der er bedst for jer.
+            Der er sjældent grund til at haste. Ring til mig på 28 14 60 11 – også hvis I bare har et enkelt spørgsmål – så finder vi sammen ud af, hvad der er bedst for jer.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", margin: "8px 0 0" }}>
-            <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 22 21 14 37</a>
+            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 28 14 60 11</a>
             <a href="/prisberegner/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Prisberegner</a>
           </div>
         </div>
@@ -212,7 +212,7 @@ export default function KimAlsgaarde() {
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>
         </div>
       </section>
@@ -260,7 +260,7 @@ export default function KimAlsgaarde() {
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159

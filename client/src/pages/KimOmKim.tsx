@@ -11,7 +11,7 @@ const PERSON_SCHEMA = {
   "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
   "url": "https://www.bedemandkobenhavn.dk/om-kim/",
   "image": "https://www.bedemandkobenhavn.dk/images/kim-bondo-bedemand-portraet.webp",
-  "telephone": "+4522211437",
+  "telephone": "+45 28 14 60 11",
   "email": "kim@bedemandkobenhavn.dk",
   "address": {
     "@type": "PostalAddress",
@@ -54,7 +54,7 @@ export default function KimOmKim() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Om Kim Bondo – Personlig bedemand, København"
-        description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 22 21 14 37."
+        description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/om-kim/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -93,7 +93,7 @@ export default function KimOmKim() {
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Om Kim</span>
         </div>
         <KimNav />
-        <a href="tel:22211437" style={{ display: "none" }} className="mobile-call-btn-omkim">
+        <a href="tel:+4528146011" style={{ display: "none" }} className="mobile-call-btn-omkim">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
@@ -114,7 +114,7 @@ export default function KimOmKim() {
           Kontakt mig
         </a>
         <p style={{ marginTop: "14px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -145,7 +145,7 @@ export default function KimOmKim() {
             {/* Kontaktknapper under billedet */}
             <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "16px", width: "clamp(180px, 30vw, 280px)", flexShrink: 0 }}>
               <a
-                href="tel:22211437"
+                href="tel:+4528146011"
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -162,7 +162,7 @@ export default function KimOmKim() {
                   letterSpacing: "0.03em",
                 }}
               >
-                📞 Ring: 22 21 14 37
+                📞 Ring: 28 14 60 11
               </a>
               <a
                 href="mailto:kim@bedemandkobenhavn.dk"
@@ -220,8 +220,8 @@ export default function KimOmKim() {
           <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Skriv til mig
           </a>
-          <a href="tel:22211437" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
-            Ring: 22 21 14 37
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
+            Ring: 28 14 60 11
           </a>
         </div>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
@@ -242,7 +242,7 @@ export default function KimOmKim() {
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159

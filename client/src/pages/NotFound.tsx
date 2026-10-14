@@ -41,7 +41,7 @@ export default function NotFound() {
         </a>
       </div>
       <p style={{ marginTop: "48px", fontSize: "14px", color: "#3D6B4F" }}>
-        Brug for hjælp? Ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+        Brug for hjælp? Ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
       </p>
     </div>
   );
