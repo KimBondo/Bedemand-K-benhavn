@@ -21,7 +21,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Rudersdal?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Birkerød, Holte, Nærum og Vedbæk samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Rudersdal?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse i Rudersdal?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvem driver kirkegårdene i Rudersdal?", answer: "Rudersdal Kommune ejer og driver kommunens fem kirkegårde: Birkerød, Høsterkøb, Søllerød, Vedbæk samt Assistens og Søholm Kirkegård. Kirkegårdskontoret ligger på Søllerødvej 13 i Holte. På kommunale kirkegårde er taksterne de samme for alle, uanset medlemskab af folkekirken." },
   { question: "Er der et krematorium i Rudersdal?", answer: "Nej. Kremeringen sker på Hillerød Krematorium eller på Bispebjerg Krematorium i København. Ceremonien holdes stadig lokalt — i kirken eller i et af kirkegårdenes kapeller." },
 ];

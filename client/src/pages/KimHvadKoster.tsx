@@ -23,10 +23,10 @@ const s = {
 
 const FAQ = [
   { question: "Hvad er den billigste begravelse?", answer: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 13.550 kr. inkl. al koordinering, men ekskl. kremering og gravsted." },
-  { question: "Hvad koster en bisættelse i København?", answer: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 19.500 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
+  { question: "Hvad koster en bisættelse i København?", answer: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 18.300 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
   { question: "Er der skjulte udgifter?", answer: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
   { question: "Kan man betale i rater?", answer: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning, der passer til jer." },
-  { question: "Hvad koster det at bruge Kim som bedemand?", answer: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 13.550 kr. (uden ceremoni), 19.500 kr. (bisættelse) og 20.500 kr. (begravelse). Se den fulde prisliste på prissiden." },
+  { question: "Hvad koster det at bruge Kim som bedemand?", answer: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 13.550 kr. (uden ceremoni), 18.300 kr. (bisættelse) og 19.300 kr. (begravelse). Se den fulde prisliste på prissiden." },
 ];
 
 export default function KimHvadKoster() {
@@ -128,7 +128,7 @@ export default function KimHvadKoster() {
               { num: "5", title: "Blomster og annonce", body: "Blomster og kistepynt er valgfrit og kan tilpasses ethvert budget. En avisannonce er heller ikke obligatorisk — mange familier bruger sociale medier i stedet." },
             ].map((item) => (
               <div key={item.num} style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
-                <div style={{ flexShrink: 0, width: "40px", height: "40px", background: "#3D6B4F", borderRadius: "50 %", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px" }}>{item.num}</div>
+                <div style={{ flexShrink: 0, width: "40px", height: "40px", background: "#3D6B4F", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px" }}>{item.num}</div>
                 <div>
                   <h3 style={{ ...s.h3, fontSize: "17px", marginBottom: "8px" }}>{item.title}</h3>
                   <p style={{ ...s.body, marginBottom: 0, fontSize: "15px" }}>{item.body}</p>
@@ -467,7 +467,7 @@ export default function KimHvadKoster() {
                   <td colSpan={3} style={{ padding: "14px 0 6px", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase" }}>Bedemandens ydelser</td>
                 </tr>
                 {[
-                  ["Bisættelse inkl. honorar, kiste, urne, 3 kørsler", "19.500 kr.", "Kim Bondo"],
+                  ["Bisættelse inkl. honorar, kiste, urne, 3 kørsler", "18.300 kr.", "Kim Bondo"],
                   ["Kistepynt (lille)", "1.800 kr.", "Kim Bondo"],
                 ].map(([label, price, who]) => (
                   <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
@@ -493,7 +493,7 @@ export default function KimHvadKoster() {
                 ))}
                 <tr style={{ borderTop: "2px solid #2F3E46" }}>
                   <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Samlet brutto</td>
-                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 31.677 kr.</td>
+                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 30.477 kr.</td>
                   <td></td>
                 </tr>
                 <tr style={{ borderBottom: "1px solid #e0dcd6" }}>
@@ -503,7 +503,7 @@ export default function KimHvadKoster() {
                 </tr>
                 <tr>
                   <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Realistisk nettoudgift</td>
-                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "18px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 18.127 kr.</td>
+                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "18px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 16.927 kr.</td>
                   <td></td>
                 </tr>
               </tbody>

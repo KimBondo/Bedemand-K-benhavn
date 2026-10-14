@@ -66,7 +66,7 @@ const ROUTES = [
 const ROUTE_META = {
   "/": {
     title: "Bedemand K\u00f8benhavn \u2013 Kim Bondo, personlig bedemand d\u00f8gnet rundt",
-    description: "Personlig bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 19.500 kr., begravelse fra 20.500 kr. Gennemsigtige priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
   },
   "/afsked-uden-ceremoni": {
     title: "Afsked uden ceremoni \u2013 Bedemand Kim Bondo",
@@ -202,7 +202,7 @@ const ROUTE_META = {
   },
   "/priser": {
     title: "Priser \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Bis\u00e6ttelse fra 19.500 kr., begravelse fra 20.500 kr. Alle enkeltpriser samlet \u00e9t sted. Ingen skjulte gebyrer. Ring 22 21 14 37.",
+    description: "Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser samlet \u00e9t sted. Ingen skjulte gebyrer. Ring 22 21 14 37.",
   },
   "/produkter": {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",

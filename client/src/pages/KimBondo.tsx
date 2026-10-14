@@ -51,7 +51,7 @@ export default function KimBondo() {
     >
       <SEO
         title="Bedemand København – Kim Bondo, personlig bedemand døgnet rundt"
-        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 19.500 kr., begravelse fra 20.500 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
+        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -569,7 +569,7 @@ export default function KimBondo() {
                 title: "Den enkle bisættelse",
                 subtitle:
                   "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed, og det er en hverdag.",
-                price: "Fra 19.500 kr.",
+                price: "Fra 18.300 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
                   "Klassisk hvid kiste (basiskiste: 500 kr. billigere)",
@@ -586,7 +586,7 @@ export default function KimBondo() {
                 title: "Den enkle begravelse",
                 subtitle:
                   "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirken og kirkegården er samme sted.",
-                price: "Fra 20.500 kr.",
+                price: "Fra 19.300 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
                   "Klassisk hvid kiste (basiskiste: 1.000 kr. billigere)",
@@ -823,7 +823,7 @@ export default function KimBondo() {
               margin: "32px auto 0",
             }}
           >
-            Alle priseksempler er beregnet på hverdage. Afhentning og rustvognskørsel er 50 % dyrere efter kl. 16 på hverdage samt i weekender og på helligdage.
+            Alle priseksempler er beregnet på hverdage. Efter kl. 16 på hverdage samt i weekender og på helligdage kommer et fast tillæg på 800 kr. pr. udkald.
             Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
           </p>
 

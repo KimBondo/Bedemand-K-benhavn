@@ -5,6 +5,7 @@
  *
  * Google uses these for rich results in local search, knowledge panels and FAQ snippets.
  */
+import { PAKKEPRISER, kr } from "@/lib/priser";
 
 export interface FAQItem {
   question: string;
@@ -63,7 +64,7 @@ const PRICE_OFFERS = [
     "@type": "Offer",
     "name": "Den enkle bisættelse",
     "description": "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage.",
-    "price": "19500",
+    "price": String(PAKKEPRISER.bisaettelse),
     "priceCurrency": "DKK",
     "url": `${BASE_URL}/priser/`,
     "itemOffered": { "@type": "Service", "name": "Bisættelse" }
@@ -72,7 +73,7 @@ const PRICE_OFFERS = [
     "@type": "Offer",
     "name": "Den enkle begravelse",
     "description": "Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage.",
-    "price": "20500",
+    "price": String(PAKKEPRISER.begravelse),
     "priceCurrency": "DKK",
     "url": `${BASE_URL}/priser/`,
     "itemOffered": { "@type": "Service", "name": "Begravelse" }
@@ -81,7 +82,7 @@ const PRICE_OFFERS = [
     "@type": "Offer",
     "name": "Afsked uden ceremoni",
     "description": "Afdøde køres direkte til krematoriet uden forudgående højtidelighed.",
-    "price": "13550",
+    "price": String(PAKKEPRISER.uden),
     "priceCurrency": "DKK",
     "url": `${BASE_URL}/priser/`,
     "itemOffered": { "@type": "Service", "name": "Afsked uden ceremoni" }
@@ -95,7 +96,7 @@ const KIM_LOCAL_BUSINESS = {
   "name": "Bedemand København",
   "alternateName": ["Bedemand Kim Bondo", "Bedemand København ApS"],
   "legalName": "Bedemand København ApS",
-  "description": "Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra 19.500 kr., begravelse fra 20.500 kr.",
+  "description": `Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra ${kr(PAKKEPRISER.bisaettelse)} kr., begravelse fra ${kr(PAKKEPRISER.begravelse)} kr.`,
   "url": `${BASE_URL}/`,
   "telephone": "+4522211437",
   "email": "kim@bedemandkobenhavn.dk",
@@ -143,7 +144,7 @@ const KIM_LOCAL_BUSINESS = {
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": "13550-20500",
+  "priceRange": `${PAKKEPRISER.uden}-${PAKKEPRISER.begravelse}`,
   "currenciesAccepted": "DKK",
   "paymentAccepted": "Bankoverførsel, MobilePay",
   "image": `${BASE_URL}/images/kim-bondo-bedemand-portraet.webp`,
