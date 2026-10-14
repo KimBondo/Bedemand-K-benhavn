@@ -254,7 +254,7 @@ export default function KimBorgerligAfsked() {
             lineHeight: 1.7,
           }}
         >
-          Vandtårnsvej 62A, 2860 Søborg
+          Vandtårnsvej 62A, kontor 11, 2860 Søborg
         </p>
         <a
           href="/#kontakt"
@@ -281,7 +281,7 @@ export default function KimBorgerligAfsked() {
             marginTop: "16px",
           }}
         >
-          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
+          © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, kontor 11, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
             href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
