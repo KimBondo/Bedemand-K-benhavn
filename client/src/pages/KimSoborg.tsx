@@ -12,7 +12,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Kan vi mødes med dig på dit kontor i Søborg?", answer: "Ja. Mit kontor ligger på Vandtårnsvej 62A, 2860 Søborg, og I er velkomne til at holde samtalen her. Jeg kommer også gerne hjem til jer, hvis I hellere vil det. Ring på 28 14 60 11, så aftaler vi et tidspunkt, der passer jer." },
+  { question: "Kan vi mødes med dig på dit kontor i Søborg?", answer: "Ja. Mit kontor ligger på Vandtårnsvej 62A, kontor 11, 2860 Søborg, og I er velkomne til at holde samtalen her. Jeg kommer også gerne hjem til jer, hvis I hellere vil det. Ring på 28 14 60 11, så aftaler vi et tidspunkt, der passer jer." },
   { question: "Kan man holde en borgerlig ceremoni på Gladsaxe Kirkegård?", answer: "Ja. Kapellet på Gladsaxe Kirkegård, Gladsaxe Møllevej 41, bruges til både kirkelige og borgerlige ceremonier. Jeg hjælper med at booke kapellet og planlægge forløbet, også hvis I ønsker en taler eller musik, der betyder noget særligt for jer." },
   { question: "Kan vi samles til mindesamvær efter ceremonien på kirkegården?", answer: "Ja. Gladsaxe Kirkegård har et mødelokale i kapelbygningen, som kan lejes ved begravelser og bisættelser. Der er stole til 80 personer, et anretterkøkken med service og kaffemaskine, og lokalet lejes for mindst fire timer ad gangen. Jeg kan stå for reservationen." },
   { question: "Hvilke kirker kan vi bruge i Gladsaxe Kommune?", answer: "Ceremonien kan holdes i afdødes sognekirke, fx Søborg Kirke, Gladsaxe Kirke, Buddinge Kirke eller Bagsværd Kirke, eller i en anden kirke efter aftale. Jeg kontakter kirkekontoret og præsten for jer og finder en dato, der passer." },
@@ -294,7 +294,7 @@ export default function KimSoborg() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv – jeg er tilgængelig hele døgnet.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Kontakt mig</a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
-          © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR.: 45084159
+          © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, kontor 11, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR.: 45084159
         </p>
       </footer>
     </div>

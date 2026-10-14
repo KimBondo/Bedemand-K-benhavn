@@ -114,7 +114,7 @@ export default function KimBisaettelseNordsjaelland() {
 
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "64px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", marginBottom: "16px" }}>Bedemand København og Nordsjælland</p>
-        <p style={{ marginBottom: "24px" }}>Kim Bondo · Vandtårnsvej 62A, 2860 Søborg</p>
+        <p style={{ marginBottom: "24px" }}>Kim Bondo · Vandtårnsvej 62A, kontor 11, 2860 Søborg</p>
         <a href="tel:+4528146011" style={{ color: "#fff", textDecoration: "underline" }}>28 14 60 11</a>
       </footer>
     </div>
