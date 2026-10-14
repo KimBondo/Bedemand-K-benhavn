@@ -450,68 +450,91 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Del 5 — Realistisk eksempel</p>
           <h2 style={s.h2}>Hvad koster en typisk bisættelse i København?</h2>
-          <p style={s.body}>
-            Nedenstående er et realistisk eksempel på en bisættelse med kirkelig ceremoni i Københavns Kommune på en hverdag. Afdøde hentes fra hospital.
-          </p>
-          <div style={{ overflowX: "auto", marginBottom: "24px" }}>
-            <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
-              <thead>
-                <tr style={{ borderBottom: "2px solid #e0dcd6" }}>
-                  <th style={{ textAlign: "left", padding: "10px 12px 10px 0", color: "#2F3E46", fontWeight: 700 }}>Post</th>
-                  <th style={{ textAlign: "right", padding: "10px 12px", color: "#2F3E46", fontWeight: 700, whiteSpace: "nowrap" }}>Beløb</th>
-                  <th style={{ textAlign: "left", padding: "10px 0", color: "#7a8f99", fontWeight: 600, fontSize: "13px" }}>Hvem bestemmer prisen?</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td colSpan={3} style={{ padding: "14px 0 6px", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase" }}>Bedemandens ydelser</td>
-                </tr>
-                {[
-                  ["Bisættelse inkl. honorar, kiste, urne, 3 kørsler", "18.300 kr.", "Kim Bondo"],
-                  ["Kistepynt (lille)", "1.800 kr.", "Kim Bondo"],
-                ].map(([label, price, who]) => (
-                  <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
-                    <td style={{ padding: "11px 12px 11px 0", color: "#3d5260" }}>{label}</td>
-                    <td style={{ padding: "11px 12px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
-                    <td style={{ padding: "11px 0", color: "#7a8f99", fontSize: "14px" }}>{who}</td>
-                  </tr>
-                ))}
-                <tr>
-                  <td colSpan={3} style={{ padding: "14px 0 6px", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#5a7a6a", textTransform: "uppercase" }}>Tredjepartsudgifter</td>
-                </tr>
-                {[
-                  ["Kremering (Bispebjerg Krematorium)", "3.075 kr.", "Krematoriet"],
-                  ["Urnegravsted, traditionelt m. indramning (10 år)", "4.751 kr.", "Kbh. Kommune"],
-                  ["Gravning af urnegrav", "1.199 kr.", "Kbh. Kommune"],
-                  ["Orgelspil og sang (½ time)", "1.352 kr.", "Kirken"],
-                ].map(([label, price, who]) => (
-                  <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
-                    <td style={{ padding: "11px 12px 11px 0", color: "#3d5260" }}>{label}</td>
-                    <td style={{ padding: "11px 12px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
-                    <td style={{ padding: "11px 0", color: "#7a8f99", fontSize: "14px" }}>{who}</td>
-                  </tr>
-                ))}
-                <tr style={{ borderTop: "2px solid #2F3E46" }}>
-                  <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Samlet brutto</td>
-                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 30.477 kr.</td>
-                  <td></td>
-                </tr>
-                <tr style={{ borderBottom: "1px solid #e0dcd6" }}>
-                  <td style={{ padding: "11px 12px 11px 0", color: "#3D6B4F", fontWeight: 600 }}>Fratrukket begravelseshjælp (ved berettigelse)</td>
-                  <td style={{ padding: "11px 12px", color: "#3D6B4F", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>−13.550 kr.</td>
-                  <td style={{ padding: "11px 0", color: "#7a8f99", fontSize: "14px" }}>Udbetaling DK</td>
-                </tr>
-                <tr>
-                  <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Realistisk nettoudgift</td>
-                  <td style={{ padding: "14px 12px", color: "#2F3E46", fontWeight: 700, fontSize: "18px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 16.927 kr.</td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
+          <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "24px", margin: "8px 0 24px" }}>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(18px, 2.4vw, 22px)", lineHeight: 1.5, color: "#2F3E46", margin: 0 }}>
+              <strong style={{ fontFamily: "'Lora', serif", fontSize: "clamp(26px, 4vw, 34px)", whiteSpace: "nowrap" }}>Ca. 16.927 kr.</strong> – det er, hvad en typisk bisættelse med kirkelig ceremoni i København koster jer, når begravelseshjælpen er trukket fra.
+            </p>
           </div>
+          <p style={s.body}>
+            Eksemplet er en bisættelse med kirkelig ceremoni i Københavns Kommune på en hverdag, hvor afdøde hentes fra hospitalet. Hele beløbet står herunder, så I kan se præcis, hvad pengene går til. En stor del af det går ikke til mig, men til krematoriet, kommunen og kirken. De udgifter er de samme, uanset hvilken bedemand I vælger.
+          </p>
+
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 8px" }}>Til bedemanden (Kim Bondo)</p>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(14px, 3.8vw, 15px)", marginBottom: "32px" }}>
+            <thead>
+              <tr style={{ borderBottom: "2px solid #e0dcd6" }}>
+                <th style={{ textAlign: "left", padding: "10px 12px 10px 0", color: "#2F3E46", fontWeight: 700 }}>Post</th>
+                <th style={{ textAlign: "right", padding: "10px 8px", color: "#2F3E46", fontWeight: 700 }}>Beløb</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ["Bisættelse inkl. honorar, kiste, urne, 3 kørsler", "18.300 kr."],
+                ["Kistepynt (lille)", "1.800 kr."],
+              ].map(([label, price]) => (
+                <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                  <td style={{ padding: "11px 8px 11px 0", color: "#3d5260", hyphens: "auto", overflowWrap: "break-word" }}>{label}</td>
+                  <td style={{ padding: "11px 8px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
+                </tr>
+              ))}
+              <tr>
+                <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>I alt til bedemanden</td>
+                <td style={{ padding: "14px 8px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>20.100 kr.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 8px" }}>Til krematorium, kommune og kirke</p>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(14px, 3.8vw, 15px)", marginBottom: "32px" }}>
+            <thead>
+              <tr style={{ borderBottom: "2px solid #e0dcd6" }}>
+                <th style={{ textAlign: "left", padding: "10px 12px 10px 0", color: "#2F3E46", fontWeight: 700 }}>Post</th>
+                <th style={{ textAlign: "right", padding: "10px 8px", color: "#2F3E46", fontWeight: 700 }}>Beløb</th>
+                <th style={{ textAlign: "left", padding: "10px 0", color: "#7a8f99", fontWeight: 600, fontSize: "13px" }}>Modtager</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ["Kremering (Bispebjerg Krematorium)", "3.075 kr.", "Krematoriet"],
+                ["Urnegravsted, traditionelt m. indramning (10 år)", "4.751 kr.", "Kbh. Kommune"],
+                ["Gravning af urnegrav", "1.199 kr.", "Kbh. Kommune"],
+                ["Orgelspil og sang (½ time)", "1.352 kr.", "Kirken"],
+              ].map(([label, price, who]) => (
+                <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
+                  <td style={{ padding: "11px 8px 11px 0", color: "#3d5260", hyphens: "auto", overflowWrap: "break-word" }}>{label}</td>
+                  <td style={{ padding: "11px 8px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{price}</td>
+                  <td style={{ padding: "11px 0", color: "#7a8f99", fontSize: "14px" }}>{who}</td>
+                </tr>
+              ))}
+              <tr>
+                <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>I alt til andre</td>
+                <td style={{ padding: "14px 8px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>10.377 kr.</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 8px" }}>Samlet</p>
+          <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(14px, 3.8vw, 15px)", marginBottom: "32px" }}>
+            <tbody>
+              <tr style={{ borderBottom: "1px solid #e0dcd6" }}>
+                <td style={{ padding: "11px 8px 11px 0", color: "#3d5260", hyphens: "auto", overflowWrap: "break-word" }}>Samlet pris</td>
+                <td style={{ padding: "11px 8px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>ca. 30.477 kr.</td>
+              </tr>
+              <tr style={{ borderBottom: "1px solid #e0dcd6" }}>
+                <td style={{ padding: "11px 8px 11px 0", color: "#3D6B4F", fontWeight: 600, hyphens: "auto", overflowWrap: "break-word" }}>Begravelseshjælp (ved berettigelse)</td>
+                <td style={{ padding: "11px 8px", color: "#3D6B4F", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>−13.550 kr.</td>
+              </tr>
+              <tr style={{ borderTop: "2px solid #2F3E46" }}>
+                <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Det koster jer</td>
+                <td style={{ padding: "14px 8px", color: "#2F3E46", fontWeight: 700, fontSize: "18px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 16.927 kr.</td>
+              </tr>
+            </tbody>
+          </table>
+
           <div style={{ background: "#F9F8F6", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "20px 24px" }}>
-            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", lineHeight: 1.75, margin: 0, fontStyle: "italic" }}>
-              Dette er et eksempel. Den faktiske pris afhænger af jeres valg og den kirkegård, I vælger. Jeg gennemgår altid alle udgifter med jer, inden vi beslutter noget — ingen overraskelser på fakturaen.
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d4f5a", lineHeight: 1.75, margin: 0 }}>
+              Begravelseshjælpen søger jeg for jer, og den trækkes direkte fra fakturaen, så I ikke skal lægge pengene ud. Vælger I en billigere gravplads, f.eks. et fællesgravsted, bliver prisen lavere. Det er bare et eksempel, og jeg gennemgår altid jeres egne tal med jer, før I beslutter noget. Der kommer ingen overraskelser på fakturaen.
             </p>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", lineHeight: 1.75, margin: "10px 0 0" }}>
               Vil I regne på jeres egne valg? <a href="/prisberegner/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Prøv prisberegneren</a>.
