@@ -13,7 +13,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand på Amager?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Amager — Sundbyerne, Islands Brygge, Ørestad, Tårnby, Kastrup og Dragør — og resten af København og Nordsjælland. Ring på 22 21 14 37, også om natten." },
-  { question: "Hvad koster en begravelse på Amager?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse på Amager?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium på Amager?", answer: "Ja. Sundby Krematorium ligger på Sundby Kirkegård, Kastrupvej 51. Det er det ene af Københavns Kommunes to krematorier — det andet er Bispebjerg. Mange bydele har ikke deres eget, så det er en praktisk fordel her." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Amager?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. De kan holdes i kapelsalen på Sundby Kirkegård eller et andet sted, der giver mening for jer." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
@@ -157,8 +157,8 @@ export default function KimAmager() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
               { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/afsked-uden-ceremoni/" },
-              { type: "Bisættelse med ceremoni", price: "19.500 kr.", href: "/bisaettelse/" },
-              { type: "Begravelse i kiste", price: "20.500 kr.", href: "/begravelse/" },
+              { type: "Bisættelse med ceremoni", price: "18.300 kr.", href: "/bisaettelse/" },
+              { type: "Begravelse i kiste", price: "19.300 kr.", href: "/begravelse/" },
             ].map((p) => (
               <div key={p.type} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>

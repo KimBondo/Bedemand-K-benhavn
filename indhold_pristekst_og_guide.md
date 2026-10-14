@@ -3,8 +3,10 @@
 
 ---
 
-> **Bemærk:** Pakkepriserne er 13.550 / 19.500 / 20.500 kr., og begge pakker
-> indeholder **tre** rustvognskørsler. Står der andet et sted i dette dokument,
+> **Bemærk:** Pakkepriserne er 13.550 / 18.300 / 19.300 kr., og begge pakker
+> indeholder **tre** rustvognskørsler. Rustvognskørsel koster 1.595 kr. inkl. 25 km,
+> derefter 35 kr./km, højst 2.000 kr. pr. kørsel i København og Nordsjælland
+> (uden for området samme takst uden loft). Tillæg aften/weekend/helligdage: 800 kr. pr. udkald. Står der andet et sted i dette dokument,
 > er det forældet — prissiden på sitet er facit.
 
 ---
@@ -237,16 +239,16 @@ Nedenstående er et realistisk eksempel på en bisættelse med kirkelig ceremoni
 | Post | Beløb | Hvem bestemmer prisen? |
 |---|---|---|
 | **Bedemandens ydelser (Kim Bondo)** | | |
-| Bisættelse inkl. honorar, kiste, urne, 3 kørsler | 19.500 kr. | Kim Bondo |
+| Bisættelse inkl. honorar, kiste, urne, 3 kørsler | 18.300 kr. | Kim Bondo |
 | Kistepynt (lille) | 2.500 kr. | Kim Bondo |
 | **Tredjepartsudgifter** | | |
 | Kremering (Bispebjerg) | 3.075 kr. | Krematoriet |
 | Urnegravsted, traditionelt m. indramning (10 år) | 4.751 kr. | Kbh. Kommune |
 | Gravning af urnegrav | 1.199 kr. | Kbh. Kommune |
 | Orgelspil og sang (½ time) | 1.352 kr. | Kirken |
-| **Samlet** | **ca. 32.377 kr.** | |
+| **Samlet** | **ca. 31.177 kr.** | |
 | Fratrukket begravelseshjælp (ved berettigelse) | −13.550 kr. | Udbetaling DK |
-| **Realistisk nettoudgift** | **ca. 18.827 kr.** | |
+| **Realistisk nettoudgift** | **ca. 17.627 kr.** | |
 
 > Dette er et eksempel. Den faktiske pris afhænger af jeres valg og den kirkegård, I vælger. Jeg gennemgår altid alle udgifter med jer, inden vi beslutter noget.
 

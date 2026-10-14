@@ -157,7 +157,7 @@ export default function KimBegravelse() {
           { num: "5", title: "Gravstedet", text: "Gravstedet bliver et varigt sted at vende tilbage til. Jeg hjælper med at finde det rette gravsted og kan rådgive om vedligeholdelse og gravsten." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
-            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50 %", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
+            <div style={{ minWidth: "44px", height: "44px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
               {step.num}
             </div>
             <div>
@@ -176,7 +176,7 @@ export default function KimBegravelse() {
           Hvad koster en begravelse?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          En begravelse starter fra <strong>20.500 kr.</strong> hos mig. Prisen inkluderer koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje kommer oveni – jeg hjælper jer med at indhente tilbud og holde overblikket.
+          En begravelse starter fra <strong>19.300 kr.</strong> hos mig. Prisen inkluderer koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje kommer oveni – jeg hjælper jer med at indhente tilbud og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>

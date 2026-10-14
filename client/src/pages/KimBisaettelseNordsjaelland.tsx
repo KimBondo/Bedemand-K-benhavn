@@ -17,7 +17,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvor sker kremeringen i Nordsjælland?", answer: "I vælger selv: kremering i Hillerød, hvor Nordsjællands eneste krematorium ligger, eller via indlevering i Helsingør. Jeg forklarer jer mulighederne, og ceremonien holdes stadig lokalt." },
-  { question: "Hvad koster en bisættelse i Nordsjælland?", answer: "Hos mig starter en bisættelse med ceremoni ved 19.500 kr. En afsked uden ceremoni starter ved 13.550 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
+  { question: "Hvad koster en bisættelse i Nordsjælland?", answer: "Hos mig starter en bisættelse med ceremoni ved 18.300 kr. En afsked uden ceremoni starter ved 13.550 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
   { question: "Hvor lang tid går der fra dødsfald til bisættelse?", answer: "Hovedreglen er senest 8 dage efter dødsfaldet. Fristen kan forlænges til 14 dage, når afdøde opbevares på køl. Jeg sørger for, at tidsplanen holder." },
   { question: "Kan ceremonien holdes lokalt, selv om kremeringen sker et andet sted?", answer: "Ja. Ceremonien holdes i jeres egen kirke eller det lokale kapel. Det er kun selve kremeringen, der foregår et andet sted, og transporten sørger jeg for." },
 ];
@@ -88,7 +88,7 @@ export default function KimBisaettelseNordsjaelland() {
 
           <h2 style={s.h2}>Priser</h2>
           <p style={s.body}>
-            En bisættelse med ceremoni starter ved 19.500 kr. hos mig. En afsked uden ceremoni starter ved 13.550 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter. Jeg regner det samlede tal sammen med jer, inden I beslutter noget.
+            En bisættelse med ceremoni starter ved 18.300 kr. hos mig. En afsked uden ceremoni starter ved 13.550 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter. Jeg regner det samlede tal sammen med jer, inden I beslutter noget.
           </p>
 
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "28px", textAlign: "center", marginTop: "40px" }}>

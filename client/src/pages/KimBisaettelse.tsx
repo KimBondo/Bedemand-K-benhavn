@@ -267,7 +267,7 @@ export default function KimBisaettelse() {
               style={{
                 minWidth: "44px",
                 height: "44px",
-                borderRadius: "50 %",
+                borderRadius: "50%",
                 background: "#3D6B4F",
                 color: "#fff",
                 display: "flex",
@@ -359,7 +359,7 @@ export default function KimBisaettelse() {
             margin: "0 auto 32px",
           }}
         >
-          Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. Jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser. Mine priser starter fra <strong>13.550 kr.</strong> for en afsked uden ceremoni og fra <strong>19.500 kr.</strong> for en bisættelse med ceremoni.
+          Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. Jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser. Mine priser starter fra <strong>13.550 kr.</strong> for en afsked uden ceremoni og fra <strong>18.300 kr.</strong> for en bisættelse med ceremoni.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a

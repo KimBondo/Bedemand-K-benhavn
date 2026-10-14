@@ -3,6 +3,7 @@ import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import SchemaOrg from "@/components/SchemaOrg";
 import { useState } from "react";
+import { PAKKEPRISER } from "@/lib/priser";
 
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
@@ -12,11 +13,7 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
-const BASE_PRICES = {
-  uden: 13550,
-  bisaettelse: 19500,
-  begravelse: 20500,
-} as const;
+const BASE_PRICES = PAKKEPRISER;
 
 type Base = keyof typeof BASE_PRICES;
 
@@ -166,8 +163,8 @@ export default function KimPrisberegner() {
           <div style={{ display: "grid", gap: "16px", marginBottom: "40px" }}>
             {([
               { key: "uden" as const, title: "Afsked uden ceremoni", price: "Fra 13.550 kr.", text: "En stille afsked uden fremmøde. Jeg står for det praktiske: dødsanmeldelse, koordinering med læge og krematorium, transport, klargøring af afdøde og valg af kiste og urne. I behøver ikke selv tage kontakt til myndigheder eller krematorium." },
-              { key: "bisaettelse" as const, title: "Bisættelse", price: "Fra 19.500 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Jeg koordinerer hele forløbet: dødsanmeldelse, aftaler med præst eller kirkekontor, booker kapel eller kirke, sørger for transport til og fra ceremonien, koordinerer med krematoriet og står for klargøring af afdøde. Jeg er den, der holder styr på drejebogen, så I ikke skal tænke på det praktiske." },
-              { key: "begravelse" as const, title: "Begravelse", price: "Fra 20.500 kr.", text: "Ceremoni, hvorefter kisten sænkes i jorden. Jeg sørger for det samme som ved en bisættelse, plus koordinering med kirkegården om gravsted, gravning og tidspunkt for jordfæstelsen. I taler med mig hele vejen — fra den første samtale til selve afskeden." },
+              { key: "bisaettelse" as const, title: "Bisættelse", price: "Fra 18.300 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Jeg koordinerer hele forløbet: dødsanmeldelse, aftaler med præst eller kirkekontor, booker kapel eller kirke, sørger for transport til og fra ceremonien, koordinerer med krematoriet og står for klargøring af afdøde. Jeg er den, der holder styr på drejebogen, så I ikke skal tænke på det praktiske." },
+              { key: "begravelse" as const, title: "Begravelse", price: "Fra 19.300 kr.", text: "Ceremoni, hvorefter kisten sænkes i jorden. Jeg sørger for det samme som ved en bisættelse, plus koordinering med kirkegården om gravsted, gravning og tidspunkt for jordfæstelsen. I taler med mig hele vejen — fra den første samtale til selve afskeden." },
             ]).map((opt) => (
               <label key={opt.key} style={{ display: "block", background: base === opt.key ? "#f0f7f3" : "#fff", border: `1.5px solid ${base === opt.key ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "20px 24px", cursor: "pointer" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", flexWrap: "wrap" }}>
@@ -238,7 +235,14 @@ export default function KimPrisberegner() {
             {["København (Bispebjerg eller Sundby)", "Nordsjælland (Hillerød eller Helsingør)", "Ved ikke endnu / andet"].map((loc) => (
               <label key={loc} style={{ display: "flex", alignItems: "center", gap: "8px", background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "12px 16px", cursor: "pointer" }}>
                 <input type="radio" name="location" checked={location === loc} onChange={() => setLocation(loc)} />
-                <span style={{ fontSize: "15px" }}>{loc}</span>
+                <span style={{ fontSize: "15px" }}>
+                  {loc}
+                  {loc === "Ved ikke endnu / andet" && (
+                    <span style={{ display: "block", fontSize: "13px", color: "#5a7a6a", marginTop: "4px" }}>
+                      Uden for København og Nordsjælland: 1.595 kr. inkl. 25 km, derefter 35 kr. pr. km, uden loft – jeg regner prisen ud for jer.
+                    </span>
+                  )}
+                </span>
               </label>
             ))}
           </div>

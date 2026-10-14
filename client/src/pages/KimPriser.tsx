@@ -80,7 +80,7 @@ function PriceTable({ rows }: { rows: [string, string][] }) {
         {rows.map(([label, price], i) => (
           <tr key={i} style={{ borderBottom: "1px solid #e0dcd6" }}>
             <td style={{ padding: "10px 0", color: "#3d5260", lineHeight: 1.6 }}>{label}</td>
-            <td style={{ padding: "10px 0", textAlign: "right", fontWeight: 600, color: "#2F3E46", whiteSpace: "nowrap", paddingLeft: "16px" }}>{price}</td>
+            <td style={{ padding: "10px 0", textAlign: "right", fontWeight: 600, color: "#2F3E46", whiteSpace: price.length > 20 ? "normal" : "nowrap", paddingLeft: "16px" }}>{price}</td>
           </tr>
         ))}
       </tbody>
@@ -94,7 +94,7 @@ export default function KimPriser() {
     <div role="main" style={s.page}>
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
-        description="Bisættelse fra 19.500 kr., begravelse fra 20.500 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
+        description="Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
         url="https://www.bedemandkobenhavn.dk/priser/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -163,8 +163,8 @@ export default function KimPriser() {
           </a>
           <div style={{ marginTop: "36px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px" }}>
             {[
-              { navn: "Bisættelse", pris: "Fra 19.500 kr.", href: "#bisaettelse" },
-              { navn: "Begravelse", pris: "Fra 20.500 kr.", href: "#begravelse" },
+              { navn: "Bisættelse", pris: "Fra 18.300 kr.", href: "#bisaettelse" },
+              { navn: "Begravelse", pris: "Fra 19.300 kr.", href: "#begravelse" },
               { navn: "Uden ceremoni", pris: "13.550 kr.", href: "#uden-ceremoni" },
             ].map((p) => (
               <a key={p.href} href={p.href} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "12px", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "3px", padding: "14px 18px", textDecoration: "none" }}>
@@ -210,7 +210,7 @@ export default function KimPriser() {
           id="bisaettelse"
           label="Bisættelse"
           title="Den enkle bisættelse"
-          price="Fra 19.500 kr."
+          price="Fra 18.300 kr."
           subtitle="Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage."
           items={[
             "Møde hjemme hos jer eller på telefon — som I ønsker",
@@ -223,7 +223,7 @@ export default function KimPriser() {
             "Ansøgning om begravelseshjælp på jeres vegne",
             "Jeg er selv til stede ved højtideligheden",
           ]}
-          note="Købt som enkeltposter koster det 20.750 kr. Samlet sparer I 1.250 kr."
+          note="Købt som enkeltposter koster det 19.535 kr. Samlet sparer I 1.235 kr."
           linkAfter={true}
         />
 
@@ -232,7 +232,7 @@ export default function KimPriser() {
           id="begravelse"
           label="Begravelse"
           title="Den enkle begravelse"
-          price="Fra 20.500 kr."
+          price="Fra 19.300 kr."
           subtitle="Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage."
           items={[
             "Møde hjemme hos jer eller på telefon",
@@ -245,7 +245,7 @@ export default function KimPriser() {
             "Jeg er selv til stede ved højtideligheden",
             "Udlægning af blomster på graven",
           ]}
-          note="Købt som enkeltposter koster det 20.900 kr. Samlet sparer I 400 kr."
+          note="Købt som enkeltposter koster det 19.685 kr. Samlet sparer I 385 kr."
           linkAfter={true}
         />
 
@@ -274,7 +274,7 @@ export default function KimPriser() {
             ))}
           </ul>
           <p style={{ ...s.small, marginTop: "16px", fontStyle: "italic" }}>
-            Købt som enkeltposter koster det 15.750 kr. Samlet sparer I 2.200 kr.
+            Købt som enkeltposter koster det 15.345 kr. Samlet sparer I 1.795 kr.
           </p>
           <p style={{ ...s.body, marginTop: "16px" }}>
             <strong>Vælger I en anden kiste eller urne, betaler I kun forskellen.</strong>{" "}
@@ -292,7 +292,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Aften, weekend og helligdage</h2>
           <p style={s.body}>
-            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Det koster mig mere, og derfor er der et tillæg på 50 % på afhentning og kørsel. Tillægget gælder efter kl. 16 på hverdage samt i weekender og på helligdage. Falder afhentningen og den første kørsel uden for arbejdstiden, svarer det til 2.250 kr.
+            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Det koster mig mere, og derfor er der et fast tillæg på 800 kr. pr. udkald – altså pr. gang, jeg rykker ud uden for normal arbejdstid, uanset hvor mange kørsler der indgår. Tillægget gælder efter kl. 16 på hverdage samt i weekender og på helligdage. Falder afhentningen og den første kørsel uden for arbejdstiden, er tillægget altså 800 kr. i alt.
           </p>
           <p style={s.body}>
             Det står her, fordi I skal kunne regne det ud selv — ikke opdage det på fakturaen.
@@ -375,12 +375,26 @@ export default function KimPriser() {
           <PriceTable rows={[
             ["Klargøring af kiste, afhentning og ilægning", "2.500 kr."],
             ["Tillæg ved afhentning i private hjem", "1.200 kr."],
-            ["Rustvognskørsel, én kørsel i hele København og Nordsjælland", "2.000 kr."],
-            ["Rustvognskørsel uden for København og Nordsjælland", "Efter aftale"],
+            ["Rustvognskørsel, én kørsel inkl. 25 km", "1.595 kr."],
+            ["Herefter pr. km", "35 kr."],
+            ["Højst pr. kørsel i hele København og Nordsjælland", "2.000 kr."],
+            ["Rustvognskørsel uden for København og Nordsjælland (fx resten af Sjælland, Fyn og Jylland)", "1.595 kr. inkl. 25 km, derefter 35 kr. pr. km, uden loft"],
             ["Urnekørsel fra krematorie til kirkegårdskontor", "900 kr."],
             ["Blomsterkørsel og udlægning på kirkegård", "900 kr."],
           ]} />
-          <p style={{ ...s.small, fontStyle: "italic", marginBottom: "32px" }}>50 % tillæg efter kl. 16 på hverdage samt weekender og helligdage.</p>
+          <p style={{ ...s.small, fontStyle: "italic", marginBottom: "32px" }}>Fast tillæg på 800 kr. pr. udkald efter kl. 16 på hverdage samt i weekender og på helligdage.</p>
+          <div style={{ background: "#f0f7f3", borderLeft: "3px solid #3D6B4F", borderRadius: "3px", padding: "24px 24px 8px", marginBottom: "32px" }}>
+            <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46" }}>Ingen skjulte km-penge – højst 2.000 kr. pr. kørsel</p>
+            <p style={s.body}>
+              En kørsel med rustvognen koster 1.595 kr. inklusive de første 25 km. Kører vi længere, koster det 35 kr. pr. km – men aldrig mere end 2.000 kr. pr. kørsel, uanset hvor i København og Nordsjælland I bor. Så ved I på forhånd, hvad transporten højst kan koste, også hvis der er langt fra kirken til krematoriet eller kirkegården.
+            </p>
+            <p style={s.body}>
+              Uden for København og Nordsjælland – fx på resten af Sjælland, Fyn eller i Jylland – gælder samme pris på 1.595 kr. inkl. 25 km og derefter 35 kr. pr. km, men uden loft på 2.000 kr. Jeg regner prisen ud for jer, inden vi kører.
+            </p>
+            <p style={s.body}>
+              I mine faste pakker er de kørsler, der skal til, allerede regnet med.
+            </p>
+          </div>
 
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Honorar</h3>

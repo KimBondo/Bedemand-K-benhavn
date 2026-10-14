@@ -13,7 +13,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand på Nørrebro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Nørrebro, resten af København og hele Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
-  { question: "Hvad koster en begravelse på Nørrebro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 19.500 kr. og en begravelse i kiste ved 20.500 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse på Nørrebro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Kan man stadig få gravsted på Assistens Kirkegård?", answer: "Ja. Assistens er fredet og en stor del af den er kirkegårdspark, men omkring en fjerdedel bruges stadig aktivt til begravelser og urnenedsættelser. Jeg hjælper med at finde ud af, hvad der er ledigt i den afdeling, I ønsker." },
   { question: "Hvor foregår ceremonien, når man bor på Nørrebro?", answer: "Enten i en af bydelens kirker eller i Søndre Kapel på Bispebjerg Kirkegård. Der er ingen kapeller på selve Nørrebro, der kan bookes til ceremoni gennem kommunen — og Bispebjerg Krematorium ligger samme sted som kapellet." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
@@ -157,8 +157,8 @@ export default function KimNorrebro() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
               { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/afsked-uden-ceremoni/" },
-              { type: "Bisættelse med ceremoni", price: "19.500 kr.", href: "/bisaettelse/" },
-              { type: "Begravelse i kiste", price: "20.500 kr.", href: "/begravelse/" },
+              { type: "Bisættelse med ceremoni", price: "18.300 kr.", href: "/bisaettelse/" },
+              { type: "Begravelse i kiste", price: "19.300 kr.", href: "/begravelse/" },
             ].map((p) => (
               <div key={p.type} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
