@@ -170,7 +170,7 @@ export default function KimProdukter() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Kister og urner – Bedemand Kim Bondo"
-        description="Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 22 21 14 37."
+        description="Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Kim Bondo bedemand i København. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/produkter/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -231,7 +231,7 @@ export default function KimProdukter() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{ display: "none" }}
           className="mobile-call-btn"
         >
@@ -251,7 +251,7 @@ export default function KimProdukter() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "600px", margin: "0 auto 32px", lineHeight: 1.7 }}>
           Her finder I mit udvalg af kister og urner med gennemsigtige priser. I behøver ikke at have valgt på forhånd – vi finder sammen en løsning, der passer til den, I har mistet, og til jer. Se også <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>alle mine priser</a>.
         </p>
-        <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring på 22 21 14 37</a>
+        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring på 28 14 60 11</a>
       </section>
 
       {/* ── KISTER ── */}
@@ -384,7 +384,7 @@ export default function KimProdukter() {
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>
         </div>
       </section>
@@ -458,10 +458,10 @@ export default function KimProdukter() {
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a

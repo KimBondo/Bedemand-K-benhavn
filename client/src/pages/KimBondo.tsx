@@ -51,7 +51,7 @@ export default function KimBondo() {
     >
       <SEO
         title="Bedemand København – Kim Bondo, personlig bedemand døgnet rundt"
-        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring 22 21 14 37 – døgnet rundt."
+        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring 28 14 60 11 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -122,7 +122,7 @@ export default function KimBondo() {
           <KimNav />
           {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             display: "none",
           }}
@@ -174,7 +174,7 @@ export default function KimBondo() {
 
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
             <a
-              href="tel:22211437"
+              href="tel:+4528146011"
               style={{
                 display: "inline-block",
                 background: "#3D6B4F",
@@ -188,7 +188,7 @@ export default function KimBondo() {
                 letterSpacing: "0.04em",
               }}
             >
-              Ring til Kim – 22 21 14 37
+              Ring til Kim – 28 14 60 11
             </a>
             <p
               style={{
@@ -265,10 +265,10 @@ export default function KimBondo() {
             >
               eller ring på{" "}
               <a
-                href="tel:22211437"
+                href="tel:+4528146011"
                 style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}
               >
-                22 21 14 37
+                28 14 60 11
               </a>
             </p>
           </div>
@@ -301,8 +301,8 @@ export default function KimBondo() {
               </li>
             ))}
           </ol>
-          <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
-            Ring til Kim – 22 21 14 37
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+            Ring til Kim – 28 14 60 11
           </a>
           <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a" }}>
             Vil du hellere læse først? <a href="/hvad-sker-der/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se hvad der sker, når nogen dør</a> eller <a href="/huskeliste/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>huskelisten</a>
@@ -933,10 +933,10 @@ export default function KimBondo() {
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
             Du er også altid velkommen til at ringe direkte på{" "}
             <a
-              href="tel:22211437"
+              href="tel:+4528146011"
               style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}
             >
-              22 21 14 37
+              28 14 60 11
             </a>
             .
           </p>
@@ -1094,10 +1094,10 @@ export default function KimBondo() {
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a

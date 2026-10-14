@@ -21,7 +21,7 @@ export default function KimAfskeder() {
     >
       <SEO
         title="Afskeder og ceremonier – Bedemand Kim Bondo"
-        description="Kirkelig, borgerlig eller stille afsked i København. Kim Bondo tilrettelægger begravelse og bisættelse efter jeres ønsker. Ring 22 21 14 37."
+        description="Kirkelig, borgerlig eller stille afsked i København. Kim Bondo tilrettelægger begravelse og bisættelse efter jeres ønsker. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/afskeder/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -74,7 +74,7 @@ export default function KimAfskeder() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             display: "none",
           }}
@@ -227,7 +227,7 @@ export default function KimAfskeder() {
         </div>
         <p style={{ fontSize: "14px", color: "#9aacb4", marginTop: "16px" }}>
           eller ring på{" "}
-          <a href="tel:22211437" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>22 21 14 37</a>
+          <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -267,7 +267,7 @@ export default function KimAfskeder() {
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159

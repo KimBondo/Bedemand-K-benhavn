@@ -16,7 +16,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Humlebæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Humlebæk, Espergærde og nærområdet samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
+  { question: "Hvem er bedemand i Humlebæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Humlebæk, Espergærde og nærområdet samt resten af Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Humlebæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvor sker kremeringen for familier i Humlebæk?", answer: "I vælger selv: kremering i Hillerød, hvor Nordsjællands eneste krematorium ligger, eller via indlevering i Helsingør. Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
   { question: "Hvilke kirker koordinerer du med omkring Humlebæk?", answer: "Blandt andet Espergærde Kirke og de øvrige kirker i nærområdet. Jeg kender de lokale kirkegårde og kapeller, så I ikke selv skal finde ud af de praktiske forhold." },
@@ -27,7 +27,7 @@ export default function KimHumlebaek() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Humlebæk – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Humlebæk og Espergærde. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 22 21 14 37 – døgnet rundt."
+        description="Personlig bedemand i Humlebæk og Espergærde. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 28 14 60 11 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/humlebaek/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -68,7 +68,7 @@ export default function KimHumlebaek() {
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Humlebæk og Espergærde</span>
         </div>
         <KimNav />
-        <a href="tel:22211437" style={{ display: "none" }} className="mobile-call-btn">
+        <a href="tel:+4528146011" style={{ display: "none" }} className="mobile-call-btn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
@@ -99,7 +99,7 @@ export default function KimHumlebaek() {
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -180,7 +180,7 @@ export default function KimHumlebaek() {
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>
         </div>
       </section>
@@ -228,7 +228,7 @@ export default function KimHumlebaek() {
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159

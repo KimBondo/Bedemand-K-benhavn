@@ -75,7 +75,7 @@ export default function KimPersondatapolitik() {
             CVR-nr. 45084159
             <br />
             Telefon:{" "}
-            <a href="tel:22211437" style={s.link}>22 21 14 37</a>
+            <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>
             <br />
             E-mail:{" "}
             <a href="mailto:kim@bedemandkobenhavn.dk" style={s.link}>kim@bedemandkobenhavn.dk</a>
@@ -104,7 +104,7 @@ export default function KimPersondatapolitik() {
           </p>
           <p style={s.body}>
             Vil du hellere undgå det led, kan du altid bare ringe på{" "}
-            <a href="tel:22211437" style={s.link}>22 21 14 37</a> eller skrive direkte til{" "}
+            <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> eller skrive direkte til{" "}
             <a href="mailto:kim@bedemandkobenhavn.dk" style={s.link}>kim@bedemandkobenhavn.dk</a>.
           </p>
         </div>
@@ -222,7 +222,7 @@ export default function KimPersondatapolitik() {
             Skriv til{" "}
             <a href="mailto:kim@bedemandkobenhavn.dk" style={s.link}>kim@bedemandkobenhavn.dk</a>{" "}
             eller ring på{" "}
-            <a href="tel:22211437" style={s.link}>22 21 14 37</a>, så vender jeg tilbage hurtigst muligt og senest inden for en måned.
+            <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>, så vender jeg tilbage hurtigst muligt og senest inden for en måned.
           </p>
         </div>
       </section>
@@ -326,10 +326,10 @@ export default function KimPersondatapolitik() {
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a

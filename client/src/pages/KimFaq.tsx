@@ -26,7 +26,7 @@ const FAQ_SECTIONS = [
     title: "Om bedemand og processen",
     items: [
       { q: "Hvad laver en bedemand?", a: "En bedemand hjælper de pårørende med alt det praktiske i forbindelse med et dødsfald — fra afhentning af afdøde, koordinering med kirke, krematorium og myndigheder, til valg af kiste eller urne og planlægning af ceremonien. Jeg er med jer hele vejen.", link: null },
-      { q: "Hvornår skal jeg kontakte en bedemand?", a: "Du kan kontakte mig, så snart du har behov — enten umiddelbart efter dødsfaldet eller allerede inden, hvis du ved, at det nærmer sig. Jeg er tilgængelig døgnet rundt på 22 21 14 37.", link: null },
+      { q: "Hvornår skal jeg kontakte en bedemand?", a: "Du kan kontakte mig, så snart du har behov — enten umiddelbart efter dødsfaldet eller allerede inden, hvis du ved, at det nærmer sig. Jeg er tilgængelig døgnet rundt på 28 14 60 11.", link: null },
       { q: "Hvad sker der, når jeg ringer til dig?", a: "Jeg tager telefonen personligt. Vi taler om situationen, og jeg guider jer igennem de første skridt. Der er ingen forpligtelse ved at ringe — bare menneskelig kontakt.", link: null },
       { q: "Hjælper bedemanden med papirarbejdet?", a: "Ja. Jeg står for al koordinering. Jeg udarbejder et prisoverslag, anmelder dødsfaldet, henter dødsattesten og kontakter kirke, kirkegård og krematorium. Jeg henviser jer til præsten om selve højtideligheden og træffer aftaler med blomsterhandler, trykkeri, aviser, stenhugger, organist og kor. Jeg lægger ud for leverandørerne, søger begravelseshjælp på jeres vegne og aftaler urnenedsættelsen med jer og kirkegården.", link: "/priser/" },
       { q: "Kan jeg planlægge begravelsen på forhånd?", a: "Ja. Mange vælger at planlægge deres egen afsked på forhånd, så de pårørende slipper for at træffe svære beslutninger i en svær tid. Jeg tilbyder et gratis hjemmebesøg, Min Sidste Vilje, hvor vi skriver jeres ønsker ned – uden forpligtelse. Ring til mig, så taler vi om mulighederne.", link: "/min-sidste-vilje/" },
@@ -63,7 +63,7 @@ const FAQ_SECTIONS = [
       { q: "Hvad gør man, hvis dødsfaldet sker på hospitalet?", a: "Personalet sørger for lægen og dødsattesten, og afdøde kan blive på hospitalet, indtil jeg henter. I skal blot ringe til mig, så aftaler vi det videre.", link: "/huskeliste/" },
       { q: "Kan man selv vælge kirkegård?", a: "Man har ret til at blive begravet eller få urnen nedsat på kirkegården i det sogn, hvor man boede. Man kan også vælge et andet sogn, hvis man har en særlig tilknytning dertil – fx hvis man har boet der, har nær familie der, eller hvis forældre, ægtefælle eller børn ligger begravet der. På kirkegårde, som drives af menighedsrådet, kan prisen være højere for dem, der ikke var medlem af folkekirken. Jeg hjælper jer med at finde ud af, hvad der er muligt.", link: null },
       { q: "Hvilke områder dækker Kim?", a: "Jeg dækker hele København og Nordsjælland — herunder Helsingør, Hillerød, Gentofte, Lyngby, Hørsholm og alle Storkøbenhavns kommuner.", link: "/omraade/" },
-      { q: "Er Kim tilgængelig om natten og i weekenden?", a: "Ja — jeg er tilgængelig hele døgnet, alle ugens dage. Ring på 22 21 14 37 uanset tidspunktet.", link: null },
+      { q: "Er Kim tilgængelig om natten og i weekenden?", a: "Ja — jeg er tilgængelig hele døgnet, alle ugens dage. Ring på 28 14 60 11 uanset tidspunktet.", link: null },
     ],
   },
 ];
@@ -75,7 +75,7 @@ export default function KimFaq() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="FAQ – Begravelse og bisættelse, Kim Bondo"
-        description="Svar på de mest stillede spørgsmål om begravelse, bisættelse, priser og begravelseshjælp. Kim Bondo bedemand i København. Ring 22 21 14 37."
+        description="Svar på de mest stillede spørgsmål om begravelse, bisættelse, priser og begravelseshjælp. Kim Bondo bedemand i København. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/faq/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -116,7 +116,7 @@ export default function KimFaq() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             display: "none",
           }}
@@ -138,7 +138,7 @@ export default function KimFaq() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "600px", margin: "0 auto 32px", lineHeight: 1.7 }}>
           Her har jeg samlet svar på de spørgsmål, jeg oftest får. Finder du ikke svar på dit spørgsmål, er du altid velkommen til at ringe.
         </p>
-        <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring på 22 21 14 37</a>
+        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring på 28 14 60 11</a>
       </section>
 
       {/* ── FAQ SEKTIONER ── */}
@@ -169,7 +169,7 @@ export default function KimFaq() {
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>
         </div>
       </section>
@@ -243,10 +243,10 @@ export default function KimFaq() {
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a

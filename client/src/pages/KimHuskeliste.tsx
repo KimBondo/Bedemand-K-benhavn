@@ -32,7 +32,7 @@ export default function KimHuskeliste() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Huskeliste ved dødsfald – Bedemand Kim Bondo"
-        description="Hvad skal du gøre, når en nærtstående dør? Kim Bondos trin-for-trin huskeliste hjælper dig i den svære tid. Ring 22 21 14 37."
+        description="Hvad skal du gøre, når en nærtstående dør? Kim Bondos trin-for-trin huskeliste hjælper dig i den svære tid. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/huskeliste/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -74,7 +74,7 @@ export default function KimHuskeliste() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             display: "none",
           }}
@@ -103,7 +103,7 @@ export default function KimHuskeliste() {
           Kontakt mig
         </a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -346,10 +346,10 @@ export default function KimHuskeliste() {
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a

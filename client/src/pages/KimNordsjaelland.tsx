@@ -20,7 +20,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland og hele København. Ring på 22 21 14 37 — også midt om natten." },
+  { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland og hele København. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
   { question: "Er der et krematorium i Nordsjælland?", answer: "Ja, Hillerød Krematorium ved Skansekirkegården er det eneste i Nordsjælland. I kan også vælge indlevering i Helsingør. Ceremonien holdes stadig lokalt." },
   { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs — og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
@@ -32,7 +32,7 @@ export default function KimNordsjaelland() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Nordsjælland – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i hele Nordsjælland — fra Gentofte og Lyngby til Hillerød og Helsingør. Faste priser. Ring 22 21 14 37 — hele døgnet."
+        description="Personlig bedemand i hele Nordsjælland — fra Gentofte og Lyngby til Hillerød og Helsingør. Faste priser. Ring 28 14 60 11 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/nordsjaelland/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -76,7 +76,7 @@ export default function KimNordsjaelland() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             display: "none",
           }}
@@ -120,7 +120,7 @@ export default function KimNordsjaelland() {
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -284,7 +284,7 @@ export default function KimNordsjaelland() {
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>
         </div>
       </section>
@@ -336,7 +336,7 @@ export default function KimNordsjaelland() {
         </a>
         <p style={{ marginTop: "48px", fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "rgba(255,255,255,0.78)" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159

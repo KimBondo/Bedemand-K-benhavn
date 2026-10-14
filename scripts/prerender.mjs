@@ -66,67 +66,67 @@ const ROUTES = [
 const ROUTE_META = {
   "/": {
     title: "Bedemand K\u00f8benhavn \u2013 Kim Bondo, personlig bedemand d\u00f8gnet rundt",
-    description: "Personlig bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/afsked-uden-ceremoni": {
     title: "Afsked uden ceremoni \u2013 Bedemand Kim Bondo",
-    description: "Enkel afsked uden ceremoni i K\u00f8benhavn. Kremering og urneneds\u00e6ttelse uden kirke. Fra 13.550 kr. Kim Bondo \u2013 ring 22 21 14 37 d\u00f8gnet rundt.",
+    description: "Enkel afsked uden ceremoni i K\u00f8benhavn. Kremering og urneneds\u00e6ttelse uden kirke. Fra 13.550 kr. Kim Bondo \u2013 ring 28 14 60 11 d\u00f8gnet rundt.",
   },
   "/afskeder": {
     title: "Afskeder og ceremonier \u2013 Bedemand Kim Bondo",
-    description: "Kirkelig, borgerlig eller stille afsked i K\u00f8benhavn. Kim Bondo tilrettel\u00e6gger begravelse og bis\u00e6ttelse efter jeres \u00f8nsker. Ring 22 21 14 37.",
+    description: "Kirkelig, borgerlig eller stille afsked i K\u00f8benhavn. Kim Bondo tilrettel\u00e6gger begravelse og bis\u00e6ttelse efter jeres \u00f8nsker. Ring 28 14 60 11.",
   },
   "/amager": {
     title: "Bedemand Amager \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 Amager, i T\u00e5rnby og Drag\u00f8r. Sundby Krematorium ligger i bydelen. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand p\u00e5 Amager, i T\u00e5rnby og Drag\u00f8r. Sundby Krematorium ligger i bydelen. Faste priser og ingen mellemled. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/askespredning": {
     title: "Askespredning \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Askespredning over \u00e5bent hav. Kim Bondo hj\u00e6lper med tro og love-erkl\u00e6ring, papirer og det praktiske. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Askespredning over \u00e5bent hav. Kim Bondo hj\u00e6lper med tro og love-erkl\u00e6ring, papirer og det praktiske. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/begravelse": {
     title: "Begravelse i K\u00f8benhavn \u2013 Bedemand Kim Bondo",
-    description: "Personlig hj\u00e6lp til begravelse i K\u00f8benhavn og Nordsj\u00e6lland. Jeg koordinerer kiste, kirkeg\u00e5rd og ceremoni. Ring 22 21 14 37.",
+    description: "Personlig hj\u00e6lp til begravelse i K\u00f8benhavn og Nordsj\u00e6lland. Jeg koordinerer kiste, kirkeg\u00e5rd og ceremoni. Ring 28 14 60 11.",
   },
   "/begravelseshjaelp": {
     title: "Begravelseshj\u00e6lp \u2013 s\u00f8g tilskud, Kim Bondo",
-    description: "F\u00e5 hj\u00e6lp til at s\u00f8ge begravelseshj\u00e6lp fra det offentlige. Tilskud fra 1.050\u201313.550 kr. Kim Bondo guider jer igennem ans\u00f8gningen. Ring 22 21 14 37.",
+    description: "F\u00e5 hj\u00e6lp til at s\u00f8ge begravelseshj\u00e6lp fra det offentlige. Tilskud fra 1.050\u201313.550 kr. Kim Bondo guider jer igennem ans\u00f8gningen. Ring 28 14 60 11.",
   },
   "/bisaettelse": {
     title: "Bis\u00e6ttelse i K\u00f8benhavn \u2013 Bedemand Kim Bondo",
-    description: "Personlig hj\u00e6lp til bis\u00e6ttelse i K\u00f8benhavn og Nordsj\u00e6lland. Kim Bondo tager sig af alt det praktiske. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig hj\u00e6lp til bis\u00e6ttelse i K\u00f8benhavn og Nordsj\u00e6lland. Kim Bondo tager sig af alt det praktiske. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/borgerlig-afsked": {
     title: "Borgerlig afsked \u2013 Bedemand Kim Bondo",
-    description: "Borgerlig begravelse eller bis\u00e6ttelse uden kirke i K\u00f8benhavn. Kim Bondo hj\u00e6lper med ceremoni, kapel og alt praktisk. Ring 22 21 14 37.",
+    description: "Borgerlig begravelse eller bis\u00e6ttelse uden kirke i K\u00f8benhavn. Kim Bondo hj\u00e6lper med ceremoni, kapel og alt praktisk. Ring 28 14 60 11.",
   },
   "/faq": {
     title: "FAQ \u2013 Begravelse og bis\u00e6ttelse, Kim Bondo",
-    description: "Svar p\u00e5 de mest stillede sp\u00f8rgsm\u00e5l om begravelse, bis\u00e6ttelse, priser og begravelseshj\u00e6lp. Kim Bondo bedemand i K\u00f8benhavn. Ring 22 21 14 37.",
+    description: "Svar p\u00e5 de mest stillede sp\u00f8rgsm\u00e5l om begravelse, bis\u00e6ttelse, priser og begravelseshj\u00e6lp. Kim Bondo bedemand i K\u00f8benhavn. Ring 28 14 60 11.",
   },
   "/frederiksberg": {
     title: "Bedemand Frederiksberg \u2013 Kim Bondo",
-    description: "Personlig bedemand p\u00e5 Frederiksberg. S\u00f8ndermark Krematorium og kommunens tre kirkeg\u00e5rde. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand p\u00e5 Frederiksberg. S\u00f8ndermark Krematorium og kommunens tre kirkeg\u00e5rde. Faste priser og ingen mellemled. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/gentofte": {
     title: "Bedemand Gentofte \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Gentofte, Hellerup, Charlottenlund og Vangede. Ceremoni i Mariebjergs kapeller. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand i Gentofte, Hellerup, Charlottenlund og Vangede. Ceremoni i Mariebjergs kapeller. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/helsingor": {
     title: "Bedemand Helsing\u00f8r \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Helsing\u00f8r, Snekkersten, Esperg\u00e6rde og Hornb\u00e6k. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand i Helsing\u00f8r, Snekkersten, Esperg\u00e6rde og Hornb\u00e6k. Faste priser og ingen mellemled. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/hillerod": {
     title: "Bedemand Hiller\u00f8d \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Hiller\u00f8d og omegn. Nordsj\u00e6llands eneste krematorium ligger her. Faste priser. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand i Hiller\u00f8d og omegn. Nordsj\u00e6llands eneste krematorium ligger her. Faste priser. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/horsholm": {
     title: "Bedemand H\u00f8rsholm \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i H\u00f8rsholm, Rungsted og Kokkedal. Kapellet p\u00e5 H\u00f8rsholm Kirkeg\u00e5rd kan benyttes af alle. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand i H\u00f8rsholm, Rungsted og Kokkedal. Kapellet p\u00e5 H\u00f8rsholm Kirkeg\u00e5rd kan benyttes af alle. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/huskeliste": {
     title: "Huskeliste ved d\u00f8dsfald \u2013 Bedemand Kim Bondo",
-    description: "Hvad skal du g\u00f8re, n\u00e5r en n\u00e6rtst\u00e5ende d\u00f8r? Kim Bondos trin-for-trin huskeliste hj\u00e6lper dig i den sv\u00e6re tid. Ring 22 21 14 37.",
+    description: "Hvad skal du g\u00f8re, n\u00e5r en n\u00e6rtst\u00e5ende d\u00f8r? Kim Bondos trin-for-trin huskeliste hj\u00e6lper dig i den sv\u00e6re tid. Ring 28 14 60 11.",
   },
   "/hvad-koster-en-begravelse": {
     title: "Hvad koster en begravelse i 2026? Alle udgifter samlet",
@@ -134,67 +134,67 @@ const ROUTE_META = {
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked \u2013 Bedemand Kim Bondo",
-    description: "Kirkelig begravelse eller bis\u00e6ttelse med pr\u00e6st i K\u00f8benhavn. Jeg koordinerer kirke, kordegn og hele forl\u00f8bet. Ring 22 21 14 37.",
+    description: "Kirkelig begravelse eller bis\u00e6ttelse med pr\u00e6st i K\u00f8benhavn. Jeg koordinerer kirke, kordegn og hele forl\u00f8bet. Ring 28 14 60 11.",
   },
   "/lyngby": {
     title: "Bedemand Lyngby \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Lyngby, Virum, Sorgenfri og Taarb\u00e6k. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand i Lyngby, Virum, Sorgenfri og Taarb\u00e6k. Faste priser og ingen mellemled. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/nordsjaelland": {
     title: "Bedemand Nordsj\u00e6lland \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i hele Nordsj\u00e6lland \u2014 fra Gentofte og Lyngby til Hiller\u00f8d og Helsing\u00f8r. Faste priser. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand i hele Nordsj\u00e6lland \u2014 fra Gentofte og Lyngby til Hiller\u00f8d og Helsing\u00f8r. Faste priser. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/norrebro": {
     title: "Bedemand N\u00f8rrebro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 N\u00f8rrebro. Assistens Kirkeg\u00e5rd ligger midt i bydelen. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand p\u00e5 N\u00f8rrebro. Assistens Kirkeg\u00e5rd ligger midt i bydelen. Faste priser og ingen mellemled. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/om-kim": {
     title: "Om Kim Bondo \u2013 Personlig bedemand, K\u00f8benhavn",
-    description: "M\u00f8d Kim Bondo \u2013 selvst\u00e6ndig bedemand med n\u00e6rv\u00e6r og ro. Hj\u00e6lper familier i sorg i K\u00f8benhavn og Nordsj\u00e6lland. Ring 22 21 14 37.",
+    description: "M\u00f8d Kim Bondo \u2013 selvst\u00e6ndig bedemand med n\u00e6rv\u00e6r og ro. Hj\u00e6lper familier i sorg i K\u00f8benhavn og Nordsj\u00e6lland. Ring 28 14 60 11.",
   },
   "/omraade": {
     title: "D\u00e6kningsomr\u00e5de \u2013 Bedemand Kim Bondo",
-    description: "Kim Bondo d\u00e6kker K\u00f8benhavn og Nordsj\u00e6lland \u2013 Helsing\u00f8r, Hiller\u00f8d, Gentofte, Lyngby og hele Stork\u00f8benhavn. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Kim Bondo d\u00e6kker K\u00f8benhavn og Nordsj\u00e6lland \u2013 Helsing\u00f8r, Hiller\u00f8d, Gentofte, Lyngby og hele Stork\u00f8benhavn. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/osterbro": {
     title: "Bedemand \u00d8sterbro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 \u00d8sterbro. Holmens og Garnisons Kirkeg\u00e5rd ligger i bydelen. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand p\u00e5 \u00d8sterbro. Holmens og Garnisons Kirkeg\u00e5rd ligger i bydelen. Faste priser og ingen mellemled. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/fredensborg": {
     title: "Bedemand Fredensborg \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Fredensborg, Humleb\u00e6k, Kokkedal og Niv\u00e5. Frit valg af kirkeg\u00e5rd i provstiet for folkekirkemedlemmer. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand i Fredensborg, Humleb\u00e6k, Kokkedal og Niv\u00e5. Frit valg af kirkeg\u00e5rd i provstiet for folkekirkemedlemmer. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/rudersdal": {
     title: "Bedemand Rudersdal \u2013 Birker\u00f8d, Holte, N\u00e6rum, Vedb\u00e6k",
-    description: "Personlig bedemand i Birker\u00f8d, Holte, N\u00e6rum og Vedb\u00e6k. Rudersdals fem kirkeg\u00e5rde er kommunale. Faste priser og ingen mellemled. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand i Birker\u00f8d, Holte, N\u00e6rum og Vedb\u00e6k. Rudersdals fem kirkeg\u00e5rde er kommunale. Faste priser og ingen mellemled. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
   "/min-sidste-vilje": {
     title: "Min Sidste Vilje \u2013 skema og \u00f8nsker til egen begravelse",
-    description: "Skriv dine \u00f8nsker til din egen begravelse eller bis\u00e6ttelse ned. Hent skemaet Min Sidste Vilje gratis, eller f\u00e5 hj\u00e6lp ved et gratis hjemmebes\u00f8g. Ring 22 21 14 37.",
+    description: "Skriv dine \u00f8nsker til din egen begravelse eller bis\u00e6ttelse ned. Hent skemaet Min Sidste Vilje gratis, eller f\u00e5 hj\u00e6lp ved et gratis hjemmebes\u00f8g. Ring 28 14 60 11.",
   },
   "/hornbaek": {
     title: "Bedemand Hornb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Hornb\u00e6k og Helleb\u00e6k. Kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand i Hornb\u00e6k og Helleb\u00e6k. Kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/alsgaarde": {
     title: "Bedemand \u00c5lsg\u00e5rde \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i \u00c5lsg\u00e5rde og Helleb\u00e6k. Jeg kender Helleb\u00e6k Kirke og \u00c5lsg\u00e5rde Kirkeg\u00e5rd og hj\u00e6lper jer hele vejen. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand i \u00c5lsg\u00e5rde og Helleb\u00e6k. Jeg kender Helleb\u00e6k Kirke og \u00c5lsg\u00e5rde Kirkeg\u00e5rd og hj\u00e6lper jer hele vejen. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/humlebaek": {
     title: "Bedemand Humleb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Humleb\u00e6k og Esperg\u00e6rde. Kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand i Humleb\u00e6k og Esperg\u00e6rde. Kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",
-    description: "Få et vejledende overslag på begravelse eller bisættelse. Faste priser og gennemsigtighed. Ring 22 21 14 37.",
+    description: "Få et vejledende overslag på begravelse eller bisættelse. Faste priser og gennemsigtighed. Ring 28 14 60 11.",
   },
   "/hvad-sker-der": {
     title: "Hvad sker der, når nogen dør? – Praktisk guide | Kim Bondo",
-    description: "Klar oversigt over de første skridt ved dødsfald i København og Nordsjælland. Læge, dødsattest, anmeldelse, krematorium og priser. Ring 22 21 14 37.",
+    description: "Klar oversigt over de første skridt ved dødsfald i København og Nordsjælland. Læge, dødsattest, anmeldelse, krematorium og priser. Ring 28 14 60 11.",
   },
   "/bisaettelse-nordsjaelland": {
     title: "Sådan forløber en bisættelse i Nordsjælland | Kim Bondo",
-    description: "S\u00e5dan forl\u00f8ber en bis\u00e6ttelse i Nordsj\u00e6lland: lokal ceremoni, kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 22 21 14 37.",
+    description: "S\u00e5dan forl\u00f8ber en bis\u00e6ttelse i Nordsj\u00e6lland: lokal ceremoni, kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 28 14 60 11.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",
@@ -202,19 +202,19 @@ const ROUTE_META = {
   },
   "/priser": {
     title: "Priser \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser samlet \u00e9t sted. Ingen skjulte gebyrer. Ring 22 21 14 37.",
+    description: "Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser samlet \u00e9t sted. Ingen skjulte gebyrer. Ring 28 14 60 11.",
   },
   "/produkter": {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",
-    description: "V\u00e6lg kiste fra 6.000 kr. eller urne fra 950 kr. B\u00e6redygtige og klassiske modeller. Kim Bondo bedemand i K\u00f8benhavn. Ring 22 21 14 37.",
+    description: "V\u00e6lg kiste fra 6.000 kr. eller urne fra 950 kr. B\u00e6redygtige og klassiske modeller. Kim Bondo bedemand i K\u00f8benhavn. Ring 28 14 60 11.",
   },
   "/soborg": {
     title: "Bedemand S\u00f8borg & Gladsaxe \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand med kontor p\u00e5 Vandt\u00e5rnsvej 62A i S\u00f8borg. Jeg hj\u00e6lper familier i hele Gladsaxe med bis\u00e6ttelse og begravelse. Ring 22 21 14 37 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand med kontor p\u00e5 Vandt\u00e5rnsvej 62A i S\u00f8borg. Jeg hj\u00e6lper familier i hele Gladsaxe med bis\u00e6ttelse og begravelse. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/vesterbro": {
     title: "Bedemand Vesterbro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 Vesterbro og i Kgs. Enghave. Vestre Kirkeg\u00e5rd og Nordre Kapel ligger i bydelen. Faste priser. Ring 22 21 14 37 \u2014 hele d\u00f8gnet.",
+    description: "Personlig bedemand p\u00e5 Vesterbro og i Kgs. Enghave. Vestre Kirkeg\u00e5rd og Nordre Kapel ligger i bydelen. Faste priser. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
 };
 
@@ -372,7 +372,7 @@ async function main() {
       .replace(/<title>[^<]*<\/title>/, "<title>Siden findes ikke – Bedemand Kim Bondo</title>")
       .replace(
         /<meta\s+name="description"[^>]*\/?>/,
-        '<meta name="description" content="Siden findes ikke. Gå til forsiden, eller ring til Kim Bondo på 22 21 14 37." />'
+        '<meta name="description" content="Siden findes ikke. Gå til forsiden, eller ring til Kim Bondo på 28 14 60 11." />'
       )
       .replace(/<link\s+rel="canonical"[^>]*\/?>/, "")
       .replace(

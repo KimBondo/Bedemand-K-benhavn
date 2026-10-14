@@ -267,4 +267,4 @@ Det, jeg kan love jer, er dette: Uanset hvor I bor i mit dækningsområde — K�
 ---
 
 **Kim Bondo — Bedemand København og Nordsjælland**
-Tlf. 22 21 14 37 · kim@bedemandkobenhavn.dk
+Tlf. 28 14 60 11 · kim@bedemandkobenhavn.dk

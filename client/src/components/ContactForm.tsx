@@ -22,8 +22,8 @@ import { useState } from "react";
 
 // ── Konfiguration ────────────────────────────────────────────────────────────
 const RECIPIENT = "kim@bedemandkobenhavn.dk";
-const PHONE_DISPLAY = "22 21 14 37";
-const PHONE_HREF = "+4522211437";
+const PHONE_DISPLAY = "28 14 60 11";
+const PHONE_HREF = "+4528146011";
 
 // Indsæt din Web3Forms access key her hvis du ikke bruger .env-filen:
 const FALLBACK_ACCESS_KEY = "c89cef24-833d-4af6-87cb-ca108350220c";

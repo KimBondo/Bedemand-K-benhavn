@@ -20,7 +20,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal. Ring på 22 21 14 37." },
+  { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal. Ring på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Hillerød?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium i Hillerød?", answer: "Ja. Hillerød Krematorium ligger ved Skansekirkegården på Skansevej. Det blev etableret i 1967. Familier kan også vælge indlevering i Helsingør – valget er jeres." },
   { question: "Hvilke kapeller kan bruges i Hillerød?", answer: "Skansekapel på Skansevej og Nyhuse Kapel på Kapelvej. Begge har plads til 150 personer. Nyhuse Kapel er fra 1924 og blev moderniseret i 2018-19." },
@@ -31,7 +31,7 @@ export default function KimHillerod() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Hillerød – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Hillerød og omegn. Hillerød Krematorium ligger her. Faste priser. Ring 22 21 14 37 — hele døgnet."
+        description="Personlig bedemand i Hillerød og omegn. Hillerød Krematorium ligger her. Faste priser. Ring 28 14 60 11 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/hillerod/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -75,7 +75,7 @@ export default function KimHillerod() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             display: "none",
           }}
@@ -119,7 +119,7 @@ export default function KimHillerod() {
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -215,7 +215,7 @@ export default function KimHillerod() {
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>
         </div>
       </section>
@@ -320,10 +320,10 @@ export default function KimHillerod() {
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a

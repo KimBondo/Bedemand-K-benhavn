@@ -20,7 +20,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Rudersdal?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Birkerød, Holte, Nærum og Vedbæk samt resten af Nordsjælland. Ring på 22 21 14 37 — også midt om natten." },
+  { question: "Hvem er bedemand i Rudersdal?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Birkerød, Holte, Nærum og Vedbæk samt resten af Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Rudersdal?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvem driver kirkegårdene i Rudersdal?", answer: "Rudersdal Kommune ejer og driver kommunens fem kirkegårde: Birkerød, Høsterkøb, Søllerød, Vedbæk samt Assistens og Søholm Kirkegård. Kirkegårdskontoret ligger på Søllerødvej 13 i Holte. På kommunale kirkegårde er taksterne de samme for alle, uanset medlemskab af folkekirken." },
   { question: "Er der et krematorium i Rudersdal?", answer: "Nej. Kremeringen sker på Hillerød Krematorium eller på Bispebjerg Krematorium i København. Ceremonien holdes stadig lokalt — i kirken eller i et af kirkegårdenes kapeller." },
@@ -31,7 +31,7 @@ export default function KimRudersdal() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Rudersdal – Birkerød, Holte, Nærum, Vedbæk"
-        description="Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
+        description="Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/rudersdal/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -75,7 +75,7 @@ export default function KimRudersdal() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{
             display: "none",
           }}
@@ -119,7 +119,7 @@ export default function KimRudersdal() {
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -216,7 +216,7 @@ export default function KimRudersdal() {
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>
         </div>
       </section>
@@ -321,10 +321,10 @@ export default function KimRudersdal() {
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a

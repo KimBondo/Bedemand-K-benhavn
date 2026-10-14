@@ -12,7 +12,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Helsingør?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Helsingør Kommune — Espergærde, Snekkersten, Ålsgårde, Hellebæk, Hornbæk, Kvistgård og Tikøb — og resten af Nordsjælland. Ring på 22 21 14 37." },
+  { question: "Hvem er bedemand i Helsingør?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Helsingør Kommune — Espergærde, Snekkersten, Ålsgårde, Hellebæk, Hornbæk, Kvistgård og Tikøb — og resten af Nordsjælland. Ring på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Helsingør?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium i Helsingør?", answer: "Nej. Helsingør Krematorium blev nedlagt i 2013. I kan vælge kremering i Hillerød eller indlevering her i Helsingør, hvorfra kisten køres videre til Fælleskrematoriet. Det ændrer ikke på selve afskeden: ceremonien holdes i Helsingør, i kirken eller i kirkegårdskapellet med 165 pladser. Jeg sørger for transport og koordinering." },
   { question: "Hvilke kirker koordinerer du med i Helsingør?", answer: "Helsingør Domkirke, Skt. Olai — som er én og samme kirke — samt Sankt Mariæ Kirke, Vestervang Kirke og kirkerne i Espergærde, Snekkersten, Hornbæk, Hellebæk og Tikøb." },
@@ -23,7 +23,7 @@ export default function KimHelsingor() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Helsingør – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Helsingør, Snekkersten, Espergærde og Hornbæk. Faste priser og ingen mellemled. Ring 22 21 14 37 — hele døgnet."
+        description="Personlig bedemand i Helsingør, Snekkersten, Espergærde og Hornbæk. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet."
         url="https://www.bedemandkobenhavn.dk/helsingor/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -64,7 +64,7 @@ export default function KimHelsingor() {
           <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Helsingør og Nordsjælland</span>
         </div>
         <KimNav />
-        <a href="tel:22211437" style={{ display: "none" }} className="mobile-call-btn">
+        <a href="tel:+4528146011" style={{ display: "none" }} className="mobile-call-btn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
@@ -95,7 +95,7 @@ export default function KimHelsingor() {
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -185,7 +185,7 @@ export default function KimHelsingor() {
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:22211437" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>22 21 14 37</a>
+            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>
         </div>
       </section>
@@ -233,7 +233,7 @@ export default function KimHelsingor() {
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
-          <a href="tel:22211437" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 22 21 14 37</a>
+          <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
           {" "}&nbsp;·&nbsp; CVR.: 45084159

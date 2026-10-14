@@ -98,7 +98,7 @@ const KIM_LOCAL_BUSINESS = {
   "legalName": "Bedemand København ApS",
   "description": `Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra ${kr(PAKKEPRISER.bisaettelse)} kr., begravelse fra ${kr(PAKKEPRISER.begravelse)} kr.`,
   "url": `${BASE_URL}/`,
-  "telephone": "+4522211437",
+  "telephone": "+45 28 14 60 11",
   "email": "kim@bedemandkobenhavn.dk",
   "vatID": "DK45084159",
   "taxID": "45084159",

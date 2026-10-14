@@ -94,7 +94,7 @@ export default function KimPriser() {
     <div role="main" style={s.page}>
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
-        description="Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 22 21 14 37."
+        description="Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/priser/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -136,7 +136,7 @@ export default function KimPriser() {
         <KimNav />
         {/* ── MOBIL RING-KNAP (kun synlig på mobil) ── */}
         <a
-          href="tel:22211437"
+          href="tel:+4528146011"
           style={{ display: "none" }}
           className="mobile-call-btn"
         >
@@ -158,8 +158,8 @@ export default function KimPriser() {
           <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
             Prisgennemsigtighed er ikke et tilbud. Det er en ret.
           </p>
-          <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
-            Ring 22 21 14 37 — hele døgnet
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+            Ring 28 14 60 11 — hele døgnet
           </a>
           <div style={{ marginTop: "36px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px" }}>
             {[
@@ -472,8 +472,8 @@ export default function KimPriser() {
           <p style={s.body}>
             <a href="/min-sidste-vilje/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>Læs mere om Min Sidste Vilje →</a>
           </p>
-          <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", marginTop: "8px" }}>
-          Ring 22 21 14 37
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", marginTop: "8px" }}>
+          Ring 28 14 60 11
           </a>
         </section>
 
@@ -560,10 +560,10 @@ export default function KimPriser() {
         >
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, 2860 Søborg &nbsp;·&nbsp;{" "}
           <a
-            href="tel:22211437"
+            href="tel:+4528146011"
             style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}
           >
-            Tlf.: 22 21 14 37
+            Tlf.: 28 14 60 11
           </a>
           {" "}&nbsp;·&nbsp;{" "}
           <a
