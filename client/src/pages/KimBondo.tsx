@@ -430,6 +430,52 @@ export default function KimBondo() {
               lineHeight: 1.3,
             }}
           >
+            Din lokale bedemand i Søborg og Gladsaxe
+          </h3>
+          <p
+            style={{
+              fontSize: "clamp(15px, 1.6vw, 17px)",
+              lineHeight: 1.85,
+              color: "#3d5260",
+              marginBottom: "20px",
+            }}
+          >
+            Min bedemandsforretning ligger på Vandtårnsvej 62A, kontor 11, i Søborg. Som bedemand i Gladsaxe og København kender jeg kirkerne, kirkegårdene og Bispebjerg Krematorium godt, og jeg hjælper familier i hele hovedstadsområdet og Nordsjælland.
+          </p>
+          <h3
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 600,
+              fontSize: "clamp(18px, 2vw, 22px)",
+              color: "#2F3E46",
+              marginBottom: "12px",
+              marginTop: "32px",
+              lineHeight: 1.3,
+            }}
+          >
+            Døgnvagt – ring når som helst
+          </h3>
+          <p
+            style={{
+              fontSize: "clamp(15px, 1.6vw, 17px)",
+              lineHeight: 1.85,
+              color: "#3d5260",
+              marginBottom: "20px",
+            }}
+          >
+            Jeg har døgnvagt alle årets dage. Når I ringer på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>28 14 60 11</a>, er det mig, der tager telefonen, også om natten og i weekenden.
+          </p>
+          <h3
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 600,
+              fontSize: "clamp(18px, 2vw, 22px)",
+              color: "#2F3E46",
+              marginBottom: "12px",
+              marginTop: "32px",
+              lineHeight: 1.3,
+            }}
+          >
             Den sikre logistik i baggrunden
           </h3>
           <p

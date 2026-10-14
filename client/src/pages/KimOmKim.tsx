@@ -15,7 +15,7 @@ const PERSON_SCHEMA = {
   "email": "kim@bedemandkobenhavn.dk",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Vandtårnsvej 62A",
+    "streetAddress": "Vandtårnsvej 62A, kontor 11",
     "addressLocality": "Søborg",
     "postalCode": "2860",
     "addressCountry": "DK"
@@ -195,6 +195,9 @@ export default function KimOmKim() {
               </p>
               <p style={s.body}>
                 Som selvstændig bedemand er jeg den eneste, I taler med – fra det øjeblik I ringer, til afskeden er overstået. Ingen omstillinger, intet bureaukrati. Bare direkte kontakt til mig, døgnet rundt.
+              </p>
+              <p style={s.body}>
+                Bedemand København er ikke et stort begravelsesfirma, men en lille, personlig begravelsesforretning, hvor I har mig som jeres faste kontakt hele vejen.
               </p>
               <p style={s.body}>
                 Jeg lægger stor vægt på gennemsigtighed. I skal aldrig være i tvivl om, hvad tingene koster, eller hvad der sker næste skridt. Jeg bruger moderne værktøjer til at holde overblikket for jer, så I kan bruge jeres energi på hinanden i stedet for på papirarbejde.

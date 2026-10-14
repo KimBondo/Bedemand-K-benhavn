@@ -136,6 +136,10 @@ export default function KimOmraade() {
             </div>
           </div>
 
+          <p style={{ ...s.body, marginTop: "40px", marginBottom: 0 }}>
+            Jeg kommer også ud som bedemand i Herlev, Ballerup og Rødovre vest for København og i alle byerne langs Nordkysten, fra Hornbæk og Dronningmølle til Gilleleje og Tisvildeleje.
+          </p>
+
           <div style={{ background: "#F9F8F6", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6", marginTop: "48px" }}>
             <h3 style={{ ...s.h3, fontSize: "18px" }}>Ikke sikker på, om jeg dækker dit område?</h3>
             <p style={{ ...s.body, marginBottom: "16px" }}>

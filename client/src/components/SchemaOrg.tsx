@@ -109,7 +109,7 @@ const KIM_LOCAL_BUSINESS = {
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Vandtårnsvej 62A",
+    "streetAddress": "Vandtårnsvej 62A, kontor 11",
     "addressLocality": "Søborg",
     "postalCode": "2860",
     "addressRegion": "Hovedstaden",

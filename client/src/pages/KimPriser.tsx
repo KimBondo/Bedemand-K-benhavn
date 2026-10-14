@@ -288,6 +288,18 @@ export default function KimPriser() {
         <hr style={s.hr} />
 
 
+        {/* ── PRIS PÅ BISÆTTELSE ── */}
+        <section style={{ marginBottom: "56px" }}>
+          <h2 style={s.h2}>Pris på bisættelse – og hvad der gør den billigere</h2>
+          <p style={s.body}>
+            Prisen på en bisættelse hos mig starter ved 18.300 kr., og begravelseshjælpen trækkes direkte fra fakturaen. Mange spørger efter en billig bisættelse. Jeg kan altid sammensætte en enkel og værdig afsked, f.eks. <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>afsked uden ceremoni</a> til 13.550 kr., og jeg gennemgår alle udgifter med jer, før I bestemmer noget.
+          </p>
+        </section>
+
+
+        <hr style={s.hr} />
+
+
         {/* ── AFTEN/WEEKEND ── */}
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Aften, weekend og helligdage</h2>

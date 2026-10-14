@@ -132,6 +132,14 @@ export default function KimSoborg() {
           <p style={s.body}>
             Ønsker I en kirkelig afsked, kan ceremonien holdes i den kirke, der hører til afdødes sogn – fx Søborg Kirke, Gladsaxe Kirke, Buddinge Kirke eller Bagsværd Kirke – eller i en anden kirke, der betyder noget for jer. Jeg tager kontakten til kirkekontoret og præsten, finder et tidspunkt, der passer, og aftaler salmer, organist og eventuelt kor med jer.
           </p>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Bedemand i Gladsaxe Kommune</h2>
+          <p style={s.body}>
+            Søborg hører til Gladsaxe Kommune, og jeg hjælper familier i hele kommunen: Søborg, Buddinge, Mørkhøj, Bagsværd og Gladsaxe. Ceremonien holdes i den kirke eller det kapel, I vælger, og kremeringen foregår typisk på Bispebjerg Krematorium. Jeg står for kontakten til kirke, kirkegård og krematorium.
+          </p>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Også naboerne i Herlev, Ballerup og Rødovre</h2>
+          <p style={s.body}>
+            Mit kontor ligger tæt på Herlev, Ballerup og Rødovre, så jeg kommer gerne hjem til jer der. Som bedemand for Herlev, Ballerup og Rødovre hjælper jeg med alt fra første samtale til urnenedsættelse.
+          </p>
         </div>
       </section>
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>

@@ -144,6 +144,18 @@ export default function KimBegravelse() {
 
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
 
+      {/* ── KIRKELIG ELLER BORGERLIG ── */}
+      <section style={{ maxWidth: "760px", margin: "0 auto", padding: "80px 32px 64px" }}>
+        <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(20px, 2.5vw, 30px)", color: "#2F3E46", marginBottom: "20px", lineHeight: 1.3 }}>
+          Kirkelig eller borgerlig begravelse
+        </h2>
+        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
+          En kirkelig begravelse holdes i kirken med præst, salmer og jordpåkastelse. En borgerlig begravelse kan holdes i et kapel, i naturen eller et andet sted, der betyder noget for jer. Jeg hjælper med begge dele.
+        </p>
+      </section>
+
+      <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
+
       {/* ── FORLØBET ── */}
       <section style={{ maxWidth: "760px", margin: "0 auto", padding: "80px 32px 64px" }}>
         <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(20px, 2.5vw, 30px)", color: "#2F3E46", marginBottom: "32px", lineHeight: 1.3 }}>
