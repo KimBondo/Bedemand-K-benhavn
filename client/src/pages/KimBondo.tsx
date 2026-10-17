@@ -522,7 +522,7 @@ export default function KimBondo() {
               lineHeight: 1.3,
             }}
           >
-            Din lokale bedemand i Søborg og Gladsaxe
+            Med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland.
           </h3>
           <p
             style={{
