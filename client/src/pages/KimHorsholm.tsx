@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import SchemaOrg from "@/components/SchemaOrg";
+import CookieLink from "@/components/CookieLink";
 
 /**
  * Kim Bondo – Bedemand Hørsholm (lokal SEO-landingsside)
@@ -243,6 +244,7 @@ export default function KimHorsholm() {
           <a href="/min-sidste-vilje/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Min Sidste Vilje</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="/persondatapolitik/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Persondatapolitik</a>
+          {" "}·{" "}<CookieLink />
         </p>
       </footer>
     </div>

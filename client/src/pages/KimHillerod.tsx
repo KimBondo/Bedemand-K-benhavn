@@ -154,7 +154,7 @@ export default function KimHillerod() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Hillerød?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering på Hillerød Krematorium ved Skansekirkegården med ceremoni i kirken eller i et af byens to kapeller.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirken eller i et af byens to kapeller, med kremering på Hillerød Krematorium ved Skansekirkegården.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Skansekirkegården, Hillerød Kirkegård eller Nyhuse Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Hillerød Kirke eller Præstevang Kirke.", href: "/kirkelig-afsked/" },

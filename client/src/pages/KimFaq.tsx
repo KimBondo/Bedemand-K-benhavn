@@ -60,10 +60,10 @@ const FAQ_SECTIONS = [
       { q: "Hvad skal jeg gøre, når nogen dør?", a: "Første skridt er at kontakte en læge, der kan konstatere dødsfaldet og udstede en dødsattest. Derefter kontakter du mig, og jeg guider dig igennem resten.", link: "/hvad-sker-der/" },
       { q: "Hvad skal jeg huske at ordne efter et dødsfald?", a: "Der er mange praktiske ting at ordne — fra myndighederne og banken til opsigelse af abonnementer. Jeg har lavet en huskeliste, der guider dig igennem de vigtigste trin.", link: "/huskeliste/" },
       { q: "Hvor hurtigt skal en begravelse finde sted?", a: "Hovedreglen er, at begravelse eller bisættelse skal finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Kirkegården eller krematoriet kan forlænge fristen til 14 dage, når afdøde opbevares på køl, og det er almindeligt i praksis. Jeg sørger for det hele, så I ikke skal tænke på fristerne.", link: "/huskeliste/" },
-      { q: "Hvad gør man, hvis dødsfaldet sker i hjemmet?", a: "Ring til afdødes egen læge eller til 1813 uden for lægens åbningstid. Lægen skal konstatere dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig – døgnet rundt. Der er ingen hast; afdøde kan godt blive hjemme et stykke tid, hvis I ønsker at sige farvel i ro.", link: "/huskeliste/" },
+      { q: "Hvad gør man, hvis dødsfaldet sker i hjemmet?", a: "Ring til afdødes egen læge eller til 1813 uden for lægens åbningstid. Lægen skal konstatere dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig – døgnet rundt. Der er ingen hast; afdøde kan godt blive hjemme et stykke tid, hvis I ønsker at sige farvel i ro. Afhentning i et privat hjem koster 1.200 kr. ekstra.", link: "/huskeliste/" },
       { q: "Hvad gør man, hvis dødsfaldet sker på hospitalet?", a: "Personalet sørger for lægen og dødsattesten, og afdøde kan blive på hospitalet, indtil jeg henter. I skal blot ringe til mig, så aftaler vi det videre.", link: "/huskeliste/" },
       { q: "Kan man selv vælge kirkegård?", a: "Man har ret til at blive begravet eller få urnen nedsat på kirkegården i det sogn, hvor man boede. Man kan også vælge et andet sogn, hvis man har en særlig tilknytning dertil – fx hvis man har boet der, har nær familie der, eller hvis forældre, ægtefælle eller børn ligger begravet der. På kirkegårde, som drives af menighedsrådet, kan prisen være højere for dem, der ikke var medlem af folkekirken. Jeg hjælper jer med at finde ud af, hvad der er muligt.", link: null },
-      { q: "Hvilke områder dækker Kim?", a: "Jeg dækker hele København og Nordsjælland — herunder Helsingør, Hillerød, Gentofte, Lyngby, Hørsholm og alle Storkøbenhavns kommuner.", link: "/omraade/" },
+      { q: "Hvilke områder dækker Kim?", a: "Jeg dækker hele København, Storkøbenhavn og Nordsjælland – herunder Helsingør, Hillerød, Gentofte, Lyngby, Hørsholm og alle Storkøbenhavns kommuner. Bor I et andet sted på Sjælland, hjælper jeg også gerne med hele forløbet.", link: "/omraade/", linkIOrd: { tekst: "et andet sted på Sjælland", href: "/sjaelland/" } },
       { q: "Er Kim tilgængelig om natten og i weekenden?", a: "Ja — jeg er tilgængelig hele døgnet, alle ugens dage. Ring på 28 14 60 11 uanset tidspunktet.", link: null },
     ],
   },
@@ -150,7 +150,15 @@ export default function KimFaq() {
             {section.items.map((faq, i) => (
               <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
                 <h2 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h2>
-                <p style={{ ...s.body, marginBottom: faq.link ? "12px" : "0" }}>{faq.a}</p>
+                <p style={{ ...s.body, marginBottom: faq.link ? "12px" : "0" }}>
+                  {"linkIOrd" in faq && faq.linkIOrd ? (
+                    <>
+                      {faq.a.split(faq.linkIOrd.tekst)[0]}
+                      <a href={faq.linkIOrd.href} style={s.link}>{faq.linkIOrd.tekst}</a>
+                      {faq.a.split(faq.linkIOrd.tekst)[1]}
+                    </>
+                  ) : faq.a}
+                </p>
                 {faq.link && (
                   <a href={faq.link} style={s.link}>Læs mere →</a>
                 )}

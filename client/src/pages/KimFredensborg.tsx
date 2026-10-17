@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import SchemaOrg from "@/components/SchemaOrg";
+import CookieLink from "@/components/CookieLink";
 
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
@@ -245,6 +246,7 @@ export default function KimFredensborg() {
           <a href="/min-sidste-vilje/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Min Sidste Vilje</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="/persondatapolitik/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Persondatapolitik</a>
+          {" "}·{" "}<CookieLink />
         </p>
       </footer>
     </div>

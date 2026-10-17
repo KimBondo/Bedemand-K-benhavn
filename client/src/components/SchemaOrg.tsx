@@ -136,7 +136,19 @@ const KIM_LOCAL_BUSINESS = {
     { "@type": "AdministrativeArea", "name": "Hillerød" },
     { "@type": "AdministrativeArea", "name": "Frederikssund" },
     { "@type": "AdministrativeArea", "name": "Halsnæs" },
-    { "@type": "AdministrativeArea", "name": "Nordsjælland" }
+    { "@type": "AdministrativeArea", "name": "Nordsjælland" },
+    { "@type": "AdministrativeArea", "name": "Herlev" },
+    { "@type": "AdministrativeArea", "name": "Ballerup" },
+    { "@type": "AdministrativeArea", "name": "Rødovre" },
+    { "@type": "AdministrativeArea", "name": "Brøndby" },
+    { "@type": "AdministrativeArea", "name": "Vallensbæk" },
+    { "@type": "AdministrativeArea", "name": "Albertslund" },
+    { "@type": "AdministrativeArea", "name": "Glostrup" },
+    { "@type": "AdministrativeArea", "name": "Hvidovre" },
+    { "@type": "AdministrativeArea", "name": "Ishøj" },
+    { "@type": "AdministrativeArea", "name": "Tårnby" },
+    { "@type": "AdministrativeArea", "name": "Dragør" },
+    { "@type": "AdministrativeArea", "name": "Sjælland" }
   ],
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",

@@ -153,7 +153,7 @@ export default function KimFrederiksberg() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Frederiksberg?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering på Søndermark Krematorium med ceremoni i kirke eller i en af krematoriets to sale.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirken eller i en af de to kapelsale på Søndermarken, med kremering på Søndermark Krematorium.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Frederiksberg Ældre Kirkegård, Solbjerg Parkkirkegård eller Søndermark Kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Frederiksberg Kirke eller Solbjerg Kirke.", href: "/kirkelig-afsked/" },

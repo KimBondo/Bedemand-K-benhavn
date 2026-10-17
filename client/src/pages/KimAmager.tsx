@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
+import CookieLink from "@/components/CookieLink";
 
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
@@ -130,7 +131,7 @@ export default function KimAmager() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Amager?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering på Sundby Krematorium med ceremoni i kirke eller kapel. Jeg aftaler tid med både krematorium og kirkekontor.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirke eller kapel, med kremering på Sundby Krematorium. Jeg aftaler tid med både krematorium og kirkekontor.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Sundby, Tårnby eller Kastrup Kirkegård. Jeg tager kontakten til kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sundby Kirke, Filips Kirke eller Tårnby Kirke.", href: "/kirkelig-afsked/" },
@@ -254,6 +255,7 @@ export default function KimAmager() {
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Kontakt mig</a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
           © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, kontor 11, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR.: 45084159
+          {" "}·{" "}<CookieLink />
         </p>
       </footer>
     </div>

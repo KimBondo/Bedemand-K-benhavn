@@ -29,12 +29,48 @@
     <meta property="og:site_name" content="Bedemand København" />
     <!-- Twitter Card defaults -->
     <meta name="twitter:card" content="summary_large_image" />
-   <!-- Fonts -->
-   <link rel="preconnect" href="https://fonts.googleapis.com" />
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Non-blocking font load: print trick loads async, then swaps to all media -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@400;600;700&display=swap" /></noscript>
+    <!-- Google Consent Mode v2: al måling og annoncering står på "denied" som standard.
+         Google Tag Manager indlæses FØRST, når den besøgende har trykket "Tillad cookies"
+         (nu eller ved et tidligere besøg, gemt i bk_cookiesamtykke i 12 måneder).
+         Uden ja indlæses intet fra Google Tag Manager. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500
+      });
+      gtag('set', 'ads_data_redaction', true);
+      // Indlæser Google Tag Manager – kaldes kun efter et ja (her eller fra cookie-banneret)
+      window.bkIndlaesGTM = function () {
+        if (document.getElementById('gtm-script')) return;
+        window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var j = document.createElement('script');
+        j.async = true;
+        j.id = 'gtm-script';
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-5N2WMPLQ';
+        document.head.appendChild(j);
+      };
+      try {
+        var bkGemt = JSON.parse(localStorage.getItem('bk_cookiesamtykke') || 'null');
+        if (bkGemt && bkGemt.valg === 'accepteret' && typeof bkGemt.tid === 'number' && Date.now() - bkGemt.tid <= 31536000000) {
+          gtag('consent', 'update', {
+            ad_storage: 'granted',
+            ad_user_data: 'granted',
+            ad_personalization: 'granted',
+            analytics_storage: 'granted'
+          });
+          window.bkIndlaesGTM();
+        }
+      } catch (e) {}
+    </script>
+    <!-- Skrifttyper ligger lokalt (Lora og Open Sans) – der hentes intet fra Google før samtykke -->
+    <link rel="preload" href="/fonts/open-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/lora-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
   </head>
 
 

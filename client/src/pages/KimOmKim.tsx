@@ -204,7 +204,7 @@ export default function KimOmKim() {
                 Jeg lægger stor vægt på gennemsigtighed. I skal aldrig være i tvivl om, hvad tingene koster, eller hvad der sker næste skridt. Jeg bruger moderne værktøjer til at holde overblikket for jer, så I kan bruge jeres energi på hinanden i stedet for på papirarbejde.
               </p>
               <p style={{ ...s.body, marginBottom: 0 }}>
-                Jeg dækker hele København og Nordsjælland og er altid klar til at tage en uforpligtende samtale – ring eller skriv, når det passer jer.
+                Jeg dækker hele København og Nordsjælland og er altid klar til at tage en uforpligtende samtale – ring eller skriv, når det passer jer. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>et andet sted på Sjælland</a>, hjælper jeg også gerne.
               </p>
             </div>
           </div>
