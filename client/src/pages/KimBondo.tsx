@@ -412,7 +412,7 @@ export default function KimBondo() {
           margin: "0 auto",
           padding: SECTION_PADDING,
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))",
           gap: "64px",
           alignItems: "start",
         }}

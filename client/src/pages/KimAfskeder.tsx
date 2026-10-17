@@ -104,7 +104,7 @@ export default function KimAfskeder() {
 
       {/* ── DE FIRE AFSKEDER ── */}
       <section style={{ maxWidth: "900px", margin: "0 auto", padding: "80px 32px 64px" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "40px" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(380px, 100%), 1fr))", gap: "40px" }}>
           {[
             {
               title: "Bisættelse",

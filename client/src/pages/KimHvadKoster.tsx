@@ -119,7 +119,7 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Hvad påvirker prisen?</p>
           <h2 style={s.h2}>De fem vigtigste valg</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "32px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "32px" }}>
             {[
               { num: "1", title: "Bisættelse eller begravelse?", body: "Bisættelse (kremering) er typisk billigere end begravelse i jord, fordi man undgår udgifterne til gravsted og gravsten. Mange vælger bisættelse med efterfølgende urnenedsættelse." },
               { num: "2", title: "Kirkelig eller borgerlig ceremoni?", body: "En kirkelig ceremoni i Folkekirkens kirker er gratis for medlemmer. En borgerlig ceremoni kræver leje af kapel, hvilket typisk koster 1.000–3.000 kr." },
@@ -353,7 +353,7 @@ export default function KimHvadKoster() {
           <p style={s.body}>
             Hvis ceremonien afholdes i en af Folkekirkens kirker, er der som udgangspunkt ingen kapelleje for kirkens medlemmer — men der betales for organist og evt. kantor. Afholdes ceremonien i et kommunalt kapel, betales der leje direkte til kapellet.
           </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "32px", marginTop: "8px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "32px", marginTop: "8px" }}>
             <div>
               <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "14px", letterSpacing: "0.06em", color: "#2F3E46", textTransform: "uppercase", marginBottom: "12px" }}>Københavns Kommune</p>
               <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>

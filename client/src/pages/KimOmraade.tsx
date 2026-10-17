@@ -117,7 +117,7 @@ export default function KimOmraade() {
             Jeg er bedemand i København og Nordsjælland og dækker hele Storkøbenhavn samt kommunerne langs kysten og ind i landet mod nord. Nedenfor er en oversigt over de byer og områder, jeg typisk arbejder i.
           </p>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "48px", marginTop: "40px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "48px", marginTop: "40px" }}>
             <div>
               <h3 style={s.h3}>København og omegn</h3>
               <ul style={{ paddingLeft: "20px", margin: 0 }}>
