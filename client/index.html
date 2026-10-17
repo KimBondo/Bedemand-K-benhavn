@@ -29,6 +29,38 @@
     <meta property="og:site_name" content="Bedemand København" />
     <!-- Twitter Card defaults -->
     <meta name="twitter:card" content="summary_large_image" />
+    <!-- Google Consent Mode v2: al måling og annoncering er afvist, indtil den besøgende siger ja.
+         Skal stå FØR Google Tag Manager. Valget gemmes af cookie-banneret (bk_cookiesamtykke, 12 måneder). -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500
+      });
+      gtag('set', 'ads_data_redaction', true);
+      try {
+        var bkGemt = JSON.parse(localStorage.getItem('bk_cookiesamtykke') || 'null');
+        if (bkGemt && bkGemt.valg === 'accepteret' && typeof bkGemt.tid === 'number' && Date.now() - bkGemt.tid <= 31536000000) {
+          gtag('consent', 'update', {
+            ad_storage: 'granted',
+            ad_user_data: 'granted',
+            ad_personalization: 'granted',
+            analytics_storage: 'granted'
+          });
+        }
+      } catch (e) {}
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.id='gtm-script';j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5N2WMPLQ');</script>
+    <!-- End Google Tag Manager -->
    <!-- Fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com" />
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

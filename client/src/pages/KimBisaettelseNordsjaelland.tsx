@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import CookieLink from "@/components/CookieLink";
 
 /**
  * Sådan forløber en bisættelse i Nordsjælland
@@ -116,6 +117,9 @@ export default function KimBisaettelseNordsjaelland() {
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", marginBottom: "16px" }}>Bedemand København og Nordsjælland</p>
         <p style={{ marginBottom: "24px" }}>Kim Bondo · Vandtårnsvej 62A, kontor 11, 2860 Søborg</p>
         <a href="tel:+4528146011" style={{ color: "#fff", textDecoration: "underline" }}>28 14 60 11</a>
+        <p style={{ marginTop: "20px", fontSize: "13px" }}>
+          <CookieLink />
+        </p>
       </footer>
     </div>
   );

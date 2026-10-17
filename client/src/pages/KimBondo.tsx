@@ -962,7 +962,7 @@ export default function KimBondo() {
             }}
           >
             Alle priseksempler er beregnet på hverdage. Efter kl. 16 på hverdage samt i weekender og på helligdage kommer et fast tillæg på 800 kr. pr. udkald.
-            Der kommer ikke uventede udgifter. Vi gennemgår det hele sammen – i ro og mag.
+            Der kommer ikke uventede udgifter – alle tillæg, fx 1.200 kr. for afhentning i et privat hjem, står på <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>prissiden</a>. Vi gennemgår det hele sammen – i ro og mag.
           </p>
 
           <p

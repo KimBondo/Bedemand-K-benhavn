@@ -1,8 +1,10 @@
 /**
  * CookieConsent – Bedemand København
  *
- * Google Tag Manager indlæses IKKE, før den besøgende aktivt har sagt ja.
- * Uden samtykke sættes der ingen statistikcookies overhovedet.
+ * Google Consent Mode v2: Google Tag Manager indlæses altid (se index.html), men med
+ * ad_storage, ad_user_data, ad_personalization og analytics_storage sat til "denied".
+ * Først når den besøgende trykker "Tillad cookies", opdateres de fire til "granted".
+ * Uden samtykke sættes der ingen Google-cookies.
  *
  * Valget gemmes i localStorage i 12 måneder. Herefter spørges der igen.
  * Footeren linker til #cookieindstillinger, som åbner banneret igen,
@@ -12,7 +14,6 @@
 import { useEffect, useState } from "react";
 
 const STORAGE_KEY = "bk_cookiesamtykke";
-const GTM_ID = "GTM-5N2WMPLQ";
 const TWELVE_MONTHS_MS = 365 * 24 * 60 * 60 * 1000;
 
 type Valg = "accepteret" | "afvist";
@@ -43,18 +44,24 @@ function gem(valg: Valg) {
   }
 }
 
-/** Indlæser Google Tag Manager. Kaldes kun efter et aktivt ja. */
-function indlaesGTM() {
+const SAMTYKKE_TYPER = ["ad_storage", "ad_user_data", "ad_personalization", "analytics_storage"] as const;
+
+/** Sender et Consent Mode-opdatering til Google ("granted" ved ja, "denied" ved nej). */
+function opdaterSamtykke(valg: Valg) {
   if (typeof window === "undefined") return;
-  if (document.getElementById("gtm-script")) return;
-  const w = window as unknown as { dataLayer?: unknown[] };
-  w.dataLayer = w.dataLayer || [];
-  w.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
-  const s = document.createElement("script");
-  s.id = "gtm-script";
-  s.async = true;
-  s.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`;
-  document.head.appendChild(s);
+  const w = window as unknown as { dataLayer?: unknown[]; gtag?: (...args: unknown[]) => void };
+  const vaerdi = valg === "accepteret" ? "granted" : "denied";
+  const opdatering = Object.fromEntries(SAMTYKKE_TYPER.map((k) => [k, vaerdi]));
+  if (typeof w.gtag === "function") {
+    w.gtag("consent", "update", opdatering);
+  } else {
+    // Samme format som gtag() bruger (et arguments-lignende objekt)
+    w.dataLayer = w.dataLayer || [];
+    (function (..._args: unknown[]) {
+      // eslint-disable-next-line prefer-rest-params
+      w.dataLayer!.push(arguments);
+    })("consent", "update", opdatering);
+  }
 }
 
 /** Rydder de statistikcookies Google måtte have sat tidligere. */
@@ -79,8 +86,8 @@ export default function CookieConsent() {
   const [synlig, setSynlig] = useState(false);
 
   useEffect(() => {
+    // Et gemt ja sendes allerede til Google i index.html, før Tag Manager indlæses.
     const gemt = laesGemt();
-    if (gemt?.valg === "accepteret") indlaesGTM();
     if (!gemt) setSynlig(true);
 
     const aabnVedHash = () => {
@@ -93,8 +100,8 @@ export default function CookieConsent() {
 
   const vaelg = (valg: Valg) => {
     gem(valg);
-    if (valg === "accepteret") indlaesGTM();
-    else sletStatistikCookies();
+    opdaterSamtykke(valg);
+    if (valg === "afvist") sletStatistikCookies();
     setSynlig(false);
     if (window.location.hash === "#cookieindstillinger") {
       history.replaceState(null, "", window.location.pathname + window.location.search);

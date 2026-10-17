@@ -135,12 +135,21 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
       const data = await res.json().catch(() => null);
 
       if (res.ok && data?.success) {
+        setStatus("sent");
+        // Videre til tak-siden, når GTM har modtaget begivenheden (højst 1,5 sek.).
+        // Lykkes det ikke, står tak-beskeden stadig her.
+        let videre = false;
+        const tilTak = () => {
+          if (videre) return;
+          videre = true;
+          window.location.assign("/tak/");
+        };
         pushEvent("form_submit_success", {
           form_type: variant === "priser" ? "priser_contact" : "product_contact",
+          eventCallback: tilTak,
+          eventTimeout: 1500,
         });
-        setStatus("sent");
-        // Videre til tak-siden. Lykkes det ikke, står tak-beskeden stadig her.
-        window.location.assign("/tak/");
+        window.setTimeout(tilTak, 1500);
       } else {
         console.error("Web3Forms-fejl:", data);
         setStatus("error");

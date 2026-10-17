@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import CookieLink from "@/components/CookieLink";
 
 /**
  * Praktisk guide: Hvad sker der, når nogen dør?
@@ -76,7 +77,7 @@ export default function KimHvadSkerDer() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>De første timer</h2>
           <p style={s.body}>
-            Når et menneske dør, skal en læge konstaterer dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Først når dødsattesten er klar, kan bedemanden gå i gang med det videre arbejde.
+            Når et menneske dør, skal en læge konstaterer dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Afhentning i et privat hjem koster 1.200 kr. ekstra. Først når dødsattesten er klar, kan bedemanden gå i gang med det videre arbejde.
           </p>
           <p style={s.body}>
             Jeg kan kontaktes med det samme – også om natten. Vi taler om situationen, og jeg guider jer igennem de næste skridt. Der er ingen forpligtelse ved at ringe.
@@ -128,6 +129,9 @@ export default function KimHvadSkerDer() {
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", marginBottom: "16px" }}>Bedemand København og Nordsjælland</p>
         <p style={{ marginBottom: "24px" }}>Kim Bondo · Vandtårnsvej 62A, kontor 11, 2860 Søborg</p>
         <a href="tel:+4528146011" style={{ color: "#fff", textDecoration: "underline" }}>28 14 60 11</a>
+        <p style={{ marginTop: "20px", fontSize: "13px" }}>
+          <CookieLink />
+        </p>
       </footer>
     </div>
   );
