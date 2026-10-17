@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import AnmeldelseBoks from "@/components/AnmeldelseBoks";
 
 const PERSON_SCHEMA = {
   "@context": "https://schema.org",
@@ -233,6 +234,11 @@ export default function KimOmKim() {
       </section>
 
       {/* ── FOOTER ── */}
+      {/* ── ANMELDELSE (kun passivt) ── */}
+      <section style={{ background: "#ffffff", padding: "48px 32px", borderTop: "1px solid #e0dcd6" }}>
+        <AnmeldelseBoks />
+      </section>
+
       <footer style={{ background: "#2F3E46", padding: "64px 32px", textAlign: "center" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(18px, 2.5vw, 26px)", color: "#fff", marginBottom: "12px", letterSpacing: "0.03em" }}>
           Kim Bondo

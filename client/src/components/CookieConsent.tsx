@@ -120,6 +120,7 @@ export default function CookieConsent() {
       role="dialog"
       aria-label="Cookies"
       aria-live="polite"
+      className="cookieboks"
       style={{
         position: "fixed",
         left: 0,
@@ -132,7 +133,18 @@ export default function CookieConsent() {
         boxShadow: "0 -4px 24px rgba(0,0,0,0.18)",
       }}
     >
+      {/* Mobil: kompakt og placeret OVER den faste "Ring til Kim"-bjælke, så den altid kan trykkes på */}
+      <style>{`
+        @media (max-width: 768px) {
+          .cookieboks { bottom: calc(56px + env(safe-area-inset-bottom)) !important; padding: 10px 14px !important; }
+          .cookieboks-indhold { gap: 8px !important; }
+          .cookieboks-tekst { font-size: 13px !important; line-height: 1.5 !important; flex-basis: 100% !important; }
+          .cookieboks-knapper { flex-basis: 100% !important; flex-wrap: nowrap !important; gap: 8px !important; }
+          .cookieboks-knapper button { flex: 1 1 0 !important; padding: 8px 10px !important; font-size: 14px !important; }
+        }
+      `}</style>
       <div
+        className="cookieboks-indhold"
         style={{
           maxWidth: "860px",
           margin: "0 auto",
@@ -143,6 +155,7 @@ export default function CookieConsent() {
         }}
       >
         <p
+          className="cookieboks-tekst"
           style={{
             fontFamily: "'Open Sans', sans-serif",
             fontSize: "15px",
@@ -161,6 +174,7 @@ export default function CookieConsent() {
           </a>
         </p>
         <div
+          className="cookieboks-knapper"
           style={{
             display: "flex",
             gap: "12px",

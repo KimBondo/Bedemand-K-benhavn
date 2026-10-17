@@ -36,6 +36,7 @@
 ## Områder
 - [Dækningsområde](https://www.bedemandkobenhavn.dk/omraade/)
 - [Søborg og Gladsaxe](https://www.bedemandkobenhavn.dk/soborg/)
+- [Sjælland](https://www.bedemandkobenhavn.dk/sjaelland/)
 - [Frederiksberg](https://www.bedemandkobenhavn.dk/frederiksberg/)
 - [Amager](https://www.bedemandkobenhavn.dk/amager/)
 - [Østerbro](https://www.bedemandkobenhavn.dk/osterbro/)

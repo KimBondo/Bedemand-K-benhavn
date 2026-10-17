@@ -137,13 +137,51 @@ export default function KimBondo() {
 
         {/* Hero text */}
         <div
+          className="hero-tekst"
           style={{
             textAlign: "center",
-            padding: "72px 24px 56px",
+            padding: "56px 24px 56px",
             maxWidth: "760px",
             margin: "0 auto",
           }}
         >
+          <style>{`
+            .hero-portraet { width: 150px; height: 150px; }
+            @media (max-width: 768px) {
+              .hero-tekst { padding-top: 28px !important; }
+              .hero-portraet { width: 104px; height: 104px; }
+            }
+          `}</style>
+          <figure style={{ margin: "0 auto 20px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <picture>
+              <source
+                type="image/webp"
+                srcSet="/images/kim-bondo-bedemand-portraet-464w.webp 464w, /images/kim-bondo-bedemand-portraet-930w.webp 930w, /images/kim-bondo-bedemand-portraet-1400w.webp 1400w"
+                sizes="(max-width: 768px) 104px, 150px"
+              />
+              <img
+                className="hero-portraet"
+                src="/images/kim-bondo-bedemand-portraet-464w.jpg"
+                srcSet="/images/kim-bondo-bedemand-portraet-464w.jpg 464w, /images/kim-bondo-bedemand-portraet-930w.jpg 930w, /images/kim-bondo-bedemand-portraet-1400w.jpg 1400w"
+                sizes="(max-width: 768px) 104px, 150px"
+                width={150}
+                height={150}
+                alt="Kim Bondo, bedemand i København og Nordsjælland"
+                loading="eager"
+                decoding="async"
+                style={{
+                  borderRadius: "50%",
+                  objectFit: "cover",
+                  objectPosition: "center 25%",
+                  display: "block",
+                  boxShadow: "0 4px 16px rgba(47,62,70,0.15)",
+                }}
+              />
+            </picture>
+            <figcaption style={{ marginTop: "8px", fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99" }}>
+              Kim Bondo, bedemand
+            </figcaption>
+          </figure>
           <h1
             style={{
               fontFamily: "'Lora', serif",
@@ -155,7 +193,7 @@ export default function KimBondo() {
               letterSpacing: "0.01em",
             }}
           >
-            Bedemand København – en personlig afsked i trygge hænder
+            Bedemand København – jeg tager selv telefonen, døgnet rundt
           </h1>
           <p
             style={{
@@ -167,9 +205,7 @@ export default function KimBondo() {
               margin: "0 auto 28px",
             }}
           >
-            Personlig bedemand i København og Nordsjælland. Jeg tager selv
-            telefonen og følger jer hele vejen – fra den første samtale til den
-            sidste afsked.
+            Jeg hedder Kim Bondo. Når I ringer, er det mig, I taler med – og mig, der følger jer hele vejen til afskeden. Mine priser står åbent her på siden, og begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
           </p>
 
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
@@ -198,8 +234,33 @@ export default function KimBondo() {
                 fontFamily: "'Open Sans', sans-serif",
               }}
             >
-              Døgnet rundt – hos mig er der tid, ro og plads til jeres ønsker.
+              Døgnet rundt – også nat, weekend og helligdag. I behøver ikke have besluttet noget, før I ringer.
             </p>
+            <ul
+              style={{
+                listStyle: "none",
+                padding: 0,
+                margin: "24px auto 0",
+                display: "inline-block",
+                textAlign: "left",
+                fontFamily: "'Open Sans', sans-serif",
+                fontSize: "clamp(15px, 1.7vw, 17px)",
+                lineHeight: 1.6,
+                color: "#3d5260",
+              }}
+            >
+              {[
+                "Den samme person hele vejen – fra første opkald til afskeden",
+                "Bisættelse fra 18.300 kr. · Begravelse fra 19.300 kr.",
+                "Begravelseshjælpen trækkes fra på fakturaen",
+                "Kontor i Søborg · København og Nordsjælland",
+              ].map((linje) => (
+                <li key={linje} style={{ display: "flex", gap: "10px", alignItems: "flex-start", marginBottom: "8px" }}>
+                  <span aria-hidden="true" style={{ color: "#3D6B4F", fontWeight: 700, flexShrink: 0 }}>✓</span>
+                  <span>{linje}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* KUN kystbillede (rustvogn ved havet) */}
@@ -271,6 +332,37 @@ export default function KimBondo() {
                 28 14 60 11
               </a>
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
+          HVORFOR RINGE TIL MIG?
+      ══════════════════════════════════════════════════════ */}
+      <section style={{ background: "#ffffff", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.2vw, 34px)", color: "#2F3E46", lineHeight: 1.25, margin: "0 0 24px", textAlign: "center" }}>
+            Hvorfor ringe til mig?
+          </h2>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
+              <strong>Det er mig, der tager telefonen.</strong> Også klokken tre om natten. Du bliver ikke stillet om og skal ikke fortælle din historie flere gange.
+            </p>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
+              <strong>Den samme person hele vejen.</strong> Det er mig, der kommer hjem til jer, ordner det praktiske og står ved højtideligheden.
+            </p>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
+              <strong><a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Faste priser, der står åbent.</a></strong> Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og afsked uden ceremoni 13.550 kr. Alle tillæg står på siden, så I kender regnestykket, før I beslutter noget.
+            </p>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
+              <strong>Begravelseshjælpen klarer jeg.</strong> Jeg søger den for jer og trækker den fra på fakturaen. Hvor meget I kan få, afhænger af afdødes formue, og det fortæller jeg jer med det samme.
+            </p>
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
+              <strong>Ingen hast.</strong> Afdøde kan ofte blive, hvor vedkommende er, til næste morgen. Ring, når I er klar.
+            </p>
+          <div style={{ textAlign: "center", marginTop: "28px" }}>
+            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+              Ring til Kim – 28 14 60 11
+            </a>
           </div>
         </div>
       </section>
@@ -417,7 +509,7 @@ export default function KimBondo() {
               marginBottom: "20px",
             }}
           >
-            Når I ringer, er det mig, der tager telefonen. Det er også mig, der kommer hjem til jer, holder styr på det praktiske og selv er til stede ved højtideligheden. I bliver ikke sendt videre mellem skiftende medarbejdere, og I kan altid ringe til mig, når der dukker et spørgsmål op. Jeg hjælper familier i København og <a href="/nordsjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Nordsjælland</a>. Bor I et andet sted på Sjælland, så ring alligevel – så finder vi en løsning sammen.
+            Når I ringer, er det mig, der tager telefonen. Det er også mig, der kommer hjem til jer, holder styr på det praktiske og selv er til stede ved højtideligheden. I bliver ikke sendt videre mellem skiftende medarbejdere, og I kan altid ringe til mig, når der dukker et spørgsmål op. Jeg hjælper familier i København og <a href="/nordsjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Nordsjælland</a>. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>et andet sted på Sjælland</a>, så ring alligevel – så finder vi en løsning sammen.
           </p>
           <h3
             style={{
@@ -1009,6 +1101,9 @@ export default function KimBondo() {
             </a>{" "}
             — det hjælper andre, der står samme sted, med at turde tage kontakt.
           </p>
+          <a href="https://g.page/r/CW91ldyVVI39EBM/review" target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "120px", margin: "16px auto 0" }}>
+            <img src="/images/anmeldelse-google-qr.svg" width={120} height={120} loading="lazy" alt="QR-kode til at skrive en anmeldelse af Bedemand København på Google" style={{ display: "block", width: "120px", height: "120px" }} />
+          </a>
         </div>
       </section>
 

@@ -139,6 +139,8 @@ export default function ContactForm({ variant = "default" }: ContactFormProps) {
           form_type: variant === "priser" ? "priser_contact" : "product_contact",
         });
         setStatus("sent");
+        // Videre til tak-siden. Lykkes det ikke, står tak-beskeden stadig her.
+        window.location.assign("/tak/");
       } else {
         console.error("Web3Forms-fejl:", data);
         setStatus("error");
