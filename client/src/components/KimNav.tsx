@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { useLocation } from "wouter";
 
 /**
@@ -65,6 +65,8 @@ const NAV_LINKS = [
       { href: "/vesterbro/", label: "Vesterbro" },
       { href: "/soborg/", label: "Søborg & Gladsaxe" },
     ],
+    // Sidste punkt under Områder – vises under begge kolonner og i mobilmenuen
+    sidst: { href: "/sjaelland/", label: "Resten af Sjælland" },
   },
   { href: "/produkter/", label: "Produkter" },
   { href: "/om-kim/", label: "Om Kim", exact: true },
@@ -159,7 +161,7 @@ export default function KimNav() {
 
       {/* ── DESKTOP NAV ── */}
       <nav className="kimnav-desktop" aria-label="Kim Bondo navigation">
-        {NAV_LINKS.map(({ href, label, exact, hash, children, koebenhavn }) => (
+        {NAV_LINKS.map(({ href, label, exact, hash, children, koebenhavn, sidst }) => (
           <div key={href} style={{ position: "relative" }} className={children ? "has-dropdown" : ""}>
             <a
               href={href}
@@ -214,6 +216,26 @@ export default function KimNav() {
                     </div>
                   ))}
                 </div>
+                {sidst && (
+                  <a
+                    href={sidst.href}
+                    style={{
+                      display: "block",
+                      padding: "10px 16px",
+                      marginTop: "4px",
+                      borderTop: "1px solid #ede9e4",
+                      fontFamily: "'Open Sans', sans-serif",
+                      fontSize: "14px",
+                      color: "#2F3E46",
+                      textDecoration: "none",
+                      whiteSpace: "nowrap",
+                    }}
+                    onMouseEnter={(e) => { e.currentTarget.style.background = "#f0f7f3"; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+                  >
+                    {sidst.label}
+                  </a>
+                )}
               </div>
             )}
           </div>
@@ -277,9 +299,9 @@ export default function KimNav() {
               gap: "0px",
             }}
           >
-            {NAV_LINKS.map(({ href, label, exact, hash }) => (
+            {NAV_LINKS.map(({ href, label, exact, hash, sidst }) => (
+              <Fragment key={href}>
               <a
-                key={href}
                 href={href}
                 onClick={hash ? (e) => { e.preventDefault(); setOpen(false); goToKontakt(); } : () => setOpen(false)}
                 style={{
@@ -301,6 +323,26 @@ export default function KimNav() {
                   <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#3D6B4F", flexShrink: 0 }} />
                 )}
               </a>
+              {sidst && (
+                <a
+                  href={sidst.href}
+                  onClick={() => setOpen(false)}
+                  style={{
+                    fontFamily: "'Open Sans', sans-serif",
+                    fontWeight: isActive(sidst.href) ? 700 : 600,
+                    fontSize: "14px",
+                    color: isActive(sidst.href) ? "#3D6B4F" : "#3d5260",
+                    textDecoration: "none",
+                    letterSpacing: "0.02em",
+                    padding: "8px 20px 8px 36px",
+                    borderBottom: "1px solid #ede9e4",
+                    display: "block",
+                  }}
+                >
+                  {sidst.label}
+                </a>
+              )}
+              </Fragment>
             ))}
             <a
               href="tel:+4528146011"
