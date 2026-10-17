@@ -29,8 +29,10 @@
     <meta property="og:site_name" content="Bedemand København" />
     <!-- Twitter Card defaults -->
     <meta name="twitter:card" content="summary_large_image" />
-    <!-- Google Consent Mode v2: al måling og annoncering er afvist, indtil den besøgende siger ja.
-         Skal stå FØR Google Tag Manager. Valget gemmes af cookie-banneret (bk_cookiesamtykke, 12 måneder). -->
+    <!-- Google Consent Mode v2: al måling og annoncering står på "denied" som standard.
+         Google Tag Manager indlæses FØRST, når den besøgende har trykket "Tillad cookies"
+         (nu eller ved et tidligere besøg, gemt i bk_cookiesamtykke i 12 måneder).
+         Uden ja indlæses intet fra Google Tag Manager. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -42,6 +44,16 @@
         wait_for_update: 500
       });
       gtag('set', 'ads_data_redaction', true);
+      // Indlæser Google Tag Manager – kaldes kun efter et ja (her eller fra cookie-banneret)
+      window.bkIndlaesGTM = function () {
+        if (document.getElementById('gtm-script')) return;
+        window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var j = document.createElement('script');
+        j.async = true;
+        j.id = 'gtm-script';
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-5N2WMPLQ';
+        document.head.appendChild(j);
+      };
       try {
         var bkGemt = JSON.parse(localStorage.getItem('bk_cookiesamtykke') || 'null');
         if (bkGemt && bkGemt.valg === 'accepteret' && typeof bkGemt.tid === 'number' && Date.now() - bkGemt.tid <= 31536000000) {
@@ -51,16 +63,10 @@
             ad_personalization: 'granted',
             analytics_storage: 'granted'
           });
+          window.bkIndlaesGTM();
         }
       } catch (e) {}
     </script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.id='gtm-script';j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5N2WMPLQ');</script>
-    <!-- End Google Tag Manager -->
    <!-- Fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com" />
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

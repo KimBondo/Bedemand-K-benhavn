@@ -1,10 +1,11 @@
 /**
  * CookieConsent – Bedemand København
  *
- * Google Consent Mode v2: Google Tag Manager indlæses altid (se index.html), men med
- * ad_storage, ad_user_data, ad_personalization og analytics_storage sat til "denied".
- * Først når den besøgende trykker "Tillad cookies", opdateres de fire til "granted".
- * Uden samtykke sættes der ingen Google-cookies.
+ * Google Consent Mode v2: ad_storage, ad_user_data, ad_personalization og
+ * analytics_storage står på "denied" som standard (se index.html).
+ * Google Tag Manager indlæses IKKE, før den besøgende har trykket "Tillad cookies"
+ * – så opdateres de fire til "granted", og GTM hentes. "Afvis" lader dem stå på
+ * "denied", og intet fra Google indlæses.
  *
  * Valget gemmes i localStorage i 12 måneder. Herefter spørges der igen.
  * Footeren linker til #cookieindstillinger, som åbner banneret igen,
@@ -64,6 +65,13 @@ function opdaterSamtykke(valg: Valg) {
   }
 }
 
+/** Indlæser Google Tag Manager. Kaldes kun efter et aktivt ja. */
+function indlaesGTM() {
+  if (typeof window === "undefined") return;
+  const w = window as unknown as { bkIndlaesGTM?: () => void };
+  if (typeof w.bkIndlaesGTM === "function") w.bkIndlaesGTM();
+}
+
 /** Rydder de statistikcookies Google måtte have sat tidligere. */
 function sletStatistikCookies() {
   if (typeof document === "undefined") return;
@@ -86,7 +94,7 @@ export default function CookieConsent() {
   const [synlig, setSynlig] = useState(false);
 
   useEffect(() => {
-    // Et gemt ja sendes allerede til Google i index.html, før Tag Manager indlæses.
+    // Et gemt ja håndteres allerede i index.html (samtykke + indlæsning af GTM).
     const gemt = laesGemt();
     if (!gemt) setSynlig(true);
 
@@ -101,7 +109,8 @@ export default function CookieConsent() {
   const vaelg = (valg: Valg) => {
     gem(valg);
     opdaterSamtykke(valg);
-    if (valg === "afvist") sletStatistikCookies();
+    if (valg === "accepteret") indlaesGTM();
+    else sletStatistikCookies();
     setSynlig(false);
     if (window.location.hash === "#cookieindstillinger") {
       history.replaceState(null, "", window.location.pathname + window.location.search);
@@ -172,7 +181,7 @@ export default function CookieConsent() {
             flex: "1 1 320px",
           }}
         >
-          Jeg bruger cookies til statistik.{" "}
+          Jeg bruger cookies til statistik og til at måle mine annoncer.{" "}
           <a
             href="/persondatapolitik/"
             style={{ color: "#b0c4b1", textDecoration: "underline" }}

@@ -146,16 +146,13 @@ export default function KimPersondatapolitik() {
           <p style={s.body}>
             <strong>Der bliver ikke sat cookies, før du har sagt ja.</strong> Første
             gang du besøger siden, bliver du spurgt, om jeg må måle, hvordan siden
-            bliver brugt. Google Tag Manager indlæses på alle sider, men med Googles
-            samtykketilstand (Consent Mode) står al måling og annoncering på
-            "afvist", indtil du siger ja. Siger du nej — eller lader du være med at
-            svare — lander der ingen statistik- eller annoncecookies i din browser,
-            og Google modtager højst enkle oplysninger uden cookies, som ikke kan
-            bruges til at genkende dig. Siden virker præcis lige så godt.
+            bliver brugt. Siger du nej, indlæses der ingen måleværktøjer, og der
+            sendes ingen oplysninger til Google. Det samme gælder, så længe du ikke
+            har svaret. Siden virker præcis lige så godt.
           </p>
           <p style={s.body}>
-            Siger du ja, må Google Analytics og Googles annoncemåling placere
-            cookies i din browser (blandt andet <code>_ga</code>) og
+            Siger du ja, indlæses Google Tag Manager, og Google Analytics og
+            Googles annoncemåling må placere cookies i din browser (blandt andet <code>_ga</code>) og
             registrere din IP-adresse i afkortet form. Det hjælper mig med at se,
             hvilke sider der bliver læst, så jeg kan skrive om det, folk faktisk
             leder efter, og om mine annoncer fører til, at nogen ringer eller skriver. Jeg bruger ikke statistikken til at identificere dig som
