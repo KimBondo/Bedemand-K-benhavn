@@ -112,8 +112,12 @@ export default function KimNordsjaelland() {
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
           Personlig bedemand i Nordsjælland
         </h1>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 16px", lineHeight: 1.7 }}>
           Jeg er selvstændig bedemand og dækker hele Nordsjælland. Jeg kører selv ud, også om aftenen og i weekenden — og I taler med den samme person hele vejen.
+        </p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 18px)", color: "#3d5260", maxWidth: "660px", margin: "0 auto 32px", lineHeight: 1.7 }}>
+          Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.<br />
+          <a href="/priser/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bisættelse fra 18.300 kr. · Begravelse fra 19.300 kr.</a>
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>

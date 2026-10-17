@@ -61,6 +61,8 @@ const ROUTES = [
   "/hvad-sker-der",
   "/bisaettelse-nordsjaelland",
   "/soborg",
+  "/sjaelland",
+  "/tak",
 ];
 
 const ROUTE_META = {
@@ -208,6 +210,16 @@ const ROUTE_META = {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",
     description: "V\u00e6lg kiste fra 6.000 kr. eller urne fra 950 kr. B\u00e6redygtige og klassiske modeller. Kim Bondo bedemand i K\u00f8benhavn. Ring 28 14 60 11.",
   },
+  "/sjaelland": {
+    title: "Bedemand p\u00e5 Sj\u00e6lland \u2013 Kim Bondo, d\u00f8gnet rundt",
+    description: "Bedemand p\u00e5 hele Sj\u00e6lland. Kim Bondo tager selv telefonen d\u00f8gnet rundt, faste priser og begravelseshj\u00e6lpen trukket fra p\u00e5 fakturaen. Ring 28 14 60 11.",
+  },
+  "/tak": {
+    title: "Tak for din besked \u2013 Bedemand Kim Bondo",
+    description: "Tak for din besked. Kim Bondo vender tilbage hurtigst muligt. Haster det, s\u00e5 ring p\u00e5 28 14 60 11 \u2013 d\u00f8gnet rundt.",
+    // Tak-siden skal ikke i Googles indeks
+    robots: "noindex",
+  },
   "/soborg": {
     title: "Bedemand S\u00f8borg & Gladsaxe \u2013 Kim Bondo, d\u00f8gnet rundt",
     description: "Personlig bedemand med kontor p\u00e5 Vandt\u00e5rnsvej 62A i S\u00f8borg. Jeg hj\u00e6lper familier i hele Gladsaxe med bis\u00e6ttelse og begravelse. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
@@ -288,6 +300,14 @@ function injectMetaIntoHtml(html, route) {
     /<meta\s+name="twitter:title"[^>]*\/?>/,
     `<meta name="twitter:title" content="${title}" />`
   );
+
+  // Robots (fx noindex på tak-siden)
+  if (meta.robots) {
+    out = out.replace(
+      /<meta\s+name="robots"[^>]*\/?>/,
+      `<meta name="robots" content="${escapeHtml(meta.robots)}" />`
+    );
+  }
 
   // Replace twitter:description
   out = out.replace(

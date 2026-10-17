@@ -1,7 +1,7 @@
 /**
  * MobilRingKnap – fast "Ring til Kim"-bjælke i bunden af skærmen, kun på mobil.
  * Telefonen er den vigtigste vej ind, så knappen skal altid være inden for rækkevidde.
- * Ligger under cookie-banneret (z-index), så banneret stadig kan besvares.
+ * Cookie-banneret ligger på mobil lige over bjælken, så begge altid kan trykkes på.
  */
 export default function MobilRingKnap() {
   return (
