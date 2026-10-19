@@ -3,6 +3,7 @@ import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import SchemaOrg from "@/components/SchemaOrg";
 import CookieLink from "@/components/CookieLink";
+import KimPortraet from "@/components/KimPortraet";
 
 /**
  * Kim Bondo – Bedemand Humlebæk (lokal SEO-landingsside)
@@ -17,10 +18,10 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Humlebæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Humlebæk, Espergærde og nærområdet samt resten af Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
+  { question: "Hvem er bedemand i Humlebæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Humlebæk, Nivå, Kokkedal og Fredensborg samt resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Humlebæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Hvor sker kremeringen for familier i Humlebæk?", answer: "I vælger selv: kremering i Hillerød, hvor Nordsjællands eneste krematorium ligger, eller via indlevering i Helsingør. Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
-  { question: "Hvilke kirker koordinerer du med omkring Humlebæk?", answer: "Blandt andet Espergærde Kirke og de øvrige kirker i nærområdet. Jeg kender de lokale kirkegårde og kapeller, så I ikke selv skal finde ud af de praktiske forhold." },
+  { question: "Hvor sker kremeringen for familier i Humlebæk?", answer: "I vælger selv: kremering i Hillerød, hvor Nordsjællands eneste krematorium ligger, eller i København. Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
+  { question: "Hvilke kirker koordinerer du med omkring Humlebæk?", answer: "Blandt andet Humlebæk Kirke og kirkerne i resten af Fredensborg Kommune. Jeg kender også Humlebæk Kirkegård og Torpen Kirkegård." },
 ];
 
 export default function KimHumlebaek() {
@@ -28,13 +29,13 @@ export default function KimHumlebaek() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Humlebæk – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Humlebæk og Espergærde. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 28 14 60 11 – døgnet rundt."
+        description="Personlig bedemand i Humlebæk og Fredensborg Kommune. Ceremoni lokalt, kremering i Hillerød eller København. Faste priser. Ring 28 14 60 11 – døgnet rundt."
         url="https://www.bedemandkobenhavn.dk/humlebaek/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"
-        areaServed={["Humlebæk", "Espergærde"]}
+        areaServed={["Humlebæk", "Nivå", "Kokkedal", "Fredensborg Kommune"]}
         pageUrl="https://www.bedemandkobenhavn.dk/humlebaek/"
         faqItems={FAQ}
         breadcrumbs={[
@@ -66,7 +67,7 @@ export default function KimHumlebaek() {
         `}</style>
         <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
           <a href="/" style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(14px, 2.2vw, 20px)", color: "#2F3E46", letterSpacing: "0.03em", lineHeight: 1.2, textDecoration: "none" }}>Bedemand Humlebæk</a>
-          <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Humlebæk og Espergærde</span>
+          <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 400, fontSize: "clamp(12px, 1.4vw, 15px)", color: "#5a7a6a", letterSpacing: "0.02em" }}>Kim Bondo – Humlebæk og Fredensborg Kommune</span>
         </div>
         <KimNav />
         <a href="tel:+4528146011" style={{ display: "none" }} className="mobile-call-btn">
@@ -93,8 +94,9 @@ export default function KimHumlebaek() {
           Personlig bedemand i Humlebæk
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier i Humlebæk, Espergærde og nærområdet med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
+          Jeg er selvstændig bedemand og hjælper familier i Humlebæk og resten af Fredensborg Kommune med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -109,14 +111,14 @@ export default function KimHumlebaek() {
           <p style={s.label}>Lokal og personlig</p>
           <h2 style={s.h2}>Bedemand med kendskab til Humlebæk</h2>
           <p style={s.body}>
-            Humlebæk ligger i Fredensborg Kommune og dækker både selve Humlebæk og nærområdet omkring Espergærde. Jeg kører selv ud og koordinerer med de lokale kirker, kapeller og kirkegårde.
+            Humlebæk ligger ved Øresund i Fredensborg Kommune. Jeg kører selv ud til jer, og det er mig, I taler med hele vejen – fra det første opkald til den sidste afsked.
           </p>
           <p style={s.body}>
-            Helsingør har ikke længere sit eget krematorium – det blev nedlagt i 2013. I kan i stedet vælge kremering i Hillerød, hvor Nordsjællands eneste krematorium ligger, eller indlevering i Helsingør. Valget er jeres, og jeg forklarer gerne forskellene. Selve højtideligheden foregår stadig lokalt – i kirken eller i kapellet – og transporten sørger jeg for.
+            Der er ikke krematorium i Fredensborg Kommune. Kremeringen kan ske på Hillerød Krematorium, som er Nordsjællands eneste, eller i København – I vælger selv, og ceremonien holdes stadig lokalt. Transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde omkring Humlebæk</h3>
           <p style={s.body}>
-            Jeg koordinerer blandt andet med Espergærde Kirke og de øvrige kirker i området. Kirkegårde og kapeller i nærområdet kender jeg, så I ikke selv skal finde ud af de praktiske forhold.
+            Humlebæk Sogn har to kirkegårde: Humlebæk Kirkegård og Torpen Kirkegård, som ligger bag Torpen Kapel. Ønsker I en kirkelig afsked, kan ceremonien holdes i Humlebæk Kirke – eller i en anden kirke, der betyder noget for jer. Som medlem af folkekirken med bopæl i Fredensborg Provsti kan man desuden frit vælge mellem kirkegårdene i provstiets sogne.
           </p>
         </div>
       </section>
@@ -127,9 +129,9 @@ export default function KimHumlebaek() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Humlebæk?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering i Hillerød eller via indlevering i Helsingør – I vælger selv.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni lokalt i Humlebæk Kirke eller et kapel, med kremering i Hillerød eller København – I vælger selv.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
@@ -188,7 +190,7 @@ export default function KimHumlebaek() {
 
       <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
-          Kender du nogen i Humlebæk eller Espergærde, der kan have brug for en bedemand? Del denne side.
+          Kender du nogen i Humlebæk, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/humlebaek")}`}

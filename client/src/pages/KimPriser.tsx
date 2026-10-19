@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 import ContactForm from "@/components/ContactForm";
+import KimPortraet from "@/components/KimPortraet";
 
 
 /**
@@ -153,11 +154,12 @@ export default function KimPriser() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <span style={{ ...s.label, color: "#A8C5A0" }}>Priser</span>
           <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(26px, 4vw, 42px)", color: "#ffffff", lineHeight: 1.2, marginBottom: "20px", marginTop: 0 }}>
-            Priser
+            Priser på bisættelse og begravelse
           </h1>
           <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
             Prisgennemsigtighed er ikke et tilbud. Det er en ret.
           </p>
+          <KimPortraet align="left" mork />
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Ring 28 14 60 11 — hele døgnet
           </a>
@@ -219,7 +221,7 @@ export default function KimPriser() {
             "Klargøring, påklædning og ilægning i kiste",
             "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet",
             "Kontakt til kordegn, præst, krematorium og kirkegård",
-            "Anmodning ved Kirkeministeriet",
+            "Anmeldelse til afdødes sogn",
             "Ansøgning om begravelseshjælp på jeres vegne",
             "Jeg er selv til stede ved højtideligheden",
           ]}
@@ -240,7 +242,7 @@ export default function KimPriser() {
             "Klargøring, påklædning og ilægning i kiste",
             "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til graven",
             "Kontakt til kordegn, præst og kirkegård",
-            "Anmodning ved Kirkeministeriet",
+            "Anmeldelse til afdødes sogn",
             "Ansøgning om begravelseshjælp på jeres vegne",
             "Jeg er selv til stede ved højtideligheden",
             "Udlægning af blomster på graven",
@@ -267,7 +269,7 @@ export default function KimPriser() {
               "Klargøring, påklædning og ilægning i kiste",
               "Rustvognskørsel til krematoriet",
               "Kontakt til kordegn, krematorium og kirkegård",
-              "Anmodning ved Kirkeministeriet",
+              "Anmeldelse til afdødes sogn",
               "Ansøgning om begravelseshjælp på jeres vegne",
             ].map((item, i) => (
               <li key={i} style={s.li}>{item}</li>

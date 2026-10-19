@@ -3,6 +3,7 @@ import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import SchemaOrg from "@/components/SchemaOrg";
 import CookieLink from "@/components/CookieLink";
+import KimPortraet from "@/components/KimPortraet";
 
 /**
  * Kim Bondo – Bedemand Hørsholm (lokal SEO-landingsside)
@@ -17,7 +18,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Hørsholm?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hørsholm, Rungsted, Usserød og Kokkedal samt resten af Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
+  { question: "Hvem er bedemand i Hørsholm?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hørsholm, Rungsted, Usserød og Kokkedal samt resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Hørsholm?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium i Hørsholm?", answer: "Nej. Der er ikke krematorium i Hørsholm Kommune. Kremeringen sker i Hillerød eller i København – I vælger selv, ofte ud fra hvor I vil hente urnen, eller også bringer jeg den. Ceremonien holdes stadig lokalt — i kirken eller i kapellet på Hørsholm Kirkegård." },
   { question: "Kan alle bruge kapellet på Hørsholm Kirkegård?", answer: "Ja. Kapellet fra 1929 kan benyttes af alle, uanset tro. Højtideligheden varer op til en halv time, og en medarbejder fra kirkegården er altid med og hjælper med blomster og opstilling." },
@@ -95,6 +96,7 @@ export default function KimHorsholm() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Jeg er selvstændig bedemand og hjælper familier i Hørsholm og Rungsted med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -135,7 +137,7 @@ export default function KimHorsholm() {
             {[
               { title: "Bisættelse", desc: "Kremering i Hillerød eller København med ceremoni i Hørsholm Kirke, Rungsted Kirke eller kirkegårdskapellet.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Hørsholm Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i Hørsholm Kirke eller Rungsted Kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

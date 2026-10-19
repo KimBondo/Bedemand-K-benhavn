@@ -3,6 +3,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import CookieLink from "@/components/CookieLink";
+import KimPortraet from "@/components/KimPortraet";
 
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
@@ -13,7 +14,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand på Amager?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Amager — Sundbyerne, Islands Brygge, Ørestad, Tårnby, Kastrup og Dragør — og resten af København og Nordsjælland. Ring på 28 14 60 11, også om natten." },
+  { question: "Hvem er bedemand på Amager?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Amager — Sundbyerne, Islands Brygge, Ørestad, Tårnby, Kastrup og Dragør — og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11, også om natten." },
   { question: "Hvad koster en begravelse på Amager?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium på Amager?", answer: "Ja. Sundby Krematorium ligger på Sundby Kirkegård, Kastrupvej 51. Det er det ene af Københavns Kommunes to krematorier — det andet er Bispebjerg. Mange bydele har ikke deres eget, så det er en praktisk fordel her." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Amager?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. De kan holdes i kapelsalen på Sundby Kirkegård eller et andet sted, der giver mening for jer." },
@@ -92,6 +93,7 @@ export default function KimAmager() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Jeg er selvstændig bedemand på Amager. Sundby Kirkegård og Sundby Krematorium ligger få minutter væk, og jeg kører selv ud — også om natten og i weekenden.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -113,10 +115,7 @@ export default function KimAmager() {
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Amager</h3>
           <p style={s.body}>
-            Sundby Kirkegård på Kastrupvej er amagerkanernes egen kirkegård — knap ti hektar, anlagt i 1872, med kiste-, urne- og børnegrave. Kapelsalen har 64 siddepladser og bruges til både kirkelige og borgerlige ceremonier. Sundby Krematorium ligger på samme adresse, og Amager er dermed en af de få dele af hovedstaden, hvor selve kremeringen sker i bydelen.
-          </p>
-          <p style={s.body}>
-            Sundby Krematorium på samme adresse som kirkegården gør Amager praktisk for mange familier. Ceremonien kan holdes i kapelsalen eller i en af de lokale kirker, og jeg sørger for koordineringen med både krematorium og kirkegårdskontor.
+            Sundby Kirkegård på Kastrupvej er amagerkanernes egen kirkegård — knap ti hektar, anlagt i 1872, med kiste-, urne- og børnegrave. Kapelsalen har 64 siddepladser og bruges til både kirkelige og borgerlige ceremonier. Sundby Krematorium ligger på samme adresse, og Amager er dermed en af de få dele af hovedstaden, hvor selve kremeringen sker i bydelen. Ceremonien kan holdes i kapelsalen eller i en af de lokale kirker, og jeg sørger for koordineringen med både krematorium og kirkegårdskontor.
           </p>
           <p style={s.body}>
             I Tårnby og Kastrup gælder andre kirkegårde: Tårnby Kirkegård på Englandsvej og Kastrup Kirkegård på Kastrupvej, hvor kapellet fra 1904 stadig bruges til både bisættelser og begravelser. Blandt kirkerne har jeg jævnlig kontakt med Sundby Kirke, Filips Kirke, Nathanaels Kirke, Tårnby Kirke og Kastrup Kirke.
@@ -133,7 +132,7 @@ export default function KimAmager() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirke eller kapel, med kremering på Sundby Krematorium. Jeg aftaler tid med både krematorium og kirkekontor.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Sundby, Tårnby eller Kastrup Kirkegård. Jeg tager kontakten til kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sundby Kirke, Filips Kirke eller Tårnby Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — i kapelsalen på Sundby Kirkegård eller et sted, I selv vælger.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Amager er der kort vej ud i Øresund.", href: "/askespredning/" },

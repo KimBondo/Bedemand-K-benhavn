@@ -23,7 +23,7 @@ const s = {
 const FAQ = [
   { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Herefter kan jeg kontaktes, og jeg hjælper med anmeldelse til myndighederne og den videre planlægning." },
   { q: "Hvem har ansvaret for at planlægge begravelsen?", a: "Det er den person, der bestiller begravelsen, der har det juridiske ansvar for planlægningen og betalingen. Oftest er det den nærmeste pårørende." },
-  { q: "Hvad hjælper Kim med?", a: "Jeg hjælper med anmeldelse af dødsfaldet, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning — så I kan bruge energien på hinanden." },
+  { q: "Hvad hjælper du med?", a: "Jeg hjælper med anmeldelse af dødsfaldet, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning — så I kan bruge energien på hinanden." },
   { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen. Læs mere på siden om begravelseshjælp." },
 ];
 
@@ -230,6 +230,7 @@ export default function KimHuskeliste() {
           <p style={s.body}>
             Typiske udgifter der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser.
           </p>
+          <a href="/mindeord/" style={s.link}>Mindeord og tale ved begravelsen →</a>
         </div>
       </section>
 
@@ -244,6 +245,16 @@ export default function KimHuskeliste() {
               <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ── SORG OG STØTTE ── */}
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Sorg og støtte efter afskeden</h2>
+          <p style={{ ...s.body, marginBottom: 0 }}>
+            Sorgen holder ikke op, når afskeden er overstået. Har I brug for nogen at tale med, kan I finde viden og hjælp hos Det Nationale Sorgcenter på <a href="https://sorgcenter.dk/" target="_blank" rel="noopener" style={s.link}>sorgcenter.dk</a>. Mange sogne har også sorggrupper – spørg i jeres lokale kirke. I er altid velkomne til at ringe til mig, også længe efter.
+          </p>
         </div>
       </section>
 

@@ -53,6 +53,10 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     title: "Borgerlig afsked – Bedemand Kim Bondo",
     description: "En personlig afsked uden kirke og præst. Kim Bondo hjælper med at skabe en meningsfuld og individuel ceremoni der afspejler den afdødes liv.",
   },
+  "/mindeord": {
+    title: "Mindeord og tale ved begravelse – skabelon og eksempel",
+    description: "Sådan skriver du mindeord og en tale til en begravelse eller bisættelse. En enkel skabelon, et eksempel og gode råd. Ring til Kim på 28 14 60 11.",
+  },
   "/huskeliste": {
     title: "Huskeliste ved dødsfald – Bedemand Kim Bondo",
     description: "Komplet huskeliste over hvad der skal ordnes ved et dødsfald. Kim Bondo guider jer igennem alle praktiske opgaver trin for trin.",
@@ -131,7 +135,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/om-kim": {
     title: "Om Kim Bondo – Personlig bedemand i København",
-    description: "Lær Kim Bondo at kende. Bedemand med hjerte, nærvær og spirituel forankring. Kim hjælper familier i sorg med ro og omsorg.",
+    description: "Mød Kim Bondo – selvstændig bedemand med base i Gladsaxe og Søborg. Jeg hjælper familier i hele København, Storkøbenhavn og Nordsjælland. Ring 28 14 60 11.",
   },
   "/fredensborg": {
     title: "Bedemand Fredensborg – Kim Bondo, døgnet rundt",
@@ -149,13 +153,17 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     title: "Bedemand Hornbæk – Kim Bondo, døgnet rundt",
     description: "Personlig bedemand i Hornbæk og Hellebæk. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
   },
+  "/gilleleje": {
+    title: "Bedemand Gilleleje – Kim Bondo, døgnet rundt",
+    description: "Personlig bedemand i Gilleleje og Gribskov. Jeg kender Gilleleje Kirke, Søborg Kirke og kirkegårdene. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
+  },
   "/alsgaarde": {
     title: "Bedemand Ålsgårde – Kim Bondo, døgnet rundt",
     description: "Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring 28 14 60 11 – døgnet rundt.",
   },
   "/humlebaek": {
     title: "Bedemand Humlebæk – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Humlebæk og Espergærde. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
+    description: "Personlig bedemand i Humlebæk og Fredensborg Kommune. Ceremoni lokalt, kremering i Hillerød eller København. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",

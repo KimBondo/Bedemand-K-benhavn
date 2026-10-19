@@ -20,7 +20,8 @@ const ROOT = path.resolve(__dirname, "..");
 const DIST_PUBLIC = path.resolve(ROOT, "dist/public");
 const SSR_BUNDLE = path.resolve(ROOT, "dist/server/entry-server.js");
 const BASE_URL = "https://www.bedemandkobenhavn.dk";
-const DEFAULT_IMAGE = `${BASE_URL}/images/kim-bondo-rustvogn-kyst.webp`;
+// Delebilledet (1200×630) bruges på alle sider
+const DEFAULT_IMAGE = `${BASE_URL}/images/kim-bondo-bedemand-og.jpg`;
 
 const ROUTES = [
   "/",
@@ -33,6 +34,7 @@ const ROUTES = [
   "/kirkelig-afsked",
   "/borgerlig-afsked",
   "/huskeliste",
+  "/mindeord",
   "/begravelseshjaelp",
   "/omraade",
   "/hvad-koster-en-begravelse",
@@ -56,6 +58,7 @@ const ROUTES = [
   "/min-sidste-vilje",
   "/hornbaek",
   "/alsgaarde",
+  "/gilleleje",
   "/humlebaek",
   "/prisberegner",
   "/hvad-sker-der",
@@ -126,6 +129,10 @@ const ROUTE_META = {
     title: "Bedemand H\u00f8rsholm \u2013 Kim Bondo, d\u00f8gnet rundt",
     description: "Personlig bedemand i H\u00f8rsholm, Rungsted og Kokkedal. Kapellet p\u00e5 H\u00f8rsholm Kirkeg\u00e5rd kan benyttes af alle. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
   },
+  "/mindeord": {
+    title: "Mindeord og tale ved begravelse \u2013 skabelon og eksempel",
+    description: "S\u00e5dan skriver du mindeord og en tale til en begravelse eller bis\u00e6ttelse. En enkel skabelon, et eksempel og gode r\u00e5d. Ring til Kim p\u00e5 28 14 60 11.",
+  },
   "/huskeliste": {
     title: "Huskeliste ved d\u00f8dsfald \u2013 Bedemand Kim Bondo",
     description: "Hvad skal du g\u00f8re, n\u00e5r en n\u00e6rtst\u00e5ende d\u00f8r? Kim Bondos trin-for-trin huskeliste hj\u00e6lper dig i den sv\u00e6re tid. Ring 28 14 60 11.",
@@ -152,7 +159,7 @@ const ROUTE_META = {
   },
   "/om-kim": {
     title: "Om Kim Bondo \u2013 Personlig bedemand, K\u00f8benhavn",
-    description: "M\u00f8d Kim Bondo \u2013 selvst\u00e6ndig bedemand med n\u00e6rv\u00e6r og ro. Hj\u00e6lper familier i sorg i K\u00f8benhavn og Nordsj\u00e6lland. Ring 28 14 60 11.",
+    description: "M\u00f8d Kim Bondo \u2013 selvst\u00e6ndig bedemand med base i Gladsaxe og S\u00f8borg. Jeg hj\u00e6lper familier i hele K\u00f8benhavn, Stork\u00f8benhavn og Nordsj\u00e6lland. Ring 28 14 60 11.",
   },
   "/omraade": {
     title: "D\u00e6kningsomr\u00e5de \u2013 Bedemand Kim Bondo",
@@ -178,13 +185,17 @@ const ROUTE_META = {
     title: "Bedemand Hornb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
     description: "Personlig bedemand i Hornb\u00e6k og Helleb\u00e6k. Kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
+  "/gilleleje": {
+    title: "Bedemand Gilleleje \u2013 Kim Bondo, d\u00f8gnet rundt",
+    description: "Personlig bedemand i Gilleleje og Gribskov. Jeg kender Gilleleje Kirke, S\u00f8borg Kirke og kirkeg\u00e5rdene. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
+  },
   "/alsgaarde": {
     title: "Bedemand \u00c5lsg\u00e5rde \u2013 Kim Bondo, d\u00f8gnet rundt",
     description: "Personlig bedemand i \u00c5lsg\u00e5rde og Helleb\u00e6k. Jeg kender Helleb\u00e6k Kirke og \u00c5lsg\u00e5rde Kirkeg\u00e5rd og hj\u00e6lper jer hele vejen. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/humlebaek": {
     title: "Bedemand Humleb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Humleb\u00e6k og Esperg\u00e6rde. Kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand i Humleb\u00e6k og Fredensborg Kommune. Ceremoni lokalt, kremering i Hiller\u00f8d eller K\u00f8benhavn. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",
@@ -248,7 +259,7 @@ function injectMetaIntoHtml(html, route) {
 
   const title = escapeHtml(meta.title);
   const description = escapeHtml(meta.description);
-  const image = escapeHtml(meta.image ?? DEFAULT_IMAGE);
+  const image = escapeHtml(DEFAULT_IMAGE);
   // Canonical: forsiden = https://www.bedemandkobenhavn.dk (ingen trailing slash)
   // Undersider = https://www.bedemandkobenhavn.dk/ (med trailing slash — matcher Cloudflare Pages 308-redirect)
   const canonicalUrl = `${BASE_URL}${route === "/" ? "/" : route + "/"}`;

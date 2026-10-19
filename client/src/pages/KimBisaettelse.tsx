@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import KimPortraet from "@/components/KimPortraet";
 
 /**
  * Kim Bondo – Bisættelse
@@ -37,7 +38,7 @@ export default function KimBisaettelse() {
       <SchemaOrg
         type="FAQPage"
         faqItems={[
-          { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. Begge kan foregå med eller uden ceremoni." },
+          { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni." },
           { question: "Kan man holde en bisættelse uden ceremoni?", answer: "Ja. En afsked uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et senere tidspunkt." },
           { question: "Hvad sker der med urnen efter bisættelsen?", answer: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper med at finde den løsning, der passer til afdødes og familiens ønsker." },
           { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering. Det er et valg, mange familier sætter pris på." },
@@ -125,7 +126,7 @@ export default function KimBisaettelse() {
             margin: "0 auto 24px",
           }}
         >
-          En værdig afsked med urne
+          Bisættelse – en værdig afsked med urne
         </h1>
         <p
           style={{
@@ -138,6 +139,7 @@ export default function KimBisaettelse() {
         >
           En bisættelse er den mest valgte afskedsform i Danmark. Jeg hjælper jer roligt og nærværende gennem hele forløbet – fra den første samtale til kremering og den endelige stedfæstelse af urnen.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
             href="/#kontakt"
@@ -403,6 +405,25 @@ export default function KimBisaettelse() {
         </div>
       </section>
 
+      {/* ── URNENEDSÆTTELSEN ── */}
+      <section style={{ maxWidth: "760px", margin: "0 auto", padding: "80px 32px 64px" }}>
+        <h2
+          style={{
+            fontFamily: "'Lora', serif",
+            fontWeight: 600,
+            fontSize: "clamp(20px, 2.5vw, 30px)",
+            color: "#2F3E46",
+            marginBottom: "20px",
+            lineHeight: 1.3,
+          }}
+        >
+          Urnenedsættelsen
+        </h2>
+        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
+          Efter kremeringen kommer urnen tilbage til kirkegården, og nogle uger efter bisættelsen sættes den ned i gravstedet. Mange familier vælger at være med. Det er en lille, stille stund for de nærmeste, og præsten kan være med, hvis I ønsker det. Jeg aftaler tidspunktet med kirkegården og kan køre urnen, hvis den skal til en anden kirkegård (urnekørsel 900 kr.). Selve nedsættelsen betales efter kirkegårdens takst. Ønsker I i stedet at <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>sprede asken over havet</a>, hjælper jeg også med det.
+        </p>
+      </section>
+
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
 
       {/* ── FAQ ── */}
@@ -422,7 +443,7 @@ export default function KimBisaettelse() {
         {[
           {
             q: "Hvad er forskellen på bisættelse og begravelse?",
-            a: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. Begge kan foregå med eller uden ceremoni.",
+            a: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni.",
             link: "/begravelse/",
             linkText: "Læs mere om begravelse her",
           },

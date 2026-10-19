@@ -3,6 +3,7 @@ import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import SchemaOrg from "@/components/SchemaOrg";
 import CookieLink from "@/components/CookieLink";
+import KimPortraet from "@/components/KimPortraet";
 
 /**
  * Kim Bondo – Bedemand Lyngby (lokal SEO-landingsside)
@@ -17,7 +18,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Lyngby?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Kgs. Lyngby, Virum, Sorgenfri, Lundtofte, Hjortekær og Taarbæk samt resten af Nordsjælland og København. Ring på 28 14 60 11." },
+  { question: "Hvem er bedemand i Lyngby?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Kgs. Lyngby, Virum, Sorgenfri, Lundtofte, Hjortekær og Taarbæk samt resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Lyngby?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium i Lyngby?", answer: "Nej. Der kremeres ikke i Lyngby i dag; det sker på Bispebjerg Krematorium i København eller i Hillerød. Ceremonien holdes stadig lokalt, i kirken eller i kapellet på kirkegården, og jeg sørger for transport og koordinering." },
   { question: "Hvilke kirkegårde bruges i Lyngby?", answer: "Især Lyngby Parkkirkegård på Gyrithe Lemches Vej og Sorgenfri Kirkegård på Skovbrynet. Der er også Lundtofte Kirkegård og Taarbæk Kirkegård. Lyngby Assistens Kirkegård har ikke taget imod begravelser siden 2000." },
@@ -95,6 +96,7 @@ export default function KimLyngby() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Jeg er selvstændig bedemand og hjælper familier i Lyngby-Taarbæk med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -135,7 +137,7 @@ export default function KimLyngby() {
             {[
               { title: "Bisættelse", desc: "Kremering på Bispebjerg eller i Hillerød med ceremoni i kirken eller i kapellet på kirkegården.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Lyngby Parkkirkegård, Sorgenfri eller Lundtofte Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Lyngby Kirke, Sorgenfri Kirke eller Taarbæk Kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

@@ -20,11 +20,11 @@ const s = {
 };
 
 const FAQ = [
-  { q: "Søger jeg selv, eller hjælper Kim med det?", a: "Jeg hjælper med ansøgningen som en del af mit arbejde. I behøver ikke selv stå med det." },
-  { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I giver mig fuldmagt, søger jeg hjælpen for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark behandler normalt ansøgningen inden for få uger." },
-  { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Begravelseshjælpen reduceres eller bortfalder, hvis afdødes formue overstiger et vist beløb. Var afdøde født før 1. april 1957, udbetales minimumstilskuddet på 1.050 kr. dog altid — uanset formue." },
+  { q: "Søger vi selv, eller hjælper du med det?", a: "Jeg hjælper med ansøgningen som en del af mit arbejde. I behøver ikke selv stå med det." },
+  { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I har givet mig en fuldmagt, søger jeg hjælpen hos Udbetaling Danmark og trækker beløbet fra på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark skal bruge dokumentation fra skifteretten om boet, og de behandler normalt sagen inden for en måned, når papirerne er på plads." },
+  { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Hjælpen nedsættes krone for krone, når formuen er over 22.700 kr. – eller 45.250 kr., hvis afdøde efterlader ægtefælle eller børn under 18 år – og den bortfalder helt over 36.250 kr. henholdsvis 58.800 kr. Udgifter til begravelsen tæller ikke med i formuen. Var afdøde født før 1. april 1957, udbetales der dog altid mindst 1.050 kr. Jeg regner det ud for jer med det samme." },
   { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring — ikke om vedkommende var lønmodtager eller selvstændig." },
-  { q: "Er der andre tilskud end det offentlige?", a: "Ja. Er afdøde eller den efterlevende ægtefælle/samlever medlem af Sygeforsikring 'danmark' gruppe 1 eller 2, kan der søges om op til 1.400 kr. Enkelte fagforeninger har også begravelseshjælp." },
+  { q: "Er der andre tilskud end det offentlige?", a: 'Ja. Var afdøde medlem af Sygeforsikringen "danmark" i gruppe 1 eller 2 – og blev optaget senest 31. december 2022 – udbetaler "danmark" 1.400 kr. i begravelseshjælp. Beløbet kan betales direkte til mig og trækkes fra fakturaen. Enkelte fagforeninger har også begravelseshjælp.' },
 ];
 
 export default function KimBegravelseshjaelp() {
@@ -119,7 +119,7 @@ export default function KimBegravelseshjaelp() {
             {[
               { title: "Maksimalt tilskud", amount: "13.550 kr.", note: "Afhænger af afdødes formue" },
               { title: "Minimumstilskud", amount: "1.050 kr.", note: "Er afdøde født før 1. april 1957, udbetales mindst dette beløb — uanset formue" },
-              { title: "Sygeforsikring 'danmark'", amount: "Op til 1.400 kr.", note: "Gruppe 1 og 2 — tjek dit medlemskab" },
+              { title: 'Sygeforsikringen "danmark"', amount: "1.400 kr.", note: "Gruppe 1 og 2, optaget senest 31. december 2022" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.1em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{item.title}</p>
@@ -147,11 +147,11 @@ export default function KimBegravelseshjaelp() {
           </p>
 
           <div style={{ background: "#fff", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6", marginTop: "16px" }}>
-            <h3 style={{ ...s.h3, fontSize: "18px" }}>Hvad hjælper Kim med?</h3>
+            <h3 style={{ ...s.h3, fontSize: "18px" }}>Det hjælper jeg med</h3>
             <ul style={{ paddingLeft: "24px", marginBottom: 0 }}>
               {[
                 "Ansøgning om offentlig begravelseshjælp via Udbetaling Danmark",
-                "Ansøgning om tilskud fra Sygeforsikring 'danmark' (gruppe 1 og 2)",
+                'Ansøgning om tilskud fra Sygeforsikringen "danmark" (gruppe 1 og 2)',
                 "Undersøgelse af eventuel fagforeningshjælp",
                 "Overblik over alle udgifter og mulige tilskud på forhånd",
               ].map((item) => (

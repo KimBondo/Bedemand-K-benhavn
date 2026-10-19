@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import SchemaOrg from "@/components/SchemaOrg";
+import KimPortraet from "@/components/KimPortraet";
 
 /**
  * Kim Bondo – Bedemand Hillerød (lokal SEO-landingsside)
@@ -20,7 +21,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal. Ring på 28 14 60 11." },
+  { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal – og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Hillerød?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium i Hillerød?", answer: "Ja. Hillerød Krematorium ligger ved Skansekirkegården på Skansevej. Det blev etableret i 1967. Familier kan også vælge indlevering i Helsingør – valget er jeres." },
   { question: "Hvilke kapeller kan bruges i Hillerød?", answer: "Skansekapel på Skansevej og Nyhuse Kapel på Kapelvej. Begge har plads til 150 personer. Nyhuse Kapel er fra 1924 og blev moderniseret i 2018-19." },
@@ -114,6 +115,7 @@ export default function KimHillerod() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Jeg er selvstændig bedemand og hjælper familier i Hillerød og omegn med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -156,7 +158,7 @@ export default function KimHillerod() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirken eller i et af byens to kapeller, med kremering på Hillerød Krematorium ved Skansekirkegården.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Skansekirkegården, Hillerød Kirkegård eller Nyhuse Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Hillerød Kirke eller Præstevang Kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
@@ -190,6 +192,7 @@ export default function KimHillerod() {
           {[
             { label: "Bedemand Nordsjælland", href: "/nordsjaelland/" },
             { label: "Bedemand Helsingør", href: "/helsingor/" },
+            { label: "Bedemand Gilleleje", href: "/gilleleje/" },
             { label: "Bedemand Fredensborg", href: "/fredensborg/" },
             { label: "Bedemand Hørsholm", href: "/horsholm/" },
             { label: "Bedemand Lyngby", href: "/lyngby/" },

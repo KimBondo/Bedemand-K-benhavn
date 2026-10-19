@@ -3,6 +3,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import CookieLink from "@/components/CookieLink";
+import KimPortraet from "@/components/KimPortraet";
 
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
@@ -13,7 +14,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand på Østerbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Østerbro, resten af København og hele Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
+  { question: "Hvem er bedemand på Østerbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Østerbro og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse på Østerbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvilke kirkegårde og kapeller er der på Østerbro?", answer: "Holmens Kirkegård og Garnisons Kirkegård, som begge blev anlagt i 1660'erne og drives af sognenes menighedsråd. Kapellet på Holmens Kirkegård i Upsalagade har 110 pladser og bruges til både kirkelige og borgerlige ceremonier. Østerbro har ikke eget krematorium — kremeringen foregår på Bispebjerg." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Kapellet på Holmens Kirkegård kan bruges af alle, uanset tro." },
@@ -92,6 +93,7 @@ export default function KimOsterbro() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Jeg er selvstændig bedemand og hjælper familier på Østerbro med en rolig og værdig afsked. Én person hele vejen — og telefonen er åben døgnet rundt.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -116,10 +118,7 @@ export default function KimOsterbro() {
             Holmens Kirkegård blev anlagt til flåden, Garnisons til hæren, og de ligger stadig side om side ved Øster Farimagsgade og Dag Hammarskjölds Allé. Kapellet på Holmens Kirkegård, Upsalagade 25, blev opført i 1902 af arkitekten Ludvig Fenger og har 110 siddepladser. Det bruges til både kirkelige og borgerlige ceremonier, har orgel og lydanlæg, og I kan komme ind en time før.
           </p>
           <p style={s.body}>
-            Østerbro har flere kirker og tæt adgang til Bispebjerg Krematorium. Mange familier vælger en ceremoni i en lokal kirke eller kapel og lader kremeringen ske på Bispebjerg. Jeg holder styr på det praktiske.
-          </p>
-          <p style={s.body}>
-            Det er ikke et neutralt lokale: i kapellet hænger Heinrich Dohms maleri »Den store hvide flok« fra 1915, og alterrelief og lysestager er udført af billedhuggeren Margrethe Sørensen. Blandt kirkerne i bydelen er Sankt Jakobs Kirke på Østerbrogade, Kildevældskirken, Sions Kirke, Esajas Kirke og Kastelskirken. Østerbro har ikke sit eget krematorium.
+            Det er ikke et neutralt lokale: i kapellet hænger Heinrich Dohms maleri »Den store hvide flok« fra 1915, og alterrelief og lysestager er udført af billedhuggeren Margrethe Sørensen. Blandt kirkerne i bydelen er Sankt Jakobs Kirke på Østerbrogade, Kildevældskirken, Sions Kirke, Esajas Kirke og Kastelskirken.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
@@ -133,7 +132,7 @@ export default function KimOsterbro() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirke eller i kapellet på Holmens Kirkegård, med kremering på Bispebjerg Krematorium.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Holmens eller Garnisons Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Jakobs Kirke eller Kildevældskirken.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — kapellet på Holmens Kirkegård kan bruges af alle.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Østerbro er der kort vej til Øresund.", href: "/askespredning/" },

@@ -3,6 +3,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import CookieLink from "@/components/CookieLink";
+import KimPortraet from "@/components/KimPortraet";
 
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
@@ -13,7 +14,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand på Vesterbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Vesterbro og Kgs. Enghave, resten af København og hele Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
+  { question: "Hvem er bedemand på Vesterbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Vesterbro og Kgs. Enghave og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium på Vestre Kirkegård?", answer: "Nej — det er en udbredt misforståelse. Der har aldrig ligget et krematorium på Vestre Kirkegård. Københavns Kommune har to: Bispebjerg og Sundby. Til gengæld har Vestre Kirkegård Nordre Kapel fra 1892, som er et af byens smukkeste ceremonirum, med plads til 225." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Nordre Kapel på Vestre Kirkegård bruges til begge dele, og I kan også vælge en anden ramme." },
@@ -92,6 +93,7 @@ export default function KimVesterbro() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           Jeg er selvstændig bedemand og hjælper familier på Vesterbro og i Kgs. Enghave med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -116,9 +118,6 @@ export default function KimVesterbro() {
             Nordre Kapel fra 1892 er kirkegårdens ceremonikapel — 225 siddepladser, traditionelle kirkebænke og et nyrestaureret pibeorgel af I.P. Henriksen. Det er et af byens smukkeste rum at tage afsked i, og det kan bruges både kirkeligt og borgerligt. De to andre kapeller bruges ikke længere til ceremonier: Søndre Kapel fra 1906 hedder i dag Stjernevejspavillonen, og Østre Kapel fra 1913 bruges til kultur og teater.
           </p>
           <p style={s.body}>
-            Vesterbro har tæt forbindelse til både Assistens og andre kirkegårde. Jeg koordinerer med de lokale kirker og sørger for, at transport og praktiske forhold er på plads, uanset om det er kirkelig eller borgerlig afsked.
-          </p>
-          <p style={s.body}>
             Vestre Kirkegård er usædvanlig ved sin mangfoldighed — der er blandt andet færøske, grønlandske, muslimske og katolske afdelinger, og omkring 1.500 gravsten er registreret som bevaringsværdige. Blandt kirkerne i sognet er Sankt Matthæus Kirke i Matthæusgade, Enghave Kirke på Sønder Boulevard, Eliaskirken på Vesterbrogade, Kristkirken ved Enghave Plads og Mariakirken i Istedgade.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
@@ -133,7 +132,7 @@ export default function KimVesterbro() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirke eller i Nordre Kapel, med kremering på Bispebjerg eller Sundby Krematorium.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Vestre Kirkegård. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Matthæus Kirke eller Enghave Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — Nordre Kapel er en smuk ramme, også uden kirkelig medvirken.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg hjælper med tro og love-erklæringen og det praktiske.", href: "/askespredning/" },

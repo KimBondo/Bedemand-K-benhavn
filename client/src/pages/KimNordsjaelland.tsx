@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
+import KimPortraet from "@/components/KimPortraet";
 
 /**
  * Kim Bondo – Bedemand Nordsjælland (lokal SEO-landingsside)
@@ -20,7 +21,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland og hele København. Ring på 28 14 60 11 — også midt om natten." },
+  { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland, København og Storkøbenhavn. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
   { question: "Er der et krematorium i Nordsjælland?", answer: "Ja, Hillerød Krematorium ved Skansekirkegården er det eneste i Nordsjælland. I kan også vælge indlevering i Helsingør. Ceremonien holdes stadig lokalt." },
   { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs — og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
@@ -119,6 +120,7 @@ export default function KimNordsjaelland() {
           Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.<br />
           <a href="/priser/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bisættelse fra 18.300 kr. · Begravelse fra 19.300 kr.</a>
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -144,7 +146,7 @@ export default function KimNordsjaelland() {
             Hillerød Krematorium blev etableret i 1967 og udførte omkring 2.000 kremeringer i 2025. Det ligger ved Skansekirkegården på Skansevej, hvor der også er kapel med plads til 150 — ligesom i Nyhuse Kapel inde i byen.
           </p>
           <p style={s.body}>
-            I Gentofte er Mariebjerg Kirkegård optaget i Kulturkanonen, og de to kapeller dér tager henholdsvis 150 og 50 personer. Helsingør Kirkegård har byens kapel fra 1903 med 165 pladser, og i Hørsholm ligger kapellet fra 1929, som kan benyttes af alle uanset tro. Jeg kender rummene og ved, hvor mange der kan være.
+            I Gentofte er Mariebjerg Kirkegård optaget i Kulturkanonen, og de to kapeller dér tager henholdsvis 150 og 50 personer. Kapellet på Helsingør Kirkegård har 165 pladser, og i Hørsholm ligger kapellet fra 1929, som kan benyttes af alle uanset tro. Jeg kender rummene og ved, hvor mange der kan være.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Bedemand på Nordkysten</h3>
           <p style={s.body}>
@@ -178,7 +180,7 @@ export default function KimNordsjaelland() {
               { by: "Farum", href: null },
               { by: "Frederikssund", href: null },
               { by: "Hundested", href: null },
-              { by: "Gilleleje", href: null },
+              { by: "Gilleleje", href: "/gilleleje/" },
               { by: "Tisvildeleje", href: null },
             ].map((item) => (
               <div key={item.by} style={{ background: "#fff", padding: "16px 20px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
@@ -191,7 +193,7 @@ export default function KimNordsjaelland() {
             ))}
           </div>
           <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dækker du et andet område? <a href="/omraade/" style={s.link}>Se det fulde dækningsområde →</a>
+            Bor I et andet sted? <a href="/omraade/" style={s.link}>Se hele mit dækningsområde →</a>
           </p>
         </div>
       </section>
@@ -205,7 +207,7 @@ export default function KimNordsjaelland() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i jeres egen kirke eller det lokale kapel, med kremering i Hillerød, via indlevering i Helsingør eller i København – I vælger selv.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på kirkegården i jeres sogn. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres sognekirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — flere af kapellerne kan bruges uanset tro.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Nordsjælland er der kort vej til Øresund og Kattegat.", href: "/askespredning/" },

@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import KimPortraet from "@/components/KimPortraet";
 
 /**
  * Kim Bondo – Afsked uden ceremoni
@@ -34,7 +35,7 @@ export default function KimAfskedUdenCeremoni() {
         ]}
         faqItems={[
           { question: "Kan man holde et mindesamvær på et andet tidspunkt?", answer: "Ja. Mange familier vælger at holde et mindesamvær på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme." },
-          { question: "Kan en afsked uden ceremoni kombineres med askespredning?", answer: "Ja. Efter en bisættelse uden ceremoni kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det." },
+          { question: "Kan en afsked uden ceremoni kombineres med askespredning?", answer: "Ja. Efter en afsked uden ceremoni kan asken spredes over havet, hvis afdøde har ønsket det." },
           { question: "Er en afsked uden ceremoni billigere?", answer: "Ja, det er typisk den mest enkle og prisvenlige løsning, da der ikke er udgifter til kirke eller kapel. Men prisen afhænger stadig af valg af kiste, urne og kørsel." },
           { question: "Behandles afdøde stadig med værdighed?", answer: "Absolut. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form." },
           { question: "Hvad er forskellen på afsked uden ceremoni og en traditionel bisættelse?", answer: "En traditionel bisættelse inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En afsked uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed." },
@@ -102,11 +103,12 @@ export default function KimAfskedUdenCeremoni() {
           Afsked uden ceremoni
         </p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, marginBottom: "24px", maxWidth: "700px", margin: "0 auto 24px" }}>
-          En enkel og respektfuld afsked
+          Afsked uden ceremoni – enkel og respektfuld
         </h1>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
           Ikke alle afskeder behøver en formel ceremoni. En afsked uden ceremoni er en stille og diskret løsning, der håndteres med samme omsorg og værdighed som alle andre afskeder.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Kontakt mig
@@ -129,13 +131,13 @@ export default function KimAfskedUdenCeremoni() {
           Hvad er en afsked uden ceremoni?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          En afsked uden ceremoni betyder, at der ikke afholdes en formel højtidelighed i kirke, kapel eller anden lokation. I stedet transporteres afdøde direkte til krematoriet eller gravstedet, hvor den praktiske del håndteres med respekt og omhu.
+          En afsked uden ceremoni betyder, at der ikke holdes en kirkelig eller borgerlig ceremoni over kisten. Afdøde lægges i kiste og køres direkte til krematoriet. Bagefter kan urnen sættes ned på en kirkegård, eller asken kan spredes over havet, hvis det var afdødes ønske.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
           Det er ikke en kold eller upersonlig afsked – det er blot en enklere form. Mange familier vælger at holde et mindesamvær på et andet tidspunkt, for eksempel ved urnenedsættelsen, ved <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredningen</a> eller på en særlig mærkedag.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          Løsningen kan kombineres med både <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> og <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse</a>.
+          En afsked uden ceremoni ender altid med en kremering. Ønsker I, at kisten skal i jorden, er det en <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse</a>.
         </p>
       </section>
 
@@ -162,10 +164,10 @@ export default function KimAfskedUdenCeremoni() {
           Sådan foregår en afsked uden ceremoni
         </h2>
         {[
-          { num: "1", title: "Første kontakt", text: "Vi taler om jeres ønsker og de praktiske detaljer. Jeg sørger for al koordinering med krematorium eller kirkegård og håndterer alle administrative opgaver." },
+          { num: "1", title: "Første kontakt", text: "Vi taler om jeres ønsker og de praktiske detaljer. Jeg sørger for al koordinering med krematoriet og senere med kirkegården om urnen, og jeg håndterer alle administrative opgaver." },
           { num: "2", title: "Kisteilægning", text: "Afdøde lægges i kisten med omsorg og værdighed. I kan vælge at være til stede, hvis det føles rigtigt." },
-          { num: "3", title: "Transport til krematorium eller gravsted", text: "Kisten transporteres direkte til krematoriet eller gravstedet. Kremeringen eller jordfæstelsen gennemføres med respekt." },
-          { num: "4", title: "Urne eller gravsted", text: "Ved bisættelse samles asken i en urne, som efterfølgende kan nedsættes, spredes over havet eller tages med til udlandet. Ved begravelse stedfæstes kisten på gravstedet." },
+          { num: "3", title: "Transport til krematoriet", text: "Jeg kører selv kisten direkte til krematoriet, hvor kremeringen sker med respekt og omhu." },
+          { num: "4", title: "Urnen", text: "Efter kremeringen samles asken i en urne. Urnen kan sættes ned på en kirkegård, asken kan spredes over havet, eller urnen kan tages med til udlandet." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
             <div style={{ minWidth: "44px", height: "44px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
@@ -187,7 +189,7 @@ export default function KimAfskedUdenCeremoni() {
           Hvad koster en afsked uden ceremoni?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          En afsked uden ceremoni starter fra <strong>13.550 kr.</strong> Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til kremering og gravsted kommer oveni – jeg hjælper med at indhente tilbud og holde overblikket.
+          En afsked uden ceremoni starter fra <strong>13.550 kr.</strong> Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til kremering og urnegravsted kommer oveni – jeg hjælper med at indhente priserne og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
@@ -208,7 +210,7 @@ export default function KimAfskedUdenCeremoni() {
         </h2>
         {[
           { q: "Kan man holde et mindesamvær på et andet tidspunkt?", a: "Ja. Mange familier vælger at holde et mindesamvær på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme.", link: null, linkText: null },
-          { q: "Kan en afsked uden ceremoni kombineres med askespredning?", a: "Ja. Efter en bisættelse uden ceremoni kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det.", link: "/askespredning/", linkText: "Læs mere om askespredning" },
+          { q: "Kan en afsked uden ceremoni kombineres med askespredning?", a: "Ja. Efter en afsked uden ceremoni kan asken spredes over havet, hvis afdøde har ønsket det.", link: "/askespredning/", linkText: "Læs mere om askespredning" },
           { q: "Er en afsked uden ceremoni billigere?", a: "Ja, det er typisk den mest enkle og prisvenlige løsning, da der ikke er udgifter til kirke eller kapel. Men prisen afhænger stadig af valg af kiste, urne og kørsel.", link: "/priser/", linkText: "Se den fulde prisliste" },
           { q: "Behandles afdøde stadig med værdighed?", a: "Absolut. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form.", link: null, linkText: null },
           { q: "Hvad er forskellen på afsked uden ceremoni og en traditionel bisættelse?", a: "En traditionel bisættelse inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En afsked uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },

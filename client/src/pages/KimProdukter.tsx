@@ -246,7 +246,7 @@ export default function KimProdukter() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Kister · Urner</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
-          Vælg med ro og overblik
+          Kister og urner – vælg med ro og overblik
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "600px", margin: "0 auto 32px", lineHeight: 1.7 }}>
           Her finder I mit udvalg af kister og urner med gennemsigtige priser. I behøver ikke at have valgt på forhånd – vi finder sammen en løsning, der passer til den, I har mistet, og til jer. Se også <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>alle mine priser</a>.
@@ -381,6 +381,9 @@ export default function KimProdukter() {
           <p style={s.body}>
             Jeg bestiller kistepynt, bårebuketter, kranse og bånd hos en lokal blomsterhandler, og jeg sørger for, at blomsterne kommer ud på graven bagefter.
           </p>
+          <p style={s.body}>
+            Kistepynt: lille 1.800 kr., mellem 2.500 kr., stor 3.500 kr. Silkebånd 300 kr. <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>Se alle priser →</a>
+          </p>
           <h2 style={{ ...s.h2, fontSize: "clamp(20px, 2.6vw, 26px)", margin: "40px 0 12px" }}>Salmeark og sangark</h2>
           <p style={s.body}>
             Jeg laver salmeark eller sangark med billede og navn, så I har et smukt minde fra dagen, uanset om det er en kirkelig eller borgerlig afsked.
@@ -391,7 +394,7 @@ export default function KimProdukter() {
           </p>
           <h2 style={{ ...s.h2, fontSize: "clamp(20px, 2.6vw, 26px)", margin: "40px 0 12px" }}>Gravsten og urnesten</h2>
           <p style={s.body}>
-            Jeg hjælper med kontakten til stenhuggeren, når I skal vælge en gravsten eller en urnesten.
+            Jeg hjælper med kontakten til stenhuggeren. Stenen sættes typisk op nogle måneder efter begravelsen, og kirkegårdens vedtægter bestemmer størrelse og materiale. <a href="/begravelse/#gravsten" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>Læs mere om gravsten →</a>
           </p>
         </div>
       </section>

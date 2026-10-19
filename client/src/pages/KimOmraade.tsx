@@ -20,17 +20,50 @@ const s = {
 };
 
 const KOBENHAVN = [
-  "København K", "København N", "København NV", "København S", "København SV",
-  "København V", "København Ø", "Frederiksberg", "Gentofte", "Gladsaxe",
-  "Herlev", "Lyngby", "Ballerup", "Rødovre", "Brøndby",
-  "Vallensbæk", "Albertslund", "Glostrup", "Hvidovre", "Ishøj",
+  "København K",
+  "København N",
+  "København NV",
+  "København S",
+  "København SV",
+  "København V",
+  "København Ø",
+  "Frederiksberg",
+  "Valby",
+  "Vanløse",
+  "Brønshøj",
+  "Amager, Tårnby og Dragør",
+  "Søborg og Gladsaxe",
+  "Bagsværd",
+  "Herlev",
+  "Ballerup",
+  "Rødovre",
+  "Hvidovre",
+  "Brøndby",
+  "Glostrup",
+  "Albertslund",
+  "Vallensbæk",
+  "Ishøj",
 ];
 
 const NORDSJAELLAND = [
-  "Helsingør", "Hellerup", "Charlottenlund", "Klampenborg", "Skodsborg",
-  "Vedbæk", "Rungsted", "Hørsholm", "Kokkedal", "Humlebæk",
-  "Fredensborg", "Hillerød", "Allerød", "Birkerød", "Holte",
-  "Virum", "Nærum", "Farum", "Værløse", "Bagsværd",
+  "Hellerup og Gentofte",
+  "Charlottenlund",
+  "Klampenborg",
+  "Lyngby og Virum",
+  "Holte, Nærum, Birkerød og Vedbæk",
+  "Skodsborg",
+  "Rungsted og Hørsholm",
+  "Kokkedal, Nivå og Humlebæk",
+  "Fredensborg",
+  "Espergærde og Snekkersten",
+  "Helsingør",
+  "Ålsgårde, Hellebæk og Hornbæk",
+  "Gilleleje, Dronningmølle og Tisvildeleje",
+  "Hillerød",
+  "Allerød",
+  "Farum og Værløse",
+  "Frederikssund",
+  "Helsinge, Frederiksværk og Hundested",
 ];
 
 export default function KimOmraade() {
@@ -119,7 +152,7 @@ export default function KimOmraade() {
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "48px", marginTop: "40px" }}>
             <div>
-              <h3 style={s.h3}>København og omegn</h3>
+              <h3 style={s.h3}>København og Storkøbenhavn</h3>
               <ul style={{ paddingLeft: "20px", margin: 0 }}>
                 {KOBENHAVN.map((by) => (
                   <li key={by} style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#3d4f5a", lineHeight: 1.8 }}>{by}</li>
@@ -135,10 +168,6 @@ export default function KimOmraade() {
               </ul>
             </div>
           </div>
-
-          <p style={{ ...s.body, marginTop: "40px", marginBottom: 0 }}>
-            Jeg kommer også ud som bedemand i Herlev, Ballerup og Rødovre vest for København og i alle byerne langs Nordkysten, fra Hornbæk og Dronningmølle til Gilleleje og Tisvildeleje.
-          </p>
 
           <div style={{ background: "#F9F8F6", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6", marginTop: "48px" }}>
             <h3 style={{ ...s.h3, fontSize: "18px" }}>Ikke sikker på, om jeg dækker dit område?</h3>
@@ -192,6 +221,11 @@ export default function KimOmraade() {
               { label: "Bedemand Nørrebro", href: "/norrebro/" },
               { label: "Bedemand Vesterbro", href: "/vesterbro/" },
               { label: "Bedemand Søborg & Gladsaxe", href: "/soborg/" },
+              { label: "Bedemand Hornbæk", href: "/hornbaek/" },
+              { label: "Bedemand Ålsgårde", href: "/alsgaarde/" },
+              { label: "Bedemand Humlebæk", href: "/humlebaek/" },
+              { label: "Bedemand Gilleleje", href: "/gilleleje/" },
+              { label: "Resten af Sjælland", href: "/sjaelland/" },
             ].map((link) => (
               <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "16px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
                 {link.label}

@@ -262,7 +262,7 @@ export default function KimPersondatapolitik() {
             Ændrer jeg noget i den måde, oplysninger behandles på, opdaterer jeg denne side. Datoen nedenfor viser, hvornår den sidst blev ændret.
           </p>
           <p style={{ ...s.body, fontStyle: "italic", color: "#7a8f99", marginBottom: 0 }}>
-            Senest opdateret 26. august 2026.
+            Senest opdateret 17. oktober 2026.
           </p>
         </div>
       </section>

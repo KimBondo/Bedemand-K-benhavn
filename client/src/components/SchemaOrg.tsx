@@ -35,6 +35,8 @@ export interface ArticleInfo {
   headline: string;
   url: string;
   dateModified: string;
+  datePublished?: string;
+  image?: string;
 }
 
 interface SchemaOrgProps {
@@ -89,6 +91,38 @@ const PRICE_OFFERS = [
   }
 ];
 
+/** Virksomhedens dækningsområde – bruges i LocalBusiness og i prisberegnerens Service-schema. */
+export const OMRAADER = [
+  "København",
+  "Frederiksberg",
+  "Gladsaxe",
+  "Gentofte",
+  "Lyngby-Taarbæk",
+  "Rudersdal",
+  "Furesø",
+  "Allerød",
+  "Hørsholm",
+  "Fredensborg",
+  "Helsingør",
+  "Gribskov",
+  "Hillerød",
+  "Frederikssund",
+  "Halsnæs",
+  "Nordsjælland",
+  "Herlev",
+  "Ballerup",
+  "Rødovre",
+  "Brøndby",
+  "Vallensbæk",
+  "Albertslund",
+  "Glostrup",
+  "Hvidovre",
+  "Ishøj",
+  "Tårnby",
+  "Dragør",
+  "Sjælland",
+];
+
 const KIM_LOCAL_BUSINESS = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -120,36 +154,7 @@ const KIM_LOCAL_BUSINESS = {
     "latitude": 55.7297,
     "longitude": 12.5011
   },
-  "areaServed": [
-    { "@type": "AdministrativeArea", "name": "København" },
-    { "@type": "AdministrativeArea", "name": "Frederiksberg" },
-    { "@type": "AdministrativeArea", "name": "Gladsaxe" },
-    { "@type": "AdministrativeArea", "name": "Gentofte" },
-    { "@type": "AdministrativeArea", "name": "Lyngby-Taarbæk" },
-    { "@type": "AdministrativeArea", "name": "Rudersdal" },
-    { "@type": "AdministrativeArea", "name": "Furesø" },
-    { "@type": "AdministrativeArea", "name": "Allerød" },
-    { "@type": "AdministrativeArea", "name": "Hørsholm" },
-    { "@type": "AdministrativeArea", "name": "Fredensborg" },
-    { "@type": "AdministrativeArea", "name": "Helsingør" },
-    { "@type": "AdministrativeArea", "name": "Gribskov" },
-    { "@type": "AdministrativeArea", "name": "Hillerød" },
-    { "@type": "AdministrativeArea", "name": "Frederikssund" },
-    { "@type": "AdministrativeArea", "name": "Halsnæs" },
-    { "@type": "AdministrativeArea", "name": "Nordsjælland" },
-    { "@type": "AdministrativeArea", "name": "Herlev" },
-    { "@type": "AdministrativeArea", "name": "Ballerup" },
-    { "@type": "AdministrativeArea", "name": "Rødovre" },
-    { "@type": "AdministrativeArea", "name": "Brøndby" },
-    { "@type": "AdministrativeArea", "name": "Vallensbæk" },
-    { "@type": "AdministrativeArea", "name": "Albertslund" },
-    { "@type": "AdministrativeArea", "name": "Glostrup" },
-    { "@type": "AdministrativeArea", "name": "Hvidovre" },
-    { "@type": "AdministrativeArea", "name": "Ishøj" },
-    { "@type": "AdministrativeArea", "name": "Tårnby" },
-    { "@type": "AdministrativeArea", "name": "Dragør" },
-    { "@type": "AdministrativeArea", "name": "Sjælland" }
-  ],
+  "areaServed": OMRAADER.map((navn) => ({ "@type": "AdministrativeArea", "name": navn })),
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
@@ -235,7 +240,9 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
       "url": article.url,
       "mainEntityOfPage": article.url,
       "inLanguage": "da-DK",
+      ...(article.datePublished ? { "datePublished": article.datePublished } : {}),
       "dateModified": article.dateModified,
+      ...(article.image ? { "image": article.image } : {}),
       "author": {
         "@type": "Person",
         "@id": KIM_PERSON_ID,

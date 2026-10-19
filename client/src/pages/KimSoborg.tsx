@@ -3,6 +3,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import CookieLink from "@/components/CookieLink";
+import KimPortraet from "@/components/KimPortraet";
 
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
@@ -100,6 +101,7 @@ export default function KimSoborg() {
           <p style={s.body}>
             For familier i Søborg, Buddinge, Gladsaxe og Bagsværd betyder det, at der er kort vej. Jeg kommer gerne hjem til jer, men I er også meget velkomne til at holde samtalen hos mig på kontoret, hvis det føles bedre at sidde et andet sted end derhjemme.
           </p>
+          <KimPortraet align="left" />
           <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", margin: "8px 0 0" }}>
             <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 28 14 60 11</a>
             <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
@@ -177,10 +179,10 @@ export default function KimSoborg() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirken eller i kapellet på Gladsaxe Kirkegård, med kremering på Bispebjerg Krematorium.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Gladsaxe Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning – fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Søborg Kirke, Gladsaxe Kirke, Buddinge Kirke eller Bagsværd Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer – kapellet på Gladsaxe Kirkegård kan bruges til både kirkelige og borgerlige ceremonier.", href: "/borgerlig-afsked/" },
-              { title: "Askespredning", desc: "Spredning af asken over åbent hav, hvis det var afdødes ønske. Jeg søger tilladelsen for jer.", href: "/askespredning/" },
+              { title: "Askespredning", desc: "Spredning af asken over åbent hav, hvis det var afdødes ønske. Jeg hjælper med tro og love-erklæringen og det praktiske.", href: "/askespredning/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
