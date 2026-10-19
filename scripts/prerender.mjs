@@ -34,6 +34,7 @@ const ROUTES = [
   "/kirkelig-afsked",
   "/borgerlig-afsked",
   "/huskeliste",
+  "/mindeord",
   "/begravelseshjaelp",
   "/omraade",
   "/hvad-koster-en-begravelse",
@@ -127,6 +128,10 @@ const ROUTE_META = {
   "/horsholm": {
     title: "Bedemand H\u00f8rsholm \u2013 Kim Bondo, d\u00f8gnet rundt",
     description: "Personlig bedemand i H\u00f8rsholm, Rungsted og Kokkedal. Kapellet p\u00e5 H\u00f8rsholm Kirkeg\u00e5rd kan benyttes af alle. Ring 28 14 60 11 \u2014 hele d\u00f8gnet.",
+  },
+  "/mindeord": {
+    title: "Mindeord og tale ved begravelse \u2013 skabelon og eksempel",
+    description: "S\u00e5dan skriver du mindeord og en tale til en begravelse eller bis\u00e6ttelse. En enkel skabelon, et eksempel og gode r\u00e5d. Ring til Kim p\u00e5 28 14 60 11.",
   },
   "/huskeliste": {
     title: "Huskeliste ved d\u00f8dsfald \u2013 Bedemand Kim Bondo",

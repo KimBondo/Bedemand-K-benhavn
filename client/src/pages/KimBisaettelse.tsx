@@ -405,6 +405,25 @@ export default function KimBisaettelse() {
         </div>
       </section>
 
+      {/* ── URNENEDSÆTTELSEN ── */}
+      <section style={{ maxWidth: "760px", margin: "0 auto", padding: "80px 32px 64px" }}>
+        <h2
+          style={{
+            fontFamily: "'Lora', serif",
+            fontWeight: 600,
+            fontSize: "clamp(20px, 2.5vw, 30px)",
+            color: "#2F3E46",
+            marginBottom: "20px",
+            lineHeight: 1.3,
+          }}
+        >
+          Urnenedsættelsen
+        </h2>
+        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
+          Efter kremeringen kommer urnen tilbage til kirkegården, og nogle uger efter bisættelsen sættes den ned i gravstedet. Mange familier vælger at være med. Det er en lille, stille stund for de nærmeste, og præsten kan være med, hvis I ønsker det. Jeg aftaler tidspunktet med kirkegården og kan køre urnen, hvis den skal til en anden kirkegård (urnekørsel 900 kr.). Selve nedsættelsen betales efter kirkegårdens takst. Ønsker I i stedet at <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>sprede asken over havet</a>, hjælper jeg også med det.
+        </p>
+      </section>
+
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
 
       {/* ── FAQ ── */}

@@ -24,6 +24,7 @@ import KimAskespredning from "./pages/KimAskespredning";
 import KimKirkeligAfsked from "./pages/KimKirkeligAfsked";
 import KimBorgerligAfsked from "./pages/KimBorgerligAfsked";
 import KimHuskeliste from "./pages/KimHuskeliste";
+import KimMindeord from "./pages/KimMindeord";
 import KimBegravelseshjaelp from "./pages/KimBegravelseshjaelp";
 import KimOmraade from "./pages/KimOmraade";
 import KimHvadKoster from "./pages/KimHvadKoster";
@@ -73,6 +74,7 @@ function SSRApp() {
             <Route path={"/kirkelig-afsked"} component={KimKirkeligAfsked} />
             <Route path={"/borgerlig-afsked"} component={KimBorgerligAfsked} />
             <Route path={"/huskeliste"} component={KimHuskeliste} />
+            <Route path={"/mindeord"} component={KimMindeord} />
             <Route path={"/begravelseshjaelp"} component={KimBegravelseshjaelp} />
             <Route path={"/omraade"} component={KimOmraade} />
             <Route path={"/hvad-koster-en-begravelse"} component={KimHvadKoster} />

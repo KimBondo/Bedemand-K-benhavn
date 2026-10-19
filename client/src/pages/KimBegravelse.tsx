@@ -179,6 +179,10 @@ export default function KimBegravelse() {
             </div>
           </div>
         ))}
+        <h3 id="gravsten" style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(16px, 1.8vw, 20px)", color: "#2F3E46", marginBottom: "8px" }}>Gravsten</h3>
+        <p style={{ fontSize: "clamp(14px, 1.5vw, 16px)", color: "#4a6270", lineHeight: 1.8 }}>
+          En gravsten sættes typisk op nogle måneder efter begravelsen, når jorden har sat sig – ofte efter 3–6 måneder. På en urnegrav kan det ske tidligere. Kirkegårdens vedtægter bestemmer, hvor stor stenen må være, og hvilke materialer der må bruges. Derfor tager jeg kontakten til kirkegården og en stenhugger, så I får et tilbud, der passer til gravstedet.
+        </p>
       </section>
 
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />

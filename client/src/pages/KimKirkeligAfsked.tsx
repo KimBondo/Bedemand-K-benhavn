@@ -177,6 +177,7 @@ export default function KimKirkeligAfsked() {
           <p style={s.body}>
             Er I i tvivl om hvilken kirke afdøde tilhørte, kan I finde det på <a href="https://www.sogn.dk" target="_blank" rel="noopener noreferrer" style={s.link}>Sogn.dk</a> ved at indtaste adressen. Jeg hjælper også gerne med at finde frem til de rette oplysninger.
           </p>
+          <a href="/mindeord/" style={s.link}>Mindeord og tale ved begravelsen →</a>
         </div>
       </section>
 

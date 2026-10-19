@@ -35,6 +35,8 @@ export interface ArticleInfo {
   headline: string;
   url: string;
   dateModified: string;
+  datePublished?: string;
+  image?: string;
 }
 
 interface SchemaOrgProps {
@@ -238,7 +240,9 @@ export default function SchemaOrg({ type, faqItems, breadcrumbs, services, produ
       "url": article.url,
       "mainEntityOfPage": article.url,
       "inLanguage": "da-DK",
+      ...(article.datePublished ? { "datePublished": article.datePublished } : {}),
       "dateModified": article.dateModified,
+      ...(article.image ? { "image": article.image } : {}),
       "author": {
         "@type": "Person",
         "@id": KIM_PERSON_ID,

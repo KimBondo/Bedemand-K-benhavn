@@ -230,6 +230,7 @@ export default function KimHuskeliste() {
           <p style={s.body}>
             Typiske udgifter der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser.
           </p>
+          <a href="/mindeord/" style={s.link}>Mindeord og tale ved begravelsen →</a>
         </div>
       </section>
 
@@ -244,6 +245,16 @@ export default function KimHuskeliste() {
               <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ── SORG OG STØTTE ── */}
+      <section style={{ background: "#fff", padding: "72px 32px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Sorg og støtte efter afskeden</h2>
+          <p style={{ ...s.body, marginBottom: 0 }}>
+            Sorgen holder ikke op, når afskeden er overstået. Har I brug for nogen at tale med, kan I finde viden og hjælp hos Det Nationale Sorgcenter på <a href="https://sorgcenter.dk/" target="_blank" rel="noopener" style={s.link}>sorgcenter.dk</a>. Mange sogne har også sorggrupper – spørg i jeres lokale kirke. I er altid velkomne til at ringe til mig, også længe efter.
+          </p>
         </div>
       </section>
 

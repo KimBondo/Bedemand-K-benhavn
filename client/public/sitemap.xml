@@ -106,6 +106,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.bedemandkobenhavn.dk/mindeord/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.bedemandkobenhavn.dk/begravelseshjaelp/</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>

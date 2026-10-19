@@ -53,6 +53,10 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     title: "Borgerlig afsked – Bedemand Kim Bondo",
     description: "En personlig afsked uden kirke og præst. Kim Bondo hjælper med at skabe en meningsfuld og individuel ceremoni der afspejler den afdødes liv.",
   },
+  "/mindeord": {
+    title: "Mindeord og tale ved begravelse – skabelon og eksempel",
+    description: "Sådan skriver du mindeord og en tale til en begravelse eller bisættelse. En enkel skabelon, et eksempel og gode råd. Ring til Kim på 28 14 60 11.",
+  },
   "/huskeliste": {
     title: "Huskeliste ved dødsfald – Bedemand Kim Bondo",
     description: "Komplet huskeliste over hvad der skal ordnes ved et dødsfald. Kim Bondo guider jer igennem alle praktiske opgaver trin for trin.",
