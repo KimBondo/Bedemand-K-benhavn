@@ -110,7 +110,7 @@ export default function KimGilleleje() {
             Jeg kører selv ud fra mit kontor i Søborg i Gladsaxe – til Gilleleje, Græsted, Vejby, Blistrup og de andre byer på Nordkysten. Priserne er de samme faste priser som i København.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", margin: "8px 0 40px" }}>
-            <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 22 21 14 37</a>
+            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 28 14 60 11</a>
             <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
           </div>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Lokal og personlig</h2>
@@ -158,7 +158,7 @@ export default function KimGilleleje() {
             Der er sjældent grund til at haste. Ring til mig på 28 14 60 11 – også hvis I bare har et enkelt spørgsmål – så finder vi sammen ud af, hvad der er bedst for jer.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", margin: "8px 0 0" }}>
-            <a href="tel:22211437" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 22 21 14 37</a>
+            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 28 14 60 11</a>
             <a href="/prisberegner/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Prisberegner</a>
           </div>
         </div>
