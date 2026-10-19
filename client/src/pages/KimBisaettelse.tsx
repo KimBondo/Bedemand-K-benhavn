@@ -37,7 +37,7 @@ export default function KimBisaettelse() {
       <SchemaOrg
         type="FAQPage"
         faqItems={[
-          { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. Begge kan foregå med eller uden ceremoni." },
+          { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni." },
           { question: "Kan man holde en bisættelse uden ceremoni?", answer: "Ja. En afsked uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et senere tidspunkt." },
           { question: "Hvad sker der med urnen efter bisættelsen?", answer: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper med at finde den løsning, der passer til afdødes og familiens ønsker." },
           { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering. Det er et valg, mange familier sætter pris på." },
@@ -422,7 +422,7 @@ export default function KimBisaettelse() {
         {[
           {
             q: "Hvad er forskellen på bisættelse og begravelse?",
-            a: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. Begge kan foregå med eller uden ceremoni.",
+            a: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni.",
             link: "/begravelse/",
             linkText: "Læs mere om begravelse her",
           },

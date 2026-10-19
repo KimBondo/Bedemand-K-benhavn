@@ -36,9 +36,8 @@ export default function KimBegravelse() {
       <SchemaOrg
         type="FAQPage"
         faqItems={[
-          { question: "Hvad er forskellen på begravelse og bisættelse?", answer: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. Begge kan foregå med eller uden ceremoni." },
+          { question: "Hvad er forskellen på begravelse og bisættelse?", answer: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni." },
           { question: "Kan man have en borgerlig begravelse?", answer: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation." },
-          { question: "Kan en begravelse foregå uden ceremoni?", answer: "Ja. Kisten kan transporteres direkte til gravstedet, hvor jordfæstelsen finder sted uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et andet tidspunkt." },
           { question: "Kan man vælge en miljøvenlig kiste?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer. En miljøvenlig kiste er et smukt valg for dem, der ønsker en afsked i harmoni med naturen." },
           { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud." },
         ]}
@@ -208,9 +207,8 @@ export default function KimBegravelse() {
           Ofte stillede spørgsmål om begravelse
         </h2>
         {[
-          { q: "Hvad er forskellen på begravelse og bisættelse?", a: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. Begge kan foregå med eller uden ceremoni.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
+          { q: "Hvad er forskellen på begravelse og bisættelse?", a: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
           { q: "Kan man have en borgerlig begravelse?", a: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation.", link: null, linkText: null },
-          { q: "Kan en begravelse foregå uden ceremoni?", a: "Ja. Kisten kan transporteres direkte til gravstedet, hvor jordfæstelsen finder sted uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et andet tidspunkt.", link: "/afsked-uden-ceremoni/", linkText: "Læs mere om afsked uden ceremoni" },
           { q: "Kan man vælge en miljøvenlig kiste?", a: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer. En miljøvenlig kiste er et smukt valg for dem, der ønsker en afsked i harmoni med naturen.", link: null, linkText: null },
           { q: "Hvad er inkluderet i prisen?", a: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud.", link: "/priser/", linkText: "Se den fulde prisliste" },
         ].map((item, i) => (

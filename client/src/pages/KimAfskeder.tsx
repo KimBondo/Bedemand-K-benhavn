@@ -125,8 +125,8 @@ export default function KimAfskeder() {
             {
               title: "Afsked uden ceremoni",
               tag: "Enkel",
-              desc: "En enkel og diskret afsked uden formel ceremoni. Kisten transporteres direkte til krematoriet eller gravstedet. Mange familier vælger at holde en mindesamvær på et andet tidspunkt.",
-              details: ["Ingen formel ceremoni", "Direkte til krematorium eller gravsted", "Mulighed for mindesamvær senere", "Priser fra 13.550 kr."],
+              desc: "En enkel og diskret afsked uden kirkelig eller borgerlig ceremoni. Kisten køres direkte til krematoriet. Mange familier vælger at holde et mindesamvær på et andet tidspunkt.",
+              details: ["Ingen formel ceremoni", "Direkte til krematoriet", "Mulighed for mindesamvær senere", "Priser fra 13.550 kr."],
               href: "/afsked-uden-ceremoni/",
               linkText: "Læs om afsked uden ceremoni",
             },
