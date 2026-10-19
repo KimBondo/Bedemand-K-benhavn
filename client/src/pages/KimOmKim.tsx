@@ -191,14 +191,14 @@ export default function KimOmKim() {
               <p style={s.body}>
                 Jeg hedder Kim Bondo, og jeg er selvstændig bedemand med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland – og efter aftale på resten af Sjælland til de samme faste priser.
               </p>
-              <p style={{ ...s.body, background: "#FFF3C4", border: "1px dashed #B8860B", padding: "8px 12px", borderRadius: "3px" }}>
-                [BAGGRUND: 2–3 sætninger om, hvad du lavede, før du blev bedemand.]
+              <p style={s.body}>
+                Før jeg blev bedemand, arbejdede jeg i mange år som terapeut. Her lærte jeg at være der for mennesker i sorg og krise – at lytte, rumme og give plads, uanset hvad de har været igennem. Det har jeg taget med mig ind i arbejdet som bedemand.
               </p>
-              <p style={{ ...s.body, background: "#FFF3C4", border: "1px dashed #B8860B", padding: "8px 12px", borderRadius: "3px" }}>
-                [HVORFOR: 1–2 sætninger om, hvorfor du blev bedemand.]
+              <p style={s.body}>
+                Jeg har også drevet min egen forretning i mange år, så jeg er vant til planlægning, aftaler og at holde styr på mange ting på én gang. Som bedemand kan jeg bruge begge sider af mig selv: omsorgen for de efterladte og overblikket over alt det praktiske, så I trygt kan lægge det i mine hænder.
               </p>
-              <p style={{ ...s.body, background: "#FFF3C4", border: "1px dashed #B8860B", padding: "8px 12px", borderRadius: "3px" }}>
-                [ERFARING – kun hvis du vil: fx "Jeg har været bedemand siden [år]."]
+              <p style={s.body}>
+                Jeg har arbejdet i bedemandsbranchen i fire år.
               </p>
               <p style={s.body}>
                 For mig handler arbejdet om at møde mennesker med nærvær og ro. Jeg ved, hvor vigtigt det er at kunne rumme både tårer, tavshed og et befriende smil – uden at skynde på nogen. Det er ikke en opgave for mig at hjælpe jer igennem en afsked. Det er et privilegium.
