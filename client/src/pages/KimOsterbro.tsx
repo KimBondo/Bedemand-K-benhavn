@@ -116,10 +116,7 @@ export default function KimOsterbro() {
             Holmens Kirkegård blev anlagt til flåden, Garnisons til hæren, og de ligger stadig side om side ved Øster Farimagsgade og Dag Hammarskjölds Allé. Kapellet på Holmens Kirkegård, Upsalagade 25, blev opført i 1902 af arkitekten Ludvig Fenger og har 110 siddepladser. Det bruges til både kirkelige og borgerlige ceremonier, har orgel og lydanlæg, og I kan komme ind en time før.
           </p>
           <p style={s.body}>
-            Østerbro har flere kirker og tæt adgang til Bispebjerg Krematorium. Mange familier vælger en ceremoni i en lokal kirke eller kapel og lader kremeringen ske på Bispebjerg. Jeg holder styr på det praktiske.
-          </p>
-          <p style={s.body}>
-            Det er ikke et neutralt lokale: i kapellet hænger Heinrich Dohms maleri »Den store hvide flok« fra 1915, og alterrelief og lysestager er udført af billedhuggeren Margrethe Sørensen. Blandt kirkerne i bydelen er Sankt Jakobs Kirke på Østerbrogade, Kildevældskirken, Sions Kirke, Esajas Kirke og Kastelskirken. Østerbro har ikke sit eget krematorium.
+            Det er ikke et neutralt lokale: i kapellet hænger Heinrich Dohms maleri »Den store hvide flok« fra 1915, og alterrelief og lysestager er udført af billedhuggeren Margrethe Sørensen. Blandt kirkerne i bydelen er Sankt Jakobs Kirke på Østerbrogade, Kildevældskirken, Sions Kirke, Esajas Kirke og Kastelskirken.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>

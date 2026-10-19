@@ -22,8 +22,8 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand på Frederiksberg?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Frederiksberg, hele København og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse på Frederiksberg?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Frederiksberg er sin egen kommune med sine egne takster — dem finder jeg for jer, inden I siger ja til noget." },
-  { question: "Er der et krematorium på Frederiksberg?", answer: "Ja. Det hedder Søndermark Krematorium og ligger på Roskildevej 59, på Søndermark Kirkegård. Det drives af Frederiksberg Kommune, og der er to ceremonisale — den lille med 58 pladser og den store med 182." },
-  { question: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Salene på Søndermark Krematorium kan indrettes uden religiøse symboler og benyttes af alle trosretninger." },
+  { question: "Er der et krematorium på Frederiksberg?", answer: "Ja. Det hedder Søndermark Krematorium og ligger på Roskildevej 59, på Søndermark Kirkegård. Det drives af Frederiksberg Kommune. På Søndermarken ligger også to kapelsale – den lille med 58 pladser og den store med 182." },
+  { question: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", answer: "Ja – jeg hjælper med ceremonier helt uden religiøse ritualer. De to kapelsale på Søndermarken kan indrettes uden religiøse symboler og benyttes af alle trosretninger." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
 
@@ -128,7 +128,7 @@ export default function KimFrederiksberg() {
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Nærværende og tilgængelig</p>
-          <h2 style={s.h2}>Bedemand i Frederiksberg</h2>
+          <h2 style={s.h2}>Bedemand på Frederiksberg</h2>
           <p style={s.body}>
             Frederiksberg er sin egen kommune midt i København, og det betyder noget i praksis: egne kirkegårde, eget krematorium og egne takster. Kommunen har tre kirkegårde — Frederiksberg Ældre Kirkegård fra 1734, Solbjerg Parkkirkegård fra 1865 og Søndermark Kirkegård fra 1929 — og alle kan få gravsted her, uanset trosretning og bopæl.
           </p>
@@ -137,7 +137,7 @@ export default function KimFrederiksberg() {
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Frederiksberg</h3>
           <p style={s.body}>
-            Krematoriet på Frederiksberg hedder Søndermark Krematorium og ligger på Roskildevej 59, på Søndermark Kirkegård. Der er to ceremonisale: Lille Sal med 58 pladser og Store Sal med 182 pladser, stort orgel og et kunstværk af Einar Utzon-Frank. Begge sale kan benyttes uanset trosretning og kan indrettes helt uden religiøse symboler.
+            På Søndermarken ligger to kapelsale: Lille Sal med 58 pladser og Store Sal med 182 pladser, stort orgel og et kunstværk af Einar Utzon-Frank. Begge kan benyttes uanset trosretning og kan indrettes helt uden religiøse symboler. Søndermark Krematorium ligger på samme kirkegård, Roskildevej 59.
           </p>
           <p style={s.body}>
             Frederiksberg Ældre Kirkegård og Søndermark Kirkegård har begge kolumbarium, altså urnenicher indendørs — en mulighed, mange ikke kender. Blandt kirkerne er Frederiksberg Kirke på Frederiksberg Allé, Frederiksberg Slotskirke på Roskildevej, Solbjerg Kirke på Howitzvej og Sankt Markus Kirke på Forchhammersvej.
@@ -157,7 +157,7 @@ export default function KimFrederiksberg() {
               { title: "Begravelse", desc: "Kiste i jord på Frederiksberg Ældre Kirkegård, Solbjerg Parkkirkegård eller Søndermark Kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Frederiksberg Kirke eller Solbjerg Kirke.", href: "/kirkelig-afsked/" },
-              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — salene på Søndermark kan indrettes helt uden religiøse symboler.", href: "/borgerlig-afsked/" },
+              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — de to kapelsale på Søndermarken kan indrettes helt uden religiøse symboler.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg hjælper med tro og love-erklæringen og det praktiske.", href: "/askespredning/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

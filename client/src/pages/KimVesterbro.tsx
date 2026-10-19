@@ -116,9 +116,6 @@ export default function KimVesterbro() {
             Nordre Kapel fra 1892 er kirkegårdens ceremonikapel — 225 siddepladser, traditionelle kirkebænke og et nyrestaureret pibeorgel af I.P. Henriksen. Det er et af byens smukkeste rum at tage afsked i, og det kan bruges både kirkeligt og borgerligt. De to andre kapeller bruges ikke længere til ceremonier: Søndre Kapel fra 1906 hedder i dag Stjernevejspavillonen, og Østre Kapel fra 1913 bruges til kultur og teater.
           </p>
           <p style={s.body}>
-            Vesterbro har tæt forbindelse til både Assistens og andre kirkegårde. Jeg koordinerer med de lokale kirker og sørger for, at transport og praktiske forhold er på plads, uanset om det er kirkelig eller borgerlig afsked.
-          </p>
-          <p style={s.body}>
             Vestre Kirkegård er usædvanlig ved sin mangfoldighed — der er blandt andet færøske, grønlandske, muslimske og katolske afdelinger, og omkring 1.500 gravsten er registreret som bevaringsværdige. Blandt kirkerne i sognet er Sankt Matthæus Kirke i Matthæusgade, Enghave Kirke på Sønder Boulevard, Eliaskirken på Vesterbrogade, Kristkirken ved Enghave Plads og Mariakirken i Istedgade.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>

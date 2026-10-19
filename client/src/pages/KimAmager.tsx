@@ -113,10 +113,7 @@ export default function KimAmager() {
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Amager</h3>
           <p style={s.body}>
-            Sundby Kirkegård på Kastrupvej er amagerkanernes egen kirkegård — knap ti hektar, anlagt i 1872, med kiste-, urne- og børnegrave. Kapelsalen har 64 siddepladser og bruges til både kirkelige og borgerlige ceremonier. Sundby Krematorium ligger på samme adresse, og Amager er dermed en af de få dele af hovedstaden, hvor selve kremeringen sker i bydelen.
-          </p>
-          <p style={s.body}>
-            Sundby Krematorium på samme adresse som kirkegården gør Amager praktisk for mange familier. Ceremonien kan holdes i kapelsalen eller i en af de lokale kirker, og jeg sørger for koordineringen med både krematorium og kirkegårdskontor.
+            Sundby Kirkegård på Kastrupvej er amagerkanernes egen kirkegård — knap ti hektar, anlagt i 1872, med kiste-, urne- og børnegrave. Kapelsalen har 64 siddepladser og bruges til både kirkelige og borgerlige ceremonier. Sundby Krematorium ligger på samme adresse, og Amager er dermed en af de få dele af hovedstaden, hvor selve kremeringen sker i bydelen. Ceremonien kan holdes i kapelsalen eller i en af de lokale kirker, og jeg sørger for koordineringen med både krematorium og kirkegårdskontor.
           </p>
           <p style={s.body}>
             I Tårnby og Kastrup gælder andre kirkegårde: Tårnby Kirkegård på Englandsvej og Kastrup Kirkegård på Kastrupvej, hvor kapellet fra 1904 stadig bruges til både bisættelser og begravelser. Blandt kirkerne har jeg jævnlig kontakt med Sundby Kirke, Filips Kirke, Nathanaels Kirke, Tårnby Kirke og Kastrup Kirke.

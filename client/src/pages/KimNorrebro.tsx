@@ -116,9 +116,6 @@ export default function KimNorrebro() {
             På Assistens ligger Søren Kierkegaard, H.C. Andersen og Niels Bohr — og Dan Turèll og Natasja. Omkring en fjerdedel af arealet bruges stadig aktivt til begravelser og urnenedsættelser; resten er kirkegårdspark med gratis rundvisninger og guider. I Møllegade ligger desuden Mosaisk Nordre Begravelsesplads fra 1690'erne, der er fredet og ikke længere i brug.
           </p>
           <p style={s.body}>
-            På Nørrebro er Assistens Kirkegård det mest kendte sted, men der er også andre muligheder. Jeg kender de lokale kapeller og koordinerer med både Bispebjerg Krematorium og de nærmeste kirkegårde.
-          </p>
-          <p style={s.body}>
             Nørrebro har ingen kapeller, der kan bookes til ceremoni gennem Københavns Kommune. Det nærmeste er Søndre Kapel på Bispebjerg Kirkegård, og det bruger jeg jævnligt. Blandt kirkerne er Sankt Johannes Kirke ved Blegdamsvej, Hellig Kors Kirke på Kapelvej, Brorsons Kirke i Rantzausgade, Simeons Kirke i Sjællandsgade og Bethlehemskirken på Åboulevard. Bispebjerg er i øvrigt sin egen bydel — både kirkegården, krematoriet og Grundtvigs Kirke ligger dér.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>

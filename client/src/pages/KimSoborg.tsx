@@ -180,7 +180,7 @@ export default function KimSoborg() {
               { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning – fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Søborg Kirke, Gladsaxe Kirke, Buddinge Kirke eller Bagsværd Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer – kapellet på Gladsaxe Kirkegård kan bruges til både kirkelige og borgerlige ceremonier.", href: "/borgerlig-afsked/" },
-              { title: "Askespredning", desc: "Spredning af asken over åbent hav, hvis det var afdødes ønske. Jeg søger tilladelsen for jer.", href: "/askespredning/" },
+              { title: "Askespredning", desc: "Spredning af asken over åbent hav, hvis det var afdødes ønske. Jeg hjælper med tro og love-erklæringen og det praktiske.", href: "/askespredning/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
                 <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>

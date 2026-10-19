@@ -169,7 +169,7 @@ export default function KimHvadKoster() {
             Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til <strong>13.550 kr.</strong> afhængigt af afdødes formue. Var afdøde født før 1. april 1957, udbetales der altid mindst <strong>1.050 kr.</strong> — uanset formue.
           </p>
           <p style={s.body}>
-            Er afdøde eller den efterlevende ægtefælle/samlever medlem af <strong>Sygeforsikring 'danmark'</strong> gruppe 1 eller 2, kan der søges yderligere op til 1.400 kr.
+            Var afdøde medlem af <strong>Sygeforsikringen "danmark"</strong> i gruppe 1 eller 2 – og blev optaget senest 31. december 2022 – udbetaler "danmark" yderligere 1.400 kr. Beløbet kan betales direkte til mig og trækkes fra fakturaen.
           </p>
           <p style={s.body}>
             Jeg hjælper med ansøgningen som en del af mit arbejde — I behøver ikke selv stå med det.
@@ -411,20 +411,22 @@ export default function KimHvadKoster() {
               <thead>
                 <tr style={{ borderBottom: "2px solid #e0dcd6" }}>
                   <th style={{ textAlign: "left", padding: "10px 12px 10px 0", color: "#2F3E46", fontWeight: 700 }}>Situation</th>
-                  <th style={{ textAlign: "right", padding: "10px 12px", color: "#2F3E46", fontWeight: 700, whiteSpace: "nowrap" }}>Maks. tilskud</th>
-                  <th style={{ textAlign: "right", padding: "10px 0", color: "#2F3E46", fontWeight: 700, whiteSpace: "nowrap" }}>Bortfalder ved formue over</th>
+                  <th style={{ textAlign: "right", padding: "10px 12px", color: "#2F3E46", fontWeight: 700 }}>Højst</th>
+                  <th style={{ textAlign: "right", padding: "10px 12px", color: "#2F3E46", fontWeight: 700 }}>Nedsættes ved formue over</th>
+                  <th style={{ textAlign: "right", padding: "10px 0", color: "#2F3E46", fontWeight: 700 }}>Bortfalder ved formue over</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  ["Afdøde over 18 år m. ægtefælle/børn under 18", "13.550 kr.", "58.800 kr."],
-                  ["Afdøde over 18 år, enlig uden børn", "13.550 kr.", "36.250 kr."],
-                  ["Afdøde under 18 år", "11.300 kr.", "— (fast beløb)"],
-                  ["Afdøde født før 1. april 1957", "Min. 1.050 kr.", "Uanset formue"],
-                ].map(([situation, max, limit]) => (
+                  ["18 år eller derover – efterlader ægtefælle og/eller børn under 18 år", "13.550 kr.", "45.250 kr.", "58.800 kr."],
+                  ["18 år eller derover – efterlader hverken ægtefælle eller børn under 18 år", "13.550 kr.", "22.700 kr.", "36.250 kr."],
+                  ["Under 18 år (også dødfødte)", "11.300 kr. (fast)", "–", "–"],
+                  ["Født før 1. april 1957", "mindst 1.050 kr.", "uanset formue", "–"],
+                ].map(([situation, max, reduce, limit]) => (
                   <tr key={situation} style={{ borderBottom: "1px solid #e0dcd6" }}>
                     <td style={{ padding: "12px 12px 12px 0", color: "#3d5260", lineHeight: 1.5 }}>{situation}</td>
                     <td style={{ padding: "12px 12px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>{max}</td>
+                    <td style={{ padding: "12px 12px", color: "#7a8f99", textAlign: "right", whiteSpace: "nowrap", fontSize: "14px" }}>{reduce}</td>
                     <td style={{ padding: "12px 0", color: "#7a8f99", textAlign: "right", whiteSpace: "nowrap", fontSize: "14px" }}>{limit}</td>
                   </tr>
                 ))}
@@ -437,7 +439,7 @@ export default function KimHvadKoster() {
             </p>
           </div>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75 }}>
-            Sygeforsikring "danmark" yder desuden op til <strong>1.400 kr.</strong> i tilskud til medlemmer.
+            Sygeforsikringen "danmark" udbetaler desuden <strong>1.400 kr.</strong>, når et medlem af gruppe 1 eller 2, optaget senest 31. december 2022, dør.
           </p>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", color: "#7a8f99", fontStyle: "italic", lineHeight: 1.7 }}>
             Kilde: Udbetaling Danmark / borger.dk, 2026-satser.
