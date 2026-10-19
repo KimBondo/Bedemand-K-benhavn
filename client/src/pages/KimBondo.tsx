@@ -509,7 +509,7 @@ export default function KimBondo() {
               marginBottom: "20px",
             }}
           >
-            Når I ringer, er det mig, der tager telefonen. Det er også mig, der kommer hjem til jer, holder styr på det praktiske og selv er til stede ved højtideligheden. I bliver ikke sendt videre mellem skiftende medarbejdere, og I kan altid ringe til mig, når der dukker et spørgsmål op. Jeg hjælper familier i København og <a href="/nordsjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Nordsjælland</a>. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>et andet sted på Sjælland</a>, så ring alligevel – så finder vi en løsning sammen.
+            Når I ringer, er det mig, der tager telefonen. Det er også mig, der kommer hjem til jer, holder styr på det praktiske og selv er til stede ved højtideligheden. I bliver ikke sendt videre mellem skiftende medarbejdere, og I kan altid ringe til mig, når der dukker et spørgsmål op. Jeg hjælper familier i København, Storkøbenhavn og <a href="/nordsjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Nordsjælland</a>. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>et andet sted på Sjælland</a>, så ring alligevel – så finder vi en løsning sammen.
           </p>
           <h3
             style={{
@@ -532,7 +532,7 @@ export default function KimBondo() {
               marginBottom: "20px",
             }}
           >
-            Min bedemandsforretning ligger på Vandtårnsvej 62A, kontor 11, i Søborg. Som bedemand i Gladsaxe og København kender jeg kirkerne, kirkegårdene og Bispebjerg Krematorium godt, og jeg hjælper familier i hele hovedstadsområdet og Nordsjælland.
+            Min bedemandsforretning ligger på Vandtårnsvej 62A, kontor 11, i Søborg. Som bedemand i Gladsaxe og København kender jeg kirkerne, kirkegårdene og Bispebjerg Krematorium godt, og jeg hjælper familier i hele København, Storkøbenhavn og Nordsjælland.
           </p>
           <h3
             style={{

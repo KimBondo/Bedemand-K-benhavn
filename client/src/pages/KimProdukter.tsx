@@ -246,7 +246,7 @@ export default function KimProdukter() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Kister · Urner</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
-          Vælg med ro og overblik
+          Kister og urner – vælg med ro og overblik
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "600px", margin: "0 auto 32px", lineHeight: 1.7 }}>
           Her finder I mit udvalg af kister og urner med gennemsigtige priser. I behøver ikke at have valgt på forhånd – vi finder sammen en løsning, der passer til den, I har mistet, og til jer. Se også <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>alle mine priser</a>.

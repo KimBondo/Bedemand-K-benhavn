@@ -13,7 +13,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand på Østerbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Østerbro, resten af København og hele Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
+  { question: "Hvem er bedemand på Østerbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Østerbro og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse på Østerbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvilke kirkegårde og kapeller er der på Østerbro?", answer: "Holmens Kirkegård og Garnisons Kirkegård, som begge blev anlagt i 1660'erne og drives af sognenes menighedsråd. Kapellet på Holmens Kirkegård i Upsalagade har 110 pladser og bruges til både kirkelige og borgerlige ceremonier. Østerbro har ikke eget krematorium — kremeringen foregår på Bispebjerg." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Kapellet på Holmens Kirkegård kan bruges af alle, uanset tro." },
@@ -130,7 +130,7 @@ export default function KimOsterbro() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirke eller i kapellet på Holmens Kirkegård, med kremering på Bispebjerg Krematorium.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Holmens eller Garnisons Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Jakobs Kirke eller Kildevældskirken.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — kapellet på Holmens Kirkegård kan bruges af alle.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Østerbro er der kort vej til Øresund.", href: "/askespredning/" },

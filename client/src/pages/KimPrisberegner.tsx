@@ -1,7 +1,7 @@
 import SEO from "@/components/SEO";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
-import SchemaOrg from "@/components/SchemaOrg";
+import SchemaOrg, { OMRAADER } from "@/components/SchemaOrg";
 import { useState } from "react";
 import { PAKKEPRISER } from "@/lib/priser";
 import CookieLink from "@/components/CookieLink";
@@ -55,11 +55,13 @@ const ADDONS = [
   { id: "pynt-mellem", label: "Kistepynt mellem", price: 2500 },
   { id: "pynt-stor", label: "Kistepynt stor", price: 3500 },
   { id: "roser", label: "10 farvelroser", price: 350 },
-  { id: "aske", label: "Askespredning over havet", price: 2500 },
+  { id: "aske", label: "Askespredning over havet", price: 2500, fra: true },
   // Urnekørsel giver ikke mening ved begravelse, hvor der ingen urne er
   { id: "urnekoersel", label: "Urnekørsel fra krematorie til kirkegårdskontor", price: 900, ikkeVed: "begravelse" },
   // Blomsterkørsel kan også være aktuel ved begravelse, fx når kirken ikke har egen kirkegård
   { id: "blomsterkoersel", label: "Blomsterkørsel og udlægning på kirkegård", price: 900 },
+  { id: "privat-hjem", label: "Afhentning i et privat hjem", price: 1200 },
+  { id: "efter-16", label: "Afhentning efter kl. 16, i weekenden eller på en helligdag", price: 800 },
 ] as const;
 
 /** Tilvalg, der giver mening for den valgte afskedsform. */
@@ -115,7 +117,7 @@ export default function KimPrisberegner() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["København", "Nordsjælland"]}
+        areaServed={OMRAADER}
         pageUrl="https://www.bedemandkobenhavn.dk/prisberegner/"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
@@ -233,7 +235,7 @@ export default function KimPrisberegner() {
 
           <h2 style={s.h2}>{base ? 3 : 2}. Hvor skal det foregå? <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", marginBottom: "40px" }}>
-            {["København (Bispebjerg eller Sundby)", "Nordsjælland (Hillerød eller Helsingør)", "Ved ikke endnu / andet"].map((loc) => (
+            {["København, Frederiksberg og Storkøbenhavn", "Nordsjælland", "Ved ikke endnu / andet"].map((loc) => (
               <label key={loc} style={{ display: "flex", alignItems: "center", gap: "8px", background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "12px 16px", cursor: "pointer" }}>
                 <input type="radio" name="location" checked={location === loc} onChange={() => setLocation(loc)} />
                 <span style={{ fontSize: "15px" }}>
@@ -264,7 +266,7 @@ export default function KimPrisberegner() {
                       <input type="number" min={1} value={qty} onChange={(e) => setQty(addon.id, Number(e.target.value))} style={{ width: "70px", padding: "6px 8px", border: "1px solid #e0dcd6", borderRadius: "3px" }} />
                     )}
                     <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
-                      {selected ? `${(addon.price * qty).toLocaleString("da-DK")} kr.` : `Fra ${addon.price.toLocaleString("da-DK")} kr.`}
+                      {selected ? `${(addon.price * qty).toLocaleString("da-DK")} kr.` : `${"fra" in addon ? "Fra " : ""}${addon.price.toLocaleString("da-DK")} kr.`}
                     </span>
                   </div>
                 </div>
@@ -283,6 +285,9 @@ export default function KimPrisberegner() {
               </p>
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "0 auto" }}>
                 Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter. Disse beløb er ikke med i overslaget.
+              </p>
+              <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
+                Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget på 800 kr.
               </p>
               <p style={{ ...s.body, fontSize: "15px", marginTop: "24px", fontStyle: "italic" }}>
                 Der ligger rigtig meget koordinering og planlægning bag en afsked. Jeg sørger for, at I ikke selv skal holde styr på tider, kontakter og praktiske detaljer. I taler med mig hele vejen.

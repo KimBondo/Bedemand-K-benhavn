@@ -131,7 +131,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/om-kim": {
     title: "Om Kim Bondo – Personlig bedemand i København",
-    description: "Lær Kim Bondo at kende. Bedemand med hjerte, nærvær og spirituel forankring. Kim hjælper familier i sorg med ro og omsorg.",
+    description: "Mød Kim Bondo – selvstændig bedemand med base i Gladsaxe og Søborg. Jeg hjælper familier i hele København, Storkøbenhavn og Nordsjælland. Ring 28 14 60 11.",
   },
   "/fredensborg": {
     title: "Bedemand Fredensborg – Kim Bondo, døgnet rundt",

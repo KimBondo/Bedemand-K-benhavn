@@ -26,7 +26,7 @@ const FAQ = [
   { question: "Hvad koster en bisættelse i København?", answer: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 18.300 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
   { question: "Er der skjulte udgifter?", answer: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
   { question: "Kan man betale i rater?", answer: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning, der passer til jer." },
-  { question: "Hvad koster det at bruge Kim som bedemand?", answer: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 13.550 kr. (uden ceremoni), 18.300 kr. (bisættelse) og 19.300 kr. (begravelse). Se den fulde prisliste på prissiden." },
+  { question: "Hvad koster det at bruge dig som bedemand?", answer: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved bisættelse eller begravelse med ceremoni. Den samlede pakkepris starter fra 13.550 kr. (uden ceremoni), 18.300 kr. (bisættelse) og 19.300 kr. (begravelse). Se den fulde prisliste på prissiden." },
 ];
 
 export default function KimHvadKoster() {
@@ -40,7 +40,7 @@ export default function KimHvadKoster() {
       />
       <SchemaOrg
         type="both"
-        article={{ headline: "Hvad koster en begravelse eller bisættelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/", dateModified: "2026-09-28" }}
+        article={{ headline: "Hvad koster en begravelse eller bisættelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/", dateModified: "2026-10-19" }}
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
@@ -148,14 +148,14 @@ export default function KimHvadKoster() {
             Prisen på en afsked afhænger i høj grad af, hvor afdøde skal hentes, samt hvor mange kørsler der er behov for med rustvognen.
           </p>
           <p style={s.body}>
-            Når afhentningen foregår fra et privat hjem, indebærer det ofte en større praktisk opgave end ved afhentning på et hospital, plejehjem eller hospice. I private hjem er der jævnligt trange pladsforhold og trapper, hvilket kræver mere tid og ekstra ressourcer til at sikre en respektfuld og omsorgsfuld håndtering. Samtidig er det nødvendigt at arrangere afhentningen hurtigt fra enten hjemmet, plejehjemmet eller hospicet, så afdøde kan blive bragt til et kisteophold indtil selve højtideligheden.
+            Når afhentningen foregår fra et privat hjem, indebærer det ofte en større praktisk opgave end ved afhentning på et hospital, plejehjem eller hospice. I private hjem er der jævnligt trange pladsforhold og trapper, hvilket kræver mere tid og ekstra ressourcer til at sikre en respektfuld og omsorgsfuld håndtering. Der er sjældent grund til at haste – afdøde kan ofte blive, hvor vedkommende er, til næste morgen. Når I er klar, henter jeg afdøde og bringer vedkommende til et kisteophold indtil højtideligheden.
           </p>
           <h3 style={s.h3}>Hvor mange kørsler er der brug for?</h3>
           <p style={s.body}>
             Antallet af kørsler med rustvognen har ligeledes indflydelse på den endelige pris. Hvis det er muligt at køre afdøde direkte fra hospitalets kapel til kirken eller kapellet på selve dagen, reduceres antallet af kørsler, hvilket afspejler sig i en lavere pris. Det er dog værd at bemærke, at hospitalernes kapeller som regel holder lukket for afhentning om lørdagen, hvorfor denne løsning primært lader sig gøre på hverdage. Hvis afdøde først skal omvejen forbi et kisteophold, medfører det en ekstra kørsel.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Ved en bisættelse, hvor der efterfølgende sker kremering, vil der som udgangspunkt være to kørsler med rustvognen, men hvis afdøde først har været på kisteopholdet, bliver det til tre kørsler i alt. Ved en jordfæstelse, hvor kisten sænkes i jorden, kan logistikken ofte forenkles. Hvis afdøde kan afhentes direkte på hospitalet, og begravelsen foregår på kirkegården lige omkring kirken, kan det klares med en enkelt kørsel, hvilket gør denne løsning mere økonomisk.
+            Ved en bisættelse, hvor der efterfølgende sker kremering, vil der som udgangspunkt være to kørsler med rustvognen, men hvis afdøde først har været på kisteopholdet, bliver det til tre kørsler i alt. Ved en jordfæstelse, hvor kisten sænkes i jorden, kan logistikken ofte forenkles.
           </p>
         </div>
       </section>
@@ -206,7 +206,7 @@ export default function KimHvadKoster() {
           <p style={s.label}>Del 1 — Kun ved bisættelse</p>
           <h2 style={s.h2}>Kremering</h2>
           <p style={s.body}>
-            Kremering er en kommunal ydelse og betales direkte til krematoriet — ikke til bedemanden. Prisen afhænger af, hvilket krematorium der benyttes. Som udgangspunkt vælges det krematorium, der ligger tættest på ceremoniestedet eller afdødes bopæl. Jeg hjælper med at vælge den løsning, der giver mest mening for jer.
+            Kremering er en kommunal ydelse og betales direkte til krematoriet — ikke til bedemanden. Prisen afhænger af, hvilket krematorium der benyttes. Som udgangspunkt vælges det krematorium, der ligger tættest på ceremonistedet eller afdødes bopæl. Jeg hjælper med at vælge den løsning, der giver mest mening for jer.
           </p>
           <div style={{ overflowX: "auto", marginBottom: "24px" }}>
             <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
@@ -294,12 +294,12 @@ export default function KimHvadKoster() {
             </table>
           </div>
           <h3 style={{ ...s.h3, marginTop: "40px" }}>Frederiksberg Kommune — 2026-takster</h3>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#7a8f99", marginBottom: "16px", fontStyle: "italic" }}>Kilde: frederiksberg.dk — gælder Frederiksberg ældre Kirkegård, Solbjerg Parkkirkegård og Søndermark Kirkegård</p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#7a8f99", marginBottom: "16px", fontStyle: "italic" }}>Kilde: frederiksberg.dk — gælder Frederiksberg Ældre Kirkegård, Solbjerg Parkkirkegård og Søndermark Kirkegård</p>
           <div style={{ overflowX: "auto", marginBottom: "16px" }}>
             <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
               <tbody>
                 {[
-                  ["Kistegravsted 3 m², 20 år (Frederiksberg ældre Kirkegård)", "8.654 kr."],
+                  ["Kistegravsted 3 m², 20 år (Frederiksberg Ældre Kirkegård)", "8.654 kr."],
                   ["Kistegravsted 3 m², 20 år (Solbjerg / Søndermark)", "4.341 kr."],
                   ["Urnegravsted 1 m², 10 år", "1.603 kr."],
                   ["Gravning kistegrav", "7.138 kr."],
@@ -553,7 +553,7 @@ export default function KimHvadKoster() {
             Det er svært at lave én samlet guide, der dækker hele Danmark — fordi kirkegårdsafgifter og krematorietakster fastsættes lokalt og varierer betydeligt. En kistebegravelse i en lille nordjysk kommune kan koste halvt så meget i kirkegårdsafgifter som i København.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Det, jeg kan love jer, er dette: Uanset hvor I bor i mit dækningsområde — København eller Nordsjælland — indhenter jeg de konkrete priser fra de relevante myndigheder og gennemgår dem med jer. I betaler aldrig for noget, I ikke kender på forhånd.
+            Det, jeg kan love jer, er dette: Uanset om I bor i København, Storkøbenhavn, Nordsjælland eller et andet sted på Sjælland, indhenter jeg de konkrete priser fra de relevante myndigheder og gennemgår dem med jer. I betaler aldrig for noget, I ikke kender på forhånd.
           </p>
         </div>
       </section>
@@ -571,7 +571,7 @@ export default function KimHvadKoster() {
           ))}
           {/* ── Begravelseshjælp FAQ med link ── */}
           <div style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-            <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>Hvad er begravelseshjælp, og kan Kim hjælpe med at søge det?</h3>
+            <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>Hvad er begravelseshjælp, og kan du hjælpe med at søge den?</h3>
             <p style={{ ...s.body, marginBottom: "12px" }}>
               Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af afdødes formue. Jeg søger begravelseshjælp på jeres vegne og modregner beløbet direkte på fakturaen — I behøver ikke selv stå med ansøgningen.
             </p>

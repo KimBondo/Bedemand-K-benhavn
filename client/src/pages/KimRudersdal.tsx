@@ -20,7 +20,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Rudersdal?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Birkerød, Holte, Nærum og Vedbæk samt resten af Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
+  { question: "Hvem er bedemand i Rudersdal?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Birkerød, Holte, Nærum og Vedbæk samt resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Rudersdal?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvem driver kirkegårdene i Rudersdal?", answer: "Rudersdal Kommune ejer og driver kommunens fem kirkegårde: Birkerød, Høsterkøb, Søllerød, Vedbæk samt Assistens og Søholm Kirkegård. Kirkegårdskontoret ligger på Søllerødvej 13 i Holte. På kommunale kirkegårde er taksterne de samme for alle, uanset medlemskab af folkekirken." },
   { question: "Er der et krematorium i Rudersdal?", answer: "Nej. Kremeringen sker på Hillerød Krematorium eller på Bispebjerg Krematorium i København. Ceremonien holdes stadig lokalt — i kirken eller i et af kirkegårdenes kapeller." },
@@ -157,7 +157,7 @@ export default function KimRudersdal() {
             {[
               { title: "Bisættelse", desc: "Kremering i Hillerød eller København med ceremoni i kirken eller et af kirkegårdskapellerne.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på en af Rudersdals fem kirkegårde. Jeg koordinerer med kirkegårdskontoret og præsten.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En stille afsked uden fremmøde, direkte til krematoriet. Den enkleste løsning — fra 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Borgerlig afsked", desc: "En ceremoni uden præst, fx i et af kirkegårdenes kapeller. I bestemmer selv indholdet.", href: "/borgerlig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

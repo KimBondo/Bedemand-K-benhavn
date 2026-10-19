@@ -153,7 +153,7 @@ const ROUTE_META = {
   },
   "/om-kim": {
     title: "Om Kim Bondo \u2013 Personlig bedemand, K\u00f8benhavn",
-    description: "M\u00f8d Kim Bondo \u2013 selvst\u00e6ndig bedemand med n\u00e6rv\u00e6r og ro. Hj\u00e6lper familier i sorg i K\u00f8benhavn og Nordsj\u00e6lland. Ring 28 14 60 11.",
+    description: "M\u00f8d Kim Bondo \u2013 selvst\u00e6ndig bedemand med base i Gladsaxe og S\u00f8borg. Jeg hj\u00e6lper familier i hele K\u00f8benhavn, Stork\u00f8benhavn og Nordsj\u00e6lland. Ring 28 14 60 11.",
   },
   "/omraade": {
     title: "D\u00e6kningsomr\u00e5de \u2013 Bedemand Kim Bondo",

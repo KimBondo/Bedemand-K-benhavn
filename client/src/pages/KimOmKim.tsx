@@ -9,7 +9,7 @@ const PERSON_SCHEMA = {
   "@id": "https://www.bedemandkobenhavn.dk/om-kim/#kim-bondo",
   "name": "Kim Bondo",
   "jobTitle": "Selvstændig bedemand",
-  "description": "Selvstændig bedemand i København og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
+  "description": "Selvstændig bedemand med base i Gladsaxe og Søborg, der hjælper familier i København, Storkøbenhavn og Nordsjælland med fokus på nærvær, ro og gennemsigtige priser.",
   "url": "https://www.bedemandkobenhavn.dk/om-kim/",
   "image": "https://www.bedemandkobenhavn.dk/images/kim-bondo-bedemand-portraet.webp",
   "telephone": "+45 28 14 60 11",
@@ -55,7 +55,7 @@ export default function KimOmKim() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Om Kim Bondo – Personlig bedemand, København"
-        description="Mød Kim Bondo – selvstændig bedemand med nærvær og ro. Hjælper familier i sorg i København og Nordsjælland. Ring 28 14 60 11."
+        description="Mød Kim Bondo – selvstændig bedemand med base i Gladsaxe og Søborg. Jeg hjælper familier i hele København, Storkøbenhavn og Nordsjælland. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/om-kim/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -163,7 +163,7 @@ export default function KimOmKim() {
                   letterSpacing: "0.03em",
                 }}
               >
-                📞 Ring: 28 14 60 11
+                Ring 28 14 60 11
               </a>
               <a
                 href="mailto:kim@bedemandkobenhavn.dk"
@@ -184,27 +184,36 @@ export default function KimOmKim() {
                   border: "1.5px solid #3D6B4F",
                 }}
               >
-                ✉️ Skriv en e-mail
+                Skriv en e-mail
               </a>
             </div>
             <div style={{ flex: 1, minWidth: "260px" }}>
               <p style={s.body}>
-                Jeg er selvstændig bedemand i København og Nordsjælland, og for mig er det en hjertesag at møde mennesker med nærvær, ro og en dyb tillid til, at også de tungeste stunder bærer mening i sig.
+                Jeg hedder Kim Bondo, og jeg er selvstændig bedemand med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland – og efter aftale på resten af Sjælland til de samme faste priser.
+              </p>
+              <p style={{ ...s.body, background: "#FFF3C4", border: "1px dashed #B8860B", padding: "8px 12px", borderRadius: "3px" }}>
+                [BAGGRUND: 2–3 sætninger om, hvad du lavede, før du blev bedemand.]
+              </p>
+              <p style={{ ...s.body, background: "#FFF3C4", border: "1px dashed #B8860B", padding: "8px 12px", borderRadius: "3px" }}>
+                [HVORFOR: 1–2 sætninger om, hvorfor du blev bedemand.]
+              </p>
+              <p style={{ ...s.body, background: "#FFF3C4", border: "1px dashed #B8860B", padding: "8px 12px", borderRadius: "3px" }}>
+                [ERFARING – kun hvis du vil: fx "Jeg har været bedemand siden [år]."]
               </p>
               <p style={s.body}>
-                Min tilgang bygger på en solid baggrund i krisehåndtering og svære samtaler. Jeg ved, hvor vigtigt det er at kunne rumme både tårer, tavshed og et befriende smil – uden at skynde på nogen. Det er ikke en opgave for mig at hjælpe jer igennem en afsked. Det er et privilegium.
+                For mig handler arbejdet om at møde mennesker med nærvær og ro. Jeg ved, hvor vigtigt det er at kunne rumme både tårer, tavshed og et befriende smil – uden at skynde på nogen. Det er ikke en opgave for mig at hjælpe jer igennem en afsked. Det er et privilegium.
               </p>
               <p style={s.body}>
-                Som selvstændig bedemand er jeg den eneste, I taler med – fra det øjeblik I ringer, til afskeden er overstået. Ingen omstillinger, intet bureaukrati. Bare direkte kontakt til mig, døgnet rundt.
+                Det er mig, der tager telefonen – også om natten. Det er mig, der kommer hjem til jer, og mig, der selv kører rustvognen og står ved højtideligheden. Ingen omstillinger og ingen skiftende medarbejdere. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen, så I ikke skal lægge ud.
               </p>
               <p style={s.body}>
                 Bedemand København er ikke et stort begravelsesfirma, men en lille, personlig begravelsesforretning, hvor I har mig som jeres faste kontakt hele vejen.
               </p>
               <p style={s.body}>
-                Jeg lægger stor vægt på gennemsigtighed. I skal aldrig være i tvivl om, hvad tingene koster, eller hvad der sker næste skridt. Jeg bruger moderne værktøjer til at holde overblikket for jer, så I kan bruge jeres energi på hinanden i stedet for på papirarbejde.
+                Jeg lægger stor vægt på gennemsigtighed. I får et skriftligt prisoverslag fra starten, så I aldrig er i tvivl om, hvad tingene koster, eller hvad der sker næste skridt. Så kan I bruge jeres kræfter på hinanden i stedet for på papirarbejde.
               </p>
               <p style={{ ...s.body, marginBottom: 0 }}>
-                Jeg dækker hele København og Nordsjælland og er altid klar til at tage en uforpligtende samtale – ring eller skriv, når det passer jer. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>et andet sted på Sjælland</a>, hjælper jeg også gerne.
+                Jeg kører i hele København, Storkøbenhavn og Nordsjælland og er altid klar til en uforpligtende samtale – ring eller skriv, når det passer jer. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>et andet sted på Sjælland</a>, hjælper jeg også gerne.
               </p>
             </div>
           </div>
