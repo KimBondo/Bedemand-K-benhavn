@@ -20,7 +20,8 @@ const ROOT = path.resolve(__dirname, "..");
 const DIST_PUBLIC = path.resolve(ROOT, "dist/public");
 const SSR_BUNDLE = path.resolve(ROOT, "dist/server/entry-server.js");
 const BASE_URL = "https://www.bedemandkobenhavn.dk";
-const DEFAULT_IMAGE = `${BASE_URL}/images/kim-bondo-rustvogn-kyst.webp`;
+// Delebilledet (1200×630) bruges på alle sider
+const DEFAULT_IMAGE = `${BASE_URL}/images/kim-bondo-bedemand-og.jpg`;
 
 const ROUTES = [
   "/",
@@ -253,7 +254,7 @@ function injectMetaIntoHtml(html, route) {
 
   const title = escapeHtml(meta.title);
   const description = escapeHtml(meta.description);
-  const image = escapeHtml(meta.image ?? DEFAULT_IMAGE);
+  const image = escapeHtml(DEFAULT_IMAGE);
   // Canonical: forsiden = https://www.bedemandkobenhavn.dk (ingen trailing slash)
   // Undersider = https://www.bedemandkobenhavn.dk/ (med trailing slash — matcher Cloudflare Pages 308-redirect)
   const canonicalUrl = `${BASE_URL}${route === "/" ? "/" : route + "/"}`;

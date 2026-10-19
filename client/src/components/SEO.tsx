@@ -9,6 +9,7 @@ interface SEOProps {
   title: string;
   description: string;
   url?: string;
+  /** Bruges ikke længere – alle sider deler delebilledet. */
   image?: string;
   noindex?: boolean;
 }
@@ -22,16 +23,14 @@ function kanonisk(url?: string) {
   return abs.endsWith("/") ? abs : `${abs}/`;
 }
 
-/** Billeder til Open Graph skal være absolutte adresser. */
-function absolutBillede(image?: string) {
-  if (!image) return undefined;
-  return image.startsWith("http") ? image : `${BASE_URL}${image.startsWith("/") ? "" : "/"}${image}`;
-}
+/** Delebilledet (1200×630) bruges som og:image på alle sider. */
+const DELEBILLEDE = `${BASE_URL}/images/kim-bondo-bedemand-og.jpg`;
+const DELEBILLEDE_ALT = "Kim Bondo, bedemand i København og Nordsjælland";
 
-export default function SEO({ title, description, url, image, noindex }: SEOProps) {
+export default function SEO({ title, description, url, noindex }: SEOProps) {
   useEffect(() => {
     const kanoniskUrl = kanonisk(url);
-    const billede = absolutBillede(image);
+    const billede = DELEBILLEDE;
     // Title
     document.title = title;
 
@@ -79,17 +78,17 @@ export default function SEO({ title, description, url, image, noindex }: SEOProp
     setMeta('meta[property="og:site_name"]', 'property="og:site_name"', "Bedemand København");
     if (kanoniskUrl) setMeta('meta[property="og:url"]', 'property="og:url"', kanoniskUrl);
     if (billede) setMeta('meta[property="og:image"]', 'property="og:image"', billede);
-    if (billede) setMeta('meta[property="og:image:alt"]', 'property="og:image:alt"', title);
-    setMeta('meta[property="og:image:width"]', 'property="og:image:width"', "2304");
-    setMeta('meta[property="og:image:height"]', 'property="og:image:height"', "1536");
+    setMeta('meta[property="og:image:alt"]', 'property="og:image:alt"', DELEBILLEDE_ALT);
+    setMeta('meta[property="og:image:width"]', 'property="og:image:width"', "1200");
+    setMeta('meta[property="og:image:height"]', 'property="og:image:height"', "630");
 
     // Twitter card
     setMeta('meta[name="twitter:card"]', 'name="twitter:card"', "summary_large_image");
     setMeta('meta[name="twitter:title"]', 'name="twitter:title"', title);
     setMeta('meta[name="twitter:description"]', 'name="twitter:description"', description);
     if (billede) setMeta('meta[name="twitter:image"]', 'name="twitter:image"', billede);
-    if (billede) setMeta('meta[name="twitter:image:alt"]', 'name="twitter:image:alt"', title);
-  }, [title, description, url, image, noindex]);
+    setMeta('meta[name="twitter:image:alt"]', 'name="twitter:image:alt"', DELEBILLEDE_ALT);
+  }, [title, description, url, noindex]);
 
   return null;
 }
