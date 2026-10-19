@@ -35,6 +35,7 @@ const NAV_LINKS = [
       { href: "/hvad-sker-der/", label: "Hvad sker der, når nogen dør?" },
       { href: "/bisaettelse-nordsjaelland/", label: "Bisættelse i Nordsjælland" },
       { href: "/huskeliste/", label: "Huskeliste" },
+      { href: "/mindeord/", label: "Mindeord" },
       { href: "/min-sidste-vilje/", label: "Min Sidste Vilje" },
       { href: "/faq/", label: "FAQ" },
     ]
