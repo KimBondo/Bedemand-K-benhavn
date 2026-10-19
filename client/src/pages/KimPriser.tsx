@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 import ContactForm from "@/components/ContactForm";
+import KimPortraet from "@/components/KimPortraet";
 
 
 /**
@@ -158,6 +159,7 @@ export default function KimPriser() {
           <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
             Prisgennemsigtighed er ikke et tilbud. Det er en ret.
           </p>
+          <KimPortraet align="left" mork />
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Ring 28 14 60 11 — hele døgnet
           </a>

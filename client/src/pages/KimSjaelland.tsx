@@ -3,6 +3,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
 import CookieLink from "@/components/CookieLink";
+import KimPortraet from "@/components/KimPortraet";
 
 const s = {
   body: { fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px" } as React.CSSProperties,
@@ -104,6 +105,7 @@ export default function KimSjaelland() {
           <p style={s.body}>
             Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> – også om natten.
           </p>
+          <KimPortraet align="left" />
           <div style={{ marginTop: "8px" }}>
             <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til Kim – 28 14 60 11</a>
           </div>

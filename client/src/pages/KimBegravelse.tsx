@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import KimPortraet from "@/components/KimPortraet";
 
 /**
  * Kim Bondo – Begravelse
@@ -109,6 +110,7 @@ export default function KimBegravelse() {
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
           En begravelse er en af de ældste og mest betydningsfulde afskedsformer. Kisten sænkes i jorden på et gravsted, der bliver et varigt sted at mindes. Jeg hjælper jer med alt fra den første samtale til jordfæstelsen.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Kontakt mig

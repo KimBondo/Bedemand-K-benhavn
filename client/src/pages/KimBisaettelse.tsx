@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import KimPortraet from "@/components/KimPortraet";
 
 /**
  * Kim Bondo – Bisættelse
@@ -138,6 +139,7 @@ export default function KimBisaettelse() {
         >
           En bisættelse er den mest valgte afskedsform i Danmark. Jeg hjælper jer roligt og nærværende gennem hele forløbet – fra den første samtale til kremering og den endelige stedfæstelse af urnen.
         </p>
+        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
             href="/#kontakt"
