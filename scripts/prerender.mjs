@@ -56,6 +56,7 @@ const ROUTES = [
   "/min-sidste-vilje",
   "/hornbaek",
   "/alsgaarde",
+  "/gilleleje",
   "/humlebaek",
   "/prisberegner",
   "/hvad-sker-der",
@@ -177,6 +178,10 @@ const ROUTE_META = {
   "/hornbaek": {
     title: "Bedemand Hornb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
     description: "Personlig bedemand i Hornb\u00e6k og Helleb\u00e6k. Kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
+  },
+  "/gilleleje": {
+    title: "Bedemand Gilleleje \u2013 Kim Bondo, d\u00f8gnet rundt",
+    description: "Personlig bedemand i Gilleleje og Gribskov. Jeg kender Gilleleje Kirke, S\u00f8borg Kirke og kirkeg\u00e5rdene. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/alsgaarde": {
     title: "Bedemand \u00c5lsg\u00e5rde \u2013 Kim Bondo, d\u00f8gnet rundt",

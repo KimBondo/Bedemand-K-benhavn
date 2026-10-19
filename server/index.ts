@@ -149,6 +149,10 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     title: "Bedemand Hornbæk – Kim Bondo, døgnet rundt",
     description: "Personlig bedemand i Hornbæk og Hellebæk. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
   },
+  "/gilleleje": {
+    title: "Bedemand Gilleleje – Kim Bondo, døgnet rundt",
+    description: "Personlig bedemand i Gilleleje og Gribskov. Jeg kender Gilleleje Kirke, Søborg Kirke og kirkegårdene. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
+  },
   "/alsgaarde": {
     title: "Bedemand Ålsgårde – Kim Bondo, døgnet rundt",
     description: "Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring 28 14 60 11 – døgnet rundt.",

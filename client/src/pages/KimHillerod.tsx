@@ -190,6 +190,7 @@ export default function KimHillerod() {
           {[
             { label: "Bedemand Nordsjælland", href: "/nordsjaelland/" },
             { label: "Bedemand Helsingør", href: "/helsingor/" },
+            { label: "Bedemand Gilleleje", href: "/gilleleje/" },
             { label: "Bedemand Fredensborg", href: "/fredensborg/" },
             { label: "Bedemand Hørsholm", href: "/horsholm/" },
             { label: "Bedemand Lyngby", href: "/lyngby/" },

@@ -144,7 +144,7 @@ export default function KimNordsjaelland() {
             Hillerød Krematorium blev etableret i 1967 og udførte omkring 2.000 kremeringer i 2025. Det ligger ved Skansekirkegården på Skansevej, hvor der også er kapel med plads til 150 — ligesom i Nyhuse Kapel inde i byen.
           </p>
           <p style={s.body}>
-            I Gentofte er Mariebjerg Kirkegård optaget i Kulturkanonen, og de to kapeller dér tager henholdsvis 150 og 50 personer. Helsingør Kirkegård har byens kapel fra 1903 med 165 pladser, og i Hørsholm ligger kapellet fra 1929, som kan benyttes af alle uanset tro. Jeg kender rummene og ved, hvor mange der kan være.
+            I Gentofte er Mariebjerg Kirkegård optaget i Kulturkanonen, og de to kapeller dér tager henholdsvis 150 og 50 personer. Kapellet på Helsingør Kirkegård har 165 pladser, og i Hørsholm ligger kapellet fra 1929, som kan benyttes af alle uanset tro. Jeg kender rummene og ved, hvor mange der kan være.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Bedemand på Nordkysten</h3>
           <p style={s.body}>
@@ -178,7 +178,7 @@ export default function KimNordsjaelland() {
               { by: "Farum", href: null },
               { by: "Frederikssund", href: null },
               { by: "Hundested", href: null },
-              { by: "Gilleleje", href: null },
+              { by: "Gilleleje", href: "/gilleleje/" },
               { by: "Tisvildeleje", href: null },
             ].map((item) => (
               <div key={item.by} style={{ background: "#fff", padding: "16px 20px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

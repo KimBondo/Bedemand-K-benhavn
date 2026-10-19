@@ -15,8 +15,8 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Helsingør?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Helsingør Kommune — Espergærde, Snekkersten, Ålsgårde, Hellebæk, Hornbæk, Kvistgård og Tikøb — og resten af Nordsjælland. Ring på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Helsingør?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Helsingør?", answer: "Nej. Helsingør Krematorium blev nedlagt i 2013. I kan vælge kremering i Hillerød eller indlevering her i Helsingør, hvorfra kisten køres videre til Fælleskrematoriet. Det ændrer ikke på selve afskeden: ceremonien holdes i Helsingør, i kirken eller i kirkegårdskapellet med 165 pladser. Jeg sørger for transport og koordinering." },
-  { question: "Hvilke kirker koordinerer du med i Helsingør?", answer: "Helsingør Domkirke, Skt. Olai — som er én og samme kirke — samt Sankt Mariæ Kirke, Vestervang Kirke og kirkerne i Espergærde, Snekkersten, Hornbæk, Hellebæk og Tikøb." },
+  { question: "Er der et krematorium i Helsingør?", answer: "Nej. Helsingør Krematorium blev nedlagt i 2013. I kan vælge kremering i Hillerød eller indlevering på Helsingør Kirkegård, hvorfra kisten køres videre til Fælleskrematoriet i Ringsted. Urnen kommer tilbage til Helsingør bagefter. Det ændrer ikke på selve afskeden: ceremonien holdes i Helsingør, i kirken eller i kirkegårdskapellet med 165 pladser. Jeg sørger for transport og koordinering." },
+  { question: "Hvilke kirker koordinerer du med i Helsingør?", answer: "Helsingør Domkirke (Sankt Olai Kirke), Sankt Mariæ Kirke, Vestervang Kirke og Sthens Kirke i Helsingør – og Egebæksvang Kirke og Mørdrup Kirke i Espergærde, Hellebæk Kirke, Hornbæk Kirke, Tikøb Kirke og Gurre Kirke." },
 ];
 
 export default function KimHelsingor() {
@@ -105,20 +105,20 @@ export default function KimHelsingor() {
           <p style={s.label}>Lokal og personlig</p>
           <h2 style={s.h2}>Bedemand med kendskab til Helsingør</h2>
           <p style={s.body}>
-            Helsingør Kommune er Nordsjællands største og har 33 km kystlinje — fra Espergærde og Snekkersten i syd over Helsingør by til Ålsgårde, Hellebæk og Hornbæk mod nordvest, og indlands Kvistgård, Tikøb og Gurre. Jeg kender kirkerne, kapellet og kirkegårdene og koordinerer det hele for jer.
+            Helsingør Kommune har omkring 30 km kyst – fra Espergærde og Snekkersten i syd over Helsingør by til Ålsgårde, Hellebæk og Hornbæk mod nordvest. Inde i landet ligger Kvistgård, Tikøb og Gurre. Jeg kender kirkerne, kapellet og kirkegårdene og koordinerer det hele for jer.
           </p>
           <p style={s.body}>
-            En ting overrasker næsten alle: Helsingør har ikke længere sit eget krematorium. Det blev nedlagt i 2013. I dag kan I vælge mellem kremering i Hillerød, hvor Nordsjællands eneste krematorium ligger, og indlevering her i Helsingør. Valget er jeres, og jeg forklarer gerne forskellene. Selve højtideligheden foregår stadig i Helsingør — i kirken eller i kirkegårdskapellet — og transporten sørger jeg for.
+            En ting overrasker næsten alle: Helsingør har ikke længere sit eget krematorium. Det blev nedlagt i 2013. I dag kan I vælge mellem kremering i Hillerød, hvor Nordsjællands eneste krematorium ligger, og indlevering på Helsingør Kirkegård. Derfra kører Fælleskrematoriet kisten til Ringsted og bringer urnen tilbage bagefter. Valget er jeres, og jeg forklarer gerne forskellene. Selve højtideligheden foregår stadig i Helsingør — i kirken eller i kirkegårdskapellet — og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapel og kirkegård i Helsingør</h3>
           <p style={s.body}>
-            Helsingør Kirkegård på Møllebakken går tilbage til 1580'erne og har siden 1820 været byens kirkegård. Kapellet fra 1903 er tegnet af arkitekten Valdemar Hamborg, har 165 pladser og fik nyt orgel i 2017. Kirkegården står stadig for omkring 900 bisættelser og 50 begravelser om året.
+            Helsingør Kirkegård på Møllebakken går tilbage til 1580'erne og har siden 1820 været byens kirkegård. Kapellet har 165 siddepladser og fik nyt orgel i 2017. Langt de fleste vælger i dag kremering: Kirkegården oplyser selv omkring 900 kremeringer mod 50 kistebegravelser.
           </p>
           <p style={s.body}>
             Kystområdet omkring Helsingør har mange små byer, og jeg kører selv ud til familier i Espergærde, Snekkersten, Hornbæk og Ålsgårde. Det giver ro, når det praktiske er på plads, så I kan fokusere på afskeden.
           </p>
           <p style={s.body}>
-            På kirkegården står den franske krigergrav — en seks meter høj obelisk over 40 franske soldater, der døde på vej hjem fra krigsfangenskab i 1918-19. Der lægges krans hvert år den 11. november. Blandt kirkerne koordinerer jeg med Helsingør Domkirke, Skt. Olai, med Sankt Mariæ Kirke og med Vestervang Kirke.
+            På kirkegården står den franske krigergrav — en seks meter høj obelisk over 40 franske soldater, der døde på vej hjem fra krigsfangenskab i 1918-19. Der lægges krans hvert år den 11. november. Blandt kirkerne koordinerer jeg med Helsingør Domkirke (Sankt Olai Kirke), Sankt Mariæ Kirke og Vestervang Kirke.
           </p>
         </div>
       </section>
@@ -165,6 +165,7 @@ export default function KimHelsingor() {
             { label: "Bedemand Hørsholm", href: "/horsholm/" },
             { label: "Bedemand Gentofte", href: "/gentofte/" },
             { label: "Bedemand Hornbæk", href: "/hornbaek/" },
+            { label: "Bedemand Gilleleje", href: "/gilleleje/" },
             { label: "Bedemand Ålsgårde", href: "/alsgaarde/" },
             { label: "Bedemand Humlebæk", href: "/humlebaek/" },
             { label: "Dækningsområde", href: "/omraade/" },
