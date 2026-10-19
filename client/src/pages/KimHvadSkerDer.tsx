@@ -77,7 +77,7 @@ export default function KimHvadSkerDer() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>De første timer</h2>
           <p style={s.body}>
-            Når et menneske dør, skal en læge konstaterer dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Afhentning i et privat hjem koster 1.200 kr. ekstra. Først når dødsattesten er klar, kan bedemanden gå i gang med det videre arbejde.
+            Når et menneske dør, skal en læge konstatere dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Afhentning i et privat hjem koster 1.200 kr. ekstra. Først når dødsattesten er klar, kan bedemanden gå i gang med det videre arbejde.
           </p>
           <p style={s.body}>
             Jeg kan kontaktes med det samme – også om natten. Vi taler om situationen, og jeg guider jer igennem de næste skridt. Der er ingen forpligtelse ved at ringe.

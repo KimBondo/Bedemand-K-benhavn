@@ -73,7 +73,7 @@ export default function KimBisaettelseNordsjaelland() {
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
           <h2 style={s.h2}>Kremering – I vælger selv</h2>
           <p style={s.body}>
-            Hillerød Krematorium ved Skansekirkegården er det eneste krematorium i Nordsjælland. Man kan også vælge indlevering i Helsingør. I bestemmer frit, og jeg fortæller jer gerne om forskellene, så I kan vælge det, der føles rigtigt. Ceremonien holdes stadig lokalt.
+            Hillerød Krematorium ved Skansekirkegården er det eneste krematorium i Nordsjælland. Man kan også vælge indlevering i Helsingør. I bestemmer frit, og jeg fortæller jer gerne om forskellene, så I kan vælge det, der føles rigtigt.
           </p>
           <p style={s.body}>
             Ceremonien holdes stadig lokalt – i jeres egen kirke eller det kapel, I vælger. Det er kun selve kremeringen, der foregår et andet sted, og transporten sørger jeg for.

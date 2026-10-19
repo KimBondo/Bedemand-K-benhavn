@@ -159,7 +159,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/humlebaek": {
     title: "Bedemand Humlebæk – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Humlebæk og Espergærde. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
+    description: "Personlig bedemand i Humlebæk og Fredensborg Kommune. Ceremoni lokalt, kremering i Hillerød eller København. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",

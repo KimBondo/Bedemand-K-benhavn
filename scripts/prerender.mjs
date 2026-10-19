@@ -189,7 +189,7 @@ const ROUTE_META = {
   },
   "/humlebaek": {
     title: "Bedemand Humleb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Humleb\u00e6k og Esperg\u00e6rde. Kremering i Hiller\u00f8d eller via Helsing\u00f8r \u2013 I v\u00e6lger frit. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
+    description: "Personlig bedemand i Humleb\u00e6k og Fredensborg Kommune. Ceremoni lokalt, kremering i Hiller\u00f8d eller K\u00f8benhavn. Faste priser. Ring 28 14 60 11 \u2013 d\u00f8gnet rundt.",
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",

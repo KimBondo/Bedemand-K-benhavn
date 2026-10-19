@@ -155,7 +155,7 @@ export default function KimBorgerligAfsked() {
             ))}
           </ul>
           <p style={s.body}>
-            Ønsker I en professionel ceremonileder, tilbyder <a href="https://www.humanistisksamfund.dk/begravelse/" target="_blank" rel="noopener noreferrer" style={s.link}>Humanistisk Samfund</a> uddannede ceremoniledere, der kan stå for at planlægge og afholde ceremonien.
+            Ønsker I en professionel ceremonileder, tilbyder <a href="https://www.hs.dk/ceremonier/humanistisk-begravelse/" target="_blank" rel="noopener noreferrer" style={s.link}>Humanistisk Samfund</a> uddannede ceremoniledere, der kan stå for at planlægge og afholde ceremonien.
           </p>
         </div>
       </section>

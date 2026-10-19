@@ -191,7 +191,7 @@ export default function KimNordsjaelland() {
             ))}
           </div>
           <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dækker du et andet område? <a href="/omraade/" style={s.link}>Se det fulde dækningsområde →</a>
+            Bor I et andet sted? <a href="/omraade/" style={s.link}>Se hele mit dækningsområde →</a>
           </p>
         </div>
       </section>
