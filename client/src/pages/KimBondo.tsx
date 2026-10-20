@@ -253,7 +253,7 @@ export default function KimBondo() {
                 "Den samme person hele vejen – fra første opkald til afskeden",
                 "Bisættelse fra 18.300 kr. · Begravelse fra 19.300 kr.",
                 "Begravelseshjælpen trækkes fra på fakturaen",
-                "Kontor i Søborg · København og Nordsjælland",
+                "Kontor i Søborg – hjælper i hele København og Nordsjælland",
               ].map((linje) => (
                 <li key={linje} style={{ display: "flex", gap: "10px", alignItems: "flex-start", marginBottom: "8px" }}>
                   <span aria-hidden="true" style={{ color: "#3D6B4F", fontWeight: 700, flexShrink: 0 }}>✓</span>
