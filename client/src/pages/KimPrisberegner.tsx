@@ -23,7 +23,7 @@ const KISTER: { id: string; label: string; price: number; kunVed?: Base[] }[] = 
   { id: "basis", label: "Basiskiste", price: 6000 },
   { id: "hvid-bisaettelse", label: "Klassisk hvid kiste", price: 6500, kunVed: ["uden", "bisaettelse"] },
   { id: "hvid-begravelse", label: "Klassisk hvid kiste", price: 7000, kunVed: ["begravelse"] },
-  { id: "gaia", label: "Gaia – let kiste i paulowniatræ", price: 6800 },
+  { id: "gaia", label: "Gaia – let kiste i paulowniatræ", price: 6800, kunVed: ["uden", "bisaettelse"] },
   { id: "massiv-fyr", label: "Massiv fyr – fyrretræ med knaster", price: 8000 },
   { id: "orbit", label: "Orbit papirkiste", price: 8800 },
 ];
