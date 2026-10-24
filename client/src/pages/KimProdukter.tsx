@@ -64,9 +64,9 @@ const KISTER = [
     image: "/images/gaia-kiste-paulowniatrae.webp",
     imgW: 2048,
     imgH: 1365,
-    alt: "Gaia kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse og begravelse",
-    description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og træet binder CO2, mens det vokser. Både til bisættelse og begravelse.",
-    use: "begge" as Brug,
+    alt: "Gaia kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse (kun til kremering)",
+    description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og træet binder CO2, mens det vokser. Gaia kan kun bruges ved bisættelse og afsked uden ceremoni, hvor der følger kremering – ikke ved begravelse.",
+    use: "bisættelse" as Brug,
   },
   {
     id: "orbit",
