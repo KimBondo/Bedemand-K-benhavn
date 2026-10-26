@@ -1,4 +1,7 @@
 # Gamle /kim-bondo-adresser sendes permanent til roden (flytning 27-08-2026)
+# /afsked/ findes ikke – den gamle side svarer til /afsked-uden-ceremoni/ (skal stå før reglen med *)
+/kim-bondo/afsked/    /afsked-uden-ceremoni/    301
+/kim-bondo/afsked     /afsked-uden-ceremoni/    301
 /kim-bondo/*    /:splat    301
 /kim-bondo      /          301
 
