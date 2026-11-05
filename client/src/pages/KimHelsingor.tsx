@@ -16,7 +16,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Helsingør?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Helsingør Kommune — Espergærde, Snekkersten, Ålsgårde, Hellebæk, Hornbæk, Kvistgård og Tikøb — og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Helsingør?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Helsingør?", answer: "Nej. Helsingør Krematorium blev nedlagt i 2013. I kan vælge kremering i Hillerød eller indlevering på Helsingør Kirkegård, hvorfra kisten køres videre til Fælleskrematoriet i Ringsted. Urnen kommer tilbage til Helsingør bagefter. Det ændrer ikke på selve afskeden: ceremonien holdes i Helsingør, i kirken eller i kirkegårdskapellet med 165 pladser. Jeg sørger for transport og koordinering." },
+  { question: "Er der et krematorium i Helsingør?", answer: "Nej. Helsingør Krematorium blev nedlagt i 2013. Det ændrer ikke på selve afskeden: ceremonien holdes i Helsingør, i kirken eller i kirkegårdskapellet med 165 pladser. Jeg sørger for transport og koordinering." },
   { question: "Hvilke kirker koordinerer du med i Helsingør?", answer: "Helsingør Domkirke (Sankt Olai Kirke), Sankt Mariæ Kirke, Vestervang Kirke og Sthens Kirke i Helsingør – og Egebæksvang Kirke og Mørdrup Kirke i Espergærde, Hellebæk Kirke, Hornbæk Kirke, Tikøb Kirke og Gurre Kirke." },
 ];
 
@@ -25,7 +25,7 @@ export default function KimHelsingor() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Helsingør – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Helsingør, Snekkersten, Espergærde og Hornbæk. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet."
+        description="Personlig bedemand i Helsingør, Snekkersten, Espergærde og Hornbæk. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/helsingor/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -110,7 +110,7 @@ export default function KimHelsingor() {
             Helsingør Kommune har omkring 30 km kyst – fra Espergærde og Snekkersten i syd over Helsingør by til Ålsgårde, Hellebæk og Hornbæk mod nordvest. Inde i landet ligger Kvistgård, Tikøb og Gurre. Jeg kender kirkerne, kapellet og kirkegårdene og koordinerer det hele for jer.
           </p>
           <p style={s.body}>
-            En ting overrasker næsten alle: Helsingør har ikke længere sit eget krematorium. Det blev nedlagt i 2013. I dag kan I vælge mellem kremering i Hillerød, hvor Nordsjællands eneste krematorium ligger, og indlevering på Helsingør Kirkegård. Derfra kører Fælleskrematoriet kisten til Ringsted og bringer urnen tilbage bagefter. Valget er jeres, og jeg forklarer gerne forskellene. Selve højtideligheden foregår stadig i Helsingør — i kirken eller i kirkegårdskapellet — og transporten sørger jeg for.
+            En ting overrasker næsten alle: Helsingør har ikke længere sit eget krematorium. Det blev nedlagt i 2013. Selve højtideligheden foregår stadig i Helsingør — i kirken eller i kirkegårdskapellet — og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapel og kirkegård i Helsingør</h3>
           <p style={s.body}>
@@ -131,7 +131,7 @@ export default function KimHelsingor() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Helsingør?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni i kirken eller i kapellet på Helsingør Kirkegård, med kremering i Hillerød eller via indlevering i Helsingør – I vælger selv.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirken eller i kapellet på Helsingør Kirkegård.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Helsingør Kirkegård eller en af kommunens øvrige kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Helsingør Domkirke eller Vestervang Kirke.", href: "/kirkelig-afsked/" },

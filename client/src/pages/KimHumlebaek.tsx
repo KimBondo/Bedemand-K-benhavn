@@ -20,7 +20,6 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Humlebæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Humlebæk, Nivå, Kokkedal og Fredensborg samt resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Humlebæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Hvor sker kremeringen for familier i Humlebæk?", answer: "I vælger selv: kremering i Hillerød, hvor Nordsjællands eneste krematorium ligger, eller i København. Ceremonien holdes stadig lokalt, og jeg sørger for transporten." },
   { question: "Hvilke kirker koordinerer du med omkring Humlebæk?", answer: "Blandt andet Humlebæk Kirke og kirkerne i resten af Fredensborg Kommune. Jeg kender også Humlebæk Kirkegård og Torpen Kirkegård." },
 ];
 
@@ -29,7 +28,7 @@ export default function KimHumlebaek() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Humlebæk – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Humlebæk og Fredensborg Kommune. Ceremoni lokalt, kremering i Hillerød eller København. Faste priser. Ring 28 14 60 11 – døgnet rundt."
+        description="Personlig bedemand i Humlebæk og Fredensborg Kommune. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/humlebaek/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -114,7 +113,7 @@ export default function KimHumlebaek() {
             Humlebæk ligger ved Øresund i Fredensborg Kommune. Jeg kører selv ud til jer, og det er mig, I taler med hele vejen – fra det første opkald til den sidste afsked.
           </p>
           <p style={s.body}>
-            Der er ikke krematorium i Fredensborg Kommune. Kremeringen kan ske på Hillerød Krematorium, som er Nordsjællands eneste, eller i København – I vælger selv, og ceremonien holdes stadig lokalt. Transporten sørger jeg for.
+            Der er ikke krematorium i Fredensborg Kommune. Ceremonien holdes stadig lokalt. Transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde omkring Humlebæk</h3>
           <p style={s.body}>
@@ -129,7 +128,7 @@ export default function KimHumlebaek() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Humlebæk?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni lokalt i Humlebæk Kirke eller et kapel, med kremering i Hillerød eller København – I vælger selv.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni lokalt i Humlebæk Kirke eller et kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },

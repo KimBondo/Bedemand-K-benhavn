@@ -161,7 +161,7 @@ export default function KimPriser() {
           </p>
           <KimPortraet align="left" mork />
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
-            Ring 28 14 60 11 — hele døgnet
+            Ring til mig på 28 14 60 11
           </a>
           <div style={{ marginTop: "36px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px" }}>
             {[

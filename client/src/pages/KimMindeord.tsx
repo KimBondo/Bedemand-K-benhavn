@@ -149,7 +149,7 @@ export default function KimMindeord() {
       <section style={{ background: "#fff", padding: "72px 32px", textAlign: "center" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={{ ...s.body, marginBottom: "28px" }}>
-            Har I spørgsmål, så ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> – døgnet rundt.
+            Har I spørgsmål, så ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
             <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 28 14 60 11</a>

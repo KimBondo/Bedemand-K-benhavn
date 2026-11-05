@@ -26,7 +26,7 @@ export default function KimSoborg() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Søborg & Gladsaxe – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand med kontor på Vandtårnsvej 62A i Søborg. Jeg hjælper familier i hele Gladsaxe med bisættelse og begravelse. Ring 28 14 60 11 – døgnet rundt."
+        description="Personlig bedemand med kontor på Vandtårnsvej 62A i Søborg. Jeg hjælper familier i hele Gladsaxe med bisættelse og begravelse. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/soborg/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -137,7 +137,7 @@ export default function KimSoborg() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Bedemand i Gladsaxe Kommune</h2>
           <p style={s.body}>
-            Søborg hører til Gladsaxe Kommune, og jeg hjælper familier i hele kommunen: Søborg, Buddinge, Mørkhøj, Bagsværd og Gladsaxe. Ceremonien holdes i den kirke eller det kapel, I vælger, og kremeringen foregår typisk på Bispebjerg Krematorium. Jeg står for kontakten til kirke, kirkegård og krematorium.
+            Søborg hører til Gladsaxe Kommune, og jeg hjælper familier i hele kommunen: Søborg, Buddinge, Mørkhøj, Bagsværd og Gladsaxe. Ceremonien holdes i den kirke eller det kapel, I vælger. Jeg står for kontakten til kirke, kirkegård og krematorium.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Også naboerne i Herlev, Ballerup og Rødovre</h2>
           <p style={s.body}>
@@ -149,7 +149,7 @@ export default function KimSoborg() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <h2 style={s.h2}>Bisættelse, begravelse eller afsked uden ceremoni</h2>
           <p style={s.body}>
-            Ved en <strong>bisættelse</strong> holdes ceremonien i kirken eller kapellet, hvorefter kisten køres til kremering, og urnen senere nedsættes eller askespredes. Kremeringen sker på Bispebjerg Krematorium, og jeg sørger for al transport og koordinering, så I ikke selv skal tage stilling til det praktiske.
+            Ved en <strong>bisættelse</strong> holdes ceremonien i kirken eller kapellet, hvorefter kisten køres til kremering, og urnen senere nedsættes eller askespredes. Jeg sørger for al transport og koordinering, så I ikke selv skal tage stilling til det praktiske.
           </p>
           <p style={s.body}>
             Ved en <strong>begravelse</strong> sænkes kisten i jorden efter ceremonien – fx på Gladsaxe Kirkegård. Og ønsker I det helt stille, kan jeg arrangere en <strong>afsked uden ceremoni</strong>, hvor I eventuelt siger farvel i et kapel i ro, inden kremeringen.
@@ -177,7 +177,7 @@ export default function KimSoborg() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Søborg og Gladsaxe?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni i kirken eller i kapellet på Gladsaxe Kirkegård, med kremering på Bispebjerg Krematorium.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirken eller i kapellet på Gladsaxe Kirkegård.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Gladsaxe Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Søborg Kirke, Gladsaxe Kirke, Buddinge Kirke eller Bagsværd Kirke.", href: "/kirkelig-afsked/" },
@@ -294,7 +294,7 @@ export default function KimSoborg() {
 
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand i Søborg og Gladsaxe – Kim Bondo</p>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv – jeg er tilgængelig hele døgnet.</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring til mig på 28 14 60 11.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Kontakt mig</a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
           © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, kontor 11, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR.: 45084159

@@ -22,7 +22,7 @@ export default function KimAfskedUdenCeremoni() {
     >
       <SEO
         title="Afsked uden ceremoni – Bedemand Kim Bondo"
-        description="Enkel afsked uden ceremoni i København. Kremering og urnenedsættelse uden kirke. Fra 13.550 kr. Kim Bondo – ring 28 14 60 11 døgnet rundt."
+        description="Enkel afsked uden ceremoni i København. Kremering og urnenedsættelse uden kirke. Fra 13.550 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

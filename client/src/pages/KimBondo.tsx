@@ -51,7 +51,7 @@ export default function KimBondo() {
     >
       <SEO
         title="Bedemand København – Kim Bondo, personlig bedemand døgnet rundt"
-        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring 28 14 60 11 – døgnet rundt."
+        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

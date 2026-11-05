@@ -20,7 +20,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Lyngby?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Kgs. Lyngby, Virum, Sorgenfri, Lundtofte, Hjortekær og Taarbæk samt resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Lyngby?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Lyngby?", answer: "Nej. Der kremeres ikke i Lyngby i dag; det sker på Bispebjerg Krematorium i København eller i Hillerød. Ceremonien holdes stadig lokalt, i kirken eller i kapellet på kirkegården, og jeg sørger for transport og koordinering." },
+  { question: "Er der et krematorium i Lyngby?", answer: "Nej. Der kremeres ikke i Lyngby i dag. Ceremonien holdes stadig lokalt, i kirken eller i kapellet på kirkegården, og jeg sørger for transport og koordinering." },
   { question: "Hvilke kirkegårde bruges i Lyngby?", answer: "Især Lyngby Parkkirkegård på Gyrithe Lemches Vej og Sorgenfri Kirkegård på Skovbrynet. Der er også Lundtofte Kirkegård og Taarbæk Kirkegård. Lyngby Assistens Kirkegård har ikke taget imod begravelser siden 2000." },
 ];
 
@@ -29,7 +29,7 @@ export default function KimLyngby() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Lyngby – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Lyngby, Virum, Sorgenfri og Taarbæk. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet."
+        description="Personlig bedemand i Lyngby, Virum, Sorgenfri og Taarbæk. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/lyngby/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -114,7 +114,7 @@ export default function KimLyngby() {
             Lyngby-Taarbæk Kommune dækker Kgs. Lyngby, Virum, Sorgenfri, Lundtofte, Hjortekær og Taarbæk. De kirkegårde, der i dag tager imod begravelser, er især Lyngby Parkkirkegård på Gyrithe Lemches Vej og Sorgenfri Kirkegård på Skovbrynet. Lyngby Assistens Kirkegård ved Toftebæksvej ophørte med begravelser i 2000 og er i dag kvarterpark.
           </p>
           <p style={s.body}>
-            Der kremeres ikke længere i Lyngby. Kremeringen sker på Bispebjerg eller i Hillerød, mens højtideligheden holdes lokalt i kirken eller i kapellet på kirkegården. Transport og koordinering står jeg for.
+            Der kremeres ikke længere i Lyngby. Højtideligheden holdes lokalt i kirken eller i kapellet på kirkegården. Transport og koordinering står jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde i Lyngby</h3>
           <p style={s.body}>
@@ -135,7 +135,7 @@ export default function KimLyngby() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Lyngby?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering på Bispebjerg eller i Hillerød med ceremoni i kirken eller i kapellet på kirkegården.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirken eller i kapellet på kirkegården.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Lyngby Parkkirkegård, Sorgenfri eller Lundtofte Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Lyngby Kirke, Sorgenfri Kirke eller Taarbæk Kirke.", href: "/kirkelig-afsked/" },

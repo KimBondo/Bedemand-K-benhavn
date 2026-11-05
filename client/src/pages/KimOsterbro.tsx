@@ -16,7 +16,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand på Østerbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Østerbro og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse på Østerbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Hvilke kirkegårde og kapeller er der på Østerbro?", answer: "Holmens Kirkegård og Garnisons Kirkegård, som begge blev anlagt i 1660'erne og drives af sognenes menighedsråd. Kapellet på Holmens Kirkegård i Upsalagade har 110 pladser og bruges til både kirkelige og borgerlige ceremonier. Østerbro har ikke eget krematorium — kremeringen foregår på Bispebjerg." },
+  { question: "Hvilke kirkegårde og kapeller er der på Østerbro?", answer: "Holmens Kirkegård og Garnisons Kirkegård, som begge blev anlagt i 1660'erne og drives af sognenes menighedsråd. Kapellet på Holmens Kirkegård i Upsalagade har 110 pladser og bruges til både kirkelige og borgerlige ceremonier. Østerbro har ikke eget krematorium." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Kapellet på Holmens Kirkegård kan bruges af alle, uanset tro." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
@@ -26,7 +26,7 @@ export default function KimOsterbro() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Østerbro – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Østerbro. Holmens og Garnisons Kirkegård ligger i bydelen. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet."
+        description="Personlig bedemand på Østerbro. Holmens og Garnisons Kirkegård ligger i bydelen. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/osterbro/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -108,7 +108,7 @@ export default function KimOsterbro() {
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Østerbro</h2>
           <p style={s.body}>
-            Østerbro har ingen kommunal kirkegård, men to af byens ældste ligger her: Holmens Kirkegård fra 1662 og Garnisons Kirkegård fra 1664, som drives af sognenes menighedsråd i fællesskab. Kremeringen sker på Bispebjerg Krematorium få minutter væk, og jeg står for al koordineringen mellem kirke, kirkegård og krematorium.
+            Østerbro har ingen kommunal kirkegård, men to af byens ældste ligger her: Holmens Kirkegård fra 1662 og Garnisons Kirkegård fra 1664, som drives af sognenes menighedsråd i fællesskab. Jeg står for al koordineringen mellem kirke, kirkegård og krematorium.
           </p>
           <p style={s.body}>
             Der er ingen omstilling og ingen sagsbehandler hos mig. Fra det første opkald til den sidste hilsen er det den samme person, I har med at gøre — og jeg tager telefonen hele døgnet, også i weekender og på helligdage.
@@ -130,7 +130,7 @@ export default function KimOsterbro() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Østerbro?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni i kirke eller i kapellet på Holmens Kirkegård, med kremering på Bispebjerg Krematorium.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirke eller i kapellet på Holmens Kirkegård.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Holmens eller Garnisons Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Jakobs Kirke eller Kildevældskirken.", href: "/kirkelig-afsked/" },
@@ -250,7 +250,7 @@ export default function KimOsterbro() {
 
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand på Østerbro – Kim Bondo</p>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring til mig på 28 14 60 11.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Kontakt mig</a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
           © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, kontor 11, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR.: 45084159

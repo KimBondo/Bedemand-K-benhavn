@@ -24,7 +24,7 @@ const FAQ = [
   { question: "Hvem er bedemand i Rudersdal?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Birkerød, Holte, Nærum og Vedbæk samt resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Rudersdal?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvem driver kirkegårdene i Rudersdal?", answer: "Rudersdal Kommune ejer og driver kommunens fem kirkegårde: Birkerød, Høsterkøb, Søllerød, Vedbæk samt Assistens og Søholm Kirkegård. Kirkegårdskontoret ligger på Søllerødvej 13 i Holte. På kommunale kirkegårde er taksterne de samme for alle, uanset medlemskab af folkekirken." },
-  { question: "Er der et krematorium i Rudersdal?", answer: "Nej. Kremeringen sker på Hillerød Krematorium eller på Bispebjerg Krematorium i København. Ceremonien holdes stadig lokalt — i kirken eller i et af kirkegårdenes kapeller." },
+  { question: "Er der et krematorium i Rudersdal?", answer: "Nej. Der er ikke krematorium i Rudersdal. Ceremonien holdes stadig lokalt — i kirken eller i et af kirkegårdenes kapeller." },
 ];
 
 export default function KimRudersdal() {
@@ -32,7 +32,7 @@ export default function KimRudersdal() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Rudersdal – Birkerød, Holte, Nærum, Vedbæk"
-        description="Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet."
+        description="Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/rudersdal/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -142,10 +142,10 @@ export default function KimRudersdal() {
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kremering</h3>
           <p style={s.body}>
-            Der er ikke krematorium i Rudersdal. Kremeringen sker på Hillerød Krematorium eller på Bispebjerg Krematorium i København. Transporten og koordineringen står jeg for, mens ceremonien holdes lokalt i kirken eller i et af kirkegårdenes kapeller.
+            Der er ikke krematorium i Rudersdal. Transporten og koordineringen står jeg for, mens ceremonien holdes lokalt i kirken eller i et af kirkegårdenes kapeller.
           </p>
           <p style={s.body}>
-            Mange familier i Birkerød, Holte og Vedbæk vælger Hillerød, fordi det er Nordsjællands eneste aktive krematorium og afstanden er kort. Jeg kender både kapellerne på Søllerød, Høsterkøb og Vedbæk og de praktiske forhold omkring transport og tider, så I kan fokusere på afskeden.
+            Jeg kender både kapellerne på Søllerød, Høsterkøb og Vedbæk og de praktiske forhold omkring transport og tider, så I kan fokusere på afskeden.
           </p>
         </div>
       </section>
@@ -157,7 +157,7 @@ export default function KimRudersdal() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Rudersdal?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering i Hillerød eller København med ceremoni i kirken eller et af kirkegårdskapellerne.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirken eller et af kirkegårdskapellerne.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på en af Rudersdals fem kirkegårde. Jeg koordinerer med kirkegårdskontoret og præsten.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Borgerlig afsked", desc: "En ceremoni uden præst, fx i et af kirkegårdenes kapeller. I bestemmer selv indholdet.", href: "/borgerlig-afsked/" },

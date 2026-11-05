@@ -23,7 +23,7 @@ export default function KimBisaettelse() {
     >
       <SEO
         title="Bisættelse i København – Bedemand Kim Bondo"
-        description="Personlig hjælp til bisættelse i København og Nordsjælland. Kim Bondo tager sig af alt det praktiske. Ring 28 14 60 11 – døgnet rundt."
+        description="Personlig hjælp til bisættelse i København og Nordsjælland. Kim Bondo tager sig af alt det praktiske. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/bisaettelse/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

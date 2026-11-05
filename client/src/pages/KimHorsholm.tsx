@@ -20,7 +20,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Hørsholm?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hørsholm, Rungsted, Usserød og Kokkedal samt resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Hørsholm?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Hørsholm?", answer: "Nej. Der er ikke krematorium i Hørsholm Kommune. Kremeringen sker i Hillerød eller i København – I vælger selv, ofte ud fra hvor I vil hente urnen, eller også bringer jeg den. Ceremonien holdes stadig lokalt — i kirken eller i kapellet på Hørsholm Kirkegård." },
+  { question: "Er der et krematorium i Hørsholm?", answer: "Nej. Der er ikke krematorium i Hørsholm Kommune. Ceremonien holdes stadig lokalt — i kirken eller i kapellet på Hørsholm Kirkegård." },
   { question: "Kan alle bruge kapellet på Hørsholm Kirkegård?", answer: "Ja. Kapellet fra 1929 kan benyttes af alle, uanset tro. Højtideligheden varer op til en halv time, og en medarbejder fra kirkegården er altid med og hjælper med blomster og opstilling." },
 ];
 
@@ -29,7 +29,7 @@ export default function KimHorsholm() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Hørsholm – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Hørsholm, Rungsted og Kokkedal. Kapellet på Hørsholm Kirkegård kan benyttes af alle. Ring 28 14 60 11 — hele døgnet."
+        description="Personlig bedemand i Hørsholm, Rungsted og Kokkedal. Kapellet på Hørsholm Kirkegård kan benyttes af alle. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/horsholm/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -114,7 +114,7 @@ export default function KimHorsholm() {
             Hørsholm Kommune er lille og overskuelig: selve Hørsholm, Rungsted mod kysten, Usserød, Sjælsmark og Kettinge. Kirkeligt hører Kokkedal til samme pastorat som Hørsholm og Rungsted, selv om byen ligger i Fredensborg Kommune — så jeg dækker også dér.
           </p>
           <p style={s.body}>
-            Der er ikke noget krematorium i Hørsholm. Kremeringen kan ske i Hillerød eller i København – I vælger selv, og mange vælger ud fra, hvor de helst vil hente urnen. I kan også lade mig bringe den. Selve højtideligheden holdes lokalt i kirken eller i kirkegårdskapellet, og transport og koordinering står jeg for.
+            Der er ikke noget krematorium i Hørsholm. Selve højtideligheden holdes lokalt i kirken eller i kirkegårdskapellet, og transport og koordinering står jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirke, kapel og kirkegård i Hørsholm</h3>
           <p style={s.body}>
@@ -135,7 +135,7 @@ export default function KimHorsholm() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Hørsholm?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering i Hillerød eller København med ceremoni i Hørsholm Kirke, Rungsted Kirke eller kirkegårdskapellet.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i Hørsholm Kirke, Rungsted Kirke eller kirkegårdskapellet.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Hørsholm Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i Hørsholm Kirke eller Rungsted Kirke.", href: "/kirkelig-afsked/" },

@@ -22,7 +22,7 @@ export default function KimBegravelse() {
     >
       <SEO
         title="Begravelse i København – Bedemand Kim Bondo"
-        description="Personlig hjælp til begravelse i København og Nordsjælland. Jeg koordinerer kiste, kirkegård og ceremoni. Ring 28 14 60 11."
+        description="Personlig hjælp til begravelse i København og Nordsjælland. Jeg koordinerer kiste og kirkegård. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/begravelse/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

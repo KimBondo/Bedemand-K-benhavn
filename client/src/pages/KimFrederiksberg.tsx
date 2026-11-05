@@ -33,7 +33,7 @@ export default function KimFrederiksberg() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Frederiksberg – Kim Bondo"
-        description="Personlig bedemand på Frederiksberg. Søndermark Krematorium og kommunens tre kirkegårde. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet."
+        description="Personlig bedemand på Frederiksberg. Kommunens tre kirkegårde. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/frederiksberg/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -155,7 +155,7 @@ export default function KimFrederiksberg() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Frederiksberg?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni i kirken eller i en af de to kapelsale på Søndermarken, med kremering på Søndermark Krematorium.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirken eller i en af de to kapelsale på Søndermarken.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Frederiksberg Ældre Kirkegård, Solbjerg Parkkirkegård eller Søndermark Kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Frederiksberg Kirke eller Solbjerg Kirke.", href: "/kirkelig-afsked/" },
@@ -279,7 +279,7 @@ export default function KimFrederiksberg() {
       {/* ── FOOTER ── */}
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand på Frederiksberg – Kim Bondo</p>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring til mig på 28 14 60 11.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
           eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
