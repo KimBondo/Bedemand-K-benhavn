@@ -139,18 +139,18 @@ export default function KimNordsjaelland() {
             Nordsjælland er ikke en kommune, men egnen nord for København mellem Isefjorden og Øresund. I praksis dækker jeg Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs. Kirkeligt hører hele området under Helsingør Stift.
           </p>
           <p style={s.body}>
-            Hillerød Krematorium ved Skansekirkegården er det eneste krematorium i Nordsjælland. Ceremonien holdes stadig lokalt, og transporten sørger jeg for.
+            Hillerød Krematorium ved Skansekirkegården er det eneste krematorium i Nordsjælland. I vælger selv krematorium. Ceremonien holdes stadig lokalt, og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirkegårde, kapeller og krematorium i Nordsjælland</h3>
           <p style={s.body}>
             Hillerød Krematorium blev etableret i 1967 og udførte omkring 2.000 kremeringer i 2025. Det ligger ved Skansekirkegården på Skansevej, hvor der også er kapel med plads til 150 — ligesom i Nyhuse Kapel inde i byen.
           </p>
           <p style={s.body}>
-            I Gentofte er Mariebjerg Kirkegård optaget i Kulturkanonen. Kapellet på Helsingør Kirkegård har 165 pladser, og i Hørsholm ligger kapellet fra 1929, som kan benyttes af alle uanset tro. Jeg kender rummene og ved, hvor mange der kan være.
+            I Gentofte er Mariebjerg Kirkegård optaget i Kulturkanonen, og de to kapeller dér tager henholdsvis 150 og 50 personer. Kapellet på Helsingør Kirkegård har 165 pladser, og i Hørsholm ligger kapellet fra 1929, som kan benyttes af alle uanset tro. Jeg kender rummene og ved, hvor mange der kan være.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Bedemand på Nordkysten</h3>
           <p style={s.body}>
-            Jeg hjælper også familier langs Nordkysten, i Hornbæk, Dronningmølle, Gilleleje og Tisvildeleje. Jeg aftaler alt med kirken og kirkegården lokalt.
+            Jeg hjælper også familier langs Nordkysten, i Hornbæk, Dronningmølle, Gilleleje og Tisvildeleje. I vælger selv krematorium. Jeg aftaler alt med kirken og kirkegården lokalt.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>

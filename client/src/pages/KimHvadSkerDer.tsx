@@ -86,6 +86,9 @@ export default function KimHvadSkerDer() {
           <p style={s.body}>
             Jeg anmelder dødsfaldet til hjemsognet og søger begravelseshjælp på jeres vegne. Jeg koordinerer med kirke eller kapel, krematorium og kirkegård, så I ikke selv skal holde styr på tider og kontakter.
           </p>
+          <p style={s.body}>
+            I vælger selv krematorium, og jeg hjælper med det praktiske. Ceremonien holdes stadig lokalt.
+          </p>
 
           <h2 style={s.h2}>Valg af afsked</h2>
           <p style={s.body}>

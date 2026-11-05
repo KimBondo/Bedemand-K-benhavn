@@ -64,13 +64,16 @@ export default function KimBisaettelseNordsjaelland() {
           Sådan forløber en bisættelse i Nordsjælland
         </h1>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto", lineHeight: 1.7 }}>
-          Ceremonien holdes lokalt, og jeg koordinerer det hele.
+          Ceremonien holdes lokalt, og I vælger selv krematorium. Jeg koordinerer det hele.
         </p>
       </section>
 
       <section style={{ background: "#fff", padding: "48px 32px 72px" }}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
-          <h2 style={s.h2}>Lokal ceremoni</h2>
+          <h2 style={s.h2}>Kremering – I vælger selv</h2>
+          <p style={s.body}>
+            I vælger selv krematorium, og jeg hjælper med det praktiske.
+          </p>
           <p style={s.body}>
             Ceremonien holdes stadig lokalt – i jeres egen kirke eller det kapel, I vælger. Det er kun selve kremeringen, der foregår et andet sted, og transporten sørger jeg for.
           </p>

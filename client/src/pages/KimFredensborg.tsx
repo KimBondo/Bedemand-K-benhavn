@@ -16,7 +16,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Fredensborg?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Fredensborg, Humlebæk, Kokkedal og Nivå samt resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Fredensborg?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Fredensborg Kommune?", answer: "Nej. Der er ikke krematorium i Fredensborg Kommune. Ceremonien holdes stadig lokalt — i kirken eller i et kirkegårdskapel i kommunen." },
+  { question: "Er der et krematorium i Fredensborg Kommune?", answer: "Nej. Der er ikke krematorium i Fredensborg Kommune. I vælger selv krematorium, og jeg hjælper med det praktiske. Ceremonien holdes stadig lokalt — i kirken eller i et kirkegårdskapel i kommunen." },
   { question: "Kan man vælge en kirkegård i et andet sogn i Fredensborg?", answer: "Ja. Siden januar 2019 har det været gratis for medlemmer af folkekirken med bopæl i Fredensborg Provsti at blive begravet eller få urnen nedsat på kirkegårdene i alle provstiets sogne: Asminderød, Grønholt, Humlebæk, Hørsholm, Karlebo, Kokkedal og Rungsted. Jeg undersøger de aktuelle vilkår for jer." },
 ];
 
@@ -125,7 +125,7 @@ export default function KimFredensborg() {
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kremering</h3>
           <p style={s.body}>
-            Der er ikke krematorium i Fredensborg Kommune. Transporten og koordineringen står jeg for, mens ceremonien holdes lokalt.
+            Der er ikke krematorium i Fredensborg Kommune. I vælger selv krematorium. Transporten og koordineringen står jeg for, mens ceremonien holdes lokalt.
           </p>
         </div>
       </section>

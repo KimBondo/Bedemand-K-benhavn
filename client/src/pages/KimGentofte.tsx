@@ -114,11 +114,11 @@ export default function KimGentofte() {
             Gentofte Kommune består af syv bydele: Hellerup, Ordrup-Charlottenlund, Dyssegård, Vangede, Gentofte, Klampenborg-Skovshoved og Jægersborg. Kommunen har fire kirkegårde — Gentofte, Hellerup, Ordrup og Mariebjerg — og jeg koordinerer direkte med kirkegårdskontoret og med sognene.
           </p>
           <p style={s.body}>
-            Mariebjerg Krematorium lukkede ved udgangen af 2010. Jeg koordinerer det praktiske med kirkegårdskontoret og sognene, og transporten sørger jeg for.
+            Mariebjerg Krematorium lukkede ved udgangen af 2010. Afskeden kan holdes i kirken, i et kapel – også på Mariebjerg, hvis I ønsker det – eller et andet sted, der passer jer. I vælger selv krematorium. Jeg koordinerer det praktiske med kirkegårdskontoret og sognene, og transporten sørger jeg for.
           </p>
-          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde i Gentofte</h3>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde i Gentofte</h3>
           <p style={s.body}>
-            Mariebjerg Kirkegård er anlagt 1926-36 af landskabsarkitekten G.N. Brandt og er optaget i Kulturkanonen: omkring 50 rektangulære gravafdelinger omkranset af takshække, alléer af skovfyr, søjleavnbøg, ahorn og pil, en børnegravplads med sten i græs og en gammel grusgrav omdannet til en græsklædt dal.
+            Mariebjerg Kirkegård er anlagt 1926-36 af landskabsarkitekten G.N. Brandt og er optaget i Kulturkanonen: omkring 50 rektangulære gravafdelinger omkranset af takshække, alléer af skovfyr, søjleavnbøg, ahorn og pil, en børnegravplads med sten i græs og en gammel grusgrav omdannet til en græsklædt dal. De to kapeller tager henholdsvis 150 og 50 personer.
           </p>
           <p style={s.body}>
             Mariebjerg Kirkegård er særligt populær blandt familier, der ønsker en mere naturnær og stilren ramme. Mange vælger at holde mindesamvær i nærområdet bagefter. Jeg kender både de praktiske forhold og de forskellige sognes procedurer.

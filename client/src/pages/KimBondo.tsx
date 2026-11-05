@@ -710,7 +710,7 @@ export default function KimBondo() {
                 price: "Fra 18.300 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-                  "Klassisk hvid kiste (basiskiste: 500 kr. billigere)",
+                  "Klassisk hvid kiste (vælger I den enkleste basiskiste, trækkes 500 kr. fra)",
                   "Natururne",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
                   "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet",
@@ -727,7 +727,7 @@ export default function KimBondo() {
                 price: "Fra 19.300 kr.",
                 items: [
                   "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-                  "Klassisk hvid kiste (basiskiste: 1.000 kr. billigere)",
+                  "Klassisk hvid kiste (vælger I den enkleste basiskiste, trækkes 1.000 kr. fra)",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
                   "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til graven",
                   "Kontakt til kordegn, præst og kirkegård",
@@ -743,7 +743,7 @@ export default function KimBondo() {
                   "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til krematoriet på en hverdag – uden forudgående højtidelighed.",
                 price: "Fra 13.550 kr.",
                 items: [
-                  "Klassisk hvid kiste (basiskiste: 500 kr. billigere)",
+                  "Klassisk hvid kiste (vælger I den enkleste basiskiste, trækkes 500 kr. fra)",
                   "Natururne",
                   "Klargøring af kiste, påklædning og ilægning i kiste",
                   "Rustvognskørsel fra hospital eller kapel til krematoriet",

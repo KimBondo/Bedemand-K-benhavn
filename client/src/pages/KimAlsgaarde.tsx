@@ -137,7 +137,7 @@ export default function KimAlsgaarde() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kremering og ceremoni</h2>
           <p style={s.body}>
-            Helsingør har ikke længere sit eget krematorium. Ved en bisættelse holdes ceremonien stadig lokalt – i Hellebæk Kirke eller et kapel – og bagefter sørger jeg for transporten. Urnen kommer tilbage, så den kan nedsættes på Ålsgårde Kirkegård, på en anden kirkegård eller askespredes over havet, hvis det var afdødes ønske.
+            Helsingør har ikke længere sit eget krematorium. I vælger selv krematorium, og jeg hjælper med det praktiske. Ved en bisættelse holdes ceremonien stadig lokalt – i Hellebæk Kirke eller et kapel – og bagefter sørger jeg for transporten. Urnen kommer tilbage, så den kan nedsættes på Ålsgårde Kirkegård, på en anden kirkegård eller askespredes over havet, hvis det var afdødes ønske.
           </p>
           <p style={s.body}>
             Ved en begravelse sænkes kisten i jorden efter ceremonien. Og ønsker I det helt stille, kan jeg arrangere en afsked uden ceremoni.

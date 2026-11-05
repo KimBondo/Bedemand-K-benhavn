@@ -16,7 +16,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand på Vesterbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Vesterbro og Kgs. Enghave og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium på Vestre Kirkegård?", answer: "Nej — det er en udbredt misforståelse. Der har aldrig ligget et krematorium på Vestre Kirkegård. Til gengæld har Vestre Kirkegård Nordre Kapel fra 1892, som er et af byens smukkeste ceremonirum, med plads til 225." },
+  { question: "Er der et krematorium på Vestre Kirkegård?", answer: "Nej — det er en udbredt misforståelse. Der har aldrig ligget et krematorium på Vestre Kirkegård. Københavns Kommune har to: Bispebjerg og Sundby. I vælger selv krematorium, og jeg hjælper med det praktiske. Til gengæld har Vestre Kirkegård Nordre Kapel fra 1892, som er et af byens smukkeste ceremonirum, med plads til 225." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Nordre Kapel på Vestre Kirkegård bruges til begge dele, og I kan også vælge en anden ramme." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
@@ -108,7 +108,7 @@ export default function KimVesterbro() {
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Vesterbro</h2>
           <p style={s.body}>
-            Bydelen hedder officielt Vesterbro og Kgs. Enghave, og i den sydvestlige ende ligger Vestre Kirkegård — Danmarks største, 54 hektar, anlagt fra 1870 som landets første centralkirkegård. Der er intet krematorium på kirkegården, og det praktiske ordner jeg.
+            Bydelen hedder officielt Vesterbro og Kgs. Enghave, og i den sydvestlige ende ligger Vestre Kirkegård — Danmarks største, 54 hektar, anlagt fra 1870 som landets første centralkirkegård. Der er intet krematorium på kirkegården. I vælger selv krematorium, og jeg hjælper med det praktiske.
           </p>
           <p style={s.body}>
             Jeg er den eneste, I skal forholde jer til. Ingen omstilling, ingen sagsbehandler — bare mig, fra det første opkald til den sidste hilsen, hele døgnet og også i weekenden.

@@ -137,7 +137,7 @@ export default function KimSoborg() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Bedemand i Gladsaxe Kommune</h2>
           <p style={s.body}>
-            Søborg hører til Gladsaxe Kommune, og jeg hjælper familier i hele kommunen: Søborg, Buddinge, Mørkhøj, Bagsværd og Gladsaxe. Ceremonien holdes i den kirke eller det kapel, I vælger. Jeg står for kontakten til kirke, kirkegård og krematorium.
+            Søborg hører til Gladsaxe Kommune, og jeg hjælper familier i hele kommunen: Søborg, Buddinge, Mørkhøj, Bagsværd og Gladsaxe. Ceremonien holdes i den kirke eller det kapel, I vælger, og I vælger også selv krematorium. Jeg står for kontakten til kirke, kirkegård og krematorium.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Også naboerne i Herlev, Ballerup og Rødovre</h2>
           <p style={s.body}>
