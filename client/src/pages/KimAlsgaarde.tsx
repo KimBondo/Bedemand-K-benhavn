@@ -17,7 +17,6 @@ const FAQ = [
   { question: "Hvilken kirke hører Ålsgårde til?", answer: "Ålsgårde hører til Hellebæk Sogn, og sognekirken er Hellebæk Kirke, Ved Kirken 2-4, 3140 Ålsgårde. Kirken ligger ved stranden og blev indviet i 1920. Jeg tager kontakten til kirkekontoret og præsten for jer." },
   { question: "Kan urnen nedsættes på Ålsgårde Kirkegård?", answer: "Ja. Ålsgårde Kirkegård ved Ålsgårde Station er i dag primært en urnekirkegård. Jeg hjælper jer med at vælge gravsted og aftaler urnenedsættelsen med kirkegårdskontoret." },
   { question: "Kan man stadig blive begravet i kiste i Ålsgårde?", answer: "Ålsgårde Kirkegård er i dag primært urnekirkegård med få ældre kistegravsteder. Ønsker I en kistebegravelse, undersøger jeg mulighederne på sognets kirkegårde – også den gamle Hellebæk Kirkegård i Teglstrup Hegn – og finder en løsning sammen med jer." },
-  { question: "Hvor foregår kremeringen, når man bor i Ålsgårde?", answer: "I vælger selv. Helsingør har ikke længere eget krematorium, men I kan vælge kremering i Hillerød – det eneste krematorium i Nordsjælland – eller indlevering i Helsingør. Ceremonien holdes lokalt, fx i Hellebæk Kirke, og jeg sørger for transporten, så I ikke selv skal tage nogen steder hen." },
   { question: "Kommer du hjem til os i Ålsgårde?", answer: "Ja. Jeg kommer gerne hjem til jer i Ålsgårde, Hellebæk eller langs kysten, og telefonen er åben døgnet rundt på 28 14 60 11." },
 ];
 
@@ -26,7 +25,7 @@ export default function KimAlsgaarde() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Ålsgårde – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring 28 14 60 11 – døgnet rundt."
+        description="Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/alsgaarde/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -138,7 +137,7 @@ export default function KimAlsgaarde() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kremering og ceremoni</h2>
           <p style={s.body}>
-            Helsingør har ikke længere sit eget krematorium. Ved en bisættelse holdes ceremonien stadig lokalt – i Hellebæk Kirke eller et kapel – og bagefter sørger jeg for transporten efter jeres valg: til Hillerød Krematorium, som er det eneste i Nordsjælland, eller til indlevering i Helsingør. Urnen kommer tilbage, så den kan nedsættes på Ålsgårde Kirkegård, på en anden kirkegård eller askespredes over havet, hvis det var afdødes ønske.
+            Helsingør har ikke længere sit eget krematorium. I vælger selv krematorium, og jeg hjælper med det praktiske. Ved en bisættelse holdes ceremonien stadig lokalt – i Hellebæk Kirke eller et kapel – og bagefter sørger jeg for transporten. Urnen kommer tilbage, så den kan nedsættes på Ålsgårde Kirkegård, på en anden kirkegård eller askespredes over havet, hvis det var afdødes ønske.
           </p>
           <p style={s.body}>
             Ved en begravelse sænkes kisten i jorden efter ceremonien. Og ønsker I det helt stille, kan jeg arrangere en afsked uden ceremoni.
@@ -160,7 +159,7 @@ export default function KimAlsgaarde() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Ålsgårde?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni lokalt med kremering i Hillerød eller via indlevering i Helsingør – I vælger selv.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni lokalt, fx i Hellebæk Kirke eller et kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },

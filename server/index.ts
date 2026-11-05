@@ -19,7 +19,7 @@ const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 const ROUTE_META: Record<string, { title: string; description: string; image?: string }> = {
   "/": {
     title: "Bedemand København – Kim Bondo, personlig bedemand døgnet rundt",
-    description: "Personlig bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring 28 14 60 11 – døgnet rundt.",
+    description: "Personlig bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring til mig på 28 14 60 11.",
   },
   "/priser": {
     title: "Priser – Bedemand Kim Bondo | fra 13.550 kr.",
@@ -31,19 +31,19 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/bisaettelse": {
     title: "Bisættelse i København – Bedemand Kim Bondo fra 18.300 kr.",
-    description: "Personlig bisættelse i København og Nordsjælland fra 18.300 kr. Kim Bondo er med jer hele vejen – fra første opkald til den sidste afsked.",
+    description: "Personlig hjælp til bisættelse i København og Nordsjælland. Kim Bondo tager sig af alt det praktiske. Ring til mig på 28 14 60 11.",
   },
   "/begravelse": {
     title: "Begravelse i København – Bedemand Kim Bondo fra 19.300 kr.",
-    description: "Personlig begravelse i København og Nordsjælland fra 19.300 kr. Kirkegård, kiste og koordinering – Kim Bondo tager sig af alt det praktiske.",
+    description: "Personlig hjælp til begravelse i København og Nordsjælland. Jeg koordinerer kiste og kirkegård. Ring til mig på 28 14 60 11.",
   },
   "/afsked-uden-ceremoni": {
     title: "Afsked uden ceremoni – Bedemand Kim Bondo fra 13.550 kr.",
-    description: "En enkel og værdig afsked uden ceremoni fra 13.550 kr. Kremering og urnenedsættelse uden offentlig ceremoni – Kim Bondo hjælper jer.",
+    description: "Enkel afsked uden ceremoni i København. Kremering og urnenedsættelse uden kirke. Fra 13.550 kr. Ring til mig på 28 14 60 11.",
   },
   "/askespredning": {
     title: "Askespredning i Danmark – Bedemand Kim Bondo",
-    description: "Askespredning over åbent hav. Kim Bondo hjælper med tro og love-erklæring, papirer og det praktiske. Ring 28 14 60 11 – døgnet rundt.",
+    description: "Askespredning over åbent hav. Kim Bondo hjælper med tro og love-erklæring, papirer og det praktiske. Ring til mig på 28 14 60 11.",
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked – Bedemand Kim Bondo",
@@ -51,7 +51,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/borgerlig-afsked": {
     title: "Borgerlig afsked – Bedemand Kim Bondo",
-    description: "En personlig afsked uden kirke og præst. Kim Bondo hjælper med at skabe en meningsfuld og individuel ceremoni der afspejler den afdødes liv.",
+    description: "Borgerlig begravelse eller bisættelse uden kirke i København. Jeg hjælper med alt det praktiske. Ring til mig på 28 14 60 11.",
   },
   "/mindeord": {
     title: "Mindeord og tale ved begravelse – skabelon og eksempel",
@@ -67,7 +67,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/omraade": {
     title: "Dækningsområde – Bedemand Kim Bondo",
-    description: "Kim Bondo dækker hele København og Nordsjælland. Se hvilke kommuner og byer der er inden for dækningsområdet.",
+    description: "Kim Bondo dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring til mig på 28 14 60 11.",
   },
   "/hvad-koster-en-begravelse": {
     title: "Hvad koster en begravelse? Komplet guide 2026 – Kim Bondo",
@@ -75,23 +75,23 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/helsingor": {
     title: "Bedemand Helsingør – Kim Bondo | Personlig hjælp i Helsingør",
-    description: "Personlig bedemand i Helsingør og omegn. Kim Bondo hjælper med bisættelse og begravelse i Helsingør Kommune. Ring 28 14 60 11.",
+    description: "Personlig bedemand i Helsingør, Snekkersten, Espergærde og Hornbæk. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11.",
   },
   "/horsholm": {
     title: "Bedemand Hørsholm – Kim Bondo | Personlig hjælp i Hørsholm",
-    description: "Personlig bedemand i Hørsholm og omegn. Kim Bondo hjælper med bisættelse og begravelse i Hørsholm Kommune. Ring 28 14 60 11.",
+    description: "Personlig bedemand i Hørsholm, Rungsted og Kokkedal. Kapellet på Hørsholm Kirkegård kan benyttes af alle. Ring til mig på 28 14 60 11.",
   },
   "/gentofte": {
     title: "Bedemand Gentofte – Kim Bondo | Personlig hjælp i Gentofte",
-    description: "Personlig bedemand i Gentofte og omegn. Kim Bondo hjælper med bisættelse og begravelse i Gentofte Kommune. Ring 28 14 60 11.",
+    description: "Personlig bedemand i Gentofte, Hellerup, Charlottenlund og Vangede. Ring til mig på 28 14 60 11.",
   },
   "/lyngby": {
     title: "Bedemand Lyngby – Kim Bondo | Personlig hjælp i Lyngby",
-    description: "Personlig bedemand i Lyngby-Taarbæk. Kim Bondo hjælper med bisættelse og begravelse i Lyngby og omegn. Ring 28 14 60 11.",
+    description: "Personlig bedemand i Lyngby, Virum, Sorgenfri og Taarbæk. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11.",
   },
   "/hillerod": {
     title: "Bedemand Hillerød – Kim Bondo | Personlig hjælp i Hillerød",
-    description: "Personlig bedemand i Hillerød og omegn. Kim Bondo hjælper med bisættelse og begravelse i Hillerød Kommune. Ring 28 14 60 11.",
+    description: "Personlig bedemand i Hillerød og omegn. Faste priser. Ring til mig på 28 14 60 11.",
   },
   "/faq": {
     title: "Ofte stillede spørgsmål – Bedemand Kim Bondo",
@@ -99,15 +99,15 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/nordsjaelland": {
     title: "Bedemand Nordsjælland – Kim Bondo | Personlig hjælp",
-    description: "Personlig bedemand i hele Nordsjælland. Kim Bondo dækker Helsingør, Hillerød, Hørsholm, Gentofte, Lyngby og omegn. Ring 28 14 60 11.",
+    description: "Personlig bedemand i hele Nordsjælland — fra Gentofte og Lyngby til Hillerød og Helsingør. Faste priser. Ring til mig på 28 14 60 11.",
   },
   "/frederiksberg": {
     title: "Bedemand Frederiksberg – Kim Bondo | Personlig hjælp",
-    description: "Personlig bedemand på Frederiksberg. Kim Bondo hjælper med bisættelse og begravelse på Frederiksberg. Ring 28 14 60 11.",
+    description: "Personlig bedemand på Frederiksberg. Kommunens tre kirkegårde. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11.",
   },
   "/amager": {
     title: "Bedemand Amager – Kim Bondo | Personlig hjælp på Amager",
-    description: "Personlig bedemand på Amager. Kim Bondo hjælper med bisættelse og begravelse på Amager og i Kastrup. Ring 28 14 60 11.",
+    description: "Personlig bedemand på Amager, i Tårnby og Dragør. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11.",
   },
   "/sjaelland": {
     title: "Bedemand på Sjælland – Kim Bondo, døgnet rundt",
@@ -115,19 +115,19 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/soborg": {
     title: "Bedemand Søborg & Gladsaxe – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand med kontor på Vandtårnsvej 62A i Søborg. Jeg hjælper familier i hele Gladsaxe med bisættelse og begravelse. Ring 28 14 60 11 – døgnet rundt.",
+    description: "Personlig bedemand med kontor på Vandtårnsvej 62A i Søborg. Jeg hjælper familier i hele Gladsaxe med bisættelse og begravelse. Ring til mig på 28 14 60 11.",
   },
   "/osterbro": {
     title: "Bedemand Østerbro – Kim Bondo | Personlig hjælp på Østerbro",
-    description: "Personlig bedemand på Østerbro. Kim Bondo hjælper med bisættelse og begravelse på Østerbro i København. Ring 28 14 60 11.",
+    description: "Personlig bedemand på Østerbro. Holmens og Garnisons Kirkegård ligger i bydelen. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11.",
   },
   "/norrebro": {
     title: "Bedemand Nørrebro – Kim Bondo | Personlig hjælp på Nørrebro",
-    description: "Personlig bedemand på Nørrebro. Kim Bondo hjælper med bisættelse og begravelse på Nørrebro i København. Ring 28 14 60 11.",
+    description: "Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11.",
   },
   "/vesterbro": {
     title: "Bedemand Vesterbro – Kim Bondo | Personlig hjælp på Vesterbro",
-    description: "Personlig bedemand på Vesterbro. Kim Bondo hjælper med bisættelse og begravelse på Vesterbro i København. Ring 28 14 60 11.",
+    description: "Personlig bedemand på Vesterbro og i Kgs. Enghave. Vestre Kirkegård og Nordre Kapel ligger i bydelen. Faste priser. Ring til mig på 28 14 60 11.",
   },
   "/produkter": {
     title: "Kister og urner – Bedemand Kim Bondo",
@@ -139,11 +139,11 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/fredensborg": {
     title: "Bedemand Fredensborg – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Fredensborg, Humlebæk, Kokkedal og Nivå. Frit valg af kirkegård i provstiet for folkekirkemedlemmer. Ring 28 14 60 11 — hele døgnet.",
+    description: "Personlig bedemand i Fredensborg, Humlebæk, Kokkedal og Nivå. Frit valg af kirkegård i provstiet for folkekirkemedlemmer. Ring til mig på 28 14 60 11.",
   },
   "/rudersdal": {
     title: "Bedemand Rudersdal – Birkerød, Holte, Nærum, Vedbæk",
-    description: "Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet.",
+    description: "Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11.",
   },
   "/min-sidste-vilje": {
     title: "Min Sidste Vilje – skema og ønsker til egen begravelse",
@@ -151,19 +151,19 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/hornbaek": {
     title: "Bedemand Hornbæk – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Hornbæk og Hellebæk. Kremering i Hillerød eller via Helsingør – I vælger frit. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
+    description: "Personlig bedemand i Hornbæk og Hellebæk. Faste priser. Ring til mig på 28 14 60 11.",
   },
   "/gilleleje": {
     title: "Bedemand Gilleleje – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Gilleleje og Gribskov. Jeg kender Gilleleje Kirke, Søborg Kirke og kirkegårdene. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
+    description: "Personlig bedemand i Gilleleje og Gribskov. Jeg kender Gilleleje Kirke, Søborg Kirke og kirkegårdene. Faste priser. Ring til mig på 28 14 60 11.",
   },
   "/alsgaarde": {
     title: "Bedemand Ålsgårde – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring 28 14 60 11 – døgnet rundt.",
+    description: "Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring til mig på 28 14 60 11.",
   },
   "/humlebaek": {
     title: "Bedemand Humlebæk – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Humlebæk og Fredensborg Kommune. Ceremoni lokalt, kremering i Hillerød eller København. Faste priser. Ring 28 14 60 11 – døgnet rundt.",
+    description: "Personlig bedemand i Humlebæk og Fredensborg Kommune. Ring til mig på 28 14 60 11.",
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",

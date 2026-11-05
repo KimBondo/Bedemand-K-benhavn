@@ -71,7 +71,7 @@ export default function KimOmraade() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Dækningsområde – Bedemand Kim Bondo"
-        description="Kim Bondo dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring 28 14 60 11 – døgnet rundt."
+        description="Kim Bondo dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/omraade/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

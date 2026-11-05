@@ -186,7 +186,7 @@ export default function KimPrisberegner() {
             <>
               <h2 style={s.h2}>2. {medUrne ? "Hvilken kiste og urne?" : "Hvilken kiste?"}</h2>
               <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-                Prisen ovenfor er med en klassisk hvid kiste. Vælger I en anden kiste, betaler I kun forskellen — og vælger I basiskisten, bliver det billigere.{" "}
+                Prisen ovenfor er med en klassisk hvid kiste. Vælger I en anden kiste, betaler I kun forskellen — og vælger I den enkleste basiskiste, trækkes forskellen fra.{" "}
                 <a href="/produkter/" style={s.link}>Se kisterne med billeder</a>
               </p>
               <div style={{ display: "grid", gap: "12px", marginBottom: "40px" }}>

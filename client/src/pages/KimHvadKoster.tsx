@@ -22,7 +22,7 @@ const s = {
 
 
 const FAQ = [
-  { question: "Hvad er den billigste begravelse?", answer: "Den billigste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 13.550 kr. inkl. al koordinering, men ekskl. kremering og gravsted." },
+  { question: "Hvad er den enkleste afsked?", answer: "Den enkleste løsning er en afsked uden ceremoni, hvor kisten transporteres direkte til krematoriet. Hos mig starter denne løsning fra 13.550 kr. inkl. al koordinering, men ekskl. kremering og gravsted." },
   { question: "Hvad koster en bisættelse i København?", answer: "Mit honorar er 4.500 kr., mens den samlede pakkepris for en bisættelse med ceremoni starter fra 18.300 kr. Dertil kommer kremering, blomster og eventuel kapelleje." },
   { question: "Er der skjulte udgifter?", answer: "Nej — jeg gennemgår altid alle udgifter med jer på forhånd, inden I beslutter noget. Ingen overraskelser bagefter." },
   { question: "Kan man betale i rater?", answer: "Det afhænger af den konkrete situation. Ring til mig, så finder vi en løsning, der passer til jer." },
@@ -121,7 +121,7 @@ export default function KimHvadKoster() {
           <h2 style={s.h2}>De fem vigtigste valg</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "32px" }}>
             {[
-              { num: "1", title: "Bisættelse eller begravelse?", body: "Bisættelse (kremering) er typisk billigere end begravelse i jord, fordi man undgår udgifterne til gravsted og gravsten. Mange vælger bisættelse med efterfølgende urnenedsættelse." },
+              { num: "1", title: "Bisættelse eller begravelse?", body: "Bisættelse (kremering) er typisk enklere end begravelse i jord, fordi man undgår udgifterne til gravsted og gravsten. Mange vælger bisættelse med efterfølgende urnenedsættelse." },
               { num: "2", title: "Kirkelig eller borgerlig ceremoni?", body: "En kirkelig ceremoni i Folkekirkens kirker er gratis for medlemmer. En borgerlig ceremoni kræver leje af kapel, hvilket typisk koster 1.000–3.000 kr." },
               { num: "3", title: "Kistens pris", body: "Kister varierer i pris — fra en enkel basiskiste til 6.000 kr. op til 8.800 kr. for den dyreste model. Jeg tilbyder også hvide kister og naturkister. Jeg hjælper jer med at finde den rigtige." },
               { num: "4", title: "Gravsted og gravsten", body: "Gravstedet er en af de største enkeltudgifter. Prisen afhænger af kommunen, gravstedets størrelse og gravstenstype. Mange vælger fællesgrav for at undgå løbende vedligeholdelse." },
@@ -536,7 +536,7 @@ export default function KimHvadKoster() {
 
           <div style={{ background: "#F9F8F6", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "20px 24px" }}>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d4f5a", lineHeight: 1.75, margin: 0 }}>
-              Begravelseshjælpen søger jeg for jer, og den trækkes direkte fra fakturaen, så I ikke skal lægge pengene ud. Vælger I en billigere gravplads, f.eks. et fællesgravsted, bliver prisen lavere. Det er bare et eksempel, og jeg gennemgår altid jeres egne tal med jer, før I beslutter noget. Der kommer ingen overraskelser på fakturaen.
+              Begravelseshjælpen søger jeg for jer, og den trækkes direkte fra fakturaen, så I ikke skal lægge pengene ud. Vælger I den enkleste gravplads, f.eks. et fællesgravsted, bliver prisen lavere. Det er bare et eksempel, og jeg gennemgår altid jeres egne tal med jer, før I beslutter noget. Der kommer ingen overraskelser på fakturaen.
             </p>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", lineHeight: 1.75, margin: "10px 0 0" }}>
               Vil I regne på jeres egne valg? <a href="/prisberegner/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Prøv prisberegneren</a>.

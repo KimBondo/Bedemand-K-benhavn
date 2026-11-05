@@ -227,7 +227,7 @@ export default function KimOmKim() {
           Tag en uforpligtende samtale
         </h2>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 18px)", color: "#5a7a6a", maxWidth: "520px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Ring eller skriv til mig — jeg er tilgængelig døgnet rundt.
+          Ring til mig på 28 14 60 11.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", marginBottom: "32px" }}>
           <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>

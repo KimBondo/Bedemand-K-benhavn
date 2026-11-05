@@ -20,7 +20,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Gentofte?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Gentofte Kommune — Hellerup, Charlottenlund, Ordrup, Vangede, Dyssegård, Jægersborg, Klampenborg og Skovshoved — og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11." },
   { question: "Hvad koster en bisættelse i Gentofte?", answer: "En bisættelse med ceremoni starter ved 18.300 kr. hos mig. En afsked uden ceremoni starter ved 13.550 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen." },
-  { question: "Er der et krematorium i Gentofte?", answer: "Nej, ikke længere. Mariebjerg Krematorium lukkede 31. december 2010. Kremeringen sker i dag på Bispebjerg Krematorium i København eller i Hillerød. Ceremonien holdes stadig i Gentofte — i kirken eller i et af Mariebjergs to kapeller." },
+  { question: "Er der et krematorium i Gentofte?", answer: "Nej, ikke længere. Mariebjerg Krematorium lukkede 31. december 2010. Ring til mig på 28 14 60 11, så finder vi den løsning, der passer jer." },
   { question: "Hvilke kirkegårde er der i Gentofte Kommune?", answer: "Fire: Gentofte Kirkegård ved Gentoftegade, Hellerup Kirkegård på C.V.E. Knuths Vej, Ordrup Kirkegård på Ellensvej og Mariebjerg Kirkegård på Mariebjergvej. Mariebjerg er den største med sine 25 hektar og er med i Kulturkanonen." },
 ];
 
@@ -29,7 +29,7 @@ export default function KimGentofte() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Gentofte – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Gentofte, Hellerup, Charlottenlund og Vangede. Ceremoni i Mariebjergs kapeller. Ring 28 14 60 11 — hele døgnet."
+        description="Personlig bedemand i Gentofte, Hellerup, Charlottenlund og Vangede. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/gentofte/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -114,14 +114,14 @@ export default function KimGentofte() {
             Gentofte Kommune består af syv bydele: Hellerup, Ordrup-Charlottenlund, Dyssegård, Vangede, Gentofte, Klampenborg-Skovshoved og Jægersborg. Kommunen har fire kirkegårde — Gentofte, Hellerup, Ordrup og Mariebjerg — og jeg koordinerer direkte med kirkegårdskontoret og med sognene.
           </p>
           <p style={s.body}>
-            Mariebjerg Krematorium lukkede ved udgangen af 2010, så der kremeres ikke længere i Gentofte. Det sker i stedet på Bispebjerg eller i Hillerød. Højtideligheden holdes stadig lokalt — i kirken eller i et af Mariebjergs to kapeller — og transporten sørger jeg for.
+            Mariebjerg Krematorium lukkede ved udgangen af 2010. Afskeden kan holdes i kirken, i et kapel – også på Mariebjerg, hvis I ønsker det – eller et andet sted, der passer jer. I vælger selv krematorium. Jeg koordinerer det praktiske med kirkegårdskontoret og sognene, og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde i Gentofte</h3>
           <p style={s.body}>
             Mariebjerg Kirkegård er anlagt 1926-36 af landskabsarkitekten G.N. Brandt og er optaget i Kulturkanonen: omkring 50 rektangulære gravafdelinger omkranset af takshække, alléer af skovfyr, søjleavnbøg, ahorn og pil, en børnegravplads med sten i græs og en gammel grusgrav omdannet til en græsklædt dal. De to kapeller tager henholdsvis 150 og 50 personer.
           </p>
           <p style={s.body}>
-            Mariebjerg Kirkegård er særligt populær blandt familier, der ønsker en mere naturnær og stilren ramme. Kapellerne bruges både til kirkelige og borgerlige afskeder, og mange vælger at holde mindesamvær i nærområdet bagefter. Jeg kender både de praktiske forhold og de forskellige sognes procedurer.
+            Mariebjerg Kirkegård er særligt populær blandt familier, der ønsker en mere naturnær og stilren ramme. Mange vælger at holde mindesamvær i nærområdet bagefter. Jeg kender både de praktiske forhold og de forskellige sognes procedurer.
           </p>
           <p style={s.body}>
             De øvrige kirkegårde er Gentofte Kirkegård omkring den middelalderlige Gentofte Kirke, Hellerup Kirkegård fra 1912 og Ordrup Kirkegård, hvis ældste del går tilbage til 1892. Blandt kirkerne koordinerer jeg med Gentofte Kirke fra 1100-tallet, Hellerup Kirke og Ordrup Kirke.
@@ -135,7 +135,7 @@ export default function KimGentofte() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Gentofte?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Kremering på Bispebjerg eller i Hillerød med ceremoni i kirken eller i et af Mariebjergs kapeller.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Jeg tager mig af det praktiske, så I kan tage afsked på den måde, der passer jer.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Gentofte, Hellerup, Ordrup eller Mariebjerg Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Gentofte Kirke, Hellerup Kirke eller Ordrup Kirke.", href: "/kirkelig-afsked/" },

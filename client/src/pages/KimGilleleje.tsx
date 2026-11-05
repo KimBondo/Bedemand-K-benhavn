@@ -16,7 +16,6 @@ const s = {
 const FAQ = [
   { question: "Hvilken kirke hører Gilleleje til?", answer: "Gilleleje hører til Gilleleje Sogn, og sognekirken er Gilleleje Kirke, Gilleleje Hovedgade 43, 3250 Gilleleje. Kirkekontoret ligger i sognegården på Gilleleje Hovedgade 45. Jeg tager kontakten til kirkekontoret og præsten for jer." },
   { question: "Er Søborg Kirke det samme Søborg, som dit kontor ligger i?", answer: "Nej. Søborg Kirke ligger i landsbyen Søborg i Gribskov Kommune, Bygaden 38, 3250 Gilleleje. Mit kontor ligger i Søborg i Gladsaxe ved København. Søborg Kirke er en stor middelalderkirke fra omkring år 1200 med sin egen kirkegård." },
-  { question: "Hvor foregår kremeringen, når man bor i Gilleleje?", answer: "Der er ikke krematorium i Gribskov Kommune. Det nærmeste er Hillerød Krematorium ved Skansekirkegården, som er det eneste i Nordsjælland. Ceremonien holdes lokalt, fx i Gilleleje Kirke eller Søborg Kirke, og bagefter kører jeg selv kisten til Hillerød." },
   { question: "Hvad koster en begravelse i Gilleleje?", answer: "Det samme som i København. En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Rustvognen koster højst 2.000 kr. pr. kørsel i hele Nordsjælland, så det koster ikke ekstra, at I bor på Nordkysten. Oveni kommer kremering, gravsted og kirkegårdens takster. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvordan søger vi begravelseshjælp i Gribskov Kommune?", answer: "Begravelseshjælpen er den samme i hele landet og søges digitalt hos Udbetaling Danmark via borger.dk – også når afdøde boede i Gribskov Kommune. Når I har givet mig en fuldmagt, søger jeg den for jer og trækker beløbet fra på fakturaen, så I ikke skal lægge ud." },
   { question: "Kommer du hjem til os i Gilleleje?", answer: "Ja. Jeg kører selv ud fra mit kontor i Søborg i Gladsaxe og kommer gerne hjem til jer i Gilleleje, Græsted, Vejby, Blistrup eller et andet sted i Gribskov Kommune. Telefonen er åben døgnet rundt på 28 14 60 11." },
@@ -27,7 +26,7 @@ export default function KimGilleleje() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Gilleleje – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Gilleleje og Gribskov. Jeg kender Gilleleje Kirke, Søborg Kirke og kirkegårdene. Faste priser. Ring 28 14 60 11 – døgnet rundt."
+        description="Personlig bedemand i Gilleleje og Gribskov. Jeg kender Gilleleje Kirke, Søborg Kirke og kirkegårdene. Faste priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/gilleleje/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -141,7 +140,7 @@ export default function KimGilleleje() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kremering og ceremoni</h2>
           <p style={s.body}>
-            Der er ikke krematorium i Gribskov Kommune. Det nærmeste er Hillerød Krematorium ved Skansekirkegården i Hillerød, som er det eneste krematorium i Nordsjælland. Ved en bisættelse holdes ceremonien lokalt – fx i Gilleleje Kirke eller Søborg Kirke – og bagefter kører jeg selv kisten til Hillerød. Urnen kan derefter sættes ned på kirkegården her, eller asken kan spredes over havet, hvis det var afdødes ønske.
+            Der er ikke krematorium i Gribskov Kommune. Det nærmeste er Hillerød Krematorium ved Skansekirkegården i Hillerød, som er det eneste krematorium i Nordsjælland. I vælger selv krematorium, og jeg hjælper med det praktiske. Ved en bisættelse holdes ceremonien lokalt – fx i Gilleleje Kirke eller Søborg Kirke – og bagefter kører jeg selv kisten til det krematorium, I har valgt. Urnen kan derefter sættes ned på kirkegården her, eller asken kan spredes over havet, hvis det var afdødes ønske.
           </p>
           <p style={s.body}>
             Ved en begravelse sænkes kisten i jorden efter ceremonien, på en af kirkegårdene i sognet. Ønsker I det helt stille, kan jeg arrangere en afsked uden ceremoni. Så køres kisten direkte til krematoriet uden en kirkelig eller borgerlig ceremoni.
@@ -170,7 +169,7 @@ export default function KimGilleleje() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Gilleleje?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni i Gilleleje Kirke, Søborg Kirke eller en anden lokal kirke, med kremering i Hillerød.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i Gilleleje Kirke, Søborg Kirke eller en anden lokal kirke.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på en af kirkegårdene i sognet. Jeg koordinerer med kirkekontor, præst og kirkegård.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres lokale kirke.", href: "/kirkelig-afsked/" },

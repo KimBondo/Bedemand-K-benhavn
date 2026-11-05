@@ -26,7 +26,7 @@ export default function KimNorrebro() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Nørrebro – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser og ingen mellemled. Ring 28 14 60 11 — hele døgnet."
+        description="Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/norrebro/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -108,7 +108,7 @@ export default function KimNorrebro() {
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Nørrebro</h2>
           <p style={s.body}>
-            Nørrebro er tæt, blandet og fuld af liv, og midt i det hele ligger Assistens Kirkegård fra 1760. Den er fredet og kendt langt ud over bydelen, men den er stadig en kirkegård i brug — man kan sagtens få gravsted der. Kremeringen sker på Bispebjerg Krematorium lige nord for bydelen.
+            Nørrebro er tæt, blandet og fuld af liv, og midt i det hele ligger Assistens Kirkegård fra 1760. Den er fredet og kendt langt ud over bydelen, men den er stadig en kirkegård i brug — man kan sagtens få gravsted der.
           </p>
           <p style={s.body}>
             Hos mig er der ingen omstilling og ingen sagsbehandler. Det er den samme person, I taler med fra første opkald til sidste hilsen, og jeg kører selv ud — også aften, weekend og helligdage.
@@ -130,7 +130,7 @@ export default function KimNorrebro() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Nørrebro?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni i kirke eller i Søndre Kapel, med kremering på Bispebjerg Krematorium.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirke eller i Søndre Kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Assistens Kirkegård eller en af de nærliggende kirkegårde. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Johannes Kirke eller Hellig Kors Kirke.", href: "/kirkelig-afsked/" },
@@ -250,7 +250,7 @@ export default function KimNorrebro() {
 
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand på Nørrebro – Kim Bondo</p>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring eller skriv — jeg er tilgængelig hele døgnet.</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring til mig på 28 14 60 11.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Kontakt mig</a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
           © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, kontor 11, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR.: 45084159

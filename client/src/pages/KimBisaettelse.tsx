@@ -23,7 +23,7 @@ export default function KimBisaettelse() {
     >
       <SEO
         title="Bisættelse i København – Bedemand Kim Bondo"
-        description="Personlig hjælp til bisættelse i København og Nordsjælland. Kim Bondo tager sig af alt det praktiske. Ring 28 14 60 11 – døgnet rundt."
+        description="Personlig hjælp til bisættelse i København og Nordsjælland. Kim Bondo tager sig af alt det praktiske. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/bisaettelse/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -205,7 +205,7 @@ export default function KimBisaettelse() {
           En bisættelse er en afskedsform, hvor afdøde kremeres efter ceremonien. Asken samles i en urne, som familien efterfølgende kan vælge at nedsætte på en kirkegård, bruge til <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredning over havet</a> eller tage med til udlandet.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Mange vælger bisættelse frem for en traditionel <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi det giver større fleksibilitet i forhold til gravsted og stedfæstelse. Det er ikke en billigere eller mere upersonlig afsked – det er blot en anden måde at sige farvel på.
+          Mange vælger bisættelse frem for en traditionel <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi det giver større fleksibilitet i forhold til gravsted og stedfæstelse. Det er ikke en mere upersonlig afsked – det er blot en anden måde at sige farvel på.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           Jeg lægger samme omsorg og nærvær i en bisættelse som i alle andre afskeder. Ceremonien kan være kirkelig eller borgerlig, og den kan tilpasses præcis til afdødes og familiens ønsker.

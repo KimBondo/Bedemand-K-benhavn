@@ -21,7 +21,7 @@ export default function KimAskespredning() {
     >
       <SEO
         title="Askespredning – Bedemand Kim Bondo, København"
-        description="Askespredning over åbent hav. Kim Bondo hjælper med tro og love-erklæring, papirer og det praktiske. Ring 28 14 60 11 – døgnet rundt."
+        description="Askespredning over åbent hav. Kim Bondo hjælper med tro og love-erklæring, papirer og det praktiske. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/askespredning/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

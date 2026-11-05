@@ -23,7 +23,7 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal – og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Hillerød?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Hillerød?", answer: "Ja. Hillerød Krematorium ligger ved Skansekirkegården på Skansevej. Det blev etableret i 1967. Familier kan også vælge indlevering i Helsingør – valget er jeres." },
+  { question: "Er der et krematorium i Hillerød?", answer: "Ja. Hillerød Krematorium ligger ved Skansekirkegården på Skansevej. Det blev etableret i 1967." },
   { question: "Hvilke kapeller kan bruges i Hillerød?", answer: "Skansekapel på Skansevej og Nyhuse Kapel på Kapelvej. Begge har plads til 150 personer. Nyhuse Kapel er fra 1924 og blev moderniseret i 2018-19." },
 ];
 
@@ -32,7 +32,7 @@ export default function KimHillerod() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Hillerød – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Hillerød og omegn. Hillerød Krematorium ligger her. Faste priser. Ring 28 14 60 11 — hele døgnet."
+        description="Personlig bedemand i Hillerød og omegn. Faste priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/hillerod/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -134,7 +134,7 @@ export default function KimHillerod() {
             Hillerød Kommune omfatter Hillerød by og en række mindre byer — blandt andre Skævinge, Nødebo, Ny Hammersholt, Gørløse, Alsønderup og Uvelse. Nabokommunerne Allerød, Fredensborg og Rudersdal dækker jeg også, men de er selvstændige kommuner med deres egne kirkegårde og takster.
           </p>
           <p style={s.body}>
-            Hillerød er det sted i Nordsjælland, hvor der stadig kremeres. Krematoriet ved Skansekirkegården blev etableret i 1967 og udførte omkring 2.000 kremeringer i 2025. Det betyder kortere transport og mere fleksible tider for familier her i området.
+            Hillerød er det sted i Nordsjælland, hvor der stadig kremeres. Krematoriet ved Skansekirkegården blev etableret i 1967 og udførte omkring 2.000 kremeringer i 2025.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde i Hillerød</h3>
           <p style={s.body}>
@@ -156,7 +156,7 @@ export default function KimHillerod() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Hillerød?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni i kirken eller i et af byens to kapeller, med kremering på Hillerød Krematorium ved Skansekirkegården.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirken eller i et af byens to kapeller.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Skansekirkegården, Hillerød Kirkegård eller Nyhuse Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
               { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Hillerød Kirke eller Præstevang Kirke.", href: "/kirkelig-afsked/" },

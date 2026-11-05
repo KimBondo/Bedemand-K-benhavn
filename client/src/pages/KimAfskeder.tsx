@@ -20,7 +20,7 @@ export default function KimAfskeder() {
       }}
     >
       <SEO
-        title="Afskeder og ceremonier – Bedemand Kim Bondo"
+        title="Afskeder – Bedemand Kim Bondo"
         description="Kirkelig, borgerlig eller stille afsked i København. Kim Bondo tilrettelægger begravelse og bisættelse efter jeres ønsker. Ring 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/afskeder/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
