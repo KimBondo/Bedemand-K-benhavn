@@ -169,7 +169,7 @@ export default function KimPriser() {
               { navn: "Begravelse", pris: "Fra 19.300 kr.", href: "#begravelse" },
               { navn: "Uden ceremoni", pris: "13.550 kr.", href: "#uden-ceremoni" },
             ].map((p) => (
-              <a key={p.href} href={p.href} style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "baseline", columnGap: "12px", rowGap: "4px", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "3px", padding: "14px 18px", textDecoration: "none" }}>
+              <a key={p.href} href={p.href} style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", gap: "4px", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "3px", padding: "14px 18px", textDecoration: "none" }}>
                 <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#A8C5A0" }}>{p.navn}</span>
                 <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "20px", color: "#ffffff", whiteSpace: "nowrap" }}>{p.pris}</span>
               </a>
@@ -444,7 +444,7 @@ export default function KimPriser() {
           <PriceTable rows={[
             ["Fremvisning i kapel", "900 kr."],
             ["Udarbejdelse af dødsannonce", "Inkluderet i mit honorar"],
-            ["Sangblade fra ekstern leverandør", "400 kr. + tilbud indhentes"],
+            ["Sangblade fra ekstern leverandør", "Tilbud indhentes"],
           ]} />
         </section>
 
