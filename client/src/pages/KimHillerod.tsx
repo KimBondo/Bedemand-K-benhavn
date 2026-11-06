@@ -21,7 +21,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal – og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11." },
+  { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal – og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Hillerød?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Er der et krematorium i Hillerød?", answer: "Ja. Hillerød Krematorium ligger ved Skansekirkegården på Skansevej. Det blev etableret i 1967." },
   { question: "Hvilke kapeller kan bruges i Hillerød?", answer: "Skansekapel på Skansevej og Nyhuse Kapel på Kapelvej. Begge har plads til 150 personer. Nyhuse Kapel er fra 1924 og blev moderniseret i 2018-19." },
@@ -85,7 +85,7 @@ export default function KimHillerod() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
-          Ring op
+          Ring til mig
         </a>
       </header>
       {/* ── BRØDKRUMMESTI ── */}
@@ -121,7 +121,7 @@ export default function KimHillerod() {
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
+          eller ring til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -211,7 +211,7 @@ export default function KimHillerod() {
       {/* ── KONTAKT ── */}
       <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Kontakt Kim</p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Skriv til mig</p>
           <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px", marginTop: "0", textAlign: "center" }}>Skriv til mig</h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px", textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.

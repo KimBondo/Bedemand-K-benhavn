@@ -111,7 +111,7 @@ export default function KimPrisberegner() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Prisberegner – Bedemand Kim Bondo"
-        description="Få et vejledende overslag på begravelse eller bisættelse. Faste priser og gennemsigtighed. Ring 28 14 60 11."
+        description="Få et vejledende overslag på begravelse eller bisættelse. Faste priser og gennemsigtighed. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/prisberegner/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -138,7 +138,7 @@ export default function KimPrisberegner() {
         <KimNav />
         <a href="tel:+4528146011" style={{ display: "none" }} className="mobile-call-btn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-          Ring op
+          Ring til mig
         </a>
       </header>
 
@@ -293,8 +293,8 @@ export default function KimPrisberegner() {
                 Der ligger rigtig meget koordinering og planlægning bag en afsked. Jeg sørger for, at I ikke selv skal holde styr på tider, kontakter og praktiske detaljer. I taler med mig hele vejen.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", marginTop: "28px" }}>
-                <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>Send overslaget til Kim</a>
-                <a href="tel:+4528146011" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1.5px solid #b0b8bc" }}>Ring til mig – 28 14 60 11</a>
+                <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>Send overslaget til mig</a>
+                <a href="tel:+4528146011" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1.5px solid #b0b8bc" }}>Ring til mig på 28 14 60 11</a>
               </div>
             </div>
           )}
@@ -303,7 +303,7 @@ export default function KimPrisberegner() {
 
       <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Kontakt Kim</p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Skriv til mig</p>
           <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px", marginTop: "0", textAlign: "center" }}>Send overslaget</h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px", textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
             Udfyld formularen herunder, så vender jeg tilbage. Skriv gerne, hvilke valg I har lavet i beregneren.

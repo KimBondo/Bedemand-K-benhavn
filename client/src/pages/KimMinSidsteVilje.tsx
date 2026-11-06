@@ -20,7 +20,7 @@ export default function KimMinSidsteVilje() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Min Sidste Vilje – skema og ønsker til egen begravelse"
-        description="Skriv dine ønsker til din egen begravelse eller bisættelse ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring 28 14 60 11."
+        description="Skriv dine ønsker til din egen afsked ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/min-sidste-vilje/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -70,7 +70,7 @@ export default function KimMinSidsteVilje() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
-          Ring op
+          Ring til mig
         </a>
       </header>
       {/* ── HERO ── */}
@@ -85,7 +85,7 @@ export default function KimMinSidsteVilje() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           De fleste udskyder samtalen. Men det er en gave til dem, man efterlader, at have skrevet sine ønsker til begravelse eller bisættelse ned i forvejen. Jeg hjælper gratis og uden forpligtelse – eller du kan hente skemaet og udfylde det selv.
         </p>
-        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til Kim – 28 14 60 11</a>
+        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på 28 14 60 11</a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a" }}>
           eller <a href="#hent-dokumentet" style={s.link}>hent dokumentet og udfyld det selv</a>
         </p>
@@ -160,7 +160,7 @@ export default function KimMinSidsteVilje() {
       {/* ── KONTAKT ── */}
       <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Kontakt Kim</p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Skriv til mig</p>
           <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px", marginTop: "0", textAlign: "center" }}>Skriv til mig</h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px", textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.

@@ -131,7 +131,7 @@ export default function KimBondo() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
-          Ring op
+          Ring til mig
         </a>
       </header>
 
@@ -224,7 +224,7 @@ export default function KimBondo() {
                 letterSpacing: "0.04em",
               }}
             >
-              Ring til Kim – 28 14 60 11
+              Ring til mig på 28 14 60 11
             </a>
             <p
               style={{
@@ -361,7 +361,7 @@ export default function KimBondo() {
             </p>
           <div style={{ textAlign: "center", marginTop: "28px" }}>
             <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
-              Ring til Kim – 28 14 60 11
+              Ring til mig på 28 14 60 11
             </a>
           </div>
         </div>
@@ -394,7 +394,7 @@ export default function KimBondo() {
             ))}
           </ol>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
-            Ring til Kim – 28 14 60 11
+            Ring til mig på 28 14 60 11
           </a>
           <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a" }}>
             Vil du hellere læse først? <a href="/hvad-sker-der/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se hvad der sker, når nogen dør</a> eller <a href="/huskeliste/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>huskelisten</a>
@@ -1057,7 +1057,7 @@ export default function KimBondo() {
               lineHeight: 1.3,
             }}
           >
-            Kontakt Kim
+            Skriv til mig
           </h2>
           <p
             style={{

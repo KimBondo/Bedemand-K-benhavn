@@ -14,11 +14,11 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Kan vi mødes med dig på dit kontor i Søborg?", answer: "Ja. Mit kontor ligger på Vandtårnsvej 62A, kontor 11, 2860 Søborg, og I er velkomne til at holde samtalen her. Jeg kommer også gerne hjem til jer, hvis I hellere vil det. Ring på 28 14 60 11, så aftaler vi et tidspunkt, der passer jer." },
+  { question: "Kan vi mødes med dig på dit kontor i Søborg?", answer: "Ja. Mit kontor ligger på Vandtårnsvej 62A, kontor 11, 2860 Søborg, og I er velkomne til at holde samtalen her. Jeg kommer også gerne hjem til jer, hvis I hellere vil det. Ring til mig på 28 14 60 11, så aftaler vi et tidspunkt, der passer jer." },
   { question: "Kan man holde en borgerlig ceremoni på Gladsaxe Kirkegård?", answer: "Ja. Kapellet på Gladsaxe Kirkegård, Gladsaxe Møllevej 41, bruges til både kirkelige og borgerlige ceremonier. Jeg hjælper med at booke kapellet og planlægge forløbet, også hvis I ønsker en taler eller musik, der betyder noget særligt for jer." },
   { question: "Kan vi samles til mindesamvær efter ceremonien på kirkegården?", answer: "Ja. Gladsaxe Kirkegård har et mødelokale i kapelbygningen, som kan lejes ved begravelser og bisættelser. Der er stole til 80 personer, et anretterkøkken med service og kaffemaskine, og lokalet lejes for mindst fire timer ad gangen. Jeg kan stå for reservationen." },
   { question: "Hvilke kirker kan vi bruge i Gladsaxe Kommune?", answer: "Ceremonien kan holdes i afdødes sognekirke, fx Søborg Kirke, Gladsaxe Kirke, Buddinge Kirke eller Bagsværd Kirke, eller i en anden kirke efter aftale. Jeg kontakter kirkekontoret og præsten for jer og finder en dato, der passer." },
-  { question: "Hvor hurtigt kan du komme, når et dødsfald sker i Søborg eller Gladsaxe?", answer: "Jeg tager telefonen døgnet rundt, og da mit kontor ligger i Søborg, har jeg kort vej til hele Gladsaxe. Der er sjældent grund til at haste – I må gerne tage den tid, I har brug for, til at sige farvel, før afdøde bliver hentet. Ring på 28 14 60 11, så finder vi sammen det rette tidspunkt." },
+  { question: "Hvor hurtigt kan du komme, når et dødsfald sker i Søborg eller Gladsaxe?", answer: "Jeg tager telefonen døgnet rundt, og da mit kontor ligger i Søborg, har jeg kort vej til hele Gladsaxe. Der er sjældent grund til at haste – I må gerne tage den tid, I har brug for, til at sige farvel, før afdøde bliver hentet. Ring til mig på 28 14 60 11, så finder vi sammen det rette tidspunkt." },
 ];
 
 export default function KimSoborg() {
@@ -72,7 +72,7 @@ export default function KimSoborg() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
-          Ring op
+          Ring til mig
         </a>
       </header>
 
@@ -103,7 +103,7 @@ export default function KimSoborg() {
           </p>
           <KimPortraet align="left" />
           <div style={{ display: "flex", flexWrap: "wrap", gap: "16px", margin: "8px 0 0" }}>
-            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring 28 14 60 11</a>
+            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på 28 14 60 11</a>
             <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
           </div>
         </div>
@@ -252,7 +252,7 @@ export default function KimSoborg() {
 
       <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ ...s.label, textAlign: "center" }}>Kontakt Kim</p>
+          <p style={{ ...s.label, textAlign: "center" }}>Skriv til mig</p>
           <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "12px" }}>Skriv til mig</h2>
           <p style={{ ...s.body, textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
