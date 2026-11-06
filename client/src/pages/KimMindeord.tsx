@@ -141,7 +141,7 @@ export default function KimMindeord() {
             <li style={{ ...s.body, marginBottom: "10px" }}>Fred være med dit minde</li>
           </ul>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Mange vælger også en linje fra en salme, et digt eller en sang, som betød noget for afdøde. Jeg hjælper gerne med at skrive annoncen og få den sat i avisen. Udarbejdelse og indrykning koster <a href="/priser/" style={s.link}>400 kr.</a> plus avisens pris.
+            Mange vælger også en linje fra en salme, et digt eller en sang, som betød noget for afdøde. Jeg hjælper gerne med at skrive annoncen og få den sat i avisen. Udarbejdelse af dødsannonce er inkluderet i <a href="/priser/" style={s.link}>mit honorar</a>. Avisens pris for indrykning kommer oveni.
           </p>
         </div>
       </section>
