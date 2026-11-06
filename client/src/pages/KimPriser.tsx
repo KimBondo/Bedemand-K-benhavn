@@ -169,7 +169,7 @@ export default function KimPriser() {
               { navn: "Begravelse", pris: "Fra 19.300 kr.", href: "#begravelse" },
               { navn: "Uden ceremoni", pris: "13.550 kr.", href: "#uden-ceremoni" },
             ].map((p) => (
-              <a key={p.href} href={p.href} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "12px", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "3px", padding: "14px 18px", textDecoration: "none" }}>
+              <a key={p.href} href={p.href} style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", textAlign: "center", gap: "4px", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: "3px", padding: "14px 18px", textDecoration: "none" }}>
                 <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#A8C5A0" }}>{p.navn}</span>
                 <span style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "20px", color: "#ffffff", whiteSpace: "nowrap" }}>{p.pris}</span>
               </a>
@@ -443,8 +443,8 @@ export default function KimPriser() {
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Øvrige ydelser</h3>
           <PriceTable rows={[
             ["Fremvisning i kapel", "900 kr."],
-            ["Dødsannonce, udarbejdelse og indrykning", "400 kr. + avisens pris"],
-            ["Sangblade fra ekstern leverandør", "400 kr. + tilbud indhentes"],
+            ["Udarbejdelse af dødsannonce", "Inkluderet i mit honorar"],
+            ["Sangblade fra ekstern leverandør", "Tilbud indhentes"],
           ]} />
         </section>
 
@@ -457,6 +457,9 @@ export default function KimPriser() {
           <h2 style={s.h2}>Dødsannoncer</h2>
           <p style={s.body}>
             Jeg hjælper gerne med indrykning af dødsannonce i trykte aviser og på portalen Afdøde.dk — så I ikke skal bekymre jer om det praktiske i en i forvejen svær tid.
+          </p>
+          <p style={s.body}>
+            Udarbejdelse af dødsannonce er inkluderet i mit honorar. Avisens pris for indrykning kommer oveni.
           </p>
         </section>
 

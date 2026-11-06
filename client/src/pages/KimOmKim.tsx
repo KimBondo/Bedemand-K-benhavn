@@ -198,9 +198,6 @@ export default function KimOmKim() {
                 Jeg har også drevet min egen forretning i mange år, så jeg er vant til planlægning, aftaler og at holde styr på mange ting på én gang. Som bedemand kan jeg bruge begge sider af mig selv: omsorgen for de efterladte og overblikket over alt det praktiske, så I trygt kan lægge det i mine hænder.
               </p>
               <p style={s.body}>
-                Jeg har arbejdet i bedemandsbranchen i fire år.
-              </p>
-              <p style={s.body}>
                 For mig handler arbejdet om at møde mennesker med nærvær og ro. Jeg ved, hvor vigtigt det er at kunne rumme både tårer, tavshed og et befriende smil – uden at skynde på nogen. Det er ikke en opgave for mig at hjælpe jer igennem en afsked. Det er et privilegium.
               </p>
               <p style={s.body}>
