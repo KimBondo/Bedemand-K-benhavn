@@ -28,7 +28,7 @@ export default function KimHvadSkerDer() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Hvad sker der, når nogen dør? – Praktisk guide | Kim Bondo"
-        description="Klar oversigt over de første skridt ved dødsfald i København og Nordsjælland. Læge, dødsattest, anmeldelse, krematorium og priser. Ring 28 14 60 11."
+        description="Oversigt over de første skridt ved dødsfald i København og Nordsjælland. Læge, dødsattest, anmeldelse, krematorium og priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/hvad-sker-der/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -106,7 +106,7 @@ export default function KimHvadSkerDer() {
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "28px", textAlign: "center", marginTop: "40px" }}>
             <p style={{ ...s.body, marginBottom: "20px" }}>Har I brug for hjælp nu? Ring til mig – også om natten.</p>
             <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontWeight: 700, padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
-              Ring til Kim · 28 14 60 11
+              Ring til mig på 28 14 60 11
             </a>
           </div>
         </div>

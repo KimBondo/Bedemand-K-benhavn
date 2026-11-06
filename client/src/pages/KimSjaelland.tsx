@@ -18,7 +18,7 @@ export default function KimSjaelland() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand på Sjælland – Kim Bondo, døgnet rundt"
-        description="Bedemand på hele Sjælland. Kim Bondo tager selv telefonen døgnet rundt, faste priser og begravelseshjælpen trukket fra på fakturaen. Ring 28 14 60 11."
+        description="Bedemand på hele Sjælland. Jeg tager selv telefonen, har faste priser og begravelseshjælpen trukket fra på fakturaen. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/sjaelland/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -63,7 +63,7 @@ export default function KimSjaelland() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
-          Ring op
+          Ring til mig
         </a>
       </header>
 
@@ -107,7 +107,7 @@ export default function KimSjaelland() {
           </p>
           <KimPortraet align="left" />
           <div style={{ marginTop: "8px" }}>
-            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til Kim – 28 14 60 11</a>
+            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på 28 14 60 11</a>
           </div>
         </div>
       </section>
@@ -131,7 +131,7 @@ export default function KimSjaelland() {
 
       <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ ...s.label, textAlign: "center" }}>Kontakt Kim</p>
+          <p style={{ ...s.label, textAlign: "center" }}>Skriv til mig</p>
           <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "12px" }}>Skriv til mig</h2>
           <p style={{ ...s.body, textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.

@@ -94,7 +94,7 @@ export default function KimBisaettelseNordsjaelland() {
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "28px", textAlign: "center", marginTop: "40px" }}>
             <p style={{ ...s.body, marginBottom: "20px" }}>Har I brug for hjælp med en bisættelse i Nordsjælland?</p>
             <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontWeight: 700, padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
-              Ring til Kim · 28 14 60 11
+              Ring til mig på 28 14 60 11
             </a>
           </div>
         </div>

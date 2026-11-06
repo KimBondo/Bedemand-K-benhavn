@@ -21,7 +21,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand på Frederiksberg?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Frederiksberg og resten af København, Storkøbenhavn og Nordsjælland. Ring på 28 14 60 11 — også midt om natten." },
+  { question: "Hvem er bedemand på Frederiksberg?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Frederiksberg og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse på Frederiksberg?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Frederiksberg er sin egen kommune med sine egne takster — dem finder jeg for jer, inden I siger ja til noget." },
   { question: "Er der et krematorium på Frederiksberg?", answer: "Ja. Det hedder Søndermark Krematorium og ligger på Roskildevej 59, på Søndermark Kirkegård. Det drives af Frederiksberg Kommune. På Søndermarken ligger også to kapelsale – den lille med 58 pladser og den store med 182." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", answer: "Ja – jeg hjælper med ceremonier helt uden religiøse ritualer. De to kapelsale på Søndermarken kan indrettes uden religiøse symboler og benyttes af alle trosretninger." },
@@ -86,7 +86,7 @@ export default function KimFrederiksberg() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="white" style={{ flexShrink: 0 }}>
             <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
           </svg>
-          Ring op
+          Ring til mig
         </a>
       </header>
       {/* ── BRØDKRUMMESTI ── */}
@@ -122,7 +122,7 @@ export default function KimFrederiksberg() {
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
+          eller ring til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
       </section>
 
@@ -233,7 +233,7 @@ export default function KimFrederiksberg() {
       {/* ── KONTAKT ── */}
       <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ ...s.label, textAlign: "center" }}>Kontakt Kim</p>
+          <p style={{ ...s.label, textAlign: "center" }}>Skriv til mig</p>
           <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "12px" }}>Skriv til mig</h2>
           <p style={{ ...s.body, textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
@@ -282,7 +282,7 @@ export default function KimFrederiksberg() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring til mig på 28 14 60 11.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
+          eller ring til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
         </p>
         <p style={{ marginTop: "48px", fontFamily: "'Open Sans', sans-serif", fontSize: "12px", color: "rgba(255,255,255,0.78)" }}>
           © {new Date().getFullYear()} Bedemand København ApS &nbsp;·&nbsp; Vandtårnsvej 62A, kontor 11, 2860 Søborg &nbsp;·&nbsp;{" "}
