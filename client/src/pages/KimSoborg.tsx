@@ -83,7 +83,7 @@ export default function KimSoborg() {
           Bedemand i Søborg og Gladsaxe
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier i Søborg, Buddinge, Mørkhøj, Bagsværd og Gladsaxe med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
+          Jeg er selvstændig bedemand og hjælper familier i hele Gladsaxe Kommune med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <KimPortraet />
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>

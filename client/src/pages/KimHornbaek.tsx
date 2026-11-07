@@ -82,7 +82,7 @@ export default function KimHornbaek() {
           Personlig bedemand i Hornbæk
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier i Hornbæk, Hellebæk og nærområdet med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
+          Jeg er selvstændig bedemand og hjælper familier i Hornbæk med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <KimPortraet />
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
@@ -102,7 +102,6 @@ export default function KimHornbaek() {
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
             <li>Hornbæk Kirke</li>
-            <li>Hellebæk Kirke</li>
           </ul>
         </div>
       </section>
