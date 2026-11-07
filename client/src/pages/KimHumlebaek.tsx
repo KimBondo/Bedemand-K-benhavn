@@ -17,12 +17,6 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
-const FAQ = [
-  { question: "Hvem er bedemand i Humlebæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Humlebæk, Nivå, Kokkedal og Fredensborg samt resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Humlebæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Hvilke kirker koordinerer du med omkring Humlebæk?", answer: "Blandt andet Humlebæk Kirke og kirkerne i resten af Fredensborg Kommune. Jeg kender også Humlebæk Kirkegård og Torpen Kirkegård." },
-];
-
 export default function KimHumlebaek() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
@@ -36,7 +30,6 @@ export default function KimHumlebaek() {
         type="both"
         areaServed={["Humlebæk", "Nivå", "Kokkedal", "Fredensborg Kommune"]}
         pageUrl="https://www.bedemandkobenhavn.dk/humlebaek/"
-        faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Områder", url: "https://www.bedemandkobenhavn.dk/omraade/" },
@@ -87,132 +80,57 @@ export default function KimHumlebaek() {
         </ol>
       </nav>
 
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section style={{ background: "#F9F8F6", padding: "64px 24px 56px", textAlign: "center" }}>
         <p style={s.label}>Bedemand i Humlebæk</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
           Personlig bedemand i Humlebæk
         </h1>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier i Humlebæk og resten af Fredensborg Kommune med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
+          Jeg er selvstændig bedemand og hjælper familier i Humlebæk med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <KimPortraet />
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
-          <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
-        </div>
-        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
-        </p>
+        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
       </section>
 
-      <section style={{ background: "#fff", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Lokal og personlig</p>
-          <h2 style={s.h2}>Bedemand med kendskab til Humlebæk</h2>
+      <section style={{ background: "#fff", padding: "56px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Den første samtale</h2>
           <p style={s.body}>
-            Humlebæk ligger ved Øresund i Fredensborg Kommune. Jeg kører selv ud til jer, og det er mig, I taler med hele vejen – fra det første opkald til den sidste afsked.
+            I behøver ikke have besluttet noget, før vi taler sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg.
           </p>
+
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
           <p style={s.body}>
-            Ceremonien holdes lokalt, og transporten sørger jeg for.
+            Kirkegårde i området er Humlebæk Kirkegård og Torpen Kirkegård. Afskeden kan holdes i en kirke eller i Torpen Kapel – I vælger selv, hvad der passer jer.
           </p>
-          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde omkring Humlebæk</h3>
-          <p style={s.body}>
-            Humlebæk Sogn har to kirkegårde: Humlebæk Kirkegård og Torpen Kirkegård, som ligger bag Torpen Kapel. Ønsker I en kirkelig afsked, kan ceremonien holdes i Humlebæk Kirke – eller i en anden kirke, der betyder noget for jer. Som medlem af folkekirken med bopæl i Fredensborg Provsti kan man desuden frit vælge mellem kirkegårdene i provstiets sogne.
-          </p>
+          <h3 style={s.h3}>Kirker</h3>
+          <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
+            <li>Humlebæk Kirke</li>
+          </ul>
         </div>
       </section>
 
-      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <p style={s.label}>Mine ydelser</p>
-          <h2 style={s.h2}>Hvad hjælper jeg med i Humlebæk?</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
-            {[
-              { title: "Bisættelse", desc: "Ceremoni lokalt i Humlebæk Kirke eller et kapel.", href: "/bisaettelse/" },
-              { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
-              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },
-            ].map((item) => (
-              <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
-                <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
-                <p style={{ ...s.body, fontSize: "15px", marginBottom: "16px" }}>{item.desc}</p>
-                <a href={item.href} style={s.link}>Læs mere →</a>
-              </div>
-            ))}
-          </div>
+      <section style={{ background: "#EEF3EF", padding: "48px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Vil I læse mere først?</h2>
+          <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 2 }}>
+            <li><a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a></li>
+            <li><a href="/priser/" style={s.link}>Mine priser – og udgifter, der ikke går til mig</a></li>
+          </ul>
         </div>
       </section>
 
-      <section style={{ background: "#fff", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Spørgsmål og svar</p>
-          <h2 style={s.h2}>Spørgsmål om bedemand i Humlebæk</h2>
-          {FAQ.map((faq, i) => (
-            <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section style={{ background: "#F9F8F6", padding: "56px 32px", textAlign: "center" }}>
-        <p style={s.label}>Se også</p>
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
-          {[
-            { label: "Bedemand Nordsjælland", href: "/nordsjaelland/" },
-            { label: "Bedemand Helsingør", href: "/helsingor/" },
-            { label: "Bedemand Hillerød", href: "/hillerod/" },
-            { label: "Dækningsområde", href: "/omraade/" },
-            { label: "Se priser", href: "/priser/" },
-            { label: "Huskeliste", href: "/huskeliste/" },
-            { label: "Min Sidste Vilje", href: "/min-sidste-vilje/" },
-          ].map((link) => (
-            <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
-          ))}
-        </div>
-      </section>
-
-      <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
+      <section id="kontakt" style={{ background: "#F9F8F6", padding: "64px 24px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Skriv til mig</p>
-          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px", marginTop: "0", textAlign: "center" }}>Skriv til mig</h2>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px", textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
+          <h2 style={{ ...s.h2, textAlign: "center" }}>Skriv til mig</h2>
+          <p style={{ ...s.body, textAlign: "center", marginBottom: "32px" }}>
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
           </p>
           <ContactForm />
-          <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
+          <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>
+            Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>
           </p>
         </div>
-      </section>
-
-      <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
-          Kender du nogen i Humlebæk, der kan have brug for en bedemand? Del denne side.
-        </p>
-        <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/humlebaek")}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "10px",
-            background: "#1877F2",
-            color: "#fff",
-            fontFamily: "'Open Sans', sans-serif",
-            fontWeight: 700,
-            fontSize: "15px",
-            padding: "12px 28px",
-            borderRadius: "3px",
-            textDecoration: "none",
-            letterSpacing: "0.03em",
-          }}
-        >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          Del på Facebook
-        </a>
       </section>
 
       <footer style={{ background: "#2F3E46", color: "#ffffff", textAlign: "center", padding: "80px 32px" }}>
