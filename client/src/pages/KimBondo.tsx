@@ -337,6 +337,32 @@ export default function KimBondo() {
       </section>
 
       {/* ══════════════════════════════════════════════════════
+          SKAL I VÆLGE EN LOKAL BEDEMAND?
+      ══════════════════════════════════════════════════════ */}
+      <section style={{ background: "#EEF3EF", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto", textAlign: "center" }}>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.2vw, 34px)", color: "#2F3E46", lineHeight: 1.25, margin: "0 0 24px" }}>
+            Skal I vælge en lokal bedemand?
+          </h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
+            I kan frit vælge den bedemand, I har lyst til og som I føler jer trygge ved.
+          </p>
+          <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(18px, 2vw, 21px)", lineHeight: 1.6, color: "#2F3E46", margin: "0 0 16px" }}>
+            Det handler om tryghed og tillid – ikke om postnummer.
+          </p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
+            Bedemanden behøver ikke have adresse i samme by som jer. Bedemanden kan hjælpe jer uanset hvor i landet, I ønsker det.
+          </p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
+            Det vigtigste er, at I føler jer hørt og er trygge ved den, der skal hjælpe jer med afskeden.
+          </p>
+          <p style={{ ...{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }, margin: "24px 0 0", fontWeight: 600, color: "#2F3E46" }}>
+            Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>, og mærk efter, om jeg er den rette for jer.
+          </p>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
           HVORFOR RINGE TIL MIG?
       ══════════════════════════════════════════════════════ */}
       <section style={{ background: "#ffffff", padding: "64px 24px" }}>
