@@ -187,7 +187,7 @@ export default function KimOmraade() {
           <p style={s.label}>Om Kim Bondo</p>
           <h2 style={s.h2}>Lokal og personlig bedemand</h2>
           <p style={s.body}>
-            Jeg er selvstændig bedemand og kender København og Nordsjælland godt — de lokale kirker, kapeller, krematorier og kirkegårde. Det betyder, at jeg kan rådgive jer om de praktiske muligheder i jeres område og koordinere direkte med de rette instanser.
+            Jeg er selvstændig bedemand og kender København og Nordsjælland godt — de lokale kirker, kapeller og kirkegårde. Det betyder, at jeg kan rådgive jer om de praktiske muligheder i jeres område og koordinere direkte med de rette instanser.
           </p>
           <p style={s.body}>
             Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled, ingen omstilling — bare direkte kontakt med mig.

@@ -113,7 +113,7 @@ export default function KimHumlebaek() {
             Humlebæk ligger ved Øresund i Fredensborg Kommune. Jeg kører selv ud til jer, og det er mig, I taler med hele vejen – fra det første opkald til den sidste afsked.
           </p>
           <p style={s.body}>
-            Der er ikke krematorium i Fredensborg Kommune. I vælger selv krematorium. Ceremonien holdes stadig lokalt, og transporten sørger jeg for.
+            Ceremonien holdes lokalt, og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde omkring Humlebæk</h3>
           <p style={s.body}>

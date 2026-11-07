@@ -23,7 +23,6 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland, København og Storkøbenhavn. Ring til mig på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
-  { question: "Er der et krematorium i Nordsjælland?", answer: "Ja, Hillerød Krematorium ved Skansekirkegården er det eneste i Nordsjælland. Ceremonien holdes stadig lokalt." },
   { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs — og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
@@ -139,18 +138,18 @@ export default function KimNordsjaelland() {
             Nordsjælland er ikke en kommune, men egnen nord for København mellem Isefjorden og Øresund. I praksis dækker jeg Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs. Kirkeligt hører hele området under Helsingør Stift.
           </p>
           <p style={s.body}>
-            Hillerød Krematorium ved Skansekirkegården er det eneste krematorium i Nordsjælland. I vælger selv krematorium. Ceremonien holdes stadig lokalt, og transporten sørger jeg for.
+            Ceremonien holdes lokalt, og transporten sørger jeg for.
           </p>
-          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirkegårde, kapeller og krematorium i Nordsjælland</h3>
+          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirkegårde og kapeller i Nordsjælland</h3>
           <p style={s.body}>
-            Hillerød Krematorium blev etableret i 1967 og udførte omkring 2.000 kremeringer i 2025. Det ligger ved Skansekirkegården på Skansevej, hvor der også er kapel med plads til 150 — ligesom i Nyhuse Kapel inde i byen.
+            I Hillerød er der kapel med plads til 150 på Skansekirkegården på Skansevej — ligesom i Nyhuse Kapel inde i byen.
           </p>
           <p style={s.body}>
             I Gentofte er Mariebjerg Kirkegård optaget i Kulturkanonen, og de to kapeller dér tager henholdsvis 150 og 50 personer. Kapellet på Helsingør Kirkegård har 165 pladser, og i Hørsholm ligger kapellet fra 1929, som kan benyttes af alle uanset tro. Jeg kender rummene og ved, hvor mange der kan være.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Bedemand på Nordkysten</h3>
           <p style={s.body}>
-            Jeg hjælper også familier langs Nordkysten, i Hornbæk, Dronningmølle, Gilleleje og Tisvildeleje. I vælger selv krematorium. Jeg aftaler alt med kirken og kirkegården lokalt.
+            Jeg hjælper også familier langs Nordkysten, i Hornbæk, Dronningmølle, Gilleleje og Tisvildeleje. Jeg aftaler alt med kirken og kirkegården lokalt.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>

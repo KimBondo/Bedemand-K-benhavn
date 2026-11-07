@@ -16,7 +16,6 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Helsingør?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Helsingør Kommune — Espergærde, Snekkersten, Ålsgårde, Hellebæk, Hornbæk, Kvistgård og Tikøb — og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Helsingør?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Helsingør?", answer: "Nej. Helsingør Krematorium blev nedlagt i 2013. I vælger selv krematorium. Det ændrer ikke på selve afskeden: ceremonien holdes i Helsingør, i kirken eller i kirkegårdskapellet med 165 pladser. Jeg sørger for transport og koordinering." },
   { question: "Hvilke kirker koordinerer du med i Helsingør?", answer: "Helsingør Domkirke (Sankt Olai Kirke), Sankt Mariæ Kirke, Vestervang Kirke og Sthens Kirke i Helsingør – og Egebæksvang Kirke og Mørdrup Kirke i Espergærde, Hellebæk Kirke, Hornbæk Kirke, Tikøb Kirke og Gurre Kirke." },
 ];
 
@@ -110,7 +109,7 @@ export default function KimHelsingor() {
             Helsingør Kommune har omkring 30 km kyst – fra Espergærde og Snekkersten i syd over Helsingør by til Ålsgårde, Hellebæk og Hornbæk mod nordvest. Inde i landet ligger Kvistgård, Tikøb og Gurre. Jeg kender kirkerne, kapellet og kirkegårdene og koordinerer det hele for jer.
           </p>
           <p style={s.body}>
-            En ting overrasker næsten alle: Helsingør har ikke længere sit eget krematorium. Det blev nedlagt i 2013. I vælger selv krematorium, og jeg hjælper med det praktiske. Selve højtideligheden foregår stadig i Helsingør — i kirken eller i kirkegårdskapellet — og transporten sørger jeg for.
+            Højtideligheden foregår i Helsingør — i kirken eller i kirkegårdskapellet — og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapel og kirkegård i Helsingør</h3>
           <p style={s.body}>

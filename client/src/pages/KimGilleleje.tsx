@@ -140,7 +140,7 @@ export default function KimGilleleje() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kremering og ceremoni</h2>
           <p style={s.body}>
-            Der er ikke krematorium i Gribskov Kommune. Det nærmeste er Hillerød Krematorium ved Skansekirkegården i Hillerød, som er det eneste krematorium i Nordsjælland. I vælger selv krematorium, og jeg hjælper med det praktiske. Ved en bisættelse holdes ceremonien lokalt – fx i Gilleleje Kirke eller Søborg Kirke – og bagefter kører jeg selv kisten til det krematorium, I har valgt. Urnen kan derefter sættes ned på kirkegården her, eller asken kan spredes over havet, hvis det var afdødes ønske.
+            Ved en bisættelse holdes ceremonien lokalt – fx i Gilleleje Kirke eller Søborg Kirke – og bagefter kører jeg selv kisten til krematoriet. Urnen kan derefter sættes ned på kirkegården her, eller asken kan spredes over havet, hvis det var afdødes ønske.
           </p>
           <p style={s.body}>
             Ved en begravelse sænkes kisten i jorden efter ceremonien, på en af kirkegårdene i sognet. Ønsker I det helt stille, kan jeg arrangere en afsked uden ceremoni. Så køres kisten direkte til krematoriet uden en kirkelig eller borgerlig ceremoni.

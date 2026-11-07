@@ -20,7 +20,6 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand i Lyngby?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Kgs. Lyngby, Virum, Sorgenfri, Lundtofte, Hjortekær og Taarbæk samt resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Lyngby?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Lyngby?", answer: "Nej. Der kremeres ikke i Lyngby i dag. I vælger selv krematorium. Ceremonien holdes stadig lokalt, i kirken eller i kapellet på kirkegården, og jeg sørger for transport og koordinering." },
   { question: "Hvilke kirkegårde bruges i Lyngby?", answer: "Især Lyngby Parkkirkegård på Gyrithe Lemches Vej og Sorgenfri Kirkegård på Skovbrynet. Der er også Lundtofte Kirkegård og Taarbæk Kirkegård. Lyngby Assistens Kirkegård har ikke taget imod begravelser siden 2000." },
 ];
 
@@ -114,7 +113,7 @@ export default function KimLyngby() {
             Lyngby-Taarbæk Kommune dækker Kgs. Lyngby, Virum, Sorgenfri, Lundtofte, Hjortekær og Taarbæk. De kirkegårde, der i dag tager imod begravelser, er især Lyngby Parkkirkegård på Gyrithe Lemches Vej og Sorgenfri Kirkegård på Skovbrynet. Lyngby Assistens Kirkegård ved Toftebæksvej ophørte med begravelser i 2000 og er i dag kvarterpark.
           </p>
           <p style={s.body}>
-            Der kremeres ikke længere i Lyngby. I vælger selv krematorium. Højtideligheden holdes lokalt i kirken eller i kapellet på kirkegården. Transport og koordinering står jeg for.
+            Højtideligheden holdes lokalt i kirken eller i kapellet på kirkegården. Transport og koordinering står jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde i Lyngby</h3>
           <p style={s.body}>

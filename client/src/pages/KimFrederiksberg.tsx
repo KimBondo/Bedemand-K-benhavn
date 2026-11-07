@@ -23,7 +23,6 @@ const s = {
 const FAQ = [
   { question: "Hvem er bedemand på Frederiksberg?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Frederiksberg og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11 — også midt om natten." },
   { question: "Hvad koster en begravelse på Frederiksberg?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Frederiksberg er sin egen kommune med sine egne takster — dem finder jeg for jer, inden I siger ja til noget." },
-  { question: "Er der et krematorium på Frederiksberg?", answer: "Ja. Det hedder Søndermark Krematorium og ligger på Roskildevej 59, på Søndermark Kirkegård. Det drives af Frederiksberg Kommune. På Søndermarken ligger også to kapelsale – den lille med 58 pladser og den store med 182." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Frederiksberg?", answer: "Ja – jeg hjælper med ceremonier helt uden religiøse ritualer. De to kapelsale på Søndermarken kan indrettes uden religiøse symboler og benyttes af alle trosretninger." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
@@ -132,14 +131,14 @@ export default function KimFrederiksberg() {
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Frederiksberg</h2>
           <p style={s.body}>
-            Frederiksberg er sin egen kommune midt i København, og det betyder noget i praksis: egne kirkegårde, eget krematorium og egne takster. Kommunen har tre kirkegårde — Frederiksberg Ældre Kirkegård fra 1734, Solbjerg Parkkirkegård fra 1865 og Søndermark Kirkegård fra 1929 — og alle kan få gravsted her, uanset trosretning og bopæl.
+            Frederiksberg er sin egen kommune midt i København, og det betyder noget i praksis: egne kirkegårde og egne takster. Kommunen har tre kirkegårde — Frederiksberg Ældre Kirkegård fra 1734, Solbjerg Parkkirkegård fra 1865 og Søndermark Kirkegård fra 1929 — og alle kan få gravsted her, uanset trosretning og bopæl.
           </p>
           <p style={s.body}>
             I taler med mig hele vejen. Der er ingen omstilling og ingen sagsbehandler, og jeg tager telefonen hele døgnet — også i weekender og på helligdage.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Frederiksberg</h3>
           <p style={s.body}>
-            På Søndermarken ligger to kapelsale: Lille Sal med 58 pladser og Store Sal med 182 pladser, stort orgel og et kunstværk af Einar Utzon-Frank. Begge kan benyttes uanset trosretning og kan indrettes helt uden religiøse symboler. Søndermark Krematorium ligger på samme kirkegård, Roskildevej 59.
+            På Søndermarken ligger to kapelsale: Lille Sal med 58 pladser og Store Sal med 182 pladser, stort orgel og et kunstværk af Einar Utzon-Frank. Begge kan benyttes uanset trosretning og kan indrettes helt uden religiøse symboler.
           </p>
           <p style={s.body}>
             Frederiksberg Ældre Kirkegård og Søndermark Kirkegård har begge kolumbarium, altså urnenicher indendørs — en mulighed, mange ikke kender. Blandt kirkerne er Frederiksberg Kirke på Frederiksberg Allé, Frederiksberg Slotskirke på Roskildevej, Solbjerg Kirke på Howitzvej og Sankt Markus Kirke på Forchhammersvej.

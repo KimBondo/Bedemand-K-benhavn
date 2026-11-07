@@ -100,11 +100,8 @@ export default function KimGentofte() {
           </p>
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
-          <p style={s.body}>
-            I Gentofte Kommune er der fire kirkegårde: Gentofte, Hellerup, Ordrup og Mariebjerg. Kirkerne er Gentofte Kirke, Hellerup Kirke, Ordrup Kirke, Messiaskirken, Skovshoved Kirke, Vangede Kirke, Dyssegård Kirke, Jægersborg Kirke og Helleruplund Kirke.
-          </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Mariebjerg Krematorium lukkede ved udgangen af 2010. I vælger selv krematorium, og jeg koordinerer det praktiske med kirkegårdskontoret og sognene.
+            I Gentofte Kommune er der fire kirkegårde: Gentofte, Hellerup, Ordrup og Mariebjerg. Kirkerne er Gentofte Kirke, Hellerup Kirke, Ordrup Kirke, Messiaskirken, Skovshoved Kirke, Vangede Kirke, Dyssegård Kirke, Jægersborg Kirke og Helleruplund Kirke.
           </p>
         </div>
       </section>

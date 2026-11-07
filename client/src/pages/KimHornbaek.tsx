@@ -107,7 +107,7 @@ export default function KimHornbaek() {
             Hornbæk ligger på kysten i Helsingør Kommune. Jeg kender de lokale kirker og kirkegårde og koordinerer det praktiske for jer.
           </p>
           <p style={s.body}>
-            Helsingør har ikke længere sit eget krematorium – det blev nedlagt i 2013. I vælger selv krematorium, og jeg hjælper med det praktiske. Selve højtideligheden foregår stadig lokalt – i kirken eller i kapellet – og transporten sørger jeg for.
+            Højtideligheden foregår lokalt – i kirken eller i kapellet – og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde omkring Hornbæk</h3>
           <p style={s.body}>
