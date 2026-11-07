@@ -156,7 +156,7 @@ export default function KimFrederiksberg() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirken eller i en af de to kapelsale på Søndermarken.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Frederiksberg Ældre Kirkegård, Solbjerg Parkkirkegård eller Søndermark Kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Frederiksberg Kirke eller Solbjerg Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — de to kapelsale på Søndermarken kan indrettes helt uden religiøse symboler.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg hjælper med tro og love-erklæringen og det praktiske.", href: "/askespredning/" },

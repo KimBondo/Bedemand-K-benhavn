@@ -133,7 +133,7 @@ export default function KimFredensborg() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i en af kommunens kirker eller i et kirkegårdskapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på en af kirkegårdene i provstiet. Jeg koordinerer med kirkekontor, præst og kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Humlebæk er der kort vej til Øresund.", href: "/askespredning/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

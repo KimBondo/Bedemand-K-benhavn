@@ -114,7 +114,7 @@ export default function KimAmager() {
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Amager</h3>
           <p style={s.body}>
-            Sundby Kirkegård på Kastrupvej er amagerkanernes egen kirkegård — knap ti hektar, anlagt i 1872, med kiste-, urne- og børnegrave. Kapelsalen har 64 siddepladser og bruges til både kirkelige og borgerlige ceremonier. Ceremonien kan holdes i kapelsalen eller i en af de lokale kirker, og jeg sørger for koordineringen med kirkegårdskontoret.
+            Sundby Kirkegård på Kastrupvej er amagerkanernes egen kirkegård — knap ti hektar, anlagt i 1872, med kiste-, urne- og børnegrave. Kapelsalen har 64 siddepladser og bruges til både kirkelige og borgerlige ceremonier. Ceremonien kan holdes i kapelsalen eller i en af de lokale kirker, og jeg sørger for koordineringen med både krematorium og kirkegårdskontor.
           </p>
           <p style={s.body}>
             I Tårnby og Kastrup gælder andre kirkegårde: Tårnby Kirkegård på Englandsvej og Kastrup Kirkegård på Kastrupvej, hvor kapellet fra 1904 stadig bruges til både bisættelser og begravelser. Blandt kirkerne har jeg jævnlig kontakt med Sundby Kirke, Filips Kirke, Nathanaels Kirke, Tårnby Kirke og Kastrup Kirke.
@@ -129,9 +129,9 @@ export default function KimAmager() {
           <h2 style={s.h2}>Hvad hjælper jeg med på Amager?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni i kirke eller kapel. Jeg aftaler tid med kirkekontoret.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirke eller kapel. Jeg aftaler tid med både krematorium og kirkekontor.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Sundby, Tårnby eller Kastrup Kirkegård. Jeg tager kontakten til kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sundby Kirke, Filips Kirke eller Tårnby Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — i kapelsalen på Sundby Kirkegård eller et sted, I selv vælger.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Amager er der kort vej ud i Øresund.", href: "/askespredning/" },

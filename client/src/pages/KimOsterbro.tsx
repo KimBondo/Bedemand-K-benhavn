@@ -108,7 +108,7 @@ export default function KimOsterbro() {
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Østerbro</h2>
           <p style={s.body}>
-            Østerbro har ingen kommunal kirkegård, men to af byens ældste ligger her: Holmens Kirkegård fra 1662 og Garnisons Kirkegård fra 1664, som drives af sognenes menighedsråd i fællesskab. Jeg står for al koordineringen mellem kirke og kirkegård.
+            Østerbro har ingen kommunal kirkegård, men to af byens ældste ligger her: Holmens Kirkegård fra 1662 og Garnisons Kirkegård fra 1664, som drives af sognenes menighedsråd i fællesskab. Jeg står for al koordineringen mellem kirke, kirkegård og krematorium.
           </p>
           <p style={s.body}>
             Der er ingen omstilling og ingen sagsbehandler hos mig. Fra det første opkald til den sidste hilsen er det den samme person, I har med at gøre — og jeg tager telefonen hele døgnet, også i weekender og på helligdage.
@@ -132,7 +132,7 @@ export default function KimOsterbro() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirke eller i kapellet på Holmens Kirkegård.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Holmens eller Garnisons Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Jakobs Kirke eller Kildevældskirken.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — kapellet på Holmens Kirkegård kan bruges af alle.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Østerbro er der kort vej til Øresund.", href: "/askespredning/" },

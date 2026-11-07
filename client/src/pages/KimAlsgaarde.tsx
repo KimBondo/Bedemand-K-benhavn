@@ -113,7 +113,7 @@ export default function KimAlsgaarde() {
           </div>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Lokal og personlig</h2>
           <p style={s.body}>
-            Når nogen dør, står man pludselig med mange beslutninger på én gang. Jeg tager mig af det praktiske – dødsanmeldelse, kontakt til kirke og kirkegård, kiste eller urne, blomster, annonce og ansøgning om begravelseshjælp – så I kan bruge tiden på hinanden. Jeg kommer gerne hjem til jer, og I får et skriftligt prisoverslag fra starten, så I ved, hvad tingene koster.
+            Når nogen dør, står man pludselig med mange beslutninger på én gang. Jeg tager mig af det praktiske – dødsanmeldelse, kontakt til kirke, kirkegård og krematorium, kiste eller urne, blomster, annonce og ansøgning om begravelseshjælp – så I kan bruge tiden på hinanden. Jeg kommer gerne hjem til jer, og I får et skriftligt prisoverslag fra starten, så I ved, hvad tingene koster.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Hellebæk Kirke ved stranden</h2>
           <p style={s.body}>
@@ -161,7 +161,7 @@ export default function KimAlsgaarde() {
             {[
               { title: "Bisættelse", desc: "Ceremoni lokalt, fx i Hellebæk Kirke eller et kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

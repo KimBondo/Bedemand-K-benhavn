@@ -157,7 +157,7 @@ export default function KimRudersdal() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirken eller et af kirkegårdskapellerne.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på en af Rudersdals fem kirkegårde. Jeg koordinerer med kirkegårdskontoret og præsten.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Borgerlig afsked", desc: "En ceremoni uden præst, fx i et af kirkegårdenes kapeller. I bestemmer selv indholdet.", href: "/borgerlig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
