@@ -55,7 +55,8 @@ const ADDONS = [
   { id: "pynt-mellem", label: "Kistepynt mellem", price: 2500 },
   { id: "pynt-stor", label: "Kistepynt stor", price: 3500 },
   { id: "roser", label: "10 farvelroser", price: 350 },
-  { id: "aske", label: "Askespredning over havet", price: 2500, fra: true },
+  // Askespredning kræver kremering og kan derfor ikke vælges ved kistebegravelse
+  { id: "aske", label: "Askespredning over havet", price: 2500, fra: true, ikkeVed: "begravelse" },
   // Urnekørsel giver ikke mening ved begravelse, hvor der ingen urne er
   { id: "urnekoersel", label: "Urnekørsel fra krematorie til kirkegårdskontor", price: 900, ikkeVed: "begravelse" },
   // Blomsterkørsel kan også være aktuel ved begravelse, fx når kirken ikke har egen kirkegård
@@ -63,6 +64,8 @@ const ADDONS = [
   { id: "privat-hjem", label: "Afhentning i et privat hjem", price: 1200 },
   { id: "efter-16", label: "Afhentning efter kl. 16, i weekenden eller på en helligdag", price: 800 },
 ] as const;
+
+const BASE_TITLER: Record<Base, string> = { uden: "Afsked uden ceremoni", bisaettelse: "Bisættelse", begravelse: "Begravelse" };
 
 /** Tilvalg, der giver mening for den valgte afskedsform. */
 function relevant(addon: (typeof ADDONS)[number], base: keyof typeof BASE_PRICES | null) {
@@ -105,6 +108,28 @@ export default function KimPrisberegner() {
 
   const setQty = (id: string, qty: number) => {
     setAddons((prev) => ({ ...prev, [id]: Math.max(1, qty) }));
+  };
+
+  // Overslaget sættes ind i kontaktformularen, så familien kan se og rette det, før de selv trykker Send
+  const [overslag, setOverslag] = useState("");
+  const kr = (n: number) => `${n.toLocaleString("da-DK")} kr.`;
+  const lavOverslag = () => {
+    if (!base || !valgtKiste) return "";
+    const linjer = [
+      "Mit overslag fra prisberegneren:",
+      `- ${BASE_TITLER[base]}: ${kr(basePrice)}`,
+      `- Kiste: ${valgtKiste.label}${kisteForskel ? ` (${forskelTekst(kisteForskel).toLowerCase()})` : " (indgår i prisen)"}`,
+    ];
+    if (medUrne) linjer.push(`- Urne: ${valgtUrne.label}${urneForskel ? ` (${forskelTekst(urneForskel).toLowerCase()})` : " (indgår i prisen)"}`);
+    if (location) linjer.push(`- Sted: ${location}`);
+    for (const [id, qty] of Object.entries(addons)) {
+      const addon = ADDONS.find((a) => a.id === id);
+      if (addon && relevant(addon, base)) linjer.push(`- ${addon.label}${qty > 1 ? ` × ${qty}` : ""}: ${"fra" in addon ? "fra " : ""}${kr(addon.price * qty)}`);
+    }
+    linjer.push(`Vejledende pris i alt: ${kr(total)}`);
+    linjer.push("Ikke med i beregningen: krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter.");
+    if (location === "Ved ikke endnu / andet") linjer.push("Kørsel uden for København og Nordsjælland er ikke beregnet.");
+    return linjer.join("\n");
   };
 
   return (
@@ -293,7 +318,7 @@ export default function KimPrisberegner() {
                 Der ligger rigtig meget koordinering og planlægning bag en afsked. Jeg sørger for, at I ikke selv skal holde styr på tider, kontakter og praktiske detaljer. I taler med mig hele vejen.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", marginTop: "28px" }}>
-                <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>Send overslaget til mig</a>
+                <a href="#kontakt" onClick={() => setOverslag(lavOverslag())} style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>Send overslaget til mig</a>
                 <a href="tel:+4528146011" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1.5px solid #b0b8bc" }}>Ring til mig på 28 14 60 11</a>
               </div>
             </div>
@@ -308,7 +333,14 @@ export default function KimPrisberegner() {
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px", textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
             Udfyld formularen herunder, så vender jeg tilbage. Skriv gerne, hvilke valg I har lavet i beregneren.
           </p>
-          <ContactForm />
+          {overslag && (
+            <div style={{ background: "#fff", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "20px 22px", marginBottom: "28px" }}>
+              <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "15px", color: "#2F3E46", margin: "0 0 10px" }}>Jeres overslag – tjek det, før I sender</p>
+              <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", lineHeight: 1.7, color: "#3d4f5a", whiteSpace: "pre-wrap", margin: "0 0 12px", overflowWrap: "anywhere" }}>{overslag}</p>
+              <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: 0 }}>Overslaget står også i beskedfeltet herunder, hvor I kan rette det. Intet bliver sendt, før I selv trykker på knappen.</p>
+            </div>
+          )}
+          <ContactForm key={overslag} initialMessage={overslag} />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
             eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
           </p>

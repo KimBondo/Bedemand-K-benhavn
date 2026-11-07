@@ -260,7 +260,7 @@ export default function KimPriser() {
             Afdøde køres direkte til krematoriet uden forudgående højtidelighed.
           </p>
           <p style={s.body}>
-            Prisen er sat, så den svarer til den maksimale begravelseshjælp i 2026. Havde afdøde ingen formue af betydning, dækker hjælpen altså min regning fuldt ud. Har afdøde efterladt opsparing, nedsættes hjælpen — det siger jeg til jer med det samme, så I ved, hvor I står.
+            Prisen svarer til den maksimale begravelseshjælp i 2026. Er afdøde berettiget til den fulde hjælp, kan den altså dække standardpakken – men ikke nødvendigvis tillæg og eksterne udgifter som kremering. Er der formue – også hos en eventuel ægtefælle – nedsættes hjælpen. Jeg giver jer et overslag med det samme, men det er Udbetaling Danmark, der træffer afgørelsen.
           </p>
           <ul style={{ paddingLeft: "20px", margin: "16px 0 0" }}>
             {[
@@ -336,7 +336,7 @@ export default function KimPriser() {
             ["Gravning af kistegrav, 3 m²", "7.055 kr."],
             ["Kisteopbevaring, pr. påbegyndt uge", "272 kr."],
             ["Leje af kapel, ½ time", "1.154 kr."],
-            ["Orgelspil og sang, ½ time", "1.352 kr."],
+            ["Orgelspil og sang i kapellet, ½ time", "1.352 kr."],
           ]} />
           <p style={s.body}>
             Dertil kommer erhvervelse af selve gravstedet, gravsten og eventuel vedligeholdelse. Bor I i en anden kommune, gælder andre takster — dem finder jeg for jer.

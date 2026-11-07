@@ -380,7 +380,7 @@ export default function KimBondo() {
               <strong><a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Faste priser, der står åbent.</a></strong> Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og afsked uden ceremoni 13.550 kr. Alle tillæg står på siden, så I kender regnestykket, før I beslutter noget.
             </p>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-              <strong>Begravelseshjælpen klarer jeg.</strong> Jeg søger den for jer og trækker den fra på fakturaen. Hvor meget I kan få, afhænger af afdødes formue, og det fortæller jeg jer med det samme.
+              <strong>Begravelseshjælpen klarer jeg.</strong> Jeg søger den for jer og trækker den fra på fakturaen. Hvor meget I kan få, afhænger af formuen – også en eventuel ægtefælles. Jeg giver jer et overslag med det samme, men det er Udbetaling Danmark, der træffer afgørelsen.
             </p>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
               <strong>Ingen hast.</strong> Afdøde kan ofte blive, hvor vedkommende er, til næste morgen. Ring, når I er klar.

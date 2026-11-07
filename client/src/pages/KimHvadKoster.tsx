@@ -40,7 +40,7 @@ export default function KimHvadKoster() {
       />
       <SchemaOrg
         type="both"
-        article={{ headline: "Hvad koster en begravelse eller bisættelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/", dateModified: "2026-10-19" }}
+        article={{ headline: "Hvad koster en begravelse eller bisættelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/", dateModified: "2026-11-07" }}
         faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
@@ -121,8 +121,8 @@ export default function KimHvadKoster() {
           <h2 style={s.h2}>De fem vigtigste valg</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "32px" }}>
             {[
-              { num: "1", title: "Bisættelse eller begravelse?", body: "Bisættelse (kremering) er typisk enklere end begravelse i jord, fordi man undgår udgifterne til gravsted og gravsten. Mange vælger bisættelse med efterfølgende urnenedsættelse." },
-              { num: "2", title: "Kirkelig eller borgerlig ceremoni?", body: "En kirkelig ceremoni i Folkekirkens kirker er gratis for medlemmer. En borgerlig ceremoni kræver leje af kapel, hvilket typisk koster 1.000–3.000 kr." },
+              { num: "1", title: "Bisættelse eller begravelse?", body: "Ved en bisættelse kremeres afdøde efter højtideligheden. Urnen kan sættes ned i en urnegrav – så er der også udgifter til gravsted og eventuelt gravsten – eller asken kan spredes over havet. Ved askespredning er der intet gravsted." },
+              { num: "2", title: "Kirkelig eller borgerlig ceremoni?", body: "For medlemmer af folkekirken betales der ikke leje af kirken. En borgerlig afsked kan holdes i et kapel – så betales der leje, typisk 1.000–3.000 kr. – men den kan også holdes hjemme eller et andet egnet sted." },
               { num: "3", title: "Kistens pris", body: "Kister varierer i pris — fra en enkel basiskiste til 6.000 kr. op til 8.800 kr. for den dyreste model. Jeg tilbyder også hvide kister og naturkister. Jeg hjælper jer med at finde den rigtige." },
               { num: "4", title: "Gravsted og gravsten", body: "Gravstedet er en af de største enkeltudgifter. Prisen afhænger af kommunen, gravstedets størrelse og gravstenstype. Mange vælger fællesgrav for at undgå løbende vedligeholdelse." },
               { num: "5", title: "Blomster og annonce", body: "Blomster og kistepynt er valgfrit og kan tilpasses ethvert budget. En avisannonce er heller ikke obligatorisk — mange familier bruger sociale medier i stedet." },
@@ -166,7 +166,7 @@ export default function KimHvadKoster() {
           <p style={s.label}>Reducer udgifterne</p>
           <h2 style={s.h2}>Begravelseshjælp — hvad kan I søge?</h2>
           <p style={s.body}>
-            Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til <strong>13.550 kr.</strong> afhængigt af afdødes formue. Var afdøde født før 1. april 1957, udbetales der altid mindst <strong>1.050 kr.</strong> — uanset formue.
+            Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til <strong>13.550 kr.</strong> afhængigt af formuen – også en eventuel ægtefælles. Var afdøde født før 1. april 1957, udbetales der altid mindst <strong>1.050 kr.</strong> — uanset formue.
           </p>
           <p style={s.body}>
             Var afdøde medlem af <strong>Sygeforsikringen "danmark"</strong> i gruppe 1 eller 2 – og blev optaget senest 31. december 2022 – udbetaler "danmark" yderligere 1.400 kr. Beløbet kan betales direkte til mig og trækkes fra fakturaen.
@@ -351,11 +351,11 @@ export default function KimHvadKoster() {
           <p style={s.label}>Del 3 — Ceremonistedet</p>
           <h2 style={s.h2}>Kapelleje og musikudgifter</h2>
           <p style={s.body}>
-            Hvis ceremonien afholdes i en af Folkekirkens kirker, er der som udgangspunkt ingen kapelleje for kirkens medlemmer — men der betales for organist og evt. kantor. Afholdes ceremonien i et kommunalt kapel, betales der leje direkte til kapellet.
+            Holdes afskeden i en af folkekirkens kirker, er der som udgangspunkt ingen leje for kirkens medlemmer. Spørg kirkekontoret, om der er udgifter til fx ekstra musik. Holdes afskeden i et kommunalt kapel, betales der leje og eventuelt musik efter kommunens takster. Taksterne herunder gælder kommunernes kapeller – ikke sognekirkerne.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "32px", marginTop: "8px" }}>
             <div>
-              <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "14px", letterSpacing: "0.06em", color: "#2F3E46", textTransform: "uppercase", marginBottom: "12px" }}>Københavns Kommune</p>
+              <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "14px", letterSpacing: "0.06em", color: "#2F3E46", textTransform: "uppercase", marginBottom: "12px" }}>Københavns Kommunes kapeller</p>
               <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
                 <tbody>
                   {[
@@ -374,7 +374,7 @@ export default function KimHvadKoster() {
               </table>
             </div>
             <div>
-              <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "14px", letterSpacing: "0.06em", color: "#2F3E46", textTransform: "uppercase", marginBottom: "12px" }}>Frederiksberg Kommune</p>
+              <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "14px", letterSpacing: "0.06em", color: "#2F3E46", textTransform: "uppercase", marginBottom: "12px" }}>Frederiksberg Kommunes kapelsale</p>
               <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
                 <tbody>
                   {[
@@ -450,15 +450,15 @@ export default function KimHvadKoster() {
       {/* ── DEL 5: SAMLET EKSEMPEL ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Del 5 — Realistisk eksempel</p>
-          <h2 style={s.h2}>Hvad koster en typisk bisættelse i København?</h2>
+          <p style={s.label}>Del 5 — Et eksempel</p>
+          <h2 style={s.h2}>Hvad kan en bisættelse i København koste?</h2>
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "24px", margin: "8px 0 24px" }}>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(18px, 2.4vw, 22px)", lineHeight: 1.5, color: "#2F3E46", margin: 0 }}>
-              <strong style={{ fontFamily: "'Lora', serif", fontSize: "clamp(26px, 4vw, 34px)", whiteSpace: "nowrap" }}>Ca. 16.927 kr.</strong> – det er, hvad en typisk bisættelse med kirkelig ceremoni i København koster jer, når begravelseshjælpen er trukket fra.
+              <strong style={{ fontFamily: "'Lora', serif", fontSize: "clamp(26px, 4vw, 34px)", whiteSpace: "nowrap" }}>Ca. 29.125 kr.</strong> – så meget koster bisættelsen i eksemplet herunder i alt, før begravelseshjælp.
             </p>
           </div>
           <p style={s.body}>
-            Eksemplet er en bisættelse med kirkelig ceremoni i Københavns Kommune på en hverdag, hvor afdøde hentes fra hospitalet. Hele beløbet står herunder, så I kan se præcis, hvad pengene går til. En stor del af det går ikke til mig, men til krematoriet, kommunen og kirken. De udgifter er de samme, uanset hvilken bedemand I vælger.
+            Eksemplet er en bisættelse med kirkelig afsked i en sognekirke i Københavns Kommune på en hverdag, hvor afdøde hentes fra hospitalet, og urnen bagefter sættes ned i en urnegrav. Hele beløbet står herunder, så I kan se præcis, hvad pengene går til. En stor del af det går ikke til mig, men til krematoriet og kommunen. De udgifter er de samme, uanset hvilken bedemand I vælger.
           </p>
 
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 8px" }}>Til mig som bedemand</p>
@@ -486,7 +486,7 @@ export default function KimHvadKoster() {
             </tbody>
           </table>
 
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 8px" }}>Til krematorium, kommune og kirke</p>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 8px" }}>Til krematorium og kommune</p>
           <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(14px, 3.8vw, 15px)", marginBottom: "32px" }}>
             <thead>
               <tr style={{ borderBottom: "2px solid #e0dcd6" }}>
@@ -500,7 +500,6 @@ export default function KimHvadKoster() {
                 ["Kremering (Bispebjerg Krematorium)", "3.075 kr.", "Krematoriet"],
                 ["Urnegravsted, traditionelt m. indramning (10 år)", "4.751 kr.", "Kbh. Kommune"],
                 ["Gravning af urnegrav", "1.199 kr.", "Kbh. Kommune"],
-                ["Orgelspil og sang (½ time)", "1.352 kr.", "Kirken"],
               ].map(([label, price, who]) => (
                 <tr key={label} style={{ borderBottom: "1px solid #e0dcd6" }}>
                   <td style={{ padding: "11px 8px 11px 0", color: "#3d5260", hyphens: "auto", overflowWrap: "break-word" }}>{label}</td>
@@ -510,7 +509,7 @@ export default function KimHvadKoster() {
               ))}
               <tr>
                 <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>I alt til andre</td>
-                <td style={{ padding: "14px 8px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>10.377 kr.</td>
+                <td style={{ padding: "14px 8px", color: "#2F3E46", fontWeight: 700, fontSize: "16px", textAlign: "right", whiteSpace: "nowrap" }}>9.025 kr.</td>
                 <td></td>
               </tr>
             </tbody>
@@ -521,22 +520,22 @@ export default function KimHvadKoster() {
             <tbody>
               <tr style={{ borderBottom: "1px solid #e0dcd6" }}>
                 <td style={{ padding: "11px 8px 11px 0", color: "#3d5260", hyphens: "auto", overflowWrap: "break-word" }}>Samlet pris</td>
-                <td style={{ padding: "11px 8px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>ca. 30.477 kr.</td>
+                <td style={{ padding: "11px 8px", color: "#2F3E46", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>ca. 29.125 kr.</td>
               </tr>
               <tr style={{ borderBottom: "1px solid #e0dcd6" }}>
-                <td style={{ padding: "11px 8px 11px 0", color: "#3D6B4F", fontWeight: 600, hyphens: "auto", overflowWrap: "break-word" }}>Begravelseshjælp (ved berettigelse)</td>
+                <td style={{ padding: "11px 8px 11px 0", color: "#3D6B4F", fontWeight: 600, hyphens: "auto", overflowWrap: "break-word" }}>Hvis I er berettiget til den fulde begravelseshjælp</td>
                 <td style={{ padding: "11px 8px", color: "#3D6B4F", fontWeight: 700, textAlign: "right", whiteSpace: "nowrap" }}>−13.550 kr.</td>
               </tr>
               <tr style={{ borderTop: "2px solid #2F3E46" }}>
-                <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Det koster jer</td>
-                <td style={{ padding: "14px 8px", color: "#2F3E46", fontWeight: 700, fontSize: "18px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 16.927 kr.</td>
+                <td style={{ padding: "14px 12px 14px 0", color: "#2F3E46", fontWeight: 700, fontSize: "16px" }}>Jeres egen udgift i det tilfælde</td>
+                <td style={{ padding: "14px 8px", color: "#2F3E46", fontWeight: 700, fontSize: "18px", textAlign: "right", whiteSpace: "nowrap" }}>ca. 15.575 kr.</td>
               </tr>
             </tbody>
           </table>
 
           <div style={{ background: "#F9F8F6", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "20px 24px" }}>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d4f5a", lineHeight: 1.75, margin: 0 }}>
-              Begravelseshjælpen søger jeg for jer, og den trækkes direkte fra fakturaen, så I ikke skal lægge pengene ud. Vælger I den enkleste gravplads, f.eks. et fællesgravsted, bliver prisen lavere. Det er bare et eksempel, og jeg gennemgår altid jeres egne tal med jer, før I beslutter noget. Der kommer ingen overraskelser på fakturaen.
+              Begravelseshjælpen afhænger af formuen – både afdødes og en eventuel ægtefælles – og det er Udbetaling Danmark, der træffer afgørelsen. Jeg søger hjælpen for jer, og den trækkes fra fakturaen, så I ikke skal lægge pengene ud. Eventuelle udgifter til musik i kirken er ikke med i eksemplet – spørg kirkekontoret. Vælger I den enkleste gravplads, f.eks. et fællesgravsted, bliver prisen lavere. Det er bare et eksempel, og jeg gennemgår altid jeres egne tal med jer, før I beslutter noget. Der kommer ingen overraskelser på fakturaen.
             </p>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", lineHeight: 1.75, margin: "10px 0 0" }}>
               Vil I regne på jeres egne valg? <a href="/prisberegner/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Prøv prisberegneren</a>.
@@ -573,7 +572,7 @@ export default function KimHvadKoster() {
           <div style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
             <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>Hvad er begravelseshjælp, og kan du hjælpe med at søge den?</h3>
             <p style={{ ...s.body, marginBottom: "12px" }}>
-              Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af afdødes formue. Jeg søger begravelseshjælp på jeres vegne og modregner beløbet direkte på fakturaen — I behøver ikke selv stå med ansøgningen.
+              Det offentlige yder begravelseshjælp til alle afdøde, der var omfattet af dansk sygesikring. I 2026 er tilskuddet op til 13.550 kr. afhængigt af formuen – også en eventuel ægtefælles. Jeg søger begravelseshjælp på jeres vegne og modregner beløbet direkte på fakturaen — I behøver ikke selv stå med ansøgningen.
             </p>
             <a href="/begravelseshjaelp/" style={s.link}>Læs alt om begravelseshjælp og 2026-satser →</a>
           </div>
