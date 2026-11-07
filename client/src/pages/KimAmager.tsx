@@ -13,13 +13,6 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
-const FAQ = [
-  { question: "Hvem er bedemand på Amager?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Amager — Sundbyerne, Islands Brygge, Ørestad, Tårnby, Kastrup og Dragør — og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11, også om natten." },
-  { question: "Hvad koster en begravelse på Amager?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Kan jeg vælge en borgerlig ceremoni på Amager?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. De kan holdes i kapelsalen på Sundby Kirkegård eller et andet sted, der giver mening for jer." },
-  { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
-];
-
 export default function KimAmager() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
@@ -33,7 +26,6 @@ export default function KimAmager() {
         type="both"
         areaServed={["Amager", "Tårnby", "Dragør"]}
         pageUrl="https://www.bedemandkobenhavn.dk/amager/"
-        faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Områder", url: "https://www.bedemandkobenhavn.dk/omraade/" },
@@ -84,167 +76,61 @@ export default function KimAmager() {
         </ol>
       </nav>
 
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section style={{ background: "#F9F8F6", padding: "64px 24px 56px", textAlign: "center" }}>
         <p style={s.label}>Bedemand på Amager</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
           Personlig bedemand på Amager
         </h1>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand på Amager. Sundby Kirkegård ligger få minutter væk, og jeg kører selv ud — også om natten og i weekenden.
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
+          Jeg er selvstændig bedemand og hjælper familier på Amager med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <KimPortraet />
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
-          <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
-        </div>
-        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
-        </p>
+        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
       </section>
 
-      <section style={{ background: "#fff", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Nærværende og tilgængelig</p>
-          <h2 style={s.h2}>Bedemand på Amager</h2>
+      <section style={{ background: "#fff", padding: "56px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Den første samtale</h2>
           <p style={s.body}>
-            Amager er delt mellem tre kommuner: Københavns Sundbyer, Islands Brygge og Ørestad, dernæst Tårnby med Kastrup, og yderst Dragør. Det har betydning i praksis, for hver kommune har sine egne kirkegårde og sine egne takster. Jeg holder styr på, hvilke der gælder for jer.
+            I behøver ikke have besluttet noget, før vi taler sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg.
           </p>
+
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
           <p style={s.body}>
-            I taler med mig hele vejen — fra det første opkald til den sidste hilsen. Der er ingen omstilling og ingen sagsbehandler; ringer I klokken to om natten, er det mig, der tager telefonen.
+            Kirkegårde i området er Sundby Kirkegård, Tårnby Kirkegård og Kastrup Kirkegård. Afskeden kan holdes i en kirke, i kapelsalen på Sundby Kirkegård eller i kapellet på Kastrup Kirkegård – I vælger selv, hvad der passer jer.
           </p>
-          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde på Amager</h3>
-          <p style={s.body}>
-            Sundby Kirkegård på Kastrupvej er amagerkanernes egen kirkegård — knap ti hektar, anlagt i 1872, med kiste-, urne- og børnegrave. Kapelsalen har 64 siddepladser og bruges til både kirkelige og borgerlige ceremonier. Ceremonien kan holdes i kapelsalen eller i en af de lokale kirker, og jeg sørger for koordineringen med både krematorium og kirkegårdskontor.
-          </p>
-          <p style={s.body}>
-            I Tårnby og Kastrup gælder andre kirkegårde: Tårnby Kirkegård på Englandsvej og Kastrup Kirkegård på Kastrupvej, hvor kapellet fra 1904 stadig bruges til både bisættelser og begravelser. Blandt kirkerne har jeg jævnlig kontakt med Sundby Kirke, Filips Kirke, Nathanaels Kirke, Tårnby Kirke og Kastrup Kirke.
-          </p>
-          <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
+          <h3 style={s.h3}>Kirker</h3>
+          <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
+            <li>Sundby Kirke</li>
+            <li>Filips Kirke</li>
+            <li>Nathanaels Kirke</li>
+            <li>Tårnby Kirke</li>
+            <li>Kastrup Kirke</li>
+          </ul>
         </div>
       </section>
 
-      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <p style={s.label}>Mine ydelser</p>
-          <h2 style={s.h2}>Hvad hjælper jeg med på Amager?</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
-            {[
-              { title: "Bisættelse", desc: "Ceremoni i kirke eller kapel. Jeg aftaler tid med både krematorium og kirkekontor.", href: "/bisaettelse/" },
-              { title: "Begravelse", desc: "Kiste i jord på Sundby, Tårnby eller Kastrup Kirkegård. Jeg tager kontakten til kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
-              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sundby Kirke, Filips Kirke eller Tårnby Kirke.", href: "/kirkelig-afsked/" },
-              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — i kapelsalen på Sundby Kirkegård eller et sted, I selv vælger.", href: "/borgerlig-afsked/" },
-              { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Amager er der kort vej ud i Øresund.", href: "/askespredning/" },
-            ].map((item) => (
-              <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
-                <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
-                <p style={{ ...s.body, fontSize: "15px", marginBottom: "16px" }}>{item.desc}</p>
-                <a href={item.href} style={s.link}>Læs mere →</a>
-              </div>
-            ))}
-          </div>
+      <section style={{ background: "#EEF3EF", padding: "48px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Vil I læse mere først?</h2>
+          <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 2 }}>
+            <li><a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a></li>
+            <li><a href="/priser/" style={s.link}>Mine priser – og udgifter, der ikke går til mig</a></li>
+          </ul>
         </div>
       </section>
 
-      <section style={{ background: "#fff", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Gennemsigtige priser</p>
-          <h2 style={s.h2}>Hvad koster en begravelse på Amager?</h2>
-          <p style={s.body}>
-            Mine priser er faste, og de står her på siden. Der er ingen skjulte gebyrer — det I ser, er det I betaler for mit arbejde.
-          </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
-            {[
-              { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/afsked-uden-ceremoni/" },
-              { type: "Bisættelse med ceremoni", price: "18.300 kr.", href: "/bisaettelse/" },
-              { type: "Begravelse i kiste", price: "19.300 kr.", href: "/begravelse/" },
-            ].map((p) => (
-              <div key={p.type} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
-                <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
-                <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "28px", color: "#2F3E46", marginBottom: "16px" }}>fra {p.price}</p>
-                <a href={p.href} style={{ ...s.link, fontSize: "14px" }}>Læs mere →</a>
-              </div>
-            ))}
-          </div>
-          <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dertil kommer udgifter til gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
-          </p>
-        </div>
-      </section>
-
-      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Spørgsmål og svar</p>
-          <h2 style={s.h2}>Spørgsmål om bedemand på Amager</h2>
-          {FAQ.map((faq, i) => (
-            <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
-            </div>
-          ))}
-          <a href="/faq/" style={s.link}>Se alle spørgsmål og svar →</a>
-        </div>
-      </section>
-
-      <section style={{ background: "#fff", padding: "56px 32px", textAlign: "center" }}>
-        <p style={s.label}>Se også</p>
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
-          {[
-            { label: "Bedemand København", href: "/" },
-            { label: "Bedemand Nørrebro", href: "/norrebro/" },
-            { label: "Bedemand Østerbro", href: "/osterbro/" },
-            { label: "Bedemand Vesterbro", href: "/vesterbro/" },
-            { label: "Bedemand Gentofte", href: "/gentofte/" },
-            { label: "Dækningsområde", href: "/omraade/" },
-            { label: "Se priser", href: "/priser/" },
-            { label: "Huskeliste", href: "/huskeliste/" },
-            { label: "Min Sidste Vilje", href: "/min-sidste-vilje/" },
-          ].map((link) => (
-            <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#F9F8F6", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
-          ))}
-        </div>
-      </section>
-
-      <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
+      <section id="kontakt" style={{ background: "#F9F8F6", padding: "64px 24px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ ...s.label, textAlign: "center" }}>Skriv til mig</p>
-          <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "12px" }}>Skriv til mig</h2>
-          <p style={{ ...s.body, textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
+          <h2 style={{ ...s.h2, textAlign: "center" }}>Skriv til mig</h2>
+          <p style={{ ...s.body, textAlign: "center", marginBottom: "32px" }}>
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
           </p>
           <ContactForm />
-          <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
+          <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>
+            Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>
           </p>
         </div>
-      </section>
-
-      <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
-          Kender du nogen på Amager, der kan have brug for en bedemand? Del denne side.
-        </p>
-        <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/amager")}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "10px",
-            background: "#1877F2",
-            color: "#fff",
-            fontFamily: "'Open Sans', sans-serif",
-            fontWeight: 700,
-            fontSize: "15px",
-            padding: "12px 28px",
-            borderRadius: "3px",
-            textDecoration: "none",
-            letterSpacing: "0.03em",
-          }}
-        >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          Del på Facebook
-        </a>
       </section>
 
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
