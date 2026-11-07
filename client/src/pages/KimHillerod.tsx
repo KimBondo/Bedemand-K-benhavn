@@ -122,9 +122,21 @@ export default function KimHillerod() {
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Hillerød Kirke</li>
-            <li>Præstevang Kirke</li>
+            <li>Alsønderup Kirke</li>
             <li>Frederiksborg Slotskirke</li>
+            <li>Gadevang Kirke</li>
+            <li>Grønnevang Kirke</li>
+            <li>Gørløse Kirke</li>
+            <li>Hillerød Kirke</li>
+            <li>Lille Lyngby Kirke</li>
+            <li>Nødebo Kirke</li>
+            <li>Nørre Herlev Kirke</li>
+            <li>Præstevang Kirke</li>
+            <li>Skævinge Kirke</li>
+            <li>Strø Kirke</li>
+            <li>Tjæreby Kirke</li>
+            <li>Ullerød Kirke</li>
+            <li>Uvelse Kirke</li>
           </ul>
         </div>
       </section>

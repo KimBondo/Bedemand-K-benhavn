@@ -101,11 +101,11 @@ export default function KimGilleleje() {
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Gilleleje Kirke</li>
-            <li>Søborg Kirke (Gribskov)</li>
-            <li>Græsted Kirke</li>
-            <li>Vejby Kirke</li>
             <li>Blistrup Kirke</li>
+            <li>Gilleleje Kirke</li>
+            <li>Græsted Kirke</li>
+            <li>Søborg Kirke (Gribskov)</li>
+            <li>Vejby Kirke</li>
           </ul>
         </div>
       </section>

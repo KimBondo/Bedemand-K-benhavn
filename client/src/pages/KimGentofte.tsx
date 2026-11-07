@@ -100,9 +100,21 @@ export default function KimGentofte() {
           </p>
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
-          <p style={{ ...s.body, marginBottom: 0 }}>
-            I Gentofte Kommune er der fire kirkegårde: Gentofte, Hellerup, Ordrup og Mariebjerg. Kirkerne er Gentofte Kirke, Hellerup Kirke, Ordrup Kirke, Messiaskirken, Skovshoved Kirke, Vangede Kirke, Dyssegård Kirke, Jægersborg Kirke og Helleruplund Kirke.
+          <p style={s.body}>
+            I Gentofte Kommune er der fire kirkegårde: Gentofte, Hellerup, Ordrup og Mariebjerg. Afskeden kan holdes i en kirke eller et andet sted, der giver mening for jer – I vælger selv, hvad der passer jer.
           </p>
+          <h3 style={s.h3}>Kirker</h3>
+          <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
+            <li>Dyssegårdskirken</li>
+            <li>Gentofte Kirke</li>
+            <li>Hellerup Kirke</li>
+            <li>Helleruplund Kirke</li>
+            <li>Jægersborg Kirke</li>
+            <li>Messiaskirken</li>
+            <li>Ordrup Kirke</li>
+            <li>Skovshoved Kirke</li>
+            <li>Vangede Kirke</li>
+          </ul>
         </div>
       </section>
 

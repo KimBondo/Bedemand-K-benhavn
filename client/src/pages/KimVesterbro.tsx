@@ -101,11 +101,12 @@ export default function KimVesterbro() {
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Sankt Matthæus Kirke</li>
-            <li>Enghave Kirke</li>
+            <li>Apostelkirken</li>
             <li>Eliaskirken</li>
+            <li>Enghave Kirke</li>
             <li>Kristkirken</li>
             <li>Mariakirken</li>
+            <li>Sankt Matthæus Kirke</li>
           </ul>
         </div>
       </section>

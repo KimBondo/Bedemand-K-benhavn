@@ -118,8 +118,19 @@ export default function KimRudersdal() {
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
           <p style={s.body}>
-            Kirkegårdene i Rudersdal er Birkerød Kirkegård, Høsterkøb Kirkegård, Søllerød Kirkegård, Vedbæk Kirkegård samt Assistens og Søholm Kirkegård. Afskeden kan holdes i en kirke eller i kapellet i Søllerød, Høsterkøb eller Vedbæk – I vælger selv, hvad der passer jer.
+            Kirkegårdene i Rudersdal er Birkerød Kirkegård, Høsterkøb Kirkegård, Søllerød Kirkegård, Vedbæk Kirkegård samt Assistens-Søholm Kirkegård. Afskeden kan holdes i en kirke eller et andet sted, der giver mening for jer – I vælger selv, hvad der passer jer.
           </p>
+          <h3 style={s.h3}>Kirker</h3>
+          <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
+            <li>Birkerød Kirke</li>
+            <li>Bistrup Kirke</li>
+            <li>Gammel Holte Kirke</li>
+            <li>Holte Kirke</li>
+            <li>Høsterkøb Kirke</li>
+            <li>Nærum Kirke</li>
+            <li>Søllerød Kirke</li>
+            <li>Vedbæk Kirke</li>
+          </ul>
         </div>
       </section>
 

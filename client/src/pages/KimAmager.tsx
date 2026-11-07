@@ -101,11 +101,22 @@ export default function KimAmager() {
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Sundby Kirke</li>
+            <li>Allehelgens Kirke</li>
+            <li>Dragør Kirke</li>
             <li>Filips Kirke</li>
-            <li>Nathanaels Kirke</li>
-            <li>Tårnby Kirke</li>
+            <li>Hans Tausens Kirke</li>
+            <li>Højdevangskirken</li>
             <li>Kastrup Kirke</li>
+            <li>Kirken i Ørestad</li>
+            <li>Korsvejskirken</li>
+            <li>Nathanaels Kirke</li>
+            <li>Simon Peters Kirke</li>
+            <li>Skelgårdskirken</li>
+            <li>Solvang Kirke</li>
+            <li>Store Magleby Kirke</li>
+            <li>Sundby Kirke</li>
+            <li>Sundkirken</li>
+            <li>Tårnby Kirke</li>
           </ul>
         </div>
       </section>

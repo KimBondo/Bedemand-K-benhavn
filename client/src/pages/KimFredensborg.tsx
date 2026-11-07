@@ -102,12 +102,12 @@ export default function KimFredensborg() {
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
             <li>Asminderød Kirke</li>
+            <li>Egedal Kirke</li>
             <li>Fredensborg Slotskirke</li>
             <li>Grønholt Kirke</li>
-            <li>Karlebo Kirke</li>
             <li>Humlebæk Kirke</li>
+            <li>Karlebo Kirke</li>
             <li>Nivå Kirke</li>
-            <li>Egedal Kirke</li>
           </ul>
         </div>
       </section>

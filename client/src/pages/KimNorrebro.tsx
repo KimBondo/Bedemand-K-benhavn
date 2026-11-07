@@ -97,15 +97,18 @@ export default function KimNorrebro() {
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
           <p style={s.body}>
-            Assistens Kirkegård ligger midt på Nørrebro. Afskeden kan holdes i en kirke eller i Søndre Kapel på Bispebjerg Kirkegård – I vælger selv, hvad der passer jer.
+            Assistens Kirkegård ligger midt på Nørrebro. Afskeden kan holdes i en kirke eller i Søndre Kapel på Bispebjerg Kirkegård lige i nærheden – I vælger selv, hvad der passer jer.
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Sankt Johannes Kirke</li>
-            <li>Hellig Kors Kirke</li>
-            <li>Brorsons Kirke</li>
-            <li>Simeons Kirke</li>
+            <li>Anna Kirke</li>
             <li>Bethlehemskirken</li>
+            <li>Brorsons Kirke</li>
+            <li>Hellig Kors Kirke</li>
+            <li>Kingos Kirke</li>
+            <li>Sankt Johannes Kirke</li>
+            <li>Sankt Stefans Kirke</li>
+            <li>Simeons Kirke</li>
           </ul>
         </div>
       </section>

@@ -101,16 +101,16 @@ export default function KimHelsingor() {
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Helsingør Domkirke (Sankt Olai Kirke)</li>
-            <li>Sankt Mariæ Kirke</li>
-            <li>Vestervang Kirke</li>
-            <li>Sthens Kirke</li>
             <li>Egebæksvang Kirke</li>
-            <li>Mørdrup Kirke</li>
-            <li>Hellebæk Kirke</li>
-            <li>Hornbæk Kirke</li>
-            <li>Tikøb Kirke</li>
             <li>Gurre Kirke</li>
+            <li>Hellebæk Kirke</li>
+            <li>Helsingør Domkirke (Sankt Olai Kirke)</li>
+            <li>Hornbæk Kirke</li>
+            <li>Mørdrup Kirke</li>
+            <li>Sankt Mariæ Kirke</li>
+            <li>Sthens Kirke</li>
+            <li>Tikøb Kirke</li>
+            <li>Vestervang Kirke</li>
           </ul>
         </div>
       </section>

@@ -98,14 +98,18 @@ export default function KimSoborg() {
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
           <p style={s.body}>
-            Gladsaxe Kirkegård ligger på Gladsaxe Møllevej. Afskeden kan holdes i en kirke eller i kapellet på Gladsaxe Kirkegård – I vælger selv, hvad der passer jer.
+            Gladsaxe Kirkegård ligger på Gladsaxe Møllevej. Afskeden kan holdes i en kirke eller i kapelsalen på Gladsaxe Kirkegård – I vælger selv, hvad der passer jer.
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Søborg Kirke</li>
-            <li>Gladsaxe Kirke</li>
-            <li>Buddinge Kirke</li>
             <li>Bagsværd Kirke</li>
+            <li>Buddinge Kirke</li>
+            <li>Gladsaxe Kirke</li>
+            <li>Haraldskirken</li>
+            <li>Mørkhøj Kirke</li>
+            <li>Stengård Kirke</li>
+            <li>Søborg Kirke</li>
+            <li>Søborgmagle Kirke</li>
           </ul>
         </div>
       </section>

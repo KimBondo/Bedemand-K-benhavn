@@ -97,15 +97,19 @@ export default function KimOsterbro() {
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
           <p style={s.body}>
-            Kirkegårde i området er Holmens Kirkegård og Garnisons Kirkegård. Afskeden kan holdes i en kirke eller i kapellet på Holmens Kirkegård – I vælger selv, hvad der passer jer.
+            Tæt på Østerbro ligger Holmens Kirkegård med kapel og Garnisons Kirkegård. Afskeden kan holdes i en kirke eller i kapellet på Holmens Kirkegård – I vælger selv, hvad der passer jer.
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Sankt Jakobs Kirke</li>
+            <li>Davidskirken</li>
+            <li>Frihavnskirken</li>
+            <li>Hans Egedes Kirke</li>
             <li>Kildevældskirken</li>
+            <li>Lutherkirken</li>
+            <li>Nazaret Kirke</li>
+            <li>Sankt Jakobs Kirke</li>
             <li>Sions Kirke</li>
-            <li>Esajas Kirke</li>
-            <li>Kastelskirken</li>
+            <li>Taksigelseskirken</li>
           </ul>
         </div>
       </section>
