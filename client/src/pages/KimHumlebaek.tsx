@@ -19,7 +19,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Humlebæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Humlebæk, Nivå, Kokkedal og Fredensborg samt resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Humlebæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse i Humlebæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvilke kirker koordinerer du med omkring Humlebæk?", answer: "Blandt andet Humlebæk Kirke og kirkerne i resten af Fredensborg Kommune. Jeg kender også Humlebæk Kirkegård og Torpen Kirkegård." },
 ];
 
@@ -130,7 +130,7 @@ export default function KimHumlebaek() {
             {[
               { title: "Bisættelse", desc: "Ceremoni lokalt i Humlebæk Kirke eller et kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

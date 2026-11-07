@@ -15,7 +15,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand på Vesterbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Vesterbro og Kgs. Enghave og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11 — også midt om natten." },
-  { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse på Vesterbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Vesterbro?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Nordre Kapel på Vestre Kirkegård bruges til begge dele, og I kan også vælge en anden ramme." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
@@ -131,7 +131,7 @@ export default function KimVesterbro() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirke eller i Nordre Kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Vestre Kirkegård. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Matthæus Kirke eller Enghave Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — Nordre Kapel er en smuk ramme, også uden kirkelig medvirken.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg hjælper med tro og love-erklæringen og det praktiske.", href: "/askespredning/" },
@@ -167,7 +167,7 @@ export default function KimVesterbro() {
             ))}
           </div>
           <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+            Dertil kommer udgifter til gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
           </p>
         </div>
       </section>

@@ -22,7 +22,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland, København og Storkøbenhavn. Ring til mig på 28 14 60 11 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
+  { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
   { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs — og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
@@ -206,7 +206,7 @@ export default function KimNordsjaelland() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i jeres egen kirke eller det lokale kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på kirkegården i jeres sogn. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres sognekirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — flere af kapellerne kan bruges uanset tro.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Nordsjælland er der kort vej til Øresund og Kattegat.", href: "/askespredning/" },
@@ -243,7 +243,7 @@ export default function KimNordsjaelland() {
             ))}
           </div>
           <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+            Dertil kommer udgifter til gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
           </p>
         </div>
       </section>

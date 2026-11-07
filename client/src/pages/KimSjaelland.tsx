@@ -94,7 +94,7 @@ export default function KimSjaelland() {
             <strong>Det er stadig mig, I taler med.</strong> Jeg tager selv telefonen døgnet rundt, kører selv ud og er selv til stede ved højtideligheden.
           </p>
           <p style={s.body}>
-            <strong>Ceremonien holdes lokalt.</strong> Bisættelsen eller begravelsen kan holdes i jeres egen kirke eller i kapellet, hvor I bor. Ved en bisættelse kører jeg bagefter afdøde til krematoriet, og jeg aftaler alt med kirkekontoret og kirkegården lokalt.
+            <strong>Ceremonien holdes lokalt.</strong> Bisættelsen eller begravelsen kan holdes i jeres egen kirke eller i kapellet, hvor I bor. Jeg aftaler alt med kirkekontoret og kirkegården lokalt.
           </p>
           <p style={s.body}>
             <strong>Samme faste priser.</strong> Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og afsked uden ceremoni 13.550 kr. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.

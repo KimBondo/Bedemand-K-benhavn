@@ -16,7 +16,7 @@ const s = {
 const FAQ = [
   { question: "Hvilken kirke hører Gilleleje til?", answer: "Gilleleje hører til Gilleleje Sogn, og sognekirken er Gilleleje Kirke, Gilleleje Hovedgade 43, 3250 Gilleleje. Kirkekontoret ligger i sognegården på Gilleleje Hovedgade 45. Jeg tager kontakten til kirkekontoret og præsten for jer." },
   { question: "Er Søborg Kirke det samme Søborg, som dit kontor ligger i?", answer: "Nej. Søborg Kirke ligger i landsbyen Søborg i Gribskov Kommune, Bygaden 38, 3250 Gilleleje. Mit kontor ligger i Søborg i Gladsaxe ved København. Søborg Kirke er en stor middelalderkirke fra omkring år 1200 med sin egen kirkegård." },
-  { question: "Hvad koster en begravelse i Gilleleje?", answer: "Det samme som i København. En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Rustvognen koster højst 2.000 kr. pr. kørsel i hele Nordsjælland, så det koster ikke ekstra, at I bor på Nordkysten. Oveni kommer kremering, gravsted og kirkegårdens takster. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse i Gilleleje?", answer: "Det samme som i København. En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Rustvognen koster højst 2.000 kr. pr. kørsel i hele Nordsjælland, så det koster ikke ekstra, at I bor på Nordkysten. Oveni kommer gravsted og kirkegårdens takster. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvordan søger vi begravelseshjælp i Gribskov Kommune?", answer: "Begravelseshjælpen er den samme i hele landet og søges digitalt hos Udbetaling Danmark via borger.dk – også når afdøde boede i Gribskov Kommune. Når I har givet mig en fuldmagt, søger jeg den for jer og trækker beløbet fra på fakturaen, så I ikke skal lægge ud." },
   { question: "Kommer du hjem til os i Gilleleje?", answer: "Ja. Jeg kører selv ud fra mit kontor i Søborg i Gladsaxe og kommer gerne hjem til jer i Gilleleje, Græsted, Vejby, Blistrup eller et andet sted i Gribskov Kommune. Telefonen er åben døgnet rundt på 28 14 60 11." },
 ];
@@ -114,7 +114,7 @@ export default function KimGilleleje() {
           </div>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Lokal og personlig</h2>
           <p style={s.body}>
-            Når nogen dør, står man pludselig med mange beslutninger på én gang. Jeg tager mig af det praktiske – dødsanmeldelse, kontakt til kirke, kirkegård og krematorium, kiste eller urne, blomster, annonce og ansøgning om begravelseshjælp – så I kan bruge tiden på hinanden. Jeg kommer gerne hjem til jer, og I får et skriftligt prisoverslag fra starten, så I ved, hvad tingene koster.
+            Når nogen dør, står man pludselig med mange beslutninger på én gang. Jeg tager mig af det praktiske – dødsanmeldelse, kontakt til kirke og kirkegård, kiste eller urne, blomster, annonce og ansøgning om begravelseshjælp – så I kan bruge tiden på hinanden. Jeg kommer gerne hjem til jer, og I får et skriftligt prisoverslag fra starten, så I ved, hvad tingene koster.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Gilleleje Kirke midt i byen</h2>
           <p style={s.body}>
@@ -138,12 +138,12 @@ export default function KimGilleleje() {
           <p style={s.body}>
             Bor I lidt uden for Gilleleje, har Græsted, Vejby og Blistrup hver deres sognekirke – Græsted Kirke, Vejby Kirke og Blistrup Kirke. Afskeden kan holdes i jeres egen kirke eller i en anden kirke, der betyder noget for jer. Jeg tager kontakten og hører, hvad der kan lade sig gøre.
           </p>
-          <h2 style={{ ...s.h2, marginTop: "40px" }}>Kremering og ceremoni</h2>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Ceremoni</h2>
           <p style={s.body}>
-            Ved en bisættelse holdes ceremonien lokalt – fx i Gilleleje Kirke eller Søborg Kirke – og bagefter kører jeg selv kisten til krematoriet. Urnen kan derefter sættes ned på kirkegården her, eller asken kan spredes over havet, hvis det var afdødes ønske.
+            Ved en bisættelse holdes ceremonien lokalt – fx i Gilleleje Kirke eller Søborg Kirke. Urnen kan derefter sættes ned på kirkegården her, eller asken kan spredes over havet, hvis det var afdødes ønske.
           </p>
           <p style={s.body}>
-            Ved en begravelse sænkes kisten i jorden efter ceremonien, på en af kirkegårdene i sognet. Ønsker I det helt stille, kan jeg arrangere en afsked uden ceremoni. Så køres kisten direkte til krematoriet uden en kirkelig eller borgerlig ceremoni.
+            Ved en begravelse sænkes kisten i jorden efter ceremonien, på en af kirkegårdene i sognet. Ønsker I det helt stille, kan jeg arrangere en afsked uden ceremoni.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Begravelseshjælp i Gribskov Kommune</h2>
           <p style={s.body}>
@@ -171,7 +171,7 @@ export default function KimGilleleje() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i Gilleleje Kirke, Søborg Kirke eller en anden lokal kirke.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på en af kirkegårdene i sognet. Jeg koordinerer med kirkekontor, præst og kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres lokale kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
