@@ -59,8 +59,8 @@ const ADDONS = [
   { id: "aske", label: "Askespredning over havet", price: 2500, fra: true, ikkeVed: "begravelse" },
   // Urnekørsel giver ikke mening ved begravelse, hvor der ingen urne er
   { id: "urnekoersel", label: "Urnekørsel fra krematorie til kirkegårdskontor", price: 900, ikkeVed: "begravelse" },
-  // Blomsterkørsel kan også være aktuel ved begravelse, fx når kirken ikke har egen kirkegård
-  { id: "blomsterkoersel", label: "Blomsterkørsel og udlægning på kirkegård", price: 900 },
+  // Blomsterkørsel: når blomsterne skal flyttes fra kirken til kirkegården eller en anden kirkegård, og kirken ikke sørger for det
+  { id: "blomsterkoersel", label: "Blomsterkørsel og udlægning på kirkegård", price: 900, note: "Når blomsterne skal flyttes fra kirken til kirkegården eller en anden kirkegård, og kirken ikke sørger for det." },
   { id: "privat-hjem", label: "Afhentning i et privat hjem", price: 1200 },
   { id: "efter-16", label: "Afhentning efter kl. 16, i weekenden eller på en helligdag", price: 800 },
 ] as const;
@@ -284,7 +284,10 @@ export default function KimPrisberegner() {
                 <div key={addon.id} style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "16px 20px", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px" }}>
                   <label style={{ display: "flex", alignItems: "center", gap: "12px", cursor: "pointer", flex: 1 }}>
                     <input type="checkbox" checked={selected} onChange={() => toggleAddon(addon.id, "quantity" in addon)} />
-                    <span>{addon.label}</span>
+                    <span>
+                      {addon.label}
+                      {"note" in addon && <span style={{ display: "block", fontSize: "13px", color: "#5a7a6a", marginTop: "4px" }}>{addon.note}</span>}
+                    </span>
                   </label>
                   <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
                     {selected && "quantity" in addon && (
