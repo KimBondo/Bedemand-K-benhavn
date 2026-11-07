@@ -137,7 +137,7 @@ export default function KimSoborg() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Bedemand i Gladsaxe Kommune</h2>
           <p style={s.body}>
-            Søborg hører til Gladsaxe Kommune, og jeg hjælper familier i hele kommunen: Søborg, Buddinge, Mørkhøj, Bagsværd og Gladsaxe. Ceremonien holdes i den kirke eller det kapel, I vælger, og I vælger også selv krematorium. Jeg står for kontakten til kirke, kirkegård og krematorium.
+            Søborg hører til Gladsaxe Kommune, og jeg hjælper familier i hele kommunen: Søborg, Buddinge, Mørkhøj, Bagsværd og Gladsaxe. Ceremonien holdes i den kirke eller det kapel, I vælger. Jeg står for kontakten til kirke, kirkegård og krematorium.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Også naboerne i Herlev, Ballerup og Rødovre</h2>
           <p style={s.body}>
@@ -149,10 +149,10 @@ export default function KimSoborg() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <h2 style={s.h2}>Bisættelse, begravelse eller afsked uden ceremoni</h2>
           <p style={s.body}>
-            Ved en <strong>bisættelse</strong> holdes ceremonien i kirken eller kapellet, hvorefter kisten køres til kremering, og urnen senere nedsættes eller askespredes. Jeg sørger for al transport og koordinering, så I ikke selv skal tage stilling til det praktiske.
+            Ved en <strong>bisættelse</strong> holdes ceremonien i kirken eller kapellet, og urnen senere nedsættes eller askespredes. Jeg sørger for al transport og koordinering, så I ikke selv skal tage stilling til det praktiske.
           </p>
           <p style={s.body}>
-            Ved en <strong>begravelse</strong> sænkes kisten i jorden efter ceremonien – fx på Gladsaxe Kirkegård. Og ønsker I det helt stille, kan jeg arrangere en <strong>afsked uden ceremoni</strong>, hvor I eventuelt siger farvel i et kapel i ro, inden kremeringen.
+            Ved en <strong>begravelse</strong> sænkes kisten i jorden efter ceremonien – fx på Gladsaxe Kirkegård. Og ønsker I det helt stille, kan jeg arrangere en <strong>afsked uden ceremoni</strong>.
           </p>
           <p style={s.body}>
             Uanset hvad I vælger, får I et skriftligt prisoverslag fra starten, så der ikke kommer overraskelser bagefter. Mine faste priser kan I se på prissiden, og I kan selv regne efter i prisberegneren.
@@ -179,7 +179,7 @@ export default function KimSoborg() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirken eller i kapellet på Gladsaxe Kirkegård.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Gladsaxe Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Søborg Kirke, Gladsaxe Kirke, Buddinge Kirke eller Bagsværd Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer – kapellet på Gladsaxe Kirkegård kan bruges til både kirkelige og borgerlige ceremonier.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav, hvis det var afdødes ønske. Jeg hjælper med tro og love-erklæringen og det praktiske.", href: "/askespredning/" },
@@ -214,7 +214,7 @@ export default function KimSoborg() {
             ))}
           </div>
           <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje – <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+            Dertil kommer udgifter til gravsted, blomster og kapelleje – <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
           </p>
         </div>
       </section>

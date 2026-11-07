@@ -15,8 +15,8 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand på Østerbro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Østerbro og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11 — også midt om natten." },
-  { question: "Hvad koster en begravelse på Østerbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Hvilke kirkegårde og kapeller er der på Østerbro?", answer: "Holmens Kirkegård og Garnisons Kirkegård, som begge blev anlagt i 1660'erne og drives af sognenes menighedsråd. Kapellet på Holmens Kirkegård i Upsalagade har 110 pladser og bruges til både kirkelige og borgerlige ceremonier. Østerbro har ikke eget krematorium. I vælger selv krematorium, og jeg hjælper med det praktiske." },
+  { question: "Hvad koster en begravelse på Østerbro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvilke kirkegårde og kapeller er der på Østerbro?", answer: "Holmens Kirkegård og Garnisons Kirkegård, som begge blev anlagt i 1660'erne og drives af sognenes menighedsråd. Kapellet på Holmens Kirkegård i Upsalagade har 110 pladser og bruges til både kirkelige og borgerlige ceremonier." },
   { question: "Kan jeg vælge en borgerlig ceremoni på Østerbro?", answer: "Ja — jeg hjælper med ceremonier helt uden religiøse ritualer. Kapellet på Holmens Kirkegård kan bruges af alle, uanset tro." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
@@ -108,7 +108,7 @@ export default function KimOsterbro() {
           <p style={s.label}>Nærværende og tilgængelig</p>
           <h2 style={s.h2}>Bedemand på Østerbro</h2>
           <p style={s.body}>
-            Østerbro har ingen kommunal kirkegård, men to af byens ældste ligger her: Holmens Kirkegård fra 1662 og Garnisons Kirkegård fra 1664, som drives af sognenes menighedsråd i fællesskab. I vælger selv krematorium. Jeg står for al koordineringen mellem kirke, kirkegård og krematorium.
+            Østerbro har ingen kommunal kirkegård, men to af byens ældste ligger her: Holmens Kirkegård fra 1662 og Garnisons Kirkegård fra 1664, som drives af sognenes menighedsråd i fællesskab. Jeg står for al koordineringen mellem kirke, kirkegård og krematorium.
           </p>
           <p style={s.body}>
             Der er ingen omstilling og ingen sagsbehandler hos mig. Fra det første opkald til den sidste hilsen er det den samme person, I har med at gøre — og jeg tager telefonen hele døgnet, også i weekender og på helligdage.
@@ -132,7 +132,7 @@ export default function KimOsterbro() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirke eller i kapellet på Holmens Kirkegård.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Holmens eller Garnisons Kirkegård. Jeg tager kontakten til kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Jakobs Kirke eller Kildevældskirken.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — kapellet på Holmens Kirkegård kan bruges af alle.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Østerbro er der kort vej til Øresund.", href: "/askespredning/" },
@@ -168,7 +168,7 @@ export default function KimOsterbro() {
             ))}
           </div>
           <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+            Dertil kommer udgifter til gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
           </p>
         </div>
       </section>

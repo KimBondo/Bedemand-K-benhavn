@@ -15,8 +15,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Helsingør?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Helsingør Kommune — Espergærde, Snekkersten, Ålsgårde, Hellebæk, Hornbæk, Kvistgård og Tikøb — og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11." },
-  { question: "Hvad koster en begravelse i Helsingør?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Helsingør?", answer: "Nej. Helsingør Krematorium blev nedlagt i 2013. I vælger selv krematorium. Det ændrer ikke på selve afskeden: ceremonien holdes i Helsingør, i kirken eller i kirkegårdskapellet med 165 pladser. Jeg sørger for transport og koordinering." },
+  { question: "Hvad koster en begravelse i Helsingør?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvilke kirker koordinerer du med i Helsingør?", answer: "Helsingør Domkirke (Sankt Olai Kirke), Sankt Mariæ Kirke, Vestervang Kirke og Sthens Kirke i Helsingør – og Egebæksvang Kirke og Mørdrup Kirke i Espergærde, Hellebæk Kirke, Hornbæk Kirke, Tikøb Kirke og Gurre Kirke." },
 ];
 
@@ -110,11 +109,11 @@ export default function KimHelsingor() {
             Helsingør Kommune har omkring 30 km kyst – fra Espergærde og Snekkersten i syd over Helsingør by til Ålsgårde, Hellebæk og Hornbæk mod nordvest. Inde i landet ligger Kvistgård, Tikøb og Gurre. Jeg kender kirkerne, kapellet og kirkegårdene og koordinerer det hele for jer.
           </p>
           <p style={s.body}>
-            En ting overrasker næsten alle: Helsingør har ikke længere sit eget krematorium. Det blev nedlagt i 2013. I vælger selv krematorium, og jeg hjælper med det praktiske. Selve højtideligheden foregår stadig i Helsingør — i kirken eller i kirkegårdskapellet — og transporten sørger jeg for.
+            Højtideligheden foregår i Helsingør — i kirken eller i kirkegårdskapellet — og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapel og kirkegård i Helsingør</h3>
           <p style={s.body}>
-            Helsingør Kirkegård på Møllebakken går tilbage til 1580'erne og har siden 1820 været byens kirkegård. Kapellet har 165 siddepladser og fik nyt orgel i 2017. Langt de fleste vælger i dag kremering: Kirkegården oplyser selv omkring 900 kremeringer mod 50 kistebegravelser.
+            Helsingør Kirkegård på Møllebakken går tilbage til 1580'erne og har siden 1820 været byens kirkegård. Kapellet har 165 siddepladser og fik nyt orgel i 2017.
           </p>
           <p style={s.body}>
             Kystområdet omkring Helsingør har mange små byer, og jeg kører selv ud til familier i Espergærde, Snekkersten, Hornbæk og Ålsgårde. Det giver ro, når det praktiske er på plads, så I kan fokusere på afskeden.
@@ -133,7 +132,7 @@ export default function KimHelsingor() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirken eller i kapellet på Helsingør Kirkegård.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Helsingør Kirkegård eller en af kommunens øvrige kirkegårde. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Helsingør Domkirke eller Vestervang Kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

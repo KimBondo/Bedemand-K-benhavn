@@ -15,9 +15,9 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand på Nørrebro?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Nørrebro og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11 — også midt om natten." },
-  { question: "Hvad koster en begravelse på Nørrebro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse på Nørrebro?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje, som betales til kommunen. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Kan man stadig få gravsted på Assistens Kirkegård?", answer: "Ja. Assistens er fredet og en stor del af den er kirkegårdspark, men omkring en fjerdedel bruges stadig aktivt til begravelser og urnenedsættelser. Jeg hjælper med at finde ud af, hvad der er ledigt i den afdeling, I ønsker." },
-  { question: "Hvor foregår ceremonien, når man bor på Nørrebro?", answer: "Enten i en af bydelens kirker eller i Søndre Kapel på Bispebjerg Kirkegård. Der er ingen kapeller på selve Nørrebro, der kan bookes til ceremoni gennem kommunen — og Bispebjerg Krematorium ligger samme sted som kapellet." },
+  { question: "Hvor foregår ceremonien, når man bor på Nørrebro?", answer: "Enten i en af bydelens kirker eller i Søndre Kapel på Bispebjerg Kirkegård. Der er ingen kapeller på selve Nørrebro, der kan bookes til ceremoni gennem kommunen." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
 
@@ -118,7 +118,7 @@ export default function KimNorrebro() {
             På Assistens ligger Søren Kierkegaard, H.C. Andersen og Niels Bohr — og Dan Turèll og Natasja. Omkring en fjerdedel af arealet bruges stadig aktivt til begravelser og urnenedsættelser; resten er kirkegårdspark med gratis rundvisninger og guider. I Møllegade ligger desuden Mosaisk Nordre Begravelsesplads fra 1690'erne, der er fredet og ikke længere i brug.
           </p>
           <p style={s.body}>
-            Nørrebro har ingen kapeller, der kan bookes til ceremoni gennem Københavns Kommune. Det nærmeste er Søndre Kapel på Bispebjerg Kirkegård, og det bruger jeg jævnligt. Blandt kirkerne er Sankt Johannes Kirke ved Blegdamsvej, Hellig Kors Kirke på Kapelvej, Brorsons Kirke i Rantzausgade, Simeons Kirke i Sjællandsgade og Bethlehemskirken på Åboulevard. Bispebjerg er i øvrigt sin egen bydel — både kirkegården, krematoriet og Grundtvigs Kirke ligger dér.
+            Nørrebro har ingen kapeller, der kan bookes til ceremoni gennem Københavns Kommune. Det nærmeste er Søndre Kapel på Bispebjerg Kirkegård, og det bruger jeg jævnligt. Blandt kirkerne er Sankt Johannes Kirke ved Blegdamsvej, Hellig Kors Kirke på Kapelvej, Brorsons Kirke i Rantzausgade, Simeons Kirke i Sjællandsgade og Bethlehemskirken på Åboulevard. Bispebjerg er i øvrigt sin egen bydel — både kirkegården og Grundtvigs Kirke ligger dér.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
@@ -132,7 +132,7 @@ export default function KimNorrebro() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirke eller i Søndre Kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Assistens Kirkegård eller en af de nærliggende kirkegårde. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Sankt Johannes Kirke eller Hellig Kors Kirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — typisk i Søndre Kapel på Bispebjerg eller et sted, I selv vælger.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Jeg hjælper med tro og love-erklæringen og det praktiske.", href: "/askespredning/" },
@@ -168,7 +168,7 @@ export default function KimNorrebro() {
             ))}
           </div>
           <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+            Dertil kommer udgifter til gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
           </p>
         </div>
       </section>

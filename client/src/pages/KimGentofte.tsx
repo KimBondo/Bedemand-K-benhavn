@@ -6,7 +6,7 @@ import CookieLink from "@/components/CookieLink";
 import KimPortraet from "@/components/KimPortraet";
 
 /**
- * Kim Bondo – Bedemand Gentofte (lokal SEO-landingsside)
+ * Kim Bondo – Bedemand Gentofte (kort byside: indledning, første samtale, kirker og kirkegårde, links og kontakt)
  */
 
 const s = {
@@ -16,13 +16,6 @@ const s = {
   label: { fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase" as const, marginBottom: "16px" },
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
-
-const FAQ = [
-  { question: "Hvem er bedemand i Gentofte?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Gentofte Kommune — Hellerup, Charlottenlund, Ordrup, Vangede, Dyssegård, Jægersborg, Klampenborg og Skovshoved — og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11." },
-  { question: "Hvad koster en bisættelse i Gentofte?", answer: "En bisættelse med ceremoni starter ved 18.300 kr. hos mig. En afsked uden ceremoni starter ved 13.550 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje, som betales til kommunen." },
-  { question: "Er der et krematorium i Gentofte?", answer: "Nej, ikke længere. Mariebjerg Krematorium lukkede 31. december 2010. Ring til mig på 28 14 60 11, så finder vi den løsning, der passer jer." },
-  { question: "Hvilke kirkegårde er der i Gentofte Kommune?", answer: "Fire: Gentofte Kirkegård ved Gentoftegade, Hellerup Kirkegård på C.V.E. Knuths Vej, Ordrup Kirkegård på Ellensvej og Mariebjerg Kirkegård på Mariebjergvej. Mariebjerg er den største med sine 25 hektar og er med i Kulturkanonen." },
-];
 
 export default function KimGentofte() {
   return (
@@ -37,7 +30,6 @@ export default function KimGentofte() {
         type="both"
         areaServed={["Gentofte", "Hellerup", "Charlottenlund", "Vangede", "Ordrup", "Dyssegård", "Klampenborg", "Skovshoved", "Jægersborg"]}
         pageUrl="https://www.bedemandkobenhavn.dk/gentofte/"
-        faqItems={FAQ}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Områder", url: "https://www.bedemandkobenhavn.dk/omraade/" },
@@ -88,140 +80,55 @@ export default function KimGentofte() {
         </ol>
       </nav>
 
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section style={{ background: "#F9F8F6", padding: "64px 24px 56px", textAlign: "center" }}>
         <p style={s.label}>Bedemand i Gentofte</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
           Personlig bedemand i Gentofte
         </h1>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier i Gentofte Kommune med en rolig og værdig afsked. Én person hele vejen, døgnet rundt.
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
+          Jeg er selvstændig bedemand og hjælper familier i Gentofte, Hellerup, Charlottenlund og Vangede med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <KimPortraet />
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Kontakt mig</a>
-          <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
-        </div>
-        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
-        </p>
+        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
       </section>
 
-      <section style={{ background: "#fff", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Lokal og personlig</p>
-          <h2 style={s.h2}>Bedemand med kendskab til Gentofte</h2>
+      <section style={{ background: "#fff", padding: "56px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Den første samtale</h2>
           <p style={s.body}>
-            Gentofte Kommune består af syv bydele: Hellerup, Ordrup-Charlottenlund, Dyssegård, Vangede, Gentofte, Klampenborg-Skovshoved og Jægersborg. Kommunen har fire kirkegårde — Gentofte, Hellerup, Ordrup og Mariebjerg — og jeg koordinerer direkte med kirkegårdskontoret og med sognene.
+            I behøver ikke have besluttet noget, før vi taler sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg.
           </p>
-          <p style={s.body}>
-            Mariebjerg Krematorium lukkede ved udgangen af 2010. Afskeden kan holdes i kirken, i et kapel – også på Mariebjerg, hvis I ønsker det – eller et andet sted, der passer jer. I vælger selv krematorium. Jeg koordinerer det praktiske med kirkegårdskontoret og sognene, og transporten sørger jeg for.
-          </p>
-          <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde i Gentofte</h3>
-          <p style={s.body}>
-            Mariebjerg Kirkegård er anlagt 1926-36 af landskabsarkitekten G.N. Brandt og er optaget i Kulturkanonen: omkring 50 rektangulære gravafdelinger omkranset af takshække, alléer af skovfyr, søjleavnbøg, ahorn og pil, en børnegravplads med sten i græs og en gammel grusgrav omdannet til en græsklædt dal. De to kapeller tager henholdsvis 150 og 50 personer.
-          </p>
-          <p style={s.body}>
-            Mariebjerg Kirkegård er særligt populær blandt familier, der ønsker en mere naturnær og stilren ramme. Mange vælger at holde mindesamvær i nærområdet bagefter. Jeg kender både de praktiske forhold og de forskellige sognes procedurer.
-          </p>
-          <p style={s.body}>
-            De øvrige kirkegårde er Gentofte Kirkegård omkring den middelalderlige Gentofte Kirke, Hellerup Kirkegård fra 1912 og Ordrup Kirkegård, hvis ældste del går tilbage til 1892. Blandt kirkerne koordinerer jeg med Gentofte Kirke fra 1100-tallet, Hellerup Kirke og Ordrup Kirke.
+
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
+          <p style={{ ...s.body, marginBottom: 0 }}>
+            I Gentofte Kommune er der fire kirkegårde: Gentofte, Hellerup, Ordrup og Mariebjerg. Kirkerne er Gentofte Kirke, Hellerup Kirke, Ordrup Kirke, Messiaskirken, Skovshoved Kirke, Vangede Kirke, Dyssegård Kirke, Jægersborg Kirke og Helleruplund Kirke.
           </p>
         </div>
       </section>
 
-      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <p style={s.label}>Mine ydelser</p>
-          <h2 style={s.h2}>Hvad hjælper jeg med i Gentofte?</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
-            {[
-              { title: "Bisættelse", desc: "Jeg tager mig af det praktiske, så I kan tage afsked på den måde, der passer jer.", href: "/bisaettelse/" },
-              { title: "Begravelse", desc: "Kiste i jord på Gentofte, Hellerup, Ordrup eller Mariebjerg Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
-              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Gentofte Kirke, Hellerup Kirke eller Ordrup Kirke.", href: "/kirkelig-afsked/" },
-            ].map((item) => (
-              <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
-                <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{item.title}</h3>
-                <p style={{ ...s.body, fontSize: "15px", marginBottom: "16px" }}>{item.desc}</p>
-                <a href={item.href} style={s.link}>Læs mere →</a>
-              </div>
-            ))}
-          </div>
+      <section style={{ background: "#EEF3EF", padding: "48px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Vil I læse mere først?</h2>
+          <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 2 }}>
+            <li><a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a></li>
+            <li><a href="/priser/" style={s.link}>Mine priser – og udgifter, der ikke går til mig</a></li>
+          </ul>
         </div>
       </section>
 
-      <section style={{ background: "#fff", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Spørgsmål og svar</p>
-          <h2 style={s.h2}>Spørgsmål om bedemand i Gentofte</h2>
-          {FAQ.map((faq, i) => (
-            <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
-              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.question}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section style={{ background: "#F9F8F6", padding: "56px 32px", textAlign: "center" }}>
-        <p style={s.label}>Se også</p>
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
-          {[
-            { label: "Bedemand Nordsjælland", href: "/nordsjaelland/" },
-            { label: "Bedemand Helsingør", href: "/helsingor/" },
-            { label: "Bedemand Hørsholm", href: "/horsholm/" },
-            { label: "Bedemand Humlebæk", href: "/humlebaek/" },
-            { label: "Dækningsområde", href: "/omraade/" },
-            { label: "Se priser", href: "/priser/" },
-            { label: "Huskeliste", href: "/huskeliste/" },
-            { label: "Min Sidste Vilje", href: "/min-sidste-vilje/" },
-          ].map((link) => (
-            <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>{link.label}</a>
-          ))}
-        </div>
-      </section>
-
-      <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
+      <section id="kontakt" style={{ background: "#F9F8F6", padding: "64px 24px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Skriv til mig</p>
-          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px", marginTop: "0", textAlign: "center" }}>Skriv til mig</h2>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px", textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
+          <h2 style={{ ...s.h2, textAlign: "center" }}>Skriv til mig</h2>
+          <p style={{ ...s.body, textAlign: "center", marginBottom: "32px" }}>
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
           </p>
           <ContactForm />
-          <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
+          <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>
+            Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>
           </p>
         </div>
       </section>
 
-      <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
-          Kender du nogen i Gentofte, der kan have brug for en bedemand? Del denne side.
-        </p>
-        <a
-          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/gentofte")}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "10px",
-            background: "#1877F2",
-            color: "#fff",
-            fontFamily: "'Open Sans', sans-serif",
-            fontWeight: 700,
-            fontSize: "15px",
-            padding: "12px 28px",
-            borderRadius: "3px",
-            textDecoration: "none",
-            letterSpacing: "0.03em",
-          }}
-        >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          Del på Facebook
-        </a>
-      </section>
 
       <footer style={{ background: "#2F3E46", color: "#ffffff", textAlign: "center", padding: "80px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "16px", letterSpacing: "0.02em" }}>

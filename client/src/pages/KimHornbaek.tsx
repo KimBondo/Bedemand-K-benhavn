@@ -14,7 +14,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Hornbæk?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hornbæk, Hellebæk og nærområdet samt resten af Nordsjælland. Ring til mig på 28 14 60 11 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Hornbæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
+  { question: "Hvad koster en begravelse i Hornbæk?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvilke kirker koordinerer du med omkring Hornbæk?", answer: "Blandt andet Hornbæk Kirke og de øvrige kirker i nærområdet. Jeg kender de lokale kirkegårde og kapeller." },
 ];
 
@@ -107,7 +107,7 @@ export default function KimHornbaek() {
             Hornbæk ligger på kysten i Helsingør Kommune. Jeg kender de lokale kirker og kirkegårde og koordinerer det praktiske for jer.
           </p>
           <p style={s.body}>
-            Helsingør har ikke længere sit eget krematorium – det blev nedlagt i 2013. I vælger selv krematorium, og jeg hjælper med det praktiske. Selve højtideligheden foregår stadig lokalt – i kirken eller i kapellet – og transporten sørger jeg for.
+            Højtideligheden foregår lokalt – i kirken eller i kapellet – og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker og kirkegårde omkring Hornbæk</h3>
           <p style={s.body}>
@@ -124,7 +124,7 @@ export default function KimHornbaek() {
             {[
               { title: "Bisættelse", desc: "Ceremoni lokalt i kirken eller i kapellet.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

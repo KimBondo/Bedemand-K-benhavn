@@ -22,8 +22,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Hillerød?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker Hillerød og omegn — blandt andet Skævinge, Nødebo og Ny Hammersholt — samt nabokommunerne Allerød, Fredensborg og Rudersdal – og resten af København, Storkøbenhavn og Nordsjælland. Ring til mig på 28 14 60 11." },
-  { question: "Hvad koster en begravelse i Hillerød?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer kremering, gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
-  { question: "Er der et krematorium i Hillerød?", answer: "Ja. Hillerød Krematorium ligger ved Skansekirkegården på Skansevej. Det blev etableret i 1967." },
+  { question: "Hvad koster en begravelse i Hillerød?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje. Jeg regner jeres samlede tal sammen, inden I siger ja til noget." },
   { question: "Hvilke kapeller kan bruges i Hillerød?", answer: "Skansekapel på Skansevej og Nyhuse Kapel på Kapelvej. Begge har plads til 150 personer. Nyhuse Kapel er fra 1924 og blev moderniseret i 2018-19." },
 ];
 
@@ -133,18 +132,15 @@ export default function KimHillerod() {
           <p style={s.body}>
             Hillerød Kommune omfatter Hillerød by og en række mindre byer — blandt andre Skævinge, Nødebo, Ny Hammersholt, Gørløse, Alsønderup og Uvelse. Nabokommunerne Allerød, Fredensborg og Rudersdal dækker jeg også, men de er selvstændige kommuner med deres egne kirkegårde og takster.
           </p>
-          <p style={s.body}>
-            Hillerød er det sted i Nordsjælland, hvor der stadig kremeres. Krematoriet ved Skansekirkegården blev etableret i 1967 og udførte omkring 2.000 kremeringer i 2025.
-          </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirker, kapeller og kirkegårde i Hillerød</h3>
           <p style={s.body}>
-            Kommunen har tre kirkegårde: Skansekirkegården på Skansevej med kapel og krematorium, Hillerød Kirkegård ved Østergade og Nyhuse Kirkegård på Kapelvej, som blev anlagt omkring 1803-04. Både Skansekapel og Nyhuse Kapel har plads til 150 personer.
+            Kommunen har tre kirkegårde: Skansekirkegården på Skansevej med kapel, Hillerød Kirkegård ved Østergade og Nyhuse Kirkegård på Kapelvej, som blev anlagt omkring 1803-04. Både Skansekapel og Nyhuse Kapel har plads til 150 personer.
           </p>
           <p style={s.body}>
             Nyhuse Kapel er opført i 1924 af arkitekten M.P. Madsen og blev restaureret og moderniseret i 2018-19. Blandt kirkerne koordinerer jeg med Hillerød Kirke ved Østergade, Præstevang Kirke på Tamsborgvej og Frederiksborg Slotskirke.
           </p>
           <p style={s.body}>
-            Skansekirkegården er Nordsjællands aktive krematoriumsknudepunkt. Mange familier fra Helsingør, Fredensborg, Hørsholm og Rudersdal vælger at holde ceremonien lokalt og lade kremeringen ske her, fordi transporten er kort og tiderne mere fleksible. Jeg kender både kapellerne og de praktiske forhold omkring krematoriet, så I ikke skal koordinere det selv.
+            Jeg kender kapellerne og de praktiske forhold, så I ikke skal koordinere det selv.
           </p>
         </div>
       </section>
@@ -158,7 +154,7 @@ export default function KimHillerod() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirken eller i et af byens to kapeller.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på Skansekirkegården, Hillerød Kirkegård eller Nyhuse Kirkegård. Jeg koordinerer med kordegn, præst og kirkegårdskontor.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i fx Hillerød Kirke eller Præstevang Kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>

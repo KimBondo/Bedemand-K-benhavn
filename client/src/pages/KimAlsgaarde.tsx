@@ -135,9 +135,9 @@ export default function KimAlsgaarde() {
           <p style={s.body}>
             Begge kirkegårde administreres af det samme kirkegårdskontor. Jeg tager kontakten, så I får overblik over gravstedstyper, priser og muligheder, før I skal beslutte jer.
           </p>
-          <h2 style={{ ...s.h2, marginTop: "40px" }}>Kremering og ceremoni</h2>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Ceremoni</h2>
           <p style={s.body}>
-            Helsingør har ikke længere sit eget krematorium. I vælger selv krematorium, og jeg hjælper med det praktiske. Ved en bisættelse holdes ceremonien stadig lokalt – i Hellebæk Kirke eller et kapel – og bagefter sørger jeg for transporten. Urnen kommer tilbage, så den kan nedsættes på Ålsgårde Kirkegård, på en anden kirkegård eller askespredes over havet, hvis det var afdødes ønske.
+            Ved en bisættelse holdes ceremonien lokalt – i Hellebæk Kirke eller et kapel – og bagefter sørger jeg for transporten. Urnen kommer tilbage, så den kan nedsættes på Ålsgårde Kirkegård, på en anden kirkegård eller askespredes over havet, hvis det var afdødes ønske.
           </p>
           <p style={s.body}>
             Ved en begravelse sænkes kisten i jorden efter ceremonien. Og ønsker I det helt stille, kan jeg arrangere en afsked uden ceremoni.
@@ -161,7 +161,7 @@ export default function KimAlsgaarde() {
             {[
               { title: "Bisættelse", desc: "Ceremoni lokalt, fx i Hellebæk Kirke eller et kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på lokal kirkegård. Jeg koordinerer med kordegn, præst og kirkegård.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni, direkte til krematoriet. I kan stadig sige farvel ved kisten i ro, hvis I ønsker det. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i lokal kirke.", href: "/kirkelig-afsked/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
