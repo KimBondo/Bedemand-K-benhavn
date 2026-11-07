@@ -128,7 +128,7 @@ export default function KimPrisberegner() {
     }
     linjer.push(`Vejledende pris i alt: ${kr(total)}`);
     linjer.push("Ikke med i beregningen: krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter.");
-    if (location === "Ved ikke endnu / andet") linjer.push("Kørsel uden for København og Nordsjælland er ikke beregnet.");
+    if (location === "Ved ikke endnu / andet") linjer.push("Kørsel uden for København og Nordsjælland: 1.595 kr. inkl. 25 km, derefter 35 kr. pr. km – ikke regnet med her.");
     return linjer.join("\n");
   };
 
