@@ -293,7 +293,7 @@ export default function KimBondo() {
                 ))}
               </ul>
               <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", lineHeight: 1.6, color: "#5a7a6a", margin: 0 }}>
-                Dem bestemmer jeg ikke over, men jeg hjælper jer med at holde overblikket.
+                Hvilke udgifter der kommer oveni, afhænger af den afsked, I vælger. Dem bestemmer jeg ikke over, men jeg hjælper jer med at holde overblikket.
               </p>
             </div>
           </div>
