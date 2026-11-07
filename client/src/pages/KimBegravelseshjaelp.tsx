@@ -22,7 +22,7 @@ const s = {
 const FAQ = [
   { q: "Søger vi selv, eller hjælper du med det?", a: "Jeg hjælper med ansøgningen som en del af mit arbejde. I behøver ikke selv stå med det." },
   { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I har givet mig en fuldmagt, søger jeg hjælpen hos Udbetaling Danmark og trækker beløbet fra på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark skal bruge dokumentation fra skifteretten om boet, og de behandler normalt sagen inden for en måned, når papirerne er på plads." },
-  { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Hjælpen nedsættes krone for krone, når formuen er over 22.700 kr. – eller 45.250 kr., hvis afdøde efterlader ægtefælle eller børn under 18 år – og den bortfalder helt over 36.250 kr. henholdsvis 58.800 kr. Udgifter til begravelsen tæller ikke med i formuen. Var afdøde født før 1. april 1957, udbetales der dog altid mindst 1.050 kr. Jeg regner det ud for jer med det samme." },
+  { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Hjælpen nedsættes krone for krone, når formuen er over 22.700 kr. – eller 45.250 kr., hvis afdøde efterlader ægtefælle eller børn under 18 år – og den bortfalder helt over 36.250 kr. henholdsvis 58.800 kr. Udgifter til begravelsen tæller ikke med i formuen. Var afdøde født før 1. april 1957, udbetales der dog altid mindst 1.050 kr. En eventuel ægtefælles formue indgår også i vurderingen. Jeg giver jer et overslag med det samme, men det er Udbetaling Danmark, der træffer afgørelsen." },
   { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring — ikke om vedkommende var lønmodtager eller selvstændig." },
   { q: "Er der andre tilskud end det offentlige?", a: 'Ja. Var afdøde medlem af Sygeforsikringen "danmark" i gruppe 1 eller 2 – og blev optaget senest 31. december 2022 – udbetaler "danmark" 1.400 kr. i begravelseshjælp. Beløbet kan betales direkte til mig og trækkes fra fakturaen. Enkelte fagforeninger har også begravelseshjælp.' },
 ];
@@ -113,11 +113,11 @@ export default function KimBegravelseshjaelp() {
           <p style={s.label}>Satser 2026</p>
           <h2 style={s.h2}>Hvad kan man få i begravelseshjælp?</h2>
           <p style={s.body}>
-            Begravelseshjælpen fra det offentlige afhænger af afdødes formue. I 2026 er satserne:
+            Begravelseshjælpen fra det offentlige afhænger af formuen – både afdødes og en eventuel ægtefælles. I 2026 er satserne:
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "24px", marginBottom: "40px" }}>
             {[
-              { title: "Maksimalt tilskud", amount: "13.550 kr.", note: "Afhænger af afdødes formue" },
+              { title: "Maksimalt tilskud", amount: "13.550 kr.", note: "Afhænger af formuen – også en eventuel ægtefælles" },
               { title: "Minimumstilskud", amount: "1.050 kr.", note: "Er afdøde født før 1. april 1957, udbetales mindst dette beløb — uanset formue" },
               { title: 'Sygeforsikringen "danmark"', amount: "1.400 kr.", note: "Gruppe 1 og 2, optaget senest 31. december 2022" },
             ].map((item) => (
@@ -128,6 +128,9 @@ export default function KimBegravelseshjaelp() {
               </div>
             ))}
           </div>
+          <p style={s.body}>
+            Den fulde begravelseshjælp på 13.550 kr. svarer til min pris på en afsked uden ceremoni. Er afdøde berettiget til hele beløbet, kan hjælpen altså dække standardpakken – men ikke nødvendigvis tillæg og eksterne udgifter som kremering og gravsted.
+          </p>
           <p style={s.body}>
             Derudover har enkelte fagforeninger fortsat ordninger med begravelseshjælp. Afdødes fagforening kan oplyse om dette — jeg hjælper gerne med at undersøge det.
           </p>
@@ -140,7 +143,7 @@ export default function KimBegravelseshjaelp() {
           <p style={s.label}>Betingelser</p>
           <h2 style={s.h2}>Hvem kan søge begravelseshjælp?</h2>
           <p style={s.body}>
-            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. Var afdøde født før 1. april 1957, udbetales der altid mindst 1.050 kr. – uanset formue. For øvrige afhænger tilskuddet af afdødes formue på tidspunktet for dødsfaldet.
+            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. Var afdøde født før 1. april 1957, udbetales der altid mindst 1.050 kr. – uanset formue. For øvrige afhænger tilskuddet af formuen på tidspunktet for dødsfaldet – både afdødes og en eventuel ægtefælles. Det er Udbetaling Danmark, der træffer afgørelsen.
           </p>
           <p style={s.body}>
             Begravelseshjælpen søges via Udbetaling Danmark. Jeg hjælper med ansøgningen som en del af mit arbejde, så I ikke selv skal stå med det i en svær tid.

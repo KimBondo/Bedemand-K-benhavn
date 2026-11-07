@@ -1,5 +1,5 @@
 import ContactForm from "@/components/ContactForm";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
@@ -9,22 +9,19 @@ import KimNav from "@/components/KimNav";
  * Design: Nordic Quietism — warm off-white (#F9F8F6), charcoal text (#2F3E46),
  *         sage green CTAs (#3D6B4F), Lora serif headings + Open Sans body.
  *
- * Section order (revised):
- *   1. Hero — headline + underheadline + kystbillede (beach/hearse)
- *   2. Introduktion — "Ro, overblik og mening" + haven-kiste billede
- *   3. Bæredygtighed — "Omsorg for naturen – Bæredygtig afsked"
- *   4. Priser intro + 3 priseksempler (ingen tekst imellem)
- *   5. Logistik — "Den sikre logistik" + "Friheden til at vælge" + rådhuspladsbillede
- *   6. Livets overgange — "En brik i livets store overgange"
- *   7. Kontaktformular — "Skriv til Kim"
- *   8. Footer
+ * Sektioner (enkel forside):
+ *   1. Portræt, præsentation og "Ring trygt til mig"
+ *   2. Når nogen lige er død
+ *   3. Den første samtale
+ *   4. Priser – min pris og udgifter, der ikke går til mig
+ *   5. Skal I vælge en lokal bedemand?
+ *   6. Kontaktformular – "Skriv til mig"
+ *   7. Footer
  */
 
 const SECTION_PADDING = "96px 32px";
 
 export default function KimBondo() {
-  const [openCard, setOpenCard] = useState<number | null>(null);
-
   // Scroll to hash anchor on mount (e.g. /#kontakt from nav links)
   useEffect(() => {
     const hash = window.location.hash;
@@ -135,12 +132,12 @@ export default function KimBondo() {
         </a>
       </header>
 
-        {/* Hero text */}
+        {/* Hero: portræt, præsentation og opkald */}
         <div
           className="hero-tekst"
           style={{
             textAlign: "center",
-            padding: "56px 24px 56px",
+            padding: "56px 24px 16px",
             maxWidth: "760px",
             margin: "0 auto",
           }}
@@ -207,134 +204,105 @@ export default function KimBondo() {
           >
             Jeg hedder Kim Bondo. Når I ringer, er det mig, I taler med – og mig, der følger jer hele vejen til afskeden. Mine priser står åbent her på siden, og begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
           </p>
-
-          <div style={{ textAlign: "center", marginBottom: "48px" }}>
-            <a
-              href="tel:+4528146011"
-              style={{
-                display: "inline-block",
-                background: "#3D6B4F",
-                color: "#ffffff",
-                fontFamily: "'Open Sans', sans-serif",
-                fontWeight: 700,
-                fontSize: "clamp(16px, 2vw, 19px)",
-                padding: "16px 36px",
-                borderRadius: "3px",
-                textDecoration: "none",
-                letterSpacing: "0.04em",
-              }}
-            >
-              Ring til mig på 28 14 60 11
-            </a>
-            <p
-              style={{
-                marginTop: "12px",
-                fontSize: "14px",
-                color: "#7a8f99",
-                fontFamily: "'Open Sans', sans-serif",
-              }}
-            >
-              Døgnet rundt – også nat, weekend og helligdag. I behøver ikke have besluttet noget, før I ringer.
-            </p>
-            <ul
-              style={{
-                listStyle: "none",
-                padding: 0,
-                margin: "24px auto 0",
-                display: "inline-block",
-                textAlign: "left",
-                fontFamily: "'Open Sans', sans-serif",
-                fontSize: "clamp(15px, 1.7vw, 17px)",
-                lineHeight: 1.6,
-                color: "#3d5260",
-              }}
-            >
-              {[
-                "Den samme person hele vejen – fra første opkald til afskeden",
-                "Bisættelse fra 18.300 kr. · Begravelse fra 19.300 kr.",
-                "Begravelseshjælpen trækkes fra på fakturaen",
-                "Kontor i Søborg – hjælper i hele København og Nordsjælland",
-              ].map((linje) => (
-                <li key={linje} style={{ display: "flex", gap: "10px", alignItems: "flex-start", marginBottom: "8px" }}>
-                  <span aria-hidden="true" style={{ color: "#3D6B4F", fontWeight: 700, flexShrink: 0 }}>✓</span>
-                  <span>{linje}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* KUN kystbillede (rustvogn ved havet) */}
-          <div
-            style={{
-              maxWidth: "680px",
-              margin: "0 auto",
-              borderRadius: "4px",
-              overflow: "hidden",
-              boxShadow: "0 4px 24px rgba(0,0,0,0.12)",
-            }}
-         >
-          <picture style={{ display: "block" }}>
-            <source type="image/webp" srcSet="/images/kim-bondo-rustvogn-kyst-640w.webp 640w, /images/kim-bondo-rustvogn-kyst-960w.webp 960w, /images/kim-bondo-rustvogn-kyst-1400w.webp 1400w, /images/kim-bondo-rustvogn-kyst.webp 2304w" sizes="(max-width: 1100px) 100vw, 1100px" />
-            <img
-              src="/images/kim-bondo-rustvogn-kyst-1400w.jpg"
-              srcSet="/images/kim-bondo-rustvogn-kyst-640w.jpg 640w, /images/kim-bondo-rustvogn-kyst-960w.jpg 960w, /images/kim-bondo-rustvogn-kyst-1400w.jpg 1400w, /images/kim-bondo-rustvogn-kyst.jpg 2304w"
-              sizes="(max-width: 1100px) 100vw, 1100px"
-              width={1400}
-              height={933}
-              alt="Kim Bondo med sort Mercedes rustvogn ved den danske kyst"
-              fetchPriority="high"
-              loading="eager"
-              decoding="async"
-              style={{
-                width: "100%",
-                aspectRatio: "4/3",
-                objectFit: "cover",
-                objectPosition: "center",
-                display: "block",
-              }}
-            />
-          </picture>
-          </div>
-
-
-          {/* Hero CTA */}
-          <div style={{ textAlign: "center", marginTop: "40px" }}>
-            <a
-              href="#kontakt"
-              style={{
-                display: "inline-block",
-                background: "#3D6B4F",
-                color: "#ffffff",
-                fontFamily: "'Open Sans', sans-serif",
-                fontWeight: 700,
-                fontSize: "clamp(15px, 1.8vw, 18px)",
-                padding: "16px 40px",
-                borderRadius: "3px",
-                textDecoration: "none",
-                letterSpacing: "0.05em",
-              }}
-            >
-              Skriv til mig
-            </a>
-            <p
-              style={{
-                marginTop: "14px",
-                fontSize: "14px",
-                color: "#7a8f99",
-                fontFamily: "'Open Sans', sans-serif",
-              }}
-            >
-              eller ring på{" "}
-              <a
-                href="tel:+4528146011"
-                style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}
-              >
-                28 14 60 11
-              </a>
-            </p>
-          </div>
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>
+            Ring trygt til mig på 28 14 60 11
+          </a>
+          <p style={{ marginTop: "14px", fontSize: "15px", color: "#5a7a6a", fontFamily: "'Open Sans', sans-serif", lineHeight: 1.6 }}>
+            Med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland.
+          </p>
         </div>
       </section>
+
+      {/* ══════════════════════════════════════════════════════
+          NÅR NOGEN LIGE ER DØD
+      ══════════════════════════════════════════════════════ */}
+      <section style={{ background: "#EEF3EF", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "640px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.2vw, 34px)", color: "#2F3E46", lineHeight: 1.25, margin: "0 0 20px", textAlign: "center" }}>
+            Når nogen lige er død
+          </h2>
+          <ol style={{ margin: "0 0 20px", padding: 0, listStyle: "none", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.7, color: "#3d5260" }}>
+            {[
+              "Er dødsfaldet sket i hjemmet, skal en læge først konstatere det. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem hjælper personalet med det.",
+              "Ring derefter til mig. Der er ingen hast – afdøde kan ofte blive, hvor vedkommende er, til næste morgen, så I får tid til at sige farvel.",
+              "Resten finder vi ud af sammen, i jeres tempo.",
+            ].map((tekst, i) => (
+              <li key={i} style={{ display: "flex", gap: "14px", alignItems: "flex-start", marginBottom: "14px" }}>
+                <span aria-hidden="true" style={{ flexShrink: 0, width: "28px", height: "28px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", fontWeight: 700, fontSize: "14px", display: "inline-flex", alignItems: "center", justifyContent: "center", marginTop: "2px" }}>{i + 1}</span>
+                <span>{tekst}</span>
+              </li>
+            ))}
+          </ol>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", margin: 0, textAlign: "center" }}>
+            <a href="/hvad-sker-der/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se hvad der sker, når nogen dør</a>
+          </p>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
+          DEN FØRSTE SAMTALE
+      ══════════════════════════════════════════════════════ */}
+      <section style={{ background: "#ffffff", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "640px", margin: "0 auto", textAlign: "center" }}>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.2vw, 34px)", color: "#2F3E46", lineHeight: 1.25, margin: "0 0 20px", textAlign: "center" }}>
+            Den første samtale
+          </h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
+            I behøver ikke have besluttet noget, før I ringer.
+          </p>
+          <p style={{ ...{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }, margin: 0 }}>
+            Vi kan tale sammen i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Det er mig, I taler med – hele vejen.
+          </p>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════
+          PRISER – kort oversigt
+      ══════════════════════════════════════════════════════ */}
+      <section style={{ background: "#F9F8F6", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.2vw, 34px)", color: "#2F3E46", lineHeight: 1.25, margin: "0 0 20px", textAlign: "center" }}>
+            Priser
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "20px" }}>
+            <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "24px" }}>
+              <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", color: "#2F3E46", margin: "0 0 14px" }}>Min pris</h3>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#3d5260" }}>
+                <tbody>
+                  {[
+                    ["Afsked uden ceremoni", "13.550 kr."],
+                    ["Bisættelse", "Fra 18.300 kr."],
+                    ["Begravelse", "Fra 19.300 kr."],
+                  ].map(([navn, pris]) => (
+                    <tr key={navn} style={{ borderBottom: "1px solid #ede9e4" }}>
+                      <td style={{ padding: "10px 12px 10px 0" }}>{navn}</td>
+                      <td style={{ padding: "10px 0", textAlign: "right", fontWeight: 700, color: "#2F3E46", whiteSpace: "nowrap" }}>{pris}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", lineHeight: 1.6, color: "#5a7a6a", margin: "12px 0 0" }}>
+                Med mit honorar, kiste og rustvognskørsel. Priserne gælder hverdage. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
+              </p>
+            </div>
+            <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "24px" }}>
+              <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", color: "#2F3E46", margin: "0 0 14px" }}>Udgifter, der ikke går til mig</h3>
+              <ul style={{ margin: "0 0 12px", paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "16px", lineHeight: 1.8, color: "#3d5260" }}>
+                {["Kremering", "Gravsted og gravsten", "Urnenedsættelse", "Leje af kapel", "Kisteophold"].map((u) => (
+                  <li key={u}>{u}</li>
+                ))}
+              </ul>
+              <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", lineHeight: 1.6, color: "#5a7a6a", margin: 0 }}>
+                Hvilke udgifter der kommer oveni, afhænger af den afsked, I vælger. Dem bestemmer jeg ikke over, men jeg hjælper jer med at holde overblikket.
+              </p>
+            </div>
+          </div>
+          <p style={{ textAlign: "center", margin: "24px 0 0", fontFamily: "'Open Sans', sans-serif", fontSize: "16px" }}>
+            <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se alle priser og tillæg</a>
+          </p>
+        </div>
+      </section>
+
 
       {/* ══════════════════════════════════════════════════════
           SKAL I VÆLGE EN LOKAL BEDEMAND?
@@ -361,704 +329,6 @@ export default function KimBondo() {
           </p>
         </div>
       </section>
-
-      {/* ══════════════════════════════════════════════════════
-          HVORFOR RINGE TIL MIG?
-      ══════════════════════════════════════════════════════ */}
-      <section style={{ background: "#ffffff", padding: "64px 24px" }}>
-        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
-          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.2vw, 34px)", color: "#2F3E46", lineHeight: 1.25, margin: "0 0 24px", textAlign: "center" }}>
-            Hvorfor ringe til mig?
-          </h2>
-            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-              <strong>Det er mig, der tager telefonen.</strong> Også klokken tre om natten. Du bliver ikke stillet om og skal ikke fortælle din historie flere gange.
-            </p>
-            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-              <strong>Den samme person hele vejen.</strong> Det er mig, der kommer hjem til jer, ordner det praktiske og står ved højtideligheden.
-            </p>
-            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-              <strong><a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Faste priser, der står åbent.</a></strong> Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og afsked uden ceremoni 13.550 kr. Alle tillæg står på siden, så I kender regnestykket, før I beslutter noget.
-            </p>
-            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-              <strong>Begravelseshjælpen klarer jeg.</strong> Jeg søger den for jer og trækker den fra på fakturaen. Hvor meget I kan få, afhænger af afdødes formue, og det fortæller jeg jer med det samme.
-            </p>
-            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 17px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-              <strong>Ingen hast.</strong> Afdøde kan ofte blive, hvor vedkommende er, til næste morgen. Ring, når I er klar.
-            </p>
-          <div style={{ textAlign: "center", marginTop: "28px" }}>
-            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
-              Ring til mig på 28 14 60 11
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════════════════════
-          HVAD GØR JEG NU? – til dem, der lige har mistet
-      ══════════════════════════════════════════════════════ */}
-      <section style={{ background: "#EEF3EF", padding: "64px 24px" }}>
-        <div style={{ maxWidth: "680px", margin: "0 auto", textAlign: "center" }}>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 12px" }}>
-            Har I lige mistet en, I holder af?
-          </p>
-          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.2vw, 34px)", color: "#2F3E46", lineHeight: 1.25, margin: "0 0 16px" }}>
-            Du behøver ikke have styr på det hele
-          </h2>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 28px" }}>
-            Ring til mig – også midt om natten. Vi tager det ét skridt ad gangen, og I behøver ikke have besluttet noget på forhånd.
-          </p>
-          <ol style={{ textAlign: "left", maxWidth: "560px", margin: "0 auto 32px", padding: 0, listStyle: "none", fontFamily: "'Open Sans', sans-serif", fontSize: "16px", lineHeight: 1.7, color: "#3d5260" }}>
-            {[
-              "Er dødsfaldet sket i hjemmet, skal en læge først konstatere det. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem hjælper personalet med det.",
-              "Ring derefter til mig. Der er ingen hast – afdøde kan ofte blive, hvor vedkommende er, til næste morgen, så I får tid til at sige farvel.",
-              "Resten finder vi ud af sammen, i jeres tempo.",
-            ].map((tekst, i) => (
-              <li key={i} style={{ display: "flex", gap: "14px", alignItems: "flex-start", marginBottom: "14px" }}>
-                <span aria-hidden="true" style={{ flexShrink: 0, width: "28px", height: "28px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", fontWeight: 700, fontSize: "14px", display: "inline-flex", alignItems: "center", justifyContent: "center", marginTop: "1px" }}>{i + 1}</span>
-                <span>{tekst}</span>
-              </li>
-            ))}
-          </ol>
-          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
-            Ring til mig på 28 14 60 11
-          </a>
-          <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a" }}>
-            Vil du hellere læse først? <a href="/hvad-sker-der/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se hvad der sker, når nogen dør</a> eller <a href="/huskeliste/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>huskelisten</a>
-          </p>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════════════════════
-          SECTION 2: MØD MIG / SÅDAN HJÆLPER JEG
-          – Tryghed, logistik, frihed og bæredygtighed samlet
-      ══════════════════════════════════════════════════════ */}
-      <section
-        style={{
-          maxWidth: "1100px",
-          margin: "0 auto",
-          padding: SECTION_PADDING,
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))",
-          gap: "64px",
-          alignItems: "start",
-        }}
-      >
-       {/* Haven-kiste billede */}
-       <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-         <picture>
-            <source type="image/webp" srcSet="/images/hvid-kiste-blomster-have.webp" />
-            <img
-              src="/images/hvid-kiste-blomster-have.jpg"
-              width={900}
-              height={510}
-              alt="Hvid kiste med blomster i en naturskøn have – Kim Bondo Bedemand"
-              loading="lazy"
-              decoding="async"
-              style={{
-                width: "100%",
-                maxWidth: "480px",
-                aspectRatio: "16/9",
-                objectFit: "cover",
-                objectPosition: "center",
-                borderRadius: "4px",
-                boxShadow: "0 8px 32px rgba(47,62,70,0.12)",
-              }}
-            />
-          </picture>
-          <p
-            style={{
-              marginTop: "10px",
-              fontSize: "13px",
-              color: "#9a9087",
-              fontStyle: "italic",
-              textAlign: "center",
-              width: "100%",
-              lineHeight: 1.6,
-            }}
-          >
-            Afskeden kan være i haven, hvis det er det, I ønsker.
-          </p>
-        </div>
-
-        {/* Tekst */}
-        <div>
-          <h2
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(22px, 3vw, 34px)",
-              color: "#2F3E46",
-              lineHeight: 1.3,
-              marginBottom: "28px",
-            }}
-          >
-            Sådan hjælper jeg
-          </h2>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-              marginBottom: "20px",
-            }}
-          >
-            Når vi mister en, vi har kær, opstår der ofte et øjeblikkeligt kaos af praktiske spørgsmål og dybe følelser. Min vigtigste opgave – uanset om vi mødes hjemme hos jer eller taler i telefon – er at skabe et rum med ro og overblik. Og at holde fast i, at også de tungeste stunder bærer mening i sig.
-          </p>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-              marginBottom: "20px",
-            }}
-          >
-            Jeg møder jer præcis der, hvor I er. Hvad enten sorgen kalder på
-            dyb alvor, tårer eller et befriende smil, tilpasser jeg mig jeres
-            behov – som et nærværende menneske med tid og rum til det, I har brug for.
-          </p>
-          <h3
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(18px, 2vw, 22px)",
-              color: "#2F3E46",
-              marginBottom: "12px",
-            }}
-          >
-            Det er mig, I taler med – hele vejen
-          </h3>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-              marginBottom: "20px",
-            }}
-          >
-            Når I ringer, er det mig, der tager telefonen. Det er også mig, der kommer hjem til jer, holder styr på det praktiske og selv er til stede ved højtideligheden. I bliver ikke sendt videre mellem skiftende medarbejdere, og I kan altid ringe til mig, når der dukker et spørgsmål op. Jeg hjælper familier i København, Storkøbenhavn og <a href="/nordsjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Nordsjælland</a>. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>et andet sted på Sjælland</a>, så ring alligevel – så finder vi en løsning sammen.
-          </p>
-          <h3
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(18px, 2vw, 22px)",
-              color: "#2F3E46",
-              marginBottom: "12px",
-              marginTop: "32px",
-              lineHeight: 1.3,
-            }}
-          >
-            Med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland.
-          </h3>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-              marginBottom: "20px",
-            }}
-          >
-            Min bedemandsforretning ligger på Vandtårnsvej 62A, kontor 11, i Søborg. Som bedemand i Gladsaxe og København kender jeg kirkerne, kirkegårdene og Bispebjerg Krematorium godt, og jeg hjælper familier i hele København, Storkøbenhavn og Nordsjælland.
-          </p>
-          <h3
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(18px, 2vw, 22px)",
-              color: "#2F3E46",
-              marginBottom: "12px",
-              marginTop: "32px",
-              lineHeight: 1.3,
-            }}
-          >
-            Døgnvagt – ring når som helst
-          </h3>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-              marginBottom: "20px",
-            }}
-          >
-            Jeg har døgnvagt alle årets dage. Når I ringer på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>28 14 60 11</a>, er det mig, der tager telefonen, også om natten og i weekenden.
-          </p>
-          <h3
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(18px, 2vw, 22px)",
-              color: "#2F3E46",
-              marginBottom: "12px",
-              marginTop: "32px",
-              lineHeight: 1.3,
-            }}
-          >
-            Den sikre logistik i baggrunden
-          </h3>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-              marginBottom: "20px",
-            }}
-          >
-            Jeg sørger for en tryg og sikker afvikling af alt det praktiske. Jeg har altid helt styr på drejebogen, rustvognskørslen og den præcise koordinering med myndigheder, kirker, kapeller og krematorier. Alt det praktiske glider lydløst i baggrunden, så I roligt kan sænke skuldrene.
-          </p>
-          <h3
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(18px, 2vw, 22px)",
-              color: "#2F3E46",
-              marginBottom: "12px",
-              marginTop: "32px",
-              lineHeight: 1.3,
-            }}
-          >
-            Friheden til at vælge selv
-          </h3>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-              marginBottom: "20px",
-            }}
-          >
-            For mig findes der ingen faste skabeloner. Hvad enten den smukke afsked skal foregå i en traditionel kirke, et kapel, hjemme i stuen, i sommerhuset eller ude i haven, skaber jeg rammerne for det. Det vigtigste er, at afskeden bliver personlig, kærlig og føles helt rigtig for jer.
-          </p>
-          <h3
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(18px, 2vw, 22px)",
-              color: "#2F3E46",
-              marginBottom: "12px",
-              marginTop: "32px",
-              lineHeight: 1.3,
-            }}
-          >
-            Omsorg for naturen – Bæredygtig afsked
-          </h3>
-          <p
-            style={{
-              fontSize: "clamp(15px, 1.6vw, 17px)",
-              lineHeight: 1.85,
-              color: "#3d5260",
-            }}
-          >
-            Som en naturlig del af mit virke tilbyder jeg også kister i lette og bæredygtige materialer, som tager hensyn til den natur, vi er en del af. Det giver jer mulighed for at vælge en afsked, der er både smuk og enkel.
-          </p>
-        </div>
-      </section>
-
-      <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
-
-      {/* ══════════════════════════════════════════════════════
-          SECTION 4: ØKONOMI – intro direkte efterfulgt af 3 priseksempler
-      ══════════════════════════════════════════════════════ */}
-      <section
-        id="priser"
-        style={{
-          maxWidth: "760px",
-          margin: "0 auto",
-          padding: "96px 32px 64px",
-          textAlign: "center",
-        }}
-      >
-        <h2
-          style={{
-            fontFamily: "'Lora', serif",
-            fontWeight: 600,
-            fontSize: "clamp(20px, 2.5vw, 30px)",
-            color: "#2F3E46",
-            marginBottom: "20px",
-            lineHeight: 1.3,
-          }}
-        >
-          Gennemskuelige priser
-        </h2>
-        <p
-          style={{
-            fontSize: "clamp(15px, 1.6vw, 17px)",
-            lineHeight: 1.85,
-            color: "#3d5260",
-            marginBottom: "0",
-          }}
-        >
-          En værdig afsked skal ikke være forbundet med økonomisk utryghed
-          eller skjulte gebyrer. Ikke mindst lægger jeg stor vægt på fuld
-          gennemskuelighed, så I kender alle udgifter på forhånd. Uanset hvilken
-          løsning der føles rigtig for jer, er det hele afstemt efter faste,
-          klare rammer uden ubehagelige overraskelser.
-        </p>
-      </section>
-
-
-
-      {/* 3 PRISSCENARIER */}
-      <section
-        id="priseksempler"
-        style={{
-          background: "#F9F8F6",
-          padding: "64px 32px 96px",
-        }}
-      >
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <h2
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(22px, 3vw, 36px)",
-              color: "#2F3E46",
-              textAlign: "center",
-              marginBottom: "64px",
-              lineHeight: 1.3,
-            }}
-          >
-            Mine tre priseksempler
-          </h2>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-              gap: "32px",
-            }}
-          >
-            {[
-              {
-                title: "Den enkle bisættelse",
-                subtitle:
-                  "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til højtidelighed, og det er en hverdag.",
-                price: "Fra 18.300 kr.",
-                items: [
-                  "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-                  "Klassisk hvid kiste (vælger I den enkleste basiskiste, trækkes 500 kr. fra)",
-                  "Natururne",
-                  "Klargøring af kiste, påklædning og ilægning i kiste",
-                  "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet",
-                  "Kontakt til kordegn, præst, krematorium og kirkegård",
-                  "Anmodning v/ kirkeministeriet",
-                  "Ansøgning om begravelseshjælp",
-                  "Bedemand til stede ved højtideligheden",
-                ],
-              },
-              {
-                title: "Den enkle begravelse",
-                subtitle:
-                  "Hvis afdøde ligger på hospital og kan køres direkte til højtidelighed på en hverdag, og kirken og kirkegården er samme sted.",
-                price: "Fra 19.300 kr.",
-                items: [
-                  "Fysisk møde eller telefonmøde, hvad der passer bedst for dig, med planlægning af forløbet",
-                  "Klassisk hvid kiste (vælger I den enkleste basiskiste, trækkes 1.000 kr. fra)",
-                  "Klargøring af kiste, påklædning og ilægning i kiste",
-                  "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til graven",
-                  "Kontakt til kordegn, præst og kirkegård",
-                  "Anmodning v/ kirkeministeriet",
-                  "Ansøgning om begravelseshjælp",
-                  "Bedemand til stede ved højtideligheden",
-                  "Udlægning af blomster på graven",
-                ],
-              },
-              {
-                title: "Afsked uden ceremoni",
-                subtitle:
-                  "Hvis afdøde ligger på hospital eller kapel og kan køres direkte til krematoriet på en hverdag – uden forudgående højtidelighed.",
-                price: "Fra 13.550 kr.",
-                items: [
-                  "Klassisk hvid kiste (vælger I den enkleste basiskiste, trækkes 500 kr. fra)",
-                  "Natururne",
-                  "Klargøring af kiste, påklædning og ilægning i kiste",
-                  "Rustvognskørsel fra hospital eller kapel til krematoriet",
-                  "Kontakt til kordegn, krematorium og kirkegård",
-                  "Anmodning v/ kirkeministeriet",
-                  "Ansøgning om begravelseshjælp",
-                ],
-              },
-            ].map((card, idx) => {
-              const isOpen = openCard === idx;
-              return (
-              <div
-                key={card.title}
-                style={{
-                  background: "#ffffff",
-                  borderRadius: "4px",
-                  boxShadow: "0 2px 16px rgba(47,62,70,0.07)",
-                  overflow: "hidden",
-                }}
-              >
-                {/* Collapsed header — always visible */}
-                <button
-                  onClick={() => setOpenCard(isOpen ? null : idx)}
-                  style={{
-                    width: "100%",
-                    background: "none",
-                    border: "none",
-                    cursor: "pointer",
-                    padding: "32px",
-                    textAlign: "left",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    gap: "16px",
-                  }}
-                >
-                  <div style={{ flex: 1 }}>
-                    <h3
-                      style={{
-                        fontFamily: "'Lora', serif",
-                        fontWeight: 600,
-                        fontSize: "clamp(18px, 2vw, 22px)",
-                        color: "#2F3E46",
-                        marginBottom: "6px",
-                        lineHeight: 1.3,
-                      }}
-                    >
-                      {card.title}
-                    </h3>
-                    <p
-                      style={{
-                        fontFamily: "'Lora', serif",
-                        fontWeight: 700,
-                        fontSize: "clamp(18px, 2vw, 22px)",
-                        color: "#3D6B4F",
-                        margin: 0,
-                      }}
-                    >
-                      {card.price}
-                    </p>
-                  </div>
-                  <span
-                    style={{
-                      fontSize: "28px",
-                      color: "#3D6B4F",
-                      fontWeight: 300,
-                      lineHeight: 1,
-                      display: "inline-block",
-                      transform: isOpen ? "rotate(45deg)" : "rotate(0deg)",
-                      transition: "transform 220ms ease",
-                      flexShrink: 0,
-                    }}
-                  >
-                    +
-                  </span>
-                </button>
-
-                {/* Expandable content */}
-                {isOpen && (
-                  <div style={{ padding: "0 32px 32px" }}>
-                    <p
-                      style={{
-                        fontSize: "14px",
-                        color: "#7a8f99",
-                        lineHeight: 1.6,
-                        marginBottom: "20px",
-                        fontStyle: "italic",
-                        borderTop: "1px solid #e0dcd6",
-                        paddingTop: "20px",
-                      }}
-                    >
-                      {card.subtitle}
-                    </p>
-                    <ul
-                      style={{
-                        listStyle: "none",
-                        padding: 0,
-                        margin: "0 0 28px 0",
-                      }}
-                    >
-                      {card.items.map((item) => (
-                        <li
-                          key={item}
-                          style={{
-                            fontSize: "15px",
-                            color: "#3d5260",
-                            lineHeight: 1.75,
-                            paddingLeft: "22px",
-                            marginBottom: "10px",
-                            position: "relative",
-                          }}
-                        >
-                          <span
-                            style={{
-                              position: "absolute",
-                              left: 0,
-                              color: "#3D6B4F",
-                              fontWeight: 700,
-                            }}
-                          >
-                            ✓
-                          </span>
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-                    <a
-                      href="#kontakt"
-                      style={{
-                        display: "block",
-                        textAlign: "center",
-                        background: "#3D6B4F",
-                        color: "#ffffff",
-                        fontFamily: "'Open Sans', sans-serif",
-                        fontWeight: 600,
-                        fontSize: "14px",
-                        padding: "13px 20px",
-                        borderRadius: "3px",
-                        textDecoration: "none",
-                        letterSpacing: "0.04em",
-                      }}
-                    >
-                      Kontakt mig
-                    </a>
-                  </div>
-                )}
-              </div>
-            );})}
-          </div>
-
-          {/* ── IKKE INKLUDERET ── */}
-          <div
-            style={{
-              background: "#F9F8F6",
-              borderRadius: "4px",
-              padding: "28px 32px",
-              marginTop: "40px",
-              maxWidth: "640px",
-              margin: "40px auto 0",
-            }}
-          >
-            <p
-              style={{
-                fontFamily: "'Lora', serif",
-                fontWeight: 600,
-                fontSize: "16px",
-                color: "#2F3E46",
-                marginBottom: "12px",
-              }}
-            >
-              Vær opmærksom på disse udgifter, som ikke er inkluderet:
-            </p>
-            {[
-              "Gravsten",
-              "Gravsted",
-              "Leje af kapel",
-              "Kisteophold – prisen varierer",
-              "Urnenedsættelse",
-              "Kremering",
-            ].map((item) => (
-              <p
-                key={item}
-                style={{
-                  fontSize: "14px",
-                  color: "#3d5260",
-                  lineHeight: 1.7,
-                  paddingLeft: "12px",
-                }}
-              >
-                – {item}
-              </p>
-            ))}
-            <p
-              style={{
-                fontSize: "13px",
-                color: "#7a8f99",
-                lineHeight: 1.7,
-                marginTop: "12px",
-                fontStyle: "italic",
-              }}
-            >
-              Jeg hjælper jer med at indhente tilbud og holde overblikket over
-              alle udgifter – også dem, der ikke er en del af mit honorar.
-            </p>
-          </div>
-
-          <p
-            style={{
-              textAlign: "center",
-              marginTop: "32px",
-              fontSize: "14px",
-              color: "#7a8f99",
-              fontStyle: "italic",
-              maxWidth: "600px",
-              margin: "32px auto 0",
-            }}
-          >
-            Alle priseksempler er beregnet på hverdage. Efter kl. 16 på hverdage samt i weekender og på helligdage kommer et fast tillæg på 800 kr. pr. udkald.
-            Der kommer ikke uventede udgifter – alle tillæg, fx 1.200 kr. for afhentning i et privat hjem, står på <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>prissiden</a>. Vi gennemgår det hele sammen – i ro og mag.
-          </p>
-
-          <p
-            style={{
-              textAlign: "center",
-              marginTop: "24px",
-              fontSize: "15px",
-              color: "#7a8f99",
-            }}
-          >
-            Ønsker du at se de specifikke enkeltpriser?{" "}
-            <a
-              href="/priser/"
-              style={{
-                color: "#3D6B4F",
-                textDecoration: "underline",
-                fontWeight: 600,
-              }}
-            >
-              Se den komplette prisliste her
-            </a>
-            {" "}eller{" "}
-            <a
-              href="/prisberegner/"
-              style={{
-                color: "#3D6B4F",
-                textDecoration: "underline",
-                fontWeight: 600,
-              }}
-            >
-              regn et overslag ud i prisberegneren
-            </a>
-          </p>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════════════════════════════
-          MIN SIDSTE VILJE – gratis hjemmebesøg
-      ══════════════════════════════════════════════════════ */}
-      <section style={{ background: "#F9F8F6", padding: "0 32px 96px" }}>
-        <div
-          style={{
-            maxWidth: "760px",
-            margin: "0 auto",
-            background: "#ffffff",
-            border: "1px solid #e0dcd6",
-            borderLeft: "4px solid #3D6B4F",
-            borderRadius: "3px",
-            padding: "36px 36px 40px",
-          }}
-        >
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", margin: "0 0 12px" }}>
-            Gratis hjemmebesøg
-          </p>
-          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(22px, 2.8vw, 30px)", color: "#2F3E46", margin: "0 0 14px", lineHeight: 1.25 }}>
-            Min Sidste Vilje – planlæg afskeden i ro
-          </h2>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d5260", margin: "0 0 24px" }}>
-            Det er en gave til dem, man efterlader, at have taget stilling i forvejen. Jeg kommer gerne hjem til jer – eller vi tager samtalen over telefon eller video. Det koster ingenting, og I får jeres ønsker med hjem på skrift. I kan også hente dokumentet og udfylde det selv.
-          </p>
-          <a
-            href="/min-sidste-vilje/"
-            style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}
-          >
-            Læs om Min Sidste Vilje
-          </a>
-        </div>
-      </section>
-
-
 
       {/* ══════════════════════════════════════════════════════
           SECTION 7: KONTAKTFORMULAR
@@ -1133,62 +403,6 @@ export default function KimBondo() {
         </div>
       </section>
 
-
-      {/* ══════════════════════════════════════════════════════
-          SECTION 7b: BLOG / ARTIKLER
-      ══════════════════════════════════════════════════════ */}
-      <section style={{ background: "#F9F8F6", padding: "80px 32px" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>Viden og vejledning</p>
-          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(22px, 3vw, 32px)", color: "#2F3E46", marginBottom: "12px", marginTop: 0 }}>Artikler om afsked og begravelse</h2>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "40px", maxWidth: "600px" }}>
-            Her deler jeg viden om de spørgsmål, jeg oftest møder. Læs og bliv klogere, så I kan træffe de rigtige valg i en svær tid.
-          </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "28px" }}>
-            {[
-              {
-                title: "Hvad sker der, når nogen dør?",
-                excerpt: "En klar oversigt over de første skridt i København og Nordsjælland — læge, dødsattest, anmeldelse, krematorium og hvad jeg tager mig af.",
-                href: "/hvad-sker-der/",
-                label: "Læs guiden",
-              },
-              {
-                title: "Sådan vælger du den rigtige afsked",
-                excerpt: "Bisættelse, begravelse eller afsked uden ceremoni? Kirkelig eller borgerlig? Her gennemgår jeg forskellene, så I kan vælge den afsked, der passer til jer.",
-                href: "/afskeder/",
-                label: "Se alle afskeder",
-              },
-              {
-                title: "Hvad koster en begravelse i 2026?",
-                excerpt: "Mange er overraskede over, hvad en begravelse egentlig koster. Her er en ærlig gennemgang af, hvad der påvirker prisen — og hvad du kan forvente at betale.",
-                href: "/hvad-koster-en-begravelse/",
-                label: "Læs om priser",
-              },
-            ].map((article) => (
-              <div
-                key={article.title}
-                style={{
-                  background: "#fff",
-                  padding: "32px 28px",
-                  borderRadius: "3px",
-                  border: "1px solid #e0dcd6",
-                  display: "flex",
-                  flexDirection: "column",
-                }}
-              >
-                <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "18px", color: "#2F3E46", marginBottom: "12px", marginTop: 0, lineHeight: 1.4 }}>{article.title}</h3>
-                <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", lineHeight: 1.7, color: "#3d4f5a", marginBottom: "20px", flex: 1 }}>{article.excerpt}</p>
-                <a
-                  href={article.href}
-                  style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "14px", alignSelf: "flex-start" }}
-                >
-                  {article.label} →
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ══════════════════════════════════════════════════════
           SECTION 8: FOOTER & CTA

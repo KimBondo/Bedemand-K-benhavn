@@ -114,6 +114,8 @@ const INACTIVE: React.CSSProperties = {
 export default function KimNav() {
   const [location] = useLocation();
   const [open, setOpen] = useState(false);
+  // Mobilmenuen åbner mod højre, når knappen sidder i venstre side (smalle skærme), så den ikke klippes
+  const [aabnMod, setAabnMod] = useState<"venstre" | "hoejre">("venstre");
 
   function isActive(href: string, exact?: boolean, hash?: boolean) {
     if (hash) return false;
@@ -261,7 +263,11 @@ export default function KimNav() {
       <div className="kimnav-mobile-menu" style={{ position: "relative" }}>
         <button
           className="kimnav-hamburger"
-          onClick={() => setOpen((v) => !v)}
+          onClick={(e) => {
+            const r = e.currentTarget.getBoundingClientRect();
+            setAabnMod(r.left + 240 > window.innerWidth ? "venstre" : "hoejre");
+            setOpen((v) => !v);
+          }}
           aria-label={open ? "Luk menu" : "Åbn menu"}
           aria-expanded={open}
         >
@@ -286,9 +292,10 @@ export default function KimNav() {
             style={{
               position: "absolute",
               top: "calc(100% + 8px)",
-              right: 0,
-              left: "auto",
+              right: aabnMod === "venstre" ? 0 : "auto",
+              left: aabnMod === "hoejre" ? 0 : "auto",
               minWidth: "220px",
+              maxWidth: "calc(100vw - 32px)",
               background: "#F9F8F6",
               border: "1px solid #e0dcd6",
               borderRadius: "4px",
@@ -359,7 +366,7 @@ export default function KimNav() {
                 display: "block",
               }}
             >
-              📞 Ring: 28 14 60 11
+              📞 Ring til mig på 28 14 60 11
             </a>
           </div>
         )}

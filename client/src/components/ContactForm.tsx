@@ -48,17 +48,19 @@ function pushEvent(event: string, params?: Record<string, unknown>) {
 // ── Component ────────────────────────────────────────────────────────────────
 interface ContactFormProps {
   variant?: "default" | "priser";
+  /** Forudfyldt besked (fx overslaget fra prisberegneren). Sendes aldrig automatisk. */
+  initialMessage?: string;
 }
 
 type Status = "idle" | "sending" | "sent" | "mailto" | "error";
 
-export default function ContactForm({ variant = "default" }: ContactFormProps) {
+export default function ContactForm({ variant = "default", initialMessage = "" }: ContactFormProps) {
   const [status, setStatus] = useState<Status>("idle");
   const [form, setForm] = useState({
     name: "",
     phone: "",
     email: "",
-    message: "",
+    message: initialMessage,
     timing: "",
     // Honeypot — udfyldes kun af bots
     botcheck: "",

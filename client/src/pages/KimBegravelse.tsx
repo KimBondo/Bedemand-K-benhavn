@@ -139,7 +139,7 @@ export default function KimBegravelse() {
           Den væsentligste forskel på en begravelse og en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at ved en begravelse forbliver kisten intakt i jorden, mens afdøde ved en bisættelse kremeres og asken samles i en urne.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          En begravelse kan foregå med kirkelig ceremoni, borgerlig ceremoni eller <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a>. Jeg hjælper jer med at finde den form, der passer til afdødes og familiens ønsker.
+          En begravelse kan holdes med en kirkelig eller en borgerlig afsked. Jeg hjælper jer med at finde den form, der passer til afdødes og familiens ønsker. En afsked helt uden ceremoni er altid en kremering og derfor ikke en begravelse.
         </p>
       </section>
 
