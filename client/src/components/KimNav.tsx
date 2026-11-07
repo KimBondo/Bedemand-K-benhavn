@@ -366,7 +366,7 @@ export default function KimNav() {
                 display: "block",
               }}
             >
-              📞 Ring: 28 14 60 11
+              📞 Ring til mig på 28 14 60 11
             </a>
           </div>
         )}
