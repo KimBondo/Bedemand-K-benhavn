@@ -351,7 +351,7 @@ export default function KimHvadKoster() {
           <p style={s.label}>Del 3 — Ceremonistedet</p>
           <h2 style={s.h2}>Kapelleje og musikudgifter</h2>
           <p style={s.body}>
-            Holdes afskeden i en af folkekirkens kirker, er der som udgangspunkt ingen leje for kirkens medlemmer. Spørg kirkekontoret, om der er udgifter til fx ekstra musik. Holdes afskeden i et kommunalt kapel, betales der leje og eventuelt musik efter kommunens takster. Taksterne herunder gælder kommunernes kapeller – ikke sognekirkerne.
+            Holdes afskeden i en af folkekirkens kirker, er der som udgangspunkt ingen leje for kirkens medlemmer. Holdes afskeden i et kommunalt kapel, betales der leje og eventuelt musik efter kommunens takster. Taksterne herunder gælder kommunernes kapeller – ikke sognekirkerne.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "32px", marginTop: "8px" }}>
             <div>
@@ -535,7 +535,7 @@ export default function KimHvadKoster() {
 
           <div style={{ background: "#F9F8F6", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "20px 24px" }}>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d4f5a", lineHeight: 1.75, margin: 0 }}>
-              Begravelseshjælpen afhænger af formuen – både afdødes og en eventuel ægtefælles – og det er Udbetaling Danmark, der træffer afgørelsen. Jeg søger hjælpen for jer, og den trækkes fra fakturaen, så I ikke skal lægge pengene ud. Eventuelle udgifter til musik i kirken er ikke med i eksemplet – spørg kirkekontoret. Vælger I den enkleste gravplads, f.eks. et fællesgravsted, bliver prisen lavere. Det er bare et eksempel, og jeg gennemgår altid jeres egne tal med jer, før I beslutter noget. Der kommer ingen overraskelser på fakturaen.
+              Begravelseshjælpen afhænger af formuen – både afdødes og en eventuel ægtefælles – og det er Udbetaling Danmark, der træffer afgørelsen. Jeg søger hjælpen for jer, og den trækkes fra fakturaen, så I ikke skal lægge pengene ud. Vælger I den enkleste gravplads, f.eks. et fællesgravsted, bliver prisen lavere. Det er bare et eksempel, og jeg gennemgår altid jeres egne tal med jer, før I beslutter noget. Der kommer ingen overraskelser på fakturaen.
             </p>
             <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", lineHeight: 1.75, margin: "10px 0 0" }}>
               Vil I regne på jeres egne valg? <a href="/prisberegner/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Prøv prisberegneren</a>.
