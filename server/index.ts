@@ -70,8 +70,8 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Jeg dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring til mig på 28 14 60 11.",
   },
   "/hvad-koster-en-begravelse": {
-    title: "Hvad koster en begravelse? Komplet guide 2026 – Kim Bondo",
-    description: "Komplet guide til hvad en begravelse eller bisættelse koster i 2026. Kremering, gravsted, kapelleje og begravelseshjælp – alle priser samlet.",
+    title: "Hvad koster en begravelse i 2026? – Kim Bondo",
+    description: "Hvad koster en begravelse eller bisættelse? Se mine priser, hvad der kommer oveni, og hvordan jeg søger begravelseshjælp for jer. Ring til mig på 28 14 60 11.",
   },
   "/helsingor": {
     title: "Bedemand Helsingør – Kim Bondo | Personlig hjælp i Helsingør",
