@@ -136,9 +136,6 @@ export default function KimPersondatapolitik() {
           <p style={s.body}>
             I Danmark gælder databeskyttelsesreglerne som udgangspunkt også for oplysninger om afdøde i 10 år efter dødsfaldet. Jeg behandler oplysninger om afdøde og pårørende med omhu og fortrolighed.
           </p>
-          <p style={{ ...s.body, fontSize: "15px", color: "#7a8f99" }}>
-            Kilde: Datatilsynet – regler om oplysninger om afdøde, jf. databeskyttelseslovens § 2, stk. 5.
-          </p>
         </div>
       </section>
 
