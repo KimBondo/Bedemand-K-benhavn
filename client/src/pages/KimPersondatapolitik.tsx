@@ -134,7 +134,10 @@ export default function KimPersondatapolitik() {
 
           <h3 style={s.h3}>Oplysninger om afdøde</h3>
           <p style={s.body}>
-            Databeskyttelsesforordningen gælder ikke for afdøde personer. Men oplysninger om afdøde kan samtidig sige noget om jer, der er tilbage, og jeg behandler dem derfor med samme omhu som alt andet.
+            I Danmark gælder databeskyttelsesreglerne som udgangspunkt også for oplysninger om afdøde i 10 år efter dødsfaldet. Jeg behandler oplysninger om afdøde og pårørende med omhu og fortrolighed.
+          </p>
+          <p style={{ ...s.body, fontSize: "15px", color: "#7a8f99" }}>
+            Kilde: Datatilsynet – regler om oplysninger om afdøde, jf. databeskyttelseslovens § 2, stk. 5.
           </p>
         </div>
       </section>
@@ -262,7 +265,7 @@ export default function KimPersondatapolitik() {
             Ændrer jeg noget i den måde, oplysninger behandles på, opdaterer jeg denne side. Datoen nedenfor viser, hvornår den sidst blev ændret.
           </p>
           <p style={{ ...s.body, fontStyle: "italic", color: "#7a8f99", marginBottom: 0 }}>
-            Senest opdateret 17. oktober 2026.
+            Senest opdateret 8. november 2026.
           </p>
         </div>
       </section>
