@@ -124,7 +124,7 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Kan vi få begravelseshjælp?</h2>
           <p style={s.body}>
-            I 2026 kan voksne få op til 13.550 kr. i offentlig begravelseshjælp. Beløbet afhænger blandt andet af afdødes og en eventuel ægtefælles formue.
+            I 2026 kan voksne få op til 13.550 kr. i offentlig begravelseshjælp. Beløbet afhænger blandt andet af afdødes og en eventuel ægtefælles formue. Var afdøde født før 1. april 1957 og havde ret til dansk sygesikring, er begravelseshjælpen mindst 1.050 kr., uanset formue.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
             Jeg sørger for ansøgningen om begravelseshjælp for jer. Det er Udbetaling Danmark, der afgør, hvor meget I kan få. Derfor viser jeg prisen før støtte og hjælpen særskilt.
