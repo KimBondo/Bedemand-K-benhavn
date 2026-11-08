@@ -25,8 +25,8 @@ export default function KimHvadKoster() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Hvad koster en begravelse i 2026? Alle udgifter samlet"
-        description="Alle udgifter ved en afsked i 2026: bedemand, kremering, gravsted, kapelleje og begravelseshjælp — med officielle takster for København og Nordsjælland."
+        title="Hvad koster en begravelse i 2026? – Kim Bondo"
+        description="Hvad koster en begravelse eller bisættelse? Se mine priser, hvad der kommer oveni, og hvordan jeg søger begravelseshjælp for jer. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -98,7 +98,7 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Mine priser</h2>
           <ul style={{ margin: "0 0 20px", paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Afsked uden ceremoni: fra 13.550 kr.</li>
+            <li>Afsked uden ceremoni: fast pris 13.550 kr.</li>
             <li>Bisættelse: fra 18.300 kr.</li>
             <li>Begravelse: fra 19.300 kr.</li>
           </ul>
@@ -127,7 +127,7 @@ export default function KimHvadKoster() {
             I 2026 kan voksne få op til 13.550 kr. i offentlig begravelseshjælp. Beløbet afhænger blandt andet af afdødes og en eventuel ægtefælles formue.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Jeg hjælper med ansøgningen. Det er Udbetaling Danmark, der afgør, hvor meget I kan få. Derfor viser jeg prisen før støtte og hjælpen særskilt.
+            Jeg sørger for ansøgningen og laver den for jer. Det er Udbetaling Danmark, der afgør, hvor meget I kan få. Derfor viser jeg prisen før støtte og hjælpen særskilt.
           </p>
         </div>
       </section>

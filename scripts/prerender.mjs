@@ -138,8 +138,8 @@ const ROUTE_META = {
     description: "Hvad skal du g\u00f8re, n\u00e5r en n\u00e6rtst\u00e5ende d\u00f8r? Min trin-for-trin huskeliste hj\u00e6lper dig i den sv\u00e6re tid. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hvad-koster-en-begravelse": {
-    title: "Hvad koster en begravelse i 2026? Alle udgifter samlet",
-    description: "Alle udgifter ved en afsked i 2026: bedemand, kremering, gravsted, kapelleje og begravelseshj\u00e6lp \u2014 med officielle takster for K\u00f8benhavn og Nordsj\u00e6lland.",
+    title: "Hvad koster en begravelse i 2026? \u2013 Kim Bondo",
+    description: "Hvad koster en begravelse eller bis\u00e6ttelse? Se mine priser, hvad der kommer oveni, og hvordan jeg s\u00f8ger begravelseshj\u00e6lp for jer. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked \u2013 Bedemand Kim Bondo",
