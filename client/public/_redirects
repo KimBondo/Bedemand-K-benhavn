@@ -2,7 +2,12 @@
 # /afsked/ findes ikke – den gamle side svarer til /afsked-uden-ceremoni/ (skal stå før reglen med *)
 /kim-bondo/afsked/    /afsked-uden-ceremoni/    301
 /kim-bondo/afsked     /afsked-uden-ceremoni/    301
-/kim-bondo/*    /:splat    301
+# Stavefejl fra gammel adresse (Search Console, 404)
+/kim-bondo/helsinger/  /helsingor/  301
+/kim-bondo/helsinger   /helsingor/  301
+/kim-bondo/     /           301
+/kim-bondo/*/   /:splat/    301
+/kim-bondo/*    /:splat/    301
 /kim-bondo      /          301
 
 # /kobenhavn/ er lagt sammen med forsiden (27-09-2026). Sidefilen er fjernet,
