@@ -62,7 +62,8 @@ const ADDONS = [
   // Blomsterkørsel: når blomsterne skal flyttes fra kirken til kirkegården eller en anden kirkegård, og kirken ikke sørger for det
   { id: "blomsterkoersel", label: "Blomsterkørsel og udlægning på kirkegård", price: 900, note: "Når blomsterne skal flyttes fra kirken til kirkegården eller en anden kirkegård, og kirken ikke sørger for det." },
   { id: "privat-hjem", label: "Afhentning i et privat hjem", price: 1200 },
-  { id: "efter-16", label: "Afhentning efter kl. 16, i weekenden eller på en helligdag", price: 800 },
+  // Tillæg pr. udkald uden for normal arbejdstid (kun kørsel har tillæg) – kan vælges flere gange
+  { id: "efter-16", label: "Kørsel efter kl. 16, i weekenden eller på en helligdag", price: 800, quantity: true, note: "800 kr. pr. udkald – fx en afhentning om aftenen eller en bisættelse om lørdagen. Der er kun tillæg på kørslen. Vælg antallet af udkald." },
 ] as const;
 
 const BASE_TITLER: Record<Base, string> = { uden: "Afsked uden ceremoni", bisaettelse: "Bisættelse", begravelse: "Begravelse" };
