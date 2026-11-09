@@ -325,9 +325,11 @@ export default function KimPrisberegner() {
                   Pakken har tre rustvognskørsler. Bliver der brug for færre, trækkes 1.595 kr. fra pr. kørsel. Det afhænger af forløbet – fx skal alle tre kørsler bruges i weekenden, hvor hospitalernes kapeller er lukket – så det aftaler vi, når forløbet er kendt.
                 </p>
               )}
-              <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
-                Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget på 800 kr.
-              </p>
+              {!!addons["efter-16"] && (
+                <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
+                  Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget på 800 kr.
+                </p>
+              )}
               <p style={{ ...s.body, fontSize: "15px", marginTop: "24px", fontStyle: "italic" }}>
                 Der ligger meget koordinering og planlægning bag en afsked. Jeg sørger for, at I ikke selv skal holde styr på tider, kontakter og praktiske detaljer. I taler med mig hele vejen.
               </p>
