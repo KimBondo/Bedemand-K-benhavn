@@ -303,7 +303,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Aften, weekend og helligdage</h2>
           <p style={s.body}>
-            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Det koster mig mere, og derfor er der et fast tillæg på 800 kr. pr. udkald – altså pr. gang, jeg rykker ud uden for normal arbejdstid, uanset hvor mange kørsler der indgår. Tillægget gælder efter kl. 16 på hverdage samt i weekender og på helligdage. Falder afhentningen og den første kørsel uden for arbejdstiden, er tillægget altså 800 kr. i alt.
+            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Derfor er der et tillæg på 800 kr. pr. udkald, når der køres efter kl. 16 på hverdage, i weekender og på helligdage – fx en afhentning om aftenen eller en bisættelse om lørdagen. Tillægget gælder kun kørslen. Der er ikke tillæg på andet.
           </p>
           <p style={s.body}>
             Det står her, så I kan regne det ud selv.

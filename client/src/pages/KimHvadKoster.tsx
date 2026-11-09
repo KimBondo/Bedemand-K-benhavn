@@ -122,6 +122,18 @@ export default function KimHvadKoster() {
 
       <section style={{ background: "#fff", padding: "56px 24px" }}>
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Kørsel</h2>
+          <p style={s.body}>
+            Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område er der intet loft.
+          </p>
+          <p style={{ ...s.body, marginBottom: 0 }}>
+            Pakkerne med ceremoni har tre kørsler. Bliver der brug for færre, trækkes 1.595 kr. fra for hver kørsel, der ikke bliver brugt.
+          </p>
+        </div>
+      </section>
+
+      <section style={{ background: "#F9F8F6", padding: "56px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Kan vi få begravelseshjælp?</h2>
           <p style={s.body}>
             I 2026 kan voksne få op til 13.550 kr. i offentlig begravelseshjælp. Beløbet afhænger blandt andet af afdødes og en eventuel ægtefælles formue. Var afdøde født før 1. april 1957 og havde ret til dansk sygesikring, er begravelseshjælpen mindst 1.050 kr., uanset formue.
