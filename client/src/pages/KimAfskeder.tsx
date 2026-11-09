@@ -133,7 +133,7 @@ export default function KimAfskeder() {
             {
               title: "Askespredning",
               tag: "Naturlig",
-              desc: "Askespredning over havet er en fri og naturlig afsked. Asken spredes over åbent hav i stedet for at blive stedfæstet på en kirkegård. En smuk og symbolsk afsked for dem, der elsker havet.",
+              desc: "Askespredning over havet er en fri og naturlig afsked. Asken spredes over åbent hav i stedet for at blive stedfæstet på en kirkegård.",
               details: ["Tilvalg til bisættelse eller afsked uden ceremoni", "Asken spredes over åbent hav", "Kan kombineres med ceremoni", "Grundforløb fra 13.550 kr."],
               href: "/askespredning/",
               linkText: "Læs om askespredning",
@@ -149,7 +149,7 @@ export default function KimAfskeder() {
             {
               title: "Borgerlig afsked",
               tag: "Personlig",
-              desc: "En ceremoni uden religiøse ritualer, tilpasset præcis som I ønsker det. Kan holdes i kapel, hjemme eller et sted med særlig betydning. Familien bestemmer musik, taler og indhold.",
+              desc: "En ceremoni uden religiøse ritualer, tilpasset jeres ønsker. Kan holdes i kapel, hjemme eller et sted med særlig betydning. Familien bestemmer musik, taler og indhold.",
               details: ["Ingen religiøse ritualer", "Frit valg af musik og taler", "Kapel, hjemme eller andet sted", "Kan afsluttes med begravelse, bisættelse eller askespredning"],
               href: "/borgerlig-afsked/",
               linkText: "Læs om borgerlig afsked",
@@ -212,10 +212,10 @@ export default function KimAfskeder() {
           Usikker på, hvad I skal vælge?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Det er helt normalt at være usikker. Mange familier har aldrig stået i denne situation før, og der er mange valg at tage i en svær tid. Jeg er her for at hjælpe jer – ikke til at sælge jer noget, men til at lytte og rådgive.
+          Det er helt normalt at være usikker. Mange familier har aldrig stået i denne situation før, og der er mange valg at tage i en svær tid. Jeg er her for at lytte og rådgive.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "40px" }}>
-          Ring til mig, skriv en besked, eller kig på <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>prissiden</a> for at få et overblik over, hvad de forskellige afskeder koster. Jeg gennemgår altid alle udgifter med jer på forhånd.
+          Ring til mig, skriv en besked, eller kig på <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>prissiden</a> for at få et overblik over, hvad de forskellige afskeder koster. Jeg gennemgår alle udgifter med jer på forhånd.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>

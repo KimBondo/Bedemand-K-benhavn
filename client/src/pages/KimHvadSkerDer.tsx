@@ -17,8 +17,8 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvad skal man gøre først, når nogen dør?", answer: "Kontakt en læge, som konstaterer dødsfaldet og udsteder dødsattest. Derefter kan bedemanden kontaktes. Jeg hjælper med anmeldelse til myndighederne og den videre planlægning." },
-  { question: "Hvem anmelder dødsfaldet?", answer: "Bedemanden anmelder dødsfaldet til hjemsognet. Jeg sørger for det som en del af arbejdet, så de pårørende ikke selv skal kontakte myndighederne." },
+  { question: "Hvad skal man gøre først, når nogen dør?", answer: "Kontakt en læge, som konstaterer dødsfaldet og udsteder dødsattest. Derefter kan bedemanden kontaktes. Jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
+  { question: "Hvem sender anmodningen om begravelse eller ligbrænding?", answer: "Lægen udsteder dødsattesten. Derefter skal der sendes en anmodning om begravelse eller ligbrænding til afdødes bopælssogn. Det gør jeg for jer med en fuldmagt, så I ikke selv skal kontakte myndighederne." },
   { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig starter en afsked uden ceremoni ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
   { question: "Kan man få begravelseshjælp?", answer: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med at ansøge om den." },
 ];
@@ -28,7 +28,7 @@ export default function KimHvadSkerDer() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Hvad sker der, når nogen dør? – Praktisk guide | Kim Bondo"
-        description="Oversigt over de første skridt ved dødsfald i København og Nordsjælland. Læge, dødsattest, anmeldelse, krematorium og priser. Ring til mig på 28 14 60 11."
+        description="De første skridt ved dødsfald: læge og dødsattest, anmodning om begravelse eller ligbrænding og priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/hvad-sker-der/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -72,7 +72,7 @@ export default function KimHvadSkerDer() {
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
           <h2 style={s.h2}>Hvad gør man, når nogen dør?</h2>
           <p style={s.body}>
-            Først skal en læge erklære dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>. Jeg står for dødsanmeldelsen til myndighederne, ansøger om begravelseshjælp og hjælper jer med resten i jeres eget tempo.
+            Først skal en læge erklære dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>. Jeg sender anmodningen om begravelse eller ligbrænding til sognet, ansøger om begravelseshjælp og hjælper jer med resten i jeres eget tempo.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>De første timer</h2>
           <p style={s.body}>
@@ -84,7 +84,7 @@ export default function KimHvadSkerDer() {
 
           <h2 style={s.h2}>Anmeldelse og koordinering</h2>
           <p style={s.body}>
-            Jeg anmelder dødsfaldet til hjemsognet og søger begravelseshjælp på jeres vegne. Jeg koordinerer med kirke eller kapel, krematorium og kirkegård, så I ikke selv skal holde styr på tider og kontakter.
+            Når lægen har udstedt dødsattesten, sender jeg anmodningen om begravelse eller ligbrænding til afdødes sogn og søger begravelseshjælp på jeres vegne. Jeg koordinerer med kirke eller kapel, krematorium og kirkegård, så I ikke selv skal holde styr på tider og kontakter.
           </p>
           <p style={s.body}>
             I vælger selv krematorium, og jeg hjælper med det praktiske. Ceremonien holdes stadig lokalt.
@@ -95,12 +95,12 @@ export default function KimHvadSkerDer() {
             De fleste vælger en bisættelse med ceremoni (fra 18.300 kr.) eller en begravelse i kiste (fra 19.300 kr.). En afsked uden ceremoni starter ved 13.550 kr. og svarer til den maksimale begravelseshjælp i 2026.
           </p>
           <p style={s.body}>
-            Jeg laver altid et præcist overslag sammen med jer, inden I beslutter noget. Oveni kommer udgifter til krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter.
+            Jeg laver et overslag sammen med jer, inden I beslutter noget. Oveni kommer udgifter til krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter.
           </p>
 
           <h2 style={s.h2}>Hvad jeg tager mig af</h2>
           <p style={s.body}>
-            Jeg står for dødsanmeldelse, kontakt til præst eller kirkekontor, booking af kapel eller kirke, transport, klargøring af afdøde, valg af kiste og urne, og koordinering med krematorium og kirkegård. I taler med mig hele vejen.
+            Jeg står for anmodningen om begravelse eller ligbrænding, kontakt til præst eller kirkekontor, booking af kapel eller kirke, transport, klargøring af afdøde, valg af kiste og urne, og koordinering med krematorium og kirkegård. I taler med mig hele vejen.
           </p>
 
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "28px", textAlign: "center", marginTop: "40px" }}>

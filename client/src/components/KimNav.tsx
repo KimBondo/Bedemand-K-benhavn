@@ -111,6 +111,12 @@ const INACTIVE: React.CSSProperties = {
   borderBottom: "2px solid transparent",
 };
 
+/** Genveje øverst i mobilmenuen */
+const MOBIL_GENVEJE = [
+  { href: "/hvad-sker-der/", label: "Hvad gør jeg først?" },
+  { href: "/prisberegner/", label: "Prisberegner – hvad koster det?" },
+];
+
 export default function KimNav() {
   const [location] = useLocation();
   const [open, setOpen] = useState(false);
@@ -305,8 +311,32 @@ export default function KimNav() {
               display: "flex",
               flexDirection: "column",
               gap: "0px",
+              maxHeight: "calc(100vh - 230px)",
+              overflowY: "auto",
             }}
           >
+            {/* Genveje øverst i mobilmenuen: det første, en familie har brug for */}
+            {MOBIL_GENVEJE.map(({ href, label }) => (
+              <a
+                key={href}
+                href={href}
+                onClick={() => setOpen(false)}
+                style={{
+                  fontFamily: "'Open Sans', sans-serif",
+                  fontWeight: 700,
+                  fontSize: "15px",
+                  color: "#2F3E46",
+                  background: isActive(href) ? "#dfe9e1" : "#EEF3EF",
+                  textDecoration: "none",
+                  letterSpacing: "0.02em",
+                  padding: "12px 20px",
+                  borderBottom: "1px solid #dfe6e0",
+                  display: "block",
+                }}
+              >
+                {label}
+              </a>
+            ))}
             {NAV_LINKS.map(({ href, label, exact, hash, sidst }) => (
               <Fragment key={href}>
               <a

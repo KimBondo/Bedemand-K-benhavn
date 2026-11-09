@@ -95,7 +95,7 @@ export default function KimPriser() {
     <div role="main" style={s.page}>
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
-        description="Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser samlet ét sted. Ingen skjulte gebyrer. Ring til mig på 28 14 60 11."
+        description="Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser og tillæg samlet ét sted. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/priser/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -157,7 +157,7 @@ export default function KimPriser() {
             Priser på bisættelse og begravelse
           </h1>
           <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
-            Prisgennemsigtighed er ikke et tilbud. Det er en ret.
+            Her står mine priser – og de udgifter, der ikke går til mig.
           </p>
           <KimPortraet align="left" mork />
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
@@ -190,13 +190,10 @@ export default function KimPriser() {
         <section style={{ paddingTop: "56px", marginBottom: "56px" }}>
           <h2 style={s.h2}>Derfor står priserne her</h2>
           <p style={s.body}>
-            Da jeg begyndte som bedemand, undrede jeg mig over én ting: hvorfor var det så svært at finde ud af, hvad en begravelse kostede?
-          </p>
-          <p style={s.body}>
-            Branchen har i årtier oplyst priser først ved det fysiske møde — på et tidspunkt, hvor pårørende er sårbare, pressede og sjældent i stand til at sammenligne. Det har jeg valgt at gøre anderledes.
+            Jeg vil gerne, at I kan se, hvad en afsked koster, før I ringer – i ro og i jeres eget tempo.
           </p>
           <p style={{ ...s.body, fontWeight: 600, color: "#2F3E46" }}>
-            Her står alt: mine priser, mine tillæg, og de udgifter jeg ikke selv bestemmer over. Jeg er ikke den billigste bedemand i København. Men jeg er den, der fortæller jer hele regnestykket, inden I beslutter jer.
+            Her står mine priser, mine tillæg og de udgifter, jeg ikke selv bestemmer over. Jeg regner det hele sammen med jer, inden I beslutter jer.
           </p>
         </section>
 
@@ -221,7 +218,7 @@ export default function KimPriser() {
             "Klargøring, påklædning og ilægning i kiste",
             "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet",
             "Kontakt til kordegn, præst, krematorium og kirkegård",
-            "Anmeldelse til afdødes sogn",
+            "Anmodning om begravelse eller ligbrænding til afdødes sogn",
             "Ansøgning om begravelseshjælp på jeres vegne",
             "Jeg er selv til stede ved højtideligheden",
           ]}
@@ -242,7 +239,7 @@ export default function KimPriser() {
             "Klargøring, påklædning og ilægning i kiste",
             "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til graven",
             "Kontakt til kordegn, præst og kirkegård",
-            "Anmeldelse til afdødes sogn",
+            "Anmodning om begravelse eller ligbrænding til afdødes sogn",
             "Ansøgning om begravelseshjælp på jeres vegne",
             "Jeg er selv til stede ved højtideligheden",
             "Udlægning af blomster på graven",
@@ -269,7 +266,7 @@ export default function KimPriser() {
               "Klargøring, påklædning og ilægning i kiste",
               "Rustvognskørsel til krematoriet",
               "Kontakt til kordegn, krematorium og kirkegård",
-              "Anmeldelse til afdødes sogn",
+              "Anmodning om begravelse eller ligbrænding til afdødes sogn",
               "Ansøgning om begravelseshjælp på jeres vegne",
             ].map((item, i) => (
               <li key={i} style={s.li}>{item}</li>
@@ -294,7 +291,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Pris på bisættelse – faste priser og den enkleste løsning</h2>
           <p style={s.body}>
-            Prisen på en bisættelse hos mig starter ved 18.300 kr., og begravelseshjælpen trækkes direkte fra fakturaen. Mange spørger efter den enkleste løsning. Jeg kan altid sammensætte en enkel og værdig afsked, f.eks. <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>afsked uden ceremoni</a> til 13.550 kr., og jeg gennemgår alle udgifter med jer, før I bestemmer noget.
+            Prisen på en bisættelse hos mig starter ved 18.300 kr., og begravelseshjælpen trækkes direkte fra fakturaen. Mange spørger efter den enkleste løsning. Jeg kan sammensætte en enkel afsked, f.eks. <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>afsked uden ceremoni</a> til 13.550 kr., og jeg gennemgår alle udgifter med jer, før I bestemmer noget.
           </p>
         </section>
 
@@ -309,10 +306,10 @@ export default function KimPriser() {
             Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Det koster mig mere, og derfor er der et fast tillæg på 800 kr. pr. udkald – altså pr. gang, jeg rykker ud uden for normal arbejdstid, uanset hvor mange kørsler der indgår. Tillægget gælder efter kl. 16 på hverdage samt i weekender og på helligdage. Falder afhentningen og den første kørsel uden for arbejdstiden, er tillægget altså 800 kr. i alt.
           </p>
           <p style={s.body}>
-            Det står her, fordi I skal kunne regne det ud selv — ikke opdage det på fakturaen.
+            Det står her, så I kan regne det ud selv.
           </p>
           <p style={s.body}>
-            Og en ting, som få ved: er der ikke noget, der haster, kan afdøde ofte blive, hvor vedkommende er, til næste morgen. Mange familier foretrækker det — der bliver tid til at sige farvel i ro. Så bortfalder tillægget. Det taler vi om, når I ringer.
+            Er der ikke noget, der haster, kan afdøde ofte blive, hvor vedkommende er, til næste morgen. Mange familier foretrækker det — der bliver tid til at sige farvel i ro. Så bortfalder tillægget. Det taler vi om, når I ringer.
           </p>
           <p style={s.body}>
             Afhentning i private hjem koster 1.200 kr. ekstra, fordi det kræver mere tid og altid to personer.
@@ -342,7 +339,7 @@ export default function KimPriser() {
             Dertil kommer erhvervelse af selve gravstedet, gravsten og eventuel vedligeholdelse. Bor I i en anden kommune, gælder andre takster — dem finder jeg for jer.
           </p>
           <p style={{ ...s.body, background: "#EAF2ED", borderLeft: "3px solid #3D6B4F", padding: "16px 20px", borderRadius: "2px" }}>
-            <strong>Læg mærke til én ting:</strong> en begravelse i kistegrav koster 5.856 kr. mere i gravning end en bisættelse i urnegrav. Det er der ingen, der fortæller på forhånd.
+            <strong>Læg mærke til én ting:</strong> en begravelse i kistegrav koster 5.856 kr. mere i gravning end en bisættelse i urnegrav.
           </p>
           <p style={s.body}>
             Jeg regner jeres konkrete tal sammen, inden I siger ja til noget. Og jeg søger begravelseshjælpen for jer — den modregnes direkte på fakturaen, så I ikke skal lægge ud.
@@ -398,9 +395,9 @@ export default function KimPriser() {
           ]} />
           <p style={{ ...s.small, fontStyle: "italic", marginBottom: "32px" }}>Fast tillæg på 800 kr. pr. udkald efter kl. 16 på hverdage samt i weekender og på helligdage.</p>
           <div style={{ background: "#f0f7f3", borderLeft: "3px solid #3D6B4F", borderRadius: "3px", padding: "24px 24px 8px", marginBottom: "32px" }}>
-            <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46" }}>Ingen skjulte km-penge – højst 2.000 kr. pr. kørsel</p>
+            <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46" }}>Kørsel – højst 2.000 kr. pr. kørsel</p>
             <p style={s.body}>
-              En kørsel med rustvognen koster 1.595 kr. inklusive de første 25 km. Kører vi længere, koster det 35 kr. pr. km – men aldrig mere end 2.000 kr. pr. kørsel, uanset hvor i København og Nordsjælland I bor. Så ved I på forhånd, hvad transporten højst kan koste, også hvis der er langt fra kirken til krematoriet eller kirkegården.
+              En kørsel med rustvognen koster 1.595 kr. inklusive de første 25 km. Kører vi længere, koster det 35 kr. pr. km – men højst 2.000 kr. pr. kørsel, uanset hvor i København og Nordsjælland I bor. Så ved I på forhånd, hvad transporten højst kan koste, også hvis der er langt fra kirken til krematoriet eller kirkegården.
             </p>
             <p style={s.body}>
               Uden for København og Nordsjælland – fx på resten af Sjælland, Fyn eller i Jylland – gælder samme pris på 1.595 kr. inkl. 25 km og derefter 35 kr. pr. km, men uden loft på 2.000 kr. Jeg regner prisen ud for jer, inden vi kører.
@@ -417,7 +414,7 @@ export default function KimPriser() {
             ["Ved afsked uden ceremoni", "3.500 kr."],
           ]} />
           <p style={{ ...s.body, marginBottom: "32px" }}>
-            Honoraret dækker al kontakt med jer gennem hele forløbet, alt papirarbejde — anmeldelse til hjemsogn og ansøgning om begravelseshjælp — samt koordinering med myndigheder, kirker, kapeller og krematorier.
+            Honoraret dækker al kontakt med jer gennem hele forløbet, alt papirarbejde — anmodning om begravelse eller ligbrænding og ansøgning om begravelseshjælp — samt koordinering med myndigheder, kirker, kapeller og krematorier.
           </p>
 
 
@@ -437,7 +434,7 @@ export default function KimPriser() {
             ["Askespredning over havet", "Fra 2.500 kr."],
           ]} />
           <p style={{ ...s.small, marginBottom: "32px" }}>
-            Inkluderer koordinering, tro-og-love-erklæring og det praktiske omkring spredningen.
+            Inkluderer koordinering, papirerne til sognet og det praktiske omkring spredningen.
           </p>
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Øvrige ydelser</h3>
@@ -468,7 +465,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Sangblade</h2>
           <p style={s.body}>
-            Mange ønsker at synge sange, der ikke fremgår af Den Danske Salmebog. Jeg hjælper med udarbejdelse af trykte sanghæfter, så de helt rigtige sange kan synges til ceremonien.
+            Mange ønsker at synge sange, der ikke fremgår af Den Danske Salmebog. Jeg hjælper med udarbejdelse af trykte sanghæfter, så de sange, I ønsker, kan synges til ceremonien.
           </p>
         </section>
 

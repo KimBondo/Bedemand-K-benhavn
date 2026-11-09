@@ -365,7 +365,7 @@ export default function KimBondo() {
             }}
           >
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
-            Du er også altid velkommen til at ringe direkte på{" "}
+            Du er også velkommen til at ringe på{" "}
             <a
               href="tel:+4528146011"
               style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}

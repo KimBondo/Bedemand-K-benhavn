@@ -21,9 +21,9 @@ const s = {
 };
 
 const FAQ = [
-  { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Herefter kan jeg kontaktes, og jeg hjælper med anmeldelse til myndighederne og den videre planlægning." },
+  { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Herefter kan jeg kontaktes, og jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
   { q: "Hvem har ansvaret for at planlægge begravelsen?", a: "Det er den person, der bestiller begravelsen, der har det juridiske ansvar for planlægningen og betalingen. Oftest er det den nærmeste pårørende." },
-  { q: "Hvad hjælper du med?", a: "Jeg hjælper med anmeldelse af dødsfaldet, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning — så I kan bruge energien på hinanden." },
+  { q: "Hvad hjælper du med?", a: "Jeg hjælper med anmodningen om begravelse eller ligbrænding, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning — så I kan bruge energien på hinanden." },
   { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen. Læs mere på siden om begravelseshjælp." },
 ];
 
@@ -32,7 +32,7 @@ export default function KimHuskeliste() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Huskeliste ved dødsfald – Bedemand Kim Bondo"
-        description="Hvad skal du gøre, når en nærtstående dør? Min trin-for-trin huskeliste hjælper dig i den svære tid. Ring til mig på 28 14 60 11."
+        description="Hvad skal I gøre, når en nærtstående dør? En huskeliste trin for trin – og hvad jeg hjælper med. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/huskeliste/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -123,9 +123,9 @@ export default function KimHuskeliste() {
             Der skal tages stilling til, hvordan afskeden skal foregå — og om der skal være en ceremoni. Skal det være en <a href="/kirkelig-afsked/" style={s.link}>kirkelig</a> eller <a href="/borgerlig-afsked/" style={s.link}>borgerlig</a> ceremoni, eller en <a href="/afsked-uden-ceremoni/" style={s.link}>afsked uden ceremoni</a>? Økonomi spiller også en rolle — se <a href="/priser/" style={s.link}>mine priser</a> for et realistisk overblik.
           </p>
 
-          <h3 style={s.h3}>Dødsanmeldelse til myndighederne</h3>
+          <h3 style={s.h3}>Anmodning om begravelse eller ligbrænding</h3>
           <p style={s.body}>
-            Dødsfaldet skal anmeldes til afdødes bopælssogn senest 2 hverdage efter dødsfaldet. Jeg hjælper med dette som en del af mit arbejde, så I ikke selv skal stå med det.
+            Lægen udsteder dødsattesten. Derefter skal der sendes en anmodning om begravelse eller ligbrænding til afdødes bopælssogn senest 2 hverdage efter dødsfaldet. Jeg hjælper med dette som en del af mit arbejde, så I ikke selv skal stå med det.
           </p>
 
           <h3 style={s.h3}>Mindesamvær</h3>
@@ -158,7 +158,7 @@ export default function KimHuskeliste() {
             ))}
           </ul>
           <p style={{ ...s.body, marginTop: "8px" }}>
-            I Danmark skal en begravelse eller bisættelse normalt finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Kirkegården eller krematoriet kan forlænge fristen til 14 dage, når afdøde opbevares på køl, og det er almindeligt i praksis. Jeg sørger for, at tidsplanen holder.{" "}
+            I Danmark skal en begravelse eller bisættelse normalt finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Kirkegården eller krematoriet kan forlænge fristen til 14 dage, når afdøde opbevares på køl, og det er almindeligt i praksis. Jeg holder øje med fristerne for jer.{" "}
             <a href="https://www.borger.dk/sundhed-og-sygdom/doedsfald--hospice-og-behandlingstestamente/Begravelse" target="_blank" rel="noopener noreferrer" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Læs reglerne på borger.dk</a>
           </p>
         </div>
@@ -177,7 +177,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Skifteretten</h3>
           <p style={s.body}>
-            Via dødsanmeldelsen får Skifteretten besked om dødsfaldet og vil kontakte den pårørende, der er anført som anmelder. I behøver normalt ikke foretage jer noget aktivt, før I bliver kontaktet — det sker typisk via Digital Post (e-Boks).
+            Når sognet har godkendt anmodningen om begravelse eller ligbrænding, får Skifteretten besked om dødsfaldet og kontakter den pårørende, der er anført som kontaktperson. I behøver normalt ikke foretage jer noget aktivt, før I bliver kontaktet — det sker typisk via Digital Post (e-Boks).
           </p>
 
           <h3 style={s.h3}>Bank og pengeinstitut</h3>
@@ -228,7 +228,7 @@ export default function KimHuskeliste() {
             Det er den person, der bestiller begravelsen, der hæfter for betalingen — ikke Skifteretten. Skifteretten sørger for, at udgifterne indgår i boet, så den, der har betalt, kan blive godtgjort.
           </p>
           <p style={s.body}>
-            Typiske udgifter der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser.
+            Typiske udgifter der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd.
           </p>
           <a href="/mindeord/" style={s.link}>Mindeord og tale ved begravelsen →</a>
         </div>
@@ -253,7 +253,7 @@ export default function KimHuskeliste() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <h2 style={s.h2}>Sorg og støtte efter afskeden</h2>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Sorgen holder ikke op, når afskeden er overstået. Har I brug for nogen at tale med, kan I finde viden og hjælp hos Det Nationale Sorgcenter på <a href="https://sorgcenter.dk/" target="_blank" rel="noopener" style={s.link}>sorgcenter.dk</a>. Mange sogne har også sorggrupper – spørg i jeres lokale kirke. I er altid velkomne til at ringe til mig, også længe efter.
+            Sorgen holder ikke op, når afskeden er overstået. Har I brug for nogen at tale med, kan I finde viden og hjælp hos Det Nationale Sorgcenter på <a href="https://sorgcenter.dk/" target="_blank" rel="noopener" style={s.link}>sorgcenter.dk</a>. Mange sogne har også sorggrupper – spørg i jeres lokale kirke. I er velkomne til at ringe til mig, også længe efter.
           </p>
         </div>
       </section>

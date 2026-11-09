@@ -39,7 +39,7 @@ export default function KimBegravelse() {
         faqItems={[
           { question: "Hvad er forskellen på begravelse og bisættelse?", answer: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni." },
           { question: "Kan man have en borgerlig begravelse?", answer: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation." },
-          { question: "Kan man vælge en miljøvenlig kiste?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer. En miljøvenlig kiste er et smukt valg for dem, der ønsker en afsked i harmoni med naturen." },
+          { question: "Kan man vælge en miljøvenlig kiste?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer." },
           { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/begravelse"
@@ -108,7 +108,7 @@ export default function KimBegravelse() {
           Begravelse – en traditionel afsked med kiste
         </h1>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
-          En begravelse er en af de ældste og mest betydningsfulde afskedsformer. Kisten sænkes i jorden på et gravsted, der bliver et varigt sted at mindes. Jeg hjælper jer med alt fra den første samtale til jordfæstelsen.
+          En begravelse er en af de ældste afskedsformer. Kisten sænkes i jorden på et gravsted, der bliver et varigt sted at mindes. Jeg hjælper jer med alt fra den første samtale til jordfæstelsen.
         </p>
         <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
@@ -133,7 +133,7 @@ export default function KimBegravelse() {
           Hvad er en begravelse?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          En begravelse er en afskedsform, hvor kisten med afdøde sænkes ned i jorden på et gravsted. Det er en tradition, der har eksisteret i århundreder, og som for mange familier giver en stærk og konkret fornemmelse af et sted at mindes og vende tilbage til.
+          En begravelse er en afskedsform, hvor kisten med afdøde sænkes ned i jorden på et gravsted. Det er en tradition, der har eksisteret i århundreder, og som for mange familier giver et konkret sted at mindes og vende tilbage til.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
           Den væsentligste forskel på en begravelse og en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at ved en begravelse forbliver kisten intakt i jorden, mens afdøde ved en bisættelse kremeres og asken samles i en urne.
@@ -215,7 +215,7 @@ export default function KimBegravelse() {
         {[
           { q: "Hvad er forskellen på begravelse og bisættelse?", a: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
           { q: "Kan man have en borgerlig begravelse?", a: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation.", link: null, linkText: null },
-          { q: "Kan man vælge en miljøvenlig kiste?", a: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer. En miljøvenlig kiste er et smukt valg for dem, der ønsker en afsked i harmoni med naturen.", link: null, linkText: null },
+          { q: "Kan man vælge en miljøvenlig kiste?", a: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer.", link: null, linkText: null },
           { q: "Hvad er inkluderet i prisen?", a: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud.", link: "/priser/", linkText: "Se den fulde prisliste" },
         ].map((item, i) => (
           <div key={i} style={{ borderTop: "1px solid #e0dcd6", paddingTop: "28px", paddingBottom: "28px" }}>

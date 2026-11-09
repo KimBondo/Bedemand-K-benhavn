@@ -227,7 +227,7 @@ export default function KimNordsjaelland() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse i Nordsjælland?</h2>
           <p style={s.body}>
-            Mine priser er faste og gennemsigtige — uanset om du er i Helsingør, Hillerød eller Hundested. Der er ingen skjulte gebyrer.
+            Mine priser er faste og gennemsigtige — uanset om du er i Helsingør, Hillerød eller Hundested.
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[

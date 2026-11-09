@@ -32,7 +32,7 @@ export default function KimBegravelseshjaelp() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Begravelseshjælp – søg tilskud, Kim Bondo"
-        description="Få hjælp til at søge begravelseshjælp fra det offentlige. Tilskud fra 1.050–13.550 kr. Jeg hjælper jer med ansøgningen. Ring til mig på 28 14 60 11."
+        description="Jeg sørger for ansøgningen om begravelseshjælp for jer. I 2026 er tilskuddet op til 13.550 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/begravelseshjaelp/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -186,13 +186,13 @@ export default function KimBegravelseshjaelp() {
         <div style={{ maxWidth: "760px", margin: "0 auto 32px", background: "#fff", border: "1px solid #e0dcd6", borderLeft: "4px solid #3D6B4F", borderRadius: "3px", padding: "24px 28px", textAlign: "left" }}>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "13px", letterSpacing: "0.10em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>Læs videre</p>
           <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(17px, 2vw, 20px)", color: "#2F3E46", marginBottom: "10px" }}>
-            Hvad koster en begravelse reelt — inkl. kremering og gravsted?
+            Hvad koster en begravelse i alt?
           </p>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, marginBottom: "16px" }}>
-            Begravelseshjælpen dækker en del af udgifterne — men hvad er de samlede udgifter? Se min komplette guide med officielle 2026-takster for kremering, gravsted, kapelleje og et realistisk priseksempel.
+            Begravelseshjælpen dækker en del af udgifterne — men hvad er de samlede udgifter? Se min korte prisvejledning om mine priser, og hvad der kommer oveni.
           </p>
           <a href="/hvad-koster-en-begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px" }}>
-            Se den komplette prisguide →
+            Se prisvejledningen →
           </a>
         </div>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
@@ -200,7 +200,7 @@ export default function KimBegravelseshjaelp() {
             { label: "Se priser", href: "/priser/" },
             { label: "Huskeliste ved dødsfald", href: "/huskeliste/" },
             { label: "Se alle afskeder", href: "/afskeder/" },
-            { label: "Hvad koster det reelt?", href: "/hvad-koster-en-begravelse/" },
+            { label: "Hvad koster det i alt?", href: "/hvad-koster-en-begravelse/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "#fff", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid #e0dcd6" }}>
               {link.label}

@@ -172,7 +172,7 @@ export default function KimOmraade() {
           <div style={{ background: "#F9F8F6", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6", marginTop: "48px" }}>
             <h3 style={{ ...s.h3, fontSize: "18px" }}>Ikke sikker på, om jeg dækker dit område?</h3>
             <p style={{ ...s.body, marginBottom: "16px" }}>
-              Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> — jeg finder altid en løsning. Bor afdøde eller familien <a href="/sjaelland/" style={s.link}>et andet sted på Sjælland</a>, hjælper jeg gerne med hele forløbet – på samme måde og til samme faste priser. Kørsel uden for København og Nordsjælland koster 35 kr. pr. km efter de første 25 km, uden loft.
+              Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> — så finder vi en løsning sammen. Bor afdøde eller familien <a href="/sjaelland/" style={s.link}>et andet sted på Sjælland</a>, hjælper jeg gerne med hele forløbet – på samme måde og til samme faste priser. Kørsel uden for København og Nordsjælland koster 35 kr. pr. km efter de første 25 km, uden loft.
             </p>
             <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none" }}>
               Kontakt mig
@@ -190,7 +190,7 @@ export default function KimOmraade() {
             Jeg er selvstændig bedemand og kender København og Nordsjælland godt — de lokale kirker, kapeller og kirkegårde. Det betyder, at jeg kan rådgive jer om de praktiske muligheder i jeres område og koordinere direkte med de rette instanser.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået. Ingen mellemled, ingen omstilling — bare direkte kontakt med mig.
+            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>

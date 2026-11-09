@@ -74,7 +74,7 @@ export default function KimTak() {
           <div style={{ marginTop: "48px", paddingTop: "32px", borderTop: "1px solid #e0dcd6" }}>
             <h3 style={s.h3}>Sorg og støtte efter afskeden</h3>
             <p style={{ ...s.body, marginBottom: 0 }}>
-              Sorgen holder ikke op, når afskeden er overstået. Har I brug for nogen at tale med, kan I finde viden og hjælp hos Det Nationale Sorgcenter på <a href="https://sorgcenter.dk/" target="_blank" rel="noopener" style={s.link}>sorgcenter.dk</a>. Mange sogne har også sorggrupper – spørg i jeres lokale kirke. I er altid velkomne til at ringe til mig, også længe efter.
+              Sorgen holder ikke op, når afskeden er overstået. Har I brug for nogen at tale med, kan I finde viden og hjælp hos Det Nationale Sorgcenter på <a href="https://sorgcenter.dk/" target="_blank" rel="noopener" style={s.link}>sorgcenter.dk</a>. Mange sogne har også sorggrupper – spørg i jeres lokale kirke. I er velkomne til at ringe til mig, også længe efter.
             </p>
           </div>
         </div>

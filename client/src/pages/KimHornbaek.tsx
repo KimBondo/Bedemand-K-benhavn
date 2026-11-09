@@ -18,7 +18,7 @@ export default function KimHornbaek() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Hornbæk – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Hornbæk og Hellebæk. Faste priser. Ring til mig på 28 14 60 11."
+        description="Personlig bedemand i Hornbæk. Hornbæk Kirke og de to kirkegårde. Faste priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/hornbaek/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

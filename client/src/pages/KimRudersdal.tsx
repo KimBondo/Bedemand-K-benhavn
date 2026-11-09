@@ -25,7 +25,7 @@ export default function KimRudersdal() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Rudersdal – Birkerød, Holte, Nærum, Vedbæk"
-        description="Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11."
+        description="Personlig bedemand i Birkerød, Holte, Nærum og Vedbæk. Rudersdals fem kirkegårde er kommunale. Faste priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/rudersdal/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
