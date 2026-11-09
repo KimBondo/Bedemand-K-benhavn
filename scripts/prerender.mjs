@@ -87,7 +87,7 @@ const ROUTE_META = {
   },
   "/askespredning": {
     title: "Askespredning \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Askespredning over \u00e5bent hav. Jeg hj\u00e6lper med tro og love-erkl\u00e6ring, papirer og det praktiske. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Askespredning over \u00e5bent hav, n\u00e5r afd\u00f8de har \u00f8nsket det. Jeg hj\u00e6lper med papirerne til sognet og det praktiske. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/begravelse": {
     title: "Begravelse i K\u00f8benhavn \u2013 Bedemand Kim Bondo",
@@ -167,7 +167,7 @@ const ROUTE_META = {
   },
   "/osterbro": {
     title: "Bedemand \u00d8sterbro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 \u00d8sterbro. Kirkerne i bydelen og kirkeg\u00e5rdene t\u00e6t p\u00e5. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand p\u00e5 \u00d8sterbro. Holmens og Garnisons Kirkeg\u00e5rd ligger i bydelen. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/fredensborg": {
     title: "Bedemand Fredensborg \u2013 Kim Bondo, d\u00f8gnet rundt",

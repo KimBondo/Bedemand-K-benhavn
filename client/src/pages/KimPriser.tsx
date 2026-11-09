@@ -190,13 +190,10 @@ export default function KimPriser() {
         <section style={{ paddingTop: "56px", marginBottom: "56px" }}>
           <h2 style={s.h2}>Derfor står priserne her</h2>
           <p style={s.body}>
-            Da jeg begyndte som bedemand, undrede jeg mig over én ting: hvorfor var det så svært at finde ud af, hvad en begravelse kostede?
-          </p>
-          <p style={s.body}>
-            Branchen har i årtier oplyst priser først ved det fysiske møde — på et tidspunkt, hvor pårørende er sårbare, pressede og sjældent i stand til at sammenligne. Det har jeg valgt at gøre anderledes.
+            Jeg vil gerne, at I kan se, hvad en afsked koster, før I ringer – i ro og i jeres eget tempo.
           </p>
           <p style={{ ...s.body, fontWeight: 600, color: "#2F3E46" }}>
-            Her står alt: mine priser, mine tillæg, og de udgifter jeg ikke selv bestemmer over. Jeg er ikke den billigste bedemand i København. Men jeg er den, der fortæller jer hele regnestykket, inden I beslutter jer.
+            Her står mine priser, mine tillæg og de udgifter, jeg ikke selv bestemmer over. Jeg regner det hele sammen med jer, inden I beslutter jer.
           </p>
         </section>
 
@@ -437,7 +434,7 @@ export default function KimPriser() {
             ["Askespredning over havet", "Fra 2.500 kr."],
           ]} />
           <p style={{ ...s.small, marginBottom: "32px" }}>
-            Inkluderer koordinering, tro-og-love-erklæring og det praktiske omkring spredningen.
+            Inkluderer koordinering, papirerne til sognet og det praktiske omkring spredningen.
           </p>
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Øvrige ydelser</h3>

@@ -123,7 +123,7 @@ export default function KimMinSidsteVilje() {
 
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Ønsker om askespredning</h3>
           <p style={s.body}>
-            Askespredning over havet forudsætter, at afdøde selv har ønsket det. Står ønsket på skrift, bliver det lettere for de pårørende, når de senere skal bekræfte det i tro og love-erklæringen. <a href="/askespredning/" style={s.link}>Læs mere om askespredning</a>
+            Asken kan spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Står ønsket på skrift, bliver det nemmere for de pårørende – ellers skal sognet vurdere, om det er helt sikkert, at det var afdødes ønske. <a href="/askespredning/" style={s.link}>Læs mere om askespredning</a>
           </p>
 
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Det sker der bagefter</h3>

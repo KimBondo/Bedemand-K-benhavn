@@ -43,7 +43,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/askespredning": {
     title: "Askespredning i Danmark – Bedemand Kim Bondo",
-    description: "Askespredning over åbent hav. Jeg hjælper med tro og love-erklæring, papirer og det praktiske. Ring til mig på 28 14 60 11.",
+    description: "Askespredning over åbent hav, når afdøde har ønsket det. Jeg hjælper med papirerne til sognet og det praktiske. Ring til mig på 28 14 60 11.",
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked – Bedemand Kim Bondo",
@@ -119,7 +119,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/osterbro": {
     title: "Bedemand Østerbro – Kim Bondo | Personlig hjælp på Østerbro",
-    description: "Personlig bedemand på Østerbro. Kirkerne i bydelen og kirkegårdene tæt på. Faste priser. Ring til mig på 28 14 60 11.",
+    description: "Personlig bedemand på Østerbro. Holmens og Garnisons Kirkegård ligger i bydelen. Faste priser. Ring til mig på 28 14 60 11.",
   },
   "/norrebro": {
     title: "Bedemand Nørrebro – Kim Bondo | Personlig hjælp på Nørrebro",
