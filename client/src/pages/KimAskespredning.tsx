@@ -20,8 +20,8 @@ export default function KimAskespredning() {
       }}
     >
       <SEO
-        title="Askespredning – Bedemand Kim Bondo, København"
-        description="Askespredning over åbent hav, når afdøde har ønsket det. Jeg hjælper med papirerne til sognet og det praktiske. Ring til mig på 28 14 60 11."
+        title="Må man sprede aske over havet? Regler – Kim Bondo"
+        description="Ja, asken må spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Ellers kan sognet give dispensation. Se reglerne. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/askespredning/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

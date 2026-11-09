@@ -71,7 +71,7 @@ const ROUTES = [
 const ROUTE_META = {
   "/": {
     title: "Bedemand K\u00f8benhavn \u2013 Kim Bondo, personlig bedemand d\u00f8gnet rundt",
-    description: "Personlig bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 18.300 kr. og begravelse fra 19.300 kr. \u2013 jeg f\u00f8lger jer hele vejen. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/afsked-uden-ceremoni": {
     title: "Afsked uden ceremoni \u2013 Bedemand Kim Bondo",
@@ -83,11 +83,11 @@ const ROUTE_META = {
   },
   "/amager": {
     title: "Bedemand Amager \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 Amager, i T\u00e5rnby og Drag\u00f8r. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bedemand p\u00e5 Amager \u2013 i Kastrup, T\u00e5rnby og Drag\u00f8r. Personlig hj\u00e6lp til bis\u00e6ttelse og begravelse og faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/askespredning": {
-    title: "Askespredning \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Askespredning over \u00e5bent hav, n\u00e5r afd\u00f8de har \u00f8nsket det. Jeg hj\u00e6lper med papirerne til sognet og det praktiske. Ring til mig p\u00e5 28 14 60 11.",
+    title: "M\u00e5 man sprede aske over havet? Regler \u2013 Kim Bondo",
+    description: "Ja, asken m\u00e5 spredes over \u00e5bent hav, hvis afd\u00f8de skriftligt har \u00f8nsket det. Ellers kan sognet give dispensation. Se reglerne. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/begravelse": {
     title: "Begravelse i K\u00f8benhavn \u2013 Bedemand Kim Bondo",
@@ -138,8 +138,8 @@ const ROUTE_META = {
     description: "Hvad skal I g\u00f8re, n\u00e5r en n\u00e6rtst\u00e5ende d\u00f8r? En huskeliste trin for trin \u2013 og hvad jeg hj\u00e6lper med. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hvad-koster-en-begravelse": {
-    title: "Hvad koster en begravelse i 2026? \u2013 Kim Bondo",
-    description: "Hvad koster en begravelse eller bis\u00e6ttelse? Se mine priser, hvad der kommer oveni, og hvordan jeg s\u00f8ger begravelseshj\u00e6lp for jer. Ring til mig p\u00e5 28 14 60 11.",
+    title: "Hvad koster en begravelse? Priser 2026 \u2013 Kim Bondo",
+    description: "En bis\u00e6ttelse koster hos mig fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I kan f\u00e5 begravelseshj\u00e6lp. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked \u2013 Bedemand Kim Bondo",
@@ -155,7 +155,7 @@ const ROUTE_META = {
   },
   "/norrebro": {
     title: "Bedemand N\u00f8rrebro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 N\u00f8rrebro. Assistens Kirkeg\u00e5rd ligger midt i bydelen. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bedemand p\u00e5 N\u00f8rrebro. Personlig hj\u00e6lp til bis\u00e6ttelse og begravelse \u2013 hjemme hos jer, i S\u00f8borg eller i telefonen. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/om-kim": {
     title: "Om Kim Bondo \u2013 Personlig bedemand, K\u00f8benhavn",
@@ -167,11 +167,11 @@ const ROUTE_META = {
   },
   "/osterbro": {
     title: "Bedemand \u00d8sterbro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 \u00d8sterbro. Holmens og Garnisons Kirkeg\u00e5rd ligger i bydelen. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bedemand p\u00e5 \u00d8sterbro. Holmens og Garnisons Kirkeg\u00e5rd ligger i bydelen. Personlig hj\u00e6lp hele vejen og faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/fredensborg": {
     title: "Bedemand Fredensborg \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Fredensborg, Humleb\u00e6k, Kokkedal og Niv\u00e5. Frit valg af kirkeg\u00e5rd i provstiet for folkekirkemedlemmer. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bedemand i Fredensborg, Humleb\u00e6k, Kokkedal og Niv\u00e5. Personlig hj\u00e6lp til bis\u00e6ttelse og begravelse og faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/rudersdal": {
     title: "Bedemand Rudersdal \u2013 Birker\u00f8d, Holte, N\u00e6rum, Vedb\u00e6k",
@@ -215,7 +215,7 @@ const ROUTE_META = {
   },
   "/priser": {
     title: "Priser \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser og till\u00e6g samlet \u00e9t sted. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Priser p\u00e5 bis\u00e6ttelse og begravelse i K\u00f8benhavn og Nordsj\u00e6lland: bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. og alle till\u00e6g. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/produkter": {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",

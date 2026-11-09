@@ -95,7 +95,7 @@ export default function KimPriser() {
     <div role="main" style={s.page}>
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
-        description="Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser og tillæg samlet ét sted. Ring til mig på 28 14 60 11."
+        description="Priser på bisættelse og begravelse i København og Nordsjælland: bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og alle tillæg. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/priser/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -154,7 +154,7 @@ export default function KimPriser() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <span style={{ ...s.label, color: "#A8C5A0" }}>Priser</span>
           <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(26px, 4vw, 42px)", color: "#ffffff", lineHeight: 1.2, marginBottom: "20px", marginTop: 0 }}>
-            Priser på bisættelse og begravelse
+            Priser på bisættelse og begravelse i København og Nordsjælland
           </h1>
           <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
             Her står mine priser – og de udgifter, der ikke går til mig.

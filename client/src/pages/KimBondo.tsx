@@ -48,7 +48,7 @@ export default function KimBondo() {
     >
       <SEO
         title="Bedemand København – Kim Bondo, personlig bedemand døgnet rundt"
-        description="Personlig bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring til mig på 28 14 60 11."
+        description="Bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr. og begravelse fra 19.300 kr. – jeg følger jer hele vejen. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -190,7 +190,7 @@ export default function KimBondo() {
               letterSpacing: "0.01em",
             }}
           >
-            Bedemand København – jeg tager selv telefonen, døgnet rundt
+            Bedemand i København og Nordsjælland – jeg tager selv telefonen, døgnet rundt
           </h1>
           <p
             style={{
@@ -326,6 +326,43 @@ export default function KimBondo() {
           </p>
           <p style={{ ...{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }, margin: "24px 0 0", fontWeight: 600, color: "#2F3E46" }}>
             Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>, og mærk efter, om jeg er den rette for jer.
+          </p>
+        </div>
+      </section>
+
+
+      {/* ── LOKALSIDER ── */}
+      <section style={{ background: "#ffffff", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(22px, 3vw, 30px)", color: "#2F3E46", margin: "0 0 16px" }}>
+            Bedemand i jeres område
+          </h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 20px" }}>
+            Jeg hjælper familier i hele København og Nordsjælland. På siderne for de enkelte områder kan I se kirker og kirkegårde tæt på jer.
+          </p>
+          <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", color: "#2F3E46", margin: "0 0 8px" }}>København</h3>
+          <ul style={{ margin: "0 0 24px", paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 2, color: "#3d5260" }}>
+              <li><a href="/amager/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Amager</a></li>
+              <li><a href="/frederiksberg/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Frederiksberg</a></li>
+              <li><a href="/norrebro/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Nørrebro</a></li>
+              <li><a href="/osterbro/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Østerbro</a></li>
+              <li><a href="/vesterbro/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Vesterbro</a></li>
+              <li><a href="/soborg/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Søborg og Gladsaxe</a></li>
+              <li><a href="/gentofte/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Gentofte</a></li>
+          </ul>
+          <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", color: "#2F3E46", margin: "0 0 8px" }}>Nordsjælland</h3>
+          <ul style={{ margin: "0 0 24px", paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 2, color: "#3d5260" }}>
+              <li><a href="/lyngby/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Lyngby</a></li>
+              <li><a href="/rudersdal/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Rudersdal</a></li>
+              <li><a href="/horsholm/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Hørsholm og Rungsted</a></li>
+              <li><a href="/fredensborg/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Fredensborg</a></li>
+              <li><a href="/humlebaek/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Humlebæk</a></li>
+              <li><a href="/hillerod/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Hillerød</a></li>
+              <li><a href="/helsingor/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Helsingør</a></li>
+              <li><a href="/gilleleje/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bedemand Gilleleje</a></li>
+          </ul>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#3d5260", margin: 0 }}>
+            <a href="/omraade/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Se alle områder</a>
           </p>
         </div>
       </section>

@@ -13,17 +13,25 @@ const s = {
   link: { color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px" } as React.CSSProperties,
 };
 
+const FAQ = [
+  { question: "Hvad koster en bisættelse på Nørrebro?", answer: "Hos mig koster en bisættelse med ceremoni fra 18.300 kr., en begravelse fra 19.300 kr. og en afsked uden ceremoni 13.550 kr. Oveni kommer blandt andet kremering og gravsted, som kirkegården fastsætter. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen." },
+  { question: "Hvad gør jeg først, når nogen dør?", answer: "Er dødsfaldet sket i hjemmet, skal en læge konstatere det og udstede dødsattesten. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem sørger personalet for det. Derefter kan I ringe til mig på 28 14 60 11." },
+  { question: "Kan du hente afdøde uden for normal arbejdstid?", answer: "Ja, jeg tager telefonen døgnet rundt. Efter kl. 16 på hverdage, i weekender og på helligdage er der et tillæg på 800 kr. pr. udkald, fordi jeg skal have en hjælper med. Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget." },
+  { question: "Hvad koster kørslen?", answer: "Kørslen regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej. I hele København og Nordsjælland koster en kørsel højst 2.000 kr." },
+];
+
 export default function KimNorrebro() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Nørrebro – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser. Ring til mig på 28 14 60 11."
+        description="Bedemand på Nørrebro. Personlig hjælp til bisættelse og begravelse – hjemme hos jer, i Søborg eller i telefonen. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/norrebro/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"
+        faqItems={FAQ}
         areaServed={["Nørrebro"]}
         pageUrl="https://www.bedemandkobenhavn.dk/norrebro/"
         breadcrumbs={[
@@ -79,7 +87,7 @@ export default function KimNorrebro() {
       <section style={{ background: "#F9F8F6", padding: "64px 24px 56px", textAlign: "center" }}>
         <p style={s.label}>Bedemand på Nørrebro</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
-          Personlig bedemand på Nørrebro
+          Bedemand på Nørrebro
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
           Jeg er selvstændig bedemand og hjælper familier på Nørrebro med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
@@ -93,6 +101,13 @@ export default function KimNorrebro() {
           <h2 style={s.h2}>Den første samtale</h2>
           <p style={s.body}>
             I behøver ikke have besluttet noget, før vi taler sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg.
+          </p>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Sådan hjælper jeg</h2>
+          <p style={s.body}>
+            Jeg står for det praktiske: anmodningen om begravelse eller ligbrænding, kontakten til kirke, kirkegård og krematorium og ansøgningen om begravelseshjælp. Vil I vide, hvad der sker de første dage, kan I læse <a href="/hvad-sker-der/" style={s.link}>hvad der sker, når nogen dør</a>.
+          </p>
+          <p style={s.body}>
+            Kørslen regnes fra mit kontor i Søborg, og de første 25 km er med i prisen. Mine faste priser står på <a href="/priser/" style={s.link}>prissiden</a>, og I kan regne et overslag ud i <a href="/prisberegner/" style={s.link}>prisberegneren</a>.
           </p>
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
@@ -113,13 +128,29 @@ export default function KimNorrebro() {
         </div>
       </section>
 
+      <section style={{ background: "#fff", padding: "0 24px 56px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Spørgsmål og svar</h2>
+          {FAQ.map((f) => (
+            <div key={f.question} style={{ borderBottom: "1px solid #e0dcd6", padding: "16px 0" }}>
+              <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "8px" }}>{f.question}</h3>
+              <p style={{ ...s.body, marginBottom: 0 }}>{f.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section style={{ background: "#EEF3EF", padding: "48px 24px" }}>
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Vil I læse mere først?</h2>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 2 }}>
             <li><a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a></li>
             <li><a href="/priser/" style={s.link}>Mine priser – og udgifter, der ikke går til mig</a></li>
+            <li><a href="/prisberegner/" style={s.link}>Regn et overslag ud i prisberegneren</a></li>
           </ul>
+          <p style={{ ...s.body, marginTop: "20px", marginBottom: 0 }}>
+            Jeg hjælper også familier i nærheden: <a href="/osterbro/" style={s.link}>Østerbro</a>, <a href="/vesterbro/" style={s.link}>Vesterbro</a> og <a href="/frederiksberg/" style={s.link}>Frederiksberg</a>.
+          </p>
         </div>
       </section>
 
