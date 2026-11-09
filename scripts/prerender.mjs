@@ -139,7 +139,7 @@ const ROUTE_META = {
   },
   "/hvad-koster-en-begravelse": {
     title: "Hvad koster en begravelse? Priser 2026 \u2013 Kim Bondo",
-    description: "En bis\u00e6ttelse koster hos mig fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I kan f\u00e5 begravelseshj\u00e6lp. Ring til mig p\u00e5 28 14 60 11.",
+    description: "En bis\u00e6ttelse koster fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I f\u00e5r begravelseshj\u00e6lp. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked \u2013 Bedemand Kim Bondo",
@@ -215,7 +215,7 @@ const ROUTE_META = {
   },
   "/priser": {
     title: "Priser \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Priser p\u00e5 bis\u00e6ttelse og begravelse i K\u00f8benhavn og Nordsj\u00e6lland: bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. og alle till\u00e6g. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Priser p\u00e5 bis\u00e6ttelse og begravelse i K\u00f8benhavn og Nordsj\u00e6lland: bis\u00e6ttelse fra 18.300 kr. og begravelse fra 19.300 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/produkter": {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",

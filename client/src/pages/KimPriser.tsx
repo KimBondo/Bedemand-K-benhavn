@@ -95,7 +95,7 @@ export default function KimPriser() {
     <div role="main" style={s.page}>
       <SEO
         title="Priser – Bedemand Kim Bondo, København"
-        description="Priser på bisættelse og begravelse i København og Nordsjælland: bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og alle tillæg. Ring til mig på 28 14 60 11."
+        description="Priser på bisættelse og begravelse i København og Nordsjælland: bisættelse fra 18.300 kr. og begravelse fra 19.300 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/priser/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

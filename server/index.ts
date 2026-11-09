@@ -23,7 +23,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/priser": {
     title: "Priser – Bedemand Kim Bondo | fra 13.550 kr.",
-    description: "Priser på bisættelse og begravelse i København og Nordsjælland: bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og alle tillæg. Ring til mig på 28 14 60 11.",
+    description: "Priser på bisættelse og begravelse i København og Nordsjælland: bisættelse fra 18.300 kr. og begravelse fra 19.300 kr. Ring til mig på 28 14 60 11.",
   },
   "/afskeder": {
     title: "Typer af afskeder – Bedemand Kim Bondo",
@@ -71,7 +71,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/hvad-koster-en-begravelse": {
     title: "Hvad koster en begravelse? Priser 2026 – Kim Bondo",
-    description: "En bisættelse koster hos mig fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I kan få begravelseshjælp. Ring til mig på 28 14 60 11.",
+    description: "En bisættelse koster fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I får begravelseshjælp. Ring til mig på 28 14 60 11.",
   },
   "/helsingor": {
     title: "Bedemand Helsingør – Kim Bondo | Personlig hjælp i Helsingør",

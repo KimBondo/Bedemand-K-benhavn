@@ -26,7 +26,7 @@ export default function KimHvadKoster() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Hvad koster en begravelse? Priser 2026 – Kim Bondo"
-        description="En bisættelse koster hos mig fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I kan få begravelseshjælp. Ring til mig på 28 14 60 11."
+        description="En bisættelse koster fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I får begravelseshjælp. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

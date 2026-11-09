@@ -17,7 +17,7 @@ const FAQ = [
   { question: "Hvad koster en bisættelse på Amager?", answer: "Hos mig koster en bisættelse med ceremoni fra 18.300 kr., en begravelse fra 19.300 kr. og en afsked uden ceremoni 13.550 kr. Oveni kommer blandt andet kremering og gravsted, som kirkegården fastsætter. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen." },
   { question: "Hvad gør jeg først, når nogen dør?", answer: "Er dødsfaldet sket i hjemmet, skal en læge konstatere det og udstede dødsattesten. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem sørger personalet for det. Derefter kan I ringe til mig på 28 14 60 11." },
   { question: "Kan du hente afdøde uden for normal arbejdstid?", answer: "Ja, jeg tager telefonen døgnet rundt. Efter kl. 16 på hverdage, i weekender og på helligdage er der et tillæg på 800 kr. pr. udkald, fordi jeg skal have en hjælper med. Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget." },
-  { question: "Hvad koster kørslen?", answer: "Kørslen regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej. I hele København og Nordsjælland koster en kørsel højst 2.000 kr." },
+  { question: "Hvad koster kørslen?", answer: "Kørslen regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr." },
 ];
 
 export default function KimAmager() {
@@ -32,7 +32,7 @@ export default function KimAmager() {
       <SchemaOrg
         type="both"
         faqItems={FAQ}
-        areaServed={["Amager", "Tårnby", "Dragør"]}
+        areaServed={["Amager", "Kastrup", "Tårnby", "Dragør"]}
         pageUrl="https://www.bedemandkobenhavn.dk/amager/"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
