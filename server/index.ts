@@ -18,12 +18,12 @@ const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 // Per-route meta-data table — title + description injected into raw HTML before React loads
 const ROUTE_META: Record<string, { title: string; description: string; image?: string }> = {
   "/": {
-    title: "Bedemand København – Kim Bondo, personlig bedemand døgnet rundt",
-    description: "Personlig bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Gennemsigtige priser. Ring til mig på 28 14 60 11.",
+    title: "Bedemand København og Nordsjælland – Kim Bondo",
+    description: "Bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr. og begravelse fra 19.300 kr. – jeg følger jer hele vejen. Ring til mig på 28 14 60 11.",
   },
   "/priser": {
     title: "Priser – Bedemand Kim Bondo | fra 13.550 kr.",
-    description: "Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser og tillæg samlet ét sted. Ring til mig på 28 14 60 11.",
+    description: "Priser på bisættelse og begravelse i København og Nordsjælland: bisættelse fra 18.300 kr. og begravelse fra 19.300 kr. Ring til mig på 28 14 60 11.",
   },
   "/afskeder": {
     title: "Typer af afskeder – Bedemand Kim Bondo",
@@ -42,8 +42,8 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Enkel afsked uden ceremoni i København. Kremering og urnenedsættelse uden kirke. Fra 13.550 kr. Ring til mig på 28 14 60 11.",
   },
   "/askespredning": {
-    title: "Askespredning i Danmark – Bedemand Kim Bondo",
-    description: "Askespredning over åbent hav, når afdøde har ønsket det. Jeg hjælper med papirerne til sognet og det praktiske. Ring til mig på 28 14 60 11.",
+    title: "Må man sprede aske over havet? Regler – Kim Bondo",
+    description: "Ja, asken må spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Ellers kan sognet give dispensation. Se reglerne. Ring til mig på 28 14 60 11.",
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked – Bedemand Kim Bondo",
@@ -70,8 +70,8 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Jeg dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring til mig på 28 14 60 11.",
   },
   "/hvad-koster-en-begravelse": {
-    title: "Hvad koster en begravelse i 2026? – Kim Bondo",
-    description: "Hvad koster en begravelse eller bisættelse? Se mine priser, hvad der kommer oveni, og hvordan jeg søger begravelseshjælp for jer. Ring til mig på 28 14 60 11.",
+    title: "Hvad koster en begravelse? Priser 2026 – Kim Bondo",
+    description: "En bisættelse koster fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I får begravelseshjælp. Ring til mig på 28 14 60 11.",
   },
   "/helsingor": {
     title: "Bedemand Helsingør – Kim Bondo | Personlig hjælp i Helsingør",
@@ -107,7 +107,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/amager": {
     title: "Bedemand Amager – Kim Bondo | Personlig hjælp på Amager",
-    description: "Personlig bedemand på Amager, i Tårnby og Dragør. Faste priser. Ring til mig på 28 14 60 11.",
+    description: "Bedemand på Amager – i Kastrup, Tårnby og Dragør. Personlig hjælp til bisættelse og begravelse og faste priser. Ring til mig på 28 14 60 11.",
   },
   "/sjaelland": {
     title: "Bedemand på Sjælland – Kim Bondo, døgnet rundt",
@@ -119,11 +119,11 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/osterbro": {
     title: "Bedemand Østerbro – Kim Bondo | Personlig hjælp på Østerbro",
-    description: "Personlig bedemand på Østerbro. Holmens og Garnisons Kirkegård ligger i bydelen. Faste priser. Ring til mig på 28 14 60 11.",
+    description: "Bedemand på Østerbro. Holmens og Garnisons Kirkegård ligger i bydelen. Personlig hjælp hele vejen og faste priser. Ring til mig på 28 14 60 11.",
   },
   "/norrebro": {
     title: "Bedemand Nørrebro – Kim Bondo | Personlig hjælp på Nørrebro",
-    description: "Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser. Ring til mig på 28 14 60 11.",
+    description: "Bedemand på Nørrebro. Personlig hjælp til bisættelse og begravelse – hjemme hos jer, i Søborg eller i telefonen. Ring til mig på 28 14 60 11.",
   },
   "/vesterbro": {
     title: "Bedemand Vesterbro – Kim Bondo | Personlig hjælp på Vesterbro",
@@ -139,7 +139,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/fredensborg": {
     title: "Bedemand Fredensborg – Kim Bondo, døgnet rundt",
-    description: "Personlig bedemand i Fredensborg, Humlebæk, Kokkedal og Nivå. Frit valg af kirkegård i provstiet for folkekirkemedlemmer. Ring til mig på 28 14 60 11.",
+    description: "Bedemand i Fredensborg, Humlebæk, Kokkedal og Nivå. Personlig hjælp til bisættelse og begravelse og faste priser. Ring til mig på 28 14 60 11.",
   },
   "/rudersdal": {
     title: "Bedemand Rudersdal – Birkerød, Holte, Nærum, Vedbæk",

@@ -20,8 +20,8 @@ export default function KimAskespredning() {
       }}
     >
       <SEO
-        title="Askespredning – Bedemand Kim Bondo, København"
-        description="Askespredning over åbent hav, når afdøde har ønsket det. Jeg hjælper med papirerne til sognet og det praktiske. Ring til mig på 28 14 60 11."
+        title="Må man sprede aske over havet? Regler – Kim Bondo"
+        description="Ja, asken må spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Ellers kan sognet give dispensation. Se reglerne. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/askespredning/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -155,7 +155,8 @@ export default function KimAskespredning() {
         </p>
         <div style={{ display: "grid", gap: "20px" }}>
           {[
-            { title: "Afdødes ønske", text: "Asken kan spredes over åbent hav, hvis afdøde skriftligt har ønsket det – fx i Min Sidste Vilje, et testamente eller et brev. Findes der ikke et skriftligt ønske, kan sognet give dispensation, når det er helt sikkert, at det var afdødes ønske. De pårørende kan fx skrive en erklæring, som sognet bruger i sin vurdering. Det er sognet, der afgør det." },
+            { title: "Afdødes ønske", text: "Asken kan spredes over åbent hav, hvis afdøde skriftligt har ønsket det – fx i Min Sidste Vilje, et testamente eller et brev. Findes der ikke et skriftligt ønske, kan sognet give dispensation, når det er helt sikkert, at det var afdødes ønske. De pårørende kan fx skrive en erklæring, som sognet bruger i sin vurdering. Det er sognet, der afgør det. Reglerne står i begravelsesloven § 3, stk. 3." },
+            { title: "Kirkegård eller hav", text: "Asken skal enten nedsættes på en kirkegård eller spredes over åbent hav. Den må ikke opbevares hjemme." },
             { title: "Åbent hav", text: "Asken skal spredes over åbent hav eller større fjorde og bugter – ikke i søer eller vandløb. Spredningen bør ske langt nok ude til, at asken ikke driver tilbage til land." },
             { title: "Urnen må ikke efterlades", text: "Det er ikke tilladt at efterlade urnen i havet. Asken spredes, og urnen tages med tilbage og bortskaffes." },
             { title: "Diskret og respektfuld", text: "Askespredningen skal foregå diskret og uden at tiltrække unødig opmærksomhed." },
