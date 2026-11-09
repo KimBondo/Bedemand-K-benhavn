@@ -65,10 +65,6 @@ const ADDONS = [
   { id: "efter-16", label: "Afhentning efter kl. 16, i weekenden eller på en helligdag", price: 800 },
 ] as const;
 
-/** Pakkerne med ceremoni har tre rustvognskørsler; hver kørsel, der ikke bruges, trækkes fra. */
-const KOERSEL_PRIS = 1595;
-const STANDARD_KOERSLER = 3;
-
 const BASE_TITLER: Record<Base, string> = { uden: "Afsked uden ceremoni", bisaettelse: "Bisættelse", begravelse: "Begravelse" };
 
 /** Tilvalg, der giver mening for den valgte afskedsform. */
@@ -96,10 +92,8 @@ export default function KimPrisberegner() {
     const addon = ADDONS.find((a) => a.id === id);
     return sum + (addon && relevant(addon, base) ? addon.price * qty : 0);
   }, 0);
-  const [koersler, setKoersler] = useState<number>(STANDARD_KOERSLER);
   const medCeremoni = base === "bisaettelse" || base === "begravelse";
-  const koerselFradrag = medCeremoni ? (STANDARD_KOERSLER - koersler) * KOERSEL_PRIS : 0;
-  const total = basePrice + kisteForskel + urneForskel + addonTotal - koerselFradrag;
+  const total = basePrice + kisteForskel + urneForskel + addonTotal;
 
   const toggleAddon = (id: string, hasQty: boolean) => {
     setAddons((prev) => {
@@ -128,7 +122,6 @@ export default function KimPrisberegner() {
       `- Kiste: ${valgtKiste.label}${kisteForskel ? ` (${forskelTekst(kisteForskel).toLowerCase()})` : " (indgår i prisen)"}`,
     ];
     if (medUrne) linjer.push(`- Urne: ${valgtUrne.label}${urneForskel ? ` (${forskelTekst(urneForskel).toLowerCase()})` : " (indgår i prisen)"}`);
-    if (medCeremoni) linjer.push(`- Rustvognskørsler: ${koersler}${koerselFradrag ? ` (fradrag ${kr(koerselFradrag)})` : " (som i pakken)"}`);
     if (location) linjer.push(`- Sted: ${location}`);
     for (const [id, qty] of Object.entries(addons)) {
       const addon = ADDONS.find((a) => a.id === id);
@@ -137,6 +130,7 @@ export default function KimPrisberegner() {
     linjer.push(`Vejledende pris i alt: ${kr(total)}`);
     linjer.push("Ikke med i beregningen: krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter.");
     linjer.push("Kørsel: km ud over de første 25 km fra Søborg (35 kr. pr. km, kun den ene vej) er ikke regnet med her.");
+    if (medCeremoni) linjer.push("Pakken har tre rustvognskørsler. Bliver der brug for færre, trækkes 1.595 kr. fra pr. kørsel – det aftaler vi, når forløbet er kendt.");
     return linjer.join("\n");
   };
 
@@ -266,32 +260,6 @@ export default function KimPrisberegner() {
             </>
           )}
 
-          {medCeremoni && (
-            <>
-              <h3 style={s.h3}>Rustvognskørsler</h3>
-              <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-                Pakken har tre kørsler: til kisteophold, videre til ceremonien og derfra til {base === "begravelse" ? "graven" : "krematoriet"}. Bliver der brug for færre, trækkes 1.595 kr. fra for hver kørsel, der ikke bliver brugt. Hentes afdøde fx på kapellet og køres direkte til ceremonien og derfra videre, er det to kørsler.
-              </p>
-              <div style={{ display: "grid", gap: "12px", marginBottom: "40px" }}>
-                {[3, 2, 1].map((n) => {
-                  const valgt = koersler === n;
-                  const fradrag = (STANDARD_KOERSLER - n) * KOERSEL_PRIS;
-                  return (
-                    <label key={n} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px", background: valgt ? "#f0f7f3" : "#fff", border: `1px solid ${valgt ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "16px 20px", cursor: "pointer" }}>
-                      <span style={{ display: "flex", alignItems: "center", gap: "12px", flex: 1 }}>
-                        <input type="radio" name="koersler" checked={valgt} onChange={() => setKoersler(n)} />
-                        <span>{n === 3 ? "Tre kørsler (som i pakken)" : n === 2 ? "To kørsler" : "Én kørsel"}</span>
-                      </span>
-                      <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
-                        {fradrag ? `− ${fradrag.toLocaleString("da-DK")} kr.` : "Indgår i prisen"}
-                      </span>
-                    </label>
-                  );
-                })}
-              </div>
-            </>
-          )}
-
           <h2 style={s.h2}>{base ? 3 : 2}. Hvor skal det foregå? <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
           <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
             Afstanden regnes fra mit kontor i Søborg. En kørsel koster 1.595 kr. med de første 25 km, derefter 35 kr. pr. km – kun den ene vej, ad den billigste rute. I København og Nordsjælland højst 2.000 kr. pr. kørsel, uden for området uden loft. Km ud over de 25 regner jeg ud for jer.
@@ -351,6 +319,11 @@ export default function KimPrisberegner() {
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "0 auto" }}>
                 Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter. Disse beløb er ikke med i overslaget.
               </p>
+              {medCeremoni && (
+                <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
+                  Pakken har tre rustvognskørsler. Bliver der brug for færre, trækkes 1.595 kr. fra pr. kørsel. Det afhænger af forløbet – fx skal alle tre kørsler bruges i weekenden, hvor hospitalernes kapeller er lukket – så det aftaler vi, når forløbet er kendt.
+                </p>
+              )}
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
                 Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget på 800 kr.
               </p>
