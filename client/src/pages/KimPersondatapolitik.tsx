@@ -142,7 +142,7 @@ export default function KimPersondatapolitik() {
             <strong>Der bliver ikke sat cookies, før du har sagt ja.</strong> Siger du nej eller svarer ikke, indlæses ingen måleværktøjer, og der sendes intet til Google.
           </p>
           <p style={s.body}>
-            Siger du ja, indlæses Google Tag Manager, og Google Analytics og Googles annoncemåling må sætte cookies (blandt andet <code>_ga</code>) og registrere din IP-adresse i afkortet form. Jeg bruger det til at se, hvilke sider der bliver læst, og om mine annoncer fører til henvendelser – ikke til at identificere dig.
+            Siger du ja, indlæses Google Tag Manager, og Google Analytics og Googles annoncemåling må sætte cookies (blandt andet <code>_ga</code>). Google Analytics bruger kortvarigt din IP-adresse til at udlede en omtrentlig geografisk placering og kasserer den derefter. IP-adressen logges eller lagres ikke for besøgende fra EU. Jeg bruger målingen til at se, hvilke sider der bliver læst, og om mine annoncer fører til henvendelser – ikke til at identificere dig.
           </p>
           <p style={s.body}>
             Dit valg gemmes i din browser i 12 måneder.
@@ -169,6 +169,11 @@ export default function KimPersondatapolitik() {
             <li style={s.li}>Mit bogholderi og min revisor i forbindelse med fakturering og regnskab</li>
             <li style={s.li}>Databehandlere, der leverer teknik til hjemmesiden: Web3Forms (kontaktformular), Cloudflare (hosting og levering) og Google (statistik og annoncemåling)</li>
           </ul>
+
+          <h3 style={s.h3}>Overførsel uden for EU/EØS</h3>
+          <p style={s.body}>
+            Jeg bruger Cloudflare til at levere og beskytte hjemmesiden og Google til statistik efter dit samtykke. Oplysninger kan blive behandlet uden for EU/EØS, herunder i USA. Overførsler til Google LLC og Cloudflare, Inc. i USA sker under EU–U.S. Data Privacy Framework. Ved øvrige overførsler, der kræver særlige garantier, anvendes EU-Kommissionens standardkontraktbestemmelser efter leverandøraftalerne. Kontakt mig for nærmere oplysninger.
+          </p>
         </div>
       </section>
 
@@ -180,7 +185,7 @@ export default function KimPersondatapolitik() {
             <li style={s.li}><strong>Henvendelser der ikke fører til en opgave:</strong> slettes, når det står klart, at der ikke bliver noget — og senest efter seks måneder.</li>
             <li style={s.li}><strong>Sagsoplysninger på en gennemført opgave:</strong> gemmes i fem år efter udløbet af det regnskabsår, opgaven hører til, fordi bogføringsloven kræver det.</li>
             <li style={s.li}><strong>CPR-numre:</strong> slettes, så snart de har været brugt til det, de var nødvendige for.</li>
-            <li style={s.li}><strong>Indsendelser hos Web3Forms:</strong> slettes automatisk af tjenesten efter senest tre år.</li>
+            <li style={s.li}><strong>Indsendelser hos Web3Forms:</strong> Web3Forms sletter indsendelser efter 3 måneder.</li>
           </ul>
         </div>
       </section>
@@ -245,7 +250,7 @@ export default function KimPersondatapolitik() {
             Ændrer jeg noget i behandlingen, opdaterer jeg denne side.
           </p>
           <p style={{ ...s.body, fontStyle: "italic", color: "#7a8f99", marginBottom: 0 }}>
-            Senest opdateret 8. november 2026.
+            Senest opdateret 9. november 2026.
           </p>
         </div>
       </section>

@@ -2,13 +2,11 @@
  * ContactForm – Kim Bondo
  *
  * Sender henvendelsen via Web3Forms (https://web3forms.com) direkte til
- * kim@bedemandkobenhavn.dk. Kræver ingen backend — siden er statisk.
+ * kontakt@bedemandsservice.dk. Kræver ingen backend — siden er statisk.
  *
  * OPSÆTNING (engangs, ca. 1 minut):
- *   1. Gå til https://web3forms.com, skriv kim@bedemandkobenhavn.dk og få en access key på mail.
- *   2. Sæt nøglen ind som VITE_WEB3FORMS_KEY i .env — eller indsæt den direkte i
- *      FALLBACK_ACCESS_KEY nedenfor.
- *   3. Bekræft adressen via mailen fra Web3Forms, ellers sendes der intet.
+ *   Formularen styres på app.web3forms.com (konto: kontakt@bedemandsservice.dk).
+ *   Nøglen står i ACCESS_KEY nedenfor.
  *
  * Hvis nøglen mangler, eller hvis afsendelsen fejler, falder formularen tilbage
  * til den gamle mailto:-løsning, så en henvendelse aldrig går tabt i stilhed.
@@ -25,11 +23,10 @@ const RECIPIENT = "kim@bedemandkobenhavn.dk";
 const PHONE_DISPLAY = "28 14 60 11";
 const PHONE_HREF = "+4528146011";
 
-// Indsæt din Web3Forms access key her hvis du ikke bruger .env-filen:
-const FALLBACK_ACCESS_KEY = "c89cef24-833d-4af6-87cb-ca108350220c";
-
-const ACCESS_KEY =
-  (import.meta.env.VITE_WEB3FORMS_KEY as string | undefined) || FALLBACK_ACCESS_KEY;
+// Web3Forms access key (offentlig nøgle) for formularen "Kontaktformular" på kontoen
+// kontakt@bedemandsservice.dk. Nøglen står fast her med vilje; en miljøvariabel
+// overstyrer den ikke.
+const ACCESS_KEY = "157fe0c6-d375-45d5-b1a0-5615eb395327";
 
 // ── GTM dataLayer helper ─────────────────────────────────────────────────────
 declare global {
