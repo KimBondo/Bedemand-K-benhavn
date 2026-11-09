@@ -54,7 +54,7 @@ export default function KimPersondatapolitik() {
           Persondatapolitik
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto", lineHeight: 1.7 }}>
-          Når du henvender dig til mig, deler du noget af det mest private, et menneske har. Her står der præcis, hvad jeg gør med de oplysninger — og hvad jeg ikke gør.
+          Her står kort, hvad jeg gør med de oplysninger, du giver mig – og hvad jeg ikke gør.
         </p>
       </section>
 
@@ -81,7 +81,7 @@ export default function KimPersondatapolitik() {
             <a href="mailto:kim@bedemandkobenhavn.dk" style={s.link}>kim@bedemandkobenhavn.dk</a>
           </p>
           <p style={s.body}>
-            Har du spørgsmål til, hvordan dine oplysninger behandles, er du altid velkommen til at ringe eller skrive direkte til mig. Du får et svar fra et menneske.
+            Har du spørgsmål, så ring eller skriv til mig.
           </p>
         </div>
       </section>
@@ -100,12 +100,7 @@ export default function KimPersondatapolitik() {
             <strong>Retsgrundlag:</strong> databeskyttelsesforordningens artikel 6, stk. 1, litra b — behandlingen sker på din anmodning forud for en eventuel aftale.
           </p>
           <p style={s.body}>
-            Selve afsendelsen håndteres af tjenesten <strong>Web3Forms</strong>, som videresender beskeden til min indbakke. Web3Forms er databehandler for mig og opbevarer indsendelsen i op til tre år, hvorefter den slettes automatisk. Tjenesten drives uden for EU og anvender leverandører som Amazon Web Services, Cloudflare og Hetzner. Overførslen sker på grundlag af EU-Kommissionens standardkontraktbestemmelser.
-          </p>
-          <p style={s.body}>
-            Vil du hellere undgå det led, kan du altid bare ringe på{" "}
-            <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> eller skrive direkte til{" "}
-            <a href="mailto:kim@bedemandkobenhavn.dk" style={s.link}>kim@bedemandkobenhavn.dk</a>.
+            Formularen sendes via <strong>Web3Forms</strong>, som er min databehandler. Tjenesten drives uden for EU og bruger blandt andre Amazon Web Services, Cloudflare og Hetzner. Overførslen sker på grundlag af EU-Kommissionens standardkontraktbestemmelser. Vil du undgå det, kan du ringe eller skrive direkte til mig.
           </p>
         </div>
       </section>
@@ -129,12 +124,12 @@ export default function KimPersondatapolitik() {
 
           <h3 style={s.h3}>CPR-numre</h3>
           <p style={s.body}>
-            Jeg beder kun om CPR-nummer, hvor det er nødvendigt — for eksempel til dødsanmeldelsen og til mærkning af kisten. Nummeret bruges til det formål og slettes derefter fra mine arbejdsværktøjer. Det står aldrig i kalenderaftaler, sms'er eller andre steder, hvor det ikke hører hjemme.
+            Jeg beder kun om CPR-nummer, hvor det er nødvendigt – for eksempel til dødsanmeldelsen og mærkning af kisten – og sletter det, når det er brugt.
           </p>
 
           <h3 style={s.h3}>Oplysninger om afdøde</h3>
           <p style={s.body}>
-            Databeskyttelsesforordningen gælder ikke for afdøde personer. Men oplysninger om afdøde kan samtidig sige noget om jer, der er tilbage, og jeg behandler dem derfor med samme omhu som alt andet.
+            I Danmark gælder databeskyttelsesreglerne som udgangspunkt også for oplysninger om afdøde i 10 år efter dødsfaldet. Jeg behandler oplysninger om afdøde og pårørende med omhu og fortrolighed.
           </p>
         </div>
       </section>
@@ -144,31 +139,19 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Cookies og statistik</h2>
           <p style={s.body}>
-            <strong>Der bliver ikke sat cookies, før du har sagt ja.</strong> Første
-            gang du besøger siden, bliver du spurgt, om jeg må måle, hvordan siden
-            bliver brugt. Siger du nej, indlæses der ingen måleværktøjer, og der
-            sendes ingen oplysninger til Google. Det samme gælder, så længe du ikke
-            har svaret. Siden virker præcis lige så godt.
+            <strong>Der bliver ikke sat cookies, før du har sagt ja.</strong> Siger du nej eller svarer ikke, indlæses ingen måleværktøjer, og der sendes intet til Google.
           </p>
           <p style={s.body}>
-            Siger du ja, indlæses Google Tag Manager, og Google Analytics og
-            Googles annoncemåling må placere cookies i din browser (blandt andet <code>_ga</code>) og
-            registrere din IP-adresse i afkortet form. Det hjælper mig med at se,
-            hvilke sider der bliver læst, så jeg kan skrive om det, folk faktisk
-            leder efter, og om mine annoncer fører til, at nogen ringer eller skriver. Jeg bruger ikke statistikken til at identificere dig som
-            person, og oplysningerne sælges ikke videre.
+            Siger du ja, indlæses Google Tag Manager, og Google Analytics og Googles annoncemåling må sætte cookies (blandt andet <code>_ga</code>). Google Analytics bruger kortvarigt din IP-adresse til at udlede en omtrentlig geografisk placering og kasserer den derefter. IP-adressen logges eller lagres ikke for besøgende fra EU. Jeg bruger målingen til at se, hvilke sider der bliver læst, og om mine annoncer fører til henvendelser – ikke til at identificere dig.
           </p>
           <p style={s.body}>
-            Dit valg gemmes lokalt i din browser i 12 måneder — ikke som en cookie,
-            men i browserens eget lager — og derefter bliver du spurgt igen.
+            Dit valg gemmes i din browser i 12 måneder.
           </p>
           <p style={s.body}>
             <a href="#cookieindstillinger" style={s.link}>
               Skift dine cookieindstillinger
             </a>{" "}
-            — du kan trække dit samtykke tilbage når som helst, og lige så let som
-            du gav det. Fravælger du, slettes de statistikcookies, der måtte være
-            sat i forvejen.
+            – du kan trække dit samtykke tilbage når som helst. Så slettes statistikcookies, der allerede er sat.
           </p>
         </div>
       </section>
@@ -186,6 +169,11 @@ export default function KimPersondatapolitik() {
             <li style={s.li}>Mit bogholderi og min revisor i forbindelse med fakturering og regnskab</li>
             <li style={s.li}>Databehandlere, der leverer teknik til hjemmesiden: Web3Forms (kontaktformular), Cloudflare (hosting og levering) og Google (statistik og annoncemåling)</li>
           </ul>
+
+          <h3 style={s.h3}>Overførsel uden for EU/EØS</h3>
+          <p style={s.body}>
+            Jeg bruger Cloudflare til at levere og beskytte hjemmesiden og Google til statistik efter dit samtykke. Oplysninger kan blive behandlet uden for EU/EØS, herunder i USA. Overførsler til Google LLC og Cloudflare, Inc. i USA sker under EU–U.S. Data Privacy Framework. Ved øvrige overførsler, der kræver særlige garantier, anvendes EU-Kommissionens standardkontraktbestemmelser efter leverandøraftalerne. Kontakt mig for nærmere oplysninger.
+          </p>
         </div>
       </section>
 
@@ -197,7 +185,7 @@ export default function KimPersondatapolitik() {
             <li style={s.li}><strong>Henvendelser der ikke fører til en opgave:</strong> slettes, når det står klart, at der ikke bliver noget — og senest efter seks måneder.</li>
             <li style={s.li}><strong>Sagsoplysninger på en gennemført opgave:</strong> gemmes i fem år efter udløbet af det regnskabsår, opgaven hører til, fordi bogføringsloven kræver det.</li>
             <li style={s.li}><strong>CPR-numre:</strong> slettes, så snart de har været brugt til det, de var nødvendige for.</li>
-            <li style={s.li}><strong>Indsendelser hos Web3Forms:</strong> slettes automatisk af tjenesten efter senest tre år.</li>
+            <li style={s.li}><strong>Indsendelser hos Web3Forms:</strong> Web3Forms sletter indsendelser efter 3 måneder.</li>
           </ul>
         </div>
       </section>
@@ -232,7 +220,7 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Klage til Datatilsynet</h2>
           <p style={s.body}>
-            Er du utilfreds med måden, jeg behandler dine oplysninger på, håber jeg, du siger det til mig først — så retter jeg det, jeg kan rette. Du har under alle omstændigheder ret til at klage til Datatilsynet:
+            Du kan klage til Datatilsynet:
           </p>
           <p style={{ ...s.body, background: "#fff", borderLeft: "3px solid #3D6B4F", padding: "20px 24px" }}>
             <strong>Datatilsynet</strong>
@@ -254,15 +242,15 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Sikkerhed</h2>
           <p style={s.body}>
-            Hjemmesiden kører krypteret (https), og adgangen til mine mail- og arbejdssystemer er beskyttet med adgangskode og to-faktor-login. Jeg er den eneste, der har adgang til sagsoplysningerne, bortset fra revisor og de leverandører, der er nævnt ovenfor.
+            Hjemmesiden er krypteret (https), og mine mail- og arbejdssystemer er beskyttet med adgangskode og to-faktor-login. Kun jeg har adgang til sagsoplysningerne, bortset fra revisor og de leverandører, der er nævnt ovenfor.
           </p>
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Ændringer</h2>
           <p style={s.body}>
-            Ændrer jeg noget i den måde, oplysninger behandles på, opdaterer jeg denne side. Datoen nedenfor viser, hvornår den sidst blev ændret.
+            Ændrer jeg noget i behandlingen, opdaterer jeg denne side.
           </p>
           <p style={{ ...s.body, fontStyle: "italic", color: "#7a8f99", marginBottom: 0 }}>
-            Senest opdateret 17. oktober 2026.
+            Senest opdateret 9. november 2026.
           </p>
         </div>
       </section>
