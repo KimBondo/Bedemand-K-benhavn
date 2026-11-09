@@ -136,7 +136,7 @@ export default function KimPrisberegner() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Prisberegner – Bedemand Kim Bondo"
-        description="Få et vejledende overslag på begravelse eller bisættelse. Faste priser og gennemsigtighed. Ring til mig på 28 14 60 11."
+        description="Få et vejledende overslag på begravelse eller bisættelse ud fra mine faste priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/prisberegner/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -181,7 +181,7 @@ export default function KimPrisberegner() {
           Hvad koster det cirka?
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto", lineHeight: 1.7 }}>
-          Et vejledende overslag baseret på mine faste priser. Jeg laver altid et præcist regnestykke sammen med jer, inden I beslutter noget.
+          Et vejledende overslag baseret på mine faste priser. Jeg laver et præcist regnestykke sammen med jer, inden I beslutter noget.
         </p>
       </section>
 
@@ -190,8 +190,8 @@ export default function KimPrisberegner() {
           <h2 style={s.h2}>1. Hvordan skal afskeden være?</h2>
           <div style={{ display: "grid", gap: "16px", marginBottom: "40px" }}>
             {([
-              { key: "uden" as const, title: "Afsked uden ceremoni", price: "Fra 13.550 kr.", text: "En afsked uden kirkelig eller borgerlig ceremoni – kisten køres direkte til krematoriet. Jeg står for det praktiske: dødsanmeldelse, koordinering med læge og krematorium, transport, klargøring af afdøde og valg af kiste og urne. I behøver ikke selv tage kontakt til myndigheder eller krematorium." },
-              { key: "bisaettelse" as const, title: "Bisættelse", price: "Fra 18.300 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Jeg koordinerer hele forløbet: dødsanmeldelse, aftaler med præst eller kirkekontor, booker kapel eller kirke, sørger for transport til og fra ceremonien, koordinerer med krematoriet og står for klargøring af afdøde. Jeg er den, der holder styr på drejebogen, så I ikke skal tænke på det praktiske." },
+              { key: "uden" as const, title: "Afsked uden ceremoni", price: "Fra 13.550 kr.", text: "En afsked uden kirkelig eller borgerlig ceremoni – kisten køres direkte til krematoriet. Jeg står for det praktiske: anmodning om ligbrænding, koordinering med læge og krematorium, transport, klargøring af afdøde og valg af kiste og urne. I behøver ikke selv tage kontakt til myndigheder eller krematorium." },
+              { key: "bisaettelse" as const, title: "Bisættelse", price: "Fra 18.300 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Jeg koordinerer hele forløbet: anmodning om ligbrænding, aftaler med præst eller kirkekontor, booker kapel eller kirke, sørger for transport til og fra ceremonien, koordinerer med krematoriet og står for klargøring af afdøde. Jeg aftaler tiderne med kirke, kapel og kirkegård og holder jer orienteret undervejs." },
               { key: "begravelse" as const, title: "Begravelse", price: "Fra 19.300 kr.", text: "Ceremoni, hvorefter kisten sænkes i jorden. Jeg sørger for det samme som ved en bisættelse, plus koordinering med kirkegården om gravsted, gravning og tidspunkt for jordfæstelsen. I taler med mig hele vejen — fra den første samtale til selve afskeden." },
             ]).map((opt) => (
               <label key={opt.key} style={{ display: "block", background: base === opt.key ? "#f0f7f3" : "#fff", border: `1.5px solid ${base === opt.key ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "20px 24px", cursor: "pointer" }}>
@@ -309,7 +309,7 @@ export default function KimPrisberegner() {
                 {total.toLocaleString("da-DK")} kr.
               </p>
               <p style={{ ...s.body, fontSize: "15px", maxWidth: "560px", margin: "0 auto 20px" }}>
-                Inkluderer mit arbejde som beskrevet ovenfor — herunder koordinering, planlægning, transport, dødsanmeldelse og kontakt til kirke, kapel, krematorium og kirkegård.
+                Inkluderer mit arbejde som beskrevet ovenfor — herunder koordinering, planlægning, transport, anmodning om begravelse eller ligbrænding og kontakt til kirke, kapel, krematorium og kirkegård.
               </p>
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "0 auto" }}>
                 Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter. Disse beløb er ikke med i overslaget.

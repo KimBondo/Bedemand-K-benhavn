@@ -22,7 +22,7 @@ export default function KimHumlebaek() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Humlebæk – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Humlebæk og Fredensborg Kommune. Ring til mig på 28 14 60 11."
+        description="Personlig bedemand i Humlebæk. Humlebæk Kirke, Humlebæk Kirkegård og Torpen Kapel. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/humlebaek/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

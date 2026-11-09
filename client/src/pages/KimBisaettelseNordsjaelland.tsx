@@ -18,7 +18,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvad koster en bisættelse i Nordsjælland?", answer: "Hos mig starter en bisættelse med ceremoni ved 18.300 kr. En afsked uden ceremoni starter ved 13.550 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
-  { question: "Hvor lang tid går der fra dødsfald til bisættelse?", answer: "Hovedreglen er senest 8 dage efter dødsfaldet. Fristen kan forlænges til 14 dage, når afdøde opbevares på køl. Jeg sørger for, at tidsplanen holder." },
+  { question: "Hvor lang tid går der fra dødsfald til bisættelse?", answer: "Hovedreglen er senest 8 dage efter dødsfaldet. Fristen kan forlænges til 14 dage, når afdøde opbevares på køl. Jeg holder øje med fristerne for jer." },
   { question: "Kan ceremonien holdes lokalt, selv om kremeringen sker et andet sted?", answer: "Ja. Ceremonien holdes i jeres egen kirke eller det lokale kapel. Det er kun selve kremeringen, der foregår et andet sted, og transporten sørger jeg for." },
 ];
 
@@ -80,10 +80,10 @@ export default function KimBisaettelseNordsjaelland() {
 
           <h2 style={s.h2}>Sådan forløber det</h2>
           <p style={s.body}>
-            Jeg anmelder dødsfaldet, koordinerer med præst eller kirkekontor, booker kapel eller kirke og sørger for transport til og fra ceremonien. Efter ceremonien sørger jeg for transporten til krematoriet.
+            Jeg sender anmodningen om ligbrænding til sognet, koordinerer med præst eller kirkekontor, booker kapel eller kirke og sørger for transport til og fra ceremonien. Efter ceremonien sørger jeg for transporten til krematoriet.
           </p>
           <p style={s.body}>
-            I taler med mig hele vejen. Der er ingen omstilling og ingen sagsbehandler – bare mig, fra det første opkald til urnenedsættelsen.
+            I taler med mig hele vejen, fra det første opkald til urnenedsættelsen.
           </p>
 
           <h2 style={s.h2}>Priser</h2>

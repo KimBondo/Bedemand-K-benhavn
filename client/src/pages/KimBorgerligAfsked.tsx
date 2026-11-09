@@ -24,7 +24,7 @@ export default function KimBorgerligAfsked() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Borgerlig afsked – Bedemand Kim Bondo"
-        description="Borgerlig begravelse eller bisættelse uden kirke i København. Jeg hjælper med alt det praktiske. Ring til mig på 28 14 60 11."
+        description="Borgerlig begravelse eller bisættelse uden kirke i København. Jeg hjælper med det praktiske. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/borgerlig-afsked/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -40,7 +40,7 @@ export default function KimBorgerligAfsked() {
           { question: "Hvem kan lede en borgerlig ceremoni?", answer: "Ceremonien kan ledes af en person fra familien, en nær ven eller en professionel ceremonileder. Humanistisk Samfund tilbyder uddannede ceremoniledere. Jeg kan også hjælpe med at gennemføre en ceremoni, som I planlægger." },
           { question: "Kan en borgerlig afsked foregå i en kirke?", answer: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. En borgerlig ceremoni kan holdes i et kapel, hjemme eller et andet sted — men ikke i en kirke." },
           { question: "Kan en borgerlig ceremoni kombineres med askespredning?", answer: "Ja. Efter en borgerlig bisættelse kan urnen bruges til askespredning over havet. Jeg hjælper med at arrangere begge dele." },
-          { question: "Hvad koster en borgerlig afsked?", answer: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste — jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser." },
+          { question: "Hvad koster en borgerlig afsked?", answer: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste — jeg gennemgår alle udgifter med jer på forhånd." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/borgerlig-afsked"
       />
@@ -93,7 +93,7 @@ export default function KimBorgerligAfsked() {
           En personlig afsked — på jeres præmisser
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          En borgerlig afsked er fri for religiøse ritualer og kan tilpasses præcis som I ønsker det. Jeg hjælper med at skabe en ceremoni, der virkelig afspejler den afdødes liv.
+          En borgerlig afsked er fri for religiøse ritualer og kan tilpasses jeres ønsker. Jeg hjælper med at skabe en ceremoni, der afspejler afdødes liv.
         </p>
         <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Kontakt mig
@@ -119,7 +119,7 @@ export default function KimBorgerligAfsked() {
             {[
               { title: "Musik", text: "Afdødes yndlingsmusik, sange der betød noget, eller hvad I finder passende. I bestemmer selv." },
               { title: "Taler", text: "Familie og venner kan dele personlige minder og ord. Jeg hjælper med at strukturere forløbet." },
-              { title: "Blomster og dekorationer", text: "Billeder, blomster og personlige genstande kan skabe en smuk og personlig ramme." },
+              { title: "Blomster og dekorationer", text: "Billeder, blomster og personlige genstande kan skabe en personlig ramme." },
               { title: "Sted", text: "Kapel, hjemme, udendørs eller et sted med særlig betydning — I bestemmer." },
               { title: "Ceremonileder", text: "I kan vælge en fra familien, en ven eller en professionel ceremonileder til at styre forløbet." },
               { title: "Mindesamvær", text: "Mange ønsker et mindesamvær efter ceremonien. Jeg hjælper gerne med at koordinere dette." },
@@ -185,7 +185,7 @@ export default function KimBorgerligAfsked() {
             },
             {
               q: "Hvad koster en borgerlig afsked?",
-              a: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste — jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser.",
+              a: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste — jeg gennemgår alle udgifter med jer på forhånd.",
             },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>

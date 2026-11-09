@@ -23,7 +23,7 @@ export default function KimBisaettelse() {
     >
       <SEO
         title="Bisættelse i København – Bedemand Kim Bondo"
-        description="Personlig hjælp til bisættelse i København og Nordsjælland. Jeg tager mig af alt det praktiske. Ring til mig på 28 14 60 11."
+        description="Personlig hjælp til bisættelse i København og Nordsjælland. Jeg hjælper med det praktiske. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/bisaettelse/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -41,7 +41,7 @@ export default function KimBisaettelse() {
           { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni." },
           { question: "Kan man holde en bisættelse uden ceremoni?", answer: "Ja. En afsked uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et senere tidspunkt." },
           { question: "Hvad sker der med urnen efter bisættelsen?", answer: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper med at finde den løsning, der passer til afdødes og familiens ønsker." },
-          { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering. Det er et valg, mange familier sætter pris på." },
+          { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering." },
           { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter som kremering, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/bisaettelse"
@@ -208,7 +208,7 @@ export default function KimBisaettelse() {
           Mange vælger bisættelse frem for en traditionel <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi det giver større fleksibilitet i forhold til gravsted og stedfæstelse. Det er ikke en mere upersonlig afsked – det er blot en anden måde at sige farvel på.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          Jeg lægger samme omsorg og nærvær i en bisættelse som i alle andre afskeder. Ceremonien kan være kirkelig eller borgerlig, og den kan tilpasses præcis til afdødes og familiens ønsker.
+          Jeg lægger samme omsorg og nærvær i en bisættelse som i alle andre afskeder. Ceremonien kan være kirkelig eller borgerlig, og den kan tilpasses afdødes og familiens ønsker.
         </p>
       </section>
 
@@ -364,7 +364,7 @@ export default function KimBisaettelse() {
             margin: "0 auto 32px",
           }}
         >
-          Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. Jeg gennemgår alle udgifter med jer på forhånd, så der ikke er overraskelser. Mine priser starter fra <strong>13.550 kr.</strong> for en afsked uden ceremoni og fra <strong>18.300 kr.</strong> for en bisættelse med ceremoni.
+          Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. Jeg gennemgår alle udgifter med jer på forhånd. Mine priser starter fra <strong>13.550 kr.</strong> for en afsked uden ceremoni og fra <strong>18.300 kr.</strong> for en bisættelse med ceremoni.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
@@ -461,7 +461,7 @@ export default function KimBisaettelse() {
           },
           {
             q: "Kan man vælge en miljøvenlig kiste til bisættelse?",
-            a: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering. Det er et valg, mange familier sætter pris på.",
+            a: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering.",
             link: null,
             linkText: null,
           },

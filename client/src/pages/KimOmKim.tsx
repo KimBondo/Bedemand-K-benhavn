@@ -201,16 +201,16 @@ export default function KimOmKim() {
                 For mig handler arbejdet om at møde mennesker med nærvær og ro. Jeg ved, hvor vigtigt det er at kunne rumme både tårer, tavshed og et befriende smil – uden at skynde på nogen. Det er ikke en opgave for mig at hjælpe jer igennem en afsked. Det er et privilegium.
               </p>
               <p style={s.body}>
-                Det er mig, der tager telefonen – også om natten. Det er mig, der kommer hjem til jer, og mig, der selv kører rustvognen og står ved højtideligheden. Ingen omstillinger og ingen skiftende medarbejdere. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen, så I ikke skal lægge ud.
+                Det er mig, der tager telefonen – også om natten. Det er mig, der kommer hjem til jer, og mig, der selv kører rustvognen og står ved højtideligheden. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen, så I ikke skal lægge ud.
               </p>
               <p style={s.body}>
-                Bedemand København er ikke et stort begravelsesfirma, men en lille, personlig begravelsesforretning, hvor I har mig som jeres faste kontakt hele vejen.
+                Bedemand København er en lille, personlig begravelsesforretning, hvor I har mig som jeres faste kontakt hele vejen.
               </p>
               <p style={s.body}>
-                Jeg lægger stor vægt på gennemsigtighed. I får et skriftligt prisoverslag fra starten, så I aldrig er i tvivl om, hvad tingene koster, eller hvad der sker næste skridt. Så kan I bruge jeres kræfter på hinanden i stedet for på papirarbejde.
+                Jeg lægger stor vægt på gennemsigtighed. I får et skriftligt prisoverslag fra starten, så I ved, hvad tingene koster, og hvad der sker næste skridt. Så kan I bruge jeres kræfter på hinanden i stedet for på papirarbejde.
               </p>
               <p style={{ ...s.body, marginBottom: 0 }}>
-                Jeg kører i hele København, Storkøbenhavn og Nordsjælland og er altid klar til en uforpligtende samtale – ring eller skriv, når det passer jer. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>et andet sted på Sjælland</a>, hjælper jeg også gerne.
+                Jeg kører i hele København, Storkøbenhavn og Nordsjælland og I er velkomne til en uforpligtende samtale – ring eller skriv, når det passer jer. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>et andet sted på Sjælland</a>, hjælper jeg også gerne.
               </p>
             </div>
           </div>

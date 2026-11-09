@@ -18,7 +18,7 @@ export default function KimOsterbro() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Østerbro – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Østerbro. Holmens og Garnisons Kirkegård ligger i bydelen. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11."
+        description="Personlig bedemand på Østerbro. Kirkerne i bydelen og kirkegårdene tæt på. Faste priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/osterbro/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

@@ -18,7 +18,7 @@ export default function KimNorrebro() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Nørrebro – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser og ingen mellemled. Ring til mig på 28 14 60 11."
+        description="Personlig bedemand på Nørrebro. Assistens Kirkegård ligger midt i bydelen. Faste priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/norrebro/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

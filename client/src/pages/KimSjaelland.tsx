@@ -100,7 +100,7 @@ export default function KimSjaelland() {
             <strong>Samme faste priser.</strong> Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og afsked uden ceremoni 13.550 kr. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
           </p>
           <p style={s.body}>
-            <strong>Ærlig om kørslen.</strong> Rustvognen koster 1.595 kr. inkl. de første 25 km og derefter 35 kr. pr. km. I København og Nordsjælland er der et loft på 2.000 kr. pr. kørsel. Uden for København og Nordsjælland er der intet loft. Et eksempel: en kørsel på 60 km koster 2.820 kr. Jeg regner det altid ud for jer på forhånd.
+            <strong>Kørsel.</strong> Rustvognen koster 1.595 kr. inkl. de første 25 km og derefter 35 kr. pr. km. I København og Nordsjælland er der et loft på 2.000 kr. pr. kørsel. Uden for København og Nordsjælland er der intet loft. Et eksempel: en kørsel på 60 km koster 2.820 kr. Jeg regner det ud for jer på forhånd.
           </p>
           <p style={s.body}>
             Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> – også om natten.

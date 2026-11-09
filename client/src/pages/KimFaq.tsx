@@ -27,19 +27,19 @@ const FAQ_SECTIONS = [
     items: [
       { q: "Hvad laver en bedemand?", a: "En bedemand hjælper de pårørende med alt det praktiske i forbindelse med et dødsfald — fra afhentning af afdøde, koordinering med kirke, krematorium og myndigheder, til valg af kiste eller urne og planlægning af ceremonien. Jeg er med jer hele vejen.", link: null },
       { q: "Hvornår skal jeg kontakte en bedemand?", a: "Du kan kontakte mig, så snart du har behov — enten umiddelbart efter dødsfaldet eller allerede inden, hvis du ved, at det nærmer sig. Jeg er tilgængelig døgnet rundt på 28 14 60 11.", link: null },
-      { q: "Hvad sker der, når jeg ringer til dig?", a: "Jeg tager telefonen personligt. Vi taler om situationen, og jeg guider jer igennem de første skridt. Der er ingen forpligtelse ved at ringe — bare menneskelig kontakt.", link: null },
-      { q: "Hjælper bedemanden med papirarbejdet?", a: "Ja. Jeg står for al koordinering. Jeg udarbejder et prisoverslag, anmelder dødsfaldet, henter dødsattesten og kontakter kirke, kirkegård og krematorium. Jeg henviser jer til præsten om selve højtideligheden og træffer aftaler med blomsterhandler, trykkeri, aviser, stenhugger, organist og kor. Jeg lægger ud for leverandørerne, søger begravelseshjælp på jeres vegne og aftaler urnenedsættelsen med jer og kirkegården.", link: "/priser/" },
+      { q: "Hvad sker der, når jeg ringer til dig?", a: "Jeg tager telefonen personligt. Vi taler om situationen, og jeg guider jer igennem de første skridt. Der er ingen forpligtelse ved at ringe.", link: null },
+      { q: "Hjælper bedemanden med papirarbejdet?", a: "Ja. Jeg står for al koordinering. Jeg udarbejder et prisoverslag, sender anmodningen om begravelse eller ligbrænding, når lægen har udstedt dødsattesten, og kontakter kirke, kirkegård og krematorium. Jeg henviser jer til præsten om selve højtideligheden og træffer aftaler med blomsterhandler, trykkeri, aviser, stenhugger, organist og kor. Jeg lægger ud for leverandørerne, søger begravelseshjælp på jeres vegne og aftaler urnenedsættelsen med jer og kirkegården.", link: "/priser/" },
       { q: "Kan jeg planlægge begravelsen på forhånd?", a: "Ja. Mange vælger at planlægge deres egen afsked på forhånd, så de pårørende slipper for at træffe svære beslutninger i en svær tid. Jeg tilbyder et gratis hjemmebesøg, Min Sidste Vilje, hvor vi skriver jeres ønsker ned – uden forpligtelse. Ring til mig, så taler vi om mulighederne.", link: "/min-sidste-vilje/" },
     ],
   },
   {
     title: "Typer af afsked",
     items: [
-      { q: "Hvad er forskellen på bisættelse og begravelse?", a: "Ved en bisættelse kremeres afdøde — asken kan efterfølgende nedsættes på en kirkegård, spredes over havet eller opbevares. Ved en begravelse sættes kisten i jord på en kirkegård. Begge kan have kirkelig eller borgerlig ceremoni.", link: "/bisaettelse/" },
-      { q: "Hvad er en afsked uden ceremoni?", a: "En afsked uden ceremoni er den mest enkle form for afsked, hvor afdøde køres direkte til krematoriet uden en formel ceremoni. Det er den enkleste løsning og vælges ofte, hvis afdøde ønskede det enkelt.", link: "/afsked-uden-ceremoni/" },
+      { q: "Hvad er forskellen på bisættelse og begravelse?", a: "Ved en bisættelse kremeres afdøde — asken skal efterfølgende nedsættes på en kirkegård eller spredes over åbent hav efter tilladelse. Asken må ikke opbevares hjemme. Ved en begravelse sættes kisten i jord på en kirkegård. Begge kan have kirkelig eller borgerlig ceremoni.", link: "/bisaettelse/" },
+      { q: "Hvad er en afsked uden ceremoni?", a: "En afsked uden ceremoni er den mest enkle form for afsked, hvor afdøde køres direkte til krematoriet uden en formel ceremoni. Den vælges ofte, hvis afdøde ønskede det enkelt.", link: "/afsked-uden-ceremoni/" },
       { q: "Hvad er en borgerlig ceremoni?", a: "En borgerlig ceremoni er en afsked uden religiøse ritualer. I bestemmer selv indholdet — musik, taler, tekster — og ceremonien holdes typisk i et kapel eller en anden egnet ramme.", link: "/borgerlig-afsked/" },
       { q: "Hvad er en kirkelig ceremoni?", a: "En kirkelig ceremoni følger den danske folkekirkes ritualer med jordpåkastelse, salmer og præst. Ceremonien holdes typisk i en kirke, men kan også holdes i et kapel.", link: "/kirkelig-afsked/" },
-      { q: "Hvad er askespredning, og hvem kan vælge det?", a: "Askespredning betyder, at asken spredes over åbent hav. Det er ikke tilladt at sprede aske på land, i skove, søer eller vandløb. Der skal ikke søges tilladelse, men afdøde skal have ønsket det — det bekræftes med en tro og love-erklæring, som jeg hjælper jer med.", link: "/askespredning/" },
+      { q: "Hvad er askespredning, og hvem kan vælge det?", a: "Askespredning betyder, at asken spredes over åbent hav. Det er ikke tilladt at sprede aske på land, i skove, søer eller vandløb. Afdøde skal have ønsket det, som udgangspunkt skriftligt, og ønsket skal godkendes sammen med anmodningen om ligbrænding. Jeg hjælper jer med det.", link: "/askespredning/" },
     ],
   },
   {
@@ -48,10 +48,10 @@ const FAQ_SECTIONS = [
       { q: "Hvad koster en begravelse?", a: "Mit honorar er 3.500 kr. ved afsked uden ceremoni og 4.500 kr. ved begravelse eller bisættelse med ceremoni. Den samlede pakkepris – inkl. kiste, urne (ved bisættelse), transport og koordinering – starter fra 13.550 kr. (uden ceremoni), 18.300 kr. (bisættelse med ceremoni) og 19.300 kr. (begravelse i kiste). Dertil kommer udgifter til kremering, gravsted, blomster og kapelleje.", link: "/hvad-koster-en-begravelse/" },
       { q: "Hvad er ikke inkluderet i prisen?", a: "Gravsten, gravsted, leje af kapel, kisteophold, urnenedsættelse og kremering er ikke en del af mit honorar. Jeg hjælper med at indhente tilbud og holde overblikket over alle udgifter.", link: "/priser/" },
       { q: "Hvad er begravelseshjælp?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Tilskuddet afhænger af afdødes formue. Jeg hjælper med ansøgningen.", link: "/begravelseshjaelp/" },
-      { q: "Er der ekstra betaling i weekenden?", a: "Ja — der er et fast tillæg på 800 kr. pr. udkald efter kl. 16 på hverdage samt i weekender og på helligdage. Det fremgår tydeligt af prislisten.", link: "/priser/" },
+      { q: "Er der ekstra betaling i weekenden?", a: "Ja — der er et fast tillæg på 800 kr. pr. udkald efter kl. 16 på hverdage samt i weekender og på helligdage. Det står på prislisten.", link: "/priser/" },
       { q: "Hvad er prisen på en bisættelse?", a: "En bisættelse hos mig koster fra 18.300 kr. Ønsker I den enkleste løsning – en bisættelse uden ceremoni – koster den 13.550 kr. Jeg søger begravelseshjælpen for jer, og den trækkes fra fakturaen.", link: "/priser/" },
       { q: "Hvad koster en bedemand i Nordsjælland?", a: "Det samme som i København. Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og afsked uden ceremoni 13.550 kr. En rustvognskørsel koster 1.595 kr. inkl. 25 km, derefter 35 kr. pr. km og højst 2.000 kr. pr. kørsel i hele København og Nordsjælland – uanset om I bor i Valby eller i en af byerne på Nordkysten. Uden for København og Nordsjælland – fx på resten af Sjælland, Fyn eller i Jylland – gælder samme pris på 1.595 kr. inkl. 25 km og derefter 35 kr. pr. km, men uden loft på 2.000 kr.", link: "/nordsjaelland/" },
-      { q: "Kan jeg få en fast pris på forhånd?", a: "Ja. Mit honorar er fast og gennemsigtigt. Du ved præcis, hvad du betaler for, inden du underskriver noget.", link: "/priser/" },
+      { q: "Kan jeg få en fast pris på forhånd?", a: "Ja. Mit honorar er fast og står på prislisten. Du kender prisen, inden du underskriver noget.", link: "/priser/" },
     ],
   },
   {
@@ -59,7 +59,7 @@ const FAQ_SECTIONS = [
     items: [
       { q: "Hvad skal jeg gøre, når nogen dør?", a: "Første skridt er at kontakte en læge, der kan konstatere dødsfaldet og udstede en dødsattest. Derefter kontakter du mig, og jeg guider dig igennem resten.", link: "/hvad-sker-der/" },
       { q: "Hvad skal jeg huske at ordne efter et dødsfald?", a: "Der er mange praktiske ting at ordne — fra myndighederne og banken til opsigelse af abonnementer. Jeg har lavet en huskeliste, der guider dig igennem de vigtigste trin.", link: "/huskeliste/" },
-      { q: "Hvor hurtigt skal en begravelse finde sted?", a: "Hovedreglen er, at begravelse eller bisættelse skal finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Kirkegården eller krematoriet kan forlænge fristen til 14 dage, når afdøde opbevares på køl, og det er almindeligt i praksis. Jeg sørger for det hele, så I ikke skal tænke på fristerne.", link: "/huskeliste/" },
+      { q: "Hvor hurtigt skal en begravelse finde sted?", a: "Hovedreglen er, at begravelse eller bisættelse skal finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Kirkegården eller krematoriet kan forlænge fristen til 14 dage, når afdøde opbevares på køl, og det er almindeligt i praksis. Jeg holder øje med fristerne for jer.", link: "/huskeliste/" },
       { q: "Hvad gør man, hvis dødsfaldet sker i hjemmet?", a: "Ring til afdødes egen læge eller til 1813 uden for lægens åbningstid. Lægen skal konstatere dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig på 28 14 60 11. Der er ingen hast; afdøde kan godt blive hjemme et stykke tid, hvis I ønsker at sige farvel i ro. Afhentning i et privat hjem koster 1.200 kr. ekstra.", link: "/huskeliste/" },
       { q: "Hvad gør man, hvis dødsfaldet sker på hospitalet?", a: "Personalet sørger for lægen og dødsattesten, og afdøde kan blive på hospitalet, indtil jeg henter. I skal blot ringe til mig, så aftaler vi det videre.", link: "/huskeliste/" },
       { q: "Kan man selv vælge kirkegård?", a: "Man har ret til at blive begravet eller få urnen nedsat på kirkegården i det sogn, hvor man boede. Man kan også vælge et andet sogn, hvis man har en særlig tilknytning dertil – fx hvis man har boet der, har nær familie der, eller hvis forældre, ægtefælle eller børn ligger begravet der. På kirkegårde, som drives af menighedsrådet, kan prisen være højere for dem, der ikke var medlem af folkekirken. Jeg hjælper jer med at finde ud af, hvad der er muligt.", link: null },
@@ -76,7 +76,7 @@ export default function KimFaq() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="FAQ – Begravelse og bisættelse, Kim Bondo"
-        description="Svar på de mest stillede spørgsmål om begravelse, bisættelse, priser og begravelseshjælp. Ring til mig på 28 14 60 11."
+        description="Svar på de spørgsmål, jeg oftest får, om begravelse, bisættelse, priser og begravelseshjælp. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/faq/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -137,7 +137,7 @@ export default function KimFaq() {
           Spørgsmål og svar om begravelse og bisættelse
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "600px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Her har jeg samlet svar på de spørgsmål, jeg oftest får. Finder du ikke svar på dit spørgsmål, er du altid velkommen til at ringe.
+          Her har jeg samlet svar på de spørgsmål, jeg oftest får. Finder du ikke svar på dit spørgsmål, er du velkommen til at ringe.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på 28 14 60 11</a>
       </section>

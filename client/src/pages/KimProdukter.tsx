@@ -101,7 +101,7 @@ const URNER = [
     imgW: 1280,
     imgH: 1919,
     alt: "Askerør Solnedgang – biologisk nedbrydeligt askerør i genanvendt karton til askespredning",
-    description: "Dette askerør er fremstillet i genanvendt karton og pap. Materialet er biologisk nedbrydeligt og egner sig til askespredning, enten til vands eller som en del af en ceremoni. Det enkle udtryk gør det til et fint valg til en personlig og værdig afsked.",
+    description: "Dette askerør er fremstillet i genanvendt karton og pap. Materialet er biologisk nedbrydeligt og egner sig til askespredning, enten til vands eller som en del af en ceremoni.",
   },
   {
     id: "creme-natur-biourn",
@@ -260,7 +260,7 @@ export default function KimProdukter() {
           <p style={s.label}>Kister</p>
           <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine kister</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Jeg tilbyder et udvalg af kister i forskellige materialer og udtryk. Alle kister er af høj kvalitet og vælges med omhu. Har I spørgsmål til et bestemt produkt, er I altid velkomne til at ringe.
+            Jeg tilbyder et udvalg af kister i forskellige materialer og udtryk. Kisterne er valgt med omhu. Har I spørgsmål til et bestemt produkt, er I velkomne til at ringe.
           </p>
           <div
             style={{
@@ -386,7 +386,7 @@ export default function KimProdukter() {
           </p>
           <h2 style={{ ...s.h2, fontSize: "clamp(20px, 2.6vw, 26px)", margin: "40px 0 12px" }}>Salmeark og sangark</h2>
           <p style={s.body}>
-            Jeg laver salmeark eller sangark med billede og navn, så I har et smukt minde fra dagen, uanset om det er en kirkelig eller borgerlig afsked.
+            Jeg laver salmeark eller sangark med billede og navn, så I har et minde fra dagen, uanset om det er en kirkelig eller borgerlig afsked.
           </p>
           <h2 style={{ ...s.h2, fontSize: "clamp(20px, 2.6vw, 26px)", margin: "40px 0 12px" }}>Rustvogn</h2>
           <p style={s.body}>

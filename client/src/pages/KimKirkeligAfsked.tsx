@@ -40,7 +40,7 @@ export default function KimKirkeligAfsked() {
           { question: "Kan man holde ceremonien i en anden kirke end den lokale?", answer: "Ja, det er muligt, hvis der er en særlig tilknytning til den ønskede kirke — f.eks. tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Præsten vurderer tilknytningen." },
           { question: "Kan en kirkelig ceremoni kombineres med askespredning?", answer: "Ja. Efter en kirkelig bisættelse kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det. Jeg hjælper med at arrangere begge dele." },
           { question: "Er ceremonien i kirken gratis?", answer: "Var afdøde medlem af Folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd." },
-          { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde den bedste løsning." },
+          { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde en løsning, der passer jer." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/kirkelig-afsked"
       />
@@ -121,7 +121,7 @@ export default function KimKirkeligAfsked() {
               { title: "Salmer", text: "Familien vælger salmerne i samarbejde med præsten — gerne sange der betød noget for afdøde." },
               { title: "Prædiken", text: "Præsten mindes afdøde og taler om tro, håb og livet. Indholdet aftales på forhånd." },
               { title: "Jordpåkastelse", text: "Et centralt ritual, hvor præsten kaster jord på kisten med ordene 'Af jord er du kommet, til jord skal du blive'." },
-              { title: "Postludium", text: "Udgangsmusik, der afslutter ceremonien med en respektfuld og smuk tone." },
+              { title: "Postludium", text: "Udgangsmusik, der afslutter ceremonien." },
               { title: "Mindesamvær", text: "Mange familier holder et mindesamvær efter ceremonien — jeg hjælper gerne med at koordinere dette." },
             ].map((item) => (
               <div key={item.title} style={{ borderTop: "2px solid #3D6B4F", paddingTop: "20px" }}>
@@ -205,7 +205,7 @@ export default function KimKirkeligAfsked() {
             },
             {
               q: "Kan ceremonien foregå i et kapel i stedet for kirken?",
-              a: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde den bedste løsning.",
+              a: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde en løsning, der passer jer.",
             },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>

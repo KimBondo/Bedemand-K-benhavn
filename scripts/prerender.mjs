@@ -83,7 +83,7 @@ const ROUTE_META = {
   },
   "/amager": {
     title: "Bedemand Amager \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 Amager, i T\u00e5rnby og Drag\u00f8r. Faste priser og ingen mellemled. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand p\u00e5 Amager, i T\u00e5rnby og Drag\u00f8r. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/askespredning": {
     title: "Askespredning \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
@@ -95,23 +95,23 @@ const ROUTE_META = {
   },
   "/begravelseshjaelp": {
     title: "Begravelseshj\u00e6lp \u2013 s\u00f8g tilskud, Kim Bondo",
-    description: "F\u00e5 hj\u00e6lp til at s\u00f8ge begravelseshj\u00e6lp fra det offentlige. Tilskud fra 1.050\u201313.550 kr. Jeg hj\u00e6lper jer med ans\u00f8gningen. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Jeg s\u00f8rger for ans\u00f8gningen om begravelseshj\u00e6lp for jer. I 2026 er tilskuddet op til 13.550 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/bisaettelse": {
     title: "Bis\u00e6ttelse i K\u00f8benhavn \u2013 Bedemand Kim Bondo",
-    description: "Personlig hj\u00e6lp til bis\u00e6ttelse i K\u00f8benhavn og Nordsj\u00e6lland. Jeg tager mig af alt det praktiske. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig hj\u00e6lp til bis\u00e6ttelse i K\u00f8benhavn og Nordsj\u00e6lland. Jeg hj\u00e6lper med det praktiske. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/borgerlig-afsked": {
     title: "Borgerlig afsked \u2013 Bedemand Kim Bondo",
-    description: "Borgerlig begravelse eller bis\u00e6ttelse uden kirke i K\u00f8benhavn. Jeg hj\u00e6lper med alt det praktiske. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Borgerlig begravelse eller bis\u00e6ttelse uden kirke i K\u00f8benhavn. Jeg hj\u00e6lper med det praktiske. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/faq": {
     title: "FAQ \u2013 Begravelse og bis\u00e6ttelse, Kim Bondo",
-    description: "Svar p\u00e5 de mest stillede sp\u00f8rgsm\u00e5l om begravelse, bis\u00e6ttelse, priser og begravelseshj\u00e6lp. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Svar p\u00e5 de sp\u00f8rgsm\u00e5l, jeg oftest f\u00e5r, om begravelse, bis\u00e6ttelse, priser og begravelseshj\u00e6lp. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/frederiksberg": {
     title: "Bedemand Frederiksberg \u2013 Kim Bondo",
-    description: "Personlig bedemand p\u00e5 Frederiksberg. Kommunens tre kirkeg\u00e5rde. Faste priser og ingen mellemled. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand p\u00e5 Frederiksberg. Kommunens tre kirkeg\u00e5rde. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/gentofte": {
     title: "Bedemand Gentofte \u2013 Kim Bondo, d\u00f8gnet rundt",
@@ -119,7 +119,7 @@ const ROUTE_META = {
   },
   "/helsingor": {
     title: "Bedemand Helsing\u00f8r \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Helsing\u00f8r, Snekkersten, Esperg\u00e6rde og Hornb\u00e6k. Faste priser og ingen mellemled. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand i Helsing\u00f8r, Snekkersten, Esperg\u00e6rde og Hornb\u00e6k. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hillerod": {
     title: "Bedemand Hiller\u00f8d \u2013 Kim Bondo, d\u00f8gnet rundt",
@@ -127,7 +127,7 @@ const ROUTE_META = {
   },
   "/horsholm": {
     title: "Bedemand H\u00f8rsholm \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i H\u00f8rsholm, Rungsted og Kokkedal. Kapellet p\u00e5 H\u00f8rsholm Kirkeg\u00e5rd kan benyttes af alle. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand i H\u00f8rsholm og Rungsted. Kapellet p\u00e5 H\u00f8rsholm Kirkeg\u00e5rd kan benyttes af alle. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/mindeord": {
     title: "Mindeord og tale ved begravelse \u2013 skabelon og eksempel",
@@ -135,7 +135,7 @@ const ROUTE_META = {
   },
   "/huskeliste": {
     title: "Huskeliste ved d\u00f8dsfald \u2013 Bedemand Kim Bondo",
-    description: "Hvad skal du g\u00f8re, n\u00e5r en n\u00e6rtst\u00e5ende d\u00f8r? Min trin-for-trin huskeliste hj\u00e6lper dig i den sv\u00e6re tid. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Hvad skal I g\u00f8re, n\u00e5r en n\u00e6rtst\u00e5ende d\u00f8r? En huskeliste trin for trin \u2013 og hvad jeg hj\u00e6lper med. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hvad-koster-en-begravelse": {
     title: "Hvad koster en begravelse i 2026? \u2013 Kim Bondo",
@@ -147,7 +147,7 @@ const ROUTE_META = {
   },
   "/lyngby": {
     title: "Bedemand Lyngby \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Lyngby, Virum, Sorgenfri og Taarb\u00e6k. Faste priser og ingen mellemled. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand i Lyngby, Virum, Sorgenfri og Taarb\u00e6k. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/nordsjaelland": {
     title: "Bedemand Nordsj\u00e6lland \u2013 Kim Bondo, d\u00f8gnet rundt",
@@ -155,7 +155,7 @@ const ROUTE_META = {
   },
   "/norrebro": {
     title: "Bedemand N\u00f8rrebro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 N\u00f8rrebro. Assistens Kirkeg\u00e5rd ligger midt i bydelen. Faste priser og ingen mellemled. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand p\u00e5 N\u00f8rrebro. Assistens Kirkeg\u00e5rd ligger midt i bydelen. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/om-kim": {
     title: "Om Kim Bondo \u2013 Personlig bedemand, K\u00f8benhavn",
@@ -167,7 +167,7 @@ const ROUTE_META = {
   },
   "/osterbro": {
     title: "Bedemand \u00d8sterbro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 \u00d8sterbro. Holmens og Garnisons Kirkeg\u00e5rd ligger i bydelen. Faste priser og ingen mellemled. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand p\u00e5 \u00d8sterbro. Kirkerne i bydelen og kirkeg\u00e5rdene t\u00e6t p\u00e5. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/fredensborg": {
     title: "Bedemand Fredensborg \u2013 Kim Bondo, d\u00f8gnet rundt",
@@ -175,7 +175,7 @@ const ROUTE_META = {
   },
   "/rudersdal": {
     title: "Bedemand Rudersdal \u2013 Birker\u00f8d, Holte, N\u00e6rum, Vedb\u00e6k",
-    description: "Personlig bedemand i Birker\u00f8d, Holte, N\u00e6rum og Vedb\u00e6k. Rudersdals fem kirkeg\u00e5rde er kommunale. Faste priser og ingen mellemled. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand i Birker\u00f8d, Holte, N\u00e6rum og Vedb\u00e6k. Rudersdals fem kirkeg\u00e5rde er kommunale. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/min-sidste-vilje": {
     title: "Min Sidste Vilje \u2013 skema og \u00f8nsker til egen begravelse",
@@ -183,11 +183,11 @@ const ROUTE_META = {
   },
   "/hornbaek": {
     title: "Bedemand Hornb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Hornb\u00e6k og Helleb\u00e6k. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand i Hornb\u00e6k. Hornb\u00e6k Kirke og de to kirkeg\u00e5rde. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/gilleleje": {
     title: "Bedemand Gilleleje \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Gilleleje og Gribskov. Jeg kender Gilleleje Kirke, S\u00f8borg Kirke og kirkeg\u00e5rdene. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand i Gilleleje, Gr\u00e6sted, Vejby og Blistrup. Kirkerne og kirkeg\u00e5rdene i omr\u00e5det. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/alsgaarde": {
     title: "Bedemand \u00c5lsg\u00e5rde \u2013 Kim Bondo, d\u00f8gnet rundt",
@@ -195,15 +195,15 @@ const ROUTE_META = {
   },
   "/humlebaek": {
     title: "Bedemand Humleb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand i Humleb\u00e6k og Fredensborg Kommune. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand i Humleb\u00e6k. Humleb\u00e6k Kirke, Humleb\u00e6k Kirkeg\u00e5rd og Torpen Kapel. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",
-    description: "F\u00e5 et vejledende overslag p\u00e5 begravelse eller bis\u00e6ttelse. Faste priser og gennemsigtighed. Ring til mig p\u00e5 28 14 60 11.",
+    description: "F\u00e5 et vejledende overslag p\u00e5 begravelse eller bis\u00e6ttelse ud fra mine faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hvad-sker-der": {
     title: "Hvad sker der, når nogen dør? – Praktisk guide | Kim Bondo",
-    description: "Oversigt over de f\u00f8rste skridt ved d\u00f8dsfald i K\u00f8benhavn og Nordsj\u00e6lland. L\u00e6ge, d\u00f8dsattest, anmeldelse, krematorium og priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "De f\u00f8rste skridt ved d\u00f8dsfald: l\u00e6ge og d\u00f8dsattest, anmodning om begravelse eller ligbr\u00e6nding og priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/bisaettelse-nordsjaelland": {
     title: "Sådan forløber en bisættelse i Nordsjælland | Kim Bondo",
@@ -215,7 +215,7 @@ const ROUTE_META = {
   },
   "/priser": {
     title: "Priser \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser samlet \u00e9t sted. Ingen skjulte gebyrer. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bis\u00e6ttelse fra 18.300 kr., begravelse fra 19.300 kr. Alle enkeltpriser og till\u00e6g samlet \u00e9t sted. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/produkter": {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",
@@ -237,7 +237,7 @@ const ROUTE_META = {
   },
   "/vesterbro": {
     title: "Bedemand Vesterbro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Personlig bedemand p\u00e5 Vesterbro og i Kgs. Enghave. Vestre Kirkeg\u00e5rd og Nordre Kapel ligger i bydelen. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Personlig bedemand p\u00e5 Vesterbro. Kirkerne i bydelen, og Vestre Kirkeg\u00e5rd ligger t\u00e6t p\u00e5. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
   },
 };
 
