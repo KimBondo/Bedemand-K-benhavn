@@ -216,7 +216,7 @@ export default function KimPriser() {
             "Klassisk hvid kiste — vælger I basiskisten, sparer I 500 kr.",
             "Natururne — vælger I en anden urne, betaler I kun forskellen",
             "Klargøring, påklædning og ilægning i kiste",
-            "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet",
+            "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til krematoriet. Bliver der brug for færre, trækkes 1.595 kr. fra pr. kørsel",
             "Kontakt til kordegn, præst, krematorium og kirkegård",
             "Anmodning om begravelse eller ligbrænding til afdødes sogn",
             "Ansøgning om begravelseshjælp på jeres vegne",
@@ -237,7 +237,7 @@ export default function KimPriser() {
             "Møde hjemme hos jer eller på telefon",
             "Klassisk hvid kiste — vælger I basiskisten, sparer I 1.000 kr.",
             "Klargøring, påklædning og ilægning i kiste",
-            "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til graven",
+            "Tre rustvognskørsler: til kisteophold, videre til ceremonien og derfra til graven. Bliver der brug for færre, trækkes 1.595 kr. fra pr. kørsel",
             "Kontakt til kordegn, præst og kirkegård",
             "Anmodning om begravelse eller ligbrænding til afdødes sogn",
             "Ansøgning om begravelseshjælp på jeres vegne",
@@ -264,7 +264,7 @@ export default function KimPriser() {
               "Klassisk hvid kiste — vælger I basiskisten, sparer I 500 kr.",
               "Natururne — vælger I en anden urne, betaler I kun forskellen",
               "Klargøring, påklædning og ilægning i kiste",
-              "Rustvognskørsel til krematoriet",
+              "Én rustvognskørsel til krematoriet",
               "Kontakt til kordegn, krematorium og kirkegård",
               "Anmodning om begravelse eller ligbrænding til afdødes sogn",
               "Ansøgning om begravelseshjælp på jeres vegne",
@@ -303,7 +303,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Aften, weekend og helligdage</h2>
           <p style={s.body}>
-            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Det koster mig mere, og derfor er der et fast tillæg på 800 kr. pr. udkald – altså pr. gang, jeg rykker ud uden for normal arbejdstid, uanset hvor mange kørsler der indgår. Tillægget gælder efter kl. 16 på hverdage samt i weekender og på helligdage. Falder afhentningen og den første kørsel uden for arbejdstiden, er tillægget altså 800 kr. i alt.
+            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Derfor er der et tillæg på 800 kr. pr. udkald, når der køres efter kl. 16 på hverdage, i weekender og på helligdage – fx en afhentning om aftenen eller en bisættelse om lørdagen. Tillægget gælder kun kørslen. Der er ikke tillæg på andet.
           </p>
           <p style={s.body}>
             Det står her, så I kan regne det ud selv.
@@ -386,8 +386,8 @@ export default function KimPriser() {
           <PriceTable rows={[
             ["Klargøring af kiste, afhentning og ilægning", "2.500 kr."],
             ["Tillæg ved afhentning i private hjem", "1.200 kr."],
-            ["Rustvognskørsel, én kørsel inkl. 25 km", "1.595 kr."],
-            ["Herefter pr. km", "35 kr."],
+            ["Rustvognskørsel, én kørsel inkl. de første 25 km fra Søborg", "1.595 kr."],
+            ["Herefter pr. km (kun den ene vej, ad den billigste rute)", "35 kr."],
             ["Højst pr. kørsel i hele København og Nordsjælland", "2.000 kr."],
             ["Rustvognskørsel uden for København og Nordsjælland (fx resten af Sjælland, Fyn og Jylland)", "1.595 kr. inkl. 25 km, derefter 35 kr. pr. km, uden loft"],
             ["Urnekørsel fra krematorie til kirkegårdskontor", "900 kr."],
@@ -395,15 +395,15 @@ export default function KimPriser() {
           ]} />
           <p style={{ ...s.small, fontStyle: "italic", marginBottom: "32px" }}>Fast tillæg på 800 kr. pr. udkald efter kl. 16 på hverdage samt i weekender og på helligdage.</p>
           <div style={{ background: "#f0f7f3", borderLeft: "3px solid #3D6B4F", borderRadius: "3px", padding: "24px 24px 8px", marginBottom: "32px" }}>
-            <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46" }}>Kørsel – højst 2.000 kr. pr. kørsel</p>
+            <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46" }}>Sådan regner jeg kørslen</p>
             <p style={s.body}>
-              En kørsel med rustvognen koster 1.595 kr. inklusive de første 25 km. Kører vi længere, koster det 35 kr. pr. km – men højst 2.000 kr. pr. kørsel, uanset hvor i København og Nordsjælland I bor. Så ved I på forhånd, hvad transporten højst kan koste, også hvis der er langt fra kirken til krematoriet eller kirkegården.
+              Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Jeg regner prisen ud for jer, inden vi kører.
             </p>
             <p style={s.body}>
-              Uden for København og Nordsjælland – fx på resten af Sjælland, Fyn eller i Jylland – gælder samme pris på 1.595 kr. inkl. 25 km og derefter 35 kr. pr. km, men uden loft på 2.000 kr. Jeg regner prisen ud for jer, inden vi kører.
+              Pakkerne med ceremoni har tre rustvognskørsler. Bliver der brug for færre, trækkes 1.595 kr. fra for hver kørsel, der ikke bliver brugt.
             </p>
             <p style={s.body}>
-              I mine faste pakker er de kørsler, der skal til, allerede regnet med.
+              Eksempel: Afdøde hentes på kapellet og køres direkte til ceremonien og derfra til krematoriet. Det er to kørsler, så der trækkes 1.595 kr. fra pakkeprisen.
             </p>
           </div>
 

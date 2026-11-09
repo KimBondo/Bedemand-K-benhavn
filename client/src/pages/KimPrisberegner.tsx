@@ -62,8 +62,22 @@ const ADDONS = [
   // Blomsterkørsel: når blomsterne skal flyttes fra kirken til kirkegården eller en anden kirkegård, og kirken ikke sørger for det
   { id: "blomsterkoersel", label: "Blomsterkørsel og udlægning på kirkegård", price: 900, note: "Når blomsterne skal flyttes fra kirken til kirkegården eller en anden kirkegård, og kirken ikke sørger for det." },
   { id: "privat-hjem", label: "Afhentning i et privat hjem", price: 1200 },
-  { id: "efter-16", label: "Afhentning efter kl. 16, i weekenden eller på en helligdag", price: 800 },
+  // Tillæg pr. udkald uden for normal arbejdstid (kun kørsel har tillæg) – kan vælges flere gange
+  { id: "efter-16", label: "Kørsel efter kl. 16, i weekenden eller på en helligdag", price: 800, quantity: true, note: "800 kr. pr. udkald – fx en afhentning om aftenen eller en bisættelse om lørdagen. Der er kun tillæg på kørslen. Vælg antallet af udkald." },
 ] as const;
+
+/** Kørselsvilkår: afstand fra kontoret i Søborg, kun den ene vej. */
+const KOERSEL_PRIS = 1595;   // én rustvognskørsel inkl. de første 25 km
+const KM_INKL = 25;
+const KM_PRIS = 35;          // pr. km derefter
+const KOERSEL_LOFT = 2000;   // højst pr. kørsel i København og Nordsjælland
+const PAKKE_KOERSLER: Record<"uden" | "bisaettelse" | "begravelse", number> = { uden: 1, bisaettelse: 3, begravelse: 3 };
+
+/** Prisen for én kørsel ud fra afstanden (km den ene vej) og om loftet gælder. */
+function prisPrKoersel(km: number, medLoft: boolean) {
+  const pris = KOERSEL_PRIS + Math.max(0, Math.round(km) - KM_INKL) * KM_PRIS;
+  return medLoft ? Math.min(pris, KOERSEL_LOFT) : pris;
+}
 
 const BASE_TITLER: Record<Base, string> = { uden: "Afsked uden ceremoni", bisaettelse: "Bisættelse", begravelse: "Begravelse" };
 
@@ -74,7 +88,9 @@ function relevant(addon: (typeof ADDONS)[number], base: keyof typeof BASE_PRICES
 
 export default function KimPrisberegner() {
   const [base, setBase] = useState<keyof typeof BASE_PRICES | null>(null);
-  const [location, setLocation] = useState<string>("");
+  const [koersler, setKoersler] = useState<number>(3);
+  const [km, setKm] = useState<string>("");
+  const [indenforLoft, setIndenforLoft] = useState<boolean>(true);
   const [addons, setAddons] = useState<Record<string, number>>({});
 
   const [kiste, setKiste] = useState<string | null>(null);
@@ -92,7 +108,16 @@ export default function KimPrisberegner() {
     const addon = ADDONS.find((a) => a.id === id);
     return sum + (addon && relevant(addon, base) ? addon.price * qty : 0);
   }, 0);
-  const total = basePrice + kisteForskel + urneForskel + addonTotal;
+  const medCeremoni = base === "bisaettelse" || base === "begravelse";
+  // Kørsel: pakken indeholder et antal kørsler à 1.595 kr. (inkl. 25 km). Ubrugte kørsler trækkes fra,
+  // og km ud over 25 lægges til pr. kørsel (højst 2.000 kr. pr. kørsel inden for København og Nordsjælland).
+  const pakkeKoersler = base ? PAKKE_KOERSLER[base] : 0;
+  const antalKoersler = medCeremoni ? Math.min(koersler, pakkeKoersler) : pakkeKoersler;
+  const kmTal = Math.max(0, Number(km.replace(",", ".")) || 0);
+  const enKoersel = prisPrKoersel(kmTal, indenforLoft);
+  const koerselFradrag = (pakkeKoersler - antalKoersler) * KOERSEL_PRIS;
+  const kmTillaeg = antalKoersler * (enKoersel - KOERSEL_PRIS);
+  const total = Math.max(0, basePrice + kisteForskel + urneForskel + addonTotal - koerselFradrag + kmTillaeg);
 
   const toggleAddon = (id: string, hasQty: boolean) => {
     setAddons((prev) => {
@@ -121,14 +146,16 @@ export default function KimPrisberegner() {
       `- Kiste: ${valgtKiste.label}${kisteForskel ? ` (${forskelTekst(kisteForskel).toLowerCase()})` : " (indgår i prisen)"}`,
     ];
     if (medUrne) linjer.push(`- Urne: ${valgtUrne.label}${urneForskel ? ` (${forskelTekst(urneForskel).toLowerCase()})` : " (indgår i prisen)"}`);
-    if (location) linjer.push(`- Sted: ${location}`);
+    linjer.push(`- Rustvognskørsler: ${antalKoersler} à ${kr(enKoersel)}${kmTal ? ` (${kmTal} km fra Søborg, ${indenforLoft ? "inden for København og Nordsjælland" : "uden for København og Nordsjælland"})` : " (inden for 25 km)"}`);
+    if (koerselFradrag) linjer.push(`- Fradrag for ${pakkeKoersler - antalKoersler} kørsel${pakkeKoersler - antalKoersler > 1 ? "er" : ""}, der ikke bruges: −${kr(koerselFradrag)}`);
+    if (kmTillaeg) linjer.push(`- Km-tillæg: ${kr(kmTillaeg)}`);
     for (const [id, qty] of Object.entries(addons)) {
       const addon = ADDONS.find((a) => a.id === id);
       if (addon && relevant(addon, base)) linjer.push(`- ${addon.label}${qty > 1 ? ` × ${qty}` : ""}: ${"fra" in addon ? "fra " : ""}${kr(addon.price * qty)}`);
     }
     linjer.push(`Vejledende pris i alt: ${kr(total)}`);
     linjer.push("Ikke med i beregningen: krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter.");
-    if (location === "Ved ikke endnu / andet") linjer.push("Kørsel uden for København og Nordsjælland: 1.595 kr. inkl. 25 km, derefter 35 kr. pr. km – ikke regnet med her.");
+    linjer.push("Antal kørsler og afstand bekræfter jeg, når forløbet er kendt.");
     return linjer.join("\n");
   };
 
@@ -258,21 +285,59 @@ export default function KimPrisberegner() {
             </>
           )}
 
-          <h2 style={s.h2}>{base ? 3 : 2}. Hvor skal det foregå? <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", marginBottom: "40px" }}>
-            {["København, Frederiksberg og Storkøbenhavn", "Nordsjælland", "Ved ikke endnu / andet"].map((loc) => (
-              <label key={loc} style={{ display: "flex", alignItems: "center", gap: "8px", background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "12px 16px", cursor: "pointer" }}>
-                <input type="radio" name="location" checked={location === loc} onChange={() => setLocation(loc)} />
-                <span style={{ fontSize: "15px" }}>
-                  {loc}
-                  {loc === "Ved ikke endnu / andet" && (
-                    <span style={{ display: "block", fontSize: "13px", color: "#5a7a6a", marginTop: "4px" }}>
-                      Uden for København og Nordsjælland: 1.595 kr. inkl. 25 km, derefter 35 kr. pr. km, uden loft – jeg regner prisen ud for jer.
-                    </span>
-                  )}
-                </span>
-              </label>
-            ))}
+          <h2 style={s.h2}>{base ? 3 : 2}. Kørsel</h2>
+          <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
+            Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft.
+          </p>
+          {medCeremoni && (
+            <>
+              <h3 style={s.h3}>Antal rustvognskørsler</h3>
+              <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
+                Pakken har tre kørsler: til kisteophold, videre til ceremonien og derfra til {base === "begravelse" ? "graven" : "krematoriet"}. Bliver der brug for færre, trækkes 1.595 kr. fra for hver kørsel, der ikke bliver brugt. Hentes afdøde fx på kapellet og køres direkte til ceremonien og derfra videre, er det to kørsler. I weekenden bruges som regel alle tre, fordi hospitalernes kapeller er lukket.
+              </p>
+              <div style={{ display: "grid", gap: "12px", marginBottom: "24px" }}>
+                {[3, 2, 1].map((n) => {
+                  const valgt = antalKoersler === n;
+                  const fradrag = (pakkeKoersler - n) * KOERSEL_PRIS;
+                  return (
+                    <label key={n} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px", background: valgt ? "#f0f7f3" : "#fff", border: `1px solid ${valgt ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "16px 20px", cursor: "pointer" }}>
+                      <span style={{ display: "flex", alignItems: "center", gap: "12px", flex: 1 }}>
+                        <input type="radio" name="koersler" checked={valgt} onChange={() => setKoersler(n)} />
+                        <span>{n === 3 ? "Tre kørsler (som i pakken)" : n === 2 ? "To kørsler" : "Én kørsel"}</span>
+                      </span>
+                      <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
+                        {fradrag ? `− ${fradrag.toLocaleString("da-DK")} kr.` : "Indgår i prisen"}
+                      </span>
+                    </label>
+                  );
+                })}
+              </div>
+            </>
+          )}
+          <div style={{ display: "grid", gap: "12px", marginBottom: "40px" }}>
+            <label style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "12px", background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "16px 20px" }}>
+              <span style={{ flex: "1 1 200px" }}>Afstand fra Søborg (km, den ene vej)</span>
+              <input
+                type="number"
+                inputMode="numeric"
+                min={0}
+                placeholder="fx 15"
+                value={km}
+                onChange={(e) => setKm(e.target.value)}
+                style={{ width: "100px", padding: "8px 10px", border: "1px solid #e0dcd6", borderRadius: "3px", fontSize: "16px" }}
+              />
+            </label>
+            <label style={{ display: "flex", alignItems: "center", gap: "12px", background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "16px 20px", cursor: "pointer" }}>
+              <input type="checkbox" checked={indenforLoft} onChange={(e) => setIndenforLoft(e.target.checked)} />
+              <span>Inden for København og Nordsjælland <span style={{ display: "block", fontSize: "13px", color: "#5a7a6a", marginTop: "4px" }}>Så koster en kørsel højst 2.000 kr.</span></span>
+            </label>
+            {base && (
+              <p style={{ ...s.body, fontSize: "15px", margin: 0, color: "#3d4f5a" }}>
+                {antalKoersler} {antalKoersler === 1 ? "kørsel" : "kørsler"} à {enKoersel.toLocaleString("da-DK")} kr.
+                {koerselFradrag ? ` · fradrag ${koerselFradrag.toLocaleString("da-DK")} kr.` : ""}
+                {kmTillaeg ? ` · km-tillæg ${kmTillaeg.toLocaleString("da-DK")} kr.` : ""}
+              </p>
+            )}
           </div>
 
           <h2 style={s.h2}>{base ? 4 : 3}. Tilvalg <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
@@ -315,10 +380,15 @@ export default function KimPrisberegner() {
                 Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter. Disse beløb er ikke med i overslaget.
               </p>
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
-                Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget på 800 kr.
+                Kørslen er regnet ud fra jeres valg. Antal kørsler og afstand bekræfter jeg, når forløbet er kendt.
               </p>
+              {!!addons["efter-16"] && (
+                <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
+                  Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget på 800 kr.
+                </p>
+              )}
               <p style={{ ...s.body, fontSize: "15px", marginTop: "24px", fontStyle: "italic" }}>
-                Der ligger rigtig meget koordinering og planlægning bag en afsked. Jeg sørger for, at I ikke selv skal holde styr på tider, kontakter og praktiske detaljer. I taler med mig hele vejen.
+                Der ligger meget koordinering og planlægning bag en afsked. Jeg sørger for, at I ikke selv skal holde styr på tider, kontakter og praktiske detaljer. I taler med mig hele vejen.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", marginTop: "28px" }}>
                 <a href="#kontakt" onClick={() => setOverslag(lavOverslag())} style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>Send overslaget til mig</a>
