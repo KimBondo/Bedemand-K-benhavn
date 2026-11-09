@@ -2,7 +2,7 @@
  * ContactForm – Kim Bondo
  *
  * Sender henvendelsen via Web3Forms (https://web3forms.com) direkte til
- * kontakt@bedemandsservice.dk. Kræver ingen backend — siden er statisk.
+ * kim@bedemandkobenhavn.dk. Kræver ingen backend — siden er statisk.
  *
  * OPSÆTNING (engangs, ca. 1 minut):
  *   Formularen styres på app.web3forms.com (konto: kontakt@bedemandsservice.dk).
