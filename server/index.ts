@@ -18,7 +18,7 @@ const DEFAULT_IMAGE = `${BASE_URL}/manus-storage/kim-beach-solo_609d5ab7.png`;
 // Per-route meta-data table — title + description injected into raw HTML before React loads
 const ROUTE_META: Record<string, { title: string; description: string; image?: string }> = {
   "/": {
-    title: "Bedemand København – Kim Bondo, personlig bedemand døgnet rundt",
+    title: "Bedemand København og Nordsjælland – Kim Bondo",
     description: "Bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr. og begravelse fra 19.300 kr. – jeg følger jer hele vejen. Ring til mig på 28 14 60 11.",
   },
   "/priser": {

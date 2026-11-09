@@ -70,7 +70,7 @@ const ROUTES = [
 
 const ROUTE_META = {
   "/": {
-    title: "Bedemand K\u00f8benhavn \u2013 Kim Bondo, personlig bedemand d\u00f8gnet rundt",
+    title: "Bedemand K\u00f8benhavn og Nordsj\u00e6lland \u2013 Kim Bondo",
     description: "Bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 18.300 kr. og begravelse fra 19.300 kr. \u2013 jeg f\u00f8lger jer hele vejen. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/afsked-uden-ceremoni": {
