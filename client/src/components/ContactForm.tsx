@@ -451,7 +451,7 @@ export default function ContactForm({
 
       {mangler.length > 0 && (
         <div role="alert" style={{ background: "#fdf6ec", border: "1.5px solid #c9a35b", borderRadius: "4px", padding: "14px 18px", marginBottom: "20px", fontSize: "14px", color: "#6b4f1d", lineHeight: 1.7 }}>
-          Udfyld venligst {mangler.join(", ")}, så jeg kan ringe jer op.
+          Udfyld venligst {mangler.length > 1 ? `${mangler.slice(0, -1).join(", ")} og ${mangler[mangler.length - 1]}` : mangler[0]}, {prisanmodning || ringop ? "så jeg kan ringe jer op" : "så jeg kan svare jer"}.
         </div>
       )}
 
