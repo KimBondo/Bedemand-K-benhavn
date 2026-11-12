@@ -251,7 +251,7 @@ export default function KimBondo() {
             I behøver ikke have besluttet noget, før I ringer.
           </p>
           <p style={{ ...{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }, margin: 0 }}>
-            Vi kan tale sammen i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Det er mig, I taler med – hele vejen.
+            Vi kan tale sammen i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor i Søborg koster 995 kr. Det er mig, I taler med – hele vejen.
           </p>
         </div>
       </section>

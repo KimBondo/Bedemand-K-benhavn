@@ -148,7 +148,7 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "680px", margin: "0 auto", textAlign: "center" }}>
           <h2 style={s.h2}>Vi finder ud af det sammen</h2>
           <p style={{ ...s.body, marginBottom: "28px" }}>
-            I behøver ikke kende alle mulighederne, før I ringer. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg.
+            I behøver ikke kende alle mulighederne, før I ringer. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor i Søborg koster 995 kr.
           </p>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
         </div>

@@ -25,7 +25,7 @@ export default function KimNorrebro() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Nørrebro – Kim Bondo, døgnet rundt"
-        description="Bedemand på Nørrebro. Personlig hjælp til bisættelse og begravelse – hjemme hos jer, i Søborg eller i telefonen. Ring til mig på 28 14 60 11."
+        description="Bedemand på Nørrebro. Telefonmødet er med i prisen, og et møde hjemme hos jer eller i Søborg koster 995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/norrebro/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -100,7 +100,7 @@ export default function KimNorrebro() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Den første samtale</h2>
           <p style={s.body}>
-            I behøver ikke have besluttet noget, før vi taler sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg.
+            I behøver ikke have besluttet noget, før vi taler sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor i Søborg koster 995 kr.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Sådan hjælper jeg</h2>
           <p style={s.body}>

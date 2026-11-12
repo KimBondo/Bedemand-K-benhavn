@@ -113,7 +113,7 @@ export default function KimRudersdal() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Den første samtale</h2>
           <p style={s.body}>
-            I behøver ikke have besluttet noget, før vi taler sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg.
+            I behøver ikke have besluttet noget, før vi taler sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor i Søborg koster 995 kr.
           </p>
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>

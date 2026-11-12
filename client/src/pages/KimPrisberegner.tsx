@@ -20,7 +20,7 @@ type Base = keyof typeof BASE_PRICES;
 
 // Pakkeprisen gælder med standardkisten. Vælges en anden kiste, betales kun forskellen.
 const KISTER: { id: string; label: string; price: number; kunVed?: Base[] }[] = [
-  { id: "basis", label: "Basiskiste", price: 6000 },
+  { id: "basis", label: "Umalet basiskiste", price: 5500 },
   { id: "hvid", label: "Klassisk hvid kiste", price: 6500 },
   { id: "gaia", label: "Gaia – let kiste i paulowniatræ", price: 6800, kunVed: ["uden", "bisaettelse"] },
   { id: "massiv-fyr", label: "Massiv fyr – fyrretræ med knaster", price: 8000 },
@@ -33,12 +33,9 @@ const STANDARD_KISTE: Record<Base, string> = {
   bisaettelse: "hvid",
   begravelse: "hvid",
 };
-/** Basiskisten i stedet for klassisk hvid kiste i en pakke med ceremoni giver 1.000 kr. i fradrag. */
-const BASIS_FRADRAG = 1000;
 
 function kisteForskelFor(base: Base, kiste: { id: string; price: number }) {
   const standard = KISTER.find((k) => k.id === STANDARD_KISTE[base])!;
-  if (base !== "uden" && kiste.id === "basis") return -BASIS_FRADRAG;
   return kiste.price - standard.price;
 }
 
@@ -85,7 +82,7 @@ const KM_PRIS = 35;          // pr. km derefter
 const KOERSEL_LOFT = 2000;   // højst pr. kørsel i København og Nordsjælland
 const PAKKE_KOERSLER: Record<"uden" | "bisaettelse" | "begravelse", number> = { uden: 1, bisaettelse: 2, begravelse: 1 };
 /** Fysisk møde hjemme eller på kontoret i Søborg. Telefonmødet er med i alle pakker. */
-const MOEDE_PRIS = 1000;
+const MOEDE_PRIS = 995;
 
 /** Prisen for én kørsel ud fra afstanden (km den ene vej) og om loftet gælder. */
 function prisPrKoersel(km: number, medLoft: boolean) {
@@ -368,7 +365,7 @@ export default function KimPrisberegner() {
                         <span>{fysisk ? "Møde hjemme hos jer eller på mit kontor i Søborg" : "Telefonmøde"}</span>
                       </span>
                       <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
-                        {fysisk ? "+ 1.000 kr." : "Indgår i prisen"}
+                        {fysisk ? "+ 995 kr." : "Indgår i prisen"}
                       </span>
                     </label>
                   );

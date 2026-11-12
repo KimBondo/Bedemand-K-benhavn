@@ -36,7 +36,7 @@ export default function KimAfskedUdenCeremoni() {
         faqItems={[
           { question: "Kan man holde et mindesamvær på et andet tidspunkt?", answer: "Ja. Mange familier vælger at holde et mindesamvær på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme." },
           { question: "Kan en bisættelse uden ceremoni kombineres med askespredning?", answer: "Ja. Efter en bisættelse uden ceremoni kan asken spredes over havet, hvis afdøde har ønsket det." },
-          { question: "Er en bisættelse uden ceremoni den enkleste løsning?", answer: "Ja, det er typisk den mest enkle og prisvenlige løsning, da der ikke er udgifter til kirke eller kapel. Men prisen afhænger stadig af valg af kiste, urne og kørsel." },
+          { question: "Er en bisættelse uden ceremoni den enkleste løsning?", answer: "Ja, det er den mest enkle løsning, da der ikke er udgifter til kirke eller kapel. Prisen er fast: 9.995 kr. I kan vælge en anden kiste eller urne mod merpris." },
           { question: "Behandles afdøde stadig med værdighed?", answer: "Ja. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form." },
           { question: "Hvad er forskellen på en bisættelse uden og med ceremoni?", answer: "En bisættelse med ceremoni inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En bisættelse uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed." },
         ]}
@@ -164,7 +164,7 @@ export default function KimAfskedUdenCeremoni() {
           Sådan foregår en bisættelse uden ceremoni
         </h2>
         {[
-          { num: "1", title: "Første kontakt", text: "Vi taler om jeres ønsker og de praktiske detaljer. Jeg sørger for al koordinering med krematoriet og senere med kirkegården om urnen, og jeg håndterer alle administrative opgaver." },
+          { num: "1", title: "Første kontakt", text: "Vi taler om jeres ønsker og de praktiske detaljer. Jeg sørger for koordineringen med krematoriet og håndterer de administrative opgaver. I kan selv hente urnen, eller jeg kan køre den for jer for 900 kr. Det er kirkegården, der står for urnenedsættelsen." },
           { num: "2", title: "Kisteilægning", text: "Afdøde lægges i kisten med omsorg og værdighed. I kan vælge at være til stede, hvis det føles rigtigt." },
           { num: "3", title: "Transport til krematoriet", text: "Jeg kører selv kisten direkte til krematoriet, hvor kremeringen sker med respekt og omhu." },
           { num: "4", title: "Urnen", text: "Efter kremeringen samles asken i en urne. Urnen kan sættes ned på en kirkegård, asken kan spredes over havet, eller urnen kan tages med til udlandet." },
@@ -211,7 +211,7 @@ export default function KimAfskedUdenCeremoni() {
         {[
           { q: "Kan man holde et mindesamvær på et andet tidspunkt?", a: "Ja. Mange familier vælger at holde et mindesamvær på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme.", link: null, linkText: null },
           { q: "Kan en bisættelse uden ceremoni kombineres med askespredning?", a: "Ja. Efter en bisættelse uden ceremoni kan asken spredes over havet, hvis afdøde har ønsket det.", link: "/askespredning/", linkText: "Læs mere om askespredning" },
-          { q: "Er en bisættelse uden ceremoni den enkleste løsning?", a: "Ja, det er typisk den mest enkle og prisvenlige løsning, da der ikke er udgifter til kirke eller kapel. Men prisen afhænger stadig af valg af kiste, urne og kørsel.", link: "/priser/", linkText: "Se den fulde prisliste" },
+          { q: "Er en bisættelse uden ceremoni den enkleste løsning?", a: "Ja, det er den mest enkle løsning, da der ikke er udgifter til kirke eller kapel. Prisen er fast: 9.995 kr. I kan vælge en anden kiste eller urne mod merpris.", link: "/priser/", linkText: "Se den fulde prisliste" },
           { q: "Behandles afdøde stadig med værdighed?", a: "Ja. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form.", link: null, linkText: null },
           { q: "Hvad er forskellen på en bisættelse uden og med ceremoni?", a: "En bisættelse med ceremoni inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En bisættelse uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
         ].map((item, i) => (

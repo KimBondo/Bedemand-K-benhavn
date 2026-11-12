@@ -155,7 +155,7 @@ const ROUTE_META = {
   },
   "/norrebro": {
     title: "Bedemand N\u00f8rrebro \u2013 Kim Bondo, d\u00f8gnet rundt",
-    description: "Bedemand p\u00e5 N\u00f8rrebro. Personlig hj\u00e6lp til bis\u00e6ttelse og begravelse \u2013 hjemme hos jer, i S\u00f8borg eller i telefonen. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bedemand p\u00e5 N\u00f8rrebro. Telefonm\u00f8det er med i prisen, og et m\u00f8de hjemme hos jer eller i S\u00f8borg koster 995 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/om-kim": {
     title: "Om Kim Bondo \u2013 Personlig bedemand, K\u00f8benhavn",
@@ -219,7 +219,7 @@ const ROUTE_META = {
   },
   "/produkter": {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",
-    description: "V\u00e6lg kiste fra 6.000 kr. eller urne fra 950 kr. B\u00e6redygtige og klassiske modeller. Ring til mig p\u00e5 28 14 60 11.",
+    description: "V\u00e6lg kiste fra 5.500 kr. eller urne fra 950 kr. B\u00e6redygtige og klassiske modeller. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/sjaelland": {
     title: "Bedemand p\u00e5 Sj\u00e6lland \u2013 Kim Bondo, d\u00f8gnet rundt",

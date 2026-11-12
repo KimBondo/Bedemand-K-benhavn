@@ -83,7 +83,7 @@ export default function KimBisaettelseNordsjaelland() {
             Jeg sender anmodningen om ligbrænding til sognet, koordinerer med præst eller kirkekontor, booker kapel eller kirke og sørger for transport til og fra ceremonien. Efter ceremonien sørger jeg for transporten til krematoriet.
           </p>
           <p style={s.body}>
-            I taler med mig hele vejen, fra det første opkald til urnenedsættelsen.
+            I taler med mig hele vejen, fra det første opkald til afskeden.
           </p>
 
           <h2 style={s.h2}>Priser</h2>

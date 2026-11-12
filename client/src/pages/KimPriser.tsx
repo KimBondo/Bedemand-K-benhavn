@@ -250,15 +250,18 @@ export default function KimPriser() {
         <section id="tilvalg" style={{ marginBottom: "56px", scrollMarginTop: "24px" }}>
           <h2 style={s.h2}>Det kan I vælge til</h2>
           <PriceTable rows={[
-            ["Møde hjemme hos jer eller på mit kontor i Søborg", "1.000 kr."],
+            ["Møde hjemme hos jer eller på mit kontor i Søborg", "995 kr."],
             ["Ekstra rustvognskørsel", "1.595 kr."],
             ["Umalet basiskiste i stedet for klassisk hvid kiste (begravelse og bisættelse med ceremoni)", "1.000 kr. billigere"],
+            ["Klassisk hvid kiste", "6.500 kr."],
+            ["Umalet basiskiste", "5.500 kr."],
             ["Ligklæde", "295 kr."],
             ["Blomsterkørsel på hverdage", "1.195 kr."],
             ["Blomsterkørsel om lørdagen", "1.995 kr."],
             ["Kistepynt, lille / mellem / stor", "1.800 / 2.500 / 3.500 kr."],
             ["Anden kiste eller urne", "I betaler kun forskellen"],
-            ["Askerør ved askespredning og askespredning over havet", "Fra 2.500 kr."],
+            ["Askerør ved askespredning", "950 kr."],
+            ["Askespredning over havet", "Fra 2.500 kr."],
             ["Fremvisning på hospital eller i kapel", "900 kr."],
             ["Ceremonileder ved borgerlig ceremoni", "Ca. 2.500 kr."],
             ["Ventekapel ved lørdagsbisættelse", "Prisen varierer"],
@@ -368,7 +371,7 @@ export default function KimPriser() {
               Se hele udvalget med billeder og priser her →
             </a>
           </p>
-          <p style={{ ...s.small, marginBottom: "32px" }}>Kister fra 6.000 kr. · Urner fra 950 kr.</p>
+          <p style={{ ...s.small, marginBottom: "32px" }}>Klassisk hvid kiste 6.500 kr. · Umalet basiskiste 5.500 kr. · Urner fra 950 kr.</p>
 
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Klargøring, afhentning og transport</h3>
@@ -395,16 +398,6 @@ export default function KimPriser() {
           </div>
 
 
-          <h3 style={{ ...s.h3, marginTop: "32px" }}>Honorar</h3>
-          <PriceTable rows={[
-            ["Ved begravelse eller bisættelse", "4.500 kr."],
-            ["Ved bisættelse uden ceremoni", "3.500 kr."],
-          ]} />
-          <p style={{ ...s.body, marginBottom: "32px" }}>
-            Honoraret dækker al kontakt med jer gennem hele forløbet, alt papirarbejde — anmodning om begravelse eller ligbrænding og ansøgning om begravelseshjælp — samt koordinering med myndigheder, kirker, kapeller og krematorier.
-          </p>
-
-
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Blomster og pynt</h3>
           <PriceTable rows={[
             ["Kistepynt, lille", "1.800 kr."],
@@ -428,7 +421,7 @@ export default function KimPriser() {
           <PriceTable rows={[
             ["Fremvisning på hospital eller i kapel", "900 kr."],
             ["Ligklæde", "295 kr."],
-            ["Møde hjemme hos jer eller på mit kontor i Søborg", "1.000 kr."],
+            ["Møde hjemme hos jer eller på mit kontor i Søborg", "995 kr."],
             ["Udarbejdelse af dødsannonce", "Inkluderet i mit honorar"],
             ["Sangblade fra ekstern leverandør", "Tilbud indhentes"],
           ]} />

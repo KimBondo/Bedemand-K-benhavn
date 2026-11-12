@@ -123,7 +123,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/norrebro": {
     title: "Bedemand Nørrebro – Kim Bondo | Personlig hjælp på Nørrebro",
-    description: "Bedemand på Nørrebro. Personlig hjælp til bisættelse og begravelse – hjemme hos jer, i Søborg eller i telefonen. Ring til mig på 28 14 60 11.",
+    description: "Bedemand på Nørrebro. Telefonmødet er med i prisen, og et møde hjemme hos jer eller i Søborg koster 995 kr. Ring til mig på 28 14 60 11.",
   },
   "/vesterbro": {
     title: "Bedemand Vesterbro – Kim Bondo | Personlig hjælp på Vesterbro",
@@ -131,7 +131,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/produkter": {
     title: "Kister og urner – Bedemand Kim Bondo",
-    description: "Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Ring til mig på 28 14 60 11.",
+    description: "Vælg kiste fra 5.500 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Ring til mig på 28 14 60 11.",
   },
   "/om-kim": {
     title: "Om Kim Bondo – Personlig bedemand i København",

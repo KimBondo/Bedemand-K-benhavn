@@ -37,13 +37,13 @@ type Brug = "bisættelse" | "begravelse" | "begge";
 const KISTER = [
   {
     id: "basiskiste",
-    name: "Basiskiste",
-    priceLabel: "6.000 kr.",
+    name: "Umalet basiskiste",
+    priceLabel: "5.500 kr.",
     image: "/images/basiskiste-umalet-trae.webp",
     imgW: 2048,
     imgH: 1366,
-    alt: "Basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
-    description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse. Den er standardkisten i min bisættelse uden ceremoni. Vælger I den i stedet for den klassiske hvide kiste til en begravelse eller en bisættelse med ceremoni, bliver prisen 1.000 kr. lavere. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
+    alt: "Umalet basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
+    description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse. Den koster 5.500 kr. og er standardkisten i min bisættelse uden ceremoni. Vælger I den i stedet for den klassiske hvide kiste til en begravelse eller en bisættelse med ceremoni, bliver prisen 1.000 kr. lavere. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
     use: "begge" as Brug,
   },
   {
@@ -170,7 +170,7 @@ export default function KimProdukter() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Kister og urner – Bedemand Kim Bondo"
-        description="Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Ring til mig på 28 14 60 11."
+        description="Vælg kiste fra 5.500 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/produkter/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
