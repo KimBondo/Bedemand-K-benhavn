@@ -405,7 +405,7 @@ async function behandl({ request, env }) {
     smtp = await aabn(env.SMTP_PASSWORD);
   } catch (e) {
     console.log(`prisanmodning: ingen forbindelse til SMTP (${e.trin || "forbindelse"} ${e.kode ?? ""})`);
-    return json({ ok: false, fejl: "mail" }, 502);
+    return json({ ok: false, fejl: "mail", trin: e.trin || "forbindelse", kode: e.kode ?? 0 }, 502);
   }
 
   // 1. Mail til Kim – må ikke fejle i stilhed
@@ -425,11 +425,12 @@ async function behandl({ request, env }) {
   } catch (e) {
     console.log(`prisanmodning: mail til Kim fejlede (${e.trin || "ukendt"} ${e.kode ?? ""})`);
     await smtp.luk();
-    return json({ ok: false, fejl: "mail" }, 502);
+    return json({ ok: false, fejl: "mail", trin: e.trin || "ukendt", kode: e.kode ?? 0 }, 502);
   }
 
   // 2. Kvittering til familien – kun med e-mail og overslag, og højst 2 pr. time pr. adresse
   let kopiSendt = false;
+  let kopiFejl;
   if (f.email && f.overslag && (await taelOp(request, `email:${f.email.toLowerCase()}`, MAX_KOPI_PR_EMAIL))) {
     try {
       const tekst = kvitteringTekst(f);
@@ -447,9 +448,10 @@ async function behandl({ request, env }) {
       kopiSendt = true;
     } catch (e) {
       console.log(`prisanmodning: kvittering fejlede (${e.trin || "ukendt"} ${e.kode ?? ""})`);
+      kopiFejl = `${e.trin || "ukendt"} ${e.kode ?? 0}`;
     }
   }
 
   await smtp.luk();
-  return json({ ok: true, kopiSendt });
+  return json({ ok: true, kopiSendt, ...(kopiFejl ? { kopiFejl } : {}) });
 }
