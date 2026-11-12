@@ -71,11 +71,11 @@ const ROUTES = [
 const ROUTE_META = {
   "/": {
     title: "Bedemand K\u00f8benhavn og Nordsj\u00e6lland \u2013 Kim Bondo",
-    description: "Bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse fra 18.300 kr. og begravelse fra 19.300 kr. \u2013 jeg f\u00f8lger jer hele vejen. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bedemand i K\u00f8benhavn og Nordsj\u00e6lland. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Jeg f\u00f8lger jer hele vejen. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/afsked-uden-ceremoni": {
-    title: "Afsked uden ceremoni \u2013 Bedemand Kim Bondo",
-    description: "Enkel afsked uden ceremoni i K\u00f8benhavn. Kremering og urneneds\u00e6ttelse uden kirke. Fra 13.550 kr. Ring til mig p\u00e5 28 14 60 11.",
+    title: "Bisættelse uden ceremoni \u2013 Bedemand Kim Bondo",
+    description: "Enkel bisættelse uden ceremoni i K\u00f8benhavn. Kremering og urneneds\u00e6ttelse uden kirke. Fast pris 9.995 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/afskeder": {
     title: "Afskeder \u2013 Bedemand Kim Bondo",
@@ -139,7 +139,7 @@ const ROUTE_META = {
   },
   "/hvad-koster-en-begravelse": {
     title: "Hvad koster en begravelse? Priser 2026 \u2013 Kim Bondo",
-    description: "En bis\u00e6ttelse koster fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I f\u00e5r begravelseshj\u00e6lp. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Begravelse fra 13.495 kr., bis\u00e6ttelse med ceremoni fra 14.995 kr. og uden ceremoni 9.995 kr. Se, hvad der kommer oveni. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked \u2013 Bedemand Kim Bondo",
@@ -215,7 +215,7 @@ const ROUTE_META = {
   },
   "/priser": {
     title: "Priser \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
-    description: "Priser p\u00e5 bis\u00e6ttelse og begravelse i K\u00f8benhavn og Nordsj\u00e6lland: bis\u00e6ttelse fra 18.300 kr. og begravelse fra 19.300 kr. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Priser: bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bis\u00e6ttelse med ceremoni fra 14.995 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/produkter": {
     title: "Kister og urner \u2013 Bedemand Kim Bondo",

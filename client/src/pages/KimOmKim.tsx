@@ -22,7 +22,7 @@ const PERSON_SCHEMA = {
     "addressCountry": "DK"
   },
   "worksFor": { "@id": "https://www.bedemandkobenhavn.dk/#business" },
-  "knowsAbout": ["Bisættelse", "Begravelse", "Afsked uden ceremoni", "Askespredning", "Begravelseshjælp"]
+  "knowsAbout": ["Bisættelse", "Begravelse", "Bisættelse uden ceremoni", "Askespredning", "Begravelseshjælp"]
 };
 
 /**

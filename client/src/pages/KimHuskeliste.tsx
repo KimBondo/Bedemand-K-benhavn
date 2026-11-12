@@ -120,7 +120,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Begravelse, bisættelse eller askespredning?</h3>
           <p style={s.body}>
-            Der skal tages stilling til, hvordan afskeden skal foregå — og om der skal være en ceremoni. Skal det være en <a href="/kirkelig-afsked/" style={s.link}>kirkelig</a> eller <a href="/borgerlig-afsked/" style={s.link}>borgerlig</a> ceremoni, eller en <a href="/afsked-uden-ceremoni/" style={s.link}>afsked uden ceremoni</a>? Økonomi spiller også en rolle — se <a href="/priser/" style={s.link}>mine priser</a> for et realistisk overblik.
+            Der skal tages stilling til, hvordan afskeden skal foregå — og om der skal være en ceremoni. Skal det være en <a href="/kirkelig-afsked/" style={s.link}>kirkelig</a> eller <a href="/borgerlig-afsked/" style={s.link}>borgerlig</a> ceremoni, eller en <a href="/afsked-uden-ceremoni/" style={s.link}>bisættelse uden ceremoni</a>? Økonomi spiller også en rolle — se <a href="/priser/" style={s.link}>mine priser</a> for et realistisk overblik.
           </p>
 
           <h3 style={s.h3}>Anmodning om begravelse eller ligbrænding</h3>

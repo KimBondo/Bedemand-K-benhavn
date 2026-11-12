@@ -38,8 +38,8 @@ export default function KimBisaettelse() {
       <SchemaOrg
         type="FAQPage"
         faqItems={[
-          { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni." },
-          { question: "Kan man holde en bisættelse uden ceremoni?", answer: "Ja. En afsked uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et senere tidspunkt." },
+          { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni." },
+          { question: "Kan man holde en bisættelse uden ceremoni?", answer: "Ja. En bisættelse uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et senere tidspunkt." },
           { question: "Hvad sker der med urnen efter bisættelsen?", answer: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper med at finde den løsning, der passer til afdødes og familiens ønsker." },
           { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen ved kremering." },
           { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter som kremering, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket." },
@@ -364,7 +364,7 @@ export default function KimBisaettelse() {
             margin: "0 auto 32px",
           }}
         >
-          Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. Jeg gennemgår alle udgifter med jer på forhånd. Mine priser starter fra <strong>13.550 kr.</strong> for en afsked uden ceremoni og fra <strong>18.300 kr.</strong> for en bisættelse med ceremoni.
+          Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. Jeg gennemgår alle udgifter med jer på forhånd. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong>
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
@@ -443,15 +443,15 @@ export default function KimBisaettelse() {
         {[
           {
             q: "Hvad er forskellen på bisættelse og begravelse?",
-            a: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni – det kalder jeg en afsked uden ceremoni.",
+            a: "Ved en bisættelse kremeres afdøde, og asken placeres i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni.",
             link: "/begravelse/",
             linkText: "Læs mere om begravelse her",
           },
           {
             q: "Kan man holde en bisættelse uden ceremoni?",
-            a: "Ja. En afsked uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et senere tidspunkt.",
+            a: "Ja. En bisættelse uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et senere tidspunkt.",
             link: "/afsked-uden-ceremoni/",
-            linkText: "Læs mere om afsked uden ceremoni",
+            linkText: "Læs mere om bisættelse uden ceremoni",
           },
           {
             q: "Hvad sker der med urnen efter bisættelsen?",
@@ -530,7 +530,7 @@ export default function KimBisaettelse() {
         >
           {[
             { label: "Begravelse", href: "/begravelse/" },
-            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni/" },
+            { label: "Bisættelse uden ceremoni", href: "/afsked-uden-ceremoni/" },
             { label: "Askespredning", href: "/askespredning/" },
             { label: "Se alle afskeder", href: "/afskeder/" },
           ].map((link) => (

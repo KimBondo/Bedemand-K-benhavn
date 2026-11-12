@@ -60,34 +60,36 @@ const BASE_URL = "https://www.bedemandkobenhavn.dk";
 
 const KIM_PERSON_ID = `${BASE_URL}/om-kim/#kim-bondo`;
 
-/** De tre pakker – navne, beskrivelser og priser svarer ordret til /priser/. */
+/** De tre pakker – navne og priser svarer til /priser/. Ved fra-priser angives minPrice. */
 const PRICE_OFFERS = [
   {
     "@type": "Offer",
-    "name": "Den enkle bisættelse",
-    "description": "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage.",
-    "price": String(PAKKEPRISER.bisaettelse),
+    "name": "Bisættelse uden ceremoni",
+    "description": `Fast pris ${kr(PAKKEPRISER.uden)} kr. Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Prisen gælder hverdage.`,
+    "price": String(PAKKEPRISER.uden),
     "priceCurrency": "DKK",
     "url": `${BASE_URL}/priser/`,
-    "itemOffered": { "@type": "Service", "name": "Bisættelse" }
+    "itemOffered": { "@type": "Service", "name": "Bisættelse uden ceremoni" }
   },
   {
     "@type": "Offer",
-    "name": "Den enkle begravelse",
-    "description": "Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage.",
+    "name": "Begravelse",
+    "description": `Fra ${kr(PAKKEPRISER.begravelse)} kr. Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage.`,
     "price": String(PAKKEPRISER.begravelse),
+    "priceSpecification": { "@type": "PriceSpecification", "minPrice": PAKKEPRISER.begravelse, "priceCurrency": "DKK" },
     "priceCurrency": "DKK",
     "url": `${BASE_URL}/priser/`,
     "itemOffered": { "@type": "Service", "name": "Begravelse" }
   },
   {
     "@type": "Offer",
-    "name": "Afsked uden ceremoni",
-    "description": "Afdøde køres direkte til krematoriet uden forudgående højtidelighed.",
-    "price": String(PAKKEPRISER.uden),
+    "name": "Bisættelse med ceremoni",
+    "description": `Fra ${kr(PAKKEPRISER.bisaettelse)} kr. Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage.`,
+    "price": String(PAKKEPRISER.bisaettelse),
+    "priceSpecification": { "@type": "PriceSpecification", "minPrice": PAKKEPRISER.bisaettelse, "priceCurrency": "DKK" },
     "priceCurrency": "DKK",
     "url": `${BASE_URL}/priser/`,
-    "itemOffered": { "@type": "Service", "name": "Afsked uden ceremoni" }
+    "itemOffered": { "@type": "Service", "name": "Bisættelse med ceremoni" }
   }
 ];
 
@@ -130,7 +132,7 @@ const KIM_LOCAL_BUSINESS = {
   "name": "Bedemand København",
   "alternateName": ["Bedemand Kim Bondo", "Bedemand København ApS"],
   "legalName": "Bedemand København ApS",
-  "description": `Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse fra ${kr(PAKKEPRISER.bisaettelse)} kr., begravelse fra ${kr(PAKKEPRISER.begravelse)} kr.`,
+  "description": `Personlig bedemand i København og Nordsjælland. Hjælp til bisættelse, begravelse og afsked med nærvær og ro. Gennemsigtige priser – bisættelse uden ceremoni ${kr(PAKKEPRISER.uden)} kr., begravelse fra ${kr(PAKKEPRISER.begravelse)} kr. og bisættelse med ceremoni fra ${kr(PAKKEPRISER.bisaettelse)} kr.`,
   "url": `${BASE_URL}/`,
   "telephone": "+45 28 14 60 11",
   "email": "kim@bedemandkobenhavn.dk",
@@ -161,7 +163,7 @@ const KIM_LOCAL_BUSINESS = {
     "opens": "00:00",
     "closes": "23:59"
   },
-  "priceRange": `${PAKKEPRISER.uden}-${PAKKEPRISER.begravelse}`,
+  "priceRange": `${PAKKEPRISER.uden}-${PAKKEPRISER.bisaettelse}`,
   "currenciesAccepted": "DKK",
   "paymentAccepted": "Bankoverførsel, MobilePay",
   "image": `${BASE_URL}/images/kim-bondo-bedemand-portraet.webp`,

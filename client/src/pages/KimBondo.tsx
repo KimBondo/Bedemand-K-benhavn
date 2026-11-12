@@ -48,7 +48,7 @@ export default function KimBondo() {
     >
       <SEO
         title="Bedemand København og Nordsjælland – Kim Bondo"
-        description="Bedemand i København og Nordsjælland. Bisættelse fra 18.300 kr. og begravelse fra 19.300 kr. – jeg følger jer hele vejen. Ring til mig på 28 14 60 11."
+        description="Bedemand i København og Nordsjælland. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Jeg følger jer hele vejen. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -270,9 +270,9 @@ export default function KimBondo() {
               <table style={{ width: "100%", borderCollapse: "collapse", fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#3d5260" }}>
                 <tbody>
                   {[
-                    ["Afsked uden ceremoni", "13.550 kr."],
-                    ["Bisættelse", "Fra 18.300 kr."],
-                    ["Begravelse", "Fra 19.300 kr."],
+                    ["Bisættelse uden ceremoni", "9.995 kr."],
+                    ["Begravelse", "Fra 13.495 kr."],
+                    ["Bisættelse med ceremoni", "Fra 14.995 kr."],
                   ].map(([navn, pris]) => (
                     <tr key={navn} style={{ borderBottom: "1px solid #ede9e4" }}>
                       <td style={{ padding: "10px 12px 10px 0" }}>{navn}</td>

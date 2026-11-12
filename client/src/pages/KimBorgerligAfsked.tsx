@@ -203,7 +203,7 @@ export default function KimBorgerligAfsked() {
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px", maxWidth: "760px", margin: "0 auto" }}>
           {[
             { label: "Kirkelig afsked", href: "/kirkelig-afsked/" },
-            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni/" },
+            { label: "Bisættelse uden ceremoni", href: "/afsked-uden-ceremoni/" },
             { label: "Se alle afskeder", href: "/afskeder/" },
             { label: "Se priser", href: "/priser/" },
           ].map((link) => (
