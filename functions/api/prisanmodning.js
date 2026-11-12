@@ -131,11 +131,12 @@ async function sha256(tekst) {
   return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
 
-async function taelOp(noegle, max) {
+async function taelOp(request, noegle, max) {
   // Nøglen er en hash, så hverken IP eller e-mail står i cachen.
   try {
     const cache = caches.default;
-    const url = `https://graense.bedemandkobenhavn.dk/${await sha256(noegle)}`;
+    // Nøglen ligger på samme host som funktionen (virker både på preview og www).
+    const url = new URL(`/__graense/${await sha256(noegle)}`, request.url).href;
     const nu = Date.now();
     let antal = 0;
     let start = nu;
@@ -397,7 +398,7 @@ async function behandl({ request, env }) {
   if (!env.SMTP_PASSWORD) return json({ ok: false, fejl: "ikke_konfigureret" }, 503);
 
   const ip = request.headers.get("CF-Connecting-IP") || "ukendt";
-  if (!(await taelOp(`ip:${ip}`, MAX_PR_IP))) return json({ ok: false, fejl: "for_mange" }, 429);
+  if (!(await taelOp(request, `ip:${ip}`, MAX_PR_IP))) return json({ ok: false, fejl: "for_mange" }, 429);
 
   let smtp;
   try {
@@ -429,7 +430,7 @@ async function behandl({ request, env }) {
 
   // 2. Kvittering til familien – kun med e-mail og overslag, og højst 2 pr. time pr. adresse
   let kopiSendt = false;
-  if (f.email && f.overslag && (await taelOp(`email:${f.email.toLowerCase()}`, MAX_KOPI_PR_EMAIL))) {
+  if (f.email && f.overslag && (await taelOp(request, `email:${f.email.toLowerCase()}`, MAX_KOPI_PR_EMAIL))) {
     try {
       const tekst = kvitteringTekst(f);
       await smtp.mail(
