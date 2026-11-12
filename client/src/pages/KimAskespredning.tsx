@@ -201,7 +201,7 @@ export default function KimAskespredning() {
           Hvad koster askespredning?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          Askespredning følger efter en bisættelse eller en afsked uden ceremoni. En afsked uden ceremoni koster <strong>13.550 kr.</strong>, og en bisættelse med ceremoni starter ved <strong>18.300 kr.</strong> Ønsker I, at jeg står for selve askespredningen, koster det fra 2.500 kr. ekstra – det dækker koordinering, papirerne til sognet og det praktiske. I kan også selv hente urnen og sprede asken. Kremeringen betales til krematoriet, og jeg regner det hele sammen med jer på forhånd.
+          Askespredning følger efter en bisættelse med eller uden ceremoni. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong> Ønsker I, at jeg står for selve askespredningen, koster det fra 2.500 kr. ekstra – det dækker koordinering, papirerne til sognet og det praktiske. I kan også selv hente urnen og sprede asken. Kremeringen betales til krematoriet, og jeg regner det hele sammen med jer på forhånd.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
@@ -246,7 +246,7 @@ export default function KimAskespredning() {
           {[
             { label: "Bisættelse", href: "/bisaettelse/" },
             { label: "Begravelse", href: "/begravelse/" },
-            { label: "Afsked uden ceremoni", href: "/afsked-uden-ceremoni/" },
+            { label: "Bisættelse uden ceremoni", href: "/afsked-uden-ceremoni/" },
             { label: "Se alle afskeder", href: "/afskeder/" },
           ].map((link) => (
             <a key={link.href} href={link.href} style={{ display: "inline-block", background: "rgba(255,255,255,0.08)", color: "rgba(255,255,255,0.85)", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1px solid rgba(255,255,255,0.15)" }}>

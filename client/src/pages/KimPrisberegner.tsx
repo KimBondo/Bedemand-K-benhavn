@@ -20,19 +20,24 @@ type Base = keyof typeof BASE_PRICES;
 
 // Pakkeprisen gælder med standardkisten. Vælges en anden kiste, betales kun forskellen.
 const KISTER: { id: string; label: string; price: number; kunVed?: Base[] }[] = [
-  { id: "basis", label: "Basiskiste", price: 6000 },
-  { id: "hvid-bisaettelse", label: "Klassisk hvid kiste", price: 6500, kunVed: ["uden", "bisaettelse"] },
-  { id: "hvid-begravelse", label: "Klassisk hvid kiste", price: 7000, kunVed: ["begravelse"] },
+  { id: "basis", label: "Umalet basiskiste", price: 5500 },
+  { id: "hvid", label: "Klassisk hvid kiste", price: 6500 },
   { id: "gaia", label: "Gaia – let kiste i paulowniatræ", price: 6800, kunVed: ["uden", "bisaettelse"] },
   { id: "massiv-fyr", label: "Massiv fyr – fyrretræ med knaster", price: 8000 },
   { id: "orbit", label: "Orbit papirkiste", price: 8800 },
 ];
 
+// Bisættelse uden ceremoni har basiskisten; pakkerne med ceremoni har klassisk hvid kiste.
 const STANDARD_KISTE: Record<Base, string> = {
-  uden: "hvid-bisaettelse",
-  bisaettelse: "hvid-bisaettelse",
-  begravelse: "hvid-begravelse",
+  uden: "basis",
+  bisaettelse: "hvid",
+  begravelse: "hvid",
 };
+
+function kisteForskelFor(base: Base, kiste: { id: string; price: number }) {
+  const standard = KISTER.find((k) => k.id === STANDARD_KISTE[base])!;
+  return kiste.price - standard.price;
+}
 
 // Urne er kun aktuel, når afdøde kremeres. Natururnen indgår i pakken.
 const URNER = [
@@ -55,12 +60,16 @@ const ADDONS = [
   { id: "pynt-mellem", label: "Kistepynt mellem", price: 2500 },
   { id: "pynt-stor", label: "Kistepynt stor", price: 3500 },
   { id: "roser", label: "10 farvelroser", price: 350 },
+  { id: "ligklaede", label: "Ligklæde", price: 295 },
   // Askespredning kræver kremering og kan derfor ikke vælges ved kistebegravelse
   { id: "aske", label: "Askespredning over havet", price: 2500, fra: true, ikkeVed: "begravelse" },
   // Urnekørsel giver ikke mening ved begravelse, hvor der ingen urne er
   { id: "urnekoersel", label: "Urnekørsel fra krematorie til kirkegårdskontor", price: 900, ikkeVed: "begravelse" },
-  // Blomsterkørsel: når blomsterne skal flyttes fra kirken til kirkegården eller en anden kirkegård, og kirken ikke sørger for det
-  { id: "blomsterkoersel", label: "Blomsterkørsel og udlægning på kirkegård", price: 900, note: "Når blomsterne skal flyttes fra kirken til kirkegården eller en anden kirkegård, og kirken ikke sørger for det." },
+  // Blomsterkørsel: ligger ikke i nogen pakke
+  { id: "blomster-hverdag", label: "Blomsterkørsel på en hverdag", price: 1195, ikkeVed: "uden", note: "Er graven på samme kirkegård som kirken, sørger kirken som regel selv for blomsterne. Skal de et andet sted hen, er det en blomsterkørsel." },
+  { id: "blomster-loerdag", label: "Blomsterkørsel om lørdagen", price: 1995, ikkeVed: "uden" },
+  { id: "fremvisning", label: "Fremvisning på hospital eller i kapel", price: 900 },
+  { id: "ceremonileder", label: "Ceremonileder ved borgerlig ceremoni", price: 2500, ca: true, ikkeVed: "uden" },
   { id: "privat-hjem", label: "Afhentning i et privat hjem", price: 1200 },
   // Tillæg pr. udkald uden for normal arbejdstid (kun kørsel har tillæg) – kan vælges flere gange
   { id: "efter-16", label: "Kørsel efter kl. 16, i weekenden eller på en helligdag", price: 800, quantity: true, note: "800 kr. pr. udkald – fx en afhentning om aftenen eller en bisættelse om lørdagen. Der er kun tillæg på kørslen. Vælg antallet af udkald." },
@@ -71,7 +80,9 @@ const KOERSEL_PRIS = 1595;   // én rustvognskørsel inkl. de første 25 km
 const KM_INKL = 25;
 const KM_PRIS = 35;          // pr. km derefter
 const KOERSEL_LOFT = 2000;   // højst pr. kørsel i København og Nordsjælland
-const PAKKE_KOERSLER: Record<"uden" | "bisaettelse" | "begravelse", number> = { uden: 1, bisaettelse: 3, begravelse: 3 };
+const PAKKE_KOERSLER: Record<"uden" | "bisaettelse" | "begravelse", number> = { uden: 1, bisaettelse: 2, begravelse: 1 };
+/** Fysisk møde hjemme eller på kontoret i Søborg. Telefonmødet er med i alle pakker. */
+const MOEDE_PRIS = 995;
 
 /** Prisen for én kørsel ud fra afstanden (km den ene vej) og om loftet gælder. */
 function prisPrKoersel(km: number, medLoft: boolean) {
@@ -79,7 +90,7 @@ function prisPrKoersel(km: number, medLoft: boolean) {
   return medLoft ? Math.min(pris, KOERSEL_LOFT) : pris;
 }
 
-const BASE_TITLER: Record<Base, string> = { uden: "Afsked uden ceremoni", bisaettelse: "Bisættelse", begravelse: "Begravelse" };
+const BASE_TITLER: Record<Base, string> = { uden: "Bisættelse uden ceremoni", bisaettelse: "Bisættelse med ceremoni", begravelse: "Begravelse" };
 
 /** Tilvalg, der giver mening for den valgte afskedsform. */
 function relevant(addon: (typeof ADDONS)[number], base: keyof typeof BASE_PRICES | null) {
@@ -88,7 +99,8 @@ function relevant(addon: (typeof ADDONS)[number], base: keyof typeof BASE_PRICES
 
 export default function KimPrisberegner() {
   const [base, setBase] = useState<keyof typeof BASE_PRICES | null>(null);
-  const [koersler, setKoersler] = useState<number>(3);
+  const [ekstraKoersler, setEkstraKoersler] = useState<number>(0);
+  const [fysiskMoede, setFysiskMoede] = useState<boolean>(false);
   const [km, setKm] = useState<string>("");
   const [indenforLoft, setIndenforLoft] = useState<boolean>(true);
   const [addons, setAddons] = useState<Record<string, number>>({});
@@ -99,7 +111,7 @@ export default function KimPrisberegner() {
   // Er den valgte kiste ikke mulig ved afskedsformen, bruges standardkisten
   const standard = base ? KISTER.find((k) => k.id === STANDARD_KISTE[base])! : null;
   const valgtKiste = base ? kisterTil(base).find((k) => k.id === kiste) ?? standard : null;
-  const kisteForskel = valgtKiste && standard ? valgtKiste.price - standard.price : 0;
+  const kisteForskel = base && valgtKiste ? kisteForskelFor(base, valgtKiste) : 0;
   const [urne, setUrne] = useState<string>(STANDARD_URNE.id);
   const medUrne = base === "uden" || base === "bisaettelse";
   const valgtUrne = URNER.find((u) => u.id === urne) ?? STANDARD_URNE;
@@ -108,16 +120,16 @@ export default function KimPrisberegner() {
     const addon = ADDONS.find((a) => a.id === id);
     return sum + (addon && relevant(addon, base) ? addon.price * qty : 0);
   }, 0);
-  const medCeremoni = base === "bisaettelse" || base === "begravelse";
-  // Kørsel: pakken indeholder et antal kørsler à 1.595 kr. (inkl. 25 km). Ubrugte kørsler trækkes fra,
+  // Kørsel: pakken indeholder et antal kørsler à 1.595 kr. (inkl. 25 km). Ekstra kørsler er et tilvalg,
   // og km ud over 25 lægges til pr. kørsel (højst 2.000 kr. pr. kørsel inden for København og Nordsjælland).
   const pakkeKoersler = base ? PAKKE_KOERSLER[base] : 0;
-  const antalKoersler = medCeremoni ? Math.min(koersler, pakkeKoersler) : pakkeKoersler;
+  const antalKoersler = pakkeKoersler + (base ? ekstraKoersler : 0);
   const kmTal = Math.max(0, Number(km.replace(",", ".")) || 0);
   const enKoersel = prisPrKoersel(kmTal, indenforLoft);
-  const koerselFradrag = (pakkeKoersler - antalKoersler) * KOERSEL_PRIS;
+  const ekstraKoerselPris = (base ? ekstraKoersler : 0) * KOERSEL_PRIS;
+  const moedePris = base && fysiskMoede ? MOEDE_PRIS : 0;
   const kmTillaeg = antalKoersler * (enKoersel - KOERSEL_PRIS);
-  const total = Math.max(0, basePrice + kisteForskel + urneForskel + addonTotal - koerselFradrag + kmTillaeg);
+  const total = Math.max(0, basePrice + kisteForskel + urneForskel + addonTotal + ekstraKoerselPris + kmTillaeg + moedePris);
 
   const toggleAddon = (id: string, hasQty: boolean) => {
     setAddons((prev) => {
@@ -147,11 +159,12 @@ export default function KimPrisberegner() {
     ];
     if (medUrne) linjer.push(`- Urne: ${valgtUrne.label}${urneForskel ? ` (${forskelTekst(urneForskel).toLowerCase()})` : " (indgår i prisen)"}`);
     linjer.push(`- Rustvognskørsler: ${antalKoersler} à ${kr(enKoersel)}${kmTal ? ` (${kmTal} km fra Søborg, ${indenforLoft ? "inden for København og Nordsjælland" : "uden for København og Nordsjælland"})` : " (inden for 25 km)"}`);
-    if (koerselFradrag) linjer.push(`- Fradrag for ${pakkeKoersler - antalKoersler} kørsel${pakkeKoersler - antalKoersler > 1 ? "er" : ""}, der ikke bruges: −${kr(koerselFradrag)}`);
+    if (ekstraKoerselPris) linjer.push(`- Ekstra kørsler: ${ekstraKoersler} × ${kr(KOERSEL_PRIS)} = ${kr(ekstraKoerselPris)}`);
+    linjer.push(fysiskMoede ? `- Møde hjemme hos jer eller på mit kontor: ${kr(MOEDE_PRIS)}` : "- Telefonmøde (indgår i prisen)");
     if (kmTillaeg) linjer.push(`- Km-tillæg: ${kr(kmTillaeg)}`);
     for (const [id, qty] of Object.entries(addons)) {
       const addon = ADDONS.find((a) => a.id === id);
-      if (addon && relevant(addon, base)) linjer.push(`- ${addon.label}${qty > 1 ? ` × ${qty}` : ""}: ${"fra" in addon ? "fra " : ""}${kr(addon.price * qty)}`);
+      if (addon && relevant(addon, base)) linjer.push(`- ${addon.label}${qty > 1 ? ` × ${qty}` : ""}: ${"fra" in addon ? "fra " : "ca" in addon ? "ca. " : ""}${kr(addon.price * qty)}`);
     }
     linjer.push(`Vejledende pris i alt: ${kr(total)}`);
     linjer.push("Ikke med i beregningen: krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter.");
@@ -217,9 +230,9 @@ export default function KimPrisberegner() {
           <h2 style={s.h2}>1. Hvordan skal afskeden være?</h2>
           <div style={{ display: "grid", gap: "16px", marginBottom: "40px" }}>
             {([
-              { key: "uden" as const, title: "Afsked uden ceremoni", price: "Fra 13.550 kr.", text: "En afsked uden kirkelig eller borgerlig ceremoni – kisten køres direkte til krematoriet. Jeg står for det praktiske: anmodning om ligbrænding, koordinering med læge og krematorium, transport, klargøring af afdøde og valg af kiste og urne. I behøver ikke selv tage kontakt til myndigheder eller krematorium." },
-              { key: "bisaettelse" as const, title: "Bisættelse", price: "Fra 18.300 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Jeg koordinerer hele forløbet: anmodning om ligbrænding, aftaler med præst eller kirkekontor, booker kapel eller kirke, sørger for transport til og fra ceremonien, koordinerer med krematoriet og står for klargøring af afdøde. Jeg aftaler tiderne med kirke, kapel og kirkegård og holder jer orienteret undervejs." },
-              { key: "begravelse" as const, title: "Begravelse", price: "Fra 19.300 kr.", text: "Ceremoni, hvorefter kisten sænkes i jorden. Jeg sørger for det samme som ved en bisættelse, plus koordinering med kirkegården om gravsted, gravning og tidspunkt for jordfæstelsen. I taler med mig hele vejen — fra den første samtale til selve afskeden." },
+              { key: "uden" as const, title: "Bisættelse uden ceremoni", price: "9.995 kr.", text: "Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Med i prisen: mit honorar og telefonmøde, anmodning om ligbrænding, ansøgning om begravelseshjælp, kontakt til krematorium og kirkegård, klargøring og ilægning i en umalet basiskiste, urne og én rustvognskørsel." },
+              { key: "begravelse" as const, title: "Begravelse", price: "Fra 13.495 kr.", text: "Kisten sænkes i jorden efter ceremonien. Med i prisen: mit honorar og telefonmøde, anmodning om begravelse, begravelseshjælp, dødsannonce (avisens pris kommer oveni), kontakt til kirke og kirkegård, klassisk hvid kiste og én rustvognskørsel. Jeg er selv til stede ved højtideligheden." },
+              { key: "bisaettelse" as const, title: "Bisættelse med ceremoni", price: "Fra 14.995 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Det samme som begravelse, plus natururne, kontakt til krematoriet og to rustvognskørsler: fra kapel til ceremoni og derfra til krematoriet." },
             ]).map((opt) => (
               <label key={opt.key} style={{ display: "block", background: base === opt.key ? "#f0f7f3" : "#fff", border: `1.5px solid ${base === opt.key ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "20px 24px", cursor: "pointer" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", flexWrap: "wrap" }}>
@@ -229,7 +242,7 @@ export default function KimPrisberegner() {
                   </div>
                   <span style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, color: "#3D6B4F", whiteSpace: "nowrap" }}>{opt.price}</span>
                 </div>
-                <input type="radio" name="base" checked={base === opt.key} onChange={() => setBase(opt.key)} style={{ marginTop: "12px" }} />
+                <input type="radio" name="base" checked={base === opt.key} onChange={() => { setBase(opt.key); setKiste(null); }} style={{ marginTop: "12px" }} />
               </label>
             ))}
           </div>
@@ -238,12 +251,12 @@ export default function KimPrisberegner() {
             <>
               <h2 style={s.h2}>2. {medUrne ? "Hvilken kiste og urne?" : "Hvilken kiste?"}</h2>
               <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-                Prisen ovenfor er med en klassisk hvid kiste. Vælger I en anden kiste, betaler I kun forskellen — og vælger I den enkleste basiskiste, trækkes forskellen fra.{" "}
+                {base === "uden" ? "Prisen er med en umalet basiskiste. Vælger I en anden kiste, betaler I kun forskellen." : "Prisen er med en klassisk hvid kiste. Vælger I en anden kiste, betaler I kun forskellen – og vælger I den umalede basiskiste, bliver prisen 1.000 kr. lavere."}{" "}
                 <a href="/produkter/" style={s.link}>Se kisterne med billeder</a>
               </p>
               <div style={{ display: "grid", gap: "12px", marginBottom: "40px" }}>
                 {kisterTil(base).map((k) => {
-                  const forskel = k.price - standard.price;
+                  const forskel = kisteForskelFor(base, k);
                   const valgt = valgtKiste.id === k.id;
                   return (
                     <label key={k.id} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px", background: valgt ? "#f0f7f3" : "#fff", border: `1px solid ${valgt ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "16px 20px", cursor: "pointer" }}>
@@ -262,7 +275,7 @@ export default function KimPrisberegner() {
                 <>
                   <h3 style={s.h3}>Og urnen?</h3>
                   <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-                    En natururne indgår i prisen. Vælger I en anden urne, betaler I kun forskellen.
+                    En urne indgår i prisen. Vælger I en anden urne, betaler I kun forskellen.
                   </p>
                   <div style={{ display: "grid", gap: "12px", marginBottom: "40px" }}>
                     {URNER.map((u) => {
@@ -289,24 +302,23 @@ export default function KimPrisberegner() {
           <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
             Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft.
           </p>
-          {medCeremoni && (
+          {base && (
             <>
-              <h3 style={s.h3}>Antal rustvognskørsler</h3>
+              <h3 style={s.h3}>Rustvognskørsler</h3>
               <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-                Pakken har tre kørsler: til kisteophold, videre til ceremonien og derfra til {base === "begravelse" ? "graven" : "krematoriet"}. Bliver der brug for færre, trækkes 1.595 kr. fra for hver kørsel, der ikke bliver brugt. Hentes afdøde fx på kapellet og køres direkte til ceremonien og derfra videre, er det to kørsler. I weekenden bruges som regel alle tre, fordi hospitalernes kapeller er lukket.
+                {base === "bisaettelse" ? "Pakken har to kørsler: fra kapel til ceremoni og derfra til krematoriet." : base === "begravelse" ? "Pakken har én kørsel. På hverdage kan vi ofte køre direkte fra hospitalets kapel til kirken." : "Pakken har én kørsel til krematoriet."} En ekstra kørsel koster 1.595 kr. I weekenden er hospitalernes kapeller lukket, så der skal som regel bruges flere kørsler. Det aftaler vi, når forløbet ligger fast.
               </p>
               <div style={{ display: "grid", gap: "12px", marginBottom: "24px" }}>
-                {[3, 2, 1].map((n) => {
-                  const valgt = antalKoersler === n;
-                  const fradrag = (pakkeKoersler - n) * KOERSEL_PRIS;
+                {[0, 1, 2].map((n) => {
+                  const valgt = ekstraKoersler === n;
                   return (
                     <label key={n} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px", background: valgt ? "#f0f7f3" : "#fff", border: `1px solid ${valgt ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "16px 20px", cursor: "pointer" }}>
                       <span style={{ display: "flex", alignItems: "center", gap: "12px", flex: 1 }}>
-                        <input type="radio" name="koersler" checked={valgt} onChange={() => setKoersler(n)} />
-                        <span>{n === 3 ? "Tre kørsler (som i pakken)" : n === 2 ? "To kørsler" : "Én kørsel"}</span>
+                        <input type="radio" name="ekstrakoersler" checked={valgt} onChange={() => setEkstraKoersler(n)} />
+                        <span>{n === 0 ? "Ingen ekstra kørsler" : n === 1 ? "Én ekstra kørsel" : "To ekstra kørsler"}</span>
                       </span>
                       <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
-                        {fradrag ? `− ${fradrag.toLocaleString("da-DK")} kr.` : "Indgår i prisen"}
+                        {n ? `+ ${(n * KOERSEL_PRIS).toLocaleString("da-DK")} kr.` : "Indgår i prisen"}
                       </span>
                     </label>
                   );
@@ -334,13 +346,35 @@ export default function KimPrisberegner() {
             {base && (
               <p style={{ ...s.body, fontSize: "15px", margin: 0, color: "#3d4f5a" }}>
                 {antalKoersler} {antalKoersler === 1 ? "kørsel" : "kørsler"} à {enKoersel.toLocaleString("da-DK")} kr.
-                {koerselFradrag ? ` · fradrag ${koerselFradrag.toLocaleString("da-DK")} kr.` : ""}
+                {ekstraKoerselPris ? ` · ekstra kørsler ${ekstraKoerselPris.toLocaleString("da-DK")} kr.` : ""}
                 {kmTillaeg ? ` · km-tillæg ${kmTillaeg.toLocaleString("da-DK")} kr.` : ""}
               </p>
             )}
           </div>
 
-          <h2 style={s.h2}>{base ? 4 : 3}. Tilvalg <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
+          {base && (
+            <>
+              <h2 style={s.h2}>4. Møde</h2>
+              <div style={{ display: "grid", gap: "12px", marginBottom: "40px" }}>
+                {[false, true].map((fysisk) => {
+                  const valgt = fysiskMoede === fysisk;
+                  return (
+                    <label key={String(fysisk)} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "12px", background: valgt ? "#f0f7f3" : "#fff", border: `1px solid ${valgt ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "16px 20px", cursor: "pointer" }}>
+                      <span style={{ display: "flex", alignItems: "center", gap: "12px", flex: 1 }}>
+                        <input type="radio" name="moede" checked={valgt} onChange={() => setFysiskMoede(fysisk)} />
+                        <span>{fysisk ? "Møde hjemme hos jer eller på mit kontor i Søborg" : "Telefonmøde"}</span>
+                      </span>
+                      <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
+                        {fysisk ? "+ 995 kr." : "Indgår i prisen"}
+                      </span>
+                    </label>
+                  );
+                })}
+              </div>
+            </>
+          )}
+
+          <h2 style={s.h2}>{base ? 5 : 3}. Tilvalg <span style={{ fontWeight: 400, fontSize: "16px", color: "#7a8f99" }}>(valgfrit)</span></h2>
           <div style={{ display: "grid", gap: "12px", marginBottom: "48px" }}>
             {ADDONS.filter((addon) => relevant(addon, base)).map((addon) => {
               const selected = !!addons[addon.id];
@@ -359,7 +393,7 @@ export default function KimPrisberegner() {
                       <input type="number" min={1} value={qty} onChange={(e) => setQty(addon.id, Number(e.target.value))} style={{ width: "70px", padding: "6px 8px", border: "1px solid #e0dcd6", borderRadius: "3px" }} />
                     )}
                     <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
-                      {selected ? `${(addon.price * qty).toLocaleString("da-DK")} kr.` : `${"fra" in addon ? "Fra " : ""}${addon.price.toLocaleString("da-DK")} kr.`}
+                      {`${"fra" in addon && !selected ? "Fra " : "ca" in addon ? "Ca. " : ""}${(addon.price * (selected ? qty : 1)).toLocaleString("da-DK")} kr.`}
                     </span>
                   </div>
                 </div>
@@ -374,7 +408,7 @@ export default function KimPrisberegner() {
                 {total.toLocaleString("da-DK")} kr.
               </p>
               <p style={{ ...s.body, fontSize: "15px", maxWidth: "560px", margin: "0 auto 20px" }}>
-                Inkluderer mit arbejde som beskrevet ovenfor — herunder koordinering, planlægning, transport, anmodning om begravelse eller ligbrænding og kontakt til kirke, kapel, krematorium og kirkegård.
+                Inkluderer det, der står i pakken, og de tilvalg, I har valgt. Alle priser er inkl. moms og gælder hverdage.
               </p>
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "0 auto" }}>
                 Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter. Disse beløb er ikke med i overslaget.

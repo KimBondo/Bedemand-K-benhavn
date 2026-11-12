@@ -97,7 +97,7 @@ export default function KimSjaelland() {
             <strong>Ceremonien holdes lokalt.</strong> Bisættelsen eller begravelsen kan holdes i jeres egen kirke eller i kapellet, hvor I bor. Jeg aftaler alt med kirkekontoret og kirkegården lokalt.
           </p>
           <p style={s.body}>
-            <strong>Samme faste priser.</strong> Bisættelse fra 18.300 kr., begravelse fra 19.300 kr. og afsked uden ceremoni 13.550 kr. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
+            <strong>Samme faste priser.</strong> Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bisættelse med ceremoni fra 14.995 kr. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
           </p>
           <p style={s.body}>
             <strong>Kørsel.</strong> Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Et eksempel: Ligger stedet 60 km fra Søborg, koster kørslen 1.595 kr. + 35 km × 35 kr. = 2.820 kr. Jeg regner det ud for jer på forhånd.

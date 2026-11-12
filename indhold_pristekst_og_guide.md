@@ -1,63 +1,35 @@
 # Indhold til bedemandkobenhavn.dk
-## Udarbejdet 26. juli 2026 · priseksempel og stier opdateret 27. august 2026
+## Udarbejdet 26. juli 2026 · priser og priseksempel opdateret 12. november 2026
 
 ---
 
-> **Bemærk:** Pakkepriserne er 13.550 / 18.300 / 19.300 kr., og begge pakker
-> indeholder **tre** rustvognskørsler. Rustvognskørsel koster 1.595 kr. inkl. 25 km,
-> derefter 35 kr./km, højst 2.000 kr. pr. kørsel i København og Nordsjælland
-> (uden for området samme takst uden loft). Tillæg aften/weekend/helligdage: 800 kr. pr. udkald. Står der andet et sted i dette dokument,
-> er det forældet — prissiden på sitet er facit.
+> **Bemærk:** Pakkepriserne er: Bisættelse uden ceremoni 9.995 kr. (fast pris), Begravelse fra
+> 13.495 kr. og Bisættelse med ceremoni fra 14.995 kr. Alle priser er inkl. moms og gælder hverdage.
+> Bisættelse uden ceremoni og begravelse har én rustvognskørsel, bisættelse med ceremoni har to.
+> En ekstra kørsel koster 1.595 kr. Rustvognskørsel koster 1.595 kr. inkl. de første 25 km fra Søborg,
+> derefter 35 kr./km (kun den ene vej), højst 2.000 kr. pr. kørsel i København og Nordsjælland
+> (uden for området samme takst uden loft). Tillæg aften/weekend/helligdage: 800 kr. pr. udkald.
+> Telefonmødet er med i prisen; et møde hjemme eller på kontoret i Søborg koster 995 kr.
+> Klassisk hvid kiste 6.500 kr., umalet basiskiste 5.500 kr. Urnekørsel 900 kr. (kun tilvalg).
+> Står der andet et sted i dette dokument, er det forældet — prissiden på sitet er facit.
 
 ---
 
-# TEKST 1 — Prisgennemsigtighed som etisk handling
-### Til brug på: /priser/ (hero-sektion eller intro-boks)
-### Tone: Varm, direkte, personlig — Kims stemme
+# TEKST 1 — Intro til prissiden
+### Til brug på: /priser/
+### Tone: rolig, konkret, jeg-form
 
----
+De tidligere varianter A, B og C er fjernet. De kritiserede branchen og lovede gratis hjemmebesøg,
+og det passer ikke længere. Den aktuelle tekst på /priser/ er:
 
-## Variant A — Kort (til hero-sektion, ca. 80 ord)
+**Derfor står priserne her**
 
-**Alle priser er synlige — fordi I har ret til at vide det**
+Jeg vil gerne, at I kan se, hvad en afsked koster, før I ringer – i ro og i jeres eget tempo.
 
-I en branche, der traditionelt har holdt priserne skjult, har jeg valgt en anden vej. Ikke fordi det er smart markedsføring, men fordi jeg mener, at mennesker i sorg ikke skal bruge kræfter på at gætte, hvad en afsked koster.
+Her står mine priser, mine tillæg og de udgifter, jeg ikke selv bestemmer over. Jeg regner det hele sammen med jer, inden I beslutter jer.
 
-Alle mine priser er samlet her. Ingen skjulte gebyrer. Ingen overraskelser på fakturaen. Og hjemmebesøg er altid inkluderet — det koster ikke ekstra at møde mig der, hvor I er.
-
----
-
-## Variant B — Mellemlang (til prissidens intro, ca. 180 ord)
-
-**Prisgennemsigtighed er ikke et tilbud. Det er en ret.**
-
-Da jeg begyndte som bedemand, undrede jeg mig over en ting: Hvorfor var det så svært at finde ud af, hvad en begravelse kostede? Branchen har i årtier opereret med priser, der først kom frem ved det fysiske møde — på et tidspunkt, hvor pårørende er sårbare, pressede og sjældent i stand til at sammenligne.
-
-Det har jeg valgt at gøre anderledes.
-
-Her finder I alle mine priser — enkeltpriser, pakkepriser og de tredjepartsudgifter, jeg ikke selv bestemmer, men som I alligevel skal kende. Jeg søger begravelseshjælp på jeres vegne og modregner den direkte på fakturaen. Og hjemmebesøg er altid inkluderet — fordi det menneskelige møde ikke er et tilvalg.
-
-Jeg er ikke den billigste bedemand i København. Men jeg er den, der fortæller jer, hvad det koster — inden I beslutter jer.
-
----
-
-## Variant C — Lang (til selvstændig side eller blogindlæg, ca. 350 ord)
-
-**Hvorfor viser jeg alle mine priser — og hvad det siger om branchen**
-
-Begravelsesbranchen er en af de få brancher i Danmark, hvor det stadig er normen ikke at vise priser offentligt. Hos mange traditionelle bedemænd finder du ingen prisside. Du skal ringe, møde op eller vente på et tilbud — og det sker typisk i en situation, hvor du netop har mistet nogen, og ikke er i stand til at sammenligne.
-
-Det er ikke tilfældigt. Det er en forretningsmodel.
-
-Jeg har valgt en anden vej — ikke fordi det er kommercielt klogt, men fordi jeg ikke kan forene mig med en praksis, der udnytter sårbarhed. Når I mister nogen, skal I bruge jeres energi på sorgen, på hinanden og på at sige et ordentligt farvel. Ikke på at ringe rundt og indhente tilbud.
-
-Derfor er alle mine priser samlet her. Bedemandshonorar, rustvognskørsel, kister, urner, blomster — alt det, jeg bestemmer prisen på. Og for de udgifter, jeg ikke bestemmer — kremering, gravsted, kirkegårdsafgifter, kapelleje — har jeg lavet en guide, der viser, hvad I realistisk kan forvente at betale i København og Nordsjælland.
-
-Nogle vil sige, at åbne priser skader forretningen. Måske. Men jeg tror på, at de mennesker, der vælger mig, gør det fordi de stoler på mig — og tillid begynder med ærlighed.
-
-Hjemmebesøg er altid inkluderet. Rådgivning om "Min Sidste Vilje" er gratis. Og I ved, hvad I siger ja til, inden vi begynder.
-
-Det er ikke et tilbud. Det er en ret.
+Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor i Søborg koster 995 kr.
+(Det gratis hjemmebesøg gælder kun Min Sidste Vilje – planlægning af egen afsked.)
 
 ---
 ---
@@ -88,7 +60,7 @@ Herudover kommer eventuelle udgifter til blomster, annonce og sangblade — som 
 
 ---
 
-### Del 1 — Kremering (kun ved bisættelse og afsked uden ceremoni)
+### Del 1 — Kremering (kun ved bisættelse med og uden ceremoni)
 
 Kremering er en kommunal ydelse og betales direkte til krematoriet. Prisen afhænger af, hvilket krematorium der benyttes — typisk det, der ligger tættest på ceremoniestedet eller afdødes bopæl.
 
@@ -239,16 +211,16 @@ Nedenstående er et realistisk eksempel på en bisættelse med kirkelig ceremoni
 | Post | Beløb | Hvem bestemmer prisen? |
 |---|---|---|
 | **Bedemandens ydelser (Kim Bondo)** | | |
-| Bisættelse inkl. honorar, kiste, urne, 3 kørsler | 18.300 kr. | Kim Bondo |
-| Kistepynt (lille) | 2.500 kr. | Kim Bondo |
+| Bisættelse med ceremoni inkl. honorar, klassisk hvid kiste, natururne, 2 kørsler | 14.995 kr. | Kim Bondo |
+| Kistepynt (lille) | 1.800 kr. | Kim Bondo |
 | **Tredjepartsudgifter** | | |
 | Kremering (Bispebjerg) | 3.075 kr. | Krematoriet |
 | Urnegravsted, traditionelt m. indramning (10 år) | 4.751 kr. | Kbh. Kommune |
 | Gravning af urnegrav | 1.199 kr. | Kbh. Kommune |
 | Orgelspil og sang (½ time) | 1.352 kr. | Kirken |
-| **Samlet** | **ca. 31.177 kr.** | |
+| **Samlet** | **ca. 27.172 kr.** | |
 | Fratrukket begravelseshjælp (ved berettigelse) | −13.550 kr. | Udbetaling DK |
-| **Realistisk nettoudgift** | **ca. 17.627 kr.** | |
+| **Realistisk nettoudgift** | **ca. 13.622 kr.** | |
 
 > Dette er et eksempel. Den faktiske pris afhænger af jeres valg og den kirkegård, I vælger. Jeg gennemgår altid alle udgifter med jer, inden vi beslutter noget.
 

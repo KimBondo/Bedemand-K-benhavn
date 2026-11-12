@@ -22,7 +22,7 @@ const s = {
 
 const FAQ = [
   { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland, København og Storkøbenhavn. Ring til mig på 28 14 60 11 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En afsked uden ceremoni starter ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
+  { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En bisættelse uden ceremoni koster 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
   { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs — og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
@@ -117,7 +117,7 @@ export default function KimNordsjaelland() {
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 18px)", color: "#3d5260", maxWidth: "660px", margin: "0 auto 32px", lineHeight: 1.7 }}>
           Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.<br />
-          <a href="/priser/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Bisættelse fra 18.300 kr. · Begravelse fra 19.300 kr.</a>
+          <a href="/priser/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Begravelse fra 13.495 kr. · Bisættelse med ceremoni fra 14.995 kr.</a>
         </p>
         <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
@@ -206,7 +206,7 @@ export default function KimNordsjaelland() {
             {[
               { title: "Bisættelse", desc: "Ceremoni i jeres egen kirke eller det lokale kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på kirkegården i jeres sogn. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
-              { title: "Afsked uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 13.550 kr.", href: "/afsked-uden-ceremoni/" },
+              { title: "Bisættelse uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 9.995 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres sognekirke.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — flere af kapellerne kan bruges uanset tro.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Nordsjælland er der kort vej til Øresund og Kattegat.", href: "/askespredning/" },
@@ -231,9 +231,9 @@ export default function KimNordsjaelland() {
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
             {[
-              { type: "Afsked uden ceremoni", price: "13.550 kr.", href: "/afsked-uden-ceremoni/" },
-              { type: "Bisættelse med ceremoni", price: "18.300 kr.", href: "/bisaettelse/" },
-              { type: "Begravelse i kiste", price: "19.300 kr.", href: "/begravelse/" },
+              { type: "Bisættelse uden ceremoni", price: "9.995 kr.", href: "/afsked-uden-ceremoni/" },
+              { type: "Bisættelse med ceremoni", price: "fra 14.995 kr.", href: "/bisaettelse/" },
+              { type: "Begravelse i kiste", price: "fra 13.495 kr.", href: "/begravelse/" },
             ].map((p) => (
               <div key={p.type} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>

@@ -19,7 +19,7 @@ const s = {
 const FAQ = [
   { question: "Hvad skal man gøre først, når nogen dør?", answer: "Kontakt en læge, som konstaterer dødsfaldet og udsteder dødsattest. Derefter kan bedemanden kontaktes. Jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
   { question: "Hvem sender anmodningen om begravelse eller ligbrænding?", answer: "Lægen udsteder dødsattesten. Derefter skal der sendes en anmodning om begravelse eller ligbrænding til afdødes bopælssogn. Det gør jeg for jer med en fuldmagt, så I ikke selv skal kontakte myndighederne." },
-  { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig starter en afsked uden ceremoni ved 13.550 kr., en bisættelse med ceremoni ved 18.300 kr. og en begravelse i kiste ved 19.300 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
+  { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
   { question: "Kan man få begravelseshjælp?", answer: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med at ansøge om den." },
 ];
 
@@ -92,7 +92,7 @@ export default function KimHvadSkerDer() {
 
           <h2 style={s.h2}>Valg af afsked</h2>
           <p style={s.body}>
-            De fleste vælger en bisættelse med ceremoni (fra 18.300 kr.) eller en begravelse i kiste (fra 19.300 kr.). En afsked uden ceremoni starter ved 13.550 kr. og svarer til den maksimale begravelseshjælp i 2026.
+            De fleste vælger en bisættelse med ceremoni (fra 14.995 kr.) eller en begravelse i kiste (fra 13.495 kr.). En bisættelse uden ceremoni koster 9.995 kr.
           </p>
           <p style={s.body}>
             Jeg laver et overslag sammen med jer, inden I beslutter noget. Oveni kommer udgifter til krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter.

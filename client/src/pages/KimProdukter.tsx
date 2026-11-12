@@ -37,24 +37,24 @@ type Brug = "bisættelse" | "begravelse" | "begge";
 const KISTER = [
   {
     id: "basiskiste",
-    name: "Basiskiste",
-    priceLabel: "6.000 kr.",
+    name: "Umalet basiskiste",
+    priceLabel: "5.500 kr.",
     image: "/images/basiskiste-umalet-trae.webp",
     imgW: 2048,
     imgH: 1366,
-    alt: "Basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
-    description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse. Vælger I den i stedet for den klassiske hvide kiste i en af mine pakker, bliver prisen 500 kr. lavere ved bisættelse og 1.000 kr. lavere ved begravelse. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
+    alt: "Umalet basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
+    description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse. Den koster 5.500 kr. og er standardkisten i min bisættelse uden ceremoni. Vælger I den i stedet for den klassiske hvide kiste til en begravelse eller en bisættelse med ceremoni, bliver prisen 1.000 kr. lavere. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
     use: "begge" as Brug,
   },
   {
     id: "klassisk-hvid",
     name: "Klassisk hvid kiste",
-    priceLabel: "Fra 6.500 kr.",
+    priceLabel: "6.500 kr.",
     image: "/images/klassisk-hvid-kiste.webp",
     imgW: 1200,
     imgH: 1200,
     alt: "Klassisk hvid kiste til bisættelse og begravelse, Kim Bondo bedemand",
-    description: "Den klassiske hvide kiste er standardkisten i mine pakker. Til bisættelse er den fremstillet i spån og MDF og koster 6.500 kr. Til begravelse bruges en særlig udgave, som koster 7.000 kr.",
+    description: "Den klassiske hvide kiste er standardkisten i mine pakker til begravelse og bisættelse med ceremoni. Den koster 6.500 kr. – både til bisættelse og begravelse. Til bisættelse er den fremstillet i spån og MDF, og til begravelse bruges en særlig udgave.",
     use: "begge" as Brug,
   },
   {
@@ -65,7 +65,7 @@ const KISTER = [
     imgW: 2048,
     imgH: 1365,
     alt: "Gaia kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse (kun til kremering)",
-    description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og træet binder CO2, mens det vokser. Gaia kan kun bruges ved bisættelse og afsked uden ceremoni, hvor der følger kremering – ikke ved begravelse.",
+    description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og træet binder CO2, mens det vokser. Gaia kan kun bruges ved bisættelse med og uden ceremoni, hvor der følger kremering – ikke ved begravelse.",
     use: "bisættelse" as Brug,
   },
   {
@@ -111,7 +111,7 @@ const URNER = [
     imgW: 1200,
     imgH: 1200,
     alt: "Creme Natur biourne – biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
-    description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Natururnen indgår i mine pakker til bisættelse og afsked uden ceremoni — i den farve, I vælger.",
+    description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Natururnen indgår i mine pakker til bisættelse med og uden ceremoni — i den farve, I vælger.",
   },
   {
     id: "gron-natur-biourn",
@@ -170,7 +170,7 @@ export default function KimProdukter() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Kister og urner – Bedemand Kim Bondo"
-        description="Vælg kiste fra 6.000 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Ring til mig på 28 14 60 11."
+        description="Vælg kiste fra 5.500 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/produkter/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

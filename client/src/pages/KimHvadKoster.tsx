@@ -26,7 +26,7 @@ export default function KimHvadKoster() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Hvad koster en begravelse? Priser 2026 – Kim Bondo"
-        description="En bisættelse koster fra 18.300 kr. og en begravelse fra 19.300 kr. Se, hvad der kommer oveni, og om I får begravelseshjælp. Ring til mig på 28 14 60 11."
+        description="Begravelse fra 13.495 kr., bisættelse med ceremoni fra 14.995 kr. og uden ceremoni 9.995 kr. Se, hvad der kommer oveni. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -98,9 +98,9 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Mine priser</h2>
           <ul style={{ margin: "0 0 20px", paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
-            <li>Afsked uden ceremoni: fast pris 13.550 kr.</li>
-            <li>Bisættelse: fra 18.300 kr.</li>
-            <li>Begravelse: fra 19.300 kr.</li>
+            <li>Bisættelse uden ceremoni: 9.995 kr.</li>
+            <li>Begravelse: fra 13.495 kr.</li>
+            <li>Bisættelse med ceremoni: fra 14.995 kr.</li>
           </ul>
           <p style={{ ...s.body, marginBottom: 0 }}>
             Priserne gælder de beskrevne standardforløb på hverdage. På <a href="/priser/" style={s.link}>prissiden</a> kan I se, hvad pakkerne indeholder, og hvilke tillæg der kan være relevante.
@@ -127,7 +127,7 @@ export default function KimHvadKoster() {
             Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område er der intet loft.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Pakkerne med ceremoni har tre kørsler. Bliver der brug for færre, trækkes 1.595 kr. fra for hver kørsel, der ikke bliver brugt.
+            Bisættelse uden ceremoni og begravelse har én rustvognskørsel, og bisættelse med ceremoni har to. En ekstra kørsel koster 1.595 kr.
           </p>
         </div>
       </section>
@@ -148,7 +148,7 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "680px", margin: "0 auto", textAlign: "center" }}>
           <h2 style={s.h2}>Vi finder ud af det sammen</h2>
           <p style={{ ...s.body, marginBottom: "28px" }}>
-            I behøver ikke kende alle mulighederne, før I ringer. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg.
+            I behøver ikke kende alle mulighederne, før I ringer. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor i Søborg koster 995 kr.
           </p>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
         </div>

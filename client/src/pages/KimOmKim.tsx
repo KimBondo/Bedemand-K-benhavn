@@ -22,7 +22,7 @@ const PERSON_SCHEMA = {
     "addressCountry": "DK"
   },
   "worksFor": { "@id": "https://www.bedemandkobenhavn.dk/#business" },
-  "knowsAbout": ["Bisættelse", "Begravelse", "Afsked uden ceremoni", "Askespredning", "Begravelseshjælp"]
+  "knowsAbout": ["Bisættelse", "Begravelse", "Bisættelse uden ceremoni", "Askespredning", "Begravelseshjælp"]
 };
 
 /**
@@ -201,7 +201,7 @@ export default function KimOmKim() {
                 For mig handler arbejdet om at møde mennesker med nærvær og ro. Jeg ved, hvor vigtigt det er at kunne rumme både tårer, tavshed og et befriende smil – uden at skynde på nogen. Det er ikke en opgave for mig at hjælpe jer igennem en afsked. Det er et privilegium.
               </p>
               <p style={s.body}>
-                Det er mig, der tager telefonen – også om natten. Det er mig, der kommer hjem til jer, og mig, der selv kører rustvognen og står ved højtideligheden. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen, så I ikke skal lægge ud.
+                Det er mig, der tager telefonen – også om natten. Det er mig, der kommer hjem til jer, og mig, der selv kører rustvognen og står ved højtideligheden. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor i Søborg koster 995 kr. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen, så I ikke skal lægge ud.
               </p>
               <p style={s.body}>
                 Bedemand København er en lille, personlig begravelsesforretning, hvor I har mig som jeres faste kontakt hele vejen.
