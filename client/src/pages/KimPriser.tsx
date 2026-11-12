@@ -175,7 +175,7 @@ export default function KimPriser() {
             "Ansøgning om begravelseshjælp, som trækkes fra på fakturaen",
             "Kontakt til krematorium og kirkegård",
             "Klargøring, påklædning og ilægning i en umalet basiskiste",
-            "Urne",
+            "Natururne",
             "Én rustvognskørsel til krematoriet, inkl. de første 25 km fra Søborg",
             ].map((item, i) => (
               <li key={i} style={s.li}>{item}</li>
