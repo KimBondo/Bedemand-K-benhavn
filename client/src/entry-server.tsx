@@ -9,6 +9,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import ErrorBoundary from "./components/ErrorBoundary";
 import MobilRingKnap from "./components/MobilRingKnap";
+import RingMigOpDialog from "./components/RingMigOp";
 import { Route, Switch } from "wouter";
 import { Suspense } from "react";
 
@@ -111,6 +112,7 @@ function SSRApp() {
           </Switch>
           </Suspense>
           <MobilRingKnap />
+          <RingMigOpDialog />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
