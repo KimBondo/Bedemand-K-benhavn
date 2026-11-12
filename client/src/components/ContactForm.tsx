@@ -2,7 +2,12 @@
  * ContactForm – Kim Bondo
  *
  * Sender henvendelsen via Web3Forms (https://web3forms.com) direkte til
- * kim@bedemandkobenhavn.dk. Kræver ingen backend — siden er statisk.
+ * kim@bedemandkobenhavn.dk.
+ *
+ * Undtagelse: variant="prisanmodning" sender til vores egen Pages Function
+ * /api/prisanmodning (functions/api/prisanmodning.js), som mailer Kim og – hvis
+ * familien har skrevet en e-mail – sender dem en kvittering med overslaget.
+ * Fejler den, sendes anmodningen i stedet via Web3Forms som før.
  *
  * OPSÆTNING:
  *   Formularen styres på app.web3forms.com (konto: kontakt@bedemandsservice.dk).
@@ -71,7 +76,7 @@ interface ContactFormProps {
   idPrefix?: string;
 }
 
-type Status = "idle" | "sending" | "sent" | "mailto" | "error";
+type Status = "idle" | "sending" | "sent" | "mailto" | "error" | "forMange";
 
 export default function ContactForm({
   variant = "default",
@@ -89,6 +94,7 @@ export default function ContactForm({
   const [status, setStatus] = useState<Status>("idle");
   const [mangler, setMangler] = useState<string[]>([]);
   const [sendtOverslag, setSendtOverslag] = useState("");
+  const [kopiSendt, setKopiSendt] = useState(false);
   const [form, setForm] = useState({
     name: "",
     phone: "",
@@ -177,6 +183,44 @@ export default function ContactForm({
     });
 
     setStatus("sending");
+    const page_path = typeof window !== "undefined" ? window.location.pathname : "";
+
+    // Prisanmodning: hos os selv først (mail til Kim + kvittering til familien).
+    if (prisanmodning) {
+      try {
+        const res = await fetch("/api/prisanmodning", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({
+            navn: form.name,
+            telefon: form.phone,
+            email: form.email.trim() || undefined,
+            sted: form.sted,
+            stedTekst: form.stedTekst || undefined,
+            pakke: pakke || undefined,
+            vejledendePris: typeof vejledendePris === "number" ? Math.round(vejledendePris) : undefined,
+            tidspunkt: form.timing,
+            bemaerkning: form.message || undefined,
+            overslag: overslagTekst || undefined,
+            side: page_path,
+          }),
+        });
+        if (res.status === 429) {
+          setStatus("forMange");
+          return;
+        }
+        const data = await res.json().catch(() => null);
+        if (res.ok && data?.ok) {
+          setKopiSendt(data.kopiSendt === true);
+          setStatus("sent");
+          pushEvent("prisanmodning_sendt", { form_type: "prisanmodning", pakke: pakke || undefined, page_path });
+          pushEvent("form_submit_success", { form_type: "prisanmodning" });
+          return;
+        }
+      } catch {
+        // Falder igennem til Web3Forms nedenfor
+      }
+    }
 
     try {
       const felter: Record<string, string | undefined> = prisanmodning
@@ -225,10 +269,10 @@ export default function ContactForm({
 
       if (res.ok && data?.success) {
         setStatus("sent");
-        const page_path = typeof window !== "undefined" ? window.location.pathname : "";
 
         if (prisanmodning) {
-          // Kvitteringen vises her (med overslaget), så familien kan gemme en kopi.
+          // Reserve-vejen: ingen automatisk kopi, så kvitteringen tilbyder mailto.
+          setKopiSendt(false);
           pushEvent("prisanmodning_sendt", { form_type: "prisanmodning", pakke: pakke || undefined, page_path });
           pushEvent("form_submit_success", { form_type: "prisanmodning" });
           return;
@@ -287,7 +331,7 @@ export default function ContactForm({
 
   // ── Kvittering ─────────────────────────────────────────────────────────────
   if (status === "sent" || status === "mailto") {
-    const kopiHref = form.email && sendtOverslag
+    const kopiHref = !kopiSendt && form.email && sendtOverslag
       ? `mailto:${form.email}?subject=${encodeURIComponent("Mit overslag fra Bedemand København")}&body=${encodeURIComponent(sendtOverslag)}`
       : "";
     return (
@@ -309,7 +353,7 @@ export default function ContactForm({
           {status === "mailto"
             ? "Jeres e-mailprogram er åbnet med beskeden klar til afsendelse. I er også velkomne til at ringe på "
             : prisanmodning
-              ? `Det er ikke en bestilling, og I har ikke købt noget. Jeg har fået overslaget og ringer til jer, så hurtigt jeg kan.${form.email ? " Jeg kan også svare jer på skrift." : ""} I er også velkomne til at ringe på `
+              ? `Det er ikke en bestilling, og I har ikke købt noget. Jeg har fået overslaget og ringer til jer, så hurtigt jeg kan.${kopiSendt ? ` Jeg har sendt en kopi af overslaget til ${form.email.trim()}.` : ""}${form.email ? " Jeg kan også svare jer på skrift." : ""} I er også velkomne til at ringe på `
               : ringop
                 ? "Jeg ringer til jer, så hurtigt jeg kan. I er også velkomne til at ringe på "
                 : "Din besked er sendt. Jeg vender tilbage hurtigst muligt — og du er altid velkommen til at ringe på "}
@@ -442,7 +486,7 @@ export default function ContactForm({
 
       <p style={{ fontSize: "13px", color: "#7a8f99", lineHeight: 1.6, marginBottom: "24px", fontStyle: "italic" }}>
         {prisanmodning
-          ? "Oplysningerne – også hvor afdøde er nu, den valgte pakke og overslaget – sendes til min indbakke gennem en ekstern formulartjeneste (Web3Forms). Jeg bruger dem kun til at ringe tilbage og tale om overslaget. Læs mere i "
+          ? "Oplysningerne – også hvor afdøde er nu, den valgte pakke og overslaget – sendes til min indbakke fra min egen hjemmeside og min mailudbyder (Simply). Skriver I en e-mail, sender jeg en kopi af overslaget dertil. Jeg bruger oplysningerne kun til at ringe tilbage og tale om overslaget. Virker det ikke, sendes de i stedet gennem en ekstern formulartjeneste (Web3Forms). Læs mere i "
           : ringop
             ? "Navn, telefon og tidspunkt sendes til min indbakke gennem en ekstern formulartjeneste (Web3Forms). Jeg bruger dem kun til at ringe jer op. Læs mere i "
             : "Din besked sendes til min indbakke gennem en ekstern formulartjeneste (Web3Forms). Oplysningerne bruges udelukkende til at besvare din henvendelse — de sælges ikke og bruges ikke til markedsføring. Læs mere i "}
@@ -452,6 +496,18 @@ export default function ContactForm({
       {mangler.length > 0 && (
         <div role="alert" style={{ background: "#fdf6ec", border: "1.5px solid #c9a35b", borderRadius: "4px", padding: "14px 18px", marginBottom: "20px", fontSize: "14px", color: "#6b4f1d", lineHeight: 1.7 }}>
           Udfyld venligst {mangler.length > 1 ? `${mangler.slice(0, -1).join(", ")} og ${mangler[mangler.length - 1]}` : mangler[0]}, {prisanmodning || ringop ? "så jeg kan ringe jer op" : "så jeg kan svare jer"}.
+        </div>
+      )}
+
+      {status === "forMange" && (
+        <div role="alert" style={{ background: "#fdf6ec", border: "1.5px solid #c9a35b", borderRadius: "4px", padding: "16px 18px", marginBottom: "20px", fontSize: "14px", color: "#6b4f1d", lineHeight: 1.7 }}>
+          Der er sendt flere anmodninger herfra inden for den seneste time, så jeg kan ikke tage imod flere lige nu. Ring endelig på{" "}
+          <a href={`tel:${PHONE_HREF}`} style={{ color: "#6b4f1d", fontWeight: 700 }}>{PHONE_DISPLAY}</a>{" "}
+          — eller{" "}
+          <a href={mailtoHref(prisanmodning && overslag ? overslag() : "")} onClick={() => setStatus("mailto")} style={{ color: "#6b4f1d", fontWeight: 700 }}>
+            send den som almindelig e-mail
+          </a>
+          .
         </div>
       )}
 

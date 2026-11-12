@@ -102,6 +102,9 @@ export default function KimPersondatapolitik() {
           <p style={s.body}>
             Formularen sendes via <strong>Web3Forms</strong>, som er min databehandler. Tjenesten drives uden for EU og bruger blandt andre Amazon Web Services, Cloudflare og Hetzner. Overførslen sker på grundlag af EU-Kommissionens standardkontraktbestemmelser. Vil du undgå det, kan du ringe eller skrive direkte til mig.
           </p>
+          <p style={s.body}>
+            <strong>Prisanmodning fra prisberegneren:</strong> Den sendes ikke via Web3Forms, men fra min egen hjemmeside (en funktion hos Cloudflare) gennem min mailudbyder <strong>Simply</strong>, som også har min indbakke. Skriver du din e-mail, sender jeg samme vej én kopi af det vejledende overslag til dig. Kopien indeholder kun dit navn og overslaget. Virker det ikke, sendes anmodningen i stedet via Web3Forms.
+          </p>
         </div>
       </section>
 
@@ -167,7 +170,7 @@ export default function KimPersondatapolitik() {
             <li style={s.li}>Kirker, kirkegårde, krematorier, præster og myndigheder, når afskeden skal arrangeres</li>
             <li style={s.li}>Offentlige myndigheder, blandt andet ved dødsanmeldelse og ansøgning om begravelseshjælp</li>
             <li style={s.li}>Mit bogholderi og min revisor i forbindelse med fakturering og regnskab</li>
-            <li style={s.li}>Databehandlere, der leverer teknik til hjemmesiden: Web3Forms (kontaktformular), Cloudflare (hosting og levering) og Google (statistik og annoncemåling)</li>
+            <li style={s.li}>Databehandlere, der leverer teknik til hjemmesiden: Web3Forms (kontaktformular), Simply (min e-mail), Cloudflare (hosting, levering og afsendelse af prisanmodninger) og Google (statistik og annoncemåling)</li>
           </ul>
 
           <h3 style={s.h3}>Overførsel uden for EU/EØS</h3>
