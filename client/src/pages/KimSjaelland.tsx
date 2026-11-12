@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
+import PakkeprisBoks from "@/components/PakkeprisBoks";
 import CookieLink from "@/components/CookieLink";
 import KimPortraet from "@/components/KimPortraet";
 
@@ -18,7 +19,7 @@ export default function KimSjaelland() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand på Sjælland – Kim Bondo, døgnet rundt"
-        description="Bedemand på hele Sjælland. Jeg tager selv telefonen, har faste priser og begravelseshjælpen trukket fra på fakturaen. Ring til mig på 28 14 60 11."
+        description="Bedemand på hele Sjælland. Jeg tager selv telefonen. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/sjaelland/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -84,6 +85,8 @@ export default function KimSjaelland() {
           Bedemand på hele Sjælland – den samme person hele vejen
         </h1>
       </section>
+
+      <PakkeprisBoks />
 
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>

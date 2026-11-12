@@ -91,7 +91,7 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Når du skriver via kontaktformularen</h2>
           <p style={s.body}>
-            Bruger du formularen her på siden, registrerer jeg de oplysninger, du selv skriver ind: navn, telefonnummer, eventuelt e-mailadresse og din besked. Sammen med beskeden følger den side, du skrev fra, og din IP-adresse.
+            Bruger du formularen her på siden, registrerer jeg de oplysninger, du selv skriver ind: navn, telefonnummer, eventuelt e-mailadresse og din besked. Sammen med beskeden følger den side, du skrev fra, og din IP-adresse. Beder du om en pris fra prisberegneren, følger også den valgte pakke, overslaget og hvor afdøde er nu med. Beder du mig ringe dig op, sender du kun navn, telefonnummer og hvornår det passer.
           </p>
           <p style={s.body}>
             <strong>Formål:</strong> at kunne besvare din henvendelse og aftale et møde eller en samtale.
@@ -250,7 +250,7 @@ export default function KimPersondatapolitik() {
             Ændrer jeg noget i behandlingen, opdaterer jeg denne side.
           </p>
           <p style={{ ...s.body, fontStyle: "italic", color: "#7a8f99", marginBottom: 0 }}>
-            Senest opdateret 9. november 2026.
+            Senest opdateret 12. november 2026.
           </p>
         </div>
       </section>

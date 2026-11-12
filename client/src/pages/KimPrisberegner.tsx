@@ -1,5 +1,6 @@
 import SEO from "@/components/SEO";
-import ContactForm from "@/components/ContactForm";
+import ContactForm, { type PakkeNoegle } from "@/components/ContactForm";
+import { RingMigOpKnap } from "@/components/RingMigOp";
 import KimNav from "@/components/KimNav";
 import SchemaOrg, { OMRAADER } from "@/components/SchemaOrg";
 import { useState } from "react";
@@ -147,8 +148,7 @@ export default function KimPrisberegner() {
     setAddons((prev) => ({ ...prev, [id]: Math.max(1, qty) }));
   };
 
-  // Overslaget sættes ind i kontaktformularen, så familien kan se og rette det, før de selv trykker Send
-  const [overslag, setOverslag] = useState("");
+  // Overslaget sendes automatisk med prisanmodningen og følger altid det aktuelle valg
   const kr = (n: number) => `${n.toLocaleString("da-DK")} kr.`;
   const lavOverslag = () => {
     if (!base || !valgtKiste) return "";
@@ -425,7 +425,7 @@ export default function KimPrisberegner() {
                 Der ligger meget koordinering og planlægning bag en afsked. Jeg sørger for, at I ikke selv skal holde styr på tider, kontakter og praktiske detaljer. I taler med mig hele vejen.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", marginTop: "28px" }}>
-                <a href="#kontakt" onClick={() => setOverslag(lavOverslag())} style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>Send overslaget til mig</a>
+                <a href="#prisanmodning" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>Send mig prisen og ring mig op</a>
                 <a href="tel:+4528146011" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none", border: "1.5px solid #b0b8bc" }}>Ring til mig på 28 14 60 11</a>
               </div>
             </div>
@@ -433,24 +433,39 @@ export default function KimPrisberegner() {
         </div>
       </section>
 
-      <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
+      <section id="prisanmodning" style={{ background: "#F9F8F6", padding: "80px 32px", scrollMarginTop: "16px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Skriv til mig</p>
-          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px", marginTop: "0", textAlign: "center" }}>Send overslaget</h2>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", marginBottom: "20px", textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
-            Udfyld formularen herunder, så vender jeg tilbage. Skriv gerne, hvilke valg I har lavet i beregneren.
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px", textAlign: "center" }}>Uforpligtende</p>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(20px, 2.5vw, 28px)", color: "#2F3E46", marginBottom: "12px", marginTop: "0", textAlign: "center" }}>Send mig prisen og ring mig op</h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.75, color: "#3d4f5a", textAlign: "center", maxWidth: "500px", margin: "0 auto 32px" }}>
+            Jeres overslag fra beregneren følger automatisk med. I skal kun skrive, hvem jeg skal ringe til, og hvornår det passer.
           </p>
-          {overslag && (
-            <div style={{ background: "#fff", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "20px 22px", marginBottom: "28px" }}>
-              <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "15px", color: "#2F3E46", margin: "0 0 10px" }}>Jeres overslag – tjek det, før I sender</p>
-              <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", lineHeight: 1.7, color: "#3d4f5a", whiteSpace: "pre-wrap", margin: "0 0 12px", overflowWrap: "anywhere" }}>{overslag}</p>
-              <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: 0 }}>Overslaget står også i beskedfeltet herunder, hvor I kan rette det. Intet bliver sendt, før I selv trykker på knappen.</p>
+          {base && (
+            <div style={{ background: "#fff", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "16px 20px", marginBottom: "28px", fontFamily: "'Open Sans', sans-serif" }}>
+              <p style={{ fontWeight: 700, fontSize: "15px", color: "#2F3E46", margin: "0 0 4px" }}>{BASE_TITLER[base]} – vejledende pris {kr(total)}</p>
+              <p style={{ fontSize: "14px", color: "#5a7a6a", margin: 0 }}>Hele overslaget med kiste, urne, kørsel, møde og tilvalg sendes med.</p>
             </div>
           )}
-          <ContactForm key={overslag} initialMessage={overslag} />
-          <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
-            eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
-          </p>
+          {!base && (
+            <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", textAlign: "center", margin: "0 0 24px" }}>
+              Vælg først en pakke i beregneren ovenfor – eller i feltet «Valgt pakke» herunder.
+            </p>
+          )}
+          <ContactForm
+            variant="prisanmodning"
+            idPrefix="prisanmodning"
+            pakke={base}
+            onPakkeChange={(p: PakkeNoegle) => { setBase(p); setKiste(null); }}
+            overslag={lavOverslag}
+            vejledendePris={base ? total : undefined}
+          />
+          <div style={{ marginTop: "36px", paddingTop: "28px", borderTop: "1px solid #e0dcd6", textAlign: "center", fontFamily: "'Open Sans', sans-serif" }}>
+            <p style={{ fontSize: "15px", color: "#3d4f5a", margin: "0 0 14px" }}>Vil I hellere bare ringes op – uden overslag?</p>
+            <RingMigOpKnap style={{ background: "transparent", color: "#2F3E46", border: "1.5px solid #b0b8bc", borderRadius: "3px", padding: "12px 24px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px" }} />
+            <p style={{ marginTop: "18px", fontSize: "14px", color: "#3D6B4F" }}>
+              eller ring direkte på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
+            </p>
+          </div>
         </div>
       </section>
 

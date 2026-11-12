@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
+import PakkeprisBoks from "@/components/PakkeprisBoks";
 import KimPortraet from "@/components/KimPortraet";
 
 /**
@@ -32,7 +33,7 @@ export default function KimNordsjaelland() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Nordsjælland – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i hele Nordsjælland — fra Gentofte og Lyngby til Hillerød og Helsingør. Faste priser. Ring til mig på 28 14 60 11."
+        description="Bedemand i hele Nordsjælland – fra Gentofte og Lyngby til Hillerød og Helsingør. Bisættelse uden ceremoni 9.995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/nordsjaelland/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -129,6 +130,19 @@ export default function KimNordsjaelland() {
         </p>
       </section>
 
+      {/* ── PRISER ── */}
+      <section style={{ background: "#fff", padding: "56px 32px 8px" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <p style={s.label}>Gennemsigtige priser</p>
+          <h2 style={s.h2}>Hvad koster en begravelse i Nordsjælland?</h2>
+          <p style={{ ...s.body, marginBottom: 0 }}>
+            Mine priser er faste og gennemsigtige — uanset om du er i Helsingør, Hillerød eller Hundested. Dertil kommer udgifter til gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+          </p>
+        </div>
+      </section>
+
+      <PakkeprisBoks />
+
       {/* ── OM KIM I NORDSJÆLLAND ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
@@ -218,33 +232,6 @@ export default function KimNordsjaelland() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* ── PRISER ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <p style={s.label}>Gennemsigtige priser</p>
-          <h2 style={s.h2}>Hvad koster en begravelse i Nordsjælland?</h2>
-          <p style={s.body}>
-            Mine priser er faste og gennemsigtige — uanset om du er i Helsingør, Hillerød eller Hundested.
-          </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "20px", marginTop: "32px" }}>
-            {[
-              { type: "Bisættelse uden ceremoni", price: "9.995 kr.", href: "/afsked-uden-ceremoni/" },
-              { type: "Bisættelse med ceremoni", price: "fra 14.995 kr.", href: "/bisaettelse/" },
-              { type: "Begravelse i kiste", price: "fra 13.495 kr.", href: "/begravelse/" },
-            ].map((p) => (
-              <div key={p.type} style={{ background: "#fff", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
-                <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", fontWeight: 600, letterSpacing: "0.08em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{p.type}</p>
-                <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "28px", color: "#2F3E46", marginBottom: "16px" }}>fra {p.price}</p>
-                <a href={p.href} style={{ ...s.link, fontSize: "14px" }}>Læs mere →</a>
-              </div>
-            ))}
-          </div>
-          <p style={{ ...s.body, fontSize: "14px", color: "#7a8f99", marginTop: "20px" }}>
-            Dertil kommer udgifter til gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
-          </p>
         </div>
       </section>
 

@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
+import PakkeprisBoks from "@/components/PakkeprisBoks";
 import SchemaOrg from "@/components/SchemaOrg";
 import CookieLink from "@/components/CookieLink";
 import KimPortraet from "@/components/KimPortraet";
@@ -18,7 +19,7 @@ export default function KimAlsgaarde() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Ålsgårde – Kim Bondo, døgnet rundt"
-        description="Personlig bedemand i Ålsgårde og Hellebæk. Jeg kender Hellebæk Kirke og Ålsgårde Kirkegård og hjælper jer hele vejen. Ring til mig på 28 14 60 11."
+        description="Bedemand i Ålsgårde og Hellebæk. Hellebæk Kirke og Ålsgårde Kirkegård. Bisættelse uden ceremoni 9.995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/alsgaarde/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -87,6 +88,8 @@ export default function KimAlsgaarde() {
         <KimPortraet />
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
       </section>
+
+      <PakkeprisBoks />
 
       <section style={{ background: "#fff", padding: "56px 24px" }}>
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>

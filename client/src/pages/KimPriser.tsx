@@ -115,9 +115,12 @@ export default function KimPriser() {
             Her står mine priser – og de udgifter, der ikke går til mig.
           </p>
           <KimPortraet align="left" mork />
+<div style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center" }}>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Ring til mig på 28 14 60 11
           </a>
+          <a href="#ring-mig-op" style={{ display: "inline-block", background: "transparent", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "11px 26px", borderRadius: "3px", textDecoration: "none", border: "1.5px solid rgba(255,255,255,0.6)" }}>Ring mig op</a>
+          </div>
           <div style={{ marginTop: "36px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px" }}>
             {[
               { navn: "Bisættelse uden ceremoni", pris: "9.995 kr.", href: "#uden-ceremoni" },
@@ -475,13 +478,13 @@ export default function KimPriser() {
 
 
         {/* ── KONTAKTFORMULAR ── */}
-        <section style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px" }}>
-          <span style={s.label}>Skriv til mig</span>
-          <h2 style={{ ...s.h2, marginBottom: "8px" }}>Har du spørgsmål til priserne?</h2>
+        <section id="ring-mig-op" style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px", scrollMarginTop: "16px" }}>
+          <span style={s.label}>Spørgsmål til priserne?</span>
+          <h2 style={{ ...s.h2, marginBottom: "8px" }}>Ring mig op</h2>
           <p style={{ ...s.body, marginBottom: "28px" }}>
-            Udfyld formularen, så ringer jeg tilbage på et tidspunkt, der passer dig. Ingen forpligtelse.
+            Skriv jeres navn og nummer, og hvornår det passer. Jeg ringer til jer, så hurtigt jeg kan. Det er ikke bindende.
           </p>
-          <ContactForm variant="priser" />
+          <ContactForm variant="priser" idPrefix="priser" />
         </section>
 
 

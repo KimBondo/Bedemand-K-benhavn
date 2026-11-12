@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import ContactForm from "@/components/ContactForm";
 import KimNav from "@/components/KimNav";
+import PakkeprisBoks from "@/components/PakkeprisBoks";
 import CookieLink from "@/components/CookieLink";
 import KimPortraet from "@/components/KimPortraet";
 
@@ -88,6 +89,8 @@ export default function KimSoborg() {
         <KimPortraet />
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
       </section>
+
+      <PakkeprisBoks />
 
       <section style={{ background: "#fff", padding: "56px 24px" }}>
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
