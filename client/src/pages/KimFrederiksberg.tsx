@@ -184,7 +184,7 @@ export default function KimFrederiksberg() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a href="/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "none" }}>Forsiden</a>
           &nbsp;·&nbsp;

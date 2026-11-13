@@ -40,7 +40,7 @@ export default function KimBegravelse() {
           { question: "Hvad er forskellen på begravelse og bisættelse?", answer: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. En bisættelse kan også foregå helt uden ceremoni." },
           { question: "Kan man have en borgerlig begravelse?", answer: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation." },
           { question: "Kan man vælge en miljøvenlig kiste?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer." },
-          { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud." },
+          { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/begravelse"
       />
@@ -136,7 +136,7 @@ export default function KimBegravelse() {
           En begravelse er en afskedsform, hvor kisten med afdøde sænkes ned i jorden på et gravsted. Det er en tradition, der har eksisteret i århundreder, og som for mange familier giver et konkret sted at mindes og vende tilbage til.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Den væsentligste forskel på en begravelse og en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at ved en begravelse forbliver kisten intakt i jorden, mens afdøde ved en bisættelse kremeres og asken samles i en urne.
+          Den væsentligste forskel på en begravelse og en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at kisten ved en begravelse forbliver intakt i jorden, mens afdøde ved en bisættelse kremeres og asken samles i en urne.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           En begravelse kan holdes med en kirkelig eller en borgerlig afsked. Jeg hjælper jer med at finde den form, der passer til afdødes og familiens ønsker. En afsked helt uden ceremoni er altid en kremering og derfor ikke en begravelse.
@@ -193,7 +193,7 @@ export default function KimBegravelse() {
           Hvad koster en begravelse?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          En begravelse koster fra <strong>13.495 kr.</strong> hos mig. Prisen inkluderer koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje kommer oveni – jeg hjælper jer med at indhente tilbud og holde overblikket.
+          En begravelse koster fra <strong>13.495 kr.</strong> hos mig. Prisen inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje kommer oveni – jeg hjælper jer med at indhente tilbud og holde overblikket.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
@@ -216,7 +216,7 @@ export default function KimBegravelse() {
           { q: "Hvad er forskellen på begravelse og bisættelse?", a: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse kremeres afdøde, og asken samles i en urne. En bisættelse kan også foregå helt uden ceremoni.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
           { q: "Kan man have en borgerlig begravelse?", a: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation.", link: null, linkText: null },
           { q: "Kan man vælge en miljøvenlig kiste?", a: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer.", link: null, linkText: null },
-          { q: "Hvad er inkluderet i prisen?", a: "Mine priser inkluderer honorar, koordinering, kisteilægning, rustvognskørsel, kiste og ceremoni. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud.", link: "/priser/", linkText: "Se den fulde prisliste" },
+          { q: "Hvad er inkluderet i prisen?", a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud.", link: "/priser/", linkText: "Se den fulde prisliste" },
         ].map((item, i) => (
           <div key={i} style={{ borderTop: "1px solid #e0dcd6", paddingTop: "28px", paddingBottom: "28px" }}>
             <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(15px, 1.7vw, 18px)", color: "#2F3E46", marginBottom: "12px", lineHeight: 1.4 }}>{item.q}</h3>
@@ -267,7 +267,7 @@ export default function KimBegravelse() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

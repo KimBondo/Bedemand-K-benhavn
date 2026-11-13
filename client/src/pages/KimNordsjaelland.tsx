@@ -22,10 +22,10 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland, København og Storkøbenhavn. Ring til mig på 28 14 60 11 — også midt om natten." },
-  { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En bisættelse uden ceremoni koster 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer gravsted og eventuel kapelleje. Taksterne er kommunale og forskellige fra kommune til kommune — jeg finder dem, der gælder for jer." },
-  { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs — og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
-  { question: "Hvad er begravelseshjælp, og kan jeg søge det?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
+  { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland, København og Storkøbenhavn. Ring til mig på 28 14 60 11 – også midt om natten." },
+  { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En bisættelse uden ceremoni koster 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter. Taksterne er forskellige fra sted til sted – jeg finder dem, der gælder for jer." },
+  { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs – og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
+  { question: "Hvad er begravelseshjælp, og kan jeg søge den?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
 ];
 
 export default function KimNordsjaelland() {
@@ -114,7 +114,7 @@ export default function KimNordsjaelland() {
           Personlig bedemand i Nordsjælland
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto 16px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og dækker hele Nordsjælland. Jeg kører selv ud, også om aftenen og i weekenden — og I taler med den samme person hele vejen.
+          Jeg er selvstændig bedemand og dækker hele Nordsjælland. Jeg kører selv ud, også om aftenen og i weekenden – og I taler med den samme person hele vejen.
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 18px)", color: "#3d5260", maxWidth: "660px", margin: "0 auto 32px", lineHeight: 1.7 }}>
           Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.<br />
@@ -136,7 +136,7 @@ export default function KimNordsjaelland() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse i Nordsjælland?</h2>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Mine priser er faste og gennemsigtige — uanset om du er i Helsingør, Hillerød eller Hundested. Dertil kommer udgifter til gravsted, blomster og kapelleje — <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om hvad der påvirker prisen</a>.
+            Mine priser er faste og gennemsigtige – uanset om I bor i Helsingør, Hillerød eller Hundested. Dertil kommer udgifter til gravsted, blomster og kapelleje – <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om, hvad der påvirker prisen</a>.
           </p>
         </div>
       </section>
@@ -156,7 +156,7 @@ export default function KimNordsjaelland() {
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirkegårde og kapeller i Nordsjælland</h3>
           <p style={s.body}>
-            I Hillerød er der kapel med plads til 150 på Skansekirkegården på Skansevej — ligesom i Nyhuse Kapel inde i byen.
+            I Hillerød har Skansekirkegården på Skansevej et kapel med plads til 150, og inde i byen ligger Nyhuse Kapel.
           </p>
           <p style={s.body}>
             I Gentofte er Mariebjerg Kirkegård optaget i Kulturkanonen, og de to kapeller dér tager henholdsvis 150 og 50 personer. Kapellet på Helsingør Kirkegård har 165 pladser, og i Hørsholm ligger kapellet fra 1929, som kan benyttes af alle uanset tro. Jeg kender rummene og ved, hvor mange der kan være.
@@ -173,9 +173,9 @@ export default function KimNordsjaelland() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <p style={s.label}>Dækningsområde</p>
-          <h2 style={s.h2}>Byer i Nordsjælland jeg dækker</h2>
+          <h2 style={s.h2}>Byer i Nordsjælland, jeg dækker</h2>
           <p style={s.body}>
-            Jeg dækker alle byer og kommuner i Nordsjælland — herunder:
+            Jeg dækker alle byer og kommuner i Nordsjælland – herunder:
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px", marginTop: "8px" }}>
             {[
@@ -222,7 +222,7 @@ export default function KimNordsjaelland() {
               { title: "Begravelse", desc: "Kiste i jord på kirkegården i jeres sogn. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
               { title: "Bisættelse uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 9.995 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres sognekirke.", href: "/kirkelig-afsked/" },
-              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer — flere af kapellerne kan bruges uanset tro.", href: "/borgerlig-afsked/" },
+              { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer – flere af kapellerne kan bruges uanset tro.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Nordsjælland er der kort vej til Øresund og Kattegat.", href: "/askespredning/" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
@@ -288,7 +288,7 @@ export default function KimNordsjaelland() {
       {/* ── DEL PÅ FACEBOOK ── */}
       <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
-          Kender du nogen i Nordsjælland, der kan have brug for en bedemand? Del denne side.
+          Kender I nogen i Nordsjælland, der kan have brug for en bedemand? Del denne side.
         </p>
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/nordsjaelland")}`}
@@ -335,7 +335,7 @@ export default function KimNordsjaelland() {
           <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

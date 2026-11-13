@@ -43,7 +43,7 @@ const KISTER = [
     imgW: 2048,
     imgH: 1366,
     alt: "Umalet basiskiste – umalet kiste til begravelse eller bisættelse, Kim Bondo bedemand",
-    description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse. Den koster 5.500 kr. og er standardkisten i min bisættelse uden ceremoni. Vælger I den i stedet for den klassiske hvide kiste til en begravelse eller en bisættelse med ceremoni, bliver prisen 1.000 kr. lavere. Enkelheden er bevidst — for mange familier er det netop det rigtige.",
+    description: "En enkel, umalet trækiste uden lak eller pynt. Den bruges både til bisættelse og begravelse. Den koster 5.500 kr. og er standardkisten i min bisættelse uden ceremoni. Vælger I den i stedet for den klassiske hvide kiste til en begravelse eller en bisættelse med ceremoni, bliver prisen 1.000 kr. lavere. Enkelheden er bevidst – for mange familier er det netop det rigtige.",
     use: "begge" as Brug,
   },
   {
@@ -64,7 +64,7 @@ const KISTER = [
     image: "/images/gaia-kiste-paulowniatrae.webp",
     imgW: 2048,
     imgH: 1365,
-    alt: "Gaia kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse (kun til kremering)",
+    alt: "Gaia-kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse (kun til kremering)",
     description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og træet binder CO2, mens det vokser. Gaia kan kun bruges ved bisættelse med og uden ceremoni, hvor der følger kremering – ikke ved begravelse.",
     use: "bisættelse" as Brug,
   },
@@ -111,7 +111,7 @@ const URNER = [
     imgW: 1200,
     imgH: 1200,
     alt: "Creme Natur biourne – biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
-    description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Natururnen indgår i mine pakker til bisættelse med og uden ceremoni — i den farve, I vælger.",
+    description: "Den cremefarvede natururne er den mest afdæmpede af de tre. Alle natururnerne er lavet af bioplast, som tager mellem 4 og 9 år om at blive nedbrudt i jorden. Natururnen indgår i mine pakker til bisættelse med og uden ceremoni – i den farve, I vælger.",
   },
   {
     id: "gron-natur-biourn",
@@ -131,7 +131,7 @@ const URNER = [
     imgW: 1200,
     imgH: 1200,
     alt: "Rød Natur biourne – rød biologisk nedbrydelig urne i bioplast, Kim Bondo bedemand",
-    description: "Den varmeste af de tre farver — en mørk, rødlig tone. Som de øvrige natururner er den lavet af bioplast, der tager mellem 4 og 9 år om at blive nedbrudt i jorden.",
+    description: "Den varmeste af de tre farver – en mørk, rødlig tone. Som de øvrige natururner er den lavet af bioplast, der tager mellem 4 og 9 år om at blive nedbrudt i jorden.",
   },
   {
     id: "brun-museumsurne",
@@ -326,7 +326,7 @@ export default function KimProdukter() {
           <p style={s.label}>Urner</p>
           <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine urner</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Urnerne koster fra 950 kr. Jeg tilbyder et udvalg i forskellige farver og materialer — fra bionedbrydelige natururner til klassiske museumsurner. Natururnen indgår i mine pakker; vælger I en anden urne, betaler I kun forskellen.
+            Urnerne koster fra 950 kr. Jeg tilbyder et udvalg i forskellige farver og materialer – fra bionedbrydelige natururner til klassiske museumsurner. Natururnen indgår i mine pakker; vælger I en anden urne, betaler I kun forskellen.
           </p>
           <div
             style={{
@@ -379,7 +379,7 @@ export default function KimProdukter() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <h2 style={{ ...s.h2, fontSize: "clamp(20px, 2.6vw, 26px)", margin: "0 0 12px" }}>Kistepynt, bårebuketter og begravelsesblomster</h2>
           <p style={s.body}>
-            Jeg bestiller kistepynt, bårebuketter, kranse og bånd hos en lokal blomsterhandler, og jeg sørger for, at blomsterne kommer ud på graven bagefter.
+            Jeg bestiller kistepynt, bårebuketter, kranse og bånd hos en lokal blomsterhandler, og jeg kan sørge for, at blomsterne kommer ud på graven bagefter (blomsterkørsel, se priser).
           </p>
           <p style={s.body}>
             Kistepynt: lille 1.800 kr., mellem 2.500 kr., stor 3.500 kr. Silkebånd 300 kr. <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>Se alle priser →</a>
@@ -403,9 +403,9 @@ export default function KimProdukter() {
       <section id="kontakt" style={{ background: "#F9F8F6", padding: "80px 32px" }}>
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
           <p style={{ ...s.label, textAlign: "center" }}>Kontakt</p>
-          <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "12px" }}>Har du spørgsmål?</h2>
+          <h2 style={{ ...s.h2, textAlign: "center", marginBottom: "12px" }}>Har I spørgsmål?</h2>
           <p style={{ ...s.body, textAlign: "center", maxWidth: "480px", margin: "0 auto 40px" }}>
-            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt — eller ring direkte.
+            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt – eller ring direkte.
           </p>
           <ContactForm />
           <p style={{ marginTop: "24px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F", textAlign: "center" }}>
@@ -495,7 +495,7 @@ export default function KimProdukter() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

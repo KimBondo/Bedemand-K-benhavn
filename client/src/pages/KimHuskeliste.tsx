@@ -23,8 +23,8 @@ const s = {
 const FAQ = [
   { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Herefter kan jeg kontaktes, og jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
   { q: "Hvem har ansvaret for at planlægge begravelsen?", a: "Det er den person, der bestiller begravelsen, der har det juridiske ansvar for planlægningen og betalingen. Oftest er det den nærmeste pårørende." },
-  { q: "Hvad hjælper du med?", a: "Jeg hjælper med anmodningen om begravelse eller ligbrænding, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning — så I kan bruge energien på hinanden." },
-  { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen. Læs mere på siden om begravelseshjælp." },
+  { q: "Hvad hjælper du med?", a: "Jeg hjælper med anmodningen om begravelse eller ligbrænding, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning – så I kan bruge energien på hinanden." },
+  { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen. Læs mere på siden om begravelseshjælp." },
 ];
 
 export default function KimHuskeliste() {
@@ -97,7 +97,7 @@ export default function KimHuskeliste() {
           Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Når man mister en nærtstående, fylder sorgen meget — og alligevel er der en række praktiske ting, der skal ordnes. Her er et overblik over de vigtigste skridt, og hvad jeg hjælper med. Læs også den praktiske guide: <a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a>
+          Når man mister en nærtstående, fylder sorgen meget – og alligevel er der en række praktiske ting, der skal ordnes. Her er et overblik over de vigtigste skridt, og hvad jeg hjælper med. Læs også den praktiske guide: <a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a>
         </p>
         <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Kontakt mig
@@ -120,7 +120,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Begravelse, bisættelse eller askespredning?</h3>
           <p style={s.body}>
-            Der skal tages stilling til, hvordan afskeden skal foregå — og om der skal være en ceremoni. Skal det være en <a href="/kirkelig-afsked/" style={s.link}>kirkelig</a> eller <a href="/borgerlig-afsked/" style={s.link}>borgerlig</a> ceremoni, eller en <a href="/afsked-uden-ceremoni/" style={s.link}>bisættelse uden ceremoni</a>? Økonomi spiller også en rolle — se <a href="/priser/" style={s.link}>mine priser</a> for et realistisk overblik.
+            Der skal tages stilling til, hvordan afskeden skal foregå – og om der skal være en ceremoni. Skal det være en <a href="/kirkelig-afsked/" style={s.link}>kirkelig</a> eller <a href="/borgerlig-afsked/" style={s.link}>borgerlig</a> ceremoni, eller en <a href="/afsked-uden-ceremoni/" style={s.link}>bisættelse uden ceremoni</a>? Økonomi spiller også en rolle – se <a href="/priser/" style={s.link}>mine priser</a> for et realistisk overblik.
           </p>
 
           <h3 style={s.h3}>Anmodning om begravelse eller ligbrænding</h3>
@@ -130,7 +130,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Mindesamvær</h3>
           <p style={s.body}>
-            Mange ønsker at holde et mindesamvær efter ceremonien — til en kop kaffe og kage, eller noget andet. Det aftaler I selv med det ønskede sted (café, restaurant, sognehus o.l.). Jeg hjælper gerne med at koordinere.
+            Mange ønsker at holde et mindesamvær efter ceremonien – til en kop kaffe og kage, eller noget andet. Det aftaler I selv med det ønskede sted (café, restaurant, sognehus o.l.). Jeg hjælper gerne med at koordinere.
           </p>
         </div>
       </section>
@@ -148,7 +148,7 @@ export default function KimHuskeliste() {
               "Tidspunkt for ceremoni i kapel eller kirke",
               "Evt. samtale med præst",
               "Valg af gravsted på kirkegård",
-              "Evt. aftale om gravsten med stenhugger — jeg hjælper gerne med kontakt",
+              "Evt. aftale om gravsten med stenhugger – jeg hjælper gerne med kontakt",
               "Blomster til ceremonien",
               "Evt. dødsannonce",
               "6 personer til at bære kisten, hvis kisten ikke skal blive stående",
@@ -172,17 +172,17 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Begravelseshjælp</h3>
           <p style={s.body}>
-            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. I 2026 er det maksimale tilskud op til <strong>13.550 kr.</strong> Jeg hjælper med at ansøge om begravelseshjælp som en del af mit arbejde. <a href="/begravelseshjaelp/" style={s.link}>Læs mere om begravelseshjælp →</a>
+            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. I 2026 er tilskuddet op til <strong>13.550 kr.</strong> Jeg hjælper med at ansøge om begravelseshjælp som en del af mit arbejde. <a href="/begravelseshjaelp/" style={s.link}>Læs mere om begravelseshjælp →</a>
           </p>
 
           <h3 style={s.h3}>Skifteretten</h3>
           <p style={s.body}>
-            Når sognet har godkendt anmodningen om begravelse eller ligbrænding, får Skifteretten besked om dødsfaldet og kontakter den pårørende, der er anført som kontaktperson. I behøver normalt ikke foretage jer noget aktivt, før I bliver kontaktet — det sker typisk via Digital Post (e-Boks).
+            Når sognet har godkendt anmodningen om begravelse eller ligbrænding, får skifteretten besked om dødsfaldet og kontakter den pårørende, der er anført som kontaktperson. I behøver normalt ikke foretage jer noget aktivt, før I bliver kontaktet – det sker typisk via Digital Post (e-Boks).
           </p>
 
           <h3 style={s.h3}>Bank og pengeinstitut</h3>
           <p style={s.body}>
-            Afdødes pengeinstitut modtager automatisk besked fra Folkeregistret, og alle konti — inkl. fælleskonti — vil blive spærret. Tag kontakt til banken for at aftale adgang til den nødvendige økonomi. De fleste banker accepterer, at begravelsesudgifter betales via afdødes konto, hvis der er midler.
+            Afdødes pengeinstitut modtager automatisk besked fra folkeregistret, og alle konti – inkl. fælleskonti – vil blive spærret. Tag kontakt til banken for at aftale adgang til den nødvendige økonomi. De fleste banker accepterer, at begravelsesudgifter betales via afdødes konto, hvis der er midler.
           </p>
 
           <h3 style={s.h3}>Efterlevelsespension og -hjælp</h3>
@@ -197,22 +197,22 @@ export default function KimHuskeliste() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.stepNum}>4</p>
           <h2 style={s.h2}>Opsigelser og afmeldinger</h2>
-          <p style={s.body}>Forsikringsselskaber og mange offentlige instanser får automatisk besked via Folkeregistret. Der er dog en række ting, det kan være relevant at tage hånd om:</p>
+          <p style={s.body}>Forsikringsselskaber og mange offentlige instanser får automatisk besked via folkeregistret. Der er dog en række ting, det kan være relevant at tage hånd om:</p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px" }}>
             <div>
               <h3 style={{ ...s.h3, fontSize: "17px" }}>Bolig</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>Ejerbolig håndteres via Skifteretten. Lejebolig: kontakt udlejer for navneændring eller opsigelse.</p>
+              <p style={{ ...s.body, marginBottom: 0 }}>Ejerbolig håndteres via skifteretten. Lejebolig: kontakt udlejer for navneændring eller opsigelse.</p>
             </div>
             <div>
               <h3 style={{ ...s.h3, fontSize: "17px" }}>Abonnementer</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>Telefon, internet, TV, aviser, blade, foreningsmedlemskaber og lignende skal opsiges manuelt.</p>
+              <p style={{ ...s.body, marginBottom: 0 }}>Telefon, internet, tv, aviser, blade, foreningsmedlemskaber og lignende skal opsiges manuelt.</p>
             </div>
             <div>
               <h3 style={{ ...s.h3, fontSize: "17px" }}>Praktisk i hjemmet</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>Tøm køleskab, vand blomster, sørg for passende varme. Husdyr skal passes. Jagttegn eller våben — kontakt politiet.</p>
+              <p style={{ ...s.body, marginBottom: 0 }}>Tøm køleskab, vand blomster, sørg for passende varme. Husdyr skal passes. Jagttegn eller våben – kontakt politiet.</p>
             </div>
             <div>
-              <h3 style={{ ...s.h3, fontSize: "17px" }}>Online profiler</h3>
+              <h3 style={{ ...s.h3, fontSize: "17px" }}>Onlineprofiler</h3>
               <p style={{ ...s.body, marginBottom: 0 }}>Facebook og andre sociale medier kan omdannes til mindesider eller slettes efter familiens ønske.</p>
             </div>
           </div>
@@ -225,10 +225,10 @@ export default function KimHuskeliste() {
           <p style={s.stepNum}>5</p>
           <h2 style={s.h2}>Betaling af begravelsesudgifter</h2>
           <p style={s.body}>
-            Det er den person, der bestiller begravelsen, der hæfter for betalingen — ikke Skifteretten. Skifteretten sørger for, at udgifterne indgår i boet, så den, der har betalt, kan blive godtgjort.
+            Det er den person, der bestiller begravelsen, der hæfter for betalingen – ikke skifteretten. Skifteretten sørger for, at udgifterne indgår i boet, så den, der har betalt, kan blive godtgjort.
           </p>
           <p style={s.body}>
-            Typiske udgifter der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd.
+            Typiske udgifter, der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd.
           </p>
           <a href="/mindeord/" style={s.link}>Mindeord og tale ved begravelsen →</a>
         </div>
@@ -238,7 +238,7 @@ export default function KimHuskeliste() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.label}>Ofte stillede spørgsmål</p>
-          <h2 style={s.h2}>Spørgsmål om hvad der sker ved dødsfald</h2>
+          <h2 style={s.h2}>Spørgsmål om, hvad der sker ved dødsfald</h2>
           {FAQ.map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
@@ -261,7 +261,7 @@ export default function KimHuskeliste() {
       {/* ── DEL PÅ FACEBOOK ── */}
       <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
-          Kender du nogen, der kan have brug for denne huskeliste?
+          Kender I nogen, der kan have brug for denne huskeliste?
         </p>
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/huskeliste")}`}
@@ -369,7 +369,7 @@ export default function KimHuskeliste() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

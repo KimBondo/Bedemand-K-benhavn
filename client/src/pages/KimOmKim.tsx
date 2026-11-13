@@ -106,7 +106,7 @@ export default function KimOmKim() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <span style={s.label}>Om Kim Bondo</span>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 32px" }}>
-          En personlig bedemand — fra første opkald til den sidste afsked
+          En personlig bedemand – fra første opkald til den sidste afsked
         </h1>
         <a
           href="/#kontakt"
@@ -189,7 +189,7 @@ export default function KimOmKim() {
             </div>
             <div style={{ flex: 1, minWidth: "260px" }}>
               <p style={s.body}>
-                Jeg hedder Kim Bondo, og jeg er selvstændig bedemand med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland – og efter aftale på resten af Sjælland til de samme faste priser.
+                Jeg hedder Kim Bondo, og jeg er selvstændig bedemand med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland – og efter aftale på resten af Sjælland til de samme faste pakkepriser.
               </p>
               <p style={s.body}>
                 Før jeg blev bedemand, arbejdede jeg i mange år som terapeut. Her lærte jeg at være der for mennesker i sorg og krise – at lytte, rumme og give plads, uanset hvad de har været igennem. Det har jeg taget med mig ind i arbejdet som bedemand.
@@ -207,10 +207,10 @@ export default function KimOmKim() {
                 Bedemand København er en lille, personlig begravelsesforretning, hvor I har mig som jeres faste kontakt hele vejen.
               </p>
               <p style={s.body}>
-                Jeg lægger stor vægt på gennemsigtighed. I får et skriftligt prisoverslag fra starten, så I ved, hvad tingene koster, og hvad der sker næste skridt. Så kan I bruge jeres kræfter på hinanden i stedet for på papirarbejde.
+                Jeg lægger stor vægt på gennemsigtighed. I får et skriftligt prisoverslag fra starten, så I ved, hvad tingene koster, og hvad det næste skridt er. Så kan I bruge jeres kræfter på hinanden i stedet for på papirarbejde.
               </p>
               <p style={{ ...s.body, marginBottom: 0 }}>
-                Jeg kører i hele København, Storkøbenhavn og Nordsjælland og I er velkomne til en uforpligtende samtale – ring eller skriv, når det passer jer. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>et andet sted på Sjælland</a>, hjælper jeg også gerne.
+                I er velkomne til en uforpligtende samtale – ring eller skriv, når det passer jer. Bor I <a href="/sjaelland/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>et andet sted på Sjælland</a>, hjælper jeg også gerne.
               </p>
             </div>
           </div>
@@ -260,7 +260,7 @@ export default function KimOmKim() {
           <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

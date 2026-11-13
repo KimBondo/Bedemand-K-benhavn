@@ -169,7 +169,7 @@ export default function KimPriser() {
           <span style={s.label}>Bisættelse uden ceremoni</span>
           <h3 style={s.h3}>Bisættelse uden ceremoni</h3>
           <p style={s.price}>9.995 kr.</p>
-          <p style={{ ...s.body, marginTop: "8px" }}>Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Én samlet pris.</p>
+          <p style={{ ...s.body, marginTop: "8px" }}>Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Én samlet pris. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.</p>
           <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46", marginBottom: "4px" }}>Det er med i prisen</p>
           <ul style={{ paddingLeft: "20px", margin: "8px 0 0" }}>
             {[
@@ -190,7 +190,7 @@ export default function KimPriser() {
           <span style={s.label}>Begravelse</span>
           <h3 style={s.h3}>Begravelse</h3>
           <p style={s.price}>Fra 13.495 kr.</p>
-          <p style={{ ...s.body, marginTop: "8px" }}>Kisten sænkes i jorden efter ceremonien.</p>
+          <p style={{ ...s.body, marginTop: "8px" }}>Kisten sænkes i jorden efter ceremonien. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.</p>
           <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46", marginBottom: "4px" }}>Det er med i prisen</p>
           <ul style={{ paddingLeft: "20px", margin: "8px 0 0" }}>
             {[
@@ -216,7 +216,7 @@ export default function KimPriser() {
           <span style={s.label}>Bisættelse med ceremoni</span>
           <h3 style={s.h3}>Bisættelse med ceremoni</h3>
           <p style={s.price}>Fra 14.995 kr.</p>
-          <p style={{ ...s.body, marginTop: "8px" }}>Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Det samme som begravelse, plus natururne, kontakt til krematoriet og to kørsler.</p>
+          <p style={{ ...s.body, marginTop: "8px" }}>Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Det samme som begravelse plus natururne, kontakt til krematoriet og to kørsler. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.</p>
           <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46", marginBottom: "4px" }}>Det er med i prisen</p>
           <ul style={{ paddingLeft: "20px", margin: "8px 0 0" }}>
             {[
@@ -304,10 +304,10 @@ export default function KimPriser() {
             Det står her, så I kan regne det ud selv.
           </p>
           <p style={s.body}>
-            Er der ikke noget, der haster, kan afdøde ofte blive, hvor vedkommende er, til næste morgen. Mange familier foretrækker det — der bliver tid til at sige farvel i ro. Så bortfalder tillægget. Det taler vi om, når I ringer.
+            Er der ikke noget, der haster, kan afdøde ofte blive, hvor vedkommende er, til næste morgen. Mange familier foretrækker det – der bliver tid til at sige farvel i ro. Så bortfalder tillægget. Det taler vi om, når I ringer.
           </p>
           <p style={s.body}>
-            Afhentning i private hjem koster 1.200 kr. ekstra, fordi det kræver mere tid og altid to personer.
+            Priserne gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni, fordi det kræver mere tid og altid to personer.
           </p>
         </section>
 
@@ -331,13 +331,13 @@ export default function KimPriser() {
             ["Orgelspil og sang i kapellet, ½ time", "1.352 kr."],
           ]} />
           <p style={s.body}>
-            Dertil kommer erhvervelse af selve gravstedet, gravsten og eventuel vedligeholdelse. Bor I i en anden kommune, gælder andre takster — dem finder jeg for jer.
+            Dertil kommer erhvervelse af selve gravstedet, gravsten og eventuel vedligeholdelse. Bor I i en anden kommune, gælder andre takster – dem finder jeg for jer.
           </p>
           <p style={{ ...s.body, background: "#EAF2ED", borderLeft: "3px solid #3D6B4F", padding: "16px 20px", borderRadius: "2px" }}>
             <strong>Læg mærke til én ting:</strong> en begravelse i kistegrav koster 5.856 kr. mere i gravning end en bisættelse i urnegrav.
           </p>
           <p style={s.body}>
-            Jeg regner jeres konkrete tal sammen, inden I siger ja til noget. Og jeg søger begravelseshjælpen for jer — den modregnes direkte på fakturaen, så I ikke skal lægge ud.
+            Jeg regner jeres konkrete tal sammen, inden I siger ja til noget. Og jeg søger begravelseshjælpen for jer – den modregnes direkte på fakturaen, så I ikke skal lægge ud.
           </p>
           <p style={{ marginBottom: "0" }}>
             <a href="/hvad-koster-en-begravelse/" style={s.link}>Hvad koster en begravelse? Se den fulde gennemgang af alle udgifter →</a>
@@ -355,7 +355,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Blomster og gravsten</h2>
           <p style={s.body}>
-            I kan bestille blomster og gravsten hvor som helst. Jeg hjælper gerne og har leverandører, jeg stoler på — men I skal ikke føle jer bundet til mine.
+            I kan bestille blomster og gravsten hvor som helst. Jeg hjælper gerne og har leverandører, jeg stoler på – men I skal ikke føle jer bundet til mine.
           </p>
         </section>
 
@@ -385,7 +385,7 @@ export default function KimPriser() {
             ["Herefter pr. km (kun den ene vej, ad den billigste rute)", "35 kr."],
             ["Højst pr. kørsel i hele København og Nordsjælland", "2.000 kr."],
             ["Rustvognskørsel uden for København og Nordsjælland (fx resten af Sjælland, Fyn og Jylland)", "1.595 kr. inkl. de første 25 km med afdøde, derefter 35 kr. pr. km, uden loft"],
-            ["Urnekørsel fra krematorie til kirkegårdskontor", "900 kr."],
+            ["Urnekørsel fra krematoriet til kirkegårdskontoret", "900 kr."],
             ["Blomsterkørsel på hverdage", "1.195 kr."],
             ["Blomsterkørsel om lørdagen", "1.995 kr."],
           ]} />
@@ -407,7 +407,7 @@ export default function KimPriser() {
             ["Kistepynt, mellem", "2.500 kr."],
             ["Kistepynt, stor", "3.500 kr."],
             ["Blomsterkrans eller blomsterhjerte", "2.500 kr."],
-            ["Silkebånd — \"en sidste hilsen\"", "300 kr."],
+            ["Silkebånd – «En sidste hilsen»", "300 kr."],
             ["10 farvelroser til rustvognen", "350 kr."],
           ]} />
 
@@ -438,7 +438,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Dødsannoncer</h2>
           <p style={s.body}>
-            Jeg hjælper gerne med indrykning af dødsannonce i trykte aviser og på portalen Afdøde.dk — så I ikke skal bekymre jer om det praktiske i en i forvejen svær tid.
+            Jeg hjælper gerne med indrykning af dødsannonce i trykte aviser og på portalen Afdøde.dk – så I ikke skal bekymre jer om det praktiske i en i forvejen svær tid.
           </p>
           <p style={s.body}>
             Udarbejdelse af dødsannonce er inkluderet i mit honorar. Avisens pris for indrykning kommer oveni.
@@ -482,7 +482,7 @@ export default function KimPriser() {
           <span style={s.label}>Spørgsmål til priserne?</span>
           <h2 style={{ ...s.h2, marginBottom: "8px" }}>Ring mig op</h2>
           <p style={{ ...s.body, marginBottom: "28px" }}>
-            Skriv jeres navn og nummer, og hvornår det passer. Jeg ringer til jer, så hurtigt jeg kan. Det er ikke bindende.
+            Skriv jeres navn og nummer, og hvornår det passer.
           </p>
           <ContactForm variant="priser" idPrefix="priser" />
         </section>
@@ -571,7 +571,7 @@ export default function KimPriser() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

@@ -19,8 +19,8 @@ const s = {
 const FAQ = [
   { question: "Hvad skal man gøre først, når nogen dør?", answer: "Kontakt en læge, som konstaterer dødsfaldet og udsteder dødsattest. Derefter kan bedemanden kontaktes. Jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
   { question: "Hvem sender anmodningen om begravelse eller ligbrænding?", answer: "Lægen udsteder dødsattesten. Derefter skal der sendes en anmodning om begravelse eller ligbrænding til afdødes bopælssogn. Det gør jeg for jer med en fuldmagt, så I ikke selv skal kontakte myndighederne." },
-  { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter." },
-  { question: "Kan man få begravelseshjælp?", answer: "Ja, i mange tilfælde. I 2026 er det maksimale offentlige tilskud op til 13.550 kr. Jeg hjælper med at ansøge om den." },
+  { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter." },
+  { question: "Kan man få begravelseshjælp?", answer: "Ja, i mange tilfælde. I 2026 er det offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen." },
 ];
 
 export default function KimHvadSkerDer() {
@@ -76,7 +76,7 @@ export default function KimHvadSkerDer() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>De første timer</h2>
           <p style={s.body}>
-            Når et menneske dør, skal en læge konstatere dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Afhentning i et privat hjem koster 1.200 kr. ekstra. Først når dødsattesten er klar, kan bedemanden gå i gang med det videre arbejde.
+            Når et menneske dør, skal en læge konstatere dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. Først når dødsattesten er klar, kan bedemanden gå i gang med det videre arbejde.
           </p>
           <p style={s.body}>
             Jeg kan kontaktes med det samme – også om natten. Vi taler om situationen, og jeg guider jer igennem de næste skridt. Der er ingen forpligtelse ved at ringe.
@@ -87,7 +87,7 @@ export default function KimHvadSkerDer() {
             Når lægen har udstedt dødsattesten, sender jeg anmodningen om begravelse eller ligbrænding til afdødes sogn og søger begravelseshjælp på jeres vegne. Jeg koordinerer med kirke eller kapel, krematorium og kirkegård, så I ikke selv skal holde styr på tider og kontakter.
           </p>
           <p style={s.body}>
-            I vælger selv krematorium, og jeg hjælper med det praktiske. Ceremonien holdes stadig lokalt.
+            I vælger selv krematorium, og jeg hjælper med det praktiske. Ceremonien kan alligevel holdes lokalt.
           </p>
 
           <h2 style={s.h2}>Valg af afsked</h2>
@@ -95,7 +95,7 @@ export default function KimHvadSkerDer() {
             De fleste vælger en bisættelse med ceremoni (fra 14.995 kr.) eller en begravelse i kiste (fra 13.495 kr.). En bisættelse uden ceremoni koster 9.995 kr.
           </p>
           <p style={s.body}>
-            Jeg laver et overslag sammen med jer, inden I beslutter noget. Oveni kommer udgifter til krematorium, gravsted og eventuel kapelleje, som kommunen fastsætter.
+            Jeg laver et overslag sammen med jer, inden I beslutter noget. Oveni kommer udgifter til krematorium, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter.
           </p>
 
           <h2 style={s.h2}>Hvad jeg tager mig af</h2>

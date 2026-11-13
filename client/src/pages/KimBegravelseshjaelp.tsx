@@ -23,7 +23,7 @@ const FAQ = [
   { q: "Søger vi selv, eller hjælper du med det?", a: "Jeg hjælper med ansøgningen som en del af mit arbejde. I behøver ikke selv stå med det." },
   { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I har givet mig en fuldmagt, søger jeg hjælpen hos Udbetaling Danmark og trækker beløbet fra på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark skal bruge dokumentation fra skifteretten om boet, og de behandler normalt sagen inden for en måned, når papirerne er på plads." },
   { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Hjælpen nedsættes krone for krone, når formuen er over 22.700 kr. – eller 45.250 kr., hvis afdøde efterlader ægtefælle eller børn under 18 år – og den bortfalder helt over 36.250 kr. henholdsvis 58.800 kr. Udgifter til begravelsen tæller ikke med i formuen. Var afdøde født før 1. april 1957, udbetales der dog altid mindst 1.050 kr. En eventuel ægtefælles formue indgår også i vurderingen. Jeg giver jer et overslag med det samme, men det er Udbetaling Danmark, der træffer afgørelsen." },
-  { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring — ikke om vedkommende var lønmodtager eller selvstændig." },
+  { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring – ikke om vedkommende var lønmodtager eller selvstændig." },
   { q: "Er der andre tilskud end det offentlige?", a: 'Ja. Var afdøde medlem af Sygeforsikringen "danmark" i gruppe 1 eller 2 – og blev optaget senest 31. december 2022 – udbetaler "danmark" 1.400 kr. i begravelseshjælp. Beløbet kan betales direkte til mig og trækkes fra fakturaen. Enkelte fagforeninger har også begravelseshjælp.' },
 ];
 
@@ -40,7 +40,7 @@ export default function KimBegravelseshjaelp() {
       <SchemaOrg
         type="both"
         faqItems={FAQ.map((f) => ({ question: f.q, answer: f.a }))}
-        article={{ headline: "Begravelseshjælp — hvad kan I søge?", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/", dateModified: "2026-09-28" }}
+        article={{ headline: "Begravelseshjælp – hvad kan I søge?", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/", dateModified: "2026-09-28" }}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Begravelseshjælp", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/" }
@@ -91,13 +91,13 @@ export default function KimBegravelseshjaelp() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Økonomi og støtte</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
-          Begravelseshjælp — hvad kan I søge?
+          Begravelseshjælp – hvad kan I søge?
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "-8px auto 24px", letterSpacing: "0.02em" }}>
           Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          En begravelse eller bisættelse koster penge — og mange ved ikke, at der kan søges offentlig støtte. Jeg hjælper med ansøgningen som en del af mit arbejde.
+          En begravelse eller bisættelse koster penge – og mange ved ikke, at der kan søges offentlig støtte. Jeg hjælper med ansøgningen som en del af mit arbejde.
         </p>
         <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Kontakt mig
@@ -118,7 +118,7 @@ export default function KimBegravelseshjaelp() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "24px", marginBottom: "40px" }}>
             {[
               { title: "Maksimalt tilskud", amount: "13.550 kr.", note: "Afhænger af formuen – også en eventuel ægtefælles" },
-              { title: "Minimumstilskud", amount: "1.050 kr.", note: "Er afdøde født før 1. april 1957, udbetales mindst dette beløb — uanset formue" },
+              { title: "Minimumstilskud", amount: "1.050 kr.", note: "Er afdøde født før 1. april 1957, udbetales mindst dette beløb – uanset formue" },
               { title: 'Sygeforsikringen "danmark"', amount: "1.400 kr.", note: "Gruppe 1 og 2, optaget senest 31. december 2022" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
@@ -132,7 +132,7 @@ export default function KimBegravelseshjaelp() {
             Den fulde begravelseshjælp er op til 13.550 kr., og min bisættelse uden ceremoni koster 9.995 kr. Er afdøde berettiget til hele beløbet, kan hjælpen altså dække pakken – men ikke nødvendigvis tillæg og eksterne udgifter som kremering og gravsted.
           </p>
           <p style={s.body}>
-            Derudover har enkelte fagforeninger fortsat ordninger med begravelseshjælp. Afdødes fagforening kan oplyse om dette — jeg hjælper gerne med at undersøge det.
+            Derudover har enkelte fagforeninger fortsat ordninger med begravelseshjælp. Afdødes fagforening kan oplyse om dette – jeg hjælper gerne med at undersøge det.
           </p>
         </div>
       </section>
@@ -189,7 +189,7 @@ export default function KimBegravelseshjaelp() {
             Hvad koster en begravelse i alt?
           </p>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#3d5260", lineHeight: 1.75, marginBottom: "16px" }}>
-            Begravelseshjælpen dækker en del af udgifterne — men hvad er de samlede udgifter? Se min korte prisvejledning om mine priser, og hvad der kommer oveni.
+            Begravelseshjælpen dækker en del af udgifterne – men hvad er de samlede udgifter? Se min korte prisvejledning om mine priser, og hvad der kommer oveni.
           </p>
           <a href="/hvad-koster-en-begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px" }}>
             Se prisvejledningen →
@@ -291,7 +291,7 @@ export default function KimBegravelseshjaelp() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

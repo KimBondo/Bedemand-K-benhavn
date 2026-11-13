@@ -36,10 +36,10 @@ export default function KimKirkeligAfsked() {
           { name: "Kirkelig afsked", url: "https://www.bedemandkobenhavn.dk/kirkelig-afsked/" }
         ]}
         faqItems={[
-          { question: "Kan man få en kirkelig afsked uden at være medlem af Folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af Folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen." },
-          { question: "Kan man holde ceremonien i en anden kirke end den lokale?", answer: "Ja, det er muligt, hvis der er en særlig tilknytning til den ønskede kirke — f.eks. tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Præsten vurderer tilknytningen." },
+          { question: "Kan man få en kirkelig afsked uden at være medlem af folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen." },
+          { question: "Kan man holde ceremonien i en anden kirke end den lokale?", answer: "Ja, det er muligt, hvis der er en særlig tilknytning til den ønskede kirke – fx tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Præsten vurderer tilknytningen." },
           { question: "Kan en kirkelig ceremoni kombineres med askespredning?", answer: "Ja. Efter en kirkelig bisættelse kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det. Jeg hjælper med at arrangere begge dele." },
-          { question: "Er ceremonien i kirken gratis?", answer: "Var afdøde medlem af Folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd." },
+          { question: "Er ceremonien i kirken gratis?", answer: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd." },
           { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde en løsning, der passer jer." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/kirkelig-afsked"
@@ -90,10 +90,10 @@ export default function KimKirkeligAfsked() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Kirkelig afsked</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
-          En afsked i kirken — med plads til både sorg og håb
+          En afsked i kirken – med plads til både sorg og håb
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          En kirkelig ceremoni er for mange en naturlig og meningsfuld ramme for afskeden. Jeg hjælper jer med alt det praktiske — fra kontakt til kirken og præsten til selve dagen.
+          En kirkelig ceremoni er for mange en naturlig og meningsfuld ramme for afskeden. Jeg hjælper jer med alt det praktiske – fra kontakt til kirken og præsten til selve dagen.
         </p>
         <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Kontakt mig
@@ -109,7 +109,7 @@ export default function KimKirkeligAfsked() {
           <p style={s.label}>Om den kirkelige ceremoni</p>
           <h2 style={s.h2}>Hvad er en kirkelig begravelse eller bisættelse?</h2>
           <p style={s.body}>
-            En kirkelig afsked er en ceremoni i kirke eller kapel, ledet af en præst fra Folkekirken. Den følger faste ritualer, men der er god plads til at tilpasse den, så den afspejler den afdødes liv og familiens ønsker — i valg af salmer, musik og prædikenens indhold.
+            En kirkelig afsked er en ceremoni i kirke eller kapel, ledet af en præst fra folkekirken. Den følger faste ritualer, men der er god plads til at tilpasse den, så den afspejler den afdødes liv og familiens ønsker – i valg af salmer, musik og prædikenens indhold.
           </p>
           <p style={s.body}>
             Ceremonien kan afsluttes med enten en <a href="/begravelse/" style={s.link}>begravelse</a> (kisten sænkes i jorden) eller en <a href="/bisaettelse/" style={s.link}>bisættelse</a> (afdøde kremeres, og asken placeres i en urne).
@@ -118,11 +118,11 @@ export default function KimKirkeligAfsked() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px", marginTop: "40px" }}>
             {[
               { title: "Præludium", text: "Indgangsmusik eller orgelspil, der skaber en stemningsfuld start på ceremonien." },
-              { title: "Salmer", text: "Familien vælger salmerne i samarbejde med præsten — gerne sange der betød noget for afdøde." },
+              { title: "Salmer", text: "Familien vælger salmerne i samarbejde med præsten – gerne sange, der betød noget for afdøde." },
               { title: "Prædiken", text: "Præsten mindes afdøde og taler om tro, håb og livet. Indholdet aftales på forhånd." },
-              { title: "Jordpåkastelse", text: "Et centralt ritual, hvor præsten kaster jord på kisten med ordene 'Af jord er du kommet, til jord skal du blive'." },
+              { title: "Jordpåkastelse", text: "Et centralt ritual, hvor præsten kaster jord på kisten med ordene «Af jord er du kommet, til jord skal du blive»." },
               { title: "Postludium", text: "Udgangsmusik, der afslutter ceremonien." },
-              { title: "Mindesamvær", text: "Mange familier holder et mindesamvær efter ceremonien — jeg hjælper gerne med at koordinere dette." },
+              { title: "Mindesamvær", text: "Mange familier holder et mindesamvær efter ceremonien – jeg hjælper gerne med at koordinere dette." },
             ].map((item) => (
               <div key={item.title} style={{ borderTop: "2px solid #3D6B4F", paddingTop: "20px" }}>
                 <h3 style={{ ...s.h3, fontSize: "17px" }}>{item.title}</h3>
@@ -159,7 +159,7 @@ export default function KimKirkeligAfsked() {
           <p style={s.label}>Det praktiske</p>
           <h2 style={s.h2}>Hvad hjælper jeg med?</h2>
           <p style={s.body}>
-            Jeg tager mig af al kontakt til kirken og præsten, så I ikke selv skal stå med de praktiske opkald i en svær tid. Vi aftaler tidspunkt, salmer og ceremoniens indhold i fællesskab — og jeg sørger for, at alt er koordineret på dagen.
+            Jeg tager mig af al kontakt til kirken og præsten, så I ikke selv skal stå med de praktiske opkald i en svær tid. Vi aftaler tidspunkt, salmer og ceremoniens indhold i fællesskab – og jeg sørger for, at alt er koordineret på dagen.
           </p>
           <ul style={{ paddingLeft: "24px", marginBottom: "32px" }}>
             {[
@@ -175,7 +175,7 @@ export default function KimKirkeligAfsked() {
             ))}
           </ul>
           <p style={s.body}>
-            Er I i tvivl om hvilken kirke afdøde tilhørte, kan I finde det på <a href="https://www.sogn.dk" target="_blank" rel="noopener noreferrer" style={s.link}>Sogn.dk</a> ved at indtaste adressen. Jeg hjælper også gerne med at finde frem til de rette oplysninger.
+            Er I i tvivl om, hvilken kirke afdøde hørte til, kan I finde det på <a href="https://www.sogn.dk" target="_blank" rel="noopener noreferrer" style={s.link}>Sogn.dk</a> ved at indtaste adressen. Jeg hjælper også gerne med at finde frem til de rette oplysninger.
           </p>
           <a href="/mindeord/" style={s.link}>Mindeord og tale ved begravelsen →</a>
         </div>
@@ -188,12 +188,12 @@ export default function KimKirkeligAfsked() {
           <h2 style={s.h2}>Spørgsmål om kirkelig afsked</h2>
           {[
             {
-              q: "Kan man få en kirkelig afsked uden at være medlem af Folkekirken?",
-              a: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af Folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen.",
+              q: "Kan man få en kirkelig afsked uden at være medlem af folkekirken?",
+              a: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen.",
             },
             {
               q: "Kan man holde ceremonien i en anden kirke end den lokale?",
-              a: "Ja, det er muligt, hvis der er en særlig tilknytning til den ønskede kirke — f.eks. tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Præsten vurderer tilknytningen.",
+              a: "Ja, det er muligt, hvis der er en særlig tilknytning til den ønskede kirke – fx tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Præsten vurderer tilknytningen.",
             },
             {
               q: "Kan en kirkelig ceremoni kombineres med askespredning?",
@@ -201,7 +201,7 @@ export default function KimKirkeligAfsked() {
             },
             {
               q: "Er ceremonien i kirken gratis?",
-              a: "Var afdøde medlem af Folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd.",
+              a: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd.",
             },
             {
               q: "Kan ceremonien foregå i et kapel i stedet for kirken?",
@@ -315,7 +315,7 @@ export default function KimKirkeligAfsked() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

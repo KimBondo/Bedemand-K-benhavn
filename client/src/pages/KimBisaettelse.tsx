@@ -202,7 +202,7 @@ export default function KimBisaettelse() {
           Hvad er en bisættelse?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          En bisættelse er en afskedsform, hvor afdøde kremeres efter ceremonien. Asken samles i en urne, som familien efterfølgende kan vælge at nedsætte på en kirkegård, bruge til <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredning over havet</a> eller tage med til udlandet.
+          En bisættelse er en afskedsform, hvor afdøde kremeres – med eller uden en ceremoni først. Asken samles i en urne, som familien efterfølgende kan vælge at nedsætte på en kirkegård, bruge til <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredning over havet</a> eller tage med til udlandet.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
           Mange vælger bisættelse frem for en traditionel <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi det giver større fleksibilitet i forhold til gravsted og stedfæstelse. Det er ikke en mere upersonlig afsked – det er blot en anden måde at sige farvel på.
@@ -321,13 +321,13 @@ export default function KimBisaettelse() {
           Kirkelig eller borgerlig bisættelse?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          En <strong>kirkelig bisættelse</strong> foregår i kirke eller kapel og ledes af en præst fra Folkekirken. Ceremonien følger faste ritualer, men kan tilpasses med personlige ønsker til musik, salmer og prædiken. Det er den mest valgte form, også for familier der ikke er stærkt religiøse – mange oplever den kirkelige ramme som tryg og højtidelig.
+          En <strong>kirkelig bisættelse</strong> foregår i kirke eller kapel og ledes af en præst fra folkekirken. Ceremonien følger faste ritualer, men kan tilpasses med personlige ønsker til musik, salmer og prædiken. Det er den mest valgte form, også for familier, der ikke er stærkt religiøse – mange oplever den kirkelige ramme som tryg og højtidelig.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
           En <strong>borgerlig bisættelse</strong> foregår uden religiøse ritualer og kan arrangeres helt efter familiens ønsker. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation. I vælger selv en taler, musik og indhold.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Ved en kirkelig bisættelse står præsten for ceremonien, inden kisten køres til krematoriet. En borgerlig bisættelse kan I selv forme med egne taler og musik. I kan selv hente urnen, eller jeg kan køre den for jer for 900 kr. Det er kirkegården, der står for urnenedsættelsen.
+          Ved en kirkelig bisættelse står præsten for ceremonien, inden kisten køres til krematoriet. En borgerlig bisættelse kan I selv forme med egne taler og musik.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           Ønsker I en enklere løsning, kan bisættelsen også foregå <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>uden ceremoni</a> – direkte til krematoriet, med mulighed for et mindesamvær på et senere tidspunkt.
@@ -592,7 +592,7 @@ export default function KimBisaettelse() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

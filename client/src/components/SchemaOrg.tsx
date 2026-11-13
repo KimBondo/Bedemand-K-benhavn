@@ -65,7 +65,7 @@ const PRICE_OFFERS = [
   {
     "@type": "Offer",
     "name": "Bisættelse uden ceremoni",
-    "description": `Fast pris ${kr(PAKKEPRISER.uden)} kr. Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Prisen gælder hverdage.`,
+    "description": `Fast pris ${kr(PAKKEPRISER.uden)} kr. Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Prisen gælder hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.`,
     "price": String(PAKKEPRISER.uden),
     "priceCurrency": "DKK",
     "url": `${BASE_URL}/priser/`,
@@ -74,7 +74,7 @@ const PRICE_OFFERS = [
   {
     "@type": "Offer",
     "name": "Begravelse",
-    "description": `Fra ${kr(PAKKEPRISER.begravelse)} kr. Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage.`,
+    "description": `Fra ${kr(PAKKEPRISER.begravelse)} kr. Kisten sænkes i jorden efter ceremonien. Prisen gælder hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.`,
     "price": String(PAKKEPRISER.begravelse),
     "priceSpecification": { "@type": "PriceSpecification", "minPrice": PAKKEPRISER.begravelse, "priceCurrency": "DKK" },
     "priceCurrency": "DKK",
@@ -84,7 +84,7 @@ const PRICE_OFFERS = [
   {
     "@type": "Offer",
     "name": "Bisættelse med ceremoni",
-    "description": `Fra ${kr(PAKKEPRISER.bisaettelse)} kr. Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage.`,
+    "description": `Fra ${kr(PAKKEPRISER.bisaettelse)} kr. Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.`,
     "price": String(PAKKEPRISER.bisaettelse),
     "priceSpecification": { "@type": "PriceSpecification", "minPrice": PAKKEPRISER.bisaettelse, "priceCurrency": "DKK" },
     "priceCurrency": "DKK",

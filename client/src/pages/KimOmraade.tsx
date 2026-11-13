@@ -170,9 +170,9 @@ export default function KimOmraade() {
           </div>
 
           <div style={{ background: "#F9F8F6", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6", marginTop: "48px" }}>
-            <h3 style={{ ...s.h3, fontSize: "18px" }}>Ikke sikker på, om jeg dækker dit område?</h3>
+            <h3 style={{ ...s.h3, fontSize: "18px" }}>Ikke sikker på, om jeg dækker jeres område?</h3>
             <p style={{ ...s.body, marginBottom: "16px" }}>
-              Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> — så finder vi en løsning sammen. Bor afdøde eller familien <a href="/sjaelland/" style={s.link}>et andet sted på Sjælland</a>, hjælper jeg gerne med hele forløbet – på samme måde og til samme faste priser. Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet til kapel, kirke eller krematorium. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område er der intet loft. Bisættelse uden ceremoni og begravelse har én rustvognskørsel, og bisættelse med ceremoni har to. En ekstra kørsel koster 1.595 kr.
+              Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> – så finder vi en løsning sammen. Bor afdøde eller familien <a href="/sjaelland/" style={s.link}>et andet sted på Sjælland</a>, hjælper jeg gerne med hele forløbet – på samme måde og til samme faste priser. Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet til kapel, kirke eller krematorium. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område er der intet loft. Bisættelse uden ceremoni og begravelse har én rustvognskørsel, og bisættelse med ceremoni har to. En ekstra kørsel koster 1.595 kr.
             </p>
             <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none" }}>
               Kontakt mig
@@ -187,10 +187,10 @@ export default function KimOmraade() {
           <p style={s.label}>Om Kim Bondo</p>
           <h2 style={s.h2}>Lokal og personlig bedemand</h2>
           <p style={s.body}>
-            Jeg er selvstændig bedemand og kender København og Nordsjælland godt — de lokale kirker, kapeller og kirkegårde. Det betyder, at jeg kan rådgive jer om de praktiske muligheder i jeres område og koordinere direkte med de rette instanser.
+            Jeg er selvstændig bedemand og kender København og Nordsjælland godt – de lokale kirker, kapeller og kirkegårde. Det betyder, at jeg kan rådgive jer om de praktiske muligheder i jeres område og koordinere direkte med de rette instanser.
           </p>
           <p style={s.body}>
-            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt til afskeden er overstået.
+            Som selvstændig bedemand er jeg den person, I taler med fra første kontakt, til afskeden er overstået.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
@@ -199,10 +199,10 @@ export default function KimOmraade() {
       {/* ── BYSIDER ── */}
       <section style={{ background: "#fff", padding: "72px 32px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto", textAlign: "center" }}>
-          <p style={s.label}>Læs mere om dit område</p>
-          <h2 style={{ ...s.h2, textAlign: "center" }}>Bedemand i din by</h2>
+          <p style={s.label}>Læs mere om jeres område</p>
+          <h2 style={{ ...s.h2, textAlign: "center" }}>Bedemand i jeres by</h2>
           <p style={{ ...s.body, maxWidth: "580px", margin: "0 auto 40px", textAlign: "center" }}>
-            Jeg har skrevet mere om, hvad jeg hjælper med i de største byer i mit område. Vælg din by herunder.
+            Jeg har skrevet mere om, hvad jeg hjælper med i de største byer i mit område. Vælg jeres by herunder.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
             {[
@@ -317,7 +317,7 @@ export default function KimOmraade() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

@@ -109,7 +109,7 @@ export default function KimAfskeder() {
             {
               title: "Bisættelse",
               tag: "Mest valgte",
-              desc: "En bisættelse er den mest valgte afskedsform i Danmark. Afdøde kremeres efter ceremonien, og asken samles i en urne. Urnen kan nedsættes på en kirkegård, spredes over havet eller tages med til udlandet.",
+              desc: "En bisættelse er den mest valgte afskedsform i Danmark. Afdøde kremeres efter ceremonien, og asken samles i en urne. Urnen kan nedsættes på en kirkegård eller tages med til udlandet, eller asken kan spredes over havet.",
               details: ["Kirkelig eller borgerlig ceremoni", "Kremering og urne", "Fleksibel stedfæstelse af asken", "Priser fra 14.995 kr."],
               href: "/bisaettelse/",
               linkText: "Læs om bisættelse",
@@ -141,8 +141,8 @@ export default function KimAfskeder() {
             {
               title: "Kirkelig afsked",
               tag: "Med præst",
-              desc: "En ceremoni i kirke eller kapel, ledet af en præst fra Folkekirken. Følger faste ritualer, men med god plads til at tilpasse salmer og indhold efter familiens ønsker.",
-              details: ["Præst fra Folkekirken", "Salmer og jordpåkastelse", "Kan afsluttes med begravelse eller bisættelse", "Gratis kirkelig ceremoni for folkekirkens medlemmer"],
+              desc: "En ceremoni i kirke eller kapel, ledet af en præst fra folkekirken. Følger faste ritualer, men med god plads til at tilpasse salmer og indhold efter familiens ønsker.",
+              details: ["Præst fra folkekirken", "Salmer og jordpåkastelse", "Kan afsluttes med begravelse eller bisættelse", "Gratis kirkelig ceremoni for folkekirkens medlemmer"],
               href: "/kirkelig-afsked/",
               linkText: "Læs om kirkelig afsked",
             },
@@ -270,7 +270,7 @@ export default function KimAfskeder() {
           <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

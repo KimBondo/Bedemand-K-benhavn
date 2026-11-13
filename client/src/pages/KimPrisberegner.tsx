@@ -58,15 +58,15 @@ function kisterTil(base: Base) {
 }
 
 const ADDONS = [
-  { id: "pynt-lille", label: "Kistepynt lille", price: 1800 },
-  { id: "pynt-mellem", label: "Kistepynt mellem", price: 2500 },
-  { id: "pynt-stor", label: "Kistepynt stor", price: 3500 },
+  { id: "pynt-lille", label: "Kistepynt, lille", price: 1800 },
+  { id: "pynt-mellem", label: "Kistepynt, mellem", price: 2500 },
+  { id: "pynt-stor", label: "Kistepynt, stor", price: 3500 },
   { id: "roser", label: "10 farvelroser", price: 350 },
   { id: "ligklaede", label: "Ligklæde", price: 295 },
   // Askespredning kræver kremering og kan derfor ikke vælges ved kistebegravelse
   { id: "aske", label: "Askespredning over havet", price: 2500, fra: true, ikkeVed: "begravelse" },
   // Urnekørsel giver ikke mening ved begravelse, hvor der ingen urne er
-  { id: "urnekoersel", label: "Urnekørsel fra krematorie til kirkegårdskontor", price: 900, ikkeVed: "begravelse" },
+  { id: "urnekoersel", label: "Urnekørsel fra krematoriet til kirkegårdskontoret", price: 900, ikkeVed: "begravelse" },
   // Blomsterkørsel: ligger ikke i nogen pakke
   { id: "blomster-hverdag", label: "Blomsterkørsel på en hverdag", price: 1195, ikkeVed: "uden", note: "Er graven på samme kirkegård som kirken, sørger kirken som regel selv for blomsterne. Skal de et andet sted hen, er det en blomsterkørsel." },
   { id: "blomster-loerdag", label: "Blomsterkørsel om lørdagen", price: 1995, ikkeVed: "uden" },
@@ -153,7 +153,7 @@ export default function KimPrisberegner() {
       if (addon && relevant(addon, base)) linjer.push(`- ${addon.label}${qty > 1 ? ` × ${qty}` : ""}: ${"fra" in addon ? "fra " : "ca" in addon ? "ca. " : ""}${kr(addon.price * qty)}`);
     }
     linjer.push(`Vejledende pris i alt: ${kr(total)}`);
-    linjer.push("Ikke med i beregningen: krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter.");
+    linjer.push("Ikke med i beregningen: krematorium, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter.");
     linjer.push("Antal kørsler og afstand bekræfter jeg, når forløbet er kendt.");
     return linjer.join("\n");
   };
@@ -216,9 +216,9 @@ export default function KimPrisberegner() {
           <h2 style={s.h2}>1. Hvordan skal afskeden være?</h2>
           <div style={{ display: "grid", gap: "16px", marginBottom: "40px" }}>
             {([
-              { key: "uden" as const, title: "Bisættelse uden ceremoni", price: "9.995 kr.", text: "Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Med i prisen: mit honorar og telefonmøde, anmodning om ligbrænding, ansøgning om begravelseshjælp, kontakt til krematorium og kirkegård, klargøring og ilægning i en umalet basiskiste, urne og én rustvognskørsel." },
-              { key: "begravelse" as const, title: "Begravelse", price: "Fra 13.495 kr.", text: "Kisten sænkes i jorden efter ceremonien. Med i prisen: mit honorar og telefonmøde, anmodning om begravelse, begravelseshjælp, dødsannonce (avisens pris kommer oveni), kontakt til kirke og kirkegård, klassisk hvid kiste og én rustvognskørsel. Jeg er selv til stede ved højtideligheden." },
-              { key: "bisaettelse" as const, title: "Bisættelse med ceremoni", price: "Fra 14.995 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Det samme som begravelse, plus natururne, kontakt til krematoriet og to rustvognskørsler: fra kapel til ceremoni og derfra til krematoriet." },
+              { key: "uden" as const, title: "Bisættelse uden ceremoni", price: "9.995 kr.", text: "Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Med i prisen: mit honorar og telefonmøde, anmodning om ligbrænding, ansøgning om begravelseshjælp, kontakt til krematorium og kirkegård, klargøring og ilægning i en umalet basiskiste, natururne og én rustvognskørsel. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
+              { key: "begravelse" as const, title: "Begravelse", price: "Fra 13.495 kr.", text: "Kisten sænkes i jorden efter ceremonien. Med i prisen: mit honorar og telefonmøde, anmodning om begravelse, ansøgning om begravelseshjælp, dødsannonce (avisens pris kommer oveni), kontakt til kirke og kirkegård, klassisk hvid kiste og én rustvognskørsel. Jeg er selv til stede ved højtideligheden. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
+              { key: "bisaettelse" as const, title: "Bisættelse med ceremoni", price: "Fra 14.995 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Det samme som begravelse plus natururne, kontakt til krematoriet og to rustvognskørsler: fra kapel til ceremoni og derfra til krematoriet. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
             ]).map((opt) => (
               <label key={opt.key} style={{ display: "block", background: base === opt.key ? "#f0f7f3" : "#fff", border: `1.5px solid ${base === opt.key ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "20px 24px", cursor: "pointer" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", flexWrap: "wrap" }}>
@@ -383,7 +383,7 @@ export default function KimPrisberegner() {
                 Inkluderer det, der står i pakken, og de tilvalg, I har valgt. Alle priser er inkl. moms og gælder hverdage.
               </p>
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "0 auto" }}>
-                Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirken fastsætter. Disse beløb er ikke med i overslaget.
+                Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter. Disse beløb er ikke med i overslaget.
               </p>
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
                 Kørslen er regnet ud fra jeres valg. Antal kørsler og afstand bekræfter jeg, når forløbet er kendt.
@@ -451,7 +451,7 @@ export default function KimPrisberegner() {
           <a href="tel:+4528146011" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Tlf.: 28 14 60 11</a>
           {" "}&nbsp;·&nbsp;{" "}
           <a href="mailto:kim@bedemandkobenhavn.dk" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>kim@bedemandkobenhavn.dk</a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a href="/min-sidste-vilje/" style={{ color: "rgba(255,255,255,0.82)", textDecoration: "underline" }}>Min Sidste Vilje</a>
           {" "}&nbsp;·&nbsp;{" "}

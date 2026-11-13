@@ -91,13 +91,13 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Når du skriver via kontaktformularen</h2>
           <p style={s.body}>
-            Bruger du formularen her på siden, registrerer jeg de oplysninger, du selv skriver ind: navn, telefonnummer, eventuelt e-mailadresse og din besked. Sammen med beskeden følger den side, du skrev fra, og din IP-adresse. Beder du om en pris fra prisberegneren, følger også den valgte pakke, overslaget og hvor afdøde er nu med. Beder du mig ringe dig op, sender du kun navn, telefonnummer og hvornår det passer.
+            Bruger du formularen her på siden, registrerer jeg de oplysninger, du selv skriver ind: navn, telefonnummer, eventuelt e-mailadresse og din besked. Sammen med beskeden følger den side, du skrev fra, og din IP-adresse. Beder du om en pris fra prisberegneren, følger også den valgte pakke, overslaget og oplysningen om, hvor afdøde er nu. Beder du mig ringe dig op, sender du kun navn, telefonnummer og hvornår det passer.
           </p>
           <p style={s.body}>
             <strong>Formål:</strong> at kunne besvare din henvendelse og aftale et møde eller en samtale.
           </p>
           <p style={s.body}>
-            <strong>Retsgrundlag:</strong> databeskyttelsesforordningens artikel 6, stk. 1, litra b — behandlingen sker på din anmodning forud for en eventuel aftale.
+            <strong>Retsgrundlag:</strong> databeskyttelsesforordningens artikel 6, stk. 1, litra b – behandlingen sker på din anmodning forud for en eventuel aftale.
           </p>
           <p style={s.body}>
             Formularen sendes via <strong>Web3Forms</strong>, som er min databehandler. Tjenesten drives uden for EU og bruger blandt andre Amazon Web Services, Cloudflare og Hetzner. Overførslen sker på grundlag af EU-Kommissionens standardkontraktbestemmelser. Vil du undgå det, kan du ringe eller skrive direkte til mig.
@@ -127,7 +127,7 @@ export default function KimPersondatapolitik() {
 
           <h3 style={s.h3}>CPR-numre</h3>
           <p style={s.body}>
-            Jeg beder kun om CPR-nummer, hvor det er nødvendigt – for eksempel til dødsanmeldelsen og mærkning af kisten – og sletter det, når det er brugt.
+            Jeg beder kun om CPR-nummer, hvor det er nødvendigt – for eksempel til anmodningen om begravelse eller ligbrænding og mærkning af kisten – og sletter det, når det er brugt.
           </p>
 
           <h3 style={s.h3}>Oplysninger om afdøde</h3>
@@ -168,14 +168,14 @@ export default function KimPersondatapolitik() {
           </p>
           <ul style={s.ul}>
             <li style={s.li}>Kirker, kirkegårde, krematorier, præster og myndigheder, når afskeden skal arrangeres</li>
-            <li style={s.li}>Offentlige myndigheder, blandt andet ved dødsanmeldelse og ansøgning om begravelseshjælp</li>
+            <li style={s.li}>Offentlige myndigheder, blandt andet ved anmodning om begravelse eller ligbrænding og ansøgning om begravelseshjælp</li>
             <li style={s.li}>Mit bogholderi og min revisor i forbindelse med fakturering og regnskab</li>
             <li style={s.li}>Databehandlere, der leverer teknik til hjemmesiden: Web3Forms (kontaktformular), Simply (min e-mail), Cloudflare (hosting, levering og afsendelse af prisanmodninger) og Google (statistik og annoncemåling)</li>
           </ul>
 
           <h3 style={s.h3}>Overførsel uden for EU/EØS</h3>
           <p style={s.body}>
-            Jeg bruger Cloudflare til at levere og beskytte hjemmesiden og Google til statistik efter dit samtykke. Oplysninger kan blive behandlet uden for EU/EØS, herunder i USA. Overførsler til Google LLC og Cloudflare, Inc. i USA sker under EU–U.S. Data Privacy Framework. Ved øvrige overførsler, der kræver særlige garantier, anvendes EU-Kommissionens standardkontraktbestemmelser efter leverandøraftalerne. Kontakt mig for nærmere oplysninger.
+            Jeg bruger Cloudflare til at levere og beskytte hjemmesiden og Google til statistik efter dit samtykke. Oplysninger kan blive behandlet uden for EU/EØS, herunder i USA. Overførsler til Google LLC og Cloudflare, Inc. i USA sker under EU-U.S. Data Privacy Framework. Ved øvrige overførsler, der kræver særlige garantier, anvendes EU-Kommissionens standardkontraktbestemmelser efter leverandøraftalerne. Kontakt mig for nærmere oplysninger.
           </p>
         </div>
       </section>
@@ -185,10 +185,10 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Hvor længe oplysningerne gemmes</h2>
           <ul style={s.ul}>
-            <li style={s.li}><strong>Henvendelser der ikke fører til en opgave:</strong> slettes, når det står klart, at der ikke bliver noget — og senest efter seks måneder.</li>
+            <li style={s.li}><strong>Henvendelser, der ikke fører til en opgave:</strong> slettes, når det står klart, at der ikke bliver noget – og senest efter seks måneder.</li>
             <li style={s.li}><strong>Sagsoplysninger på en gennemført opgave:</strong> gemmes i fem år efter udløbet af det regnskabsår, opgaven hører til, fordi bogføringsloven kræver det.</li>
             <li style={s.li}><strong>CPR-numre:</strong> slettes, så snart de har været brugt til det, de var nødvendige for.</li>
-            <li style={s.li}><strong>Indsendelser hos Web3Forms:</strong> Web3Forms sletter indsendelser efter 3 måneder.</li>
+            <li style={s.li}><strong>Indsendelser hos Web3Forms:</strong> Web3Forms sletter indsendelser efter tre måneder.</li>
           </ul>
         </div>
       </section>
@@ -201,13 +201,13 @@ export default function KimPersondatapolitik() {
             Du har efter databeskyttelsesforordningen en række rettigheder over de oplysninger, jeg har om dig:
           </p>
           <ul style={s.ul}>
-            <li style={s.li}><strong>Indsigt</strong> — du kan få at vide, hvilke oplysninger jeg har om dig, og få en kopi.</li>
-            <li style={s.li}><strong>Berigtigelse</strong> — er noget forkert, retter jeg det.</li>
-            <li style={s.li}><strong>Sletning</strong> — du kan bede om at få oplysninger slettet, hvor jeg ikke er forpligtet til at gemme dem.</li>
-            <li style={s.li}><strong>Begrænsning</strong> — du kan bede om, at behandlingen sættes i bero.</li>
-            <li style={s.li}><strong>Indsigelse</strong> — du kan gøre indsigelse mod behandling, der sker i min legitime interesse.</li>
-            <li style={s.li}><strong>Dataportabilitet</strong> — du kan få udleveret dine oplysninger i et almindeligt format.</li>
-            <li style={s.li}><strong>Tilbagekaldelse af samtykke</strong> — har du givet et samtykke, kan du trække det tilbage når som helst.</li>
+            <li style={s.li}><strong>Indsigt</strong> – du kan få at vide, hvilke oplysninger jeg har om dig, og få en kopi.</li>
+            <li style={s.li}><strong>Berigtigelse</strong> – er noget forkert, retter jeg det.</li>
+            <li style={s.li}><strong>Sletning</strong> – du kan bede om at få oplysninger slettet, hvor jeg ikke er forpligtet til at gemme dem.</li>
+            <li style={s.li}><strong>Begrænsning</strong> – du kan bede om, at behandlingen sættes i bero.</li>
+            <li style={s.li}><strong>Indsigelse</strong> – du kan gøre indsigelse mod behandling, der sker i min legitime interesse.</li>
+            <li style={s.li}><strong>Dataportabilitet</strong> – du kan få udleveret dine oplysninger i et almindeligt format.</li>
+            <li style={s.li}><strong>Tilbagekaldelse af samtykke</strong> – har du givet et samtykke, kan du trække det tilbage når som helst.</li>
           </ul>
           <p style={s.body}>
             Skriv til{" "}
@@ -253,7 +253,7 @@ export default function KimPersondatapolitik() {
             Ændrer jeg noget i behandlingen, opdaterer jeg denne side.
           </p>
           <p style={{ ...s.body, fontStyle: "italic", color: "#7a8f99", marginBottom: 0 }}>
-            Senest opdateret 12. november 2026.
+            Senest opdateret 13. november 2026.
           </p>
         </div>
       </section>
@@ -329,7 +329,7 @@ export default function KimPersondatapolitik() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"
