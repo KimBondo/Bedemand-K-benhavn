@@ -103,7 +103,7 @@ export default function KimHvadKoster() {
             <li>Bisættelse med ceremoni: fra 14.995 kr.</li>
           </ul>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Priserne gælder de beskrevne standardforløb på hverdage. På <a href="/priser/" style={s.link}>prissiden</a> kan I se, hvad pakkerne indeholder, og hvilke tillæg der kan være relevante.
+            Priserne gælder de beskrevne standardforløb på hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. På <a href="/priser/" style={s.link}>prissiden</a> kan I se, hvad pakkerne indeholder, og hvilke tillæg der kan være relevante.
           </p>
         </div>
       </section>
@@ -236,7 +236,7 @@ export default function KimHvadKoster() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

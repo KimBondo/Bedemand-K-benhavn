@@ -181,7 +181,7 @@ function kimTekst(f) {
 
 function kvitteringTekst(f) {
   return [
-    `Hej ${f.navn}`,
+    `Hej ${f.navn},`,
     "",
     "Tak for jeres anmodning. Her er det vejledende overslag fra prisberegneren.",
     "",

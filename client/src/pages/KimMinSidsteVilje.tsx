@@ -20,7 +20,7 @@ export default function KimMinSidsteVilje() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Min Sidste Vilje – skema og ønsker til egen begravelse"
-        description="Skriv dine ønsker til din egen afsked ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring til mig på 28 14 60 11."
+        description="Skriv jeres ønsker til afskeden ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/min-sidste-vilje/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -83,7 +83,7 @@ export default function KimMinSidsteVilje() {
           Opdateret <time dateTime="2026-09-29">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          De fleste udskyder samtalen. Men det er en gave til dem, man efterlader, at have skrevet sine ønsker til begravelse eller bisættelse ned i forvejen. Jeg hjælper gratis og uden forpligtelse – eller du kan hente skemaet og udfylde det selv.
+          De fleste udskyder samtalen. Men det er en gave til dem, man efterlader, at have skrevet sine ønsker til begravelse eller bisættelse ned i forvejen. Jeg hjælper gratis og uden forpligtelse – eller I kan hente skemaet og udfylde det selv.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på 28 14 60 11</a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a" }}>
@@ -128,7 +128,7 @@ export default function KimMinSidsteVilje() {
 
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Det sker der bagefter</h3>
           <p style={s.body}>
-            I får et skriftligt dokument med jeres ønsker med hjem, og jeg gemmer selv en kopi. Når tiden kommer, ved jeres pårørende, hvad I ønskede – og de kan ringe direkte til mig.
+            I får jeres ønsker med hjem på skrift, og jeg gemmer selv en kopi. Når tiden kommer, ved jeres pårørende, hvad I ønskede – og de kan ringe direkte til mig.
           </p>
           <p style={s.body}>
             Vil I vide, hvad en afsked koster, står alle mine priser åbent. <a href="/priser/" style={s.link}>Se mine priser</a>
@@ -138,19 +138,19 @@ export default function KimMinSidsteVilje() {
             <p style={s.label}>Hent dokumentet</p>
             <h2 style={{ ...s.h3, marginBottom: "12px" }}>Hent skemaet Min Sidste Vilje</h2>
             <p style={s.body}>
-              Du kan også hente dokumentet og udfylde det i dit eget tempo – direkte på computeren eller printet ud og skrevet i hånden. Udfyld det, du har lyst til, og spring resten over.
+              I kan også hente dokumentet og udfylde det i jeres eget tempo – direkte på computeren eller printet ud og skrevet i hånden. Udfyld det, I har lyst til, og spring resten over.
             </p>
             <p style={s.body}>
-              Dokumentet bliver kun hos dig; det sendes ikke til mig. Gem det et sted, hvor dine nærmeste kan finde det – og tag det gerne frem, hvis vi ses til en samtale.
+              Dokumentet bliver kun hos jer; det sendes ikke til mig. Gem det et sted, hvor jeres nærmeste kan finde det – og tag det gerne frem, hvis vi ses til en samtale.
             </p>
             <a href="/dokumenter/min-sidste-vilje.pdf" download="Min-Sidste-Vilje.pdf" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
               Hent Min Sidste Vilje (PDF, 6 sider)
             </a>
             <p style={{ ...s.body, fontSize: "14px", color: "#3d5260", marginTop: "14px", marginBottom: 0 }}>
-              Udfyld på skærmen i Adobe Reader, Chrome, Edge eller Preview på Mac – gem og print, når du er færdig. På iPhone og iPad kan du udfylde det i Filer-appen.
+              Udfyld på skærmen i Adobe Reader, Chrome, Edge eller Preview på Mac – gem og print, når I er færdige. På iPhone og iPad kan I udfylde det i Filer-appen.
             </p>
             <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", marginTop: "14px", marginBottom: 0 }}>
-              Dokumentet beskriver dine ønsker til afskeden. Det er ikke et testamente – ønsker om arv skal skrives i et testamente hos en advokat eller notar.
+              Dokumentet beskriver jeres ønsker til afskeden. Det er ikke et testamente – ønsker om arv skal skrives i et testamente hos en advokat eller notar.
             </p>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function KimMinSidsteVilje() {
       {/* ── DEL PÅ FACEBOOK ── */}
       <section style={{ background: "#fff", padding: "40px 32px", textAlign: "center", borderTop: "1px solid #e0dcd6" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", marginBottom: "16px" }}>
-          Kender du nogen, der går og tænker på deres sidste afsked? Del denne side.
+          Kender I nogen, der går og tænker på deres sidste afsked? Del denne side.
         </p>
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://www.bedemandkobenhavn.dk/min-sidste-vilje/")}`}
@@ -284,7 +284,7 @@ export default function KimMinSidsteVilje() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

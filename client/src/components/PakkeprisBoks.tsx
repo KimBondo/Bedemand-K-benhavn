@@ -10,7 +10,7 @@ const PAKKER = [
   {
     navn: "Bisættelse uden ceremoni",
     pris: `${kr(PAKKEPRISER.uden)} kr.`,
-    note: "Fast pris for det, der står her. Vælger I mere til, så vil prisen ændre sig.",
+    note: "Fast pris for det, der står her. Vælger I mere til, ændrer prisen sig.",
     punkter: ["Telefonmøde, mit honorar og papirerne", "Umalet basiskiste, natururne og én kørsel (25 km med kisten)"],
   },
   {
@@ -21,7 +21,7 @@ const PAKKER = [
   {
     navn: "Bisættelse med ceremoni",
     pris: `Fra ${kr(PAKKEPRISER.bisaettelse)} kr.`,
-    punkter: ["Det samme som begravelse, plus natururne", "Kontakt til krematoriet og to kørsler"],
+    punkter: ["Det samme som begravelse plus natururne", "Kontakt til krematoriet og to kørsler"],
   },
 ];
 
@@ -51,7 +51,7 @@ export default function PakkeprisBoks() {
           ))}
         </div>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "16px 0 0", textAlign: "center" }}>
-          Alle priser er inkl. moms og gælder hverdage.
+          Alle priser er inkl. moms og gælder hverdage. Priserne gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center", gap: "12px 24px", marginTop: "18px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
           <a href="/priser/" style={link}>Se, hvad der er med i prisen</a>

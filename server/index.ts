@@ -55,7 +55,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/mindeord": {
     title: "Mindeord og tale ved begravelse – skabelon og eksempel",
-    description: "Sådan skriver du mindeord og en tale til en begravelse eller bisættelse. En enkel skabelon, et eksempel og gode råd. Ring til mig på 28 14 60 11.",
+    description: "Sådan skriver I mindeord og en tale til en begravelse eller bisættelse. En enkel skabelon, et eksempel og gode råd. Ring til mig på 28 14 60 11.",
   },
   "/huskeliste": {
     title: "Huskeliste ved dødsfald – Bedemand Kim Bondo",
@@ -147,7 +147,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/min-sidste-vilje": {
     title: "Min Sidste Vilje – skema og ønsker til egen begravelse",
-    description: "Skriv dine ønsker til din egen afsked ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring til mig på 28 14 60 11.",
+    description: "Skriv jeres ønsker til afskeden ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring til mig på 28 14 60 11.",
   },
   "/hornbaek": {
     title: "Bedemand Hornbæk – Kim Bondo, døgnet rundt",

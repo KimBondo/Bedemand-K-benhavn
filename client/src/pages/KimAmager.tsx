@@ -15,7 +15,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvad koster en bisættelse på Amager?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer blandt andet kremering og gravsted, som kirkegården fastsætter. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen." },
+  { question: "Hvad koster en bisættelse på Amager?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer blandt andet kremering og gravsted, som kommunen eller kirkegården fastsætter. Priserne gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen." },
   { question: "Hvad gør jeg først, når nogen dør?", answer: "Er dødsfaldet sket i hjemmet, skal en læge konstatere det og udstede dødsattesten. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem sørger personalet for det. Derefter kan I ringe til mig på 28 14 60 11." },
   { question: "Kan du hente afdøde uden for normal arbejdstid?", answer: "Ja, jeg tager telefonen døgnet rundt. Efter kl. 16 på hverdage, i weekender og på helligdage er der et tillæg på 800 kr. pr. udkald, fordi jeg skal have en hjælper med. Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget." },
   { question: "Hvad koster kørslen?", answer: "Jeg regner kun den strækning, hvor afdøde er med i rustvognen, ikke min kørsel fra Søborg. En kørsel koster 1.595 kr. inkl. de første 25 km, derefter 35 kr. pr. km. I København og Nordsjælland højst 2.000 kr. pr. kørsel." },
@@ -107,7 +107,7 @@ export default function KimAmager() {
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Sådan hjælper jeg</h2>
           <p style={s.body}>
-            Jeg står for det praktiske: anmodningen om begravelse eller ligbrænding, kontakten til kirke, kirkegård og krematorium og ansøgningen om begravelseshjælp. Vil I vide, hvad der sker de første dage, kan I læse <a href="/hvad-sker-der/" style={s.link}>hvad der sker, når nogen dør</a>.
+            Jeg står for det praktiske: anmodningen om begravelse eller ligbrænding, kontakten til kirke, kirkegård og krematorium og ansøgningen om begravelseshjælp. Vil I vide, hvad der sker de første dage, kan I læse om, <a href="/hvad-sker-der/" style={s.link}>hvad der sker, når nogen dør</a>.
           </p>
           <p style={s.body}>
             Jeg regner kun den strækning, hvor afdøde er med i rustvognen, og de første 25 km er med i prisen. Mine faste priser står på <a href="/priser/" style={s.link}>prissiden</a>, og I kan regne et overslag ud i <a href="/prisberegner/" style={s.link}>prisberegneren</a>.
@@ -183,7 +183,7 @@ export default function KimAmager() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring til mig på 28 14 60 11.</p>
         <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Kontakt mig</a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
-          © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, kontor 11, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR.: 45084159
+          © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, kontor 11, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR-nr.: 45084159
           {" "}·{" "}<CookieLink />
         </p>
       </footer>

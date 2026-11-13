@@ -261,7 +261,7 @@ export default function KimNav() {
             letterSpacing: "0.03em",
           }}
         >
-          Tlf: 28 14 60 11
+          Tlf.: 28 14 60 11
         </a>
       </nav>
 

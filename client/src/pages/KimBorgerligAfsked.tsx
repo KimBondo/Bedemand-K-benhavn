@@ -36,11 +36,11 @@ export default function KimBorgerligAfsked() {
           { name: "Borgerlig afsked", url: "https://www.bedemandkobenhavn.dk/borgerlig-afsked/" }
         ]}
         faqItems={[
-          { question: "Hvad er forskellen på en borgerlig og en kirkelig afsked?", answer: "En borgerlig afsked ledes ikke af en præst og følger ingen religiøse ritualer. I stedet tilpasses ceremonien frit efter familiens ønsker. En kirkelig afsked ledes af en præst og følger Folkekirkens traditioner." },
+          { question: "Hvad er forskellen på en borgerlig og en kirkelig afsked?", answer: "En borgerlig afsked ledes ikke af en præst og følger ingen religiøse ritualer. I stedet tilpasses ceremonien frit efter familiens ønsker. En kirkelig afsked ledes af en præst og følger folkekirkens traditioner." },
           { question: "Hvem kan lede en borgerlig ceremoni?", answer: "Ceremonien kan ledes af en person fra familien, en nær ven eller en professionel ceremonileder. Humanistisk Samfund tilbyder uddannede ceremoniledere. Jeg kan også hjælpe med at gennemføre en ceremoni, som I planlægger." },
-          { question: "Kan en borgerlig afsked foregå i en kirke?", answer: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. En borgerlig ceremoni kan holdes i et kapel, hjemme eller et andet sted — men ikke i en kirke." },
+          { question: "Kan en borgerlig afsked foregå i en kirke?", answer: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. En borgerlig ceremoni kan holdes i et kapel, hjemme eller et andet sted – men ikke i en kirke." },
           { question: "Kan en borgerlig ceremoni kombineres med askespredning?", answer: "Ja. Efter en borgerlig bisættelse kan urnen bruges til askespredning over havet. Jeg hjælper med at arrangere begge dele." },
-          { question: "Hvad koster en borgerlig afsked?", answer: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste — jeg gennemgår alle udgifter med jer på forhånd." },
+          { question: "Hvad koster en borgerlig afsked?", answer: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste – jeg gennemgår alle udgifter med jer på forhånd." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/borgerlig-afsked"
       />
@@ -90,7 +90,7 @@ export default function KimBorgerligAfsked() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Borgerlig afsked</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
-          En personlig afsked — på jeres præmisser
+          En personlig afsked – på jeres præmisser
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           En borgerlig afsked er fri for religiøse ritualer og kan tilpasses jeres ønsker. Jeg hjælper med at skabe en ceremoni, der afspejler afdødes liv.
@@ -112,15 +112,15 @@ export default function KimBorgerligAfsked() {
             En borgerlig afsked er en ceremoni uden præst og religiøse ritualer. I stedet er fokus helt på den afdødes liv, de minder I deler, og den musik og de ord, der betød noget. Ceremonien kan holdes i et kapel, hjemme eller et andet sted med særlig betydning for familien.
           </p>
           <p style={s.body}>
-            Ceremonien kan afsluttes med enten en <a href="/begravelse/" style={s.link}>begravelse</a> eller en <a href="/bisaettelse/" style={s.link}>bisættelse</a> — eller efterfølges af <a href="/askespredning/" style={s.link}>askespredning over havet</a>.
+            Ceremonien kan afsluttes med enten en <a href="/begravelse/" style={s.link}>begravelse</a> eller en <a href="/bisaettelse/" style={s.link}>bisættelse</a> – eller efterfølges af <a href="/askespredning/" style={s.link}>askespredning over havet</a>.
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px", marginTop: "40px" }}>
             {[
-              { title: "Musik", text: "Afdødes yndlingsmusik, sange der betød noget, eller hvad I finder passende. I bestemmer selv." },
+              { title: "Musik", text: "Afdødes yndlingsmusik, sange, der betød noget, eller hvad I finder passende. I bestemmer selv." },
               { title: "Taler", text: "Familie og venner kan dele personlige minder og ord. Jeg hjælper med at strukturere forløbet." },
               { title: "Blomster og dekorationer", text: "Billeder, blomster og personlige genstande kan skabe en personlig ramme." },
-              { title: "Sted", text: "Kapel, hjemme, udendørs eller et sted med særlig betydning — I bestemmer." },
+              { title: "Sted", text: "Kapel, hjemme, udendørs eller et sted med særlig betydning – I bestemmer." },
               { title: "Ceremonileder", text: "I kan vælge en fra familien, en ven eller en professionel ceremonileder til at styre forløbet." },
               { title: "Mindesamvær", text: "Mange ønsker et mindesamvær efter ceremonien. Jeg hjælper gerne med at koordinere dette." },
             ].map((item) => (
@@ -139,7 +139,7 @@ export default function KimBorgerligAfsked() {
           <p style={s.label}>Det praktiske</p>
           <h2 style={s.h2}>Hvad hjælper jeg med?</h2>
           <p style={s.body}>
-            Jeg hjælper med at planlægge og koordinere hele forløbet — fra valg af sted og indhold til selve dagen. Har I brug for en professionel ceremonileder, kan jeg hjælpe med at finde en.
+            Jeg hjælper med at planlægge og koordinere hele forløbet – fra valg af sted og indhold til selve dagen. Har I brug for en professionel ceremonileder, kan jeg hjælpe med at finde en.
           </p>
           <ul style={{ paddingLeft: "24px", marginBottom: "32px" }}>
             {[
@@ -169,7 +169,7 @@ export default function KimBorgerligAfsked() {
           {[
             {
               q: "Hvad er forskellen på en borgerlig og en kirkelig afsked?",
-              a: "En borgerlig afsked ledes ikke af en præst og følger ingen religiøse ritualer. I stedet tilpasses ceremonien frit efter familiens ønsker. En kirkelig afsked ledes af en præst og følger Folkekirkens traditioner.",
+              a: "En borgerlig afsked ledes ikke af en præst og følger ingen religiøse ritualer. I stedet tilpasses ceremonien frit efter familiens ønsker. En kirkelig afsked ledes af en præst og følger folkekirkens traditioner.",
             },
             {
               q: "Hvem kan lede en borgerlig ceremoni?",
@@ -177,7 +177,7 @@ export default function KimBorgerligAfsked() {
             },
             {
               q: "Kan en borgerlig afsked foregå i en kirke?",
-              a: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. En borgerlig ceremoni kan holdes i et kapel, hjemme eller et andet sted — men ikke i en kirke.",
+              a: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. En borgerlig ceremoni kan holdes i et kapel, hjemme eller et andet sted – men ikke i en kirke.",
             },
             {
               q: "Kan en borgerlig ceremoni kombineres med askespredning?",
@@ -185,7 +185,7 @@ export default function KimBorgerligAfsked() {
             },
             {
               q: "Hvad koster en borgerlig afsked?",
-              a: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste — jeg gennemgår alle udgifter med jer på forhånd.",
+              a: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste – jeg gennemgår alle udgifter med jer på forhånd.",
             },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
@@ -296,7 +296,7 @@ export default function KimBorgerligAfsked() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

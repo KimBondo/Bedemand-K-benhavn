@@ -234,7 +234,7 @@ export default function KimBondo() {
             ))}
           </ol>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", margin: 0, textAlign: "center" }}>
-            <a href="/hvad-sker-der/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se hvad der sker, når nogen dør</a>
+            <a href="/hvad-sker-der/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", fontWeight: 600 }}>Se, hvad der sker, når nogen dør</a>
           </p>
         </div>
       </section>
@@ -313,13 +313,13 @@ export default function KimBondo() {
             Skal I vælge en lokal bedemand?
           </h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-            I kan frit vælge den bedemand, I har lyst til og som I føler jer trygge ved.
+            I kan frit vælge den bedemand, I har lyst til og føler jer trygge ved.
           </p>
           <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(18px, 2vw, 21px)", lineHeight: 1.6, color: "#2F3E46", margin: "0 0 16px" }}>
             Det handler om tryghed og tillid – ikke om postnummer.
           </p>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-            Bedemanden behøver ikke have adresse i samme by som jer. Bedemanden kan hjælpe jer uanset hvor i landet, I ønsker det.
+            Bedemanden behøver ikke have adresse i samme by som jer. Bedemanden kan hjælpe jer, uanset hvor i landet I ønsker det.
           </p>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
             Det vigtigste er, at I føler jer hørt og er trygge ved den, der skal hjælpe jer med afskeden.
@@ -402,7 +402,7 @@ export default function KimBondo() {
             }}
           >
             Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
-            Du er også velkommen til at ringe på{" "}
+            I er også velkomne til at ringe på{" "}
             <a
               href="tel:+4528146011"
               style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}
@@ -423,16 +423,16 @@ export default function KimBondo() {
               marginBottom: 0,
             }}
           >
-            Har jeg hjulpet dig og din familie? Så sætter jeg stor pris på, hvis du vil{" "}
+            Har jeg hjulpet jer? Så sætter jeg stor pris på, hvis I vil{" "}
             <a
               href="https://g.page/r/CW91ldyVVI39EBM/review"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "#3D6B4F", fontWeight: 600 }}
             >
-              dele din oplevelse på Google
+              dele jeres oplevelse på Google
             </a>{" "}
-            — det hjælper andre, der står samme sted, med at turde tage kontakt.
+            – det hjælper andre, der står samme sted, med at turde tage kontakt.
           </p>
           <a href="https://g.page/r/CW91ldyVVI39EBM/review" target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "120px", margin: "16px auto 0" }}>
             <img src="/images/anmeldelse-google-qr.svg" width={120} height={120} loading="lazy" alt="QR-kode til at skrive en anmeldelse af Bedemand København på Google" style={{ display: "block", width: "120px", height: "120px" }} />
@@ -524,7 +524,7 @@ export default function KimBondo() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

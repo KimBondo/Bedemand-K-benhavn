@@ -131,7 +131,7 @@ const ROUTE_META = {
   },
   "/mindeord": {
     title: "Mindeord og tale ved begravelse \u2013 skabelon og eksempel",
-    description: "S\u00e5dan skriver du mindeord og en tale til en begravelse eller bis\u00e6ttelse. En enkel skabelon, et eksempel og gode r\u00e5d. Ring til mig p\u00e5 28 14 60 11.",
+    description: "S\u00e5dan skriver I mindeord og en tale til en begravelse eller bis\u00e6ttelse. En enkel skabelon, et eksempel og gode r\u00e5d. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/huskeliste": {
     title: "Huskeliste ved d\u00f8dsfald \u2013 Bedemand Kim Bondo",
@@ -179,7 +179,7 @@ const ROUTE_META = {
   },
   "/min-sidste-vilje": {
     title: "Min Sidste Vilje \u2013 skema og \u00f8nsker til egen begravelse",
-    description: "Skriv dine \u00f8nsker til din egen afsked ned. Hent skemaet Min Sidste Vilje gratis, eller f\u00e5 hj\u00e6lp ved et gratis hjemmebes\u00f8g. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Skriv jeres \u00f8nsker til afskeden ned. Hent skemaet Min Sidste Vilje gratis, eller f\u00e5 hj\u00e6lp ved et gratis hjemmebes\u00f8g. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hornbaek": {
     title: "Bedemand Hornb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
@@ -226,8 +226,8 @@ const ROUTE_META = {
     description: "Bedemand p\u00e5 hele Sj\u00e6lland. Jeg tager selv telefonen. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/tak": {
-    title: "Tak for din besked \u2013 Bedemand Kim Bondo",
-    description: "Tak for din besked. Jeg vender tilbage hurtigst muligt. Haster det, s\u00e5 ring til mig p\u00e5 28 14 60 11.",
+    title: "Tak for jeres besked \u2013 Bedemand Kim Bondo",
+    description: "Tak for jeres besked. Jeg vender tilbage hurtigst muligt. Haster det, s\u00e5 ring til mig p\u00e5 28 14 60 11.",
     // Tak-siden skal ikke i Googles indeks
     robots: "noindex",
   },
@@ -403,7 +403,7 @@ async function main() {
       .replace(/<title>[^<]*<\/title>/, "<title>Siden findes ikke – Bedemand Kim Bondo</title>")
       .replace(
         /<meta\s+name="description"[^>]*\/?>/,
-        '<meta name="description" content="Siden findes ikke. Gå til forsiden, eller ring til Kim Bondo på 28 14 60 11." />'
+        '<meta name="description" content="Siden findes ikke. Gå til forsiden, eller ring til mig på 28 14 60 11." />'
       )
       .replace(/<link\s+rel="canonical"[^>]*\/?>/, "")
       .replace(

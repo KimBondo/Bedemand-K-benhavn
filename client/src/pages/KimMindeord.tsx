@@ -25,7 +25,7 @@ export default function KimMindeord() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Mindeord og tale ved begravelse – skabelon og eksempel"
-        description="Sådan skriver du mindeord og en tale til en begravelse eller bisættelse. En enkel skabelon, et eksempel og gode råd. Ring til mig på 28 14 60 11."
+        description="Sådan skriver I mindeord og en tale til en begravelse eller bisættelse. En enkel skabelon, et eksempel og gode råd. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/mindeord/"
       />
 
@@ -96,10 +96,10 @@ export default function KimMindeord() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <h2 style={s.h2}>En enkel skabelon (2–4 minutter)</h2>
           <ol style={{ paddingLeft: "24px", margin: 0 }}>
-            <li style={{ ...s.body, marginBottom: "10px" }}><strong>Hvem var hun eller han for dig?</strong> – "Mor var den, der altid …"</li>
+            <li style={{ ...s.body, marginBottom: "10px" }}><strong>Hvem var hun eller han for jer?</strong> – «Mor var den, der altid …"</li>
             <li style={{ ...s.body, marginBottom: "10px" }}><strong>Et minde, der siger noget om hende eller ham</strong> – en lille historie fra hverdagen.</li>
             <li style={{ ...s.body, marginBottom: "10px" }}><strong>Det, I vil huske og tage med jer.</strong></li>
-            <li style={{ ...s.body, marginBottom: 0 }}><strong>Et farvel</strong> – "Tak for alt. Vi savner dig."</li>
+            <li style={{ ...s.body, marginBottom: 0 }}><strong>Et farvel</strong> – «Tak for alt. Vi savner dig.»</li>
           </ol>
         </div>
       </section>
@@ -119,7 +119,7 @@ export default function KimMindeord() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <h2 style={s.h2}>Gode råd, før I skal stå der</h2>
           <p style={s.body}>
-            Skriv talen ned, og læs den højt for en anden dagen før. Print den med stor skrift. Det er helt i orden at stoppe op og trække vejret – eller at bede en anden læse den op for dig. Taler I flere, så aftal på forhånd, hvem der siger hvad, så I ikke fortæller de samme historier. Ved en <a href="/kirkelig-afsked/" style={s.link}>kirkelig afsked</a> aftaler I med præsten, hvornår i ceremonien mindeordene skal være. Ved en <a href="/borgerlig-afsked/" style={s.link}>borgerlig afsked</a> er det jer, der bestemmer rækkefølgen.
+            Skriv talen ned, og læs den højt for en anden dagen før. Print den med stor skrift. Det er helt i orden at stoppe op og trække vejret – eller at bede en anden om at læse den op. Taler I flere, så aftal på forhånd, hvem der siger hvad, så I ikke fortæller de samme historier. Ved en <a href="/kirkelig-afsked/" style={s.link}>kirkelig afsked</a> aftaler I med præsten, hvornår i ceremonien mindeordene skal være. Ved en <a href="/borgerlig-afsked/" style={s.link}>borgerlig afsked</a> er det jer, der bestemmer rækkefølgen.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
             Vil I have hjælp, kan vi tale det igennem sammen, når vi planlægger afskeden.
@@ -240,7 +240,7 @@ export default function KimMindeord() {
           >
             kim@bedemandkobenhavn.dk
           </a>
-          {" "}&nbsp;·&nbsp; CVR.: 45084159
+          {" "}&nbsp;·&nbsp; CVR-nr.: 45084159
           {" "}&nbsp;·&nbsp;{" "}
           <a
             href="/min-sidste-vilje/"

@@ -347,7 +347,7 @@ export default function ContactForm({
         }}
       >
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", color: "#2F3E46", marginBottom: "12px" }}>
-          {prisanmodning ? "Tak – jeg har modtaget jeres anmodning" : ringop ? "Tak – jeg ringer til jer" : "Tak for din besked"}
+          {prisanmodning ? "Tak – jeg har modtaget jeres anmodning" : ringop ? "Tak – jeg ringer til jer" : "Tak for jeres besked"}
         </p>
         <p style={{ fontSize: "15px", color: "#3d5260", lineHeight: 1.7 }}>
           {status === "mailto"
@@ -356,7 +356,7 @@ export default function ContactForm({
               ? `Det er ikke en bestilling, og I har ikke købt noget. Jeg har fået overslaget og ringer til jer, så hurtigt jeg kan.${kopiSendt ? ` Jeg har sendt en kopi af overslaget til ${form.email.trim()}.` : ""}${form.email ? " Jeg kan også svare jer på skrift." : ""} I er også velkomne til at ringe på `
               : ringop
                 ? "Jeg ringer til jer, så hurtigt jeg kan. I er også velkomne til at ringe på "
-                : "Din besked er sendt. Jeg vender tilbage hurtigst muligt — og du er altid velkommen til at ringe på "}
+                : "Jeres besked er sendt. Jeg vender tilbage hurtigst muligt – og I er altid velkomne til at ringe på "}
           <a href={`tel:${PHONE_HREF}`} style={{ color: "#3D6B4F", fontWeight: 600 }}>
             {PHONE_DISPLAY}
           </a>
@@ -397,10 +397,10 @@ export default function ContactForm({
       />
 
       <label style={labelStyle} htmlFor={id("name")}>Navn</label>
-      <input id={id("name")} name="name" type="text" placeholder="Dit fulde navn" value={form.name} onChange={handleChange} required autoComplete="name" style={inputStyle} />
+      <input id={id("name")} name="name" type="text" placeholder="Fulde navn" value={form.name} onChange={handleChange} required autoComplete="name" style={inputStyle} />
 
       <label style={labelStyle} htmlFor={id("phone")}>Telefon</label>
-      <input id={id("phone")} name="phone" type="tel" placeholder="Dit telefonnummer" value={form.phone} onChange={handleChange} required autoComplete="tel" style={inputStyle} />
+      <input id={id("phone")} name="phone" type="tel" placeholder="Telefonnummer" value={form.phone} onChange={handleChange} required autoComplete="tel" style={inputStyle} />
 
       {prisanmodning && (
         <>
@@ -441,8 +441,8 @@ export default function ContactForm({
 
       {(ringop || prisanmodning) && (
         <>
-          <label style={labelStyle} htmlFor={id("timing")}>Hvornår passer det, jeg ringer?</label>
-          <input id={id("timing")} name="timing" type="text" placeholder="F.eks. nu, i aften efter kl. 18 eller i morgen formiddag" value={form.timing} onChange={handleChange} required style={inputStyle} />
+          <label style={labelStyle} htmlFor={id("timing")}>Hvornår passer det, at jeg ringer?</label>
+          <input id={id("timing")} name="timing" type="text" placeholder="Fx nu, i aften efter kl. 18 eller i morgen formiddag" value={form.timing} onChange={handleChange} required style={inputStyle} />
         </>
       )}
 
@@ -489,7 +489,7 @@ export default function ContactForm({
           ? "Oplysningerne – også hvor afdøde er nu, den valgte pakke og overslaget – sendes til min indbakke fra min egen hjemmeside og min mailudbyder (Simply). Skriver I en e-mail, sender jeg en kopi af overslaget dertil. Jeg bruger oplysningerne kun til at ringe tilbage og tale om overslaget. Virker det ikke, sendes de i stedet gennem en ekstern formulartjeneste (Web3Forms). Læs mere i "
           : ringop
             ? "Navn, telefon og tidspunkt sendes til min indbakke gennem en ekstern formulartjeneste (Web3Forms). Jeg bruger dem kun til at ringe jer op. Læs mere i "
-            : "Din besked sendes til min indbakke gennem en ekstern formulartjeneste (Web3Forms). Oplysningerne bruges udelukkende til at besvare din henvendelse — de sælges ikke og bruges ikke til markedsføring. Læs mere i "}
+            : "Jeres besked sendes til min indbakke gennem en ekstern formulartjeneste (Web3Forms). Oplysningerne bruges udelukkende til at besvare jeres henvendelse – de sælges ikke og bruges ikke til markedsføring. Læs mere i "}
         <a href="/persondatapolitik/" style={{ color: "#5a7a6a" }}>persondatapolitikken</a>.
       </p>
 
@@ -503,7 +503,7 @@ export default function ContactForm({
         <div role="alert" style={{ background: "#fdf6ec", border: "1.5px solid #c9a35b", borderRadius: "4px", padding: "16px 18px", marginBottom: "20px", fontSize: "14px", color: "#6b4f1d", lineHeight: 1.7 }}>
           Der er sendt flere anmodninger herfra inden for den seneste time, så jeg kan ikke tage imod flere lige nu. Ring endelig på{" "}
           <a href={`tel:${PHONE_HREF}`} style={{ color: "#6b4f1d", fontWeight: 700 }}>{PHONE_DISPLAY}</a>{" "}
-          — eller{" "}
+          – eller{" "}
           <a href={mailtoHref(prisanmodning && overslag ? overslag() : "")} onClick={() => setStatus("mailto")} style={{ color: "#6b4f1d", fontWeight: 700 }}>
             send den som almindelig e-mail
           </a>
@@ -515,7 +515,7 @@ export default function ContactForm({
         <div role="alert" style={{ background: "#fdf2f0", border: "1.5px solid #c0665a", borderRadius: "4px", padding: "16px 18px", marginBottom: "20px", fontSize: "14px", color: "#7a3b33", lineHeight: 1.7 }}>
           Beskeden kunne desværre ikke sendes lige nu. Ring endelig på{" "}
           <a href={`tel:${PHONE_HREF}`} style={{ color: "#7a3b33", fontWeight: 700 }}>{PHONE_DISPLAY}</a>{" "}
-          — eller{" "}
+          – eller{" "}
           <a href={mailtoHref(prisanmodning && overslag ? overslag() : "")} onClick={() => setStatus("mailto")} style={{ color: "#7a3b33", fontWeight: 700 }}>
             send den som almindelig e-mail
           </a>
