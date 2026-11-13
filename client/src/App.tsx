@@ -39,8 +39,6 @@ const KimOsterbro = lazy(() => import("./pages/KimOsterbro"));
 const KimSoborg = lazy(() => import("./pages/KimSoborg"));
 const KimSjaelland = lazy(() => import("./pages/KimSjaelland"));
 const KimTak = lazy(() => import("./pages/KimTak"));
-// Intern side (kun Kim, bag Cloudflare Access) – ikke i navigation eller sitemap
-const KimInternKoersel = lazy(() => import("./pages/KimInternKoersel"));
 const KimNorrebro = lazy(() => import("./pages/KimNorrebro"));
 const KimVesterbro = lazy(() => import("./pages/KimVesterbro"));
 const KimProdukter = lazy(() => import("./pages/KimProdukter"));
@@ -93,7 +91,6 @@ function AppRouter() {
       <Route path={"/soborg"} component={KimSoborg} />
       <Route path={"/sjaelland"} component={KimSjaelland} />
       <Route path={"/tak"} component={KimTak} />
-      <Route path={"/intern/koersel"} component={KimInternKoersel} />
       <Route path={"/norrebro"} component={KimNorrebro} />
       <Route path={"/vesterbro"} component={KimVesterbro} />
       <Route path={"/produkter"} component={KimProdukter} />

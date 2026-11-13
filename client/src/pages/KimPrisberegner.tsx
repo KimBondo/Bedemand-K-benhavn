@@ -77,7 +77,7 @@ const ADDONS = [
   { id: "efter-16", label: "Kørsel efter kl. 16, i weekenden eller på en helligdag", price: 800, quantity: true, note: "800 kr. pr. udkald – fx en afhentning om aftenen eller en bisættelse om lørdagen. Der er kun tillæg på kørslen. Vælg antallet af udkald." },
 ] as const;
 
-/** Kørselsvilkår: se lib/koersel.ts. Km ud over 25 regner jeg selv ud (intern side), når forløbet er kendt. */
+/** Kørselsvilkår: se lib/koersel.ts. Km ud over 25 regner jeg ud, når forløbet er kendt. */
 const PAKKE_KOERSLER: Record<"uden" | "bisaettelse" | "begravelse", number> = { uden: 1, bisaettelse: 2, begravelse: 1 };
 /** Fysisk møde hjemme eller på kontoret i Søborg. Telefonmødet er med i alle pakker. */
 const MOEDE_PRIS = 995;
