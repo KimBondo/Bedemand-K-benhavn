@@ -5,6 +5,7 @@ import KimNav from "@/components/KimNav";
 import SchemaOrg, { OMRAADER } from "@/components/SchemaOrg";
 import { useState } from "react";
 import { PAKKEPRISER } from "@/lib/priser";
+import { KOERSEL_PRIS } from "@/lib/koersel";
 import CookieLink from "@/components/CookieLink";
 
 const s = {
@@ -76,20 +77,10 @@ const ADDONS = [
   { id: "efter-16", label: "Kørsel efter kl. 16, i weekenden eller på en helligdag", price: 800, quantity: true, note: "800 kr. pr. udkald – fx en afhentning om aftenen eller en bisættelse om lørdagen. Der er kun tillæg på kørslen. Vælg antallet af udkald." },
 ] as const;
 
-/** Kørselsvilkår: afstand fra kontoret i Søborg, kun den ene vej. */
-const KOERSEL_PRIS = 1595;   // én rustvognskørsel inkl. de første 25 km
-const KM_INKL = 25;
-const KM_PRIS = 35;          // pr. km derefter
-const KOERSEL_LOFT = 2000;   // højst pr. kørsel i København og Nordsjælland
+/** Kørselsvilkår: se lib/koersel.ts. Km ud over 25 regner jeg selv ud (intern side), når forløbet er kendt. */
 const PAKKE_KOERSLER: Record<"uden" | "bisaettelse" | "begravelse", number> = { uden: 1, bisaettelse: 2, begravelse: 1 };
 /** Fysisk møde hjemme eller på kontoret i Søborg. Telefonmødet er med i alle pakker. */
 const MOEDE_PRIS = 995;
-
-/** Prisen for én kørsel ud fra afstanden (km den ene vej) og om loftet gælder. */
-function prisPrKoersel(km: number, medLoft: boolean) {
-  const pris = KOERSEL_PRIS + Math.max(0, Math.round(km) - KM_INKL) * KM_PRIS;
-  return medLoft ? Math.min(pris, KOERSEL_LOFT) : pris;
-}
 
 const BASE_TITLER: Record<Base, string> = { uden: "Bisættelse uden ceremoni", bisaettelse: "Bisættelse med ceremoni", begravelse: "Begravelse" };
 
@@ -102,8 +93,6 @@ export default function KimPrisberegner() {
   const [base, setBase] = useState<keyof typeof BASE_PRICES | null>(null);
   const [ekstraKoersler, setEkstraKoersler] = useState<number>(0);
   const [fysiskMoede, setFysiskMoede] = useState<boolean>(false);
-  const [km, setKm] = useState<string>("");
-  const [indenforLoft, setIndenforLoft] = useState<boolean>(true);
   const [addons, setAddons] = useState<Record<string, number>>({});
 
   const [kiste, setKiste] = useState<string | null>(null);
@@ -121,16 +110,14 @@ export default function KimPrisberegner() {
     const addon = ADDONS.find((a) => a.id === id);
     return sum + (addon && relevant(addon, base) ? addon.price * qty : 0);
   }, 0);
-  // Kørsel: pakken indeholder et antal kørsler à 1.595 kr. (inkl. 25 km). Ekstra kørsler er et tilvalg,
-  // og km ud over 25 lægges til pr. kørsel (højst 2.000 kr. pr. kørsel inden for København og Nordsjælland).
+  // Kørsel: pakken indeholder et antal kørsler à 1.595 kr. (inkl. de første 25 km med afdøde).
+  // Ekstra kørsler er et tilvalg. Et evt. km-tillæg regner jeg ud og oplyser, inden vi kører.
   const pakkeKoersler = base ? PAKKE_KOERSLER[base] : 0;
   const antalKoersler = pakkeKoersler + (base ? ekstraKoersler : 0);
-  const kmTal = Math.max(0, Number(km.replace(",", ".")) || 0);
-  const enKoersel = prisPrKoersel(kmTal, indenforLoft);
+  const enKoersel = KOERSEL_PRIS;
   const ekstraKoerselPris = (base ? ekstraKoersler : 0) * KOERSEL_PRIS;
   const moedePris = base && fysiskMoede ? MOEDE_PRIS : 0;
-  const kmTillaeg = antalKoersler * (enKoersel - KOERSEL_PRIS);
-  const total = Math.max(0, basePrice + kisteForskel + urneForskel + addonTotal + ekstraKoerselPris + kmTillaeg + moedePris);
+  const total = Math.max(0, basePrice + kisteForskel + urneForskel + addonTotal + ekstraKoerselPris + moedePris);
 
   const toggleAddon = (id: string, hasQty: boolean) => {
     setAddons((prev) => {
@@ -158,10 +145,9 @@ export default function KimPrisberegner() {
       `- Kiste: ${valgtKiste.label}${kisteForskel ? ` (${forskelTekst(kisteForskel).toLowerCase()})` : " (indgår i prisen)"}`,
     ];
     if (medUrne) linjer.push(`- Urne: ${valgtUrne.label}${urneForskel ? ` (${forskelTekst(urneForskel).toLowerCase()})` : " (indgår i prisen)"}`);
-    linjer.push(`- Rustvognskørsler: ${antalKoersler} à ${kr(enKoersel)}${kmTal ? ` (${kmTal} km fra Søborg, ${indenforLoft ? "inden for København og Nordsjælland" : "uden for København og Nordsjælland"})` : " (inden for 25 km)"}`);
+    linjer.push(`- Rustvognskørsler: ${antalKoersler} à ${kr(enKoersel)} (inkl. de første 25 km med afdøde pr. kørsel)`);
     if (ekstraKoerselPris) linjer.push(`- Ekstra kørsler: ${ekstraKoersler} × ${kr(KOERSEL_PRIS)} = ${kr(ekstraKoerselPris)}`);
     linjer.push(fysiskMoede ? `- Møde hjemme hos jer eller på mit kontor: ${kr(MOEDE_PRIS)}` : "- Telefonmøde (indgår i prisen)");
-    if (kmTillaeg) linjer.push(`- Km-tillæg: ${kr(kmTillaeg)}`);
     for (const [id, qty] of Object.entries(addons)) {
       const addon = ADDONS.find((a) => a.id === id);
       if (addon && relevant(addon, base)) linjer.push(`- ${addon.label}${qty > 1 ? ` × ${qty}` : ""}: ${"fra" in addon ? "fra " : "ca" in addon ? "ca. " : ""}${kr(addon.price * qty)}`);
@@ -300,7 +286,7 @@ export default function KimPrisberegner() {
 
           <h2 style={s.h2}>{base ? 3 : 2}. Kørsel</h2>
           <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-            Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft.
+            Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet til kapel, kirke eller krematorium. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft.
           </p>
           {base && (
             <>
@@ -327,29 +313,15 @@ export default function KimPrisberegner() {
             </>
           )}
           <div style={{ display: "grid", gap: "12px", marginBottom: "40px" }}>
-            <label style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "12px", background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "16px 20px" }}>
-              <span style={{ flex: "1 1 200px" }}>Afstand fra Søborg (km, den ene vej)</span>
-              <input
-                type="number"
-                inputMode="numeric"
-                min={0}
-                placeholder="fx 15"
-                value={km}
-                onChange={(e) => setKm(e.target.value)}
-                style={{ width: "100px", padding: "8px 10px", border: "1px solid #e0dcd6", borderRadius: "3px", fontSize: "16px" }}
-              />
-            </label>
-            <label style={{ display: "flex", alignItems: "center", gap: "12px", background: "#fff", border: "1px solid #e0dcd6", borderRadius: "3px", padding: "16px 20px", cursor: "pointer" }}>
-              <input type="checkbox" checked={indenforLoft} onChange={(e) => setIndenforLoft(e.target.checked)} />
-              <span>Inden for København og Nordsjælland <span style={{ display: "block", fontSize: "13px", color: "#5a7a6a", marginTop: "4px" }}>Så koster en kørsel højst 2.000 kr.</span></span>
-            </label>
             {base && (
               <p style={{ ...s.body, fontSize: "15px", margin: 0, color: "#3d4f5a" }}>
                 {antalKoersler} {antalKoersler === 1 ? "kørsel" : "kørsler"} à {enKoersel.toLocaleString("da-DK")} kr.
                 {ekstraKoerselPris ? ` · ekstra kørsler ${ekstraKoerselPris.toLocaleString("da-DK")} kr.` : ""}
-                {kmTillaeg ? ` · km-tillæg ${kmTillaeg.toLocaleString("da-DK")} kr.` : ""}
               </p>
             )}
+            <p style={{ ...s.body, fontSize: "15px", margin: 0, color: "#5a7a6a" }}>
+              Hvis kørslen med kisten bliver længere end 25 km, regner jeg tillægget ud og fortæller jer prisen, inden vi kører.
+            </p>
           </div>
 
           {base && (

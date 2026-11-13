@@ -1,0 +1,4 @@
+# Interne sider (kun Kim, bag Cloudflare Access) må aldrig indekseres
+/intern/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store

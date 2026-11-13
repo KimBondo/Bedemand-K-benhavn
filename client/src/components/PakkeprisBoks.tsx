@@ -11,7 +11,7 @@ const PAKKER = [
     navn: "Bisættelse uden ceremoni",
     pris: `${kr(PAKKEPRISER.uden)} kr.`,
     note: "Fast pris for det, der står her. Vælger I mere til, så vil prisen ændre sig.",
-    punkter: ["Telefonmøde, mit honorar og papirerne", "Umalet basiskiste, natururne og én kørsel (25 km)"],
+    punkter: ["Telefonmøde, mit honorar og papirerne", "Umalet basiskiste, natururne og én kørsel (25 km med kisten)"],
   },
   {
     navn: "Begravelse",

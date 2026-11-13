@@ -179,7 +179,7 @@ export default function KimPriser() {
             "Kontakt til krematorium og kirkegård",
             "Klargøring, påklædning og ilægning i en umalet basiskiste",
             "Natururne",
-            "Én rustvognskørsel til krematoriet, inkl. de første 25 km fra Søborg",
+            "Én rustvognskørsel til krematoriet, inkl. de første 25 km med afdøde",
             ].map((item, i) => (
               <li key={i} style={s.li}>{item}</li>
             ))}
@@ -202,7 +202,7 @@ export default function KimPriser() {
             "Kontakt til kordegn, præst, kirke eller kapel og kirkegård",
             "Klargøring, påklædning og ilægning i kiste",
             "Klassisk hvid kiste",
-            "Én rustvognskørsel, inkl. de første 25 km. På hverdage kan vi ofte køre direkte fra hospitalets kapel til kirken",
+            "Én rustvognskørsel, inkl. de første 25 km med afdøde. På hverdage kan vi ofte køre direkte fra hospitalets kapel til kirken",
             "Jeg er selv til stede ved højtideligheden",
             "Jeg pynter kisten uden gebyr, når blomsterne bestilles gennem mig",
             "Familien må gerne se afdøde ved kisteilægningen, når afdøde hentes hjemme, på plejehjem eller på hospice",
@@ -229,7 +229,7 @@ export default function KimPriser() {
             "Klargøring, påklædning og ilægning i kiste",
             "Klassisk hvid kiste",
             "Natururne",
-            "To rustvognskørsler, inkl. de første 25 km pr. tur: fra kapel til ceremoni og derfra til krematoriet",
+            "To rustvognskørsler, inkl. de første 25 km med afdøde pr. tur: fra kapel til ceremoni og derfra til krematoriet",
             "Jeg er selv til stede ved højtideligheden",
             "Jeg pynter kisten uden gebyr, når blomsterne bestilles gennem mig",
             "Familien må gerne se afdøde ved kisteilægningen, når afdøde hentes hjemme, på plejehjem eller på hospice",
@@ -381,10 +381,10 @@ export default function KimPriser() {
           <PriceTable rows={[
             ["Klargøring af kiste, afhentning og ilægning", "2.500 kr."],
             ["Tillæg ved afhentning i private hjem", "1.200 kr."],
-            ["Rustvognskørsel, én kørsel inkl. de første 25 km fra Søborg", "1.595 kr."],
+            ["Rustvognskørsel, én kørsel inkl. de første 25 km med afdøde", "1.595 kr."],
             ["Herefter pr. km (kun den ene vej, ad den billigste rute)", "35 kr."],
             ["Højst pr. kørsel i hele København og Nordsjælland", "2.000 kr."],
-            ["Rustvognskørsel uden for København og Nordsjælland (fx resten af Sjælland, Fyn og Jylland)", "1.595 kr. inkl. 25 km, derefter 35 kr. pr. km, uden loft"],
+            ["Rustvognskørsel uden for København og Nordsjælland (fx resten af Sjælland, Fyn og Jylland)", "1.595 kr. inkl. de første 25 km med afdøde, derefter 35 kr. pr. km, uden loft"],
             ["Urnekørsel fra krematorie til kirkegårdskontor", "900 kr."],
             ["Blomsterkørsel på hverdage", "1.195 kr."],
             ["Blomsterkørsel om lørdagen", "1.995 kr."],
@@ -393,7 +393,7 @@ export default function KimPriser() {
           <div style={{ background: "#f0f7f3", borderLeft: "3px solid #3D6B4F", borderRadius: "3px", padding: "24px 24px 8px", marginBottom: "32px" }}>
             <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46" }}>Sådan regner jeg kørslen</p>
             <p style={s.body}>
-              Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Jeg regner prisen ud for jer, inden vi kører.
+              Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet til kapel, kirke eller krematorium. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Jeg fortæller jer prisen, inden vi kører.
             </p>
             <p style={s.body}>
               Bisættelse uden ceremoni og begravelse har én rustvognskørsel, og bisættelse med ceremoni har to. Bliver der brug for flere, koster en ekstra kørsel 1.595 kr. I weekenden er hospitalernes kapeller lukket, så der skal som regel bruges flere kørsler. Det aftaler vi, når forløbet ligger fast.

@@ -253,8 +253,15 @@ function escapeHtml(str) {
  * Inject per-route metadata directly into the HTML template's <head>.
  * ALL values are hardcoded — no JavaScript needed by crawlers.
  */
+// Interne sider (kun Kim, bag Cloudflare Access på /intern/*). De bygges som statisk HTML,
+// men står ikke i ROUTES, sitemap, navigation eller llms.txt, og de har noindex, nofollow.
+const INTERNE_ROUTES = ["/intern/koersel"];
+const INTERN_META = {
+  "/intern/koersel": { title: "Intern km-beregner", description: "Intern side.", robots: "noindex, nofollow" },
+};
+
 function injectMetaIntoHtml(html, route) {
-  const meta = ROUTE_META[route];
+  const meta = ROUTE_META[route] || INTERN_META[route];
   if (!meta) return html;
 
   const title = escapeHtml(meta.title);
@@ -386,6 +393,23 @@ async function main() {
       console.log(`     canonical: ${canonicalMatch ? canonicalMatch[1] : "MISSING"}`);
       console.log(`     h1: ${h1Count}`);
       ok++;
+    } catch (err) {
+      console.error(`  ❌ ${route} — ${err.message}`);
+      fail++;
+    }
+  }
+
+  // Interne sider: uden canonical og og:url, med noindex, nofollow
+  for (const route of INTERNE_ROUTES) {
+    try {
+      let html = template.replace('<div id="root"></div>', `<div id="root">${render(route)}</div>`);
+      html = injectMetaIntoHtml(html, route)
+        .replace(/<link\s+rel="canonical"[^>]*\/?>/, "")
+        .replace(/<meta\s+property="og:url"[^>]*\/?>/, "");
+      const dir = path.join(DIST_PUBLIC, route);
+      fs.mkdirSync(dir, { recursive: true });
+      fs.writeFileSync(path.join(dir, "index.html"), html, "utf-8");
+      console.log(`  🔒 ${route} (intern, noindex)`);
     } catch (err) {
       console.error(`  ❌ ${route} — ${err.message}`);
       fail++;

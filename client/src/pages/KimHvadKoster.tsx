@@ -124,7 +124,7 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Kørsel</h2>
           <p style={s.body}>
-            Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område er der intet loft.
+            Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet til kapel, kirke eller krematorium. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område er der intet loft.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
             Bisættelse uden ceremoni og begravelse har én rustvognskørsel, og bisættelse med ceremoni har to. En ekstra kørsel koster 1.595 kr.
