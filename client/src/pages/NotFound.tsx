@@ -7,8 +7,8 @@ export default function NotFound() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "48px 24px", textAlign: "center" }}>
       <SEO
-        title="Side ikke fundet – Bedemand Kim Bondo"
-        description="Siden, I leder efter, findes ikke. Gå tilbage til forsiden og find hjælp til bisættelse og begravelse i København."
+        title="Siden findes ikke – Bedemand Kim Bondo"
+        description="Siden findes ikke. Gå til forsiden, eller ring til mig på 28 14 60 11."
         noindex={true}
       />
       <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>

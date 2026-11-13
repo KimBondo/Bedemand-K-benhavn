@@ -177,12 +177,12 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Skifteretten</h3>
           <p style={s.body}>
-            Når sognet har godkendt anmodningen om begravelse eller ligbrænding, får Skifteretten besked om dødsfaldet og kontakter den pårørende, der er anført som kontaktperson. I behøver normalt ikke foretage jer noget aktivt, før I bliver kontaktet – det sker typisk via Digital Post (e-Boks).
+            Når sognet har godkendt anmodningen om begravelse eller ligbrænding, får skifteretten besked om dødsfaldet og kontakter den pårørende, der er anført som kontaktperson. I behøver normalt ikke foretage jer noget aktivt, før I bliver kontaktet – det sker typisk via Digital Post (e-Boks).
           </p>
 
           <h3 style={s.h3}>Bank og pengeinstitut</h3>
           <p style={s.body}>
-            Afdødes pengeinstitut modtager automatisk besked fra Folkeregistret, og alle konti – inkl. fælleskonti – vil blive spærret. Tag kontakt til banken for at aftale adgang til den nødvendige økonomi. De fleste banker accepterer, at begravelsesudgifter betales via afdødes konto, hvis der er midler.
+            Afdødes pengeinstitut modtager automatisk besked fra folkeregistret, og alle konti – inkl. fælleskonti – vil blive spærret. Tag kontakt til banken for at aftale adgang til den nødvendige økonomi. De fleste banker accepterer, at begravelsesudgifter betales via afdødes konto, hvis der er midler.
           </p>
 
           <h3 style={s.h3}>Efterlevelsespension og -hjælp</h3>
@@ -197,11 +197,11 @@ export default function KimHuskeliste() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.stepNum}>4</p>
           <h2 style={s.h2}>Opsigelser og afmeldinger</h2>
-          <p style={s.body}>Forsikringsselskaber og mange offentlige instanser får automatisk besked via Folkeregistret. Der er dog en række ting, det kan være relevant at tage hånd om:</p>
+          <p style={s.body}>Forsikringsselskaber og mange offentlige instanser får automatisk besked via folkeregistret. Der er dog en række ting, det kan være relevant at tage hånd om:</p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px" }}>
             <div>
               <h3 style={{ ...s.h3, fontSize: "17px" }}>Bolig</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>Ejerbolig håndteres via Skifteretten. Lejebolig: kontakt udlejer for navneændring eller opsigelse.</p>
+              <p style={{ ...s.body, marginBottom: 0 }}>Ejerbolig håndteres via skifteretten. Lejebolig: kontakt udlejer for navneændring eller opsigelse.</p>
             </div>
             <div>
               <h3 style={{ ...s.h3, fontSize: "17px" }}>Abonnementer</h3>
@@ -225,7 +225,7 @@ export default function KimHuskeliste() {
           <p style={s.stepNum}>5</p>
           <h2 style={s.h2}>Betaling af begravelsesudgifter</h2>
           <p style={s.body}>
-            Det er den person, der bestiller begravelsen, der hæfter for betalingen – ikke Skifteretten. Skifteretten sørger for, at udgifterne indgår i boet, så den, der har betalt, kan blive godtgjort.
+            Det er den person, der bestiller begravelsen, der hæfter for betalingen – ikke skifteretten. Skifteretten sørger for, at udgifterne indgår i boet, så den, der har betalt, kan blive godtgjort.
           </p>
           <p style={s.body}>
             Typiske udgifter, der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd.

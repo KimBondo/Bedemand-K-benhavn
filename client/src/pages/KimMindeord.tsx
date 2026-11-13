@@ -96,7 +96,7 @@ export default function KimMindeord() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <h2 style={s.h2}>En enkel skabelon (2–4 minutter)</h2>
           <ol style={{ paddingLeft: "24px", margin: 0 }}>
-            <li style={{ ...s.body, marginBottom: "10px" }}><strong>Hvem var hun eller han for jer?</strong> – «Mor var den, der altid …"</li>
+            <li style={{ ...s.body, marginBottom: "10px" }}><strong>Hvem var hun eller han for jer?</strong> – «Mor var den, der altid …»</li>
             <li style={{ ...s.body, marginBottom: "10px" }}><strong>Et minde, der siger noget om hende eller ham</strong> – en lille historie fra hverdagen.</li>
             <li style={{ ...s.body, marginBottom: "10px" }}><strong>Det, I vil huske og tage med jer.</strong></li>
             <li style={{ ...s.body, marginBottom: 0 }}><strong>Et farvel</strong> – «Tak for alt. Vi savner dig.»</li>

@@ -51,7 +51,7 @@ export default function PakkeprisBoks() {
           ))}
         </div>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "16px 0 0", textAlign: "center" }}>
-          Alle priser er inkl. moms og gælder hverdage. Priserne gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.
+          Alle priser er inkl. moms og gælder hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center", gap: "12px 24px", marginTop: "18px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
           <a href="/priser/" style={link}>Se, hvad der er med i prisen</a>
