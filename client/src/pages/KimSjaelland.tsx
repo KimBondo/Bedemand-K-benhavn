@@ -103,7 +103,7 @@ export default function KimSjaelland() {
             <strong>Samme faste priser.</strong> Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bisættelse med ceremoni fra 14.995 kr. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
           </p>
           <p style={s.body}>
-            <strong>Kørsel.</strong> Afstanden regnes fra mit kontor i Søborg. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Et eksempel: Ligger stedet 60 km fra Søborg, koster kørslen 1.595 kr. + 35 km × 35 kr. = 2.820 kr. Jeg regner det ud for jer på forhånd.
+            <strong>Kørsel.</strong> Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet til kapel, kirke eller krematorium. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Et eksempel: Køres kisten 60 km, koster kørslen 1.595 kr. + 35 km × 35 kr. = 2.820 kr. Jeg fortæller jer prisen, inden vi kører.
           </p>
           <p style={s.body}>
             Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> – også om natten.
