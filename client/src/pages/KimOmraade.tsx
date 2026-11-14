@@ -147,7 +147,7 @@ export default function KimOmraade() {
           <p style={s.label}>Byer og områder</p>
           <h2 style={s.h2}>Hvor arbejder jeg?</h2>
           <p style={s.body}>
-            Jeg er bedemand i København og Nordsjælland og dækker hele Storkøbenhavn samt kommunerne langs kysten og ind i landet mod nord. Jeg dækker følgende områder:
+            Jeg er bedemand i København og Nordsjælland og kommer i hele Region Hovedstaden – fra Storkøbenhavn til hele Nordsjælland. Jeg dækker følgende områder:
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(300px, 100%), 1fr))", gap: "48px", marginTop: "40px" }}>
