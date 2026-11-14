@@ -173,9 +173,9 @@ export default function KimNordsjaelland() {
       <section style={{ background: "#F9F8F6", padding: "72px 32px" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <p style={s.label}>Dækningsområde</p>
-          <h2 style={s.h2}>Byer i Nordsjælland, jeg dækker</h2>
+          <h2 style={s.h2}>Jeg dækker følgende områder i Nordsjælland</h2>
           <p style={s.body}>
-            Jeg dækker alle byer og kommuner i Nordsjælland – herunder:
+            Det gælder alle byer og kommuner i Nordsjælland – herunder:
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px", marginTop: "8px" }}>
             {[
