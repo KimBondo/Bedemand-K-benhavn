@@ -195,6 +195,9 @@ export default function KimBegravelse() {
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
           En begravelse koster fra <strong>13.495 kr.</strong> hos mig. Prisen inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje kommer oveni – jeg hjælper jer med at indhente tilbud og holde overblikket.
         </p>
+        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
+          Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Ved en begravelse kommer der også en kørsel mere, hvis kirken ikke har sin egen kirkegård og kisten derfor skal køres til kirkegården.
+        </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Se den fulde prisliste
