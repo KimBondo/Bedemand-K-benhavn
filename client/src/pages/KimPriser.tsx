@@ -271,7 +271,7 @@ export default function KimPriser() {
             ["Kørsel efter kl. 16, i weekenden og på helligdage", "800 kr. pr. udkald"],
           ]} />
           <p style={s.body}>
-            <strong>Ekstra rustvognskørsel:</strong> I weekenden er hospitalernes kapeller lukket, så der skal som regel bruges flere kørsler. Det aftaler vi, når forløbet ligger fast.
+            <strong>Ekstra rustvognskørsel:</strong> Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast.
           </p>
           <p style={s.body}>
             <strong>Blomsterkørsel:</strong> Er graven på samme kirkegård som kirken, sørger kirken som regel selv for blomsterne. Skal de et andet sted hen, er det en blomsterkørsel.
@@ -396,7 +396,10 @@ export default function KimPriser() {
               Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet til kapel, kirke eller krematorium. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Jeg fortæller jer prisen, inden vi kører.
             </p>
             <p style={s.body}>
-              Bisættelse uden ceremoni og begravelse har én rustvognskørsel, og bisættelse med ceremoni har to. Bliver der brug for flere, koster en ekstra kørsel 1.595 kr. I weekenden er hospitalernes kapeller lukket, så der skal som regel bruges flere kørsler. Det aftaler vi, når forløbet ligger fast.
+              Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast.
+            </p>
+            <p style={s.body}>
+              Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Det gælder ikke bisættelse uden ceremoni, hvor jeg kører direkte til krematoriet. Ved en begravelse kommer der også en kørsel mere, hvis kirken ikke har sin egen kirkegård og kisten derfor skal køres til kirkegården.
             </p>
           </div>
 

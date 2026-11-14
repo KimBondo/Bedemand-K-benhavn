@@ -191,6 +191,9 @@ export default function KimAfskedUdenCeremoni() {
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
           En bisættelse uden ceremoni koster <strong>9.995 kr.</strong> Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til kremering og urnegravsted kommer oveni – jeg hjælper med at indhente priserne og holde overblikket.
         </p>
+        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
+          Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast. Ved en bisættelse uden ceremoni kører jeg afdøde direkte til krematoriet. Der kommer derfor ingen ekstra kørsel til kisteophold, heller ikke når jeg henter afdøde i et privat hjem, på et plejehjem eller på et hospice.
+        </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Se den fulde prisliste

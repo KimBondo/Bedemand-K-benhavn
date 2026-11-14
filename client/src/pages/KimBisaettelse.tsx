@@ -366,6 +366,9 @@ export default function KimBisaettelse() {
         >
           Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. Jeg gennemgår alle udgifter med jer på forhånd. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong>
         </p>
+        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
+          Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere.
+        </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
             href="/priser/"

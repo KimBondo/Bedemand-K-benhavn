@@ -292,7 +292,12 @@ export default function KimPrisberegner() {
             <>
               <h3 style={s.h3}>Rustvognskørsler</h3>
               <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-                {base === "bisaettelse" ? "Pakken har to kørsler: fra kapel til ceremoni og derfra til krematoriet." : base === "begravelse" ? "Pakken har én kørsel. På hverdage kan vi ofte køre direkte fra hospitalets kapel til kirken." : "Pakken har én kørsel til krematoriet."} En ekstra kørsel koster 1.595 kr. I weekenden er hospitalernes kapeller lukket, så der skal som regel bruges flere kørsler. Det aftaler vi, når forløbet ligger fast.
+                {base === "bisaettelse" ? "Pakken har to kørsler: fra kapel til ceremoni og derfra til krematoriet." : base === "begravelse" ? "Pakken har én kørsel. På hverdage kan vi ofte køre direkte fra hospitalets kapel til kirken." : "Pakken har én kørsel til krematoriet."}{" "}
+                {base === "bisaettelse"
+                  ? "Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast."
+                  : base === "begravelse"
+                    ? "Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Ved en begravelse kommer der også en kørsel mere, hvis kirken ikke har sin egen kirkegård og kisten derfor skal køres til kirkegården. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast."
+                    : "Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Ved en bisættelse uden ceremoni kører jeg afdøde direkte til krematoriet. Der kommer derfor ingen ekstra kørsel til kisteophold, heller ikke når jeg henter afdøde i et privat hjem, på et plejehjem eller på et hospice. Det aftaler vi, når forløbet ligger fast."}
               </p>
               <div style={{ display: "grid", gap: "12px", marginBottom: "24px" }}>
                 {[0, 1, 2].map((n) => {
