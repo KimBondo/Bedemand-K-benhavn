@@ -22,7 +22,7 @@ export default function KimAfskedUdenCeremoni() {
     >
       <SEO
         title="Bisættelse uden ceremoni – Bedemand Kim Bondo"
-        description="Enkel bisættelse uden ceremoni i København. Kremering og urnenedsættelse uden kirke. Fast pris 9.995 kr. Ring til mig på 28 14 60 11."
+        description="Enkel bisættelse uden ceremoni i København. Urnenedsættelse eller askespredning uden kirke. Fast pris 9.995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -137,7 +137,7 @@ export default function KimAfskedUdenCeremoni() {
           Det er ikke en kold eller upersonlig afsked – det er blot en enklere form. Mange familier vælger at holde et mindesamvær på et andet tidspunkt, for eksempel ved urnenedsættelsen, ved <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredningen</a> eller på en særlig mærkedag.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          En bisættelse uden ceremoni ender altid med en kremering. Ønsker I, at kisten skal i jorden, er det en <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse</a>.
+          En bisættelse uden ceremoni ender altid med en urne. Ønsker I, at kisten skal i jorden, er det en <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse</a>.
         </p>
       </section>
 
@@ -164,10 +164,10 @@ export default function KimAfskedUdenCeremoni() {
           Sådan foregår en bisættelse uden ceremoni
         </h2>
         {[
-          { num: "1", title: "Første kontakt", text: "Vi taler om jeres ønsker og de praktiske detaljer. Jeg sørger for koordineringen med krematoriet og håndterer de administrative opgaver." },
+          { num: "1", title: "Første kontakt", text: "Vi taler om jeres ønsker og de praktiske detaljer. Jeg sørger for koordineringen og håndterer de administrative opgaver." },
           { num: "2", title: "Kisteilægning", text: "Afdøde lægges i kisten med omsorg og værdighed. I kan vælge at være til stede, hvis det føles rigtigt." },
-          { num: "3", title: "Transport til krematoriet", text: "Jeg kører selv kisten direkte til krematoriet, hvor kremeringen sker med respekt og omhu." },
-          { num: "4", title: "Urnen", text: "Efter kremeringen samles asken i en urne. Urnen kan sættes ned på en kirkegård, asken kan spredes over havet, eller urnen kan tages med til udlandet. I kan selv hente urnen, eller jeg kan køre den for jer for 900 kr. Det er kirkegården, der står for urnenedsættelsen." },
+          { num: "3", title: "Transport til krematoriet", text: "Jeg kører selv kisten direkte til krematoriet – med respekt og omhu." },
+          { num: "4", title: "Urnen", text: "Bagefter samles asken i en urne. Urnen kan sættes ned på en kirkegård, asken kan spredes over havet, eller urnen kan tages med til udlandet. I kan selv hente urnen, eller jeg kan køre den for jer for 900 kr. Det er kirkegården, der står for urnenedsættelsen." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
             <div style={{ minWidth: "44px", height: "44px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
@@ -189,7 +189,7 @@ export default function KimAfskedUdenCeremoni() {
           Hvad koster en bisættelse uden ceremoni?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          En bisættelse uden ceremoni koster <strong>9.995 kr.</strong> Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til kremering og urnegravsted kommer oveni – jeg hjælper med at indhente priserne og holde overblikket.
+          En bisættelse uden ceremoni koster <strong>9.995 kr.</strong> Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til ligbrænding og urnegravsted kommer oveni – jeg hjælper med at indhente priserne og holde overblikket.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
           Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Det aftaler vi, når forløbet ligger fast. Ved en bisættelse uden ceremoni kører jeg afdøde direkte til krematoriet. Der kommer derfor ingen ekstra kørsel til kisteophold, heller ikke når jeg henter afdøde i et privat hjem, på et plejehjem eller på et hospice.

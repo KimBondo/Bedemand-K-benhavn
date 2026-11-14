@@ -84,7 +84,7 @@ const PRICE_OFFERS = [
   {
     "@type": "Offer",
     "name": "Bisættelse med ceremoni",
-    "description": `Fra ${kr(PAKKEPRISER.bisaettelse)} kr. Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Prisen gælder hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.`,
+    "description": `Fra ${kr(PAKKEPRISER.bisaettelse)} kr. Ceremoni i kirke eller kapel, hvorefter afdøde bisættes. Prisen gælder hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.`,
     "price": String(PAKKEPRISER.bisaettelse),
     "priceSpecification": { "@type": "PriceSpecification", "minPrice": PAKKEPRISER.bisaettelse, "priceCurrency": "DKK" },
     "priceCurrency": "DKK",

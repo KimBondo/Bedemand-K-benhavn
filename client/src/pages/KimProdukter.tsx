@@ -64,8 +64,8 @@ const KISTER = [
     image: "/images/gaia-kiste-paulowniatrae.webp",
     imgW: 2048,
     imgH: 1365,
-    alt: "Gaia-kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse (kun til kremering)",
-    description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og træet binder CO2, mens det vokser. Gaia kan kun bruges ved bisættelse med og uden ceremoni, hvor der følger kremering – ikke ved begravelse.",
+    alt: "Gaia-kiste i massivt paulowniatræ – let og bæredygtig kiste til bisættelse (ikke til begravelse)",
+    description: "Gaia er fremstillet i massivt, let paulowniatræ og vejer kun 20 kg, hvilket gør håndteringen lettere. Paulownia er hurtigtvoksende, og træet binder CO2, mens det vokser. Gaia kan kun bruges ved bisættelse med og uden ceremoni – ikke ved begravelse.",
     use: "bisættelse" as Brug,
   },
   {
@@ -75,8 +75,8 @@ const KISTER = [
     image: "/images/orbit-papirkiste-reboard.webp",
     imgW: 2048,
     imgH: 1366,
-    alt: "Orbit papirkiste i ReBoard – let og miljøvenlig kiste til begravelse og kremering",
-    description: "Orbit er fremstillet i ReBoard, som er produceret med 80 % færre træfibre end materialet i en traditionel kiste. Kisten vejer 12 kg, hvilket gør den let at håndtere. Den kan printes i alle farver og motiver og er testet til både begravelse og kremering.",
+    alt: "Orbit papirkiste i ReBoard – let og miljøvenlig kiste til begravelse og bisættelse",
+    description: "Orbit er fremstillet i ReBoard, som er produceret med 80 % færre træfibre end materialet i en traditionel kiste. Kisten vejer 12 kg, hvilket gør den let at håndtere. Den kan printes i alle farver og motiver og er testet til både begravelse og bisættelse.",
     use: "begge" as Brug,
   },
   {

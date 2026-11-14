@@ -288,7 +288,7 @@ export default function KimBondo() {
             <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "24px" }}>
               <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "20px", color: "#2F3E46", margin: "0 0 14px" }}>Udgifter, der ikke går til mig</h3>
               <ul style={{ margin: "0 0 12px", paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "16px", lineHeight: 1.8, color: "#3d5260" }}>
-                {["Kremering", "Gravsted og gravsten", "Urnenedsættelse", "Leje af kapel", "Kisteophold"].map((u) => (
+                {["Ligbrænding", "Gravsted og gravsten", "Urnenedsættelse", "Leje af kapel", "Kisteophold"].map((u) => (
                   <li key={u}>{u}</li>
                 ))}
               </ul>

@@ -129,7 +129,7 @@ export default function KimBegravelseshjaelp() {
             ))}
           </div>
           <p style={s.body}>
-            Den fulde begravelseshjælp er op til 13.550 kr., og min bisættelse uden ceremoni koster 9.995 kr. Er afdøde berettiget til hele beløbet, kan hjælpen altså dække pakken – men ikke nødvendigvis tillæg og eksterne udgifter som kremering og gravsted.
+            Den fulde begravelseshjælp er op til 13.550 kr., og min bisættelse uden ceremoni koster 9.995 kr. Er afdøde berettiget til hele beløbet, kan hjælpen altså dække pakken – men ikke nødvendigvis tillæg og eksterne udgifter som ligbrænding og gravsted.
           </p>
           <p style={s.body}>
             Derudover har enkelte fagforeninger fortsat ordninger med begravelseshjælp. Afdødes fagforening kan oplyse om dette – jeg hjælper gerne med at undersøge det.

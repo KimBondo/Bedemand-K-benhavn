@@ -152,7 +152,7 @@ export default function KimNordsjaelland() {
             Nordsjælland er ikke en kommune, men egnen nord for København mellem Isefjorden og Øresund. I praksis dækker jeg Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs. Kirkeligt hører hele området under Helsingør Stift.
           </p>
           <p style={s.body}>
-            Ceremonien holdes lokalt, og transporten sørger jeg for.
+            Sammen finder vi det sted til afskeden, der passer jer bedst, og transporten sørger jeg for.
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Kirkegårde og kapeller i Nordsjælland</h3>
           <p style={s.body}>
@@ -163,7 +163,7 @@ export default function KimNordsjaelland() {
           </p>
           <h3 style={{ ...s.h3, marginTop: "36px" }}>Bedemand på Nordkysten</h3>
           <p style={s.body}>
-            Jeg hjælper også familier langs Nordkysten, i Hornbæk, Dronningmølle, Gilleleje og Tisvildeleje. Jeg aftaler alt med kirken og kirkegården lokalt.
+            Jeg hjælper også familier langs Nordkysten, i Hornbæk, Dronningmølle, Gilleleje og Tisvildeleje.
           </p>
           <a href="/om-kim/" style={s.link}>Læs mere om Kim Bondo →</a>
         </div>
@@ -218,7 +218,7 @@ export default function KimNordsjaelland() {
           <h2 style={s.h2}>Hvad hjælper jeg med i Nordsjælland?</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Bisættelse", desc: "Ceremoni i jeres egen kirke eller det lokale kapel.", href: "/bisaettelse/" },
+              { title: "Bisættelse", desc: "Ceremoni i kirke eller kapel.", href: "/bisaettelse/" },
               { title: "Begravelse", desc: "Kiste i jord på kirkegården i jeres sogn. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
               { title: "Bisættelse uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 9.995 kr.", href: "/afsked-uden-ceremoni/" },
               { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres sognekirke.", href: "/kirkelig-afsked/" },

@@ -35,8 +35,8 @@ export default function KimAskespredning() {
         ]}
         faqItems={[
           { question: "Er askespredning tilladt i Danmark?", answer: "Ja. Asken kan spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Findes der ikke et skriftligt ønske, kan sognet give dispensation, når det er helt sikkert, at det var afdødes ønske – her kan de pårørende fx skrive en erklæring, som sognet bruger i sin vurdering. Det er sognet, der afgør det. Jeg hjælper jer med papirerne." },
-          { question: "Kan askespredning kombineres med en ceremoni?", answer: "Ja. Askespredning kan kombineres med en kirkelig eller borgerlig bisættelse inden kremeringen. Nogle vælger at lade selve spredningen være en lille ceremoni for de nærmeste." },
-          { question: "Kan man sprede asken selv?", answer: "Ja. Pårørende afhenter typisk urnen ved krematoriet og forestår selv spredningen. Jeg kan koordinere det på jeres vegne, hvis I foretrækker det." },
+          { question: "Kan askespredning kombineres med en ceremoni?", answer: "Ja. Askespredning kan kombineres med en kirkelig eller borgerlig bisættelse med ceremoni. Nogle vælger at lade selve spredningen være en lille ceremoni for de nærmeste." },
+          { question: "Kan man sprede asken selv?", answer: "Ja. Pårørende afhenter typisk urnen og forestår selv spredningen. Jeg kan koordinere det på jeres vegne, hvis I foretrækker det." },
           { question: "Hvad sker der med urnen efter spredningen?", answer: "Urnen må ikke efterlades i havet. Den tages med tilbage og bortskaffes. Jeg hjælper med dette, hvis det ønskes." },
           { question: "Kan man sprede asken i en skov?", answer: "Nej, reglerne i Danmark tillader kun askespredning over åbent hav eller større fjorde og bugter. Det er ikke tilladt at sprede asken på land, i skove, søer eller vandløb." },
         ]}
@@ -136,7 +136,7 @@ export default function KimAskespredning() {
           Askespredning er en afskedsform, hvor afdødes aske spredes over havet i stedet for at blive stedfæstet på en kirkegård.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Askespredning foregår som en forlængelse af en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a>: afdøde kremeres, asken samles i en urne, og asken spredes derefter over åbent hav. Det kan ske med eller uden en forudgående ceremoni.
+          Askespredning foregår som en forlængelse af en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a>: asken samles i en urne og spredes derefter over åbent hav. Det kan ske med eller uden en forudgående ceremoni.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           Mange familier vælger selve spredningen som en lille, intim ceremoni for de nærmeste – ude på havet, i det åbne og frie.
@@ -178,8 +178,8 @@ export default function KimAskespredning() {
         </h2>
         {[
           { num: "1", title: "Første kontakt og dokumentation", text: "Vi taler om jeres ønsker og sikrer, at den nødvendige dokumentation er på plads. Findes der ikke et skriftligt ønske, hjælper jeg med erklæringen fra de pårørende til sognet." },
-          { num: "2", title: "Bisættelse med eller uden ceremoni", text: "Afdøde kremeres efter en ceremoni eller direkte uden ceremoni. Asken samles i en urne." },
-          { num: "3", title: "Askespredningen", text: "Pårørende afhenter typisk urnen ved krematoriet og forestår selv spredningen. I kan også lade mig koordinere det på jeres vegne. Spredningen kan være en lille, intim ceremoni for de nærmeste." },
+          { num: "2", title: "Bisættelse med eller uden ceremoni", text: "Afdøde bisættes efter en ceremoni eller uden ceremoni. Asken samles i en urne." },
+          { num: "3", title: "Askespredningen", text: "Pårørende afhenter typisk urnen og forestår selv spredningen. I kan også lade mig koordinere det på jeres vegne. Spredningen kan være en lille, intim ceremoni for de nærmeste." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
             <div style={{ minWidth: "44px", height: "44px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
@@ -201,7 +201,7 @@ export default function KimAskespredning() {
           Hvad koster askespredning?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          Askespredning følger efter en bisættelse med eller uden ceremoni. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong> Ønsker I, at jeg står for selve askespredningen, koster det fra 2.500 kr. ekstra – det dækker koordinering, papirerne til sognet og det praktiske. I kan også selv hente urnen og sprede asken. Kremeringen betales til kommunen eller kirkegården, og jeg regner det hele sammen med jer på forhånd.
+          Askespredning følger efter en bisættelse med eller uden ceremoni. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong> Ønsker I, at jeg står for selve askespredningen, koster det fra 2.500 kr. ekstra – det dækker koordinering, papirerne til sognet og det praktiske. I kan også selv hente urnen og sprede asken. Udgiften til ligbrænding betales til kommunen eller kirkegården, og jeg regner det hele sammen med jer på forhånd.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
@@ -222,8 +222,8 @@ export default function KimAskespredning() {
         </h2>
         {[
           { q: "Er askespredning tilladt i Danmark?", a: "Ja. Asken kan spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Findes der ikke et skriftligt ønske, kan sognet give dispensation, når det er helt sikkert, at det var afdødes ønske – her kan de pårørende fx skrive en erklæring, som sognet bruger i sin vurdering. Det er sognet, der afgør det. Jeg hjælper jer med papirerne.", link: null, linkText: null },
-          { q: "Kan askespredning kombineres med en ceremoni?", a: "Ja. Askespredning kan kombineres med en kirkelig eller borgerlig bisættelse inden kremeringen. Nogle vælger at lade selve spredningen være en lille ceremoni for de nærmeste.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
-          { q: "Kan man sprede asken selv?", a: "Ja. Pårørende afhenter typisk urnen ved krematoriet og forestår selv spredningen. Jeg kan koordinere det på jeres vegne, hvis I foretrækker det.", link: null, linkText: null },
+          { q: "Kan askespredning kombineres med en ceremoni?", a: "Ja. Askespredning kan kombineres med en kirkelig eller borgerlig bisættelse med ceremoni. Nogle vælger at lade selve spredningen være en lille ceremoni for de nærmeste.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
+          { q: "Kan man sprede asken selv?", a: "Ja. Pårørende afhenter typisk urnen og forestår selv spredningen. Jeg kan koordinere det på jeres vegne, hvis I foretrækker det.", link: null, linkText: null },
           { q: "Hvad sker der med urnen efter spredningen?", a: "Urnen må ikke efterlades i havet. Den tages med tilbage og bortskaffes. Jeg hjælper med dette, hvis det ønskes.", link: null, linkText: null },
           { q: "Kan man sprede asken i en skov?", a: "Nej, reglerne i Danmark tillader kun askespredning over åbent hav eller større fjorde og bugter. Det er ikke tilladt at sprede asken på land, i skove, søer eller vandløb.", link: null, linkText: null },
         ].map((item, i) => (
