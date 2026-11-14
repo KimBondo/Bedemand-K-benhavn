@@ -176,7 +176,7 @@ export default function KimPriser() {
             "Mit honorar og telefonmøde med jer",
             "Anmodning om ligbrænding til afdødes sogn",
             "Ansøgning om begravelseshjælp, som trækkes fra på fakturaen",
-            "Kontakt til krematorium og kirkegård",
+            "Kontakt til kirkegården",
             "Klargøring, påklædning og ilægning i en umalet basiskiste",
             "Natururne",
             "Én rustvognskørsel til krematoriet, inkl. de første 25 km med afdøde",
@@ -216,7 +216,7 @@ export default function KimPriser() {
           <span style={s.label}>Bisættelse med ceremoni</span>
           <h3 style={s.h3}>Bisættelse med ceremoni</h3>
           <p style={s.price}>Fra 14.995 kr.</p>
-          <p style={{ ...s.body, marginTop: "8px" }}>Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Det samme som begravelse plus natururne, kontakt til krematoriet og to kørsler. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.</p>
+          <p style={{ ...s.body, marginTop: "8px" }}>Ceremoni i kirke eller kapel, hvorefter afdøde bisættes. Det samme som begravelse plus natururne og to kørsler. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.</p>
           <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46", marginBottom: "4px" }}>Det er med i prisen</p>
           <ul style={{ paddingLeft: "20px", margin: "8px 0 0" }}>
             {[
@@ -225,11 +225,11 @@ export default function KimPriser() {
             "Anmodning om ligbrænding til afdødes sogn",
             "Ansøgning om begravelseshjælp, som trækkes fra på fakturaen",
             "Udarbejdelse af dødsannonce (avisens pris kommer oveni)",
-            "Kontakt til kordegn, præst, kirke eller kapel, krematorium og kirkegård",
+            "Kontakt til kordegn, præst, kirke eller kapel og kirkegård",
             "Klargøring, påklædning og ilægning i kiste",
             "Klassisk hvid kiste",
             "Natururne",
-            "To rustvognskørsler, inkl. de første 25 km med afdøde pr. tur: fra kapel til ceremoni og derfra til krematoriet",
+            "To rustvognskørsler, inkl. de første 25 km med afdøde pr. tur: fra kapel til ceremoni og videre efter ceremonien",
             "Jeg er selv til stede ved højtideligheden",
             "Jeg pynter kisten uden gebyr, når blomsterne bestilles gennem mig",
             "Familien må gerne se afdøde ved kisteilægningen, når afdøde hentes hjemme, på plejehjem eller på hospice",
@@ -319,10 +319,10 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Udgifter, jeg ikke selv bestemmer over</h2>
           <p style={s.body}>
-            Kremering, gravsted, gravning eller urnenedsættelse, kisteopbevaring, kapel, orgelspil og gravsten betales til kommunen, kirkegården eller stenhuggeren. De priser bestemmer jeg ikke over, men I skal kende dem. Her er Københavns Kommunes takster for 2026:
+            Ligbrænding, gravsted, gravning eller urnenedsættelse, kisteopbevaring, kapel, orgelspil og gravsten betales til kommunen, kirkegården eller stenhuggeren. De priser bestemmer jeg ikke over, men I skal kende dem. Her er Københavns Kommunes takster for 2026:
           </p>
           <PriceTable rows={[
-            ["Kremering, voksen", "3.075 kr."],
+            ["Ligbrænding, voksen", "3.075 kr."],
             ["Gravning af urnegrav", "1.199 kr."],
             ["Askefællesgrav, engangsbeløb", "3.617 kr."],
             ["Gravning af kistegrav, 3 m²", "7.055 kr."],
@@ -385,7 +385,7 @@ export default function KimPriser() {
             ["Herefter pr. km (kun den ene vej, ad den billigste rute)", "35 kr."],
             ["Højst pr. kørsel i hele København og Nordsjælland", "2.000 kr."],
             ["Rustvognskørsel uden for København og Nordsjælland (fx resten af Sjælland, Fyn og Jylland)", "1.595 kr. inkl. de første 25 km med afdøde, derefter 35 kr. pr. km, uden loft"],
-            ["Urnekørsel fra krematoriet til kirkegårdskontoret", "900 kr."],
+            ["Urnekørsel til kirkegårdskontoret", "900 kr."],
             ["Blomsterkørsel på hverdage", "1.195 kr."],
             ["Blomsterkørsel om lørdagen", "1.995 kr."],
           ]} />
@@ -393,7 +393,7 @@ export default function KimPriser() {
           <div style={{ background: "#f0f7f3", borderLeft: "3px solid #3D6B4F", borderRadius: "3px", padding: "24px 24px 8px", marginBottom: "32px" }}>
             <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46" }}>Sådan regner jeg kørslen</p>
             <p style={s.body}>
-              Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet til kapel, kirke eller krematorium. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Jeg fortæller jer prisen, inden vi kører.
+              Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet og frem til afskeden. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Jeg fortæller jer prisen, inden vi kører.
             </p>
             <p style={s.body}>
               Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast.

@@ -121,7 +121,7 @@ export default function KimHillerod() {
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
           <p style={s.body}>
-            Kirkegårde i området er Skansekirkegården, Hillerød Kirkegård og Nyhuse Kirkegård. Afskeden kan holdes i en kirke, i Skansekapellet eller i Nyhuse Kapel – I vælger selv, hvad der passer jer.
+            Kirkegårde i området er Skansekirkegården, Hillerød Kirkegård og Nyhuse Kirkegård. Afskeden kan holdes i en kirke, i Skansekapellet eller i Nyhuse Kapel. Sammen finder vi det sted, der passer jer bedst.
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>

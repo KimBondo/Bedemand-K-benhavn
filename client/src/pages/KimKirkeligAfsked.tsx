@@ -39,7 +39,7 @@ export default function KimKirkeligAfsked() {
           { question: "Kan man få en kirkelig afsked uden at være medlem af folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen." },
           { question: "Kan man holde ceremonien i en anden kirke end den lokale?", answer: "Ja, det er muligt, hvis der er en særlig tilknytning til den ønskede kirke – fx tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Præsten vurderer tilknytningen." },
           { question: "Kan en kirkelig ceremoni kombineres med askespredning?", answer: "Ja. Efter en kirkelig bisættelse kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det. Jeg hjælper med at arrangere begge dele." },
-          { question: "Er ceremonien i kirken gratis?", answer: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd." },
+          { question: "Er ceremonien i kirken gratis?", answer: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, ligbrænding eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd." },
           { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde en løsning, der passer jer." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/kirkelig-afsked"
@@ -112,7 +112,7 @@ export default function KimKirkeligAfsked() {
             En kirkelig afsked er en ceremoni i kirke eller kapel, ledet af en præst fra folkekirken. Den følger faste ritualer, men der er god plads til at tilpasse den, så den afspejler den afdødes liv og familiens ønsker – i valg af salmer, musik og prædikenens indhold.
           </p>
           <p style={s.body}>
-            Ceremonien kan afsluttes med enten en <a href="/begravelse/" style={s.link}>begravelse</a> (kisten sænkes i jorden) eller en <a href="/bisaettelse/" style={s.link}>bisættelse</a> (afdøde kremeres, og asken placeres i en urne).
+            Ceremonien kan afsluttes med enten en <a href="/begravelse/" style={s.link}>begravelse</a> (kisten sænkes i jorden) eller en <a href="/bisaettelse/" style={s.link}>bisættelse</a> (asken placeres i en urne).
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "32px", marginTop: "40px" }}>
@@ -146,7 +146,7 @@ export default function KimKirkeligAfsked() {
             </div>
             <div style={{ background: "#fff", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6" }}>
               <h3 style={s.h3}>Kirkelig bisættelse</h3>
-              <p style={s.body}>Jordpåkastelsen sker i kirken som en del af ceremonien. Herefter transporteres kisten til krematoriet. Urnen kan efterfølgende nedsættes eller bruges til <a href="/askespredning/" style={s.link}>askespredning</a>.</p>
+              <p style={s.body}>Jordpåkastelsen sker i kirken som en del af ceremonien. Herefter kører jeg kisten videre. Urnen kan efterfølgende nedsættes eller bruges til <a href="/askespredning/" style={s.link}>askespredning</a>.</p>
               <a href="/bisaettelse/" style={s.link}>Læs mere om bisættelse →</a>
             </div>
           </div>
@@ -201,7 +201,7 @@ export default function KimKirkeligAfsked() {
             },
             {
               q: "Er ceremonien i kirken gratis?",
-              a: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, kremering eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd.",
+              a: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, ligbrænding eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd.",
             },
             {
               q: "Kan ceremonien foregå i et kapel i stedet for kirken?",

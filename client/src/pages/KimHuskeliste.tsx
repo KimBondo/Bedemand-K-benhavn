@@ -23,7 +23,7 @@ const s = {
 const FAQ = [
   { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Herefter kan jeg kontaktes, og jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
   { q: "Hvem har ansvaret for at planlægge begravelsen?", a: "Det er den person, der bestiller begravelsen, der har det juridiske ansvar for planlægningen og betalingen. Oftest er det den nærmeste pårørende." },
-  { q: "Hvad hjælper du med?", a: "Jeg hjælper med anmodningen om begravelse eller ligbrænding, koordinering med kirke, kapel og krematorium, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning – så I kan bruge energien på hinanden." },
+  { q: "Hvad hjælper du med?", a: "Jeg hjælper med anmodningen om begravelse eller ligbrænding, koordinering med kirke og kapel, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning – så I kan bruge energien på hinanden." },
   { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen. Læs mere på siden om begravelseshjælp." },
 ];
 
@@ -158,7 +158,7 @@ export default function KimHuskeliste() {
             ))}
           </ul>
           <p style={{ ...s.body, marginTop: "8px" }}>
-            I Danmark skal en begravelse eller bisættelse normalt finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Kirkegården eller krematoriet kan forlænge fristen til 14 dage, når afdøde opbevares på køl, og det er almindeligt i praksis. Jeg holder øje med fristerne for jer.{" "}
+            I Danmark skal en begravelse eller bisættelse normalt finde sted senest 8 dage efter dødsfaldet – dødsdagen tæller med. Kirkegården kan forlænge fristen til 14 dage, når afdøde opbevares på køl, og det er almindeligt i praksis. Jeg holder øje med fristerne for jer.{" "}
             <a href="https://www.borger.dk/sundhed-og-sygdom/doedsfald--hospice-og-behandlingstestamente/Begravelse" target="_blank" rel="noopener noreferrer" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Læs reglerne på borger.dk</a>
           </p>
         </div>
@@ -228,7 +228,7 @@ export default function KimHuskeliste() {
             Det er den person, der bestiller begravelsen, der hæfter for betalingen – ikke skifteretten. Skifteretten sørger for, at udgifterne indgår i boet, så den, der har betalt, kan blive godtgjort.
           </p>
           <p style={s.body}>
-            Typiske udgifter, der skal betales: bedemand, krematorium, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd.
+            Typiske udgifter, der skal betales: bedemand, kirkegård, mindesamvær og blomster. Jeg gennemgår alle udgifter med jer på forhånd.
           </p>
           <a href="/mindeord/" style={s.link}>Mindeord og tale ved begravelsen →</a>
         </div>
@@ -253,7 +253,7 @@ export default function KimHuskeliste() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <h2 style={s.h2}>Sorg og støtte efter afskeden</h2>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Sorgen holder ikke op, når afskeden er overstået. Har I brug for nogen at tale med, kan I finde viden og hjælp hos Det Nationale Sorgcenter på <a href="https://sorgcenter.dk/" target="_blank" rel="noopener" style={s.link}>sorgcenter.dk</a>. Mange sogne har også sorggrupper – spørg i jeres lokale kirke. I er velkomne til at ringe til mig, også længe efter.
+            Sorgen holder ikke op, når afskeden er overstået. Har I brug for nogen at tale med, kan I finde viden og hjælp hos Det Nationale Sorgcenter på <a href="https://sorgcenter.dk/" target="_blank" rel="noopener" style={s.link}>sorgcenter.dk</a>. Mange sogne har også sorggrupper – spørg i sognet. I er velkomne til at ringe til mig, også længe efter.
           </p>
         </div>
       </section>

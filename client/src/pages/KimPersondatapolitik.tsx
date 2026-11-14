@@ -118,7 +118,7 @@ export default function KimPersondatapolitik() {
           <ul style={s.ul}>
             <li style={s.li}>Navn, adresse, telefonnummer og e-mail på dig som pårørende</li>
             <li style={s.li}>Oplysninger om afdøde, herunder CPR-nummer</li>
-            <li style={s.li}>Oplysninger om ceremoni, kirke, kirkegård, krematorium og valg af kiste og urne</li>
+            <li style={s.li}>Oplysninger om ceremoni, kirke, kirkegård og valg af kiste og urne</li>
             <li style={s.li}>Betalings- og faktureringsoplysninger</li>
           </ul>
           <p style={s.body}>
@@ -167,7 +167,7 @@ export default function KimPersondatapolitik() {
             Jeg sælger aldrig oplysninger videre, og jeg bruger dem ikke til markedsføring. Oplysninger deles kun, hvor det er nødvendigt for at løse opgaven eller følger af loven:
           </p>
           <ul style={s.ul}>
-            <li style={s.li}>Kirker, kirkegårde, krematorier, præster og myndigheder, når afskeden skal arrangeres</li>
+            <li style={s.li}>Kirker, kirkegårde, præster og myndigheder, når afskeden skal arrangeres</li>
             <li style={s.li}>Offentlige myndigheder, blandt andet ved anmodning om begravelse eller ligbrænding og ansøgning om begravelseshjælp</li>
             <li style={s.li}>Mit bogholderi og min revisor i forbindelse med fakturering og regnskab</li>
             <li style={s.li}>Databehandlere, der leverer teknik til hjemmesiden: Web3Forms (kontaktformular), Simply (min e-mail), Cloudflare (hosting, levering og afsendelse af prisanmodninger) og Google (statistik og annoncemåling)</li>

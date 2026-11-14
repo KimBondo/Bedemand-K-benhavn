@@ -109,8 +109,8 @@ export default function KimAfskeder() {
             {
               title: "Bisættelse",
               tag: "Mest valgte",
-              desc: "En bisættelse er den mest valgte afskedsform i Danmark. Afdøde kremeres efter ceremonien, og asken samles i en urne. Urnen kan nedsættes på en kirkegård eller tages med til udlandet, eller asken kan spredes over havet.",
-              details: ["Kirkelig eller borgerlig ceremoni", "Kremering og urne", "Fleksibel stedfæstelse af asken", "Priser fra 14.995 kr."],
+              desc: "En bisættelse er den mest valgte afskedsform i Danmark. Efter ceremonien samles asken i en urne. Urnen kan nedsættes på en kirkegård eller tages med til udlandet, eller asken kan spredes over havet.",
+              details: ["Kirkelig eller borgerlig ceremoni", "Asken samles i en urne", "Fleksibel stedfæstelse af asken", "Priser fra 14.995 kr."],
               href: "/bisaettelse/",
               linkText: "Læs om bisættelse",
             },

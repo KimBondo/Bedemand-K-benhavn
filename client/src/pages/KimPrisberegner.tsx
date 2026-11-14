@@ -41,7 +41,7 @@ function kisteForskelFor(base: Base, kiste: { id: string; price: number }) {
   return kiste.price - standard.price;
 }
 
-// Urne er kun aktuel, når afdøde kremeres. Natururnen indgår i pakken.
+// Urne er kun aktuel ved bisættelse. Natururnen indgår i pakken.
 const URNER = [
   { id: "natur", label: "Natururne (creme, grøn eller rød)", price: 1250 },
   { id: "askeroer", label: "Askerør – til askespredning", price: 950 },
@@ -63,10 +63,10 @@ const ADDONS = [
   { id: "pynt-stor", label: "Kistepynt, stor", price: 3500 },
   { id: "roser", label: "10 farvelroser", price: 350 },
   { id: "ligklaede", label: "Ligklæde", price: 295 },
-  // Askespredning kræver kremering og kan derfor ikke vælges ved kistebegravelse
+  // Askespredning kræver bisættelse og kan derfor ikke vælges ved kistebegravelse
   { id: "aske", label: "Askespredning over havet", price: 2500, fra: true, ikkeVed: "begravelse" },
   // Urnekørsel giver ikke mening ved begravelse, hvor der ingen urne er
-  { id: "urnekoersel", label: "Urnekørsel fra krematoriet til kirkegårdskontoret", price: 900, ikkeVed: "begravelse" },
+  { id: "urnekoersel", label: "Urnekørsel til kirkegårdskontoret", price: 900, ikkeVed: "begravelse" },
   // Blomsterkørsel: ligger ikke i nogen pakke
   { id: "blomster-hverdag", label: "Blomsterkørsel på en hverdag", price: 1195, ikkeVed: "uden", note: "Er graven på samme kirkegård som kirken, sørger kirken som regel selv for blomsterne. Skal de et andet sted hen, er det en blomsterkørsel." },
   { id: "blomster-loerdag", label: "Blomsterkørsel om lørdagen", price: 1995, ikkeVed: "uden" },
@@ -153,7 +153,7 @@ export default function KimPrisberegner() {
       if (addon && relevant(addon, base)) linjer.push(`- ${addon.label}${qty > 1 ? ` × ${qty}` : ""}: ${"fra" in addon ? "fra " : "ca" in addon ? "ca. " : ""}${kr(addon.price * qty)}`);
     }
     linjer.push(`Vejledende pris i alt: ${kr(total)}`);
-    linjer.push("Ikke med i beregningen: krematorium, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter.");
+    linjer.push("Ikke med i beregningen: udgifter til ligbrænding, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter.");
     linjer.push("Antal kørsler og afstand bekræfter jeg, når forløbet er kendt.");
     return linjer.join("\n");
   };
@@ -216,9 +216,9 @@ export default function KimPrisberegner() {
           <h2 style={s.h2}>1. Hvordan skal afskeden være?</h2>
           <div style={{ display: "grid", gap: "16px", marginBottom: "40px" }}>
             {([
-              { key: "uden" as const, title: "Bisættelse uden ceremoni", price: "9.995 kr.", text: "Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Med i prisen: mit honorar og telefonmøde, anmodning om ligbrænding, ansøgning om begravelseshjælp, kontakt til krematorium og kirkegård, klargøring og ilægning i en umalet basiskiste, natururne og én rustvognskørsel. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
+              { key: "uden" as const, title: "Bisættelse uden ceremoni", price: "9.995 kr.", text: "Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Med i prisen: mit honorar og telefonmøde, anmodning om ligbrænding, ansøgning om begravelseshjælp, kontakt til kirkegården, klargøring og ilægning i en umalet basiskiste, natururne og én rustvognskørsel. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
               { key: "begravelse" as const, title: "Begravelse", price: "Fra 13.495 kr.", text: "Kisten sænkes i jorden efter ceremonien. Med i prisen: mit honorar og telefonmøde, anmodning om begravelse, ansøgning om begravelseshjælp, dødsannonce (avisens pris kommer oveni), kontakt til kirke og kirkegård, klassisk hvid kiste og én rustvognskørsel. Jeg er selv til stede ved højtideligheden. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
-              { key: "bisaettelse" as const, title: "Bisættelse med ceremoni", price: "Fra 14.995 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde kremeres. Det samme som begravelse plus natururne, kontakt til krematoriet og to rustvognskørsler: fra kapel til ceremoni og derfra til krematoriet. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
+              { key: "bisaettelse" as const, title: "Bisættelse med ceremoni", price: "Fra 14.995 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde bisættes. Det samme som begravelse plus natururne og to rustvognskørsler: fra kapel til ceremoni og videre efter ceremonien. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
             ]).map((opt) => (
               <label key={opt.key} style={{ display: "block", background: base === opt.key ? "#f0f7f3" : "#fff", border: `1.5px solid ${base === opt.key ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "20px 24px", cursor: "pointer" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", flexWrap: "wrap" }}>
@@ -286,13 +286,13 @@ export default function KimPrisberegner() {
 
           <h2 style={s.h2}>{base ? 3 : 2}. Kørsel</h2>
           <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-            Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet til kapel, kirke eller krematorium. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft.
+            Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet og frem til afskeden. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft.
           </p>
           {base && (
             <>
               <h3 style={s.h3}>Rustvognskørsler</h3>
               <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-                {base === "bisaettelse" ? "Pakken har to kørsler: fra kapel til ceremoni og derfra til krematoriet." : base === "begravelse" ? "Pakken har én kørsel. På hverdage kan vi ofte køre direkte fra hospitalets kapel til kirken." : "Pakken har én kørsel til krematoriet."}{" "}
+                {base === "bisaettelse" ? "Pakken har to kørsler: fra kapel til ceremoni og videre efter ceremonien." : base === "begravelse" ? "Pakken har én kørsel. På hverdage kan vi ofte køre direkte fra hospitalets kapel til kirken." : "Pakken har én kørsel til krematoriet."}{" "}
                 {base === "bisaettelse"
                   ? "Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast."
                   : base === "begravelse"
@@ -388,7 +388,7 @@ export default function KimPrisberegner() {
                 Inkluderer det, der står i pakken, og de tilvalg, I har valgt. Alle priser er inkl. moms og gælder hverdage.
               </p>
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "0 auto" }}>
-                Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter. Disse beløb er ikke med i overslaget.
+                Oveni kommer udgifter til ligbrænding, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter. Disse beløb er ikke med i overslaget.
               </p>
               <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
                 Kørslen er regnet ud fra jeres valg. Antal kørsler og afstand bekræfter jeg, når forløbet er kendt.

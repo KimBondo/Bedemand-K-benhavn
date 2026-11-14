@@ -19,7 +19,7 @@ const s = {
 const FAQ = [
   { question: "Hvad skal man gøre først, når nogen dør?", answer: "Kontakt en læge, som konstaterer dødsfaldet og udsteder dødsattest. Derefter kan bedemanden kontaktes. Jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
   { question: "Hvem sender anmodningen om begravelse eller ligbrænding?", answer: "Lægen udsteder dødsattesten. Derefter skal der sendes en anmodning om begravelse eller ligbrænding til afdødes bopælssogn. Det gør jeg for jer med en fuldmagt, så I ikke selv skal kontakte myndighederne." },
-  { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer krematorium, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter." },
+  { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer udgifter til ligbrænding, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter." },
   { question: "Kan man få begravelseshjælp?", answer: "Ja, i mange tilfælde. I 2026 er det offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen." },
 ];
 
@@ -84,10 +84,10 @@ export default function KimHvadSkerDer() {
 
           <h2 style={s.h2}>Anmeldelse og koordinering</h2>
           <p style={s.body}>
-            Når lægen har udstedt dødsattesten, sender jeg anmodningen om begravelse eller ligbrænding til afdødes sogn og søger begravelseshjælp på jeres vegne. Jeg koordinerer med kirke eller kapel, krematorium og kirkegård, så I ikke selv skal holde styr på tider og kontakter.
+            Når lægen har udstedt dødsattesten, sender jeg anmodningen om begravelse eller ligbrænding til afdødes sogn og søger begravelseshjælp på jeres vegne. Jeg koordinerer med kirke eller kapel og kirkegård, så I ikke selv skal holde styr på tider og kontakter.
           </p>
           <p style={s.body}>
-            I vælger selv krematorium, og jeg hjælper med det praktiske. Ceremonien kan alligevel holdes lokalt.
+            Sammen finder vi det sted til afskeden, der passer jer bedst.
           </p>
 
           <h2 style={s.h2}>Valg af afsked</h2>
@@ -95,12 +95,12 @@ export default function KimHvadSkerDer() {
             De fleste vælger en bisættelse med ceremoni (fra 14.995 kr.) eller en begravelse i kiste (fra 13.495 kr.). En bisættelse uden ceremoni koster 9.995 kr.
           </p>
           <p style={s.body}>
-            Jeg laver et overslag sammen med jer, inden I beslutter noget. Oveni kommer udgifter til krematorium, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter.
+            Jeg laver et overslag sammen med jer, inden I beslutter noget. Oveni kommer udgifter til ligbrænding, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter.
           </p>
 
           <h2 style={s.h2}>Hvad jeg tager mig af</h2>
           <p style={s.body}>
-            Jeg står for anmodningen om begravelse eller ligbrænding, kontakt til præst eller kirkekontor, booking af kapel eller kirke, transport, klargøring af afdøde, valg af kiste og urne, og koordinering med krematorium og kirkegård. I taler med mig hele vejen.
+            Jeg står for anmodningen om begravelse eller ligbrænding, kontakt til præst eller kirkekontor, booking af kapel eller kirke, transport, klargøring af afdøde, valg af kiste og urne, og koordinering med kirkegården. I taler med mig hele vejen.
           </p>
 
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "28px", textAlign: "center", marginTop: "40px" }}>

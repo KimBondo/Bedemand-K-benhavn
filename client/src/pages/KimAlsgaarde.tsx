@@ -100,7 +100,7 @@ export default function KimAlsgaarde() {
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
           <p style={s.body}>
-            Ålsgårde ligger i Hellebæk Sogn. Kirkegårde i området er Ålsgårde Kirkegård og Hellebæk Kirkegård. Afskeden kan holdes i kirken eller et andet sted, der giver mening for jer – I vælger selv, hvad der passer jer.
+            Ålsgårde ligger i Hellebæk Sogn. Kirkegårde i området er Ålsgårde Kirkegård og Hellebæk Kirkegård. Afskeden kan holdes i kirken eller et andet sted, der giver mening for jer. Sammen finder vi det sted, der passer jer bedst.
           </p>
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
