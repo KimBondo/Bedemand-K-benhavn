@@ -203,7 +203,7 @@ export default function KimPriser() {
             "Klargøring, påklædning og ilægning i kiste",
             "Klassisk hvid kiste",
             "Én rustvognskørsel, inkl. de første 25 km med afdøde. På hverdage kan jeg ofte køre direkte fra hospitalets kapel til kirken",
-            "Jeg er selv til stede ved højtideligheden",
+            "Jeg er selv til stede ved højtideligheden – det er med i prisen",
             "Jeg pynter kisten uden gebyr, når blomsterne bestilles gennem mig",
             "Familien må gerne se afdøde ved kisteilægningen, når afdøde hentes hjemme, på plejehjem eller på hospice",
             ].map((item, i) => (
@@ -230,7 +230,7 @@ export default function KimPriser() {
             "Klassisk hvid kiste",
             "Natururne",
             "To rustvognskørsler, inkl. de første 25 km med afdøde pr. tur: fra kapel til ceremoni og videre efter ceremonien",
-            "Jeg er selv til stede ved højtideligheden",
+            "Jeg er selv til stede ved højtideligheden – det er med i prisen",
             "Jeg pynter kisten uden gebyr, når blomsterne bestilles gennem mig",
             "Familien må gerne se afdøde ved kisteilægningen, når afdøde hentes hjemme, på plejehjem eller på hospice",
             ].map((item, i) => (
@@ -298,7 +298,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Aften, weekend og helligdage</h2>
           <p style={s.body}>
-            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Derfor er der et tillæg på 800 kr. pr. udkald, når der køres efter kl. 16 på hverdage, i weekender og på helligdage – fx en afhentning om aftenen eller en bisættelse om lørdagen. Tillægget gælder kun kørslen. Der er ikke tillæg på andet.
+            Uden for normal arbejdstid skal jeg have en hjælper med til at bære og løfte. Derfor er der et tillæg på 800 kr. pr. udkald, når der køres efter kl. 16 på hverdage, i weekender og på helligdage – fx en afhentning om aftenen eller en bisættelse om lørdagen. Tillægget gælder kun kørslen. Der er ikke tillæg på andet – heller ikke på møder om aftenen eller i weekenden.
           </p>
           <p style={s.body}>
             Det står her, så I kan regne det ud selv.
