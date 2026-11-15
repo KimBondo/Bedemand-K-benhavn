@@ -202,7 +202,7 @@ export default function KimPriser() {
             "Kontakt til kordegn, præst, kirke eller kapel og kirkegård",
             "Klargøring, påklædning og ilægning i kiste",
             "Klassisk hvid kiste",
-            "Én rustvognskørsel, inkl. de første 25 km med afdøde. På hverdage kan vi ofte køre direkte fra hospitalets kapel til kirken",
+            "Én rustvognskørsel, inkl. de første 25 km med afdøde. På hverdage kan jeg ofte køre direkte fra hospitalets kapel til kirken",
             "Jeg er selv til stede ved højtideligheden",
             "Jeg pynter kisten uden gebyr, når blomsterne bestilles gennem mig",
             "Familien må gerne se afdøde ved kisteilægningen, når afdøde hentes hjemme, på plejehjem eller på hospice",
@@ -255,7 +255,7 @@ export default function KimPriser() {
           <PriceTable rows={[
             ["Møde hjemme hos jer eller på mit kontor i Søborg", "995 kr."],
             ["Ekstra rustvognskørsel", "1.595 kr."],
-            ["Umalet basiskiste i stedet for klassisk hvid kiste (begravelse og bisættelse med ceremoni)", "1.000 kr. billigere"],
+            ["Umalet basiskiste i stedet for klassisk hvid kiste (begravelse og bisættelse med ceremoni)", "1.000 kr. mindre"],
             ["Klassisk hvid kiste", "6.500 kr."],
             ["Umalet basiskiste", "5.500 kr."],
             ["Ligklæde", "295 kr."],
@@ -286,7 +286,7 @@ export default function KimPriser() {
         <section style={{ marginBottom: "56px" }}>
           <h2 style={s.h2}>Pris på bisættelse – faste priser og den enkleste løsning</h2>
           <p style={s.body}>
-            En bisættelse med ceremoni koster hos mig fra 14.995 kr., og begravelseshjælpen trækkes direkte fra fakturaen. Mange spørger efter den enkleste løsning. Den er en <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>bisættelse uden ceremoni</a> til 9.995 kr. Jeg gennemgår alle udgifter med jer, før I bestemmer noget.
+            En bisættelse med ceremoni koster hos mig fra 14.995 kr., og begravelseshjælpen trækkes direkte fra fakturaen. Mange spørger efter den enkleste løsning. Det er en <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>bisættelse uden ceremoni</a> til 9.995 kr. Jeg gennemgår alle udgifter med jer, før I bestemmer noget.
           </p>
         </section>
 
@@ -382,7 +382,7 @@ export default function KimPriser() {
             ["Klargøring af kiste, afhentning og ilægning", "2.500 kr."],
             ["Tillæg ved afhentning i private hjem", "1.200 kr."],
             ["Rustvognskørsel, én kørsel inkl. de første 25 km med afdøde", "1.595 kr."],
-            ["Herefter pr. km (kun den ene vej, ad den billigste rute)", "35 kr."],
+            ["Herefter pr. km (kun den ene vej, ad den mest økonomiske rute)", "35 kr."],
             ["Højst pr. kørsel i hele København og Nordsjælland", "2.000 kr."],
             ["Rustvognskørsel uden for København og Nordsjælland (fx resten af Sjælland, Fyn og Jylland)", "1.595 kr. inkl. de første 25 km med afdøde, derefter 35 kr. pr. km, uden loft"],
             ["Urnekørsel til kirkegårdskontoret", "900 kr."],
@@ -393,7 +393,7 @@ export default function KimPriser() {
           <div style={{ background: "#f0f7f3", borderLeft: "3px solid #3D6B4F", borderRadius: "3px", padding: "24px 24px 8px", marginBottom: "32px" }}>
             <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46" }}>Sådan regner jeg kørslen</p>
             <p style={s.body}>
-              Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet og frem til afskeden. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Jeg fortæller jer prisen, inden vi kører.
+              Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet og frem til afskeden. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km. Der regnes kun den ene vej, ad den mest økonomiske rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft. Jeg fortæller jer prisen, inden vi kører.
             </p>
             <p style={s.body}>
               Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast.
@@ -463,7 +463,7 @@ export default function KimPriser() {
 
         {/* ── MIN SIDSTE VILJE ── */}
         <section id="min-sidste-vilje" style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px" }}>
-          <span style={s.label}>Gratis hjemmebesøg</span>
+          <span style={s.label}>Hjemmebesøg uden beregning</span>
           <h2 style={{ ...s.h2, marginBottom: "16px" }}>Min Sidste Vilje</h2>
           <p style={s.body}>
             De fleste udskyder samtalen. Men det er en gave til ens børn at have taget stilling i forvejen.

@@ -219,9 +219,9 @@ export default function KimNordsjaelland() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
             {[
               { title: "Bisættelse", desc: "Ceremoni i kirke eller kapel.", href: "/bisaettelse/" },
-              { title: "Begravelse", desc: "Kiste i jord på kirkegården i jeres sogn. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
+              { title: "Begravelse", desc: "Kiste i jorden på en kirkegård. Jeg koordinerer med kirkegårdskontor, kordegn og præst.", href: "/begravelse/" },
               { title: "Bisættelse uden ceremoni", desc: "En afsked uden kirkelig eller borgerlig ceremoni. Den enkleste løsning – 9.995 kr.", href: "/afsked-uden-ceremoni/" },
-              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse i jeres sognekirke.", href: "/kirkelig-afsked/" },
+              { title: "Kirkelig afsked", desc: "Ceremoni med præst, salmer og jordpåkastelse.", href: "/kirkelig-afsked/" },
               { title: "Borgerlig afsked", desc: "Ceremoni uden religiøse ritualer – flere af kapellerne kan bruges uanset tro.", href: "/borgerlig-afsked/" },
               { title: "Askespredning", desc: "Spredning af asken over åbent hav. Fra Nordsjælland er der kort vej til Øresund og Kattegat.", href: "/askespredning/" },
             ].map((item) => (

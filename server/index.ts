@@ -147,7 +147,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/min-sidste-vilje": {
     title: "Min Sidste Vilje – skema og ønsker til egen begravelse",
-    description: "Skriv jeres ønsker til afskeden ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et gratis hjemmebesøg. Ring til mig på 28 14 60 11.",
+    description: "Skriv jeres ønsker til afskeden ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et hjemmebesøg uden beregning. Ring til mig på 28 14 60 11.",
   },
   "/hornbaek": {
     title: "Bedemand Hornbæk – Kim Bondo, døgnet rundt",
@@ -171,7 +171,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/persondatapolitik": {
     title: "Persondatapolitik – Bedemand Kim Bondo",
-    description: "Sådan behandler Bedemand København ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR.",
+    description: "Sådan behandler Bedemand København ApS jeres personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og jeres rettigheder efter GDPR.",
   },
 };
 

@@ -24,7 +24,7 @@ const FAQ = [
   { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I har givet mig en fuldmagt, søger jeg hjælpen hos Udbetaling Danmark og trækker beløbet fra på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark skal bruge dokumentation fra skifteretten om boet, og de behandler normalt sagen inden for en måned, når papirerne er på plads." },
   { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Hjælpen nedsættes krone for krone, når formuen er over 22.700 kr. – eller 45.250 kr., hvis afdøde efterlader ægtefælle eller børn under 18 år – og den bortfalder helt over 36.250 kr. henholdsvis 58.800 kr. Udgifter til begravelsen tæller ikke med i formuen. Var afdøde født før 1. april 1957, udbetales der dog altid mindst 1.050 kr. En eventuel ægtefælles formue indgår også i vurderingen. Jeg giver jer et overslag med det samme, men det er Udbetaling Danmark, der træffer afgørelsen." },
   { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring – ikke om vedkommende var lønmodtager eller selvstændig." },
-  { q: "Er der andre tilskud end det offentlige?", a: 'Ja. Var afdøde medlem af Sygeforsikringen "danmark" i gruppe 1 eller 2 – og blev optaget senest 31. december 2022 – udbetaler "danmark" 1.400 kr. i begravelseshjælp. Beløbet kan betales direkte til mig og trækkes fra fakturaen. Enkelte fagforeninger har også begravelseshjælp.' },
+  { q: "Er der andre tilskud end det offentlige?", a: 'Ja. Var afdøde medlem af Sygeforsikringen «danmark» i gruppe 1 eller 2 – og blev optaget senest 31. december 2022 – udbetaler «danmark» 1.400 kr. i begravelseshjælp. Beløbet kan betales direkte til mig og trækkes fra fakturaen. Enkelte fagforeninger har også begravelseshjælp.' },
 ];
 
 export default function KimBegravelseshjaelp() {
@@ -119,7 +119,7 @@ export default function KimBegravelseshjaelp() {
             {[
               { title: "Maksimalt tilskud", amount: "13.550 kr.", note: "Afhænger af formuen – også en eventuel ægtefælles" },
               { title: "Minimumstilskud", amount: "1.050 kr.", note: "Er afdøde født før 1. april 1957, udbetales mindst dette beløb – uanset formue" },
-              { title: 'Sygeforsikringen "danmark"', amount: "1.400 kr.", note: "Gruppe 1 og 2, optaget senest 31. december 2022" },
+              { title: 'Sygeforsikringen «danmark»', amount: "1.400 kr.", note: "Gruppe 1 og 2, optaget senest 31. december 2022" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#F9F8F6", padding: "28px 24px", borderRadius: "3px", border: "1px solid #e0dcd6", textAlign: "center" }}>
                 <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.1em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "8px" }}>{item.title}</p>
@@ -154,7 +154,7 @@ export default function KimBegravelseshjaelp() {
             <ul style={{ paddingLeft: "24px", marginBottom: 0 }}>
               {[
                 "Ansøgning om offentlig begravelseshjælp via Udbetaling Danmark",
-                'Ansøgning om tilskud fra Sygeforsikringen "danmark" (gruppe 1 og 2)',
+                'Ansøgning om tilskud fra Sygeforsikringen «danmark» (gruppe 1 og 2)',
                 "Undersøgelse af eventuel fagforeningshjælp",
                 "Overblik over alle udgifter og mulige tilskud på forhånd",
               ].map((item) => (

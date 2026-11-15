@@ -26,7 +26,7 @@ export default function KimPersondatapolitik() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Persondatapolitik – Bedemand Kim Bondo"
-        description="Sådan behandler Bedemand København ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR."
+        description="Sådan behandler Bedemand København ApS jeres personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og jeres rettigheder efter GDPR."
         url="https://www.bedemandkobenhavn.dk/persondatapolitik/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -54,7 +54,7 @@ export default function KimPersondatapolitik() {
           Persondatapolitik
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto", lineHeight: 1.7 }}>
-          Her står kort, hvad jeg gør med de oplysninger, du giver mig – og hvad jeg ikke gør.
+          Her står kort, hvad jeg gør med de oplysninger, I giver mig – og hvad jeg ikke gør.
         </p>
       </section>
 
@@ -63,7 +63,7 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Hvem er ansvarlig</h2>
           <p style={s.body}>
-            Dataansvarlig for behandlingen af dine personoplysninger er:
+            Dataansvarlig for behandlingen af jeres personoplysninger er:
           </p>
           <p style={{ ...s.body, background: "#F9F8F6", borderLeft: "3px solid #3D6B4F", padding: "20px 24px", marginBottom: "24px" }}>
             <strong>Bedemand København ApS</strong>
@@ -81,7 +81,7 @@ export default function KimPersondatapolitik() {
             <a href="mailto:kim@bedemandkobenhavn.dk" style={s.link}>kim@bedemandkobenhavn.dk</a>
           </p>
           <p style={s.body}>
-            Har du spørgsmål, så ring eller skriv til mig.
+            Har I spørgsmål, så ring eller skriv til mig.
           </p>
         </div>
       </section>
@@ -89,21 +89,21 @@ export default function KimPersondatapolitik() {
       {/* ── KONTAKTFORMULAREN ── */}
       <section style={SECTION_LIGHT}>
         <div style={s.block}>
-          <h2 style={s.h2}>Når du skriver via kontaktformularen</h2>
+          <h2 style={s.h2}>Når I skriver via kontaktformularen</h2>
           <p style={s.body}>
-            Bruger du formularen her på siden, registrerer jeg de oplysninger, du selv skriver ind: navn, telefonnummer, eventuelt e-mailadresse og din besked. Sammen med beskeden følger den side, du skrev fra, og din IP-adresse. Beder du om en pris fra prisberegneren, følger også den valgte pakke, overslaget og oplysningen om, hvor afdøde er nu. Beder du mig ringe dig op, sender du kun navn, telefonnummer og hvornår det passer.
+            Bruger I formularen her på siden, registrerer jeg de oplysninger, I selv skriver ind: navn, telefonnummer, eventuelt e-mailadresse og jeres besked. Sammen med beskeden følger den side, I skrev fra, og jeres IP-adresse. Beder I om en pris fra prisberegneren, følger også den valgte pakke, overslaget og oplysningen om, hvor afdøde er nu. Beder I mig ringe jer op, sender I kun navn, telefonnummer og hvornår det passer.
           </p>
           <p style={s.body}>
-            <strong>Formål:</strong> at kunne besvare din henvendelse og aftale et møde eller en samtale.
+            <strong>Formål:</strong> at kunne besvare jeres henvendelse og aftale et møde eller en samtale.
           </p>
           <p style={s.body}>
-            <strong>Retsgrundlag:</strong> databeskyttelsesforordningens artikel 6, stk. 1, litra b – behandlingen sker på din anmodning forud for en eventuel aftale.
+            <strong>Retsgrundlag:</strong> databeskyttelsesforordningens artikel 6, stk. 1, litra b – behandlingen sker på jeres anmodning forud for en eventuel aftale.
           </p>
           <p style={s.body}>
-            Formularen sendes via <strong>Web3Forms</strong>, som er min databehandler. Tjenesten drives uden for EU og bruger blandt andre Amazon Web Services, Cloudflare og Hetzner. Overførslen sker på grundlag af EU-Kommissionens standardkontraktbestemmelser. Vil du undgå det, kan du ringe eller skrive direkte til mig.
+            Formularen sendes via <strong>Web3Forms</strong>, som er min databehandler. Tjenesten drives uden for EU og bruger blandt andre Amazon Web Services, Cloudflare og Hetzner. Overførslen sker på grundlag af EU-Kommissionens standardkontraktbestemmelser. Vil I undgå det, kan I ringe eller skrive direkte til mig.
           </p>
           <p style={s.body}>
-            <strong>Prisanmodning fra prisberegneren:</strong> Den sendes ikke via Web3Forms, men fra min egen hjemmeside (en funktion hos Cloudflare) gennem min mailudbyder <strong>Simply</strong>, som også har min indbakke. Skriver du din e-mail, sender jeg samme vej én kopi af det vejledende overslag til dig. Kopien indeholder kun dit navn og overslaget. Virker det ikke, sendes anmodningen i stedet via Web3Forms.
+            <strong>Prisanmodning fra prisberegneren:</strong> Den sendes ikke via Web3Forms, men fra min egen hjemmeside (en funktion hos Cloudflare) gennem min mailudbyder <strong>Simply</strong>, som også har min indbakke. Skriver I jeres e-mail, sender jeg samme vej én kopi af det vejledende overslag til jer. Kopien indeholder kun jeres navn og overslaget. Virker det ikke, sendes anmodningen i stedet via Web3Forms.
           </p>
         </div>
       </section>
@@ -111,18 +111,18 @@ export default function KimPersondatapolitik() {
       {/* ── KUNDEFORHOLD ── */}
       <section style={SECTION_WHITE}>
         <div style={s.block}>
-          <h2 style={s.h2}>Når du bliver kunde</h2>
+          <h2 style={s.h2}>Når I bliver kunder</h2>
           <p style={s.body}>
-            Vælger du min hjælp til en bisættelse eller begravelse, har jeg brug for flere oplysninger for at kunne løse opgaven. Det drejer sig typisk om:
+            Vælger I min hjælp til en bisættelse eller begravelse, har jeg brug for flere oplysninger for at kunne løse opgaven. Det drejer sig typisk om:
           </p>
           <ul style={s.ul}>
-            <li style={s.li}>Navn, adresse, telefonnummer og e-mail på dig som pårørende</li>
+            <li style={s.li}>Navn, adresse, telefonnummer og e-mail på jer som pårørende</li>
             <li style={s.li}>Oplysninger om afdøde, herunder CPR-nummer</li>
             <li style={s.li}>Oplysninger om ceremoni, kirke, kirkegård og valg af kiste og urne</li>
             <li style={s.li}>Betalings- og faktureringsoplysninger</li>
           </ul>
           <p style={s.body}>
-            <strong>Retsgrundlag:</strong> artikel 6, stk. 1, litra b (opfyldelse af aftalen med dig) og litra c (retlige forpligtelser, blandt andet bogføringsloven).
+            <strong>Retsgrundlag:</strong> artikel 6, stk. 1, litra b (opfyldelse af aftalen med jer) og litra c (retlige forpligtelser, blandt andet bogføringsloven).
           </p>
 
           <h3 style={s.h3}>CPR-numre</h3>
@@ -142,19 +142,19 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Cookies og statistik</h2>
           <p style={s.body}>
-            <strong>Der bliver ikke sat cookies, før du har sagt ja.</strong> Siger du nej eller svarer ikke, indlæses ingen måleværktøjer, og der sendes intet til Google.
+            <strong>Der bliver ikke sat cookies, før I har sagt ja.</strong> Siger I nej eller svarer ikke, indlæses ingen måleværktøjer, og der sendes intet til Google.
           </p>
           <p style={s.body}>
-            Siger du ja, indlæses Google Tag Manager, og Google Analytics og Googles annoncemåling må sætte cookies (blandt andet <code>_ga</code>). Google Analytics bruger kortvarigt din IP-adresse til at udlede en omtrentlig geografisk placering og kasserer den derefter. IP-adressen logges eller lagres ikke for besøgende fra EU. Jeg bruger målingen til at se, hvilke sider der bliver læst, og om mine annoncer fører til henvendelser – ikke til at identificere dig.
+            Siger I ja, indlæses Google Tag Manager, og Google Analytics og Googles annoncemåling må sætte cookies (blandt andet <code>_ga</code>). Google Analytics bruger kortvarigt jeres IP-adresse til at udlede en omtrentlig geografisk placering og kasserer den derefter. IP-adressen logges eller lagres ikke for besøgende fra EU. Jeg bruger målingen til at se, hvilke sider der bliver læst, og om mine annoncer fører til henvendelser – ikke til at identificere jer.
           </p>
           <p style={s.body}>
-            Dit valg gemmes i din browser i 12 måneder.
+            Jeres valg gemmes i jeres browser i 12 måneder.
           </p>
           <p style={s.body}>
             <a href="#cookieindstillinger" style={s.link}>
-              Skift dine cookieindstillinger
+              Skift jeres cookieindstillinger
             </a>{" "}
-            – du kan trække dit samtykke tilbage når som helst. Så slettes statistikcookies, der allerede er sat.
+            – I kan trække jeres samtykke tilbage når som helst. Så slettes statistikcookies, der allerede er sat.
           </p>
         </div>
       </section>
@@ -175,7 +175,7 @@ export default function KimPersondatapolitik() {
 
           <h3 style={s.h3}>Overførsel uden for EU/EØS</h3>
           <p style={s.body}>
-            Jeg bruger Cloudflare til at levere og beskytte hjemmesiden og Google til statistik efter dit samtykke. Oplysninger kan blive behandlet uden for EU/EØS, herunder i USA. Overførsler til Google LLC og Cloudflare, Inc. i USA sker under EU-U.S. Data Privacy Framework. Ved øvrige overførsler, der kræver særlige garantier, anvendes EU-Kommissionens standardkontraktbestemmelser efter leverandøraftalerne. Kontakt mig for nærmere oplysninger.
+            Jeg bruger Cloudflare til at levere og beskytte hjemmesiden og Google til statistik efter jeres samtykke. Oplysninger kan blive behandlet uden for EU/EØS, herunder i USA. Overførsler til Google LLC og Cloudflare, Inc. i USA sker under EU-U.S. Data Privacy Framework. Ved øvrige overførsler, der kræver særlige garantier, anvendes EU-Kommissionens standardkontraktbestemmelser efter leverandøraftalerne. Kontakt mig for nærmere oplysninger.
           </p>
         </div>
       </section>
@@ -196,18 +196,18 @@ export default function KimPersondatapolitik() {
       {/* ── RETTIGHEDER ── */}
       <section style={SECTION_WHITE}>
         <div style={s.block}>
-          <h2 style={s.h2}>Dine rettigheder</h2>
+          <h2 style={s.h2}>Jeres rettigheder</h2>
           <p style={s.body}>
-            Du har efter databeskyttelsesforordningen en række rettigheder over de oplysninger, jeg har om dig:
+            I har efter databeskyttelsesforordningen en række rettigheder over de oplysninger, jeg har om jer:
           </p>
           <ul style={s.ul}>
-            <li style={s.li}><strong>Indsigt</strong> – du kan få at vide, hvilke oplysninger jeg har om dig, og få en kopi.</li>
+            <li style={s.li}><strong>Indsigt</strong> – I kan få at vide, hvilke oplysninger jeg har om jer, og få en kopi.</li>
             <li style={s.li}><strong>Berigtigelse</strong> – er noget forkert, retter jeg det.</li>
-            <li style={s.li}><strong>Sletning</strong> – du kan bede om at få oplysninger slettet, hvor jeg ikke er forpligtet til at gemme dem.</li>
-            <li style={s.li}><strong>Begrænsning</strong> – du kan bede om, at behandlingen sættes i bero.</li>
-            <li style={s.li}><strong>Indsigelse</strong> – du kan gøre indsigelse mod behandling, der sker i min legitime interesse.</li>
-            <li style={s.li}><strong>Dataportabilitet</strong> – du kan få udleveret dine oplysninger i et almindeligt format.</li>
-            <li style={s.li}><strong>Tilbagekaldelse af samtykke</strong> – har du givet et samtykke, kan du trække det tilbage når som helst.</li>
+            <li style={s.li}><strong>Sletning</strong> – I kan bede om at få oplysninger slettet, hvor jeg ikke er forpligtet til at gemme dem.</li>
+            <li style={s.li}><strong>Begrænsning</strong> – I kan bede om, at behandlingen sættes i bero.</li>
+            <li style={s.li}><strong>Indsigelse</strong> – I kan gøre indsigelse mod behandling, der sker i min legitime interesse.</li>
+            <li style={s.li}><strong>Dataportabilitet</strong> – I kan få udleveret jeres oplysninger i et almindeligt format.</li>
+            <li style={s.li}><strong>Tilbagekaldelse af samtykke</strong> – har I givet et samtykke, kan I trække det tilbage når som helst.</li>
           </ul>
           <p style={s.body}>
             Skriv til{" "}
@@ -223,7 +223,7 @@ export default function KimPersondatapolitik() {
         <div style={s.block}>
           <h2 style={s.h2}>Klage til Datatilsynet</h2>
           <p style={s.body}>
-            Du kan klage til Datatilsynet:
+            I kan klage til Datatilsynet:
           </p>
           <p style={{ ...s.body, background: "#fff", borderLeft: "3px solid #3D6B4F", padding: "20px 24px" }}>
             <strong>Datatilsynet</strong>
