@@ -286,17 +286,17 @@ export default function KimPrisberegner() {
 
           <h2 style={s.h2}>{base ? 3 : 2}. Kørsel</h2>
           <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-            Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet og frem til afskeden. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den billigste rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft.
+            Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet og frem til afskeden. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den mest økonomiske rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område gælder samme km-pris, men der er intet loft.
           </p>
           {base && (
             <>
               <h3 style={s.h3}>Rustvognskørsler</h3>
               <p style={{ ...s.body, fontSize: "15px", color: "#5a7a6a" }}>
-                {base === "bisaettelse" ? "Pakken har to kørsler: fra kapel til ceremoni og videre efter ceremonien." : base === "begravelse" ? "Pakken har én kørsel. På hverdage kan vi ofte køre direkte fra hospitalets kapel til kirken." : "Pakken har én kørsel til krematoriet."}{" "}
+                {base === "bisaettelse" ? "Pakken har to kørsler: fra kapel til ceremoni og videre efter ceremonien." : base === "begravelse" ? "Pakken har én kørsel. På hverdage kan jeg ofte køre direkte fra hospitalets kapel til kirken." : "Pakken har én kørsel til krematoriet."}{" "}
                 {base === "bisaettelse"
                   ? "Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast."
                   : base === "begravelse"
-                    ? "Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Ved en begravelse kommer der også en kørsel mere, hvis kirken ikke har sin egen kirkegård og kisten derfor skal køres til kirkegården. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast."
+                    ? "Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Ved en begravelse kommer der også en kørsel mere, hvis kirken ikke har sin egen kirkegård og kisten derfor skal køres til kirkegården. Er begravelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast."
                     : "Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Ved en bisættelse uden ceremoni kører jeg afdøde direkte til krematoriet. Der kommer derfor ingen ekstra kørsel til kisteophold, heller ikke når jeg henter afdøde i et privat hjem, på et plejehjem eller på et hospice. Det aftaler vi, når forløbet ligger fast."}
               </p>
               <div style={{ display: "grid", gap: "12px", marginBottom: "24px" }}>

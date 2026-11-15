@@ -144,7 +144,7 @@ export default function KimHuskeliste() {
           <ul style={{ paddingLeft: "24px" }}>
             {[
               "Tidspunkt for afhentning af afdøde og evt. alenetid ved kisten",
-              "Tøj som afdøde ønskes iklædt",
+              "Tøj, som afdøde ønskes iklædt",
               "Tidspunkt for ceremoni i kapel eller kirke",
               "Evt. samtale med præst",
               "Valg af gravsted på kirkegård",

@@ -17,7 +17,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvad skal man gøre først, når nogen dør?", answer: "Kontakt en læge, som konstaterer dødsfaldet og udsteder dødsattest. Derefter kan bedemanden kontaktes. Jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
+  { question: "Hvad skal man gøre først, når nogen dør?", answer: "Kontakt en læge, som konstaterer dødsfaldet og udsteder dødsattesten. Derefter kan bedemanden kontaktes. Jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
   { question: "Hvem sender anmodningen om begravelse eller ligbrænding?", answer: "Lægen udsteder dødsattesten. Derefter skal der sendes en anmodning om begravelse eller ligbrænding til afdødes bopælssogn. Det gør jeg for jer med en fuldmagt, så I ikke selv skal kontakte myndighederne." },
   { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer udgifter til ligbrænding, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter." },
   { question: "Kan man få begravelseshjælp?", answer: "Ja, i mange tilfælde. I 2026 er det offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen." },

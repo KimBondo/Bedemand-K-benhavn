@@ -179,7 +179,7 @@ const ROUTE_META = {
   },
   "/min-sidste-vilje": {
     title: "Min Sidste Vilje \u2013 skema og \u00f8nsker til egen begravelse",
-    description: "Skriv jeres \u00f8nsker til afskeden ned. Hent skemaet Min Sidste Vilje gratis, eller f\u00e5 hj\u00e6lp ved et gratis hjemmebes\u00f8g. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Skriv jeres \u00f8nsker til afskeden ned. Hent skemaet Min Sidste Vilje gratis, eller f\u00e5 hj\u00e6lp ved et hjemmebes\u00f8g uden beregning. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hornbaek": {
     title: "Bedemand Hornb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
@@ -211,7 +211,7 @@ const ROUTE_META = {
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",
-    description: "S\u00e5dan behandler Bedemand K\u00f8benhavn ApS dine personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og dine rettigheder efter GDPR.",
+    description: "S\u00e5dan behandler Bedemand K\u00f8benhavn ApS jeres personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og jeres rettigheder efter GDPR.",
   },
   "/priser": {
     title: "Priser \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
