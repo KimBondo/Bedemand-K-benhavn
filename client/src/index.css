@@ -173,3 +173,16 @@
   .hero-opkald h1 { margin-bottom: 14px !important; }
   .hero-opkald > p { margin-bottom: 18px !important; line-height: 1.55 !important; }
 }
+
+/* /nordsjaelland/: «Se priser» som et lille tekstlink under opkaldsknappen på mobil */
+@media (max-width: 768px) {
+  .hero-knapper { gap: 4px !important; }
+  .se-priser-mobil {
+    border: none !important;
+    padding: 2px 8px !important;
+    font-size: 15px !important;
+    color: #3D6B4F !important;
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+  }
+}
