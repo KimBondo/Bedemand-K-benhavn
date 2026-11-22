@@ -174,7 +174,7 @@
   .hero-opkald > p { margin-bottom: 18px !important; line-height: 1.55 !important; }
 }
 
-/* /nordsjaelland/: «Se priser» som et lille tekstlink under opkaldsknappen på mobil */
+/* /nordsjaelland/ og /afsked-uden-ceremoni/: «Se priser» som et lille tekstlink under opkaldsknappen på mobil */
 @media (max-width: 768px) {
   .hero-knapper { gap: 4px !important; }
   .se-priser-mobil {
@@ -185,4 +185,10 @@
     text-decoration: underline !important;
     text-underline-offset: 3px;
   }
+}
+
+/* /afsked-uden-ceremoni/: lidt mindre luft i toppen på mobil, så «Se priser» også står over cookie-banneret */
+@media (max-width: 768px) {
+  .hero-opkald.hero-kompakt { padding-top: 12px !important; }
+  .hero-opkald.hero-kompakt h1 { margin-bottom: 10px !important; }
 }

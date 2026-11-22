@@ -100,7 +100,7 @@ export default function KimAfskedUdenCeremoni() {
       </header>
 
       {/* ── HERO ── */}
-      <section className="hero-opkald" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>
           Bisættelse uden ceremoni
         </p>
@@ -110,11 +110,11 @@ export default function KimAfskedUdenCeremoni() {
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
           Ikke alle afskeder behøver en formel ceremoni. En bisættelse uden ceremoni er en stille og diskret løsning, der håndteres med samme omsorg og værdighed som alle andre afskeder.
         </p>
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
+        <div className="hero-knapper" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Ring til mig på 28 14 60 11
           </a>
-          <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
+          <a className="se-priser-mobil" href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Se priser
           </a>
         </div>
