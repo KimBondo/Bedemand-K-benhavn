@@ -112,16 +112,16 @@ export default function KimPriser() {
           <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(26px, 4vw, 42px)", color: "#ffffff", lineHeight: 1.2, marginBottom: "20px", marginTop: 0 }}>
             Priser på bisættelse og begravelse i København og Nordsjælland
           </h1>
-          <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
-            Her står mine priser – og de udgifter, der ikke går til mig.
-          </p>
-          <KimPortraet align="left" mork />
-<div style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center", marginBottom: "20px" }}>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Ring til mig på 28 14 60 11
           </a>
           <a href="#ring-mig-op" style={{ display: "inline-block", background: "transparent", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "11px 26px", borderRadius: "3px", textDecoration: "none", border: "1.5px solid rgba(255,255,255,0.6)" }}>Ring mig op</a>
           </div>
+          <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
+            Her står mine priser – og de udgifter, der ikke går til mig.
+          </p>
+          <KimPortraet align="left" mork />
           <div style={{ marginTop: "36px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px" }}>
             {[
               { navn: "Bisættelse uden ceremoni", pris: "9.995 kr.", href: "#uden-ceremoni" },

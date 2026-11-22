@@ -150,6 +150,34 @@ export default function KimBondo() {
               .hero-portraet { width: 104px; height: 104px; }
             }
           `}</style>
+          <h1
+            style={{
+              fontFamily: "'Lora', serif",
+              fontWeight: 600,
+              fontSize: "clamp(28px, 5vw, 56px)",
+              color: "#2F3E46",
+              lineHeight: 1.2,
+              marginBottom: "24px",
+              letterSpacing: "0.01em",
+            }}
+          >
+            Bedemand i København og Nordsjælland – jeg tager selv telefonen, døgnet rundt
+          </h1>
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>
+            Ring trygt til mig på 28 14 60 11
+          </a>
+          <p
+            style={{
+              fontFamily: "'Open Sans', sans-serif",
+              fontSize: "clamp(16px, 2vw, 22px)",
+              color: "#3d5260",
+              lineHeight: 1.65,
+              maxWidth: "620px",
+              margin: "24px auto 28px",
+            }}
+          >
+            Jeg hedder Kim Bondo. Når I ringer, er det mig, I taler med – og mig, der følger jer hele vejen til afskeden. Mine priser står åbent her på siden, og begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
+          </p>
           <figure style={{ margin: "0 auto 20px", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <picture>
               <source
@@ -180,34 +208,6 @@ export default function KimBondo() {
               Kim Bondo, bedemand
             </figcaption>
           </figure>
-          <h1
-            style={{
-              fontFamily: "'Lora', serif",
-              fontWeight: 600,
-              fontSize: "clamp(28px, 5vw, 56px)",
-              color: "#2F3E46",
-              lineHeight: 1.2,
-              marginBottom: "24px",
-              letterSpacing: "0.01em",
-            }}
-          >
-            Bedemand i København og Nordsjælland – jeg tager selv telefonen, døgnet rundt
-          </h1>
-          <p
-            style={{
-              fontFamily: "'Open Sans', sans-serif",
-              fontSize: "clamp(16px, 2vw, 22px)",
-              color: "#3d5260",
-              lineHeight: 1.65,
-              maxWidth: "620px",
-              margin: "0 auto 28px",
-            }}
-          >
-            Jeg hedder Kim Bondo. Når I ringer, er det mig, I taler med – og mig, der følger jer hele vejen til afskeden. Mine priser står åbent her på siden, og begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
-          </p>
-          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>
-            Ring trygt til mig på 28 14 60 11
-          </a>
           <p style={{ marginTop: "14px", fontSize: "15px", color: "#5a7a6a", fontFamily: "'Open Sans', sans-serif", lineHeight: 1.6 }}>
             Med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland.
           </p>
