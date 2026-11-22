@@ -106,6 +106,14 @@ export default function CookieConsent() {
     return () => window.removeEventListener("hashchange", aabnVedHash);
   }, []);
 
+  // Mens banneret er fremme, får siden ekstra luft i bunden på mobil (se stylesheet nedenfor),
+  // så indholdet ikke ender bag banneret. Påvirker ikke samtykket.
+  useEffect(() => {
+    if (!synlig) return;
+    document.body.classList.add("cookie-synlig");
+    return () => document.body.classList.remove("cookie-synlig");
+  }, [synlig]);
+
   const vaelg = (valg: Valg) => {
     gem(valg);
     opdaterSamtykke(valg);
@@ -152,11 +160,12 @@ export default function CookieConsent() {
       {/* Mobil: kompakt og placeret OVER den faste "Ring til Kim"-bjælke, så den altid kan trykkes på */}
       <style>{`
         @media (max-width: 768px) {
-          .cookieboks { bottom: calc(56px + env(safe-area-inset-bottom)) !important; padding: 10px 14px !important; }
+          .cookieboks { bottom: calc(56px + env(safe-area-inset-bottom)) !important; padding: 8px 12px !important; }
           .cookieboks-indhold { gap: 8px !important; }
-          .cookieboks-tekst { font-size: 13px !important; line-height: 1.5 !important; flex-basis: 100% !important; }
+          .cookieboks-tekst { font-size: 12px !important; line-height: 1.4 !important; flex-basis: 100% !important; }
           .cookieboks-knapper { flex-basis: 100% !important; flex-wrap: nowrap !important; gap: 8px !important; }
-          .cookieboks-knapper button { flex: 1 1 0 !important; padding: 8px 10px !important; font-size: 14px !important; }
+          .cookieboks-knapper button { flex: 1 1 0 !important; padding: 8px 8px !important; font-size: 13px !important; }
+          body.cookie-synlig { padding-bottom: calc(56px + env(safe-area-inset-bottom) + 120px) !important; }
         }
       `}</style>
       <div

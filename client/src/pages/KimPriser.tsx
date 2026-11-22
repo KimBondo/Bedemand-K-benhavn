@@ -3,6 +3,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 import ContactForm from "@/components/ContactForm";
 import KimPortraet from "@/components/KimPortraet";
+import Anmeldelser from "@/components/Anmeldelser";
 
 
 /**
@@ -139,6 +140,8 @@ export default function KimPriser() {
         </div>
       </div>
 
+
+      <Anmeldelser />
 
       {/* ── CONTENT ── */}
       <div style={s.wrap}>
@@ -482,6 +485,7 @@ export default function KimPriser() {
 
         {/* ── KONTAKTFORMULAR ── */}
         <section id="ring-mig-op" style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px", scrollMarginTop: "16px" }}>
+          <div id="kontakt" style={{ scrollMarginTop: "16px" }} />
           <span style={s.label}>Spørgsmål til priserne?</span>
           <h2 style={{ ...s.h2, marginBottom: "8px" }}>Ring mig op</h2>
           <p style={{ ...s.body, marginBottom: "28px" }}>
@@ -536,7 +540,7 @@ export default function KimPriser() {
           Vandtårnsvej 62A, kontor 11, 2860 Søborg
         </p>
         <a
-          href="/#kontakt"
+          href="#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",

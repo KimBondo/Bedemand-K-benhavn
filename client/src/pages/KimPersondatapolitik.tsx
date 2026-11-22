@@ -291,7 +291,7 @@ export default function KimPersondatapolitik() {
           Kim Bondo
         </p>
         <a
-          href="/#kontakt"
+          href="tel:+4528146011"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
@@ -306,7 +306,7 @@ export default function KimPersondatapolitik() {
             marginBottom: "48px",
           }}
         >
-          Kontakt mig
+          Ring til mig på 28 14 60 11
         </a>
         <p
           style={{

@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import Anmeldelser from "@/components/Anmeldelser";
 
 /**
  * Kim Bondo – Personal Homepage
@@ -212,6 +213,8 @@ export default function KimBondo() {
           </p>
         </div>
       </section>
+
+      <Anmeldelser />
 
       {/* ══════════════════════════════════════════════════════
           NÅR NOGEN LIGE ER DØD

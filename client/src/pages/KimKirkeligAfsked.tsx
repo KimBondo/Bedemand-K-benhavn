@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import ContactForm from "@/components/ContactForm";
 
 /**
  * Kim Bondo – Kirkelig afsked
@@ -95,12 +96,9 @@ export default function KimKirkeligAfsked() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           En kirkelig ceremoni er for mange en naturlig og meningsfuld ramme for afskeden. Jeg hjælper jer med alt det praktiske – fra kontakt til kirken og præsten til selve dagen.
         </p>
-        <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
-          Kontakt mig
+        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
+          Ring til mig på 28 14 60 11
         </a>
-        <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#3D6B4F" }}>
-          eller ring til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>28 14 60 11</a>
-        </p>
       </section>
 
       {/* ── HVAD ER EN KIRKELIG AFSKED ── */}
@@ -233,6 +231,19 @@ export default function KimKirkeligAfsked() {
         </div>
       </section>
 
+      <section id="kontakt" style={{ background: "#F9F8F6", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+          <h2 style={{ ...s.h2, textAlign: "center" }}>Skriv til mig</h2>
+          <p style={{ ...s.body, textAlign: "center", marginBottom: "32px" }}>
+            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+          </p>
+          <ContactForm />
+          <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>
+            Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>
+          </p>
+        </div>
+      </section>
+
       {/* ── CTA ── */}
       {/* ── FOOTER ── */}
       <footer
@@ -277,7 +288,7 @@ export default function KimKirkeligAfsked() {
           Vandtårnsvej 62A, kontor 11, 2860 Søborg
         </p>
         <a
-          href="/#kontakt"
+          href="#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",

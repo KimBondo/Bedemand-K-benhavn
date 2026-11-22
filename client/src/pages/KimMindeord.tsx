@@ -1,6 +1,7 @@
 import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
+import ContactForm from "@/components/ContactForm";
 
 /**
  * Kim Bondo – Mindeord og tale ved begravelse
@@ -153,8 +154,21 @@ export default function KimMindeord() {
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
             <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på 28 14 60 11</a>
-            <a href="/#kontakt" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Kontakt mig</a>
+            <a href="#kontakt" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Kontakt mig</a>
           </div>
+        </div>
+      </section>
+
+      <section id="kontakt" style={{ background: "#F9F8F6", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+          <h2 style={{ ...s.h2, textAlign: "center" }}>Skriv til mig</h2>
+          <p style={{ ...s.body, textAlign: "center", marginBottom: "32px" }}>
+            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+          </p>
+          <ContactForm />
+          <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>
+            Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>
+          </p>
         </div>
       </section>
 
@@ -202,7 +216,7 @@ export default function KimMindeord() {
           Vandtårnsvej 62A, kontor 11, 2860 Søborg
         </p>
         <a
-          href="/#kontakt"
+          href="#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",

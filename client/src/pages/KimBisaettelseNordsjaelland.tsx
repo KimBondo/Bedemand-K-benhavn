@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 import CookieLink from "@/components/CookieLink";
+import ContactForm from "@/components/ContactForm";
 
 /**
  * Sådan forløber en bisættelse i Nordsjælland
@@ -103,6 +104,19 @@ export default function KimBisaettelseNordsjaelland() {
               <p style={s.body}>{item.answer}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section id="kontakt" style={{ background: "#F9F8F6", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+          <h2 style={{ ...s.h2, textAlign: "center" }}>Skriv til mig</h2>
+          <p style={{ ...s.body, textAlign: "center", marginBottom: "32px" }}>
+            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+          </p>
+          <ContactForm />
+          <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>
+            Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>
+          </p>
         </div>
       </section>
 

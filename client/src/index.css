@@ -161,3 +161,15 @@
     transform: scale(0.97);
   }
 }
+
+/* Landingssider: den store opkaldsknap skal stå over folden på mobil (også med cookie-banner) */
+@media (max-width: 768px) {
+  .hero-opkald {
+    padding-top: 28px !important;
+    padding-bottom: 32px !important;
+  }
+  /* Kun afstande – teksten og rækkefølgen er den samme */
+  .hero-opkald > p:first-child { margin-bottom: 10px !important; }
+  .hero-opkald h1 { margin-bottom: 14px !important; }
+  .hero-opkald > p { margin-bottom: 18px !important; line-height: 1.55 !important; }
+}
