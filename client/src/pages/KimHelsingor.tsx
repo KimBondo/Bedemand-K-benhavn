@@ -77,7 +77,7 @@ export default function KimHelsingor() {
         </ol>
       </nav>
 
-      <section style={{ background: "#F9F8F6", padding: "64px 24px 56px", textAlign: "center" }}>
+      <section className="hero-opkald" style={{ background: "#F9F8F6", padding: "64px 24px 56px", textAlign: "center" }}>
         <p style={s.label}>Bedemand i Helsingør</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
           Personlig bedemand i Helsingør
@@ -85,8 +85,10 @@ export default function KimHelsingor() {
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
           Jeg er selvstændig bedemand og hjælper familier i Helsingør og langs kysten med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
-        <KimPortraet />
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
+        <div style={{ marginTop: "28px" }}>
+          <KimPortraet />
+        </div>
       </section>
 
       <PakkeprisBoks />
@@ -151,7 +153,7 @@ export default function KimHelsingor() {
         <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.82)", marginBottom: "32px", lineHeight: 1.7 }}>
           Vandtårnsvej 62A, kontor 11, 2860 Søborg
         </p>
-        <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
+        <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em", marginBottom: "48px" }}>
           Kontakt mig
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>

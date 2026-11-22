@@ -2,6 +2,7 @@ import SEO from "@/components/SEO";
 import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 import KimPortraet from "@/components/KimPortraet";
+import ContactForm from "@/components/ContactForm";
 
 /**
  * Kim Bondo – Begravelse
@@ -100,7 +101,7 @@ export default function KimBegravelse() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>
           Begravelse
         </p>
@@ -110,19 +111,17 @@ export default function KimBegravelse() {
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
           En begravelse er en af de ældste afskedsformer. Kisten sænkes i jorden på et gravsted, der bliver et varigt sted at mindes. Jeg hjælper jer med alt fra den første samtale til jordfæstelsen.
         </p>
-        <KimPortraet />
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
-          <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
-            Kontakt mig
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+            Ring til mig på 28 14 60 11
           </a>
           <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Se priser
           </a>
         </div>
-        <p style={{ fontSize: "14px", color: "#9aacb4", marginTop: "16px" }}>
-          eller ring på{" "}
-          <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none" }}>28 14 60 11</a>
-        </p>
+        <div style={{ marginTop: "28px" }}>
+          <KimPortraet />
+        </div>
       </section>
 
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
@@ -202,7 +201,7 @@ export default function KimBegravelse() {
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Se den fulde prisliste
           </a>
-          <a href="/#kontakt" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
+          <a href="#kontakt" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Kontakt mig
           </a>
         </div>
@@ -231,6 +230,21 @@ export default function KimBegravelse() {
         ))}
       </section>
 
+      <section id="kontakt" style={{ background: "#F9F8F6", padding: "64px 24px" }}>
+        <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(22px, 3vw, 30px)", color: "#2F3E46", textAlign: "center", margin: "0 0 16px" }}>
+            Skriv til mig
+          </h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.7, color: "#5a7a6a", textAlign: "center", marginBottom: "32px" }}>
+            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+          </p>
+          <ContactForm />
+          <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>
+            Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>
+          </p>
+        </div>
+      </section>
+
       {/* ── FOOTER / RELATEREDE ── */}
       <section style={{ background: "#2F3E46", padding: "64px 32px", textAlign: "center" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "rgba(255,255,255,0.82)", textTransform: "uppercase", marginBottom: "24px" }}>
@@ -248,7 +262,7 @@ export default function KimBegravelse() {
             </a>
           ))}
         </div>
-        <a href="/#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
+        <a href="#kontakt" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(15px, 1.8vw, 18px)", padding: "18px 40px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
           Kontakt mig
         </a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "16px" }}>

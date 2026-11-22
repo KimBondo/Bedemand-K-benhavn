@@ -246,7 +246,7 @@ export default function KimMinSidsteVilje() {
           Vandtårnsvej 62A, kontor 11, 2860 Søborg
         </p>
         <a
-          href="/#kontakt"
+          href="#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",

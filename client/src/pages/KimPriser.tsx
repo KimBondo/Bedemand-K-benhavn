@@ -3,6 +3,7 @@ import SchemaOrg from "@/components/SchemaOrg";
 import KimNav from "@/components/KimNav";
 import ContactForm from "@/components/ContactForm";
 import KimPortraet from "@/components/KimPortraet";
+import Anmeldelser from "@/components/Anmeldelser";
 
 
 /**
@@ -111,16 +112,16 @@ export default function KimPriser() {
           <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(26px, 4vw, 42px)", color: "#ffffff", lineHeight: 1.2, marginBottom: "20px", marginTop: 0 }}>
             Priser på bisættelse og begravelse i København og Nordsjælland
           </h1>
-          <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
-            Her står mine priser – og de udgifter, der ikke går til mig.
-          </p>
-          <KimPortraet align="left" mork />
-<div style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", alignItems: "center", marginBottom: "20px" }}>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "12px 28px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
             Ring til mig på 28 14 60 11
           </a>
           <a href="#ring-mig-op" style={{ display: "inline-block", background: "transparent", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "15px", padding: "11px 26px", borderRadius: "3px", textDecoration: "none", border: "1.5px solid rgba(255,255,255,0.6)" }}>Ring mig op</a>
           </div>
+          <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(16px, 2vw, 20px)", color: "rgba(255,255,255,0.75)", marginBottom: "24px", lineHeight: 1.6 }}>
+            Her står mine priser – og de udgifter, der ikke går til mig.
+          </p>
+          <KimPortraet align="left" mork />
           <div style={{ marginTop: "36px", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "12px" }}>
             {[
               { navn: "Bisættelse uden ceremoni", pris: "9.995 kr.", href: "#uden-ceremoni" },
@@ -139,6 +140,8 @@ export default function KimPriser() {
         </div>
       </div>
 
+
+      <Anmeldelser />
 
       {/* ── CONTENT ── */}
       <div style={s.wrap}>
@@ -482,6 +485,7 @@ export default function KimPriser() {
 
         {/* ── KONTAKTFORMULAR ── */}
         <section id="ring-mig-op" style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "40px 36px", marginBottom: "56px", scrollMarginTop: "16px" }}>
+          <div id="kontakt" style={{ scrollMarginTop: "16px" }} />
           <span style={s.label}>Spørgsmål til priserne?</span>
           <h2 style={{ ...s.h2, marginBottom: "8px" }}>Ring mig op</h2>
           <p style={{ ...s.body, marginBottom: "28px" }}>
@@ -536,7 +540,7 @@ export default function KimPriser() {
           Vandtårnsvej 62A, kontor 11, 2860 Søborg
         </p>
         <a
-          href="/#kontakt"
+          href="#kontakt"
           style={{
             display: "inline-block",
             background: "#3D6B4F",
