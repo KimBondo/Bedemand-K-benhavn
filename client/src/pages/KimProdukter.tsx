@@ -243,7 +243,7 @@ export default function KimProdukter() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Kister · Urner</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
           Kister og urner – vælg med ro og overblik
@@ -260,7 +260,7 @@ export default function KimProdukter() {
           <p style={s.label}>Kister</p>
           <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine kister</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Jeg tilbyder et udvalg af kister i forskellige materialer og udtryk. Kisterne er valgt med omhu. Har I spørgsmål til et bestemt produkt, er I velkomne til at ringe.
+            Jeg har valgt kisterne med omhu, så der er noget, der passer til de fleste. I behøver ikke beslutte noget her og nu – har I spørgsmål til en bestemt kiste, er I velkomne til at ringe.
           </p>
           <div
             style={{
@@ -326,7 +326,7 @@ export default function KimProdukter() {
           <p style={s.label}>Urner</p>
           <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine urner</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
-            Urnerne koster fra 950 kr. Jeg tilbyder et udvalg i forskellige farver og materialer – fra bionedbrydelige natururner til klassiske museumsurner. Natururnen indgår i mine pakker; vælger I en anden urne, betaler I kun forskellen.
+            Urnerne koster fra 950 kr. Der er et udvalg i forskellige farver og materialer – fra bionedbrydelige natururner til klassiske museumsurner. Natururnen indgår i mine pakker; vælger I en anden urne, betaler I kun forskellen.
           </p>
           <div
             style={{

@@ -16,7 +16,7 @@ export default function KimTak() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Tak for jeres besked – Bedemand Kim Bondo"
-        description="Tak for jeres besked. Jeg vender tilbage hurtigst muligt. Haster det, så ring til mig på 28 14 60 11."
+        description="Tak for jeres besked. Jeg vender tilbage, så hurtigt jeg kan. Haster det, så ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/tak/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
         noindex
@@ -57,19 +57,19 @@ export default function KimTak() {
 
 
 
-      <section style={{ background: "#F9F8F6", padding: "80px 32px 72px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "80px 32px 72px", textAlign: "center" }}>
         <div style={{ maxWidth: "620px", margin: "0 auto" }}>
           <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 46px)", color: "#2F3E46", lineHeight: 1.2, margin: "0 0 24px" }}>
             Tak for jeres besked
           </h1>
           <p style={s.body}>
-            Jeg har modtaget den og vender tilbage hurtigst muligt. Haster det, eller vil I hellere tale med det samme, så ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>.
+            Jeg har modtaget den og vender tilbage, så hurtigt jeg kan. Tak, fordi I skrev. Haster det, eller vil I hellere tale med det samme, så ring til mig på <a href="tel:+4528146011" style={{ ...s.link, whiteSpace: "nowrap" }}>28 14 60 11</a>.
           </p>
           <p style={{ ...s.body, fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "19px" }}>
             Kim Bondo
           </p>
           <div style={{ marginTop: "28px" }}>
-            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på 28 14 60 11</a>
+            <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på <span style={{ whiteSpace: "nowrap" }}>28 14 60 11</span></a>
           </div>
           <div style={{ marginTop: "48px", paddingTop: "32px", borderTop: "1px solid #e0dcd6" }}>
             <h3 style={s.h3}>Sorg og støtte efter afskeden</h3>
@@ -86,10 +86,10 @@ export default function KimTak() {
 
       <footer style={{ background: "#2F3E46", color: "#fff", textAlign: "center", padding: "80px 32px" }}>
         <p style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(18px, 2.5vw, 26px)", marginBottom: "12px" }}>Bedemand København – Kim Bondo</p>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring til mig på 28 14 60 11.</p>
-        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Ring til mig på 28 14 60 11</a>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "16px", color: "#b0c4b1", marginBottom: "32px" }}>Ring til mig på <span style={{ whiteSpace: "nowrap" }}>28 14 60 11</span>.</p>
+        <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none" }}>Ring til mig på <span style={{ whiteSpace: "nowrap" }}>28 14 60 11</span></a>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.78)", marginTop: "40px" }}>
-          © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, kontor 11, 2860 Søborg · Tlf.: 28 14 60 11 · kim@bedemandkobenhavn.dk · CVR-nr.: 45084159
+          © {new Date().getFullYear()} Bedemand København ApS · Vandtårnsvej 62A, kontor 11, 2860 Søborg · <span style={{ whiteSpace: "nowrap" }}>Tlf.: 28 14 60 11</span> · kim@bedemandkobenhavn.dk · CVR-nr.: 45084159
           {" "}·{" "}<CookieLink />
         </p>
       </footer>
