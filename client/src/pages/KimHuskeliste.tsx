@@ -89,7 +89,7 @@ export default function KimHuskeliste() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Praktisk vejledning</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
           Huskeliste ved dødsfald
@@ -98,11 +98,14 @@ export default function KimHuskeliste() {
           Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Når I mister en, I holder af, fylder sorgen det hele – og alligevel er der praktiske ting, der skal ordnes. Her er et roligt overblik over de vigtigste skridt, og hvad jeg tager mig af for jer. I behøver ikke klare det hele selv. Læs også den praktiske guide: <a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a>
+          Når I mister en, I holder af, er der praktiske ting, der skal ordnes midt i sorgen. Her er et roligt overblik – og hvad jeg tager mig af for jer.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Ring til mig på 28 14 60 11
         </a>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", margin: "16px auto 0" }}>
+          Læs også den praktiske guide: <a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a>
+        </p>
       </section>
 
       {/* ── TRIN 1 ── */}
@@ -207,7 +210,7 @@ export default function KimHuskeliste() {
             </div>
             <div>
               <h3 style={{ ...s.h3, fontSize: "17px" }}>Praktisk i hjemmet</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>Det kan være en hjælp at tømme køleskabet, vande blomsterne og holde varmen på. Husdyr skal passes, og har afdøde jagttegn eller våben, skal politiet kontaktes.</p>
+              <p style={{ ...s.body, marginBottom: 0 }}>Det kan være en hjælp at tømme køleskabet, vande blomsterne og sørge for, at der er varme i huset. Husdyr skal passes, og har afdøde jagttegn eller våben, skal politiet kontaktes.</p>
             </div>
             <div>
               <h3 style={{ ...s.h3, fontSize: "17px" }}>Onlineprofiler</h3>

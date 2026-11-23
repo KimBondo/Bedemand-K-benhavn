@@ -45,14 +45,14 @@ const FAQ_SECTIONS = [
   {
     title: "Priser og økonomi",
     items: [
-      { q: "Hvad koster en begravelse?", a: "En bisættelse uden ceremoni koster 9.995 kr. En begravelse koster fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Mit honorar, kiste, urne (ved bisættelse), kørsel og koordinering er med i prisen. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.", link: "/hvad-koster-en-begravelse/" },
-      { q: "Hvor mange rustvognskørsler er med i prisen?", a: "Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere, fortæller jeg jer det, før vi kører – og I kan se reglerne på prissiden.", link: "/priser/" },
+      { q: "Hvad koster en begravelse?", a: "En bisættelse uden ceremoni koster 9.995 kr. En begravelse koster fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Mit honorar, kiste, urne (ved bisættelse), kørsel og koordinering er med i prisen. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.", link: "/priser/", linkIOrd: { tekst: "prissiden", href: "/priser/" } },
+      { q: "Hvor mange rustvognskørsler er med i prisen?", a: "Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere, fortæller jeg jer det, før vi kører – og I kan se reglerne på prissiden.", link: "/priser/", linkIOrd: { tekst: "prissiden", href: "/priser/" } },
       { q: "Hvad er ikke inkluderet i prisen?", a: "Gravsten, gravsted, leje af kapel, kisteophold, urnenedsættelse og ligbrænding er ikke med i mine priser. Dem bestemmer jeg ikke over, men jeg gennemgår dem med jer, før I beslutter noget.", link: "/priser/" },
       { q: "Hvad er begravelseshjælp?", a: "Begravelseshjælp er et tilskud fra Udbetaling Danmark til dækning af begravelsesudgifter. Tilskuddet afhænger af afdødes formue. Jeg søger det for jer.", link: "/begravelseshjaelp/" },
       { q: "Er der ekstra betaling i weekenden?", a: "Ja – der er et fast tillæg på 800 kr. pr. udkald efter kl. 16 på hverdage samt i weekender og på helligdage. Det står på prislisten.", link: "/priser/" },
-      { q: "Hvad er prisen på en bisættelse?", a: "En bisættelse med ceremoni koster hos mig fra 14.995 kr. Ønsker I den enkleste afsked – en bisættelse uden ceremoni – koster den 9.995 kr. Jeg søger begravelseshjælpen for jer, og den trækkes fra fakturaen.", link: "/priser/" },
-      { q: "Hvad koster en bedemand i Nordsjælland?", a: "Det samme som i København: bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bisættelse med ceremoni fra 14.995 kr. Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen – ikke for min egen kørsel fra Søborg. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.", link: "/nordsjaelland/" },
-      { q: "Kan jeg få en fast pris på forhånd?", a: "Ja. Mit honorar er fast og står på prislisten. I kender prisen, inden I underskriver noget.", link: "/priser/" },
+      { q: "Hvad er prisen på en bisættelse?", a: "En bisættelse med ceremoni koster hos mig fra 14.995 kr. Ønsker I den enkleste afsked – en bisættelse uden ceremoni – koster den 9.995 kr. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden. Jeg søger begravelseshjælpen for jer, og den trækkes fra fakturaen.", link: "/priser/", linkIOrd: { tekst: "prissiden", href: "/priser/" } },
+      { q: "Hvad koster en bedemand i Nordsjælland?", a: "Det samme som i København: bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bisættelse med ceremoni fra 14.995 kr. Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen – ikke for min egen kørsel fra Søborg. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.", link: "/priser/", linkIOrd: { tekst: "prissiden", href: "/priser/" } },
+      { q: "Kan jeg få prisen at vide på forhånd?", a: "Ja. Mit honorar er fast og står på prislisten. I kender prisen, inden I underskriver noget.", link: "/priser/" },
     ],
   },
   {
@@ -132,7 +132,7 @@ export default function KimFaq() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>FAQ</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 48px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
           Spørgsmål og svar om begravelse og bisættelse

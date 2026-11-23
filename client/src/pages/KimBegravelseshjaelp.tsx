@@ -89,7 +89,7 @@ export default function KimBegravelseshjaelp() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Økonomi og støtte</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
           Begravelseshjælp – hvad kan I søge?
@@ -127,7 +127,7 @@ export default function KimBegravelseshjaelp() {
             ))}
           </div>
           <p style={s.body}>
-            Den fulde begravelseshjælp er op til 13.550 kr., og min bisættelse uden ceremoni koster 9.995 kr. Er afdøde berettiget til hele beløbet, kan hjælpen altså dække pakken. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.
+            Den fulde begravelseshjælp er op til 13.550 kr., og min bisættelse uden ceremoni koster 9.995 kr. Er afdøde berettiget til hele beløbet, kan hjælpen altså dække pakken. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={s.link}>prissiden</a>.
           </p>
           <p style={s.body}>
             Derudover har enkelte fagforeninger fortsat ordninger med begravelseshjælp. Afdødes fagforening kan oplyse om dette – jeg hjælper gerne med at undersøge det.
@@ -144,7 +144,7 @@ export default function KimBegravelseshjaelp() {
             Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. Var afdøde født før 1. april 1957, udbetales der altid mindst 1.050 kr. – uanset formue. For øvrige afhænger tilskuddet af formuen på tidspunktet for dødsfaldet – både afdødes og en eventuel ægtefælles. Det er Udbetaling Danmark, der træffer afgørelsen.
           </p>
           <p style={s.body}>
-            Begravelseshjælpen søges via Udbetaling Danmark. Jeg hjælper med ansøgningen som en del af mit arbejde, så I ikke selv skal stå med det i en svær tid.
+            Begravelseshjælpen søges via Udbetaling Danmark. Jeg søger den for jer som en del af mit arbejde, så I ikke selv skal stå med det i en svær tid.
           </p>
 
           <div style={{ background: "#fff", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6", marginTop: "16px" }}>
