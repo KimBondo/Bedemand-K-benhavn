@@ -143,7 +143,7 @@ export default function KimAfskeder() {
               title: "Kirkelig afsked",
               tag: "Med præst",
               desc: "En ceremoni i kirke eller kapel, ledet af en præst fra folkekirken. Følger faste ritualer, men med god plads til at tilpasse salmer og indhold efter familiens ønsker.",
-              details: ["Præst fra folkekirken", "Salmer og jordpåkastelse", "Kan afsluttes med begravelse eller bisættelse", "Gratis kirkelig ceremoni for folkekirkens medlemmer"],
+              details: ["Præst fra folkekirken", "Salmer og jordpåkastelse", "Kan afsluttes med begravelse eller bisættelse", "Ingen betaling for ceremonien for folkekirkens medlemmer"],
               href: "/kirkelig-afsked/",
               linkText: "Læs om kirkelig afsked",
             },
@@ -203,6 +203,9 @@ export default function KimAfskeder() {
             </div>
           ))}
         </div>
+        <p style={{ maxWidth: "680px", margin: "32px auto 0", textAlign: "center", fontFamily: "'Open Sans', sans-serif", fontSize: "16px", lineHeight: 1.7, color: "#5a7a6a" }}>
+          Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>prissiden</a>.
+        </p>
       </section>
 
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />

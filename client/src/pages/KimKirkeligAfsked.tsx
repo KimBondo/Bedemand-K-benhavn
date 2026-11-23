@@ -40,7 +40,7 @@ export default function KimKirkeligAfsked() {
           { question: "Kan man få en kirkelig afsked uden at være medlem af folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Ring til mig, så undersøger vi mulighederne sammen." },
           { question: "Kan man holde ceremonien i en anden kirke end den lokale?", answer: "Det kan ofte lade sig gøre, hvis der er en særlig tilknytning til kirken – fx tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Det er præsten, der vurderer tilknytningen. Sammen finder vi det sted til afskeden, der passer jer bedst." },
           { question: "Kan en kirkelig ceremoni kombineres med askespredning?", answer: "Ja. Efter en kirkelig bisættelse kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det. Jeg hjælper med at arrangere begge dele." },
-          { question: "Er ceremonien i kirken gratis?", answer: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden." },
+          { question: "Skal I betale for ceremonien i kirken?", answer: "Var afdøde medlem af folkekirken, er der som regel ingen betaling for selve ceremonien. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden." },
           { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Sammen finder vi det sted til afskeden, der passer jer bedst." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/kirkelig-afsked"
@@ -198,8 +198,8 @@ export default function KimKirkeligAfsked() {
               a: "Ja. Efter en kirkelig bisættelse kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det. Jeg hjælper med at arrangere begge dele.",
             },
             {
-              q: "Er ceremonien i kirken gratis?",
-              a: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.",
+              q: "Skal I betale for ceremonien i kirken?",
+              a: "Var afdøde medlem af folkekirken, er der som regel ingen betaling for selve ceremonien. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.",
             },
             {
               q: "Kan ceremonien foregå i et kapel i stedet for kirken?",

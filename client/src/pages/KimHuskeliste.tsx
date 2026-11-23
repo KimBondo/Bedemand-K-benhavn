@@ -104,7 +104,7 @@ export default function KimHuskeliste() {
           Ring til mig på 28 14 60 11
         </a>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", margin: "16px auto 0" }}>
-          Læs også den praktiske guide: <a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a>
+          Læs også: <a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a>
         </p>
       </section>
 

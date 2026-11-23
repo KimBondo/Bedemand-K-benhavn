@@ -20,7 +20,7 @@ export default function KimMinSidsteVilje() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Min Sidste Vilje – skema og ønsker til egen begravelse"
-        description="Skriv jeres ønsker til afskeden ned. Hent skemaet Min Sidste Vilje gratis, eller få hjælp ved et hjemmebesøg uden beregning. Ring til mig på 28 14 60 11."
+        description="Skriv jeres ønsker til afskeden ned. Hent skemaet Min Sidste Vilje, eller få hjælp ved et hjemmebesøg uden beregning. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/min-sidste-vilje/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -83,7 +83,7 @@ export default function KimMinSidsteVilje() {
           Opdateret <time dateTime="2026-09-29">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Det er en gave til dem, man efterlader, at have skrevet sine ønsker ned i forvejen. Jeg hjælper uden beregning og uden forpligtelse – eller I kan hente skemaet og udfylde det selv.
+          Det er en gave til dem, man efterlader, at have skrevet sine ønsker ned i forvejen. Jeg hjælper uden beregning og uden forpligtelse.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på 28 14 60 11</a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a" }}>

@@ -41,7 +41,7 @@ export default function KimBorgerligAfsked() {
           { question: "Hvem kan lede en borgerlig ceremoni?", answer: "Ceremonien kan ledes af en person fra familien, en nær ven eller en professionel ceremonileder. Humanistisk Samfund tilbyder uddannede ceremoniledere. Jeg kan også hjælpe med at gennemføre en ceremoni, som I planlægger." },
           { question: "Kan en borgerlig afsked foregå i en kirke?", answer: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. Sammen finder vi et andet sted til afskeden, der passer jer bedst." },
           { question: "Kan en borgerlig ceremoni kombineres med askespredning?", answer: "Ja. Efter en borgerlig bisættelse kan urnen bruges til askespredning over havet. Jeg hjælper med at arrangere begge dele." },
-          { question: "Hvad koster en borgerlig afsked?", answer: "Det afhænger af, hvordan afskeden skal være. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden." },
+          { question: "Hvad koster en borgerlig afsked?", answer: "Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/borgerlig-afsked"
       />
@@ -183,7 +183,7 @@ export default function KimBorgerligAfsked() {
             },
             {
               q: "Hvad koster en borgerlig afsked?",
-              a: "Det afhænger af, hvordan afskeden skal være. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.",
+              a: "Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.",
             },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
