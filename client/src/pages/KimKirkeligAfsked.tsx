@@ -37,11 +37,11 @@ export default function KimKirkeligAfsked() {
           { name: "Kirkelig afsked", url: "https://www.bedemandkobenhavn.dk/kirkelig-afsked/" }
         ]}
         faqItems={[
-          { question: "Kan man få en kirkelig afsked uden at være medlem af folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen." },
-          { question: "Kan man holde ceremonien i en anden kirke end den lokale?", answer: "Ja, det er muligt, hvis der er en særlig tilknytning til den ønskede kirke – fx tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Præsten vurderer tilknytningen." },
+          { question: "Kan man få en kirkelig afsked uden at være medlem af folkekirken?", answer: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Ring til mig, så undersøger vi mulighederne sammen." },
+          { question: "Kan man holde ceremonien i en anden kirke end den lokale?", answer: "Det kan ofte lade sig gøre, hvis der er en særlig tilknytning til kirken – fx tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Det er præsten, der vurderer tilknytningen. Sammen finder vi det sted til afskeden, der passer jer bedst." },
           { question: "Kan en kirkelig ceremoni kombineres med askespredning?", answer: "Ja. Efter en kirkelig bisættelse kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det. Jeg hjælper med at arrangere begge dele." },
-          { question: "Er ceremonien i kirken gratis?", answer: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, ligbrænding eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd." },
-          { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde en løsning, der passer jer." },
+          { question: "Skal I betale for ceremonien i kirken?", answer: "Var afdøde medlem af folkekirken, er der som regel ingen betaling for selve ceremonien. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden." },
+          { question: "Kan ceremonien foregå i et kapel i stedet for kirken?", answer: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Sammen finder vi det sted til afskeden, der passer jer bedst." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/kirkelig-afsked"
       />
@@ -88,7 +88,7 @@ export default function KimKirkeligAfsked() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Kirkelig afsked</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
           En afsked i kirken – med plads til både sorg og håb
@@ -187,28 +187,28 @@ export default function KimKirkeligAfsked() {
           {[
             {
               q: "Kan man få en kirkelig afsked uden at være medlem af folkekirken?",
-              a: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Kontakt mig, så undersøger vi mulighederne sammen.",
+              a: "Som udgangspunkt kræver en kirkelig ceremoni, at afdøde var medlem af folkekirken. I særlige tilfælde kan en præst vælge at dispensere. Ring til mig, så undersøger vi mulighederne sammen.",
             },
             {
               q: "Kan man holde ceremonien i en anden kirke end den lokale?",
-              a: "Ja, det er muligt, hvis der er en særlig tilknytning til den ønskede kirke – fx tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Præsten vurderer tilknytningen.",
+              a: "Det kan ofte lade sig gøre, hvis der er en særlig tilknytning til kirken – fx tidligere bopæl, nære pårørende i sognet eller afdøde begravet på kirkegården. Det er præsten, der vurderer tilknytningen. Sammen finder vi det sted til afskeden, der passer jer bedst.",
             },
             {
               q: "Kan en kirkelig ceremoni kombineres med askespredning?",
               a: "Ja. Efter en kirkelig bisættelse kan urnen bruges til askespredning over havet, hvis afdøde har ønsket det. Jeg hjælper med at arrangere begge dele.",
             },
             {
-              q: "Er ceremonien i kirken gratis?",
-              a: "Var afdøde medlem af folkekirken, er selve ceremonien som regel gratis. Der kommer dog udgifter til kiste, kørsel, ligbrænding eller gravsted oveni. Jeg gennemgår alle udgifter med jer på forhånd.",
+              q: "Skal I betale for ceremonien i kirken?",
+              a: "Var afdøde medlem af folkekirken, er der som regel ingen betaling for selve ceremonien. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.",
             },
             {
               q: "Kan ceremonien foregå i et kapel i stedet for kirken?",
-              a: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Vær opmærksom på, at der kan være udgifter til leje af kapellet. Jeg hjælper med at finde en løsning, der passer jer.",
+              a: "Ja, en kirkelig ceremoni kan godt foregå i et kapel, hvis en præst medvirker. Sammen finder vi det sted til afskeden, der passer jer bedst.",
             },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a.includes("prissiden") ? (<>{faq.a.split("prissiden")[0]}<a href="/priser/" style={s.link}>prissiden</a>{faq.a.split("prissiden")[1]}</>) : faq.a}</p>
             </div>
           ))}
         </div>

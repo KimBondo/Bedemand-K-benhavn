@@ -39,9 +39,9 @@ export default function KimBorgerligAfsked() {
         faqItems={[
           { question: "Hvad er forskellen på en borgerlig og en kirkelig afsked?", answer: "En borgerlig afsked ledes ikke af en præst og følger ingen religiøse ritualer. I stedet tilpasses ceremonien frit efter familiens ønsker. En kirkelig afsked ledes af en præst og følger folkekirkens traditioner." },
           { question: "Hvem kan lede en borgerlig ceremoni?", answer: "Ceremonien kan ledes af en person fra familien, en nær ven eller en professionel ceremonileder. Humanistisk Samfund tilbyder uddannede ceremoniledere. Jeg kan også hjælpe med at gennemføre en ceremoni, som I planlægger." },
-          { question: "Kan en borgerlig afsked foregå i en kirke?", answer: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. En borgerlig ceremoni kan holdes i et kapel, hjemme eller et andet sted – men ikke i en kirke." },
+          { question: "Kan en borgerlig afsked foregå i en kirke?", answer: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. Sammen finder vi et andet sted til afskeden, der passer jer bedst." },
           { question: "Kan en borgerlig ceremoni kombineres med askespredning?", answer: "Ja. Efter en borgerlig bisættelse kan urnen bruges til askespredning over havet. Jeg hjælper med at arrangere begge dele." },
-          { question: "Hvad koster en borgerlig afsked?", answer: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste – jeg gennemgår alle udgifter med jer på forhånd." },
+          { question: "Hvad koster en borgerlig afsked?", answer: "Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/borgerlig-afsked"
       />
@@ -88,7 +88,7 @@ export default function KimBorgerligAfsked() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Borgerlig afsked</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
           En personlig afsked – på jeres præmisser
@@ -107,7 +107,7 @@ export default function KimBorgerligAfsked() {
           <p style={s.label}>Om den borgerlige ceremoni</p>
           <h2 style={s.h2}>Hvad er en borgerlig afsked?</h2>
           <p style={s.body}>
-            En borgerlig afsked er en ceremoni uden præst og religiøse ritualer. I stedet er fokus helt på den afdødes liv, de minder I deler, og den musik og de ord, der betød noget. Ceremonien kan holdes i et kapel, hjemme eller et andet sted med særlig betydning for familien.
+            En borgerlig afsked er en ceremoni uden præst og religiøse ritualer. I stedet er fokus helt på den afdødes liv, de minder I deler, og den musik og de ord, der betød noget. Sammen finder vi det sted til afskeden, der passer jer bedst.
           </p>
           <p style={s.body}>
             Ceremonien kan afsluttes med enten en <a href="/begravelse/" style={s.link}>begravelse</a> eller en <a href="/bisaettelse/" style={s.link}>bisættelse</a> – eller efterfølges af <a href="/askespredning/" style={s.link}>askespredning over havet</a>.
@@ -118,7 +118,7 @@ export default function KimBorgerligAfsked() {
               { title: "Musik", text: "Afdødes yndlingsmusik, sange, der betød noget, eller hvad I finder passende. I bestemmer selv." },
               { title: "Taler", text: "Familie og venner kan dele personlige minder og ord. Jeg hjælper med at strukturere forløbet." },
               { title: "Blomster og dekorationer", text: "Billeder, blomster og personlige genstande kan skabe en personlig ramme." },
-              { title: "Sted", text: "Kapel, hjemme, udendørs eller et sted med særlig betydning – I bestemmer." },
+              { title: "Sted", text: "Sammen finder vi det sted til afskeden, der passer jer bedst." },
               { title: "Ceremonileder", text: "I kan vælge en fra familien, en ven eller en professionel ceremonileder til at styre forløbet." },
               { title: "Mindesamvær", text: "Mange ønsker et mindesamvær efter ceremonien. Jeg hjælper gerne med at koordinere dette." },
             ].map((item) => (
@@ -175,7 +175,7 @@ export default function KimBorgerligAfsked() {
             },
             {
               q: "Kan en borgerlig afsked foregå i en kirke?",
-              a: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. En borgerlig ceremoni kan holdes i et kapel, hjemme eller et andet sted – men ikke i en kirke.",
+              a: "Nej, kirkerne er forbeholdt kirkelige ceremonier med præst. Sammen finder vi et andet sted til afskeden, der passer jer bedst.",
             },
             {
               q: "Kan en borgerlig ceremoni kombineres med askespredning?",
@@ -183,12 +183,12 @@ export default function KimBorgerligAfsked() {
             },
             {
               q: "Hvad koster en borgerlig afsked?",
-              a: "Prisen afhænger af valg af sted, kiste og tilvalg. Se de fulde priser på min prisliste – jeg gennemgår alle udgifter med jer på forhånd.",
+              a: "Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.",
             },
           ].map((faq, i) => (
             <div key={i} style={{ borderBottom: "1px solid #e0dcd6", paddingBottom: "28px", marginBottom: "28px" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "10px" }}>{faq.q}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a}</p>
+              <p style={{ ...s.body, marginBottom: 0 }}>{faq.a.includes("prissiden") ? (<>{faq.a.split("prissiden")[0]}<a href="/priser/" style={s.link}>prissiden</a>{faq.a.split("prissiden")[1]}</>) : faq.a}</p>
             </div>
           ))}
         </div>

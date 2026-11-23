@@ -37,8 +37,8 @@ export default function KimAskespredning() {
         faqItems={[
           { question: "Er askespredning tilladt i Danmark?", answer: "Ja. Asken kan spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Findes der ikke et skriftligt ønske, kan sognet give dispensation, når det er helt sikkert, at det var afdødes ønske – her kan de pårørende fx skrive en erklæring, som sognet bruger i sin vurdering. Det er sognet, der afgør det. Jeg hjælper jer med papirerne." },
           { question: "Kan askespredning kombineres med en ceremoni?", answer: "Ja. Askespredning kan kombineres med en kirkelig eller borgerlig bisættelse med ceremoni. Nogle vælger at lade selve spredningen være en lille ceremoni for de nærmeste." },
-          { question: "Kan man sprede asken selv?", answer: "Ja. Pårørende afhenter typisk urnen og forestår selv spredningen. Jeg kan koordinere det på jeres vegne, hvis I foretrækker det." },
-          { question: "Hvad sker der med urnen efter spredningen?", answer: "Urnen må ikke efterlades i havet. Den tages med tilbage og bortskaffes. Jeg hjælper med dette, hvis det ønskes." },
+          { question: "Kan man sprede asken selv?", answer: "Ja. Mange henter selv urnen og spreder asken. Jeg kan også stå for det for jer, hvis I hellere vil det." },
+          { question: "Hvad sker der med urnen efter spredningen?", answer: "Urnen må ikke efterlades i havet. Den tages med tilbage og bortskaffes. Jeg hjælper gerne med det." },
           { question: "Kan man sprede asken i en skov?", answer: "Nej, reglerne i Danmark tillader kun askespredning over åbent hav eller større fjorde og bugter. Det er ikke tilladt at sprede asken på land, i skove, søer eller vandløb." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/askespredning"
@@ -99,7 +99,7 @@ export default function KimAskespredning() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.12em", color: "#3D6B4F", textTransform: "uppercase", marginBottom: "16px" }}>
           Askespredning
         </p>
@@ -110,13 +110,13 @@ export default function KimAskespredning() {
           Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
-          For jer, der ønsker en afsked tæt på naturen og havet. Jeg hjælper med alt det praktiske – regler, dokumentation og koordinering – så I kan fokusere på at sige farvel.
+          For jer, der ønsker en afsked tæt på havet. Jeg hjælper med regler og papirer, så I kan bruge kræfterne på at sige farvel.
         </p>
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
+        <div className="hero-knapper" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
             Ring til mig på 28 14 60 11
           </a>
-          <a href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
+          <a className="se-priser-mobil" href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>
             Se priser
           </a>
         </div>
@@ -130,7 +130,7 @@ export default function KimAskespredning() {
           Hvad er askespredning?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Askespredning er en afskedsform, hvor afdødes aske spredes over havet i stedet for at blive stedfæstet på en kirkegård.
+          Askespredning er en afskedsform, hvor afdødes aske spredes over havet i stedet for at blive sat ned på en kirkegård.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
           Askespredning foregår som en forlængelse af en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a>: asken samles i en urne og spredes derefter over åbent hav. Det kan ske med eller uden en forudgående ceremoni.
@@ -176,7 +176,7 @@ export default function KimAskespredning() {
         {[
           { num: "1", title: "Første kontakt og dokumentation", text: "Vi taler om jeres ønsker og sikrer, at den nødvendige dokumentation er på plads. Findes der ikke et skriftligt ønske, hjælper jeg med erklæringen fra de pårørende til sognet." },
           { num: "2", title: "Bisættelse med eller uden ceremoni", text: "Afdøde bisættes efter en ceremoni eller uden ceremoni. Asken samles i en urne." },
-          { num: "3", title: "Askespredningen", text: "Pårørende afhenter typisk urnen og forestår selv spredningen. I kan også lade mig koordinere det på jeres vegne. Spredningen kan være en lille, intim ceremoni for de nærmeste." },
+          { num: "3", title: "Askespredningen", text: "Mange henter selv urnen og spreder asken. I kan også lade mig stå for det. Spredningen kan være en lille, intim ceremoni for de nærmeste." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
             <div style={{ minWidth: "44px", height: "44px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
@@ -198,7 +198,7 @@ export default function KimAskespredning() {
           Hvad koster askespredning?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          Askespredning følger efter en bisættelse med eller uden ceremoni. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong> Ønsker I, at jeg står for selve askespredningen, koster det fra 2.500 kr. ekstra – det dækker koordinering, papirerne til sognet og det praktiske. I kan også selv hente urnen og sprede asken. Udgiften til ligbrænding betales til kommunen eller kirkegården, og jeg regner det hele sammen med jer på forhånd.
+          Askespredning følger efter en bisættelse med eller uden ceremoni. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong> Ønsker I, at jeg står for selve askespredningen, koster det fra 2.500 kr. ekstra – det dækker koordinering, papirerne til sognet og det praktiske. I kan også selv hente urnen og sprede asken. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>prissiden</a>.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
@@ -220,8 +220,8 @@ export default function KimAskespredning() {
         {[
           { q: "Er askespredning tilladt i Danmark?", a: "Ja. Asken kan spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Findes der ikke et skriftligt ønske, kan sognet give dispensation, når det er helt sikkert, at det var afdødes ønske – her kan de pårørende fx skrive en erklæring, som sognet bruger i sin vurdering. Det er sognet, der afgør det. Jeg hjælper jer med papirerne.", link: null, linkText: null },
           { q: "Kan askespredning kombineres med en ceremoni?", a: "Ja. Askespredning kan kombineres med en kirkelig eller borgerlig bisættelse med ceremoni. Nogle vælger at lade selve spredningen være en lille ceremoni for de nærmeste.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
-          { q: "Kan man sprede asken selv?", a: "Ja. Pårørende afhenter typisk urnen og forestår selv spredningen. Jeg kan koordinere det på jeres vegne, hvis I foretrækker det.", link: null, linkText: null },
-          { q: "Hvad sker der med urnen efter spredningen?", a: "Urnen må ikke efterlades i havet. Den tages med tilbage og bortskaffes. Jeg hjælper med dette, hvis det ønskes.", link: null, linkText: null },
+          { q: "Kan man sprede asken selv?", a: "Ja. Mange henter selv urnen og spreder asken. Jeg kan også stå for det for jer, hvis I hellere vil det.", link: null, linkText: null },
+          { q: "Hvad sker der med urnen efter spredningen?", a: "Urnen må ikke efterlades i havet. Den tages med tilbage og bortskaffes. Jeg hjælper gerne med det.", link: null, linkText: null },
           { q: "Kan man sprede asken i en skov?", a: "Nej, reglerne i Danmark tillader kun askespredning over åbent hav eller større fjorde og bugter. Det er ikke tilladt at sprede asken på land, i skove, søer eller vandløb.", link: null, linkText: null },
         ].map((item, i) => (
           <div key={i} style={{ borderTop: "1px solid #e0dcd6", paddingTop: "28px", paddingBottom: "28px" }}>

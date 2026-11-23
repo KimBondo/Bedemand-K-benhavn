@@ -111,7 +111,7 @@ export default function KimAfskeder() {
               title: "Bisættelse",
               tag: "Mest valgte",
               desc: "En bisættelse er den mest valgte afskedsform i Danmark. Efter ceremonien samles asken i en urne. Urnen kan nedsættes på en kirkegård eller tages med til udlandet, eller asken kan spredes over havet.",
-              details: ["Kirkelig eller borgerlig ceremoni", "Asken samles i en urne", "Fleksibel stedfæstelse af asken", "Priser fra 14.995 kr."],
+              details: ["Kirkelig eller borgerlig ceremoni", "Asken samles i en urne", "Flere muligheder for, hvor asken skal være", "Priser fra 14.995 kr."],
               href: "/bisaettelse/",
               linkText: "Læs om bisættelse",
             },
@@ -126,7 +126,7 @@ export default function KimAfskeder() {
             {
               title: "Bisættelse uden ceremoni",
               tag: "Enkel",
-              desc: "En enkel og diskret afsked uden kirkelig eller borgerlig ceremoni. Kisten køres direkte til krematoriet. Mange familier vælger at holde et mindesamvær på et andet tidspunkt.",
+              desc: "En stille og enkel afsked uden kirkelig eller borgerlig ceremoni. Jeg kører kisten direkte til krematoriet, og mange familier samles i stedet til et mindesamvær senere.",
               details: ["Ingen formel ceremoni", "Direkte til krematoriet", "Mulighed for mindesamvær senere", "Pris 9.995 kr."],
               href: "/afsked-uden-ceremoni/",
               linkText: "Læs om bisættelse uden ceremoni",
@@ -134,7 +134,7 @@ export default function KimAfskeder() {
             {
               title: "Askespredning",
               tag: "Naturlig",
-              desc: "Askespredning over havet er en fri og naturlig afsked. Asken spredes over åbent hav i stedet for at blive stedfæstet på en kirkegård.",
+              desc: "Askespredning over havet er en fri og naturlig afsked. Asken spredes over åbent hav i stedet for at blive sat ned på en kirkegård.",
               details: ["Tilvalg til bisættelse med eller uden ceremoni", "Asken spredes over åbent hav", "Kan kombineres med ceremoni", "Grundforløb fra 9.995 kr."],
               href: "/askespredning/",
               linkText: "Læs om askespredning",
@@ -143,15 +143,15 @@ export default function KimAfskeder() {
               title: "Kirkelig afsked",
               tag: "Med præst",
               desc: "En ceremoni i kirke eller kapel, ledet af en præst fra folkekirken. Følger faste ritualer, men med god plads til at tilpasse salmer og indhold efter familiens ønsker.",
-              details: ["Præst fra folkekirken", "Salmer og jordpåkastelse", "Kan afsluttes med begravelse eller bisættelse", "Gratis kirkelig ceremoni for folkekirkens medlemmer"],
+              details: ["Præst fra folkekirken", "Salmer og jordpåkastelse", "Kan afsluttes med begravelse eller bisættelse", "Ingen betaling for ceremonien for folkekirkens medlemmer"],
               href: "/kirkelig-afsked/",
               linkText: "Læs om kirkelig afsked",
             },
             {
               title: "Borgerlig afsked",
               tag: "Personlig",
-              desc: "En ceremoni uden religiøse ritualer, tilpasset jeres ønsker. Kan holdes i kapel, hjemme eller et sted med særlig betydning. Familien bestemmer musik, taler og indhold.",
-              details: ["Ingen religiøse ritualer", "Frit valg af musik og taler", "Kapel, hjemme eller andet sted", "Kan afsluttes med begravelse, bisættelse eller askespredning"],
+              desc: "En ceremoni uden religiøse ritualer, tilpasset jeres ønsker. Familien bestemmer musik, taler og indhold, og sammen finder vi det sted, der passer jer bedst.",
+              details: ["Ingen religiøse ritualer", "Frit valg af musik og taler", "Sammen finder vi det rette sted", "Kan afsluttes med begravelse, bisættelse eller askespredning"],
               href: "/borgerlig-afsked/",
               linkText: "Læs om borgerlig afsked",
             },
@@ -203,6 +203,9 @@ export default function KimAfskeder() {
             </div>
           ))}
         </div>
+        <p style={{ maxWidth: "680px", margin: "32px auto 0", textAlign: "center", fontFamily: "'Open Sans', sans-serif", fontSize: "16px", lineHeight: 1.7, color: "#5a7a6a" }}>
+          Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>prissiden</a>.
+        </p>
       </section>
 
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
@@ -213,7 +216,7 @@ export default function KimAfskeder() {
           Usikker på, hvad I skal vælge?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Det er helt normalt at være usikker. Mange familier har aldrig stået i denne situation før, og der er mange valg at tage i en svær tid. Jeg er her for at lytte og rådgive.
+          Det er helt naturligt at være i tvivl. De fleste har aldrig stået i det her før, og der er mange valg midt i en svær tid. I behøver ikke vide det hele, før I ringer – jeg lytter først, og så finder vi ud af det sammen.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "40px" }}>
           Ring til mig, skriv en besked, eller kig på <a href="/priser/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>prissiden</a> for at få et overblik over, hvad de forskellige afskeder koster. Jeg gennemgår alle udgifter med jer på forhånd.

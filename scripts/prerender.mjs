@@ -179,7 +179,7 @@ const ROUTE_META = {
   },
   "/min-sidste-vilje": {
     title: "Min Sidste Vilje \u2013 skema og \u00f8nsker til egen begravelse",
-    description: "Skriv jeres \u00f8nsker til afskeden ned. Hent skemaet Min Sidste Vilje gratis, eller f\u00e5 hj\u00e6lp ved et hjemmebes\u00f8g uden beregning. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Skriv jeres \u00f8nsker til afskeden ned. Hent skemaet Min Sidste Vilje, eller f\u00e5 hj\u00e6lp ved et hjemmebes\u00f8g uden beregning. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hornbaek": {
     title: "Bedemand Hornb\u00e6k \u2013 Kim Bondo, d\u00f8gnet rundt",
