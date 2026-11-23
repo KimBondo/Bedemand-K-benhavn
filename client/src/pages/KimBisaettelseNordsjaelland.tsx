@@ -18,7 +18,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvad koster en bisættelse i Nordsjælland?", answer: "Hos mig koster en bisættelse med ceremoni fra 14.995 kr. En bisættelse uden ceremoni koster 9.995 kr. Oveni kommer udgifter til ligbrænding, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter." },
+  { question: "Hvad koster en bisættelse i Nordsjælland?", answer: "Hos mig koster en bisættelse med ceremoni fra 14.995 kr. En bisættelse uden ceremoni koster 9.995 kr. I kan altid se udgifter oveni på prissiden." },
   { question: "Hvor lang tid går der fra dødsfald til bisættelse?", answer: "Hovedreglen er senest 8 dage efter dødsfaldet. Fristen kan forlænges til 14 dage, når afdøde opbevares på køl. Jeg holder øje med fristerne for jer." },
   { question: "Kan vi selv vælge, hvor ceremonien skal være?", answer: "Det taler vi om i samtalen. Ligger kirken uden for jeres sogn, er det præsten og sognet, der afgør, om det kan lade sig gøre. Sammen finder vi det sted til afskeden, der passer jer bedst." },
 ];
@@ -28,7 +28,7 @@ export default function KimBisaettelseNordsjaelland() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Sådan forløber en bisættelse i Nordsjælland | Kim Bondo"
-        description="Sådan forløber en bisættelse i Nordsjælland. Faste priser. Ring til mig på 28 14 60 11."
+        description="Sådan forløber en bisættelse i Nordsjælland. Jeg følger jer hele vejen. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/bisaettelse-nordsjaelland/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -83,7 +83,7 @@ export default function KimBisaettelseNordsjaelland() {
 
           <h2 style={s.h2}>Priser</h2>
           <p style={s.body}>
-            En bisættelse med ceremoni koster fra 14.995 kr. hos mig. En bisættelse uden ceremoni koster 9.995 kr. Oveni kommer udgifter til ligbrænding, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter. Jeg regner det samlede tal sammen med jer, inden I beslutter noget.
+            En bisættelse med ceremoni koster fra 14.995 kr. hos mig. En bisættelse uden ceremoni koster 9.995 kr. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={s.link}>prissiden</a>.
           </p>
 
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "28px", textAlign: "center", marginTop: "40px" }}>
@@ -101,7 +101,7 @@ export default function KimBisaettelseNordsjaelland() {
           {FAQ.map((item, i) => (
             <div key={i} style={{ marginBottom: "28px" }}>
               <h3 style={s.h3}>{item.question}</h3>
-              <p style={s.body}>{item.answer}</p>
+              <p style={s.body}>{item.answer.split("prissiden").map((del, i, arr) => (i < arr.length - 1 ? <span key={i}>{del}<a href="/priser/" style={s.link}>prissiden</a></span> : <span key={i}>{del}</span>))}</p>
             </div>
           ))}
         </div>

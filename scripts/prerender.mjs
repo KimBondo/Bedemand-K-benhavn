@@ -207,7 +207,7 @@ const ROUTE_META = {
   },
   "/bisaettelse-nordsjaelland": {
     title: "Sådan forløber en bisættelse i Nordsjælland | Kim Bondo",
-    description: "S\u00e5dan forl\u00f8ber en bis\u00e6ttelse i Nordsj\u00e6lland. Faste priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "S\u00e5dan forl\u00f8ber en bis\u00e6ttelse i Nordsj\u00e6lland. Jeg f\u00f8lger jer hele vejen. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik \u2013 Bedemand Kim Bondo",

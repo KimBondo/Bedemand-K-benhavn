@@ -135,7 +135,7 @@ export default function KimNordsjaelland() {
           <p style={s.label}>Gennemsigtige priser</p>
           <h2 style={s.h2}>Hvad koster en begravelse i Nordsjælland?</h2>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Mine priser er faste og gennemsigtige – uanset om I bor i Helsingør, Hillerød eller Hundested. Dertil kommer udgifter til gravsted, blomster og kapelleje – <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om, hvad der påvirker prisen</a>.
+            Mine priser er de samme og står tydeligt på <a href="/priser/" style={s.link}>prissiden</a> – uanset om I bor i Helsingør, Hillerød eller Hundested. Dertil kommer udgifter til gravsted, blomster og kapelleje – <a href="/hvad-koster-en-begravelse/" style={s.link}>læs mere om, hvad der påvirker prisen</a>.
           </p>
         </div>
       </section>

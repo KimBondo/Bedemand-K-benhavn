@@ -15,10 +15,10 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvad koster en bisættelse i Fredensborg?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer blandt andet udgifter til ligbrænding og gravsted, som kommunen eller kirkegården fastsætter. Priserne gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen." },
+  { question: "Hvad koster en bisættelse i Fredensborg?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. I kan altid se udgifter oveni på prissiden. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen." },
   { question: "Hvad gør jeg først, når nogen dør?", answer: "Er dødsfaldet sket i hjemmet, skal en læge konstatere det og udstede dødsattesten. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem sørger personalet for det. Derefter kan I ringe til mig på 28 14 60 11." },
-  { question: "Kan du hente afdøde uden for normal arbejdstid?", answer: "Ja, jeg tager telefonen døgnet rundt. Efter kl. 16 på hverdage, i weekender og på helligdage er der et tillæg på 800 kr. pr. udkald, fordi jeg skal have en hjælper med. Afdøde kan ofte blive, hvor hun eller han er, til næste morgen – så bortfalder tillægget." },
-  { question: "Hvad koster kørslen?", answer: "Jeg regner kun den strækning, hvor afdøde er med i rustvognen, ikke min kørsel fra Søborg. En kørsel koster 1.595 kr. inkl. de første 25 km, derefter 35 kr. pr. km. I København og Nordsjælland højst 2.000 kr. pr. kørsel." },
+  { question: "Kan du hente afdøde uden for normal arbejdstid?", answer: "Ja, jeg tager telefonen døgnet rundt. Der kan komme et tillæg uden for almindelig arbejdstid. Beløbet og reglerne står på prissiden, og jeg gennemgår dem med jer, før I beslutter noget. Afdøde kan ofte blive, hvor hun eller han er, til næste morgen – så bortfalder tillægget." },
+  { question: "Hvad koster kørslen?", answer: "Jeg regner kun den strækning, hvor afdøde er med i rustvognen, ikke min kørsel fra Søborg. Prisen og reglerne for kørslen står på prissiden." },
 ];
 
 export default function KimFredensborg() {
@@ -105,14 +105,14 @@ export default function KimFredensborg() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Den første samtale</h2>
           <p style={s.body}>
-            I behøver ikke have besluttet noget, før vi taler sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor i Søborg koster 995 kr.
+            I behøver ikke have besluttet noget, før vi taler sammen – og I behøver ikke vide, hvor I skal begynde. Det finder vi ud af sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor koster 995 kr.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Sådan hjælper jeg</h2>
           <p style={s.body}>
             Jeg står for det praktiske: anmodningen om begravelse eller ligbrænding, kontakten til kirke og kirkegård og ansøgningen om begravelseshjælp. Vil I vide, hvad der sker de første dage, kan I læse om, <a href="/hvad-sker-der/" style={s.link}>hvad der sker, når nogen dør</a>.
           </p>
           <p style={s.body}>
-            Jeg regner kun den strækning, hvor afdøde er med i rustvognen, og de første 25 km er med i prisen. Mine faste priser står på <a href="/priser/" style={s.link}>prissiden</a>, og I kan regne et overslag ud i <a href="/prisberegner/" style={s.link}>prisberegneren</a>.
+            I kan se alle mine priser på <a href="/priser/" style={s.link}>prissiden</a> og regne et vejledende overslag ud i <a href="/prisberegner/" style={s.link}>prisberegneren</a>.
           </p>
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>
@@ -138,7 +138,7 @@ export default function KimFredensborg() {
           {FAQ.map((f) => (
             <div key={f.question} style={{ borderBottom: "1px solid #e0dcd6", padding: "16px 0" }}>
               <h3 style={{ ...s.h3, fontSize: "18px", marginBottom: "8px" }}>{f.question}</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>{f.answer}</p>
+              <p style={{ ...s.body, marginBottom: 0 }}>{f.answer.split("prissiden").map((del, i, arr) => (i < arr.length - 1 ? <span key={i}>{del}<a href="/priser/" style={s.link}>prissiden</a></span> : <span key={i}>{del}</span>))}</p>
             </div>
           ))}
         </div>
