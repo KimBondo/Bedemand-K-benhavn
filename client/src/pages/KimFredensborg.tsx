@@ -15,10 +15,10 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvad koster en bisættelse i Fredensborg?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen." },
+  { question: "Hvad koster en bisættelse i Fredensborg?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. I kan altid se udgifter oveni på prissiden. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen." },
   { question: "Hvad gør jeg først, når nogen dør?", answer: "Er dødsfaldet sket i hjemmet, skal en læge konstatere det og udstede dødsattesten. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem sørger personalet for det. Derefter kan I ringe til mig på 28 14 60 11." },
-  { question: "Kan du hente afdøde uden for normal arbejdstid?", answer: "Ja, jeg tager telefonen døgnet rundt. Efter kl. 16 på hverdage, i weekender og på helligdage er der et tillæg på 800 kr. pr. udkald, fordi jeg skal have en hjælper med. Afdøde kan ofte blive, hvor hun eller han er, til næste morgen – så bortfalder tillægget." },
-  { question: "Hvad koster kørslen?", answer: "Jeg regner kun den strækning, hvor afdøde er med i rustvognen, ikke min kørsel fra Søborg. En kørsel koster 1.595 kr. inkl. de første 25 km, derefter 35 kr. pr. km. I København og Nordsjælland højst 2.000 kr. pr. kørsel." },
+  { question: "Kan du hente afdøde uden for normal arbejdstid?", answer: "Ja, jeg tager telefonen døgnet rundt. Der kan komme et tillæg uden for almindelig arbejdstid. Beløbet og reglerne står på prissiden, og jeg gennemgår dem med jer, før I beslutter noget. Afdøde kan ofte blive, hvor hun eller han er, til næste morgen – så bortfalder tillægget." },
+  { question: "Hvad koster kørslen?", answer: "Jeg regner kun den strækning, hvor afdøde er med i rustvognen, ikke min kørsel fra Søborg. Prisen og reglerne for kørslen står på prissiden." },
 ];
 
 export default function KimFredensborg() {

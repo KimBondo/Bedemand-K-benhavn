@@ -103,7 +103,7 @@ export default function KimSjaelland() {
             <strong>De samme priser.</strong> Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bisættelse med ceremoni fra 14.995 kr. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
           </p>
           <p style={s.body}>
-            <strong>Kørsel.</strong> Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen – ikke for min egen kørsel til og fra Søborg. Er der langt at køre, kan kørslen koste lidt mere. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={s.link}>prissiden</a>.
+            <strong>Kørsel.</strong> Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen – ikke for min egen kørsel til og fra Søborg. Er der langt at køre, kan kørslen koste lidt mere.
           </p>
           <p style={s.body}>
             Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> – også om natten.

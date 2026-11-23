@@ -126,7 +126,7 @@ export default function KimOmraade() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Dækningsområde</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "760px", margin: "0 auto 24px" }}>
           Bedemand i København og Nordsjælland
