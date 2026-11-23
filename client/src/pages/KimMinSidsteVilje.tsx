@@ -74,7 +74,7 @@ export default function KimMinSidsteVilje() {
         </a>
       </header>
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Hjemmebesøg uden beregning</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
           Min Sidste Vilje – planlæg afskeden i ro
@@ -83,7 +83,7 @@ export default function KimMinSidsteVilje() {
           Opdateret <time dateTime="2026-09-29">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          De fleste udskyder samtalen. Men det er en gave til dem, man efterlader, at have skrevet sine ønsker til begravelse eller bisættelse ned i forvejen. Jeg hjælper uden beregning og uden forpligtelse – eller I kan hente skemaet og udfylde det selv.
+          Det er en gave til dem, man efterlader, at have skrevet sine ønsker ned i forvejen. Jeg hjælper uden beregning og uden forpligtelse – eller I kan hente skemaet og udfylde det selv.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>Ring til mig på 28 14 60 11</a>
         <p style={{ marginTop: "16px", fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a" }}>
@@ -97,7 +97,7 @@ export default function KimMinSidsteVilje() {
           <p style={s.label}>Sådan foregår det</p>
           <h2 style={s.h2}>En times samtale – hjemme hos jer eller over telefonen</h2>
           <p style={s.body}>
-            Jeg kommer gerne hjem til jer. Passer det bedre, kan vi også tage samtalen over telefon eller video. Det tager omkring en time, det koster ingenting, og der er ingen forpligtelse bagefter.
+            Jeg kommer gerne hjem til jer. Passer det bedre, kan vi også tage samtalen over telefon eller video. Det tager omkring en time, det er uden beregning, og I forpligter jer ikke til noget bagefter.
           </p>
           <p style={s.body}>
             Vi går ønskerne igennem i roligt tempo. I behøver ikke have taget stilling til noget på forhånd – det er netop det, samtalen er til.
@@ -112,7 +112,7 @@ export default function KimMinSidsteVilje() {
               "Musik, salmer og hvem der skal tale",
               "Hvor asken skal hen: kirkegård eller askespredning over havet",
               "Hvem der skal have besked",
-              "Hvad det hele vil koste – med mine faste priser",
+              "Hvad det hele vil koste – med mine priser",
             ].map((item) => (
               <li key={item} style={{ ...s.body, marginBottom: "8px" }}>{item}</li>
             ))}
