@@ -43,7 +43,7 @@ export default function KimBisaettelse() {
           { question: "Kan man holde en bisættelse uden ceremoni?", answer: "Ja. Ved en bisættelse uden ceremoni kører jeg kisten direkte til krematoriet, uden en højtidelighed først. Mange familier samles i stedet til et mindesamvær senere, når de har overskud til det." },
           { question: "Hvad sker der med urnen efter bisættelsen?", answer: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper jer med at finde det, der passer til afdødes ønsker og til jer." },
           { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen." },
-          { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til ligbrænding, gravsted og kapelleje er ikke inkluderet, men jeg gennemgår dem med jer, så I ved, hvad I siger ja til." },
+          { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/bisaettelse"
       />
@@ -363,9 +363,6 @@ export default function KimBisaettelse() {
         >
           Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. Jeg gennemgår alle udgifter med jer på forhånd. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong>
         </p>
-        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Det gælder ikke bisættelse uden ceremoni, hvor jeg kører direkte til krematoriet.
-        </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
             href="/priser/"
@@ -420,7 +417,7 @@ export default function KimBisaettelse() {
           Urnenedsættelsen
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          Bagefter kommer urnen til kirkegården, og nogle uger efter bisættelsen sættes den ned i gravstedet. Mange familier vælger at være med. Det er en lille, stille stund for de nærmeste, og præsten kan være med, hvis I ønsker det. I kan selv hente urnen, eller jeg kan køre den for jer for 900 kr. Det er kirkegården, der står for urnenedsættelsen, og den betales efter kirkegårdens takst. Ønsker I i stedet at <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>sprede asken over havet</a>, hjælper jeg også med det.
+          Bagefter kommer urnen til kirkegården, og nogle uger efter bisættelsen sættes den ned i gravstedet. Mange familier vælger at være med. Det er en lille, stille stund for de nærmeste, og præsten kan være med, hvis I ønsker det. I kan selv hente urnen, eller jeg kan køre den for jer. Det er kirkegården, der står for urnenedsættelsen. Ønsker I i stedet at <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>sprede asken over havet</a>, hjælper jeg også med det.
         </p>
       </section>
 
@@ -467,7 +464,7 @@ export default function KimBisaettelse() {
           },
           {
             q: "Hvad er inkluderet i prisen?",
-            a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til ligbrænding, gravsted og kapelleje er ikke inkluderet, men jeg gennemgår dem med jer, så I ved, hvad I siger ja til.",
+            a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.",
             link: "/priser/",
             linkText: "Se den fulde prisliste",
           },
