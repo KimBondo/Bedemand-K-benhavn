@@ -176,7 +176,7 @@ export default function KimBondo() {
               margin: "24px auto 28px",
             }}
           >
-            Jeg hedder Kim Bondo. Når I ringer, er det mig, I taler med – og mig, der følger jer hele vejen til afskeden. Mine priser står åbent her på siden, og begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
+            Jeg hedder Kim Bondo. Når I ringer, er det mig, der tager telefonen – og mig, der følger jer hele vejen til afskeden. I behøver ikke vide, hvad I skal spørge om. Vi tager det et skridt ad gangen. Mine priser står åbent her på siden, og begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
           </p>
           <figure style={{ margin: "0 auto 20px", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <picture>
@@ -224,10 +224,13 @@ export default function KimBondo() {
           <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(24px, 3.2vw, 34px)", color: "#2F3E46", lineHeight: 1.25, margin: "0 0 20px", textAlign: "center" }}>
             Når nogen lige er død
           </h2>
+          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.7, color: "#3d5260", margin: "0 0 20px", textAlign: "center" }}>
+            Det er helt naturligt ikke at vide, hvad man skal gøre lige nu. Her er det vigtigste:
+          </p>
           <ol style={{ margin: "0 0 20px", padding: 0, listStyle: "none", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.7, color: "#3d5260" }}>
             {[
               "Er dødsfaldet sket i hjemmet, skal en læge først konstatere det. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem hjælper personalet med det.",
-              "Ring derefter til mig. Der er ingen hast – afdøde kan ofte blive, hvor vedkommende er, til næste morgen, så I får tid til at sige farvel.",
+              "Ring derefter til mig, når I er klar. Der er ingen hast. Afdøde kan ofte blive, hvor hun eller han er, til næste morgen, så I kan sidde hos hende eller ham og sige farvel i ro.",
               "Resten finder vi ud af sammen, i jeres tempo.",
             ].map((tekst, i) => (
               <li key={i} style={{ display: "flex", gap: "14px", alignItems: "flex-start", marginBottom: "14px" }}>
@@ -251,10 +254,10 @@ export default function KimBondo() {
             Den første samtale
           </h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-            I behøver ikke have besluttet noget, før I ringer.
+            I behøver ikke have besluttet noget, før I ringer. Mange ved ikke, hvor de skal begynde – det er helt i orden.
           </p>
           <p style={{ ...{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }, margin: 0 }}>
-            Vi kan tale sammen i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor i Søborg koster 995 kr. Det er mig, I taler med – hele vejen.
+            Vi kan tale sammen i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg – det, der føles bedst for jer. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor koster 995 kr. Jeg lytter først, og så tager vi beslutningerne sammen, én ad gangen.
           </p>
         </div>
       </section>
@@ -285,7 +288,7 @@ export default function KimBondo() {
                 </tbody>
               </table>
               <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", lineHeight: 1.6, color: "#5a7a6a", margin: "12px 0 0" }}>
-                Med mit honorar, kiste og rustvognskørsel. Priserne gælder hverdage. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
+                Mine priser står her, så I kan se dem i ro, før I ringer. Prisen omfatter mit honorar, kiste og rustvognskørsel og gælder hverdage. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen.
               </p>
             </div>
             <div style={{ background: "#fff", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "24px" }}>
@@ -296,7 +299,7 @@ export default function KimBondo() {
                 ))}
               </ul>
               <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", lineHeight: 1.6, color: "#5a7a6a", margin: 0 }}>
-                Hvilke udgifter der kommer oveni, afhænger af den afsked, I vælger. Dem bestemmer jeg ikke over, men jeg hjælper jer med at holde overblikket.
+                Nogle udgifter går ikke til mig, og de afhænger af den afsked, I vælger. Dem bestemmer jeg ikke over, men jeg gennemgår dem med jer, så I ved, hvad I siger ja til.
               </p>
             </div>
           </div>
@@ -316,19 +319,13 @@ export default function KimBondo() {
             Skal I vælge en lokal bedemand?
           </h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-            I kan frit vælge den bedemand, I har lyst til og føler jer trygge ved.
-          </p>
-          <p style={{ fontFamily: "'Lora', serif", fontStyle: "italic", fontSize: "clamp(18px, 2vw, 21px)", lineHeight: 1.6, color: "#2F3E46", margin: "0 0 16px" }}>
-            Det handler om tryghed og tillid – ikke om postnummer.
+            I må frit vælge den bedemand, I føler jer trygge ved – det behøver ikke være én i jeres postnummer.
           </p>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-            Bedemanden behøver ikke have adresse i samme by som jer. Bedemanden kan hjælpe jer, uanset hvor i landet I ønsker det.
-          </p>
-          <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }}>
-            Det vigtigste er, at I føler jer hørt og er trygge ved den, der skal hjælpe jer med afskeden.
+            Det vigtigste er, at I føler jer hørt.
           </p>
           <p style={{ ...{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 18px)", lineHeight: 1.75, color: "#3d5260", margin: "0 0 16px" }, margin: "24px 0 0", fontWeight: 600, color: "#2F3E46" }}>
-            Ring trygt til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a>, og mærk efter, om jeg er den rette for jer.
+            Ring gerne til mig på <a href="tel:+4528146011" style={{ color: "#3D6B4F", fontWeight: 700, textDecoration: "none", borderBottom: "1px solid #3D6B4F", whiteSpace: "nowrap" }}>28 14 60 11</a> og mærk efter, om jeg er den rette for jer. Det forpligter jer ikke til noget.
           </p>
         </div>
       </section>
@@ -404,7 +401,7 @@ export default function KimBondo() {
               marginBottom: "48px",
             }}
           >
-            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+            Har I det bedre med at skrive end at ringe? Skriv et par linjer herunder – det behøver hverken være langt eller velformuleret. Jeg vender tilbage, så hurtigt jeg kan.
             I er også velkomne til at ringe på{" "}
             <a
               href="tel:+4528146011"
@@ -426,7 +423,7 @@ export default function KimBondo() {
               marginBottom: 0,
             }}
           >
-            Har jeg hjulpet jer? Så sætter jeg stor pris på, hvis I vil{" "}
+            Har jeg hjulpet jer, er jeg taknemmelig, hvis I vil{" "}
             <a
               href="https://g.page/r/CW91ldyVVI39EBM/review"
               target="_blank"
@@ -435,7 +432,7 @@ export default function KimBondo() {
             >
               dele jeres oplevelse på Google
             </a>{" "}
-            – det hjælper andre, der står samme sted, med at turde tage kontakt.
+            – når I har overskud til det. Det kan give andre, der står samme sted, modet til at ringe.
           </p>
           <a href="https://g.page/r/CW91ldyVVI39EBM/review" target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "120px", margin: "16px auto 0" }}>
             <img src="/images/anmeldelse-google-qr.svg" width={120} height={120} loading="lazy" alt="QR-kode til at skrive en anmeldelse af Bedemand København på Google" style={{ display: "block", width: "120px", height: "120px" }} />
