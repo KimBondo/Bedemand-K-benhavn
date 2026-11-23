@@ -172,7 +172,7 @@ export default function KimPriser() {
           <span style={s.label}>Bisættelse uden ceremoni</span>
           <h3 style={s.h3}>Bisættelse uden ceremoni</h3>
           <p style={s.price}>9.995 kr.</p>
-          <p style={{ ...s.body, marginTop: "8px" }}>Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Én samlet pris. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.</p>
+          <p style={{ ...s.body, marginTop: "8px" }}>Jeg kører afdøde direkte til krematoriet, uden en højtidelighed først. Én samlet pris. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.</p>
           <p style={{ ...s.body, fontWeight: 700, color: "#2F3E46", marginBottom: "4px" }}>Det er med i prisen</p>
           <ul style={{ paddingLeft: "20px", margin: "8px 0 0" }}>
             {[
@@ -287,9 +287,9 @@ export default function KimPriser() {
 
         {/* ── PRIS PÅ BISÆTTELSE ── */}
         <section style={{ marginBottom: "56px" }}>
-          <h2 style={s.h2}>Pris på bisættelse – faste priser og den enkleste løsning</h2>
+          <h2 style={s.h2}>Pris på bisættelse – og den enkleste afsked</h2>
           <p style={s.body}>
-            En bisættelse med ceremoni koster hos mig fra 14.995 kr., og begravelseshjælpen trækkes direkte fra fakturaen. Mange spørger efter den enkleste løsning. Det er en <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>bisættelse uden ceremoni</a> til 9.995 kr. Jeg gennemgår alle udgifter med jer, før I bestemmer noget.
+            En bisættelse med ceremoni koster hos mig fra 14.995 kr., og begravelseshjælpen trækkes direkte fra fakturaen. Spørger I efter den enkleste afsked, er det en <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>bisættelse uden ceremoni</a> til 9.995 kr. Jeg gennemgår alle udgifter med jer, før I bestemmer noget.
           </p>
         </section>
 
@@ -469,10 +469,10 @@ export default function KimPriser() {
           <span style={s.label}>Hjemmebesøg uden beregning</span>
           <h2 style={{ ...s.h2, marginBottom: "16px" }}>Min Sidste Vilje</h2>
           <p style={s.body}>
-            De fleste udskyder samtalen. Men det er en gave til ens børn at have taget stilling i forvejen.
+            De fleste udskyder samtalen. Men det er en gave til dem, man efterlader, at have taget stilling i forvejen.
           </p>
           <p style={s.body}>
-            Jeg kommer hjem til jer og hjælper med at skrive ønskerne ned: hvad der skal ske, hvad det koster, hvem der skal ringes til. Det tager en time, og så er det ordnet. Det koster ingenting, og der er ingen forpligtelse bagefter.
+            Jeg kommer hjem til jer og hjælper med at skrive ønskerne ned: hvad der skal ske, hvad det koster, hvem der skal ringes til. Det tager en time, og så er det ordnet. Det er uden beregning, og I forpligter jer ikke til noget bagefter.
           </p>
           <p style={s.body}>
             <a href="/min-sidste-vilje/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F", paddingBottom: "1px", fontWeight: 600 }}>Læs mere om Min Sidste Vilje →</a>

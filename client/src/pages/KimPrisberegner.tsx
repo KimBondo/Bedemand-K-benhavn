@@ -207,7 +207,7 @@ export default function KimPrisberegner() {
           Hvad koster det cirka?
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto", lineHeight: 1.7 }}>
-          Et vejledende overslag baseret på mine faste priser. Jeg laver et præcist regnestykke sammen med jer, inden I beslutter noget.
+          Her kan I i ro og mag se, hvad det cirka kommer til at koste. Det er et vejledende overslag ud fra mine priser – det præcise regnestykke laver jeg sammen med jer, inden I beslutter noget.
         </p>
       </section>
 
@@ -216,7 +216,7 @@ export default function KimPrisberegner() {
           <h2 style={s.h2}>1. Hvordan skal afskeden være?</h2>
           <div style={{ display: "grid", gap: "16px", marginBottom: "40px" }}>
             {([
-              { key: "uden" as const, title: "Bisættelse uden ceremoni", price: "9.995 kr.", text: "Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Med i prisen: mit honorar og telefonmøde, anmodning om ligbrænding, ansøgning om begravelseshjælp, kontakt til kirkegården, klargøring og ilægning i en umalet basiskiste, natururne og én rustvognskørsel. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
+              { key: "uden" as const, title: "Bisættelse uden ceremoni", price: "9.995 kr.", text: "Jeg kører afdøde direkte til krematoriet, uden en højtidelighed først. Med i prisen: mit honorar og telefonmøde, anmodning om ligbrænding, ansøgning om begravelseshjælp, kontakt til kirkegården, klargøring og ilægning i en umalet basiskiste, natururne og én rustvognskørsel. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
               { key: "begravelse" as const, title: "Begravelse", price: "Fra 13.495 kr.", text: "Kisten sænkes i jorden efter ceremonien. Med i prisen: mit honorar og telefonmøde, anmodning om begravelse, ansøgning om begravelseshjælp, dødsannonce (avisens pris kommer oveni), kontakt til kirke og kirkegård, klassisk hvid kiste og én rustvognskørsel. Jeg er selv til stede ved højtideligheden. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
               { key: "bisaettelse" as const, title: "Bisættelse med ceremoni", price: "Fra 14.995 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde bisættes. Det samme som begravelse plus natururne og to rustvognskørsler: fra kapel til ceremoni og videre efter ceremonien. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
             ]).map((opt) => (
@@ -395,11 +395,11 @@ export default function KimPrisberegner() {
               </p>
               {!!addons["efter-16"] && (
                 <p style={{ ...s.body, fontSize: "14px", color: "#5a7a6a", maxWidth: "560px", margin: "12px auto 0" }}>
-                  Afdøde kan ofte blive, hvor vedkommende er, til næste morgen – så bortfalder tillægget på 800 kr.
+                  Afdøde kan ofte blive, hvor hun eller han er, til næste morgen – så bortfalder tillægget på 800 kr.
                 </p>
               )}
               <p style={{ ...s.body, fontSize: "15px", marginTop: "24px", fontStyle: "italic" }}>
-                Der ligger meget koordinering og planlægning bag en afsked. Jeg sørger for, at I ikke selv skal holde styr på tider, kontakter og praktiske detaljer. I taler med mig hele vejen.
+                Bag en afsked ligger mange små aftaler. Dem holder jeg styr på, så I kan bruge kræfterne på hinanden. I taler med mig hele vejen.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "12px", marginTop: "28px" }}>
                 <a href="#prisanmodning" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>Send mig prisen og ring mig op</a>
