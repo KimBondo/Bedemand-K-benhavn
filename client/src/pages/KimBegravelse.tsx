@@ -39,9 +39,9 @@ export default function KimBegravelse() {
         type="FAQPage"
         faqItems={[
           { question: "Hvad er forskellen på begravelse og bisættelse?", answer: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse samles asken i en urne. En bisættelse kan også foregå helt uden ceremoni." },
-          { question: "Kan man have en borgerlig begravelse?", answer: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation." },
+          { question: "Kan man have en borgerlig begravelse?", answer: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Sammen finder vi det sted til afskeden, der passer jer bedst." },
           { question: "Kan man vælge en miljøvenlig kiste?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer." },
-          { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud." },
+          { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og gennemgår dem med jer." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/begravelse"
       />
@@ -109,7 +109,7 @@ export default function KimBegravelse() {
           Begravelse – en traditionel afsked med kiste
         </h1>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
-          En begravelse er en af de ældste afskedsformer. Kisten sænkes i jorden på et gravsted, der bliver et varigt sted at mindes. Jeg hjælper jer med alt fra den første samtale til jordfæstelsen.
+          En begravelse er en af de ældste måder at sige farvel på. Kisten sænkes i jorden, og gravstedet bliver et sted, I kan vende tilbage til. Jeg følger jer hele vejen.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
@@ -135,7 +135,7 @@ export default function KimBegravelse() {
           En begravelse er en afskedsform, hvor kisten med afdøde sænkes ned i jorden på et gravsted. Det er en tradition, der har eksisteret i århundreder, og som for mange familier giver et konkret sted at mindes og vende tilbage til.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Den væsentligste forskel på en begravelse og en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at kisten ved en begravelse forbliver intakt i jorden, mens asken ved en bisættelse samles i en urne.
+          Forskellen på en begravelse og en <a href="/bisaettelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>bisættelse</a> er, at kisten ved en begravelse sænkes i jorden, mens asken ved en bisættelse samles i en urne.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           En begravelse kan holdes med en kirkelig eller en borgerlig afsked. Jeg hjælper jer med at finde den form, der passer til afdødes og familiens ønsker. En afsked helt uden ceremoni er altid en bisættelse og derfor ikke en begravelse.
@@ -150,7 +150,7 @@ export default function KimBegravelse() {
           Kirkelig eller borgerlig begravelse
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
-          En kirkelig begravelse holdes i kirken med præst, salmer og jordpåkastelse. En borgerlig begravelse kan holdes i et kapel, i naturen eller et andet sted, der betyder noget for jer. Jeg hjælper med begge dele.
+          En kirkelig begravelse holdes i kirken med præst, salmer og jordpåkastelse. En borgerlig begravelse holdes uden religiøse ritualer. Sammen finder vi det sted til afskeden, der passer jer bedst. Jeg hjælper med begge dele.
         </p>
       </section>
 
@@ -162,11 +162,11 @@ export default function KimBegravelse() {
           Sådan foregår en begravelse
         </h2>
         {[
-          { num: "1", title: "Første kontakt og planlægning", text: "Vi taler om jeres ønsker – ceremonitype, musik, blomster, kiste og gravsted. Jeg sørger for al koordinering med kirke eller kapel, kirkegård og myndighederne." },
+          { num: "1", title: "Første kontakt og planlægning", text: "Vi taler roligt om jeres ønsker – ceremoni, musik, blomster, kiste og gravsted. I behøver ikke have svar på det hele med det samme. Jeg sørger for kontakten til kirke eller kapel, kirkegård og myndighederne." },
           { num: "2", title: "Kisteilægning", text: "Afdøde lægges i kisten med omsorg og værdighed. I kan vælge at være til stede, hvis det føles rigtigt." },
-          { num: "3", title: "Ceremonien", text: "Ceremonien afholdes i kirke, kapel eller et andet sted, der passer til afdøde. Den kan være kirkelig med præst eller borgerlig med en taler, I selv vælger." },
-          { num: "4", title: "Jordfæstelsen", text: "Efter ceremonien køres kisten til gravstedet, hvor jordfæstelsen finder sted. Kisten sænkes i jorden, og de nærmeste tager afsked. Hvis det sker med præst, vil jordpåkastelsen finde sted her." },
-          { num: "5", title: "Gravstedet", text: "Gravstedet bliver et varigt sted at vende tilbage til. Jeg hjælper med at finde det rette gravsted og kan rådgive om vedligeholdelse og gravsten." },
+          { num: "3", title: "Ceremonien", text: "Ceremonien holdes typisk i en kirke eller et kapel – sammen finder vi det sted, der passer jer bedst. Den kan være kirkelig med præst eller borgerlig med en taler, I selv vælger." },
+          { num: "4", title: "Jordfæstelsen", text: "Efter ceremonien føres kisten til graven. Kisten sænkes i jorden, og I kan tage den sidste afsked i ro. Er der en præst med, sker jordpåkastelsen her." },
+          { num: "5", title: "Gravstedet", text: "Gravstedet bliver et sted, I kan vende tilbage til – alene eller sammen. Jeg hjælper jer med at vælge gravsted og kan rådgive om gravsten og vedligeholdelse." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
             <div style={{ minWidth: "44px", height: "44px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
@@ -192,7 +192,7 @@ export default function KimBegravelse() {
           Hvad koster en begravelse?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          En begravelse koster fra <strong>13.495 kr.</strong> hos mig. Prisen inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje kommer oveni – jeg hjælper jer med at indhente tilbud og holde overblikket.
+          En begravelse koster fra <strong>13.495 kr.</strong> hos mig. Prisen inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje kommer oveni – jeg hjælper jer med at indhente tilbud, så I ved, hvad I siger ja til.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
           Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Er begravelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Ved en begravelse kommer der også en kørsel mere, hvis kirken ikke har sin egen kirkegård og kisten derfor skal køres til kirkegården.
@@ -216,9 +216,9 @@ export default function KimBegravelse() {
         </h2>
         {[
           { q: "Hvad er forskellen på begravelse og bisættelse?", a: "Ved en begravelse sænkes kisten ned i jorden på et gravsted. Ved en bisættelse samles asken i en urne. En bisættelse kan også foregå helt uden ceremoni.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
-          { q: "Kan man have en borgerlig begravelse?", a: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation.", link: null, linkText: null },
+          { q: "Kan man have en borgerlig begravelse?", a: "Ja. En borgerlig begravelse foregår uden religiøse ritualer og kan tilpasses med personlig musik, taler og dekorationer. Sammen finder vi det sted til afskeden, der passer jer bedst.", link: null, linkText: null },
           { q: "Kan man vælge en miljøvenlig kiste?", a: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer som massivt træ eller genbrugsmaterialer.", link: null, linkText: null },
-          { q: "Hvad er inkluderet i prisen?", a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper med at indhente tilbud.", link: "/priser/", linkText: "Se den fulde prisliste" },
+          { q: "Hvad er inkluderet i prisen?", a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel og kiste, og jeg er selv til stede ved højtideligheden. Udgifter som gravsted, gravsten og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og gennemgår dem med jer.", link: "/priser/", linkText: "Se den fulde prisliste" },
         ].map((item, i) => (
           <div key={i} style={{ borderTop: "1px solid #e0dcd6", paddingTop: "28px", paddingBottom: "28px" }}>
             <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(15px, 1.7vw, 18px)", color: "#2F3E46", marginBottom: "12px", lineHeight: 1.4 }}>{item.q}</h3>
@@ -236,7 +236,7 @@ export default function KimBegravelse() {
             Skriv til mig
           </h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.7, color: "#5a7a6a", textAlign: "center", marginBottom: "32px" }}>
-            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+            Har I det bedre med at skrive end at ringe? Skriv et par linjer herunder – det behøver hverken være langt eller velformuleret. Jeg vender tilbage, så hurtigt jeg kan.
           </p>
           <ContactForm />
           <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>

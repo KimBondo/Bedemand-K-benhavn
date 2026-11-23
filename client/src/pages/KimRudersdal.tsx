@@ -153,7 +153,7 @@ export default function KimRudersdal() {
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
           <h2 style={{ ...s.h2, textAlign: "center" }}>Skriv til mig</h2>
           <p style={{ ...s.body, textAlign: "center", marginBottom: "32px" }}>
-            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+            Har I det bedre med at skrive end at ringe? Skriv et par linjer herunder – det behøver hverken være langt eller velformuleret. Jeg vender tilbage, så hurtigt jeg kan.
           </p>
           <ContactForm />
           <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>

@@ -40,10 +40,10 @@ export default function KimBisaettelse() {
         type="FAQPage"
         faqItems={[
           { question: "Hvad er forskellen på bisættelse og begravelse?", answer: "Ved en bisættelse samles asken i en urne. Ved en begravelse sænkes kisten ned i jorden på et gravsted. En bisættelse kan også foregå helt uden ceremoni." },
-          { question: "Kan man holde en bisættelse uden ceremoni?", answer: "Ja. En bisættelse uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et senere tidspunkt." },
-          { question: "Hvad sker der med urnen efter bisættelsen?", answer: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper med at finde den løsning, der passer til afdødes og familiens ønsker." },
+          { question: "Kan man holde en bisættelse uden ceremoni?", answer: "Ja. Ved en bisættelse uden ceremoni kører jeg kisten direkte til krematoriet, uden en højtidelighed først. Mange familier samles i stedet til et mindesamvær senere, når de har overskud til det." },
+          { question: "Hvad sker der med urnen efter bisættelsen?", answer: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper jer med at finde det, der passer til afdødes ønsker og til jer." },
           { question: "Kan man vælge en miljøvenlig kiste til bisættelse?", answer: "Ja. Jeg tilbyder kister fremstillet af bæredygtige materialer, der reducerer miljøpåvirkningen." },
-          { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til ligbrænding, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket." },
+          { question: "Hvad er inkluderet i prisen?", answer: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til ligbrænding, gravsted og kapelleje er ikke inkluderet, men jeg gennemgår dem med jer, så I ved, hvad I siger ja til." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/bisaettelse"
       />
@@ -138,7 +138,7 @@ export default function KimBisaettelse() {
             margin: "0 auto 40px",
           }}
         >
-          En bisættelse er den mest valgte afskedsform i Danmark. Jeg hjælper jer roligt og nærværende gennem hele forløbet – fra den første samtale til den endelige stedfæstelse af urnen.
+          En bisættelse er den mest valgte afskedsform i Danmark. Jeg hjælper jer roligt og nærværende gennem hele forløbet – fra den første samtale, til urnen har fundet sit sted.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
@@ -202,7 +202,7 @@ export default function KimBisaettelse() {
           En bisættelse er en afskedsform med eller uden en ceremoni først. Bagefter samles asken i en urne, som familien efterfølgende kan vælge at nedsætte på en kirkegård, bruge til <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredning over havet</a> eller tage med til udlandet.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Mange vælger bisættelse frem for en traditionel <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi det giver større fleksibilitet i forhold til gravsted og stedfæstelse. Det er ikke en mere upersonlig afsked – det er blot en anden måde at sige farvel på.
+          Mange vælger en bisættelse frem for en <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse med kiste i jorden</a>, fordi den giver flere muligheder for, hvor urnen eller asken skal være – på en kirkegård, ved havet eller i udlandet. Det er ikke en mindre personlig afsked – bare en anden måde at sige farvel på.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           Jeg lægger samme omsorg og nærvær i en bisættelse som i alle andre afskeder. Ceremonien kan være kirkelig eller borgerlig, og den kan tilpasses afdødes og familiens ønsker.
@@ -230,7 +230,7 @@ export default function KimBisaettelse() {
           {
             num: "1",
             title: "Første kontakt og planlægning",
-            text: "Vi taler om jeres ønsker – ceremonitype, musik, blomster, kiste og alt det praktiske. Jeg sørger for al koordinering med kirke eller kapel og myndighederne.",
+            text: "Vi taler roligt om jeres ønsker – ceremoni, musik, blomster og kiste. I behøver ikke have svar på det hele med det samme. Jeg sørger for kontakten til kirke eller kapel og myndighederne.",
           },
           {
             num: "2",
@@ -240,7 +240,7 @@ export default function KimBisaettelse() {
           {
             num: "3",
             title: "Ceremonien",
-            text: "Ceremonien afholdes i kirke, kapel eller et andet sted, der passer til afdøde. Den kan være kirkelig med præst eller borgerlig med en taler, I selv vælger.",
+            text: "Ceremonien holdes typisk i en kirke eller et kapel – sammen finder vi det sted, der passer jer bedst. Den kan være kirkelig med præst eller borgerlig med en taler, I selv vælger.",
           },
           {
             num: "4",
@@ -249,8 +249,8 @@ export default function KimBisaettelse() {
           },
           {
             num: "5",
-            title: "Stedfæstelse af urnen",
-            text: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet, eller urnen kan tages med til udlandet. Jeg hjælper med at finde den løsning, der passer bedst.",
+            title: "Hvor urnen skal være",
+            text: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet, eller urnen kan tages med til udlandet. Jeg hjælper jer med at finde det, der føles rigtigt for jer.",
           },
         ].map((step) => (
           <div
@@ -321,7 +321,7 @@ export default function KimBisaettelse() {
           En <strong>kirkelig bisættelse</strong> foregår i kirke eller kapel og ledes af en præst fra folkekirken. Ceremonien følger faste ritualer, men kan tilpasses med personlige ønsker til musik, salmer og prædiken. Det er den mest valgte form, også for familier, der ikke er stærkt religiøse – mange oplever den kirkelige ramme som tryg og højtidelig.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          En <strong>borgerlig bisættelse</strong> foregår uden religiøse ritualer og kan arrangeres helt efter familiens ønsker. Ceremonien kan finde sted i et kapel, i hjemmet eller på en anden personlig lokation. I vælger selv en taler, musik og indhold.
+          En <strong>borgerlig bisættelse</strong> foregår uden religiøse ritualer og kan arrangeres helt efter familiens ønsker. Sammen finder vi det sted til afskeden, der passer jer bedst. Taleren, musikken og indholdet bestemmer I sammen.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
           Ved en kirkelig bisættelse står præsten for ceremonien, inden kisten køres videre. En borgerlig bisættelse kan I selv forme med egne taler og musik.
@@ -449,13 +449,13 @@ export default function KimBisaettelse() {
           },
           {
             q: "Kan man holde en bisættelse uden ceremoni?",
-            a: "Ja. En bisættelse uden ceremoni betyder, at kisten transporteres direkte til krematoriet uden en formel højtidelighed. Mange familier vælger at holde et mindesamvær på et senere tidspunkt.",
+            a: "Ja. Ved en bisættelse uden ceremoni kører jeg kisten direkte til krematoriet, uden en højtidelighed først. Mange familier samles i stedet til et mindesamvær senere, når de har overskud til det.",
             link: "/afsked-uden-ceremoni/",
             linkText: "Læs mere om bisættelse uden ceremoni",
           },
           {
             q: "Hvad sker der med urnen efter bisættelsen?",
-            a: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper med at finde den løsning, der passer til afdødes og familiens ønsker.",
+            a: "Urnen kan nedsættes på en kirkegård, asken kan spredes over havet (askespredning), eller urnen kan tages med til udlandet. Jeg hjælper jer med at finde det, der passer til afdødes ønsker og til jer.",
             link: "/askespredning/",
             linkText: "Læs mere om askespredning",
           },
@@ -467,7 +467,7 @@ export default function KimBisaettelse() {
           },
           {
             q: "Hvad er inkluderet i prisen?",
-            a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til ligbrænding, gravsted og kapelleje er ikke inkluderet, men jeg hjælper jer med at indhente tilbud og holde overblikket.",
+            a: "Mine priser inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til ligbrænding, gravsted og kapelleje er ikke inkluderet, men jeg gennemgår dem med jer, så I ved, hvad I siger ja til.",
             link: "/priser/",
             linkText: "Se den fulde prisliste",
           },
@@ -510,7 +510,7 @@ export default function KimBisaettelse() {
             Skriv til mig
           </h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.7, color: "#5a7a6a", textAlign: "center", marginBottom: "32px" }}>
-            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+            Har I det bedre med at skrive end at ringe? Skriv et par linjer herunder – det behøver hverken være langt eller velformuleret. Jeg vender tilbage, så hurtigt jeg kan.
           </p>
           <ContactForm />
           <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>
