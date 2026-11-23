@@ -187,7 +187,7 @@ export default function KimOmKim() {
             </div>
             <div style={{ flex: 1, minWidth: "260px" }}>
               <p style={s.body}>
-                Jeg hedder Kim Bondo, og jeg er selvstændig bedemand med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland – og efter aftale på resten af Sjælland til de samme faste pakkepriser.
+                Jeg hedder Kim Bondo, og jeg er selvstændig bedemand med base i Gladsaxe og Søborg. Jeg kører i hele København, Storkøbenhavn og Nordsjælland – og efter aftale på resten af Sjælland til de samme pakkepriser.
               </p>
               <p style={s.body}>
                 Før jeg blev bedemand, arbejdede jeg i mange år som terapeut. Her lærte jeg at være der for mennesker i sorg og krise – at lytte, rumme og give plads, uanset hvad de har været igennem. Det har jeg taget med mig ind i arbejdet som bedemand.

@@ -227,7 +227,7 @@ const ROUTE_META = {
   },
   "/tak": {
     title: "Tak for jeres besked \u2013 Bedemand Kim Bondo",
-    description: "Tak for jeres besked. Jeg vender tilbage hurtigst muligt. Haster det, s\u00e5 ring til mig p\u00e5 28 14 60 11.",
+    description: "Tak for jeres besked. Jeg vender tilbage, s\u00e5 hurtigt jeg kan. Haster det, s\u00e5 ring til mig p\u00e5 28 14 60 11.",
     // Tak-siden skal ikke i Googles indeks
     robots: "noindex",
   },
