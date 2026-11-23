@@ -65,7 +65,7 @@ const PRICE_OFFERS = [
   {
     "@type": "Offer",
     "name": "Bisættelse uden ceremoni",
-    "description": `Fast pris ${kr(PAKKEPRISER.uden)} kr. Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Prisen gælder hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.`,
+    "description": `${kr(PAKKEPRISER.uden)} kr. Afdøde køres direkte til krematoriet uden forudgående højtidelighed. Prisen gælder hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.`,
     "price": String(PAKKEPRISER.uden),
     "priceCurrency": "DKK",
     "url": `${BASE_URL}/priser/`,

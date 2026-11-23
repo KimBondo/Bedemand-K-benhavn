@@ -162,7 +162,7 @@ export default function KimPrisberegner() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Prisberegner – Bedemand Kim Bondo"
-        description="Få et vejledende overslag på begravelse eller bisættelse ud fra mine faste priser. Ring til mig på 28 14 60 11."
+        description="Få et vejledende overslag på begravelse eller bisættelse ud fra mine priser. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/prisberegner/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />

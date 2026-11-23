@@ -287,7 +287,7 @@ export default function KimPriser() {
 
         {/* ── PRIS PÅ BISÆTTELSE ── */}
         <section style={{ marginBottom: "56px" }}>
-          <h2 style={s.h2}>Pris på bisættelse – og den enkleste afsked</h2>
+          <h2 style={s.h2}>Pris på bisættelse med og uden ceremoni</h2>
           <p style={s.body}>
             En bisættelse med ceremoni koster hos mig fra 14.995 kr., og begravelseshjælpen trækkes direkte fra fakturaen. Spørger I efter den enkleste afsked, er det en <a href="/afsked-uden-ceremoni/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>bisættelse uden ceremoni</a> til 9.995 kr. Jeg gennemgår alle udgifter med jer, før I bestemmer noget.
           </p>
