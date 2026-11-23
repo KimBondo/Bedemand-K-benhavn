@@ -22,10 +22,10 @@ const s = {
 };
 
 const FAQ = [
-  { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Herefter kan jeg kontaktes, og jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
+  { q: "Hvad skal man gøre først ved dødsfald?", a: "Det første er at kontakte en læge, der konstaterer dødsfaldet og udsteder en dødsattest. Derefter kan I ringe til mig, når I er klar. Jeg sender anmodningen om begravelse eller ligbrænding og hjælper jer med resten." },
   { q: "Hvem har ansvaret for at planlægge begravelsen?", a: "Det er den person, der bestiller begravelsen, der har det juridiske ansvar for planlægningen og betalingen. Oftest er det den nærmeste pårørende." },
-  { q: "Hvad hjælper du med?", a: "Jeg hjælper med anmodningen om begravelse eller ligbrænding, koordinering med kirke og kapel, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning – så I kan bruge energien på hinanden." },
-  { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen. Læs mere på siden om begravelseshjælp." },
+  { q: "Hvad hjælper du med?", a: "Jeg hjælper med anmodningen om begravelse eller ligbrænding, koordinering med kirke og kapel, bestilling af kiste og urne, ansøgning om begravelseshjælp og den praktiske planlægning – så I kan bruge kræfterne på hinanden." },
+  { q: "Kan man få begravelseshjælp?", a: "Ja, i mange tilfælde. I 2026 er det offentlige tilskud op til 13.550 kr. Jeg søger begravelseshjælpen for jer. Læs mere på siden om begravelseshjælp." },
 ];
 
 export default function KimHuskeliste() {
@@ -98,7 +98,7 @@ export default function KimHuskeliste() {
           Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          Når man mister en nærtstående, fylder sorgen meget – og alligevel er der en række praktiske ting, der skal ordnes. Her er et overblik over de vigtigste skridt, og hvad jeg hjælper med. Læs også den praktiske guide: <a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a>
+          Når I mister en, I holder af, fylder sorgen det hele – og alligevel er der praktiske ting, der skal ordnes. Her er et roligt overblik over de vigtigste skridt, og hvad jeg tager mig af for jer. I behøver ikke klare det hele selv. Læs også den praktiske guide: <a href="/hvad-sker-der/" style={s.link}>Hvad sker der, når nogen dør?</a>
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Ring til mig på 28 14 60 11
@@ -113,7 +113,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Læge og dødsattest</h3>
           <p style={s.body}>
-            Det første, der skal ske, er, at en læge konstaterer dødsfaldet og udsteder en dødsattest. Sker dødsfaldet på hospital eller hospice, sker dette automatisk. Sker det i hjemmet, skal lægen kontaktes. Jeg hjælper med at arrangere afhentning af afdøde, så afdøde kan bringes til et ventekapel.
+            Det første, der skal ske, er, at en læge konstaterer dødsfaldet og udsteder en dødsattest. Sker dødsfaldet på hospital eller hospice, sørger personalet for det. Sker det i hjemmet, ringer I til egen læge – eller til 1813 uden for lægens åbningstid. Når I er klar, henter jeg afdøde og bringer hende eller ham til et kapel.
           </p>
 
           <h3 style={s.h3}>Begravelse, bisættelse eller askespredning?</h3>
@@ -123,7 +123,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Anmodning om begravelse eller ligbrænding</h3>
           <p style={s.body}>
-            Lægen udsteder dødsattesten. Derefter skal der sendes en anmodning om begravelse eller ligbrænding til afdødes bopælssogn senest 2 hverdage efter dødsfaldet. Jeg hjælper med dette som en del af mit arbejde, så I ikke selv skal stå med det.
+            Lægen udsteder dødsattesten. Derefter skal der sendes en anmodning om begravelse eller ligbrænding til afdødes bopælssogn senest 2 hverdage efter dødsfaldet. Det gør jeg for jer som en del af mit arbejde, så I ikke selv skal stå med det.
           </p>
 
           <h3 style={s.h3}>Mindesamvær</h3>
@@ -138,7 +138,7 @@ export default function KimHuskeliste() {
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <p style={s.stepNum}>2</p>
           <h2 style={s.h2}>I forbindelse med selve afskeden</h2>
-          <p style={s.body}>Jeg hjælper med planlægning og sammenfatter alle aftaler i en bekræftelse til jer. Det kan dog være godt at have gjort sig tanker om:</p>
+          <p style={s.body}>Jeg samler alle aftaler i en bekræftelse til jer, så I har dem ét sted. Har I lyst, kan I allerede nu tænke lidt over:</p>
           <ul style={{ paddingLeft: "24px" }}>
             {[
               "Tidspunkt for afhentning af afdøde og evt. alenetid ved kisten",
@@ -170,7 +170,7 @@ export default function KimHuskeliste() {
 
           <h3 style={s.h3}>Begravelseshjælp</h3>
           <p style={s.body}>
-            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. I 2026 er tilskuddet op til <strong>13.550 kr.</strong> Jeg hjælper med at ansøge om begravelseshjælp som en del af mit arbejde. <a href="/begravelseshjaelp/" style={s.link}>Læs mere om begravelseshjælp →</a>
+            Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. I 2026 er tilskuddet op til <strong>13.550 kr.</strong> Jeg søger begravelseshjælpen for jer som en del af mit arbejde. <a href="/begravelseshjaelp/" style={s.link}>Læs mere om begravelseshjælp →</a>
           </p>
 
           <h3 style={s.h3}>Skifteretten</h3>
@@ -207,7 +207,7 @@ export default function KimHuskeliste() {
             </div>
             <div>
               <h3 style={{ ...s.h3, fontSize: "17px" }}>Praktisk i hjemmet</h3>
-              <p style={{ ...s.body, marginBottom: 0 }}>Tøm køleskab, vand blomster, sørg for passende varme. Husdyr skal passes. Jagttegn eller våben – kontakt politiet.</p>
+              <p style={{ ...s.body, marginBottom: 0 }}>Det kan være en hjælp at tømme køleskabet, vande blomsterne og holde varmen på. Husdyr skal passes, og har afdøde jagttegn eller våben, skal politiet kontaktes.</p>
             </div>
             <div>
               <h3 style={{ ...s.h3, fontSize: "17px" }}>Onlineprofiler</h3>

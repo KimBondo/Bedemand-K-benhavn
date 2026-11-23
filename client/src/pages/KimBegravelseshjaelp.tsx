@@ -21,7 +21,7 @@ const s = {
 };
 
 const FAQ = [
-  { q: "Søger vi selv, eller hjælper du med det?", a: "Jeg hjælper med ansøgningen som en del af mit arbejde. I behøver ikke selv stå med det." },
+  { q: "Søger vi selv, eller hjælper du med det?", a: "Jeg søger den for jer som en del af mit arbejde. I behøver ikke selv stå med det." },
   { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I har givet mig en fuldmagt, søger jeg hjælpen hos Udbetaling Danmark og trækker beløbet fra på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark skal bruge dokumentation fra skifteretten om boet, og de behandler normalt sagen inden for en måned, når papirerne er på plads." },
   { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Hjælpen nedsættes krone for krone, når formuen er over 22.700 kr. – eller 45.250 kr., hvis afdøde efterlader ægtefælle eller børn under 18 år – og den bortfalder helt over 36.250 kr. henholdsvis 58.800 kr. Udgifter til begravelsen tæller ikke med i formuen. Var afdøde født før 1. april 1957, udbetales der dog altid mindst 1.050 kr. En eventuel ægtefælles formue indgår også i vurderingen. Jeg giver jer et overslag med det samme, men det er Udbetaling Danmark, der træffer afgørelsen." },
   { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring – ikke om afdøde var lønmodtager eller selvstændig." },
@@ -98,7 +98,7 @@ export default function KimBegravelseshjaelp() {
           Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
-          En begravelse eller bisættelse koster penge – og mange ved ikke, at der kan søges offentlig støtte. Jeg hjælper med ansøgningen som en del af mit arbejde.
+          En afsked koster penge, og det kan føles som én bekymring for meget lige nu. Mange ved ikke, at der kan søges offentlig støtte. Jeg søger den for jer som en del af mit arbejde.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em" }}>
           Ring til mig på 28 14 60 11
@@ -127,7 +127,7 @@ export default function KimBegravelseshjaelp() {
             ))}
           </div>
           <p style={s.body}>
-            Den fulde begravelseshjælp er op til 13.550 kr., og min bisættelse uden ceremoni koster 9.995 kr. Er afdøde berettiget til hele beløbet, kan hjælpen altså dække pakken – men ikke nødvendigvis tillæg og eksterne udgifter som ligbrænding og gravsted.
+            Den fulde begravelseshjælp er op til 13.550 kr., og min bisættelse uden ceremoni koster 9.995 kr. Er afdøde berettiget til hele beløbet, kan hjælpen altså dække pakken. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.
           </p>
           <p style={s.body}>
             Derudover har enkelte fagforeninger fortsat ordninger med begravelseshjælp. Afdødes fagforening kan oplyse om dette – jeg hjælper gerne med at undersøge det.
