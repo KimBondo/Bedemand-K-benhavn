@@ -10,7 +10,6 @@ const PAKKER = [
   {
     navn: "Bisættelse uden ceremoni",
     pris: `${kr(PAKKEPRISER.uden)} kr.`,
-    note: "Fast pris for det, der står her. Vælger I mere til, ændrer prisen sig.",
     punkter: ["Telefonmøde, mit honorar og papirerne", "Umalet basiskiste, natururne og én kørsel (25 km med kisten)"],
   },
   {
@@ -39,9 +38,6 @@ export default function PakkeprisBoks() {
             <div key={p.navn} style={{ background: "#F9F8F6", border: "1px solid #e0dcd6", borderRadius: "4px", padding: "22px 20px" }}>
               <p style={{ fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "13px", letterSpacing: "0.08em", textTransform: "uppercase", color: "#3D6B4F", margin: "0 0 6px" }}>{p.navn}</p>
               <p style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "24px", color: "#2F3E46", margin: "0 0 10px", whiteSpace: "nowrap" }}>{p.pris}</p>
-              {p.note && (
-                <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "13px", lineHeight: 1.6, color: "#5a7a6a", margin: "0 0 10px", fontStyle: "italic" }}>{p.note}</p>
-              )}
               <ul style={{ margin: 0, paddingLeft: "18px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px", lineHeight: 1.7, color: "#3d4f5a" }}>
                 {p.punkter.map((x) => (
                   <li key={x}>{x}</li>
@@ -51,7 +47,7 @@ export default function PakkeprisBoks() {
           ))}
         </div>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "16px 0 0", textAlign: "center" }}>
-          Alle priser er inkl. moms og gælder hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni.
+          Alle priser er inkl. moms. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={link}>prissiden</a>.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "center", gap: "12px 24px", marginTop: "18px", fontFamily: "'Open Sans', sans-serif", fontSize: "15px" }}>
           <a href="/priser/" style={link}>Se, hvad der er med i prisen</a>
