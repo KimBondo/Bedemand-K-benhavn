@@ -24,7 +24,7 @@ const FAQ = [
   { q: "Søger vi selv, eller hjælper du med det?", a: "Jeg hjælper med ansøgningen som en del af mit arbejde. I behøver ikke selv stå med det." },
   { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I har givet mig en fuldmagt, søger jeg hjælpen hos Udbetaling Danmark og trækker beløbet fra på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark skal bruge dokumentation fra skifteretten om boet, og de behandler normalt sagen inden for en måned, når papirerne er på plads." },
   { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Hjælpen nedsættes krone for krone, når formuen er over 22.700 kr. – eller 45.250 kr., hvis afdøde efterlader ægtefælle eller børn under 18 år – og den bortfalder helt over 36.250 kr. henholdsvis 58.800 kr. Udgifter til begravelsen tæller ikke med i formuen. Var afdøde født før 1. april 1957, udbetales der dog altid mindst 1.050 kr. En eventuel ægtefælles formue indgår også i vurderingen. Jeg giver jer et overslag med det samme, men det er Udbetaling Danmark, der træffer afgørelsen." },
-  { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring – ikke om vedkommende var lønmodtager eller selvstændig." },
+  { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring – ikke om afdøde var lønmodtager eller selvstændig." },
   { q: "Er der andre tilskud end det offentlige?", a: 'Ja. Var afdøde medlem af Sygeforsikringen «danmark» i gruppe 1 eller 2 – og blev optaget senest 31. december 2022 – udbetaler «danmark» 1.400 kr. i begravelseshjælp. Beløbet kan betales direkte til mig og trækkes fra fakturaen. Enkelte fagforeninger har også begravelseshjælp.' },
 ];
 
@@ -211,7 +211,7 @@ export default function KimBegravelseshjaelp() {
         <div style={{ maxWidth: "600px", margin: "0 auto" }}>
           <h2 style={{ ...s.h2, textAlign: "center" }}>Skriv til mig</h2>
           <p style={{ ...s.body, textAlign: "center", marginBottom: "32px" }}>
-            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+            Har I det bedre med at skrive end at ringe? Skriv et par linjer herunder – det behøver hverken være langt eller velformuleret. Jeg vender tilbage, så hurtigt jeg kan.
           </p>
           <ContactForm />
           <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>

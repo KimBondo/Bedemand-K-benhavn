@@ -17,10 +17,10 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvad skal man gøre først, når nogen dør?", answer: "Kontakt en læge, som konstaterer dødsfaldet og udsteder dødsattesten. Derefter kan bedemanden kontaktes. Jeg sender anmodningen om begravelse eller ligbrænding og hjælper med den videre planlægning." },
+  { question: "Hvad skal man gøre først, når nogen dør?", answer: "Først skal en læge konstatere dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig, når I er klar. Jeg sender anmodningen om begravelse eller ligbrænding og hjælper jer med resten – i jeres tempo." },
   { question: "Hvem sender anmodningen om begravelse eller ligbrænding?", answer: "Lægen udsteder dødsattesten. Derefter skal der sendes en anmodning om begravelse eller ligbrænding til afdødes bopælssogn. Det gør jeg for jer med en fuldmagt, så I ikke selv skal kontakte myndighederne." },
-  { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer udgifter til ligbrænding, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter." },
-  { question: "Kan man få begravelseshjælp?", answer: "Ja, i mange tilfælde. I 2026 er det offentlige tilskud op til 13.550 kr. Jeg hjælper med ansøgningen." },
+  { question: "Hvad koster en begravelse eller bisættelse?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden." },
+  { question: "Kan man få begravelseshjælp?", answer: "Ja, i mange tilfælde. I 2026 er det offentlige tilskud op til 13.550 kr. Jeg søger begravelseshjælpen for jer." },
 ];
 
 export default function KimHvadSkerDer() {
@@ -64,7 +64,7 @@ export default function KimHvadSkerDer() {
           Hvad sker der, når nogen dør?
         </h1>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto", lineHeight: 1.7 }}>
-          En klar oversigt over de første skridt i København og Nordsjælland. Jeg står for det praktiske, så I kan bruge energien på hinanden.
+          Når nogen dør, er det helt naturligt ikke at vide, hvad man skal gøre. Her er de første skridt i København og Nordsjælland – ét ad gangen. Jeg står for det praktiske, så I kan være sammen og passe på hinanden.
         </p>
       </section>
 
@@ -72,14 +72,14 @@ export default function KimHvadSkerDer() {
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
           <h2 style={s.h2}>Hvad gør man, når nogen dør?</h2>
           <p style={s.body}>
-            Først skal en læge erklære dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>. Jeg sender anmodningen om begravelse eller ligbrænding til sognet, ansøger om begravelseshjælp og hjælper jer med resten i jeres eget tempo.
+            Først skal en læge erklære dødsfaldet og udstede dødsattesten. Derefter kan I ringe til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>, når I er klar. Jeg sender anmodningen om begravelse eller ligbrænding til sognet, ansøger om begravelseshjælp og hjælper jer med resten i jeres eget tempo.
           </p>
           <h2 style={{ ...s.h2, marginTop: "40px" }}>De første timer</h2>
           <p style={s.body}>
-            Når et menneske dør, skal en læge konstatere dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. Først når dødsattesten er klar, kan bedemanden gå i gang med det videre arbejde.
+            Når et menneske dør, skal en læge konstatere dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Først når dødsattesten er klar, kan jeg gå i gang med det videre arbejde.
           </p>
           <p style={s.body}>
-            Jeg kan kontaktes med det samme – også om natten. Vi taler om situationen, og jeg guider jer igennem de næste skridt. Der er ingen forpligtelse ved at ringe.
+            I kan ringe til mig med det samme – også om natten. Vi taler roligt om, hvad der er sket, og jeg fortæller jer, hvad der skal ske nu. I forpligter jer ikke til noget ved at ringe.
           </p>
 
           <h2 style={s.h2}>Anmeldelse og koordinering</h2>
@@ -95,7 +95,7 @@ export default function KimHvadSkerDer() {
             De fleste vælger en bisættelse med ceremoni (fra 14.995 kr.) eller en begravelse i kiste (fra 13.495 kr.). En bisættelse uden ceremoni koster 9.995 kr.
           </p>
           <p style={s.body}>
-            Jeg laver et overslag sammen med jer, inden I beslutter noget. Oveni kommer udgifter til ligbrænding, gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter.
+            Jeg laver et overslag sammen med jer. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={s.link}>prissiden</a>.
           </p>
 
           <h2 style={s.h2}>Hvad jeg tager mig af</h2>
@@ -104,7 +104,7 @@ export default function KimHvadSkerDer() {
           </p>
 
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "28px", textAlign: "center", marginTop: "40px" }}>
-            <p style={{ ...s.body, marginBottom: "20px" }}>Har I brug for hjælp nu? Ring til mig – også om natten.</p>
+            <p style={{ ...s.body, marginBottom: "20px" }}>Har I brug for hjælp nu? Ring til mig – også om natten. I behøver ikke have forberedt noget.</p>
             <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontWeight: 700, padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
               Ring til mig på 28 14 60 11
             </a>

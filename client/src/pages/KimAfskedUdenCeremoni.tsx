@@ -24,7 +24,7 @@ export default function KimAfskedUdenCeremoni() {
     >
       <SEO
         title="Bisættelse uden ceremoni – Bedemand Kim Bondo"
-        description="Enkel bisættelse uden ceremoni i København. Urnenedsættelse eller askespredning uden kirke. Fast pris 9.995 kr. Ring til mig på 28 14 60 11."
+        description="Enkel bisættelse uden ceremoni i København. Urnenedsættelse eller askespredning uden kirke. 9.995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -36,11 +36,11 @@ export default function KimAfskedUdenCeremoni() {
           { name: "Bisættelse uden ceremoni", url: "https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni/" }
         ]}
         faqItems={[
-          { question: "Kan man holde et mindesamvær på et andet tidspunkt?", answer: "Ja. Mange familier vælger at holde et mindesamvær på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme." },
+          { question: "Kan man holde et mindesamvær på et andet tidspunkt?", answer: "Ja. Mange familier holder et mindesamvær senere, når de har overskud til det – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Så kan familien samles i ro og gøre det personligt." },
           { question: "Kan en bisættelse uden ceremoni kombineres med askespredning?", answer: "Ja. Efter en bisættelse uden ceremoni kan asken spredes over havet, hvis afdøde har ønsket det." },
-          { question: "Er en bisættelse uden ceremoni den enkleste løsning?", answer: "Ja, det er den mest enkle løsning, da der ikke er udgifter til kirke eller kapel. Prisen er fast: 9.995 kr. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. I kan vælge en anden kiste eller urne mod merpris." },
+          { question: "Er en bisættelse uden ceremoni den enkleste løsning?", answer: "Ja. Der er ingen udgifter til kirke eller kapel, og prisen er 9.995 kr. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden." },
           { question: "Behandles afdøde stadig med værdighed?", answer: "Ja. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form." },
-          { question: "Hvad er forskellen på en bisættelse uden og med ceremoni?", answer: "En bisættelse med ceremoni inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En bisættelse uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed." },
+          { question: "Hvad er forskellen på en bisættelse uden og med ceremoni?", answer: "Ved en bisættelse med ceremoni samles I i kirke eller kapel og siger farvel sammen. Ved en bisættelse uden ceremoni holdes der ingen højtidelighed – afskeden er stille, og I kan samles på et andet tidspunkt, hvis I ønsker det." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni"
       />
@@ -108,7 +108,7 @@ export default function KimAfskedUdenCeremoni() {
           Bisættelse uden ceremoni – enkel og respektfuld
         </h1>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
-          Ikke alle afskeder behøver en formel ceremoni. En bisættelse uden ceremoni er en stille og diskret løsning, der håndteres med samme omsorg og værdighed som alle andre afskeder.
+          Ikke alle afskeder behøver en ceremoni. En bisættelse uden ceremoni er en stille og enkel afsked – med samme omsorg og værdighed som alle andre afskeder.
         </p>
         <div className="hero-knapper" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
@@ -136,7 +136,7 @@ export default function KimAfskedUdenCeremoni() {
           En bisættelse uden ceremoni betyder, at der ikke holdes en kirkelig eller borgerlig ceremoni over kisten. Afdøde lægges i kiste og køres direkte til krematoriet. Bagefter kan urnen sættes ned på en kirkegård, eller asken kan spredes over havet, hvis det var afdødes ønske.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Det er ikke en kold eller upersonlig afsked – det er blot en enklere form. Mange familier vælger at holde et mindesamvær på et andet tidspunkt, for eksempel ved urnenedsættelsen, ved <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredningen</a> eller på en særlig mærkedag.
+          En afsked uden ceremoni er hverken kold eller upersonlig – den er bare enklere. Mange familier samles i stedet på et andet tidspunkt, når de har overskud til det, for eksempel ved urnenedsættelsen, ved <a href="/askespredning/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>askespredningen</a> eller på en særlig mærkedag.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           En bisættelse uden ceremoni ender altid med en urne. Ønsker I, at kisten skal i jorden, er det en <a href="/begravelse/" style={{ color: "#3D6B4F", textDecoration: "none", fontWeight: 600 }}>begravelse</a>.
@@ -151,7 +151,7 @@ export default function KimAfskedUdenCeremoni() {
           Hvornår vælger man en bisættelse uden ceremoni?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, marginBottom: "20px" }}>
-          Der er mange grunde til at vælge denne løsning. Afdøde kan have ønsket en stille og diskret afsked. Familien kan foretrække en mere privat og uformel ramme frem for en traditionel ceremoni. Praktiske hensyn kan spille ind, for eksempel hvis familien bor spredt eller har særlige behov. Og for nogen er det en bevidst prioritering af det enkle og ukomplicerede.
+          Der er mange gode grunde til at vælge en stille afsked. Måske ønskede afdøde det sådan. Måske har familien brug for en mere privat ramme, bor spredt eller har særlige hensyn at tage. Og for nogle er det enkle simpelthen det rigtige.
         </p>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
           Uanset årsagen behandler jeg afdøde og familien med den samme omsorg og respekt som ved alle andre afskeder. Der er ingen rigtig eller forkert måde at sige farvel på.
@@ -166,10 +166,10 @@ export default function KimAfskedUdenCeremoni() {
           Sådan foregår en bisættelse uden ceremoni
         </h2>
         {[
-          { num: "1", title: "Første kontakt", text: "Vi taler om jeres ønsker og de praktiske detaljer. Jeg sørger for koordineringen og håndterer de administrative opgaver." },
+          { num: "1", title: "Første kontakt", text: "Vi taler roligt om jeres ønsker. Jeg tager mig af papirerne og alt det praktiske, så I ikke skal tænke på det." },
           { num: "2", title: "Kisteilægning", text: "Afdøde lægges i kisten med omsorg og værdighed. I kan vælge at være til stede, hvis det føles rigtigt." },
           { num: "3", title: "Transport til krematoriet", text: "Jeg kører selv kisten direkte til krematoriet – med respekt og omhu." },
-          { num: "4", title: "Urnen", text: "Bagefter samles asken i en urne. Urnen kan sættes ned på en kirkegård, asken kan spredes over havet, eller urnen kan tages med til udlandet. I kan selv hente urnen, eller jeg kan køre den for jer for 900 kr. Det er kirkegården, der står for urnenedsættelsen." },
+          { num: "4", title: "Urnen", text: "Bagefter samles asken i en urne. Urnen kan sættes ned på en kirkegård, asken kan spredes over havet, eller urnen kan tages med til udlandet. I kan selv hente urnen, eller jeg kan køre den for jer. Det er kirkegården, der står for urnenedsættelsen." },
         ].map((step) => (
           <div key={step.num} style={{ display: "flex", gap: "24px", marginBottom: "40px", alignItems: "flex-start" }}>
             <div style={{ minWidth: "44px", height: "44px", borderRadius: "50%", background: "#3D6B4F", color: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "18px", flexShrink: 0 }}>
@@ -191,10 +191,7 @@ export default function KimAfskedUdenCeremoni() {
           Hvad koster en bisættelse uden ceremoni?
         </h2>
         <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          En bisættelse uden ceremoni koster <strong>9.995 kr.</strong> Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. Det er den mest enkle løsning og inkluderer mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Udgifter til ligbrænding og urnegravsted kommer oveni – jeg hjælper med at indhente priserne og holde overblikket.
-        </p>
-        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8, maxWidth: "620px", margin: "0 auto 32px" }}>
-          Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Det aftaler vi, når forløbet ligger fast. Ved en bisættelse uden ceremoni kører jeg afdøde direkte til krematoriet. Der kommer derfor ingen ekstra kørsel til kisteophold, heller ikke når jeg henter afdøde i et privat hjem, på et plejehjem eller på et hospice.
+          En bisættelse uden ceremoni koster <strong>9.995 kr.</strong> Det er den mest enkle afsked, og prisen omfatter mit honorar, koordinering, kisteilægning, rustvognskørsel, kiste og urne. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="/priser/" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>
@@ -214,11 +211,11 @@ export default function KimAfskedUdenCeremoni() {
           Ofte stillede spørgsmål
         </h2>
         {[
-          { q: "Kan man holde et mindesamvær på et andet tidspunkt?", a: "Ja. Mange familier vælger at holde et mindesamvær på et senere tidspunkt – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Det giver tid til at samle familien og skabe en personlig ramme.", link: null, linkText: null },
+          { q: "Kan man holde et mindesamvær på et andet tidspunkt?", a: "Ja. Mange familier holder et mindesamvær senere, når de har overskud til det – for eksempel ved urnenedsættelsen, ved askespredningen eller på en særlig mærkedag. Så kan familien samles i ro og gøre det personligt.", link: null, linkText: null },
           { q: "Kan en bisættelse uden ceremoni kombineres med askespredning?", a: "Ja. Efter en bisættelse uden ceremoni kan asken spredes over havet, hvis afdøde har ønsket det.", link: "/askespredning/", linkText: "Læs mere om askespredning" },
-          { q: "Er en bisættelse uden ceremoni den enkleste løsning?", a: "Ja, det er den mest enkle løsning, da der ikke er udgifter til kirke eller kapel. Prisen er fast: 9.995 kr. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. I kan vælge en anden kiste eller urne mod merpris.", link: "/priser/", linkText: "Se den fulde prisliste" },
+          { q: "Er en bisættelse uden ceremoni den enkleste løsning?", a: "Ja. Der er ingen udgifter til kirke eller kapel, og prisen er 9.995 kr. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.", link: "/priser/", linkText: "Se den fulde prisliste" },
           { q: "Behandles afdøde stadig med værdighed?", a: "Ja. Uanset om der er ceremoni eller ej, behandler jeg afdøde og familien med den samme omsorg og respekt. Der er ingen forskel i omhu – kun i form.", link: null, linkText: null },
-          { q: "Hvad er forskellen på en bisættelse uden og med ceremoni?", a: "En bisættelse med ceremoni inkluderer en ceremoni i kirke eller kapel med pårørende til stede. En bisættelse uden ceremoni fokuserer udelukkende på den praktiske håndtering, uden en formel højtidelighed.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
+          { q: "Hvad er forskellen på en bisættelse uden og med ceremoni?", a: "Ved en bisættelse med ceremoni samles I i kirke eller kapel og siger farvel sammen. Ved en bisættelse uden ceremoni holdes der ingen højtidelighed – afskeden er stille, og I kan samles på et andet tidspunkt, hvis I ønsker det.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
         ].map((item, i) => (
           <div key={i} style={{ borderTop: "1px solid #e0dcd6", paddingTop: "28px", paddingBottom: "28px" }}>
             <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(15px, 1.7vw, 18px)", color: "#2F3E46", marginBottom: "12px", lineHeight: 1.4 }}>{item.q}</h3>
@@ -236,7 +233,7 @@ export default function KimAfskedUdenCeremoni() {
             Skriv til mig
           </h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.7, color: "#5a7a6a", textAlign: "center", marginBottom: "32px" }}>
-            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+            Har I det bedre med at skrive end at ringe? Skriv et par linjer herunder – det behøver hverken være langt eller velformuleret. Jeg vender tilbage, så hurtigt jeg kan.
           </p>
           <ContactForm />
           <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>

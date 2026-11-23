@@ -307,7 +307,7 @@ export default function KimPriser() {
             Det står her, så I kan regne det ud selv.
           </p>
           <p style={s.body}>
-            Er der ikke noget, der haster, kan afdøde ofte blive, hvor vedkommende er, til næste morgen. Mange familier foretrækker det – der bliver tid til at sige farvel i ro. Så bortfalder tillægget. Det taler vi om, når I ringer.
+            Er der ikke noget, der haster, kan afdøde ofte blive, hvor hun eller han er, til næste morgen. Mange familier foretrækker det – der bliver tid til at sige farvel i ro. Så bortfalder tillægget. Det taler vi om, når I ringer.
           </p>
           <p style={s.body}>
             Priserne gælder afhentning fra hospital, hospice eller plejehjem. Jeg tager et tillæg på 1.200 kr. for afhentning i private hjem. Adgangsforholdene er ofte trange, det tager længere tid, og det kræver ofte meget tunge løft.

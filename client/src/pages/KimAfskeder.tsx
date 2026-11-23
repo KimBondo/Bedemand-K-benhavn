@@ -258,7 +258,7 @@ export default function KimAfskeder() {
             Skriv til mig
           </h2>
           <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.7, color: "#5a7a6a", textAlign: "center", marginBottom: "32px" }}>
-            Udfyld formularen herunder, så vender jeg tilbage hurtigst muligt.
+            Har I det bedre med at skrive end at ringe? Skriv et par linjer herunder – det behøver hverken være langt eller velformuleret. Jeg vender tilbage, så hurtigt jeg kan.
           </p>
           <ContactForm />
           <p style={{ marginTop: "36px", fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(17px, 2vw, 19px)", fontWeight: 600, color: "#2F3E46", textAlign: "center", lineHeight: 1.6 }}>

@@ -75,7 +75,7 @@ const ROUTE_META = {
   },
   "/afsked-uden-ceremoni": {
     title: "Bisættelse uden ceremoni \u2013 Bedemand Kim Bondo",
-    description: "Enkel bisættelse uden ceremoni i K\u00f8benhavn. Urneneds\u00e6ttelse eller askespredning uden kirke. Fast pris 9.995 kr. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Enkel bisættelse uden ceremoni i K\u00f8benhavn. Urneneds\u00e6ttelse eller askespredning uden kirke. 9.995 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/afskeder": {
     title: "Afskeder \u2013 Bedemand Kim Bondo",

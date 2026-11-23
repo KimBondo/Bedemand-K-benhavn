@@ -174,7 +174,7 @@
   .hero-opkald > p { margin-bottom: 18px !important; line-height: 1.55 !important; }
 }
 
-/* /nordsjaelland/ og /afsked-uden-ceremoni/: «Se priser» som et lille tekstlink under opkaldsknappen på mobil */
+/* /nordsjaelland/, /afsked-uden-ceremoni/, /bisaettelse/ og /begravelse/: «Se priser» som et lille tekstlink under opkaldsknappen på mobil */
 @media (max-width: 768px) {
   .hero-knapper { gap: 4px !important; }
   .se-priser-mobil {
