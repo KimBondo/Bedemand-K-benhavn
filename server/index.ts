@@ -167,7 +167,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",
-    description: "Få et vejledende overslag på begravelse eller bisættelse ud fra mine faste priser. Ring til mig på 28 14 60 11.",
+    description: "Få et vejledende overslag på begravelse eller bisættelse ud fra mine priser. Ring til mig på 28 14 60 11.",
   },
   "/persondatapolitik": {
     title: "Persondatapolitik – Bedemand Kim Bondo",

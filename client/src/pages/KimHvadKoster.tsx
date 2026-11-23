@@ -91,7 +91,7 @@ export default function KimHvadKoster() {
           Opdateret <time dateTime="2026-11-08">november 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto", lineHeight: 1.7 }}>
-          Prisen afhænger af, hvilken afsked I ønsker. Jeg hjælper jer med at få overblik og gennemgår både min pris og udgifterne til andre, før I beslutter jer.
+          Det er helt naturligt at tænke på, hvad det kommer til at koste – også midt i sorgen. Prisen afhænger af, hvilken afsked I ønsker, og jeg gennemgår både min pris og de udgifter, der ikke går til mig, før I beslutter noget.
         </p>
       </section>
 
@@ -104,7 +104,7 @@ export default function KimHvadKoster() {
             <li>Bisættelse med ceremoni: fra 14.995 kr.</li>
           </ul>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Priserne gælder de beskrevne standardforløb på hverdage og afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni. På <a href="/priser/" style={s.link}>prissiden</a> kan I se, hvad pakkerne indeholder, og hvilke tillæg der kan være relevante.
+            Priserne gælder hverdage. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={s.link}>prissiden</a>.
           </p>
         </div>
       </section>
@@ -124,11 +124,8 @@ export default function KimHvadKoster() {
       <section style={{ background: "#fff", padding: "56px 24px" }}>
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Kørsel</h2>
-          <p style={s.body}>
-            Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet og frem til afskeden. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den mest økonomiske rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område er der intet loft.
-          </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Bisættelse uden ceremoni og begravelse har som regel én rustvognskørsel, og bisættelse med ceremoni har som regel to. Bliver der brug for flere kørsler, koster en ekstra kørsel 1.595 kr. Er bisættelsen en lørdag, skal der som regel bruges en kørsel mere, fordi hospitalernes kapeller er lukket i weekenden, og kisten derfor skal på kisteophold indtil lørdag. Det aftaler vi, når forløbet ligger fast. Henter jeg afdøde et andet sted end i et hospitalskapel, fx i et privat hjem, på et plejehjem eller på et hospice, skal kisten på kisteophold. Så kommer der som regel en kørsel mere. Det gælder ikke bisættelse uden ceremoni, hvor jeg kører direkte til krematoriet. Ved en begravelse kommer der også en kørsel mere, hvis kirken ikke har sin egen kirkegård og kisten derfor skal køres til kirkegården.
+            Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen: fra afhentningsstedet og frem til afskeden. Min egen kørsel til og fra Søborg betaler I ikke for. En rustvognskørsel koster 1.595 kr., og de første 25 km er med i prisen. Derefter koster det 35 kr. pr. km, kun den ene vej, ad den mest økonomiske rute. I hele København og Nordsjælland koster en kørsel højst 2.000 kr. Uden for det område er der intet loft.
           </p>
         </div>
       </section>

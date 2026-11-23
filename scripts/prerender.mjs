@@ -199,7 +199,7 @@ const ROUTE_META = {
   },
   "/prisberegner": {
     title: "Prisberegner – Bedemand Kim Bondo",
-    description: "F\u00e5 et vejledende overslag p\u00e5 begravelse eller bis\u00e6ttelse ud fra mine faste priser. Ring til mig p\u00e5 28 14 60 11.",
+    description: "F\u00e5 et vejledende overslag p\u00e5 begravelse eller bis\u00e6ttelse ud fra mine priser. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hvad-sker-der": {
     title: "Hvad sker der, når nogen dør? – Praktisk guide | Kim Bondo",
