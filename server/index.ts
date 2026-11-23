@@ -39,7 +39,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/afsked-uden-ceremoni": {
     title: "Bisættelse uden ceremoni – Bedemand Kim Bondo, 9.995 kr.",
-    description: "Enkel bisættelse uden ceremoni i København. Urnenedsættelse eller askespredning uden kirke. Fast pris 9.995 kr. Ring til mig på 28 14 60 11.",
+    description: "Enkel bisættelse uden ceremoni i København. Urnenedsættelse eller askespredning uden kirke. 9.995 kr. Ring til mig på 28 14 60 11.",
   },
   "/askespredning": {
     title: "Må man sprede aske over havet? Regler – Kim Bondo",

@@ -140,7 +140,7 @@ export default function KimBisaettelse() {
         >
           En bisættelse er den mest valgte afskedsform i Danmark. Jeg hjælper jer roligt og nærværende gennem hele forløbet – fra den første samtale, til urnen har fundet sit sted.
         </p>
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
+        <div className="hero-knapper" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a
             href="tel:+4528146011"
             style={{
@@ -159,7 +159,7 @@ export default function KimBisaettelse() {
             Ring til mig på 28 14 60 11
           </a>
           <a
-            href="/priser/"
+            className="se-priser-mobil" href="/priser/"
             style={{
               display: "inline-block",
               background: "transparent",
@@ -361,7 +361,7 @@ export default function KimBisaettelse() {
             margin: "0 auto 32px",
           }}
         >
-          Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. Jeg gennemgår alle udgifter med jer på forhånd. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong>
+          Prisen afhænger af jeres valg – ceremonitype, kiste, urne og eventuelle tilvalg. En bisættelse uden ceremoni koster <strong>9.995 kr.</strong>, og en bisættelse med ceremoni koster fra <strong>14.995 kr.</strong> Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på prissiden.
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a

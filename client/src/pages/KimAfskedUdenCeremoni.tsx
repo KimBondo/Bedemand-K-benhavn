@@ -24,7 +24,7 @@ export default function KimAfskedUdenCeremoni() {
     >
       <SEO
         title="Bisættelse uden ceremoni – Bedemand Kim Bondo"
-        description="Enkel bisættelse uden ceremoni i København. Urnenedsættelse eller askespredning uden kirke. Fast pris 9.995 kr. Ring til mig på 28 14 60 11."
+        description="Enkel bisættelse uden ceremoni i København. Urnenedsættelse eller askespredning uden kirke. 9.995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/afsked-uden-ceremoni/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -108,7 +108,7 @@ export default function KimAfskedUdenCeremoni() {
           Bisættelse uden ceremoni – enkel og respektfuld
         </h1>
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", lineHeight: 1.7, maxWidth: "620px", margin: "0 auto 40px" }}>
-          Ikke alle afskeder behøver en ceremoni. En bisættelse uden ceremoni er en stille og enkel afsked – med samme omsorg og værdighed som alle andre.
+          Ikke alle afskeder behøver en ceremoni. En bisættelse uden ceremoni er en stille og enkel afsked – med samme omsorg og værdighed som alle andre afskeder.
         </p>
         <div className="hero-knapper" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "16px" }}>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.05em" }}>

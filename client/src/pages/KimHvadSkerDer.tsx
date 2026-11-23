@@ -95,7 +95,7 @@ export default function KimHvadSkerDer() {
             De fleste vælger en bisættelse med ceremoni (fra 14.995 kr.) eller en begravelse i kiste (fra 13.495 kr.). En bisættelse uden ceremoni koster 9.995 kr.
           </p>
           <p style={s.body}>
-            Jeg laver et overslag sammen med jer, inden I beslutter noget. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer – og I kan altid se dem på prissiden.
+            Jeg laver et overslag sammen med jer. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={s.link}>prissiden</a>.
           </p>
 
           <h2 style={s.h2}>Hvad jeg tager mig af</h2>
