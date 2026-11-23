@@ -59,7 +59,7 @@ export default function KimBisaettelseNordsjaelland() {
         </ol>
       </nav>
 
-      <section style={{ background: "#F9F8F6", padding: "64px 32px 40px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "64px 32px 40px", textAlign: "center" }}>
         <p style={s.label}>Lokal guide</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 46px)", color: "#2F3E46", margin: "0 auto 16px", maxWidth: "760px" }}>
           Sådan forløber en bisættelse i Nordsjælland
@@ -67,6 +67,9 @@ export default function KimBisaettelseNordsjaelland() {
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto", lineHeight: 1.7 }}>
           Sammen finder vi det sted til afskeden, der passer jer bedst. Jeg hjælper jer med det praktiske.
         </p>
+        <div style={{ marginTop: "24px" }}>
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
+        </div>
       </section>
 
       <section style={{ background: "#fff", padding: "48px 32px 72px" }}>
