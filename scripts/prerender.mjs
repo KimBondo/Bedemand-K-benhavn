@@ -82,8 +82,8 @@ const ROUTE_META = {
     description: "Kirkelig, borgerlig eller stille afsked i K\u00f8benhavn. Jeg tilrettel\u00e6gger begravelse og bis\u00e6ttelse efter jeres \u00f8nsker. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/amager": {
-    title: "Bedemand Amager \u2013 Kim Bondo",
-    description: "Bedemand p\u00e5 Amager \u2013 i Kastrup, T\u00e5rnby og Drag\u00f8r. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig p\u00e5 28 14 60 11.",
+    title: "Bedemand Amager, Kastrup og Sundby \u2013 Kim Bondo",
+    description: "Bedemand p\u00e5 Amager \u2013 i Kastrup, Sundby, T\u00e5rnby og Drag\u00f8r. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/askespredning": {
     title: "M\u00e5 man sprede aske over havet? Regler \u2013 Kim Bondo",
@@ -118,7 +118,7 @@ const ROUTE_META = {
     description: "Bedemand i Gentofte, Hellerup, Charlottenlund og Vangede. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/helsingor": {
-    title: "Bedemand Helsing\u00f8r \u2013 Kim Bondo",
+    title: "Bedemand Helsing\u00f8r og Snekkersten \u2013 Kim Bondo",
     description: "Bedemand i Helsing\u00f8r, Snekkersten, Esperg\u00e6rde og Hornb\u00e6k. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hillerod": {
@@ -126,7 +126,7 @@ const ROUTE_META = {
     description: "Personlig bedemand i Hiller\u00f8d og omegn. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/horsholm": {
-    title: "Bedemand H\u00f8rsholm \u2013 Kim Bondo",
+    title: "Bedemand H\u00f8rsholm og Rungsted \u2013 Kim Bondo",
     description: "Bedemand i H\u00f8rsholm og Rungsted. Kapellet p\u00e5 H\u00f8rsholm Kirkeg\u00e5rd kan bruges af alle. Bis\u00e6ttelse uden ceremoni 9.995 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/mindeord": {
@@ -232,11 +232,11 @@ const ROUTE_META = {
     robots: "noindex",
   },
   "/soborg": {
-    title: "Bedemand S\u00f8borg & Gladsaxe \u2013 Kim Bondo",
-    description: "Personlig bedemand med kontor p\u00e5 Vandt\u00e5rnsvej 62A i S\u00f8borg. Jeg hj\u00e6lper familier i hele Gladsaxe med bis\u00e6ttelse og begravelse. Ring til mig p\u00e5 28 14 60 11.",
+    title: "Bedemand S\u00f8borg, Gladsaxe og Buddinge \u2013 Kim Bondo",
+    description: "Personlig bedemand med kontor p\u00e5 Vandt\u00e5rnsvej 62A i S\u00f8borg. Jeg hj\u00e6lper familier i S\u00f8borg, Buddinge, M\u00f8rkh\u00f8j og hele Gladsaxe. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/vesterbro": {
-    title: "Bedemand Vesterbro \u2013 Kim Bondo",
+    title: "Bedemand Vesterbro og Sydhavnen \u2013 Kim Bondo",
     description: "Bedemand p\u00e5 Vesterbro. Vestre Kirkeg\u00e5rd ligger t\u00e6t p\u00e5. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
 };

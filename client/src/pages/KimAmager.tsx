@@ -25,15 +25,15 @@ export default function KimAmager() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Amager – Kim Bondo"
-        description="Bedemand på Amager – i Kastrup, Tårnby og Dragør. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
+        title="Bedemand Amager, Kastrup og Sundby – Kim Bondo"
+        description="Bedemand på Amager – i Kastrup, Sundby, Tårnby og Dragør. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/amager/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"
         faqItems={FAQ}
-        areaServed={["Amager", "Kastrup", "Tårnby", "Dragør"]}
+        areaServed={["Amager", "Kastrup", "Sundby", "Tårnby", "Dragør"]}
         pageUrl="https://www.bedemandkobenhavn.dk/amager/"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
@@ -91,7 +91,7 @@ export default function KimAmager() {
           Bedemand på Amager
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier på Amager – også i Tårnby og Dragør – med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
+          Jeg er selvstændig bedemand og hjælper familier på Amager – også i Kastrup, Sundby, Tårnby og Dragør – med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Telefonmødet er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>
@@ -108,7 +108,7 @@ export default function KimAmager() {
           <p style={s.body}>
             I behøver ikke have besluttet noget, før vi taler sammen – og I behøver ikke vide, hvor I skal begynde. Det finder vi ud af sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Et møde hjemme hos jer eller på mit kontor koster 995 kr.
           </p>
-          <h2 style={{ ...s.h2, marginTop: "40px" }}>Sådan hjælper jeg</h2>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Begravelse og bisættelse på Amager</h2>
           <p style={s.body}>
             Jeg står for det praktiske: anmodningen om begravelse eller ligbrænding, kontakten til kirke og kirkegård og ansøgningen om begravelseshjælp. Vil I vide, hvad der sker de første dage, kan I læse om, <a href="/hvad-sker-der/" style={s.link}>hvad der sker, når nogen dør</a>.
           </p>

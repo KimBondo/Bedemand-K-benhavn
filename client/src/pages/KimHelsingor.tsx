@@ -18,7 +18,7 @@ export default function KimHelsingor() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Helsingør – Kim Bondo"
+        title="Bedemand Helsingør og Snekkersten – Kim Bondo"
         description="Bedemand i Helsingør, Snekkersten, Espergærde og Hornbæk. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/helsingor/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
@@ -83,7 +83,7 @@ export default function KimHelsingor() {
           Personlig bedemand i Helsingør
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier i Helsingør og langs kysten med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
+          Jeg er selvstændig bedemand og hjælper familier i Helsingør, Snekkersten og langs kysten med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Telefonmødet er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>

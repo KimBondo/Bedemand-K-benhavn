@@ -32,7 +32,7 @@ export default function KimRudersdal() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["Rudersdal", "Birkerød", "Holte", "Nærum", "Vedbæk"]}
+        areaServed={["Rudersdal", "Birkerød", "Holte", "Nærum", "Søllerød", "Vedbæk"]}
         pageUrl="https://www.bedemandkobenhavn.dk/rudersdal/"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
@@ -104,7 +104,7 @@ export default function KimRudersdal() {
           Personlig bedemand i Rudersdal
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier i Birkerød, Holte, Nærum og Vedbæk med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
+          Jeg er selvstændig bedemand og hjælper familier i Birkerød, Holte, Nærum, Søllerød og Vedbæk med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Telefonmødet er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>

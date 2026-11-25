@@ -74,11 +74,11 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Begravelse fra 13.495 kr., bisættelse med ceremoni fra 14.995 kr. og uden ceremoni 9.995 kr. Se, hvad der kommer oveni. Ring til mig på 28 14 60 11.",
   },
   "/helsingor": {
-    title: "Bedemand Helsingør – Kim Bondo | Personlig hjælp i Helsingør",
+    title: "Bedemand Helsingør og Snekkersten – Kim Bondo",
     description: "Bedemand i Helsingør, Snekkersten, Espergærde og Hornbæk. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11.",
   },
   "/horsholm": {
-    title: "Bedemand Hørsholm – Kim Bondo | Personlig hjælp i Hørsholm",
+    title: "Bedemand Hørsholm og Rungsted – Kim Bondo",
     description: "Bedemand i Hørsholm og Rungsted. Kapellet på Hørsholm Kirkegård kan bruges af alle. Bisættelse uden ceremoni 9.995 kr. Ring til mig på 28 14 60 11.",
   },
   "/gentofte": {
@@ -106,16 +106,16 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Personlig bedemand på Frederiksberg. Kommunens tre kirkegårde. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11.",
   },
   "/amager": {
-    title: "Bedemand Amager – Kim Bondo | Personlig hjælp på Amager",
-    description: "Bedemand på Amager – i Kastrup, Tårnby og Dragør. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11.",
+    title: "Bedemand Amager, Kastrup og Sundby – Kim Bondo",
+    description: "Bedemand på Amager – i Kastrup, Sundby, Tårnby og Dragør. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11.",
   },
   "/sjaelland": {
     title: "Bedemand på Sjælland – Kim Bondo",
     description: "Bedemand på hele Sjælland. Jeg tager selv telefonen. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11.",
   },
   "/soborg": {
-    title: "Bedemand Søborg & Gladsaxe – Kim Bondo",
-    description: "Personlig bedemand med kontor på Vandtårnsvej 62A i Søborg. Jeg hjælper familier i hele Gladsaxe med bisættelse og begravelse. Ring til mig på 28 14 60 11.",
+    title: "Bedemand Søborg, Gladsaxe og Buddinge – Kim Bondo",
+    description: "Personlig bedemand med kontor på Vandtårnsvej 62A i Søborg. Jeg hjælper familier i Søborg, Buddinge, Mørkhøj og hele Gladsaxe. Ring til mig på 28 14 60 11.",
   },
   "/osterbro": {
     title: "Bedemand Østerbro – Kim Bondo | Personlig hjælp på Østerbro",
@@ -126,7 +126,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Bedemand på Nørrebro. Telefonmødet er med i prisen, og et møde hjemme hos jer eller i Søborg koster 995 kr. Ring til mig på 28 14 60 11.",
   },
   "/vesterbro": {
-    title: "Bedemand Vesterbro – Kim Bondo | Personlig hjælp på Vesterbro",
+    title: "Bedemand Vesterbro og Sydhavnen – Kim Bondo",
     description: "Bedemand på Vesterbro. Vestre Kirkegård ligger tæt på. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11.",
   },
   "/produkter": {
