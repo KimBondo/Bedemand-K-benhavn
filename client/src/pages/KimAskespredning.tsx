@@ -21,15 +21,15 @@ export default function KimAskespredning() {
       }}
     >
       <SEO
-        title="Må man sprede aske over havet? Regler – Kim Bondo"
-        description="Ja, asken må spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Ellers kan sognet give dispensation. Se reglerne. Ring til mig på 28 14 60 11."
+        title="Askespredning: regler, pris og forløb – Kim Bondo"
+        description="Askespredning over åbent hav er tilladt, hvis afdøde skriftligt har ønsket det. Se regler, pris og forløb. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/askespredning/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
 
       <SchemaOrg
         type="both"
-        article={{ headline: "Askespredning over havet – en fri og naturlig afsked", url: "https://www.bedemandkobenhavn.dk/askespredning/", dateModified: "2026-09-28" }}
+        article={{ headline: "Askespredning over havet – en fri og naturlig afsked", url: "https://www.bedemandkobenhavn.dk/askespredning/", dateModified: "2026-11-25" }}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Askespredning", url: "https://www.bedemandkobenhavn.dk/askespredning/" }
@@ -39,7 +39,9 @@ export default function KimAskespredning() {
           { question: "Kan askespredning kombineres med en ceremoni?", answer: "Ja. Askespredning kan kombineres med en kirkelig eller borgerlig bisættelse med ceremoni. Nogle vælger at lade selve spredningen være en lille ceremoni for de nærmeste." },
           { question: "Kan man sprede asken selv?", answer: "Ja. Mange henter selv urnen og spreder asken. Jeg kan også stå for det for jer, hvis I hellere vil det." },
           { question: "Hvad sker der med urnen efter spredningen?", answer: "Urnen må ikke efterlades i havet. Den tages med tilbage og bortskaffes. Jeg hjælper gerne med det." },
-          { question: "Kan man sprede asken i en skov?", answer: "Nej, reglerne i Danmark tillader kun askespredning over åbent hav eller større fjorde og bugter. Det er ikke tilladt at sprede asken på land, i skove, søer eller vandløb." },
+          { question: "Kan man sprede asken i en skov?", answer: "Nej, reglerne i Danmark tillader kun askespredning over åbent hav eller større fjorde og bugter. Det er ikke tilladt at sprede asken på land, i skove, søer eller vandløb. Ønsker I en afsked tæt på naturen, har flere kirkegårde skovområder, hvor urnen kan sættes ned." },
+          { question: "Hvilken urne bruger man til askespredning?", answer: "Til askespredning bruger man ofte et askerør. Det er lavet af genanvendt karton, er biologisk nedbrydeligt og gør det let at sprede asken roligt." },
+          { question: "Hvilken blanket skal bruges til askespredning?", answer: "Ønsket om askespredning skal stå i anmodningen om ligbrænding, som jeg sender til sognet sammen med afdødes skriftlige ønske eller jeres erklæring. I skal ikke selv udfylde blanketten." },
         ]}
         pageUrl="https://www.bedemandkobenhavn.dk/askespredning"
       />
@@ -192,6 +194,17 @@ export default function KimAskespredning() {
 
       <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
 
+      <section style={{ maxWidth: "760px", margin: "0 auto", padding: "80px 32px 64px" }}>
+        <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(20px, 2.5vw, 30px)", color: "#2F3E46", marginBottom: "20px", lineHeight: 1.3 }}>
+          Askespredning fra København, Nordsjælland og Sjælland
+        </h2>
+        <p style={{ fontSize: "clamp(15px, 1.6vw, 17px)", color: "#4a6270", lineHeight: 1.8 }}>
+          Jeg hjælper familier i København, Nordsjælland og på resten af Sjælland med askespredning. Herfra er der kort vej til Øresund og Kattegat. Sammen finder vi det sted til afskeden, der passer jer bedst.
+        </p>
+      </section>
+
+      <hr style={{ border: "none", borderTop: "1px solid #e0dcd6", margin: "0 48px" }} />
+
       {/* ── PRIS ── */}
       <section style={{ background: "#f0f4f2", padding: "80px 32px", textAlign: "center" }}>
         <h2 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(20px, 2.5vw, 30px)", color: "#2F3E46", marginBottom: "20px" }}>
@@ -222,7 +235,9 @@ export default function KimAskespredning() {
           { q: "Kan askespredning kombineres med en ceremoni?", a: "Ja. Askespredning kan kombineres med en kirkelig eller borgerlig bisættelse med ceremoni. Nogle vælger at lade selve spredningen være en lille ceremoni for de nærmeste.", link: "/bisaettelse/", linkText: "Læs mere om bisættelse" },
           { q: "Kan man sprede asken selv?", a: "Ja. Mange henter selv urnen og spreder asken. Jeg kan også stå for det for jer, hvis I hellere vil det.", link: null, linkText: null },
           { q: "Hvad sker der med urnen efter spredningen?", a: "Urnen må ikke efterlades i havet. Den tages med tilbage og bortskaffes. Jeg hjælper gerne med det.", link: null, linkText: null },
-          { q: "Kan man sprede asken i en skov?", a: "Nej, reglerne i Danmark tillader kun askespredning over åbent hav eller større fjorde og bugter. Det er ikke tilladt at sprede asken på land, i skove, søer eller vandløb.", link: null, linkText: null },
+          { q: "Kan man sprede asken i en skov?", a: "Nej, reglerne i Danmark tillader kun askespredning over åbent hav eller større fjorde og bugter. Det er ikke tilladt at sprede asken på land, i skove, søer eller vandløb. Ønsker I en afsked tæt på naturen, har flere kirkegårde skovområder, hvor urnen kan sættes ned.", link: null, linkText: null },
+          { q: "Hvilken urne bruger man til askespredning?", a: "Til askespredning bruger man ofte et askerør. Det er lavet af genanvendt karton, er biologisk nedbrydeligt og gør det let at sprede asken roligt.", link: "/produkter/", linkText: "Se kister og urner" },
+          { q: "Hvilken blanket skal bruges til askespredning?", a: "Ønsket om askespredning skal stå i anmodningen om ligbrænding, som jeg sender til sognet sammen med afdødes skriftlige ønske eller jeres erklæring. I skal ikke selv udfylde blanketten.", link: null, linkText: null },
         ].map((item, i) => (
           <div key={i} style={{ borderTop: "1px solid #e0dcd6", paddingTop: "28px", paddingBottom: "28px" }}>
             <h3 style={{ fontFamily: "'Lora', serif", fontWeight: 600, fontSize: "clamp(15px, 1.7vw, 18px)", color: "#2F3E46", marginBottom: "12px", lineHeight: 1.4 }}>{item.q}</h3>
