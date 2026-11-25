@@ -58,7 +58,7 @@ export default function KimHvadSkerDer() {
         </ol>
       </nav>
 
-      <section style={{ background: "#F9F8F6", padding: "64px 32px 40px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "64px 32px 40px", textAlign: "center" }}>
         <p style={s.label}>Praktisk guide</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 46px)", color: "#2F3E46", margin: "0 auto 16px", maxWidth: "720px" }}>
           Hvad sker der, når nogen dør?
@@ -66,6 +66,9 @@ export default function KimHvadSkerDer() {
         <p style={{ fontSize: "clamp(16px, 1.8vw, 19px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto", lineHeight: 1.7 }}>
           Når nogen dør, er det helt naturligt ikke at vide, hvad man skal gøre. Her er de første skridt i København og Nordsjælland – ét ad gangen. Jeg står for det praktiske, så I kan være sammen og passe på hinanden.
         </p>
+        <div style={{ marginTop: "24px" }}>
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
+        </div>
       </section>
 
       <section style={{ background: "#fff", padding: "48px 32px 72px" }}>
@@ -79,7 +82,7 @@ export default function KimHvadSkerDer() {
             Når et menneske dør, skal en læge konstatere dødsfaldet og udstede en dødsattest. Det sker som regel på hospitalet, på et hospice eller i hjemmet. Først når dødsattesten er klar, kan jeg gå i gang med det videre arbejde.
           </p>
           <p style={s.body}>
-            I kan ringe til mig med det samme – også om natten. Vi taler roligt om, hvad der er sket, og jeg fortæller jer, hvad der skal ske nu. I forpligter jer ikke til noget ved at ringe.
+            I kan ringe til mig med det samme. Vi taler roligt om, hvad der er sket, og jeg fortæller jer, hvad der skal ske nu. I forpligter jer ikke til noget ved at ringe.
           </p>
 
           <h2 style={s.h2}>Anmeldelse og koordinering</h2>
@@ -104,7 +107,7 @@ export default function KimHvadSkerDer() {
           </p>
 
           <div style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "28px", textAlign: "center", marginTop: "40px" }}>
-            <p style={{ ...s.body, marginBottom: "20px" }}>Har I brug for hjælp nu? Ring til mig – også om natten. I behøver ikke have forberedt noget.</p>
+            <p style={{ ...s.body, marginBottom: "20px" }}>Har I brug for hjælp nu? Ring til mig. I behøver ikke have forberedt noget.</p>
             <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontWeight: 700, padding: "14px 28px", borderRadius: "3px", textDecoration: "none" }}>
               Ring til mig på 28 14 60 11
             </a>

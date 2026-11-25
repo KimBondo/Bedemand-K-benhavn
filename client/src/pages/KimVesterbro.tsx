@@ -18,7 +18,7 @@ export default function KimVesterbro() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Vesterbro – Kim Bondo, døgnet rundt"
+        title="Bedemand Vesterbro – Kim Bondo"
         description="Bedemand på Vesterbro. Vestre Kirkegård ligger tæt på. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/vesterbro/"
         image="/images/kim-bondo-rustvogn-kyst.webp"

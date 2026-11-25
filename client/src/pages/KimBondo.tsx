@@ -161,7 +161,7 @@ export default function KimBondo() {
               letterSpacing: "0.01em",
             }}
           >
-            Bedemand i København og Nordsjælland – jeg tager selv telefonen, døgnet rundt
+            Bedemand i København og Nordsjælland – jeg tager selv telefonen
           </h1>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#ffffff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "clamp(16px, 2vw, 19px)", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>
             Ring trygt til mig på 28 14 60 11

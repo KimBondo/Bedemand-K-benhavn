@@ -22,7 +22,7 @@ const s = {
 };
 
 const FAQ = [
-  { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland, København og Storkøbenhavn. Ring til mig på 28 14 60 11 – også midt om natten." },
+  { question: "Hvem er bedemand i Nordsjælland?", answer: "Jeg hedder Kim Bondo og er selvstændig bedemand. Jeg dækker hele Nordsjælland, København og Storkøbenhavn. Ring til mig på 28 14 60 11." },
   { question: "Hvad koster en begravelse i Nordsjælland?", answer: "En bisættelse uden ceremoni koster 9.995 kr., en begravelse i kiste fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. Oveni kommer gravsted og eventuel kapelleje, som kommunen eller kirkegården fastsætter. Taksterne er forskellige fra sted til sted – jeg finder dem, der gælder for jer." },
   { question: "Hvilke kommuner dækker du?", answer: "Gentofte, Lyngby-Taarbæk, Rudersdal, Furesø, Allerød, Hørsholm, Fredensborg, Helsingør, Gribskov, Hillerød, Frederikssund og Halsnæs – og hele København. Bor I lige uden for, så ring alligevel; så finder vi en løsning." },
   { question: "Hvad er begravelseshjælp, og kan jeg søge den?", answer: "Begravelseshjælp er et tilskud fra Udbetaling Danmark. Jeg søger den for jer, og beløbet modregnes direkte på fakturaen, så I ikke skal lægge ud." },
@@ -32,7 +32,7 @@ export default function KimNordsjaelland() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Nordsjælland – Kim Bondo, døgnet rundt"
+        title="Bedemand Nordsjælland – Kim Bondo"
         description="Bedemand i hele Nordsjælland – fra Gentofte og Lyngby til Hillerød og Helsingør. Bisættelse uden ceremoni 9.995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/nordsjaelland/"
         image="/images/kim-bondo-rustvogn-kyst.webp"

@@ -18,7 +18,7 @@ export default function KimSjaelland() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand på Sjælland – Kim Bondo, døgnet rundt"
+        title="Bedemand på Sjælland – Kim Bondo"
         description="Bedemand på hele Sjælland. Jeg tager selv telefonen. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/sjaelland/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
@@ -97,7 +97,7 @@ export default function KimSjaelland() {
             Mit kontor ligger i Søborg, og til daglig hjælper jeg mest familier i København og Nordsjælland. Men sorg følger ikke kommunegrænser. Bor I et andet sted på Sjælland, eller ønsker I, at jeg hjælper med en afsked, selv om I bor langt fra hinanden, så ring til mig. Så finder vi en løsning sammen.
           </p>
           <p style={s.body}>
-            <strong>Det er stadig mig, I taler med.</strong> Jeg tager selv telefonen døgnet rundt, kører selv ud og er selv til stede ved højtideligheden.
+            <strong>Det er stadig mig, I taler med.</strong> Jeg tager selv telefonen, kører selv ud og er selv til stede ved højtideligheden.
           </p>
           <p style={s.body}>
             <strong>Afskeden.</strong> Sammen finder vi det sted til afskeden, der passer jer bedst.
@@ -109,7 +109,7 @@ export default function KimSjaelland() {
             <strong>Kørsel.</strong> Jeg tager kun betaling for den strækning, hvor afdøde er med i rustvognen – ikke for min egen kørsel til og fra Søborg. Er der langt at køre, kan kørslen koste lidt mere.
           </p>
           <p style={s.body}>
-            Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a> – også om natten.
+            Ring til mig på <a href="tel:+4528146011" style={s.link}>28 14 60 11</a>, så hjælper jeg jer videre.
           </p>
           <KimPortraet align="left" />
           <div style={{ marginTop: "8px" }}>

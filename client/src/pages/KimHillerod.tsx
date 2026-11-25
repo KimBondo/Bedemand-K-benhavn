@@ -25,7 +25,7 @@ export default function KimHillerod() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Hillerød – Kim Bondo, døgnet rundt"
+        title="Bedemand Hillerød – Kim Bondo"
         description="Personlig bedemand i Hillerød og omegn. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/hillerod/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
