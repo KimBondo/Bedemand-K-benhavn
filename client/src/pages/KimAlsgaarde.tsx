@@ -18,7 +18,7 @@ export default function KimAlsgaarde() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Ålsgårde – Kim Bondo, døgnet rundt"
+        title="Bedemand Ålsgårde – Kim Bondo"
         description="Bedemand i Ålsgårde og Hellebæk. Hellebæk Kirke og Ålsgårde Kirkegård. Bisættelse uden ceremoni 9.995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/alsgaarde/"
         image="/images/kim-bondo-rustvogn-kyst.webp"

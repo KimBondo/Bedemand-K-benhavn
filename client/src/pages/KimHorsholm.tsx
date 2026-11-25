@@ -22,7 +22,7 @@ export default function KimHorsholm() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Hørsholm – Kim Bondo, døgnet rundt"
+        title="Bedemand Hørsholm – Kim Bondo"
         description="Bedemand i Hørsholm og Rungsted. Kapellet på Hørsholm Kirkegård kan bruges af alle. Bisættelse uden ceremoni 9.995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/horsholm/"
         image="/images/kim-bondo-rustvogn-kyst.webp"

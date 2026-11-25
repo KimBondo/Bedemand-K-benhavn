@@ -18,7 +18,7 @@ export default function KimSoborg() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Søborg & Gladsaxe – Kim Bondo, døgnet rundt"
+        title="Bedemand Søborg & Gladsaxe – Kim Bondo"
         description="Personlig bedemand med kontor på Vandtårnsvej 62A i Søborg. Jeg hjælper familier i hele Gladsaxe med bisættelse og begravelse. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/soborg/"
         image="/images/kim-bondo-rustvogn-kyst.webp"

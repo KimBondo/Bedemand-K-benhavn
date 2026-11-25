@@ -17,7 +17,7 @@ const s = {
 const FAQ = [
   { question: "Hvad koster en bisættelse på Amager?", answer: "Hos mig koster en bisættelse uden ceremoni 9.995 kr., en begravelse fra 13.495 kr. og en bisættelse med ceremoni fra 14.995 kr. I kan altid se udgifter oveni på prissiden. Begravelseshjælpen søger jeg for jer og trækker fra på fakturaen." },
   { question: "Hvad gør jeg først, når nogen dør?", answer: "Er dødsfaldet sket i hjemmet, skal en læge konstatere det og udstede dødsattesten. Ring til egen læge eller til 1813 uden for lægens åbningstid. På hospital eller plejehjem sørger personalet for det. Derefter kan I ringe til mig på 28 14 60 11." },
-  { question: "Kan du hente afdøde uden for normal arbejdstid?", answer: "Ja, jeg tager telefonen døgnet rundt. Der kan komme et tillæg uden for almindelig arbejdstid. Beløbet og reglerne står på prissiden, og jeg gennemgår dem med jer, før I beslutter noget. Afdøde kan ofte blive, hvor hun eller han er, til næste morgen – så bortfalder tillægget." },
+  { question: "Kan du hente afdøde uden for normal arbejdstid?", answer: "Ja. Der kan komme et tillæg uden for almindelig arbejdstid. Beløbet og reglerne står på prissiden, og jeg gennemgår dem med jer, før I beslutter noget. Afdøde kan ofte blive, hvor hun eller han er, til næste morgen – så bortfalder tillægget." },
   { question: "Hvad koster kørslen?", answer: "Jeg regner kun den strækning, hvor afdøde er med i rustvognen, ikke min kørsel fra Søborg. Prisen og reglerne for kørslen står på prissiden." },
 ];
 
@@ -25,7 +25,7 @@ export default function KimAmager() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Bedemand Amager – Kim Bondo, døgnet rundt"
+        title="Bedemand Amager – Kim Bondo"
         description="Bedemand på Amager – i Kastrup, Tårnby og Dragør. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/amager/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
