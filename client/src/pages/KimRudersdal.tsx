@@ -107,6 +107,7 @@ export default function KimRudersdal() {
           Jeg er selvstændig bedemand og hjælper familier i Birkerød, Holte, Nærum og Vedbæk med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Telefonmødet er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>
         <div style={{ marginTop: "28px" }}>
           <KimPortraet />
         </div>
@@ -118,7 +119,7 @@ export default function KimRudersdal() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Den første samtale</h2>
           <p style={s.body}>
-            I behøver ikke have besluttet noget, før vi taler sammen – og I behøver ikke vide, hvor I skal begynde. Det finder vi ud af sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Telefonmødet er med i prisen. Et møde hjemme hos jer eller på mit kontor koster 995 kr.
+            I behøver ikke have besluttet noget, før vi taler sammen – og I behøver ikke vide, hvor I skal begynde. Det finder vi ud af sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Et møde hjemme hos jer eller på mit kontor koster 995 kr.
           </p>
 
           <h2 style={{ ...s.h2, marginTop: "40px" }}>Kirker, kapeller og kirkegårde</h2>

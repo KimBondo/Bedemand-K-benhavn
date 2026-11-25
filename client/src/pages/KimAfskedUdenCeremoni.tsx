@@ -118,6 +118,7 @@ export default function KimAfskedUdenCeremoni() {
             Se priser
           </a>
         </div>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Telefonmødet er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>
         <div style={{ marginTop: "28px" }}>
           <KimPortraet />
         </div>
