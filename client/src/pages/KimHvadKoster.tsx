@@ -88,7 +88,7 @@ export default function KimHvadKoster() {
           Hvad koster en begravelse eller bisættelse?
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "-8px auto 24px", letterSpacing: "0.02em" }}>
-          Opdateret <time dateTime="2026-11-08">november 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
+          Opdateret <time dateTime="2026-11-25">november 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto", lineHeight: 1.7 }}>
           Det er helt naturligt at tænke på, hvad det kommer til at koste – også midt i sorgen. Prisen afhænger af, hvilken afsked I ønsker, og jeg gennemgår både min pris og de udgifter, der ikke går til mig, før I beslutter noget.
