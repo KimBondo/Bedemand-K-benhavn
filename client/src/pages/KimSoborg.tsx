@@ -25,7 +25,7 @@ export default function KimSoborg() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["Gladsaxe"]}
+        areaServed={["Gladsaxe", "Søborg", "Buddinge", "Mørkhøj"]}
         serviceName="Bedemand Søborg & Gladsaxe"
         pageUrl="https://www.bedemandkobenhavn.dk/soborg/"
         breadcrumbs={[
