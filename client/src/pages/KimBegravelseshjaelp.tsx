@@ -144,7 +144,7 @@ export default function KimBegravelseshjaelp() {
             Alle afdøde, der er omfattet af dansk sygesikring, kan have ret til begravelseshjælp. Var afdøde født før 1. april 1957, udbetales der altid mindst 1.050 kr. – uanset formue. For øvrige afhænger tilskuddet af formuen på tidspunktet for dødsfaldet – både afdødes og en eventuel ægtefælles. Det er Udbetaling Danmark, der træffer afgørelsen.
           </p>
           <p style={s.body}>
-            Begravelseshjælpen søges via Udbetaling Danmark. Udbetaling Danmark administreres af ATP, så mange kalder det også begravelseshjælp fra ATP. Jeg søger den for jer som en del af mit arbejde, så I ikke selv skal stå med det i en svær tid.
+            Begravelseshjælpen søges via Udbetaling Danmark. Jeg søger den for jer som en del af mit arbejde, så I ikke selv skal stå med det i en svær tid.
           </p>
 
           <div style={{ background: "#fff", padding: "32px", borderRadius: "3px", border: "1px solid #e0dcd6", marginTop: "16px" }}>
