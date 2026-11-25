@@ -33,7 +33,7 @@ export default function KimNorrebro() {
       <SchemaOrg
         type="both"
         faqItems={FAQ}
-        areaServed={["Nørrebro"]}
+        areaServed={["Nørrebro", "Nordvest", "Bispebjerg"]}
         pageUrl="https://www.bedemandkobenhavn.dk/norrebro/"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
@@ -123,13 +123,17 @@ export default function KimNorrebro() {
           <h3 style={s.h3}>Kirker</h3>
           <ul style={{ margin: 0, paddingLeft: "20px", fontFamily: "'Open Sans', sans-serif", fontSize: "17px", lineHeight: 1.9, color: "#3d4f5a" }}>
             <li>Anna Kirke</li>
+            <li>Ansgarkirken</li>
             <li>Bethlehemskirken</li>
             <li>Brorsons Kirke</li>
+            <li>Grundtvigs Kirke</li>
             <li>Hellig Kors Kirke</li>
+            <li>Kapernaumskirken</li>
             <li>Kingos Kirke</li>
             <li>Sankt Johannes Kirke</li>
             <li>Sankt Stefans Kirke</li>
             <li>Simeons Kirke</li>
+            <li>Tagensbo Kirke</li>
           </ul>
         </div>
       </section>

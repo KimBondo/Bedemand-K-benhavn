@@ -83,7 +83,7 @@ const ROUTE_META = {
   },
   "/amager": {
     title: "Bedemand Amager, Kastrup og Sundby \u2013 Kim Bondo",
-    description: "Bedemand p\u00e5 Amager \u2013 i Kastrup, T\u00e5rnby og Drag\u00f8r. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bedemand p\u00e5 Amager \u2013 i Kastrup, Sundby, T\u00e5rnby og Drag\u00f8r. Bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/askespredning": {
     title: "M\u00e5 man sprede aske over havet? Regler \u2013 Kim Bondo",

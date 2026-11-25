@@ -26,14 +26,14 @@ export default function KimAmager() {
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
         title="Bedemand Amager, Kastrup og Sundby – Kim Bondo"
-        description="Bedemand på Amager – i Kastrup, Tårnby og Dragør. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
+        description="Bedemand på Amager – i Kastrup, Sundby, Tårnby og Dragør. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/amager/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
       <SchemaOrg
         type="both"
         faqItems={FAQ}
-        areaServed={["Amager", "Kastrup", "Tårnby", "Dragør"]}
+        areaServed={["Amager", "Kastrup", "Sundby", "Tårnby", "Dragør"]}
         pageUrl="https://www.bedemandkobenhavn.dk/amager/"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },

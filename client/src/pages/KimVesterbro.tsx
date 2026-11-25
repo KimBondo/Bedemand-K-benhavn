@@ -25,7 +25,7 @@ export default function KimVesterbro() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["Vesterbro", "Kgs. Enghave"]}
+        areaServed={["Vesterbro", "Kgs. Enghave", "Sydhavnen"]}
         pageUrl="https://www.bedemandkobenhavn.dk/vesterbro/"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
@@ -110,6 +110,7 @@ export default function KimVesterbro() {
             <li>Apostelkirken</li>
             <li>Eliaskirken</li>
             <li>Enghave Kirke</li>
+            <li>Frederiksholm Kirke</li>
             <li>Kristkirken</li>
             <li>Mariakirken</li>
             <li>Sankt Matthæus Kirke</li>

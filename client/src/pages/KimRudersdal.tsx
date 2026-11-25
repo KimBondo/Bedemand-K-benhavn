@@ -32,7 +32,7 @@ export default function KimRudersdal() {
       />
       <SchemaOrg
         type="both"
-        areaServed={["Rudersdal", "Birkerød", "Holte", "Nærum", "Vedbæk"]}
+        areaServed={["Rudersdal", "Birkerød", "Holte", "Nærum", "Søllerød", "Vedbæk"]}
         pageUrl="https://www.bedemandkobenhavn.dk/rudersdal/"
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },

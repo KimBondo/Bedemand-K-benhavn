@@ -107,7 +107,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/amager": {
     title: "Bedemand Amager, Kastrup og Sundby – Kim Bondo",
-    description: "Bedemand på Amager – i Kastrup, Tårnby og Dragør. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11.",
+    description: "Bedemand på Amager – i Kastrup, Sundby, Tårnby og Dragør. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11.",
   },
   "/sjaelland": {
     title: "Bedemand på Sjælland – Kim Bondo",
