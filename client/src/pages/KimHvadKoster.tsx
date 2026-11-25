@@ -33,7 +33,7 @@ export default function KimHvadKoster() {
       />
       <SchemaOrg
         type="both"
-        article={{ headline: "Hvad koster en begravelse eller bisættelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/", dateModified: "2026-11-08" }}
+        article={{ headline: "Hvad koster en begravelse eller bisættelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/", dateModified: "2026-11-25" }}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Hvad koster en begravelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/" }
@@ -138,6 +138,21 @@ export default function KimHvadKoster() {
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
             Jeg sørger for ansøgningen om begravelseshjælp for jer. Det er Udbetaling Danmark, der afgør, hvor meget I kan få. Derfor viser jeg prisen før støtte og hjælpen særskilt.
+          </p>
+        </div>
+      </section>
+
+      <section style={{ background: "#fff", padding: "56px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Hvis afdøde ikke var medlem af folkekirken</h2>
+          <p style={s.body}>
+            Mine priser er de samme, uanset om afdøde var medlem af folkekirken eller ej. Begravelseshjælpen afhænger heller ikke af medlemskab.
+          </p>
+          <p style={s.body}>
+            Det, der kan være forskelligt, er kirkegårdens takster. På kirkegårde, som drives af et menighedsråd, betaler ikke-medlemmer som regel mere for gravstedet. På Københavns Kommunes kirkegårde er taksten den samme for medlemmer og ikke-medlemmer. Jeg finder de takster, der gælder for jer, før I beslutter noget.
+          </p>
+          <p style={{ ...s.body, marginBottom: 0 }}>
+            En ceremoni i kirken kræver som udgangspunkt, at afdøde var medlem. I vælger selv, om afskeden skal være <a href="/kirkelig-afsked/" style={s.link}>kirkelig</a>, <a href="/borgerlig-afsked/" style={s.link}>borgerlig</a> eller <a href="/afsked-uden-ceremoni/" style={s.link}>uden ceremoni</a>, og jeg hjælper jer med at finde det sted, der passer jer bedst.
           </p>
         </div>
       </section>

@@ -41,7 +41,7 @@ export default function KimBegravelseshjaelp() {
       <SchemaOrg
         type="both"
         faqItems={FAQ.map((f) => ({ question: f.q, answer: f.a }))}
-        article={{ headline: "Begravelseshjælp – hvad kan I søge?", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/", dateModified: "2026-09-28" }}
+        article={{ headline: "Begravelseshjælp – hvad kan I søge?", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/", dateModified: "2026-11-25" }}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Begravelseshjælp", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/" }
