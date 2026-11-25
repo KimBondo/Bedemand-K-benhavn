@@ -108,7 +108,7 @@ export default function KimOsterbro() {
           <p style={s.body}>
             I behøver ikke have besluttet noget, før vi taler sammen – og I behøver ikke vide, hvor I skal begynde. Det finder vi ud af sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Et møde hjemme hos jer eller på mit kontor koster 995 kr.
           </p>
-          <h2 style={{ ...s.h2, marginTop: "40px" }}>Sådan hjælper jeg</h2>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Begravelse og bisættelse på Østerbro</h2>
           <p style={s.body}>
             Jeg står for det praktiske: anmodningen om begravelse eller ligbrænding, kontakten til kirke og kirkegård og ansøgningen om begravelseshjælp. Vil I vide, hvad der sker de første dage, kan I læse om, <a href="/hvad-sker-der/" style={s.link}>hvad der sker, når nogen dør</a>.
           </p>

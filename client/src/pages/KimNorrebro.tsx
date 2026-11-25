@@ -91,7 +91,7 @@ export default function KimNorrebro() {
           Bedemand på Nørrebro
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Jeg er selvstændig bedemand og hjælper familier på Nørrebro med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
+          Jeg er selvstændig bedemand og hjælper familier på Nørrebro, i Nordvest og på Bispebjerg med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Telefonmødet er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>
@@ -108,7 +108,7 @@ export default function KimNorrebro() {
           <p style={s.body}>
             I behøver ikke have besluttet noget, før vi taler sammen – og I behøver ikke vide, hvor I skal begynde. Det finder vi ud af sammen. Vi kan tale i telefonen, jeg kan komme hjem til jer, eller I kan komme på mit kontor i Søborg. Et møde hjemme hos jer eller på mit kontor koster 995 kr.
           </p>
-          <h2 style={{ ...s.h2, marginTop: "40px" }}>Sådan hjælper jeg</h2>
+          <h2 style={{ ...s.h2, marginTop: "40px" }}>Begravelse og bisættelse på Nørrebro</h2>
           <p style={s.body}>
             Jeg står for det praktiske: anmodningen om begravelse eller ligbrænding, kontakten til kirke og kirkegård og ansøgningen om begravelseshjælp. Vil I vide, hvad der sker de første dage, kan I læse om, <a href="/hvad-sker-der/" style={s.link}>hvad der sker, når nogen dør</a>.
           </p>
