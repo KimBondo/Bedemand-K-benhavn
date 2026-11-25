@@ -149,10 +149,10 @@ export default function KimHvadKoster() {
             Mine priser er de samme, uanset om afdøde var medlem af folkekirken eller ej. Begravelseshjælpen afhænger heller ikke af medlemskab.
           </p>
           <p style={s.body}>
-            Det, der kan være forskelligt, er kirkegårdens takster. På kirkegårde, som drives af et menighedsråd, betaler ikke-medlemmer som regel mere for gravstedet. På Københavns Kommunes kirkegårde er taksten den samme for alle. Jeg finder de takster, der gælder for jer, før I beslutter noget.
+            Det, der kan være forskelligt, er kirkegårdens takster. På kirkegårde, som drives af et menighedsråd, betaler ikke-medlemmer som regel mere for gravstedet. På Københavns Kommunes kirkegårde er taksten den samme for medlemmer og ikke-medlemmer. Jeg finder de takster, der gælder for jer, før I beslutter noget.
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            En ceremoni i kirken kræver som udgangspunkt, at afdøde var medlem. I kan i stedet vælge en <a href="/borgerlig-afsked/" style={s.link}>borgerlig afsked</a> eller en <a href="/afsked-uden-ceremoni/" style={s.link}>bisættelse uden ceremoni</a>.
+            En ceremoni i kirken kræver som udgangspunkt, at afdøde var medlem. I vælger selv, om afskeden skal være <a href="/kirkelig-afsked/" style={s.link}>kirkelig</a>, <a href="/borgerlig-afsked/" style={s.link}>borgerlig</a> eller <a href="/afsked-uden-ceremoni/" style={s.link}>uden ceremoni</a>, og jeg hjælper jer med at finde det sted, der passer jer bedst.
           </p>
         </div>
       </section>
