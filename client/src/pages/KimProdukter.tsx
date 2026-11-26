@@ -258,7 +258,7 @@ export default function KimProdukter() {
       <section style={{ background: "#fff", padding: "80px 32px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <p style={s.label}>Kister</p>
-          <h2 style={{ ...s.h2, marginBottom: "12px" }}>Kister til begravelse og bisættelse</h2>
+          <h2 style={{ ...s.h2, marginBottom: "12px" }}>Kister til begravelse og kremering</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
             Jeg har valgt kisterne med omhu, så der er noget, der passer til de fleste. I behøver ikke beslutte noget her og nu – har I spørgsmål til en bestemt kiste, er I velkomne til at ringe.
           </p>
@@ -325,10 +325,13 @@ export default function KimProdukter() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Hvilken kiste passer til jer?</h2>
           <p style={{ ...s.body, maxWidth: "680px" }}>
-            En kiste er altid med i mine pakker. Ved en bisættelse uden ceremoni er det den umalede basiskiste, og ved en begravelse eller en bisættelse med ceremoni er det den klassiske hvide kiste. Vælger I en anden kiste, gennemgår jeg prisen med jer, før I beslutter noget.
+            En kiste er altid med i mine pakker. Ved en bisættelse uden ceremoni er det den umalede basiskiste, og ved en begravelse eller en bisættelse med ceremoni er det den klassiske hvide kiste. Vælger I en anden kiste, betaler I kun forskellen.
           </p>
           <p style={{ ...s.body, maxWidth: "680px" }}>
-            Den umalede basiskiste, den klassiske hvide kiste, Orbit og kisten i massiv fyr kan bruges både til begravelse og bisættelse. Gaia kan kun bruges til bisættelse.
+            Den umalede basiskiste, den klassiske hvide kiste, Orbit og kisten i massiv fyr kan bruges både til begravelse og kremering. Gaia kan kun bruges til kremering.
+          </p>
+          <p style={{ ...s.body, maxWidth: "680px" }}>
+            Jeg køber mine kister hos Fuglebjerg Kistefabrik, en dansk kistefabrik siden 1907. Ifølge fabrikken udleder Orbit 94 % mindre CO2, fordi produktionen bruger meget lidt energi, og Gaia har et markant lavere klimaaftryk end en traditionel hvid kiste. Fabrikken støtter desuden en klimaordning, der planter træer for at modvirke CO2 fra produktion og transport.
           </p>
           <p style={{ ...s.body, maxWidth: "680px" }}>
             Ønsker I en papkiste, er Orbit lavet af ReBoard, som har 80 % færre træfibre end materialet i en traditionel kiste. Den kan printes i alle farver og motiver – også helt sort.
