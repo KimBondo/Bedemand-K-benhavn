@@ -22,7 +22,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Bedemand i København og Nordsjælland. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Jeg følger jer hele vejen. Ring til mig på 28 14 60 11.",
   },
   "/priser": {
-    title: "Priser – Bedemand Kim Bondo | fra 9.995 kr.",
+    title: "Bedemand priser 2026 – Kim Bondo, København",
     description: "Priser: bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bisættelse med ceremoni fra 14.995 kr. Ring til mig på 28 14 60 11.",
   },
   "/afskeder": {
@@ -62,15 +62,15 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Hvad skal I gøre, når en nærtstående dør? En huskeliste trin for trin – og hvad jeg hjælper med. Ring til mig på 28 14 60 11.",
   },
   "/begravelseshjaelp": {
-    title: "Begravelseshjælp 2026 – Bedemand Kim Bondo",
-    description: "Jeg sørger for ansøgningen om begravelseshjælp for jer. I 2026 er tilskuddet op til 13.550 kr. Ring til mig på 28 14 60 11.",
+    title: "Begravelseshjælp 2026: beløb og ansøgning – Kim Bondo",
+    description: "Begravelseshjælp 2026 er op til 13.550 kr. Se, hvem der kan få den, og hvordan formuen tæller. Jeg søger den for jer. Ring til mig på 28 14 60 11.",
   },
   "/omraade": {
     title: "Dækningsområde – Bedemand Kim Bondo",
     description: "Jeg dækker København og Nordsjælland – Helsingør, Hillerød, Gentofte, Lyngby og hele Storkøbenhavn. Ring til mig på 28 14 60 11.",
   },
   "/hvad-koster-en-begravelse": {
-    title: "Hvad koster en begravelse? Priser 2026 – Kim Bondo",
+    title: "Hvad koster en bisættelse og begravelse i 2026? – Kim Bondo",
     description: "Begravelse fra 13.495 kr., bisættelse med ceremoni fra 14.995 kr. og uden ceremoni 9.995 kr. Se, hvad der kommer oveni. Ring til mig på 28 14 60 11.",
   },
   "/helsingor": {
