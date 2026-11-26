@@ -179,7 +179,7 @@ export default function KimAskespredning() {
           Sådan foregår askespredning
         </h2>
         {[
-          { num: "1", title: "Første kontakt og dokumentation", text: "Jeg taler med jer om jeres ønsker og sikrer, at den nødvendige dokumentation er på plads. Findes der ikke et skriftligt ønske, hjælper jeg med erklæringen fra de pårørende til sognet." },
+          { num: "1", title: "Første kontakt og dokumentation", text: "Jeg taler med jer om jeres ønsker og sikrer, at den nødvendige dokumentation er på plads. Findes der ikke et skriftligt ønske, afgør sognepræsten, om kravet kan fraviges. Jeg hjælper jer med papirerne til den vurdering." },
           { num: "2", title: "Bisættelse med eller uden ceremoni", text: "Afdøde bisættes efter en ceremoni eller uden ceremoni. Asken samles i en urne." },
           { num: "3", title: "Askespredningen", text: "Mange henter selv urnen og spreder asken. I kan også lade mig stå for det. Spredningen kan være en lille, intim ceremoni for de nærmeste." },
         ].map((step) => (
