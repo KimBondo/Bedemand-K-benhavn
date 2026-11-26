@@ -331,7 +331,7 @@ export default function KimProdukter() {
             Den umalede basiskiste, den klassiske hvide kiste, Orbit og kisten i massiv fyr kan bruges både til begravelse og kremering. Gaia kan kun bruges til kremering.
           </p>
           <p style={{ ...s.body, maxWidth: "680px" }}>
-            Orbit og Gaia kommer fra Fuglebjerg Kistefabrik, en dansk kistefabrik siden 1907. Ifølge fabrikken udleder Orbit 94 % mindre CO2, fordi produktionen bruger meget lidt energi, og Gaia har et markant lavere klimaaftryk end en traditionel hvid kiste. Fabrikken støtter desuden en klimaordning, der planter træer for at modvirke CO2 fra produktion og transport.
+            Ifølge producenten udleder Orbit 94 % mindre CO2, fordi produktionen bruger meget lidt energi, og Gaia har et markant lavere klimaaftryk end en traditionel hvid kiste. Producenten støtter desuden en klimaordning, der planter træer for at modvirke CO2 fra produktion og transport.
           </p>
           <p style={{ ...s.body, maxWidth: "680px" }}>
             Ønsker I en papkiste, er Orbit lavet af ReBoard, som har 80 % færre træfibre end materialet i en traditionel kiste. Den kan printes i alle farver og motiver – også helt sort.
