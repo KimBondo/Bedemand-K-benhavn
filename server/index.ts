@@ -42,8 +42,8 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Enkel bisættelse uden ceremoni i København. Urnenedsættelse eller askespredning uden kirke. 9.995 kr. Ring til mig på 28 14 60 11.",
   },
   "/askespredning": {
-    title: "Må man sprede aske over havet? Regler – Kim Bondo",
-    description: "Ja, asken må spredes over åbent hav, hvis afdøde skriftligt har ønsket det. Ellers kan sognet give dispensation. Se reglerne. Ring til mig på 28 14 60 11.",
+    title: "Askespredning: regler, pris og forløb – Kim Bondo",
+    description: "Askespredning over åbent hav er tilladt, hvis afdøde skriftligt har ønsket det. Se regler, pris og forløb. Ring til mig på 28 14 60 11.",
   },
   "/kirkelig-afsked": {
     title: "Kirkelig afsked – Bedemand Kim Bondo",
