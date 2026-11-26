@@ -94,8 +94,8 @@ const ROUTE_META = {
     description: "Personlig hj\u00e6lp til begravelse i K\u00f8benhavn og Nordsj\u00e6lland. Jeg koordinerer kiste og kirkeg\u00e5rd. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/begravelseshjaelp": {
-    title: "Begravelseshj\u00e6lp \u2013 s\u00f8g tilskud, Kim Bondo",
-    description: "Jeg s\u00f8rger for ans\u00f8gningen om begravelseshj\u00e6lp for jer. I 2026 er tilskuddet op til 13.550 kr. Ring til mig p\u00e5 28 14 60 11.",
+    title: "Begravelseshj\u00e6lp 2026: bel\u00f8b og ans\u00f8gning \u2013 Kim Bondo",
+    description: "Begravelseshj\u00e6lp 2026 er op til 13.550 kr. Se, hvem der kan f\u00e5 den, og hvordan formuen t\u00e6ller. Jeg s\u00f8ger den for jer. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/bisaettelse": {
     title: "Bis\u00e6ttelse i K\u00f8benhavn \u2013 Bedemand Kim Bondo",
@@ -138,7 +138,7 @@ const ROUTE_META = {
     description: "Hvad skal I g\u00f8re, n\u00e5r en n\u00e6rtst\u00e5ende d\u00f8r? En huskeliste trin for trin \u2013 og hvad jeg hj\u00e6lper med. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/hvad-koster-en-begravelse": {
-    title: "Hvad koster en begravelse? Priser 2026 \u2013 Kim Bondo",
+    title: "Hvad koster en bis\u00e6ttelse og begravelse i 2026? \u2013 Kim Bondo",
     description: "Begravelse fra 13.495 kr., bis\u00e6ttelse med ceremoni fra 14.995 kr. og uden ceremoni 9.995 kr. Se, hvad der kommer oveni. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/kirkelig-afsked": {
@@ -214,7 +214,7 @@ const ROUTE_META = {
     description: "S\u00e5dan behandler Bedemand K\u00f8benhavn ApS jeres personoplysninger: kontaktformular, kundeforhold, cookies, opbevaring og jeres rettigheder efter GDPR.",
   },
   "/priser": {
-    title: "Priser \u2013 Bedemand Kim Bondo, K\u00f8benhavn",
+    title: "Bedemand priser 2026 \u2013 Kim Bondo, K\u00f8benhavn",
     description: "Priser: bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bis\u00e6ttelse med ceremoni fra 14.995 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/produkter": {

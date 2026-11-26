@@ -26,7 +26,7 @@ export default function KimHvadKoster() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Hvad koster en begravelse? Priser 2026 – Kim Bondo"
+        title="Hvad koster en bisættelse og begravelse i 2026? – Kim Bondo"
         description="Begravelse fra 13.495 kr., bisættelse med ceremoni fra 14.995 kr. og uden ceremoni 9.995 kr. Se, hvad der kommer oveni. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
@@ -104,7 +104,7 @@ export default function KimHvadKoster() {
             <li>Bisættelse med ceremoni: fra 14.995 kr.</li>
           </ul>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Priserne gælder hverdage. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={s.link}>prissiden</a>.
+            Mine priser er de samme, uanset om ceremonien er kirkelig eller borgerlig. Priserne gælder hverdage. Alt efter hvordan afskeden skal være, kan der komme udgifter oveni. Dem gennemgår jeg med jer, før I beslutter noget – og I kan altid se dem på <a href="/priser/" style={s.link}>prissiden</a>.
           </p>
         </div>
       </section>
@@ -117,6 +117,15 @@ export default function KimHvadKoster() {
           </p>
           <p style={{ ...s.body, marginBottom: 0 }}>
             Ikke alle udgifter gælder alle afskedsformer. Jeg indhenter de relevante priser og samler dem i et overslag til jer.
+          </p>
+        </div>
+      </section>
+
+      <section style={{ background: "#EEF3EF", padding: "56px 24px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Hvad koster en kremering?</h2>
+          <p style={{ ...s.body, marginBottom: 0 }}>
+            Den enkleste afsked er en <a href="/afsked-uden-ceremoni/" style={s.link}>bisættelse uden ceremoni</a>, hvor jeg kører afdøde direkte til krematoriet. Den koster 9.995 kr. hos mig. Udgiften til selve ligbrændingen fastsætter krematoriet, og den er en af de udgifter, der kommer oveni.
           </p>
         </div>
       </section>

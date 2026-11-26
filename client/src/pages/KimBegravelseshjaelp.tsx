@@ -22,6 +22,8 @@ const s = {
 
 const FAQ = [
   { q: "Søger vi selv, eller hjælper du med det?", a: "Jeg søger den for jer som en del af mit arbejde. I behøver ikke selv stå med det." },
+  { q: "Hvor søger man begravelseshjælp?", a: "Begravelseshjælp søges hos Udbetaling Danmark, digitalt via borger.dk. Jeg søger den for jer, når I har givet mig en fuldmagt." },
+  { q: "Får pensionister begravelseshjælp?", a: "Ja, på samme vilkår som alle andre. Var afdøde født før 1. april 1957, udbetales der altid mindst 1.050 kr. – uanset formue." },
   { q: "Hvornår udbetales begravelseshjælpen?", a: "Når I har givet mig en fuldmagt, søger jeg hjælpen hos Udbetaling Danmark og trækker beløbet fra på fakturaen, så I ikke skal lægge ud. Udbetaling Danmark skal bruge dokumentation fra skifteretten om boet, og de behandler normalt sagen inden for en måned, når papirerne er på plads." },
   { q: "Hvad sker der, hvis afdøde havde en stor formue?", a: "Hjælpen nedsættes krone for krone, når formuen er over 22.700 kr. – eller 45.250 kr., hvis afdøde efterlader ægtefælle eller børn under 18 år – og den bortfalder helt over 36.250 kr. henholdsvis 58.800 kr. Udgifter til begravelsen tæller ikke med i formuen. Var afdøde født før 1. april 1957, udbetales der dog altid mindst 1.050 kr. En eventuel ægtefælles formue indgår også i vurderingen. Jeg giver jer et overslag med det samme, men det er Udbetaling Danmark, der træffer afgørelsen." },
   { q: "Kan man søge begravelseshjælp, hvis afdøde var selvstændig?", a: "Ja, det afgørende er, at afdøde var omfattet af dansk sygesikring – ikke om afdøde var lønmodtager eller selvstændig." },
@@ -32,8 +34,8 @@ export default function KimBegravelseshjaelp() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Begravelseshjælp – søg tilskud, Kim Bondo"
-        description="Jeg sørger for ansøgningen om begravelseshjælp for jer. I 2026 er tilskuddet op til 13.550 kr. Ring til mig på 28 14 60 11."
+        title="Begravelseshjælp 2026: beløb og ansøgning – Kim Bondo"
+        description="Begravelseshjælp 2026 er op til 13.550 kr. Se, hvem der kan få den, og hvordan formuen tæller. Jeg søger den for jer. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/begravelseshjaelp/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -41,7 +43,7 @@ export default function KimBegravelseshjaelp() {
       <SchemaOrg
         type="both"
         faqItems={FAQ.map((f) => ({ question: f.q, answer: f.a }))}
-        article={{ headline: "Begravelseshjælp – hvad kan I søge?", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/", dateModified: "2026-09-28" }}
+        article={{ headline: "Begravelseshjælp – hvad kan I søge?", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/", dateModified: "2026-11-26" }}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Begravelseshjælp", url: "https://www.bedemandkobenhavn.dk/begravelseshjaelp/" }
@@ -95,7 +97,7 @@ export default function KimBegravelseshjaelp() {
           Begravelseshjælp – hvad kan I søge?
         </h1>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "-8px auto 24px", letterSpacing: "0.02em" }}>
-          Opdateret <time dateTime="2026-09-28">september 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
+          Opdateret <time dateTime="2026-11-26">november 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "640px", margin: "0 auto 40px", lineHeight: 1.7 }}>
           En afsked koster penge, og det kan føles som én bekymring for meget lige nu. Mange ved ikke, at der kan søges offentlig støtte. Jeg søger den for jer som en del af mit arbejde.
@@ -111,7 +113,7 @@ export default function KimBegravelseshjaelp() {
           <p style={s.label}>Satser 2026</p>
           <h2 style={s.h2}>Hvad kan man få i begravelseshjælp?</h2>
           <p style={s.body}>
-            Begravelseshjælpen fra det offentlige afhænger af formuen – både afdødes og en eventuel ægtefælles. I 2026 er satserne:
+            Begravelseshjælp er det offentlige tilskud til en begravelse eller bisættelse. Reglerne er de samme, uanset om afdøde boede i København, Gentofte, Gladsaxe eller et andet sted i landet. Hjælpen afhænger af formuen – både afdødes og en eventuel ægtefælles. I 2026 er satserne:
           </p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "24px", marginBottom: "40px" }}>
             {[

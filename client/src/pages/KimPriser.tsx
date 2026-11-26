@@ -50,7 +50,7 @@ export default function KimPriser() {
   return (
     <div role="main" style={s.page}>
       <SEO
-        title="Priser – Bedemand Kim Bondo, København"
+        title="Bedemand priser 2026 – Kim Bondo, København"
         description="Priser: bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bisættelse med ceremoni fra 14.995 kr. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/priser/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
