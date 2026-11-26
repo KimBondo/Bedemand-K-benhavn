@@ -33,7 +33,7 @@ export default function KimHvadKoster() {
       />
       <SchemaOrg
         type="both"
-        article={{ headline: "Hvad koster en begravelse eller bisættelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/", dateModified: "2026-11-25" }}
+        article={{ headline: "Hvad koster en begravelse eller bisættelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/", dateModified: "2026-11-26" }}
         breadcrumbs={[
           { name: "Forside", url: "https://www.bedemandkobenhavn.dk/" },
           { name: "Hvad koster en begravelse?", url: "https://www.bedemandkobenhavn.dk/hvad-koster-en-begravelse/" }
@@ -82,16 +82,19 @@ export default function KimHvadKoster() {
       </header>
 
       {/* ── HERO ── */}
-      <section style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
+      <section className="hero-opkald hero-kompakt" style={{ background: "#F9F8F6", padding: "72px 32px 56px", textAlign: "center" }}>
         <p style={s.label}>Priser og økonomi 2026</p>
         <h1 style={{ fontFamily: "'Lora', serif", fontWeight: 700, fontSize: "clamp(28px, 4vw, 52px)", color: "#2F3E46", lineHeight: 1.2, maxWidth: "800px", margin: "0 auto 24px" }}>
           Hvad koster en begravelse eller bisættelse?
         </h1>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "-8px auto 24px", letterSpacing: "0.02em" }}>
-          Opdateret <time dateTime="2026-11-25">november 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
-        </p>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(16px, 1.8vw, 20px)", color: "#5a7a6a", maxWidth: "660px", margin: "0 auto", lineHeight: 1.7 }}>
           Det er helt naturligt at tænke på, hvad det kommer til at koste – også midt i sorgen. Prisen afhænger af, hvilken afsked I ønsker, og jeg gennemgår både min pris og de udgifter, der ikke går til mig, før I beslutter noget.
+        </p>
+        <div style={{ marginTop: "24px" }}>
+          <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
+        </div>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "14px", color: "#5a7a6a", margin: "16px auto 0", letterSpacing: "0.02em" }}>
+          Opdateret <time dateTime="2026-11-26">november 2026</time> · Skrevet af <a href="/om-kim/" style={{ color: "#3D6B4F", textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Kim Bondo</a>, bedemand
         </p>
       </section>
 
@@ -125,7 +128,7 @@ export default function KimHvadKoster() {
         <div style={{ maxWidth: "680px", margin: "0 auto" }}>
           <h2 style={s.h2}>Hvad koster en kremering?</h2>
           <p style={{ ...s.body, marginBottom: 0 }}>
-            Den enkleste afsked er en <a href="/afsked-uden-ceremoni/" style={s.link}>bisættelse uden ceremoni</a>, hvor jeg kører afdøde direkte til krematoriet. Den koster 9.995 kr. hos mig. Udgiften til selve ligbrændingen fastsætter krematoriet, og den er en af de udgifter, der kommer oveni.
+            Den enkleste afsked er en <a href="/afsked-uden-ceremoni/" style={s.link}>bisættelse uden ceremoni</a>, hvor jeg kører afdøde direkte til krematoriet. Den koster 9.995 kr. hos mig. Udgiften til selve ligbrændingen betales til kommunen eller krematoriet, og den kommer oveni. Jeg bestemmer ikke den pris.
           </p>
         </div>
       </section>
