@@ -40,7 +40,7 @@ const FAQ_SECTIONS = [
       { q: "Hvad er en bisættelse uden ceremoni?", a: "En bisættelse uden ceremoni er den mest enkle form for afsked, hvor jeg kører afdøde direkte til krematoriet, uden en ceremoni først. Den vælges ofte, hvis afdøde ønskede det enkelt.", link: "/afsked-uden-ceremoni/" },
       { q: "Hvad er en borgerlig ceremoni?", a: "En borgerlig ceremoni er en afsked uden religiøse ritualer. Indholdet bestemmer I – musik, taler og tekster. Sammen finder vi det sted til afskeden, der passer jer bedst.", link: "/borgerlig-afsked/" },
       { q: "Hvad er en kirkelig ceremoni?", a: "En kirkelig ceremoni følger den danske folkekirkes ritualer med jordpåkastelse, salmer og præst. Ceremonien holdes typisk i en kirke, men kan også holdes i et kapel.", link: "/kirkelig-afsked/" },
-      { q: "Hvad er askespredning, og hvem kan vælge det?", a: "Askespredning betyder, at asken spredes over åbent hav. Det er ikke tilladt at sprede aske på land, i skove, søer eller vandløb. Asken kan spredes, hvis afdøde skriftligt har ønsket det. Findes der ikke et skriftligt ønske, kan sognet give dispensation, når det er helt sikkert, at det var afdødes ønske – her kan de pårørende fx skrive en erklæring, som sognet bruger i sin vurdering. Det er sognet, der afgør det. Jeg hjælper jer med papirerne.", link: "/askespredning/" },
+      { q: "Hvad er askespredning, og hvem kan vælge det?", a: "Askespredning betyder, at asken spredes over åbent hav. Det er ikke tilladt at sprede aske på land, i skove, søer eller vandløb. Asken kan spredes, hvis afdøde skriftligt har ønsket det. Findes der ikke et skriftligt ønske, afgør sognepræsten som begravelsesmyndighed, om kravet kan fraviges. Jeg hjælper jer med papirerne.", link: "/askespredning/" },
     ],
   },
   {
