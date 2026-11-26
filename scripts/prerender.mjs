@@ -218,8 +218,8 @@ const ROUTE_META = {
     description: "Priser: bis\u00e6ttelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. og bis\u00e6ttelse med ceremoni fra 14.995 kr. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/produkter": {
-    title: "Kister og urner \u2013 Bedemand Kim Bondo",
-    description: "V\u00e6lg kiste fra 5.500 kr. eller urne fra 950 kr. B\u00e6redygtige og klassiske modeller. Ring til mig p\u00e5 28 14 60 11.",
+    title: "Kister og urner til begravelse og bis\u00e6ttelse \u2013 Kim Bondo",
+    description: "Kister til begravelse og bis\u00e6ttelse fra 5.500 kr. og urner fra 950 kr. Tr\u00e6kister, papkiste og b\u00e6redygtige modeller. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/sjaelland": {
     title: "Bedemand p\u00e5 Sj\u00e6lland \u2013 Kim Bondo",

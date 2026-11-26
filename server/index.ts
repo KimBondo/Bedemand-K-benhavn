@@ -130,8 +130,8 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
     description: "Bedemand på Vesterbro. Vestre Kirkegård ligger tæt på. Bisættelse uden ceremoni 9.995 kr., begravelse fra 13.495 kr. Ring til mig på 28 14 60 11.",
   },
   "/produkter": {
-    title: "Kister og urner – Bedemand Kim Bondo",
-    description: "Vælg kiste fra 5.500 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Ring til mig på 28 14 60 11.",
+    title: "Kister og urner til begravelse og bisættelse – Kim Bondo",
+    description: "Kister til begravelse og bisættelse fra 5.500 kr. og urner fra 950 kr. Trækister, papkiste og bæredygtige modeller. Ring til mig på 28 14 60 11.",
   },
   "/om-kim": {
     title: "Om Kim Bondo – Personlig bedemand i København",

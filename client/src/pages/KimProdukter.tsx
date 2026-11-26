@@ -169,8 +169,8 @@ export default function KimProdukter() {
   return (
     <div role="main" style={{ fontFamily: "'Open Sans', sans-serif", background: "#F9F8F6", color: "#2F3E46", margin: 0, padding: 0 }}>
       <SEO
-        title="Kister og urner – Bedemand Kim Bondo"
-        description="Vælg kiste fra 5.500 kr. eller urne fra 950 kr. Bæredygtige og klassiske modeller. Ring til mig på 28 14 60 11."
+        title="Kister og urner til begravelse og bisættelse – Kim Bondo"
+        description="Kister til begravelse og bisættelse fra 5.500 kr. og urner fra 950 kr. Trækister, papkiste og bæredygtige modeller. Ring til mig på 28 14 60 11."
         url="https://www.bedemandkobenhavn.dk/produkter/"
         image="/images/kim-bondo-rustvogn-kyst.webp"
       />
@@ -258,7 +258,7 @@ export default function KimProdukter() {
       <section style={{ background: "#fff", padding: "80px 32px" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <p style={s.label}>Kister</p>
-          <h2 style={{ ...s.h2, marginBottom: "12px" }}>Mine kister</h2>
+          <h2 style={{ ...s.h2, marginBottom: "12px" }}>Kister til begravelse og kremering</h2>
           <p style={{ ...s.body, maxWidth: "640px", marginBottom: "48px" }}>
             Jeg har valgt kisterne med omhu, så der er noget, der passer til de fleste. I behøver ikke beslutte noget her og nu – har I spørgsmål til en bestemt kiste, er I velkomne til at ringe.
           </p>
@@ -317,6 +317,28 @@ export default function KimProdukter() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── SÅDAN VÆLGER I KISTE ── */}
+      <section style={{ background: "#EEF3EF", padding: "64px 32px" }}>
+        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
+          <h2 style={s.h2}>Hvilken kiste passer til jer?</h2>
+          <p style={{ ...s.body, maxWidth: "680px" }}>
+            En kiste er altid med i mine pakker. Ved en bisættelse uden ceremoni er det den umalede basiskiste, og ved en begravelse eller en bisættelse med ceremoni er det den klassiske hvide kiste. Vælger I en anden kiste, betaler I kun forskellen.
+          </p>
+          <p style={{ ...s.body, maxWidth: "680px" }}>
+            Den umalede basiskiste, den klassiske hvide kiste, Orbit og kisten i massiv fyr kan bruges både til begravelse og kremering. Gaia kan kun bruges til kremering.
+          </p>
+          <p style={{ ...s.body, maxWidth: "680px" }}>
+            Ifølge producenten udleder Orbit mindre CO2, fordi produktionen bruger meget lidt energi, og Gaia har et markant lavere klimaaftryk end en traditionel hvid kiste. Producenten støtter desuden en klimaordning, der planter træer for at modvirke CO2 fra produktion og transport.
+          </p>
+          <p style={{ ...s.body, maxWidth: "680px" }}>
+            Ønsker I en papkiste, er Orbit lavet af ReBoard, som har 80 % færre træfibre end materialet i en traditionel kiste. Den kan printes i alle farver og motiver – også helt sort.
+          </p>
+          <p style={{ ...s.body, maxWidth: "680px", marginBottom: 0 }}>
+            I behøver ikke vide, hvad I vil vælge, før I ringer. Det taler vi om i ro og mag.
+          </p>
         </div>
       </section>
 
