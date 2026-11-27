@@ -390,7 +390,7 @@ export default function KimPriser() {
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Klargøring, afhentning og transport</h3>
           <PriceTable rows={[
-            ["Klargøring af kiste, afhentning og ilægning", "2.500 kr."],
+            ["Klargøring af kiste, afhentning og ilægning (med i alle pakker)", "2.500 kr."],
             ["Tillæg ved afhentning i private hjem", "1.200 kr."],
             ["Rustvognskørsel, én kørsel inkl. de første 25 km med afdøde", "1.595 kr."],
             ["Herefter pr. km (kun den ene vej, ad den mest økonomiske rute)", "35 kr."],
