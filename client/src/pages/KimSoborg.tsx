@@ -87,7 +87,7 @@ export default function KimSoborg() {
           Jeg er selvstændig bedemand og hjælper familier i hele Gladsaxe Kommune med en rolig og værdig afsked. Det er mig, I taler med – hele vejen.
         </p>
         <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Det koster ikke noget at ringe, og I forpligter jer ikke til noget.</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Den første samtale er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>
         <div style={{ marginTop: "28px" }}>
           <KimPortraet />
         </div>
