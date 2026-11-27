@@ -155,7 +155,7 @@ const ROUTE_META = {
   },
   "/norrebro": {
     title: "Bedemand N\u00f8rrebro \u2013 Kim Bondo",
-    description: "Bedemand p\u00e5 N\u00f8rrebro. Telefonm\u00f8det er med i prisen, og et m\u00f8de hjemme hos jer eller i S\u00f8borg koster 995 kr. Ring til mig p\u00e5 28 14 60 11.",
+    description: "Bedemand p\u00e5 N\u00f8rrebro. Ved afsked med ceremoni kommer jeg gerne hjem til jer, og det er med i prisen. Ring til mig p\u00e5 28 14 60 11.",
   },
   "/om-kim": {
     title: "Om Kim Bondo \u2013 Personlig bedemand, K\u00f8benhavn",
