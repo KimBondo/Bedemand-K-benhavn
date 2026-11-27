@@ -118,7 +118,7 @@ export default function KimAfskedUdenCeremoni() {
             Se priser
           </a>
         </div>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Den fysiske samtale er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Ved bisættelse uden ceremoni koster en fysisk samtale, hvis I ønsker det, 995 kr. oveni pakkeprisen.</p>
         <div style={{ marginTop: "28px" }}>
           <KimPortraet />
         </div>
