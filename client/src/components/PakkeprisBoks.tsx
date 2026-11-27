@@ -15,7 +15,7 @@ const PAKKER = [
   {
     navn: "Begravelse",
     pris: `Fra ${kr(PAKKEPRISER.begravelse)} kr.`,
-    punkter: ["Telefonmøde, mit honorar, klassisk hvid kiste og én kørsel", "Jeg er selv til stede ved højtideligheden"],
+    punkter: ["Samtale hjemme hos jer eller på mit kontor – med i prisen", "Mit honorar, klassisk hvid kiste og én kørsel", "Jeg er selv til stede ved højtideligheden"],
   },
   {
     navn: "Bisættelse med ceremoni",

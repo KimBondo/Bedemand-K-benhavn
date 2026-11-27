@@ -180,7 +180,7 @@ export default function KimPriser() {
             "Anmodning om ligbrænding til afdødes sogn",
             "Ansøgning om begravelseshjælp, som trækkes fra på fakturaen",
             "Kontakt til kirkegården",
-            "Klargøring, påklædning og ilægning i en umalet basiskiste",
+            "Klargøring, påklædning og ilægning i en umalet basiskiste med dyne og hovedpude",
             "Natururne",
             "Én rustvognskørsel til krematoriet, inkl. de første 25 km med afdøde",
             ].map((item, i) => (
@@ -198,12 +198,12 @@ export default function KimPriser() {
           <ul style={{ paddingLeft: "20px", margin: "8px 0 0" }}>
             {[
             "Mit honorar og al kontakt med jer gennem forløbet",
-            "Telefonmøde med jer",
+            "Samtale hjemme hos jer eller på mit kontor i Søborg – inkluderet i prisen",
             "Anmodning om begravelse til afdødes sogn",
             "Ansøgning om begravelseshjælp, som trækkes fra på fakturaen",
             "Udarbejdelse af dødsannonce (avisens pris kommer oveni)",
             "Kontakt til kordegn, præst, kirke eller kapel og kirkegård",
-            "Klargøring, påklædning og ilægning i kiste",
+            "Klargøring, påklædning og ilægning i kiste med dyne og hovedpude",
             "Klassisk hvid kiste",
             "Én rustvognskørsel, inkl. de første 25 km med afdøde. På hverdage kan jeg ofte køre direkte fra hospitalets kapel til kirken",
             "Jeg er selv til stede ved højtideligheden – det er med i prisen",
@@ -224,12 +224,12 @@ export default function KimPriser() {
           <ul style={{ paddingLeft: "20px", margin: "8px 0 0" }}>
             {[
             "Mit honorar og al kontakt med jer gennem forløbet",
-            "Telefonmøde med jer",
+            "Samtale hjemme hos jer eller på mit kontor i Søborg – inkluderet i prisen",
             "Anmodning om ligbrænding til afdødes sogn",
             "Ansøgning om begravelseshjælp, som trækkes fra på fakturaen",
             "Udarbejdelse af dødsannonce (avisens pris kommer oveni)",
             "Kontakt til kordegn, præst, kirke eller kapel og kirkegård",
-            "Klargøring, påklædning og ilægning i kiste",
+            "Klargøring, påklædning og ilægning i kiste med dyne og hovedpude",
             "Klassisk hvid kiste",
             "Natururne",
             "To rustvognskørsler, inkl. de første 25 km med afdøde pr. tur: fra kapel til ceremoni og videre efter ceremonien",
@@ -252,11 +252,19 @@ export default function KimPriser() {
         <hr style={s.hr} />
 
 
+        {/* ── NÅR I SAMMENLIGNER PRISER ── */}
+        <section style={{ background: "#f0f7f3", border: "1px solid #3D6B4F", borderRadius: "3px", padding: "24px 28px", marginBottom: "56px" }}>
+          <h2 style={{ ...s.h2, marginTop: 0 }}>Når I sammenligner priser</h2>
+          <p style={{ ...s.body, marginBottom: 0 }}>
+            Bedemænd har forskellige ting med i deres pakker, så se efter, hvad prisen dækker. Hos mig er rustvognskørsel, klargøring og ilægning i kiste med dyne og hovedpude altid med i pakkerne. Ved begravelse og bisættelse med ceremoni er samtalen hjemme hos jer eller på mit kontor også med, og jeg er selv til stede ved højtideligheden.
+          </p>
+        </section>
+
         {/* ── TILVALG ── */}
         <section id="tilvalg" style={{ marginBottom: "56px", scrollMarginTop: "24px" }}>
           <h2 style={s.h2}>Det kan I vælge til</h2>
           <PriceTable rows={[
-            ["Møde hjemme hos jer eller på mit kontor i Søborg", "995 kr."],
+            ["Møde hjemme hos jer eller på mit kontor i Søborg ved bisættelse uden ceremoni (ved begravelse og bisættelse med ceremoni er det med i prisen)", "995 kr."],
             ["Ekstra rustvognskørsel", "1.595 kr."],
             ["Umalet basiskiste i stedet for klassisk hvid kiste (begravelse og bisættelse med ceremoni)", "1.000 kr. mindre"],
             ["Klassisk hvid kiste", "6.500 kr."],
@@ -382,7 +390,7 @@ export default function KimPriser() {
 
           <h3 style={{ ...s.h3, marginTop: "32px" }}>Klargøring, afhentning og transport</h3>
           <PriceTable rows={[
-            ["Klargøring af kiste, afhentning og ilægning", "2.500 kr."],
+            ["Klargøring af kiste, afhentning og ilægning (med i alle pakker)", "2.500 kr."],
             ["Tillæg ved afhentning i private hjem", "1.200 kr."],
             ["Rustvognskørsel, én kørsel inkl. de første 25 km med afdøde", "1.595 kr."],
             ["Herefter pr. km (kun den ene vej, ad den mest økonomiske rute)", "35 kr."],
@@ -430,7 +438,7 @@ export default function KimPriser() {
           <PriceTable rows={[
             ["Fremvisning på hospital eller i kapel", "900 kr."],
             ["Ligklæde", "295 kr."],
-            ["Møde hjemme hos jer eller på mit kontor i Søborg", "995 kr."],
+            ["Møde hjemme hos jer eller på mit kontor i Søborg ved bisættelse uden ceremoni (ved begravelse og bisættelse med ceremoni er det med i prisen)", "995 kr."],
             ["Udarbejdelse af dødsannonce", "Inkluderet i mit honorar"],
             ["Sangblade fra ekstern leverandør", "Tilbud indhentes"],
           ]} />

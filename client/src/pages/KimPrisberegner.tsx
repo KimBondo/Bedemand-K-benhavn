@@ -79,7 +79,7 @@ const ADDONS = [
 
 /** Kørselsvilkår: se lib/koersel.ts. Km ud over 25 regner jeg ud, når forløbet er kendt. */
 const PAKKE_KOERSLER: Record<"uden" | "bisaettelse" | "begravelse", number> = { uden: 1, bisaettelse: 2, begravelse: 1 };
-/** Fysisk møde hjemme eller på kontoret i Søborg. Telefonmødet er med i alle pakker. */
+/** Fysisk møde hjemme eller på kontoret i Søborg. Med i prisen ved begravelse og bisættelse med ceremoni; 995 kr. ved bisættelse uden ceremoni. Telefonmødet er med i alle pakker. */
 const MOEDE_PRIS = 995;
 
 const BASE_TITLER: Record<Base, string> = { uden: "Bisættelse uden ceremoni", bisaettelse: "Bisættelse med ceremoni", begravelse: "Begravelse" };
@@ -116,7 +116,8 @@ export default function KimPrisberegner() {
   const antalKoersler = pakkeKoersler + (base ? ekstraKoersler : 0);
   const enKoersel = KOERSEL_PRIS;
   const ekstraKoerselPris = (base ? ekstraKoersler : 0) * KOERSEL_PRIS;
-  const moedePris = base && fysiskMoede ? MOEDE_PRIS : 0;
+  const moedeInkl = base === "begravelse" || base === "bisaettelse";
+  const moedePris = base && fysiskMoede && !moedeInkl ? MOEDE_PRIS : 0;
   const total = Math.max(0, basePrice + kisteForskel + urneForskel + addonTotal + ekstraKoerselPris + moedePris);
 
   const toggleAddon = (id: string, hasQty: boolean) => {
@@ -147,7 +148,7 @@ export default function KimPrisberegner() {
     if (medUrne) linjer.push(`- Urne: ${valgtUrne.label}${urneForskel ? ` (${forskelTekst(urneForskel).toLowerCase()})` : " (indgår i prisen)"}`);
     linjer.push(`- Rustvognskørsler: ${antalKoersler} à ${kr(enKoersel)} (inkl. de første 25 km med afdøde pr. kørsel)`);
     if (ekstraKoerselPris) linjer.push(`- Ekstra kørsler: ${ekstraKoersler} × ${kr(KOERSEL_PRIS)} = ${kr(ekstraKoerselPris)}`);
-    linjer.push(fysiskMoede ? `- Møde hjemme hos jer eller på mit kontor: ${kr(MOEDE_PRIS)}` : "- Telefonmøde (indgår i prisen)");
+    linjer.push(fysiskMoede ? (moedeInkl ? "- Møde hjemme hos jer eller på mit kontor (indgår i prisen)" : `- Møde hjemme hos jer eller på mit kontor: ${kr(MOEDE_PRIS)}`) : "- Telefonmøde (indgår i prisen)");
     for (const [id, qty] of Object.entries(addons)) {
       const addon = ADDONS.find((a) => a.id === id);
       if (addon && relevant(addon, base)) linjer.push(`- ${addon.label}${qty > 1 ? ` × ${qty}` : ""}: ${"fra" in addon ? "fra " : "ca" in addon ? "ca. " : ""}${kr(addon.price * qty)}`);
@@ -217,8 +218,8 @@ export default function KimPrisberegner() {
           <div style={{ display: "grid", gap: "16px", marginBottom: "40px" }}>
             {([
               { key: "uden" as const, title: "Bisættelse uden ceremoni", price: "9.995 kr.", text: "Jeg kører afdøde direkte til krematoriet, uden en højtidelighed først. Med i prisen: mit honorar og telefonmøde, anmodning om ligbrænding, ansøgning om begravelseshjælp, kontakt til kirkegården, klargøring og ilægning i en umalet basiskiste, natururne og én rustvognskørsel. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
-              { key: "begravelse" as const, title: "Begravelse", price: "Fra 13.495 kr.", text: "Kisten sænkes i jorden efter ceremonien. Med i prisen: mit honorar og telefonmøde, anmodning om begravelse, ansøgning om begravelseshjælp, dødsannonce (avisens pris kommer oveni), kontakt til kirke og kirkegård, klassisk hvid kiste og én rustvognskørsel. Jeg er selv til stede ved højtideligheden. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
-              { key: "bisaettelse" as const, title: "Bisættelse med ceremoni", price: "Fra 14.995 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde bisættes. Det samme som begravelse plus natururne og to rustvognskørsler: fra kapel til ceremoni og videre efter ceremonien. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
+              { key: "begravelse" as const, title: "Begravelse", price: "Fra 13.495 kr.", text: "Kisten sænkes i jorden efter ceremonien. Med i prisen: mit honorar, samtale hjemme hos jer eller på mit kontor, anmodning om begravelse, ansøgning om begravelseshjælp, dødsannonce (avisens pris kommer oveni), kontakt til kirke og kirkegård, klassisk hvid kiste og én rustvognskørsel. Jeg er selv til stede ved højtideligheden. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
+              { key: "bisaettelse" as const, title: "Bisættelse med ceremoni", price: "Fra 14.995 kr.", text: "Ceremoni i kirke eller kapel, hvorefter afdøde bisættes. Med i prisen: det samme som begravelse, også samtalen hjemme hos jer eller på mit kontor, plus natururne og to rustvognskørsler: fra kapel til ceremoni og videre efter ceremonien. Prisen gælder afhentning fra hospital, hospice eller plejehjem. Henter jeg afdøde i et privat hjem, kommer der 1.200 kr. oveni." },
             ]).map((opt) => (
               <label key={opt.key} style={{ display: "block", background: base === opt.key ? "#f0f7f3" : "#fff", border: `1.5px solid ${base === opt.key ? "#3D6B4F" : "#e0dcd6"}`, borderRadius: "3px", padding: "20px 24px", cursor: "pointer" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "16px", flexWrap: "wrap" }}>
@@ -342,7 +343,7 @@ export default function KimPrisberegner() {
                         <span>{fysisk ? "Møde hjemme hos jer eller på mit kontor i Søborg" : "Telefonmøde"}</span>
                       </span>
                       <span style={{ fontWeight: 600, color: "#3D6B4F", minWidth: "90px", textAlign: "right" }}>
-                        {fysisk ? "+ 995 kr." : "Indgår i prisen"}
+                        {fysisk && !moedeInkl ? "+ 995 kr." : "Indgår i prisen"}
                       </span>
                     </label>
                   );

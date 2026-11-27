@@ -123,7 +123,7 @@ const ROUTE_META: Record<string, { title: string; description: string; image?: s
   },
   "/norrebro": {
     title: "Bedemand Nørrebro – Kim Bondo | Personlig hjælp på Nørrebro",
-    description: "Bedemand på Nørrebro. Telefonmødet er med i prisen, og et møde hjemme hos jer eller i Søborg koster 995 kr. Ring til mig på 28 14 60 11.",
+    description: "Bedemand på Nørrebro. Ved afsked med ceremoni kommer jeg gerne hjem til jer, og det er med i prisen. Ring til mig på 28 14 60 11.",
   },
   "/vesterbro": {
     title: "Bedemand Vesterbro og Sydhavnen – Kim Bondo",
