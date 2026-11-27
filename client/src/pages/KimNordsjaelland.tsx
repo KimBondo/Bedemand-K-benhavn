@@ -121,7 +121,7 @@ export default function KimNordsjaelland() {
           <a className="se-priser-mobil" href="/priser/" style={{ display: "inline-block", background: "transparent", color: "#2F3E46", fontFamily: "'Open Sans', sans-serif", fontWeight: 600, fontSize: "16px", padding: "16px 36px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.04em", border: "1.5px solid #b0b8bc" }}>Se priser</a>
         </div>
         <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "clamp(15px, 1.7vw, 18px)", color: "#3d5260", maxWidth: "660px", margin: "0 auto 32px", lineHeight: 1.7 }}>
-          Den første samtale er med i prisen, og begravelseshjælpen søger jeg for jer.<br />
+          Det koster ikke noget at ringe, og begravelseshjælpen søger jeg for jer.<br />
           <a href="/priser/" style={{ color: "#3D6B4F", fontWeight: 600, textDecoration: "none", borderBottom: "1px solid #3D6B4F" }}>Begravelse fra 13.495 kr. · Bisættelse med ceremoni fra 14.995 kr.</a>
         </p>
         <div style={{ marginTop: "28px" }}>
