@@ -87,7 +87,7 @@ export default function KimSjaelland() {
         <div style={{ marginTop: "24px" }}>
           <a href="tel:+4528146011" style={{ display: "inline-block", background: "#3D6B4F", color: "#fff", fontFamily: "'Open Sans', sans-serif", fontWeight: 700, fontSize: "16px", padding: "16px 32px", borderRadius: "3px", textDecoration: "none", letterSpacing: "0.03em" }}>Ring til mig på 28 14 60 11</a>
         </div>
-        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Den første samtale er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>
+        <p style={{ fontFamily: "'Open Sans', sans-serif", fontSize: "15px", color: "#5a7a6a", maxWidth: "520px", margin: "14px auto 0", lineHeight: 1.6 }}>Den fysiske samtale er med i prisen, og I forpligter jer ikke til noget ved at ringe.</p>
       </section>
 
       <PakkeprisBoks />
